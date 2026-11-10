@@ -183,3 +183,16 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - When a project comment says to raise a version number whenever stored results change (PARSER_VERSION in codelens-graph) raise the number in the patch.
 - A one-line change suggested in a bug report can still break at start-up: in vynlore the suggested line used a function before the function was defined so the line had to move.
 - ourdao-frontend downloads check file bytes against their content id. A test that passes a made-up id cannot simply get another made-up id.
+
+## Notes from the fifth session of 2026-11-10 (fixes 122 to 171)
+
+- The first request for push access in this session was refused by a safety check because Charles had not yet asked for publishing in his own words. After Charles wrote put them on the Shelf the same request went through. Lesson: when push access is refused finish the work locally and hand Charles a zip file and ask Charles to say plainly that the fixes should go on GitHub.
+- Fifty fixes were added with one new search. The search gave almost no new projects so the fixes came from five projects already on the shelf: hslee16/Archy (122 to 125) and awslabs/social-messaging-agent-runtime-toolkit (126 to 131) and Sh1n1230/security-checker (132 to 137 and 142 to 171) and Pranayd555/codelens-graph (138 to 140) and himanshu748/devswarm (141).
+- A fast source of small clear reports: Sh1n1230/security-checker has about 500 open reports. Reports 537 to 596 each name one function with untested lines (title: 未テストの分岐をテストする). Each one takes a new small test file. Put every test in its own new file so the patches never collide. The line numbers in those reports come from an older commit so read the function first: in report 589 the code had changed from a warning to an exception.
+- Still open from that series and not looked at: 537 and 540 and 547 and 548 and 554 to 558 and 559 and 560 and 563 to 569 and 571 to 576 and 582 and 586 to 588 and 591 to 593. Also not looked at: the third to fifth page of the security-checker list.
+- security-checker reports read and skipped: 688 (the reported line is an ordinary comment in the newest code) and 681 (the method could not be found at the reported line) and 685 and 680 and 667 and 695 and 699 (each offers two ways and leaves the choice open) and 645 (needs a label created in the project's settings).
+- awslabs/social-messaging-agent-runtime-toolkit: fixes 126 and 128 and 129 add changelog text at the same spot as 72 and 96 and 97 and 99. Reports 77 and 85 (confirmation dialogs) and 79 and 76 and 72 (console pages) were read and not started: each needs React changes that cannot be trusted without running the console. Report 67 leaves a choice open. Report 105 depends on report 68.
+- hslee16/Archy: reports 785 (same function as fix 122) and 763 and 778 and 800 and 771 and 915 and 921 were read and not started. 771 says to check which test fixtures read files outside tests/ and that needs a run.
+- Pranayd555/codelens-graph: the three new patches and the seven older ones were checked against the newest dev branch and all still apply one by one.
+- Use one helper script per session that saves the patch and resets the clone and runs git apply --check. A file removed with git rm must be removed again with plain rm before git diff or the deletion is missing from the patch.
+
