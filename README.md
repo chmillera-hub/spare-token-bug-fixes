@@ -1,6 +1,6 @@
 # Spare token bug fixes: a public shelf
 
-310 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
+318 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 73 of the 310 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 298 of the 310 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 74 of the 318 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 306 of the 318 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -956,6 +956,30 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 310. [security-checker: the CI run of one commit on main is cancelled when the next commit is merged](fix-310-security-checker-254.md)
    Project: Sh1n1230/security-checker. Bug report number 254. License: MIT. Test included: no. Patch file: [310-security-checker-254.patch](fixes/310-security-checker-254.patch)
+
+311. [security-checker: an ignore annotation with empty brackets suppresses every rule on the line](fix-311-security-checker-441.md)
+   Project: Sh1n1230/security-checker. Bug report number 441. License: MIT. Test included: yes. Patch file: [311-security-checker-441.patch](fixes/311-security-checker-441.patch)
+
+312. [security-checker: a strict run that ends with exit code 3 drops the policy violations that hold at the same time](fix-312-security-checker-459.md)
+   Project: Sh1n1230/security-checker. Bug report number 459. License: MIT. Test included: yes. Patch file: [312-security-checker-459.patch](fixes/312-security-checker-459.patch)
+
+313. [security-checker: the evaluation table embeds model text and names with no cleaning](fix-313-security-checker-328.md)
+   Project: Sh1n1230/security-checker. Bug report number 328. License: MIT. Test included: yes. Patch file: [313-security-checker-328.patch](fixes/313-security-checker-328.patch)
+
+314. [security-checker: auto language detection gives zh_TW and zh_CN the same language and drops @latin](fix-314-security-checker-305.md)
+   Project: Sh1n1230/security-checker. Bug report number 305. License: MIT. Test included: yes. Patch file: [314-security-checker-305.patch](fixes/314-security-checker-305.patch)
+
+315. [security-checker: an evaluation case with no rationale loads silently although the docs call rationale required](fix-315-security-checker-235.md)
+   Project: Sh1n1230/security-checker. Bug report number 235. License: MIT. Test included: yes. Patch file: [315-security-checker-235.patch](fixes/315-security-checker-235.patch)
+
+316. [security-checker: LC_ALL=C is ignored and the report language comes from LANG](fix-316-security-checker-221.md)
+   Project: Sh1n1230/security-checker. Bug report number 221. License: MIT. Test included: yes. Patch file: [316-security-checker-221.patch](fixes/316-security-checker-221.patch)
+
+317. [security-checker: the --exclude help does not say that the option replaces the default excludes](fix-317-security-checker-228.md)
+   Project: Sh1n1230/security-checker. Bug report number 228. License: MIT. Test included: no. Patch file: [317-security-checker-228.patch](fixes/317-security-checker-228.patch)
+
+318. [security-checker: semgrep severities CRITICAL and HIGH and MEDIUM are all treated as low](fix-318-security-checker-271.md)
+   Project: Sh1n1230/security-checker. Bug report number 271. License: MIT. Test included: yes. Patch file: [318-security-checker-271.patch](fixes/318-security-checker-271.patch)
 
 ## How to use a fix
 

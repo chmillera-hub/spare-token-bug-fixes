@@ -1,0 +1,109 @@
+diff --git a/docs/DESIGN.md b/docs/DESIGN.md
+index 869c899..841445d 100644
+--- a/docs/DESIGN.md
++++ b/docs/DESIGN.md
+@@ -551,7 +551,7 @@ v1 の最大のバグは **「ツールが失敗しても findings 0 件とし
+ 
+ | Scanner | 対象 | 主な正規化 |
+ |---|---|---|
+-| `semgrep` | SAST | `results[].extra.severity` (ERROR/WARNING/INFO) → Severity、`check_id` → rule_id、`extra.metadata.cwe` を Candidate.cwe に |
++| `semgrep` | SAST | `results[].extra.severity` (CRITICAL/HIGH/MEDIUM/LOW、旧形式の ERROR/WARNING/INFO) → Severity、`check_id` → rule_id、`extra.metadata.cwe` を Candidate.cwe に |
+ | `gitleaks` | Secret | `--report-format json`。**検出値(`Secret`/`Match`)は Candidate に載せない**(§19) |
+ | `osv-scanner` | 依存 CVE | `results[].packages[].vulnerabilities[]` を CVE 単位に展開。`database_specific.severity` と CVSS から Severity 決定 |
+ | `trivy` | IaC / 設定 | `config` スキャンモード。`Misconfigurations[]` を正規化 |
+diff --git a/src/security_checker/scanners/semgrep.py b/src/security_checker/scanners/semgrep.py
+index ac8f80c..d08cdc6 100644
+--- a/src/security_checker/scanners/semgrep.py
++++ b/src/security_checker/scanners/semgrep.py
+@@ -29,6 +29,10 @@ from security_checker.scanners.filters import is_excluded
+ CWE_RE = re.compile(r"CWE-\d+")
+ 
+ SEVERITY_MAP = {
++    "CRITICAL": Severity.CRITICAL,
++    "HIGH": Severity.HIGH,
++    "MEDIUM": Severity.MEDIUM,
++    "LOW": Severity.LOW,
+     "ERROR": Severity.HIGH,
+     "WARNING": Severity.MEDIUM,
+     "INFO": Severity.LOW,
+@@ -108,10 +112,14 @@ def parse_semgrep(
+         message = extra.get("message")
+         message_text = message.strip() if isinstance(message, str) else check_id
+         severity_raw = extra.get("severity")
+-        severity = SEVERITY_MAP.get(
+-            severity_raw.upper() if isinstance(severity_raw, str) else "",
+-            Severity.LOW,
+-        )
++        severity = SEVERITY_MAP.get(severity_raw.upper() if isinstance(severity_raw, str) else "")
++        if severity is None:
++            # 表に無い重大度を黙って low にしない (#271). osv・trivy と同じく不明は medium
++            warnings.append(
++                f"semgrep: {check_id} ({path}) の重大度 {severity_raw!r} は未知のため、"
++                "medium として扱います"
++            )
++            severity = Severity.MEDIUM
+         confidence_raw = metadata.get("confidence")
+         confidence = (
+             CONFIDENCE_MAP.get(confidence_raw.upper()) if isinstance(confidence_raw, str) else None
+diff --git a/tests/unit/test_semgrep_severity_levels.py b/tests/unit/test_semgrep_severity_levels.py
+new file mode 100644
+index 0000000..9d6cf81
+--- /dev/null
++++ b/tests/unit/test_semgrep_severity_levels.py
+@@ -0,0 +1,56 @@
++"""parse_semgrep: semgrep の重大度 7 種類の対応と、表に無い値の扱い (#271)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from typing import Any
++
++import pytest
++
++from security_checker.models.enums import Severity
++from security_checker.scanners.semgrep import parse_semgrep
++
++ROOT = Path("/repo")
++
++
++def _payload(severity: object) -> dict[str, Any]:
++    return {
++        "results": [
++            {
++                "check_id": "rules.example",
++                "path": "app.py",
++                "start": {"line": 3},
++                "end": {"line": 3},
++                "extra": {"severity": severity, "message": "m", "lines": "x = 1"},
++            }
++        ]
++    }
++
++
++@pytest.mark.parametrize(
++    ("raw", "expected"),
++    [
++        ("CRITICAL", Severity.CRITICAL),
++        ("HIGH", Severity.HIGH),
++        ("MEDIUM", Severity.MEDIUM),
++        ("LOW", Severity.LOW),
++        ("ERROR", Severity.HIGH),
++        ("WARNING", Severity.MEDIUM),
++        ("INFO", Severity.LOW),
++        ("critical", Severity.CRITICAL),
++    ],
++)
++def test_known_severity_is_mapped_without_a_warning(raw: str, expected: Severity) -> None:
++    candidates, warnings = parse_semgrep(_payload(raw), ROOT)
++
++    assert [candidate.severity_reported for candidate in candidates] == [expected]
++    assert warnings == []
++
++
++@pytest.mark.parametrize("raw", ["EXPERIMENT", "INVENTORY", None])
++def test_unknown_severity_becomes_medium_with_a_warning(raw: object) -> None:
++    candidates, warnings = parse_semgrep(_payload(raw), ROOT)
++
++    assert [candidate.severity_reported for candidate in candidates] == [Severity.MEDIUM]
++    assert len(warnings) == 1
++    assert "rules.example" in warnings[0]

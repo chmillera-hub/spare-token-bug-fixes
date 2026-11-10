@@ -35,7 +35,7 @@ def main(batch):
                 full = f"{repo}/{e['path']}"; s = open(full, encoding="utf-8", newline="").read()
                 crlf = "\r\n" in s
                 if crlf: s = s.replace("\r\n", "\n")
-                assert s.count(e["old"]) == 1, f"old text found {s.count(e['old'])} times in {e['path']}"
+                assert s.count(e["old"]) == e.get("count", 1), f"old text found {s.count(e['old'])} times in {e['path']}"
                 s = s.replace(e["old"], e["new"])
                 if crlf: s = s.replace("\n", "\r\n")
                 open(full, "w", encoding="utf-8", newline="").write(s)
