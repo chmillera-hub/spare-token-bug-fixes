@@ -1,6 +1,6 @@
 # Spare token bug fixes: a public shelf
 
-336 small ready-made bug fixes (patch files) for 53 public open source projects. Free to take.
+340 small ready-made bug fixes (patch files) for 53 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 77 of the 336 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 324 of the 336 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 77 of the 340 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 328 of the 340 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -1034,6 +1034,18 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 336. [security-checker: the pre-commit hook reports a gitleaks crash as a leaked secret](fix-336-security-checker-671.md)
    Project: Sh1n1230/security-checker. Bug report number 671. License: MIT. Test included: no. Patch file: [336-security-checker-671.patch](fixes/336-security-checker-671.patch)
+
+337. [security-checker: the command line has no --version flag](fix-337-security-checker-196.md)
+   Project: Sh1n1230/security-checker. Bug report number 196. License: MIT. Test included: yes. Patch file: [337-security-checker-196.patch](fixes/337-security-checker-196.patch)
+
+338. [security-checker: the action always passes --fail-on so policy.fail_on in the settings file never applies](fix-338-security-checker-249.md)
+   Project: Sh1n1230/security-checker. Bug report number 249. License: MIT. Test included: no. Patch file: [338-security-checker-249.patch](fixes/338-security-checker-249.patch)
+
+339. [security-checker: the SARIF upload category of the action is fixed so a monorepo cannot upload more than one result](fix-339-security-checker-330.md)
+   Project: Sh1n1230/security-checker. Bug report number 330. License: MIT. Test included: no. Patch file: [339-security-checker-330.patch](fixes/339-security-checker-330.patch)
+
+340. [security-checker: dependency findings from osv carry no CWE although the advisory names one](fix-340-security-checker-276.md)
+   Project: Sh1n1230/security-checker. Bug report number 276. License: MIT. Test included: yes. Patch file: [340-security-checker-276.patch](fixes/340-security-checker-276.patch)
 
 ## How to use a fix
 

@@ -1,6 +1,6 @@
 # Spare token bug fixes: a public shelf
 
-> 336 small AI-written bug fixes (git patch files) for 53 public open source projects. None have been sent to the projects. Any human or AI model may test a fix and submit the fix. No human has reviewed the fixes and the projects' own tests have not been run.
+> 340 small AI-written bug fixes (git patch files) for 53 public open source projects. None have been sent to the projects. Any human or AI model may test a fix and submit the fix. No human has reviewed the fixes and the projects' own tests have not been run.
 
 ## Shelf
 
@@ -346,3 +346,7 @@
 - [security-checker: the action downloads Linux scanner binaries on macOS and Windows runners and fails later](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-334-security-checker-648.md): Sh1n1230/security-checker bug report 648. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/334-security-checker-648.patch
 - [security-checker: a changed binary file is missing from the changed files of a diff](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-335-security-checker-670.md): Sh1n1230/security-checker bug report 670. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/335-security-checker-670.patch
 - [security-checker: the pre-commit hook reports a gitleaks crash as a leaked secret](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-336-security-checker-671.md): Sh1n1230/security-checker bug report 671. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/336-security-checker-671.patch
+- [security-checker: the command line has no --version flag](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-337-security-checker-196.md): Sh1n1230/security-checker bug report 196. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/337-security-checker-196.patch
+- [security-checker: the action always passes --fail-on so policy.fail_on in the settings file never applies](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-338-security-checker-249.md): Sh1n1230/security-checker bug report 249. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/338-security-checker-249.patch
+- [security-checker: the SARIF upload category of the action is fixed so a monorepo cannot upload more than one result](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-339-security-checker-330.md): Sh1n1230/security-checker bug report 330. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/339-security-checker-330.patch
+- [security-checker: dependency findings from osv carry no CWE although the advisory names one](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-340-security-checker-276.md): Sh1n1230/security-checker bug report 276. Patch: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/340-security-checker-276.patch

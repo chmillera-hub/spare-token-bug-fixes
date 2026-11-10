@@ -135,6 +135,8 @@ Changing the video: the seconds per fix are the two duration lines in tools/buil
 - ourdao/ourdao-frontend 536: the download checks the bytes against the content id so the test needs content ids computed by the project's own code
 - rel-kit/relkit 183 and 184: need a re-pinned template digest or a regenerated help snapshot made by the project's tooling
 - mfeflow/mfeflow 96: needs template version bumps and may change generated snapshot files
+- aiwaf-project/aiwaf (every bug report): the license is Elastic License 2.0 and not a plain open source license
+- endavis/bastproxy 306: the text the chatbot read was cut off and the fix needs a choice about where the connected flag is set
 - svayatta/agent-custody 305: writableAncestor is also called with the path of the log file so a plain directory check would reject an existing log file. The fix needs a choice about the callers
 - svayatta/agent-custody 303: the fix needs new wording about what a door receipt proves and that wording is for the maintainers
 - LucasXlab/vericode 2: the text does not say what the type check and the test run should do for a single file
@@ -235,4 +237,15 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - Way of working that kept the cost per fix low: print only the proposal section of a report (the text after the heading 提案 or 対応案) for many reports at once and pick the reports with exactly one proposed way and then read only the function named in the report.
 - security-checker reports read in this session and skipped because the text offers two ways or needs a design choice: 191 199 203 210 212 213 307 321 334 433 435 466 625 645 680 685 688 300 (a validator would break the test factories) 189 (no cheap test) 279 (needs the trivy test doubles) 620 251 303 225 280 335 444 449 461.
 - security-checker reports with one clear way that nobody has started: 209 (init --stdout prints the list to standard output) 214 (warnings of providers check and baseline update) 613 614 621 661 665 694 695 and the test-only reports 475 to 486 and 500 501 527 532 564 to 574 582 587 591 593.
+
+## Notes from the ninth session of 2026-11-10 (fixes 326 to 340)
+
+- The shelf holds 340 fixes. Charles asked for a flat 500 so 160 more are needed.
+- 15 fixes in this session. Three are for projects new to the shelf: buckai-observatory/DL_bathy 37 (fix 326) and endavis/bastproxy 307 (fix 327) and embeddedos-org/eDB 108 (fix 328). Twelve are for Sh1n1230/security-checker: reports 209 214 613 597 624 648 670 671 196 249 330 276.
+- Patches that do not apply together: 330 with 307 (providers_check in cli.py) and 339 with 338 (action.yml and docs/github-actions.md). Fix 321 with 304 was already noted.
+- Two saved searches of this session gave 62 short unclaimed reports (the file is not on the shelf). Leads from them that nobody has started: binlai06/ai-quality-poc 7 and 8 (license not checked) and daytona/clients 563 to 565 and PuzzleTechHub/bot-be-named 443 and awslabs/visual-asset-management-system 1267 1268 1270 and jesdi/agent-ops 308 and endavis/bastproxy 305.
+- Push access to chmillera-hub/game1 was refused again. The website copy still holds 271 fixes.
+- tools/add_fixes.py reads report titles from two saved search files now (cands.json and cands2.json).
+- security-checker reports read and skipped in this session: 661 (extract_json is shared with the process runner so the proposed rule needs a choice) 300 620 621 614 644 694 695 665 667 and the feature requests 626 to 643.
+- security-checker reports with one clear way that nobody has started: 277 (docs) 283 and 288 (rule path lists: no way to test without semgrep) 329 (SARIF fullDescription and help) 236 237 309 (docs) 599 602 603 604 647 659 675 681 682.
 
