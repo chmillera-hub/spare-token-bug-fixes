@@ -1153,6 +1153,24 @@
    "logic_checked": false,
    "written_on": "2026-11-10",
    "full_report_read": true
+  },
+  {
+   "n": 67,
+   "patch": "67-agent-custody-265.patch",
+   "project": "svayatta/agent-custody",
+   "issue": 265,
+   "lic": "Apache-2.0",
+   "lang": "TypeScript",
+   "test": true,
+   "title": "agent-custody: door receipts are exported to OpenTelemetry as CLIENT spans",
+   "symptom": "Every receipt was exported as a span of kind 3 (CLIENT: the agent calling out). A door receipt records an inbound request to the business's own site or API. The span for a door receipt should be kind 2 (SERVER).",
+   "change": "packages/receipts/src/otel.ts sets kind 2 when the receipt's issuer kind is door and keeps kind 3 for every other issuer. The comment beside the line is updated. packages/receipts/test/otel.test.ts gains a case that checks the kind for a door receipt and for four other issuer kinds.",
+   "note": "Nobody ran the tests (bun run ci). The chatbot parsed both files with the TypeScript parser and found no syntax error. The new test builds a minimal receipt by hand in the same way the neighbouring test does.",
+   "words": "agent-custody OpenTelemetry OTel otel.ts span kind SERVER CLIENT door receipt inbound request kind 2",
+   "report_title": "OTel: export door receipts as SERVER spans, not CLIENT",
+   "logic_checked": false,
+   "written_on": "2026-11-10",
+   "full_report_read": true
   }
  ]
 }

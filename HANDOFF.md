@@ -102,4 +102,6 @@ Titles seen but text unread: hslee16/Archy 800 and 802 and the reports labelled 
 - Check the end of every bug report for a claim rule. Several projects end the text with "comment to be assigned" (skip) or "comment before you start" (the earlier sessions wrote the fix and put a note on the fix page).
 - When two fixes for one project add tests put the second test in a new file. Two patches that add text at the same spot of one file do not apply together.
 - Projects with a prettier or ruff format check: write new code in the shape the formatter would produce. Nobody ran any formatter in the session of 2026-11-10.
+- Near the end of the session of 2026-11-10 GitHub answered the search address with "You have exceeded a secondary rate limit" after about 25 searches in one hour. Stop searching when that answer appears and work from the search results already saved.
+- MuNuChapterHKN/HKrecruitment 107 and Navardow/personal_website 4 were read and left alone: the first reads like coursework for the members of one student group and the second is a personal site with no license check done.
 
