@@ -43,7 +43,7 @@ Both commands now end with exit code 2 and a not found message when the folder d
 - The fix was written against the project's code as of 2026-11-10 and may no longer apply cleanly.
 - The patch applied cleanly to the project's newest code on 2026-11-10 (checked with git apply --check).
 - Nobody has sent the fix to the project. Anyone is free to test the fix and send the fix.
-- The chatbot did not run the project's tests so nobody has confirmed that the new test passes or that every existing test still passes. The last lines of the bug report text were cut off in the copy the chatbot read. The chatbot wrote the check that the visible part of the text describes.
+- The chatbot did not run the project's tests so nobody has confirmed that the new test passes or that every existing test still passes. The last lines of the bug report text were cut off in the copy the chatbot read. The chatbot wrote the check that the visible part of the text describes. This patch and the patch of fix 330 on this shelf change neighbouring lines of providers_check and do not apply together.
 
 ## Search words
 

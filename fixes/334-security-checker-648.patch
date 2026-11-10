@@ -1,0 +1,44 @@
+diff --git a/action.yml b/action.yml
+index a2e1123..b7462d4 100644
+--- a/action.yml
++++ b/action.yml
+@@ -19,7 +19,7 @@
+ # 設計書 §21.1 は Docker コンテナアクションを最終形としているが、GHCR へのイメージ公開 (P6) までは
+ # composite で配る。composite なら Code Scanning へのアップロードに公式の upload-sarif を使える。
+ name: security-checker
+-description: スキャナの検出を LLM でレビューし、PR コメントと SARIF (Code Scanning) で報告する
++description: スキャナの検出を LLM でレビューし、PR コメントと SARIF (Code Scanning) で報告する (Linux ランナー専用)
+ author: Sh1n1230
+ branding:
+   icon: shield
+diff --git a/docs/github-actions.md b/docs/github-actions.md
+index 7250be2..4151e5e 100644
+--- a/docs/github-actions.md
++++ b/docs/github-actions.md
+@@ -2,6 +2,9 @@
+ 
+ security-checker を PR ごとに動かし、結果を 3 か所に出す方法です。
+ 
++この action は Linux のランナー (`ubuntu-latest` など) 専用です。スキャナのバイナリが Linux 用しか無いため、
++macOS・Windows のランナーではスキャナのインストールの段階でエラーにして止めます。
++
+ | 出し先 | 中身 | 役割 |
+ |---|---|---|
+ | **status check** (ジョブの成否) | exit code | 「ツールが壊れたか」「ポリシー違反があるか」 |
+diff --git a/scripts/install-scanners.sh b/scripts/install-scanners.sh
+index db636d0..21cf239 100755
+--- a/scripts/install-scanners.sh
++++ b/scripts/install-scanners.sh
+@@ -19,6 +19,12 @@ script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+ # shellcheck source=scripts/scanner-versions.sh
+ source "$script_dir/scanner-versions.sh"
+ 
++# Linux 用のバイナリしか扱わない。ほかの OS では、取得した後に exec format error で失敗する前に止める (#648)
++if [[ "$(uname -s)" != "Linux" ]]; then
++  echo "::error::install-scanners.sh は Linux のランナー専用です (この環境: $(uname -s))" >&2
++  exit 1
++fi
++
+ if [[ $# -ne 1 ]]; then
+   echo "使い方: $0 <インストール先ディレクトリ>" >&2
+   exit 2

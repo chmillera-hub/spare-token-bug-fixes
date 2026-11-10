@@ -1,12 +1,12 @@
 # Spare token bug fixes: a public shelf
 
-325 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
+336 small ready-made bug fixes (patch files) for 53 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
 
-Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and dhanushbs10/vynlore and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and LucasXlab/vericode and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
+Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and buckai-observatory/DL_bathy and dhanushbs10/vynlore and embeddedos-org/eDB and endavis/bastproxy and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and LucasXlab/vericode and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
 
 Where the shelf lives:
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 75 of the 325 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 313 of the 325 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 77 of the 336 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 324 of the 336 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -1001,6 +1001,39 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 325. [security-checker: the PR summary calls false positives suppressed which reads like baseline suppression](fix-325-security-checker-601.md)
    Project: Sh1n1230/security-checker. Bug report number 601. License: MIT. Test included: yes. Patch file: [325-security-checker-601.patch](fixes/325-security-checker-601.patch)
+
+326. [DL_bathy: set_reproducible switches cudnn.benchmark on which undoes deterministic training](fix-326-DL_bathy-37.md)
+   Project: buckai-observatory/DL_bathy. Bug report number 37. License: MIT. Test included: yes. Patch file: [326-DL_bathy-37.patch](fixes/326-DL_bathy-37.patch)
+
+327. [bastproxy: the Clients table shows the text Term Type in place of the terminal type of the client](fix-327-bastproxy-307.md)
+   Project: endavis/bastproxy. Bug report number 307. License: MIT. Test included: yes. Patch file: [327-bastproxy-307.patch](fixes/327-bastproxy-307.patch)
+
+328. [eDB: the key-value prefix scan treats _ and % as wildcards and ignores letter case](fix-328-eDB-108.md)
+   Project: embeddedos-org/eDB. Bug report number 108. License: MIT. Test included: yes. Patch file: [328-eDB-108.patch](fixes/328-eDB-108.patch)
+
+329. [security-checker: init --stdout mixes the detection list into the YAML on standard output](fix-329-security-checker-209.md)
+   Project: Sh1n1230/security-checker. Bug report number 209. License: MIT. Test included: yes. Patch file: [329-security-checker-209.patch](fixes/329-security-checker-209.patch)
+
+330. [security-checker: providers check and baseline update hide the warnings about settings that have no effect](fix-330-security-checker-214.md)
+   Project: Sh1n1230/security-checker. Bug report number 214. License: MIT. Test included: yes. Patch file: [330-security-checker-214.patch](fixes/330-security-checker-214.patch)
+
+331. [security-checker: the warning about files written by a reviewer stops at 20 and hides how many more there are](fix-331-security-checker-613.md)
+   Project: Sh1n1230/security-checker. Bug report number 613. License: MIT. Test included: yes. Patch file: [331-security-checker-613.patch](fixes/331-security-checker-613.patch)
+
+332. [security-checker: the PR summary says no problems when every review failed](fix-332-security-checker-597.md)
+   Project: Sh1n1230/security-checker. Bug report number 597. License: MIT. Test included: yes. Patch file: [332-security-checker-597.patch](fixes/332-security-checker-597.patch)
+
+333. [security-checker: an evaluation case can write outside the temporary workspace through ../ in its id or path](fix-333-security-checker-624.md)
+   Project: Sh1n1230/security-checker. Bug report number 624. License: MIT. Test included: yes. Patch file: [333-security-checker-624.patch](fixes/333-security-checker-624.patch)
+
+334. [security-checker: the action downloads Linux scanner binaries on macOS and Windows runners and fails later](fix-334-security-checker-648.md)
+   Project: Sh1n1230/security-checker. Bug report number 648. License: MIT. Test included: no. Patch file: [334-security-checker-648.patch](fixes/334-security-checker-648.patch)
+
+335. [security-checker: a changed binary file is missing from the changed files of a diff](fix-335-security-checker-670.md)
+   Project: Sh1n1230/security-checker. Bug report number 670. License: MIT. Test included: yes. Patch file: [335-security-checker-670.patch](fixes/335-security-checker-670.patch)
+
+336. [security-checker: the pre-commit hook reports a gitleaks crash as a leaked secret](fix-336-security-checker-671.md)
+   Project: Sh1n1230/security-checker. Bug report number 671. License: MIT. Test included: no. Patch file: [336-security-checker-671.patch](fixes/336-security-checker-671.patch)
 
 ## How to use a fix
 
