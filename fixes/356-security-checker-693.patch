@@ -1,0 +1,31 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..2c5a21b 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -186,7 +186,7 @@ def _suppression(loaded: LoadedConfig, root: Path) -> SuppressionRules:
+ 
+ 
+ def _diff_scope(
+-    loaded: LoadedConfig, root: Path, base: str | None, full: bool
++    loaded: LoadedConfig, root: Path, base: str | None, *, full: bool
+ ) -> tuple[DiffScope | None, list[str]]:
+     """target.mode と --base / --full から検査範囲を決める (§7.4)."""
+     mode = "full" if full else loaded.config.target.mode
+@@ -262,7 +262,7 @@ def scan(
+     overrides.update(_logging_overrides(log_format, log_level))
+     loaded = _load(root, config_path, preset, overrides)
+     _configure_logging(loaded)
+-    diff, diff_warnings = _diff_scope(loaded, root, base, full)
++    diff, diff_warnings = _diff_scope(loaded, root, base, full=full)
+ 
+     try:
+         outcome = asyncio.run(
+@@ -345,7 +345,7 @@ def review(
+     overrides.update(_logging_overrides(log_format, log_level))
+     loaded = _load(root, config_path, preset, overrides)
+     _configure_logging(loaded)
+-    diff, diff_warnings = _diff_scope(loaded, root, base, full)
++    diff, diff_warnings = _diff_scope(loaded, root, base, full=full)
+ 
+     price_table = load_price_table(
+         loaded.config_path.parent if loaded.config_path is not None else None

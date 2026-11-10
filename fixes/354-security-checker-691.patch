@@ -1,0 +1,28 @@
+diff --git a/src/security_checker/testing/provider_contract.py b/src/security_checker/testing/provider_contract.py
+index 6ccbe96..d854972 100644
+--- a/src/security_checker/testing/provider_contract.py
++++ b/src/security_checker/testing/provider_contract.py
+@@ -91,7 +91,8 @@ class ProviderContractTests:
+     def test_identity_fields(self) -> None:
+         provider = self.make_provider()
+         assert provider.transport in ("http", "process")
+-        assert isinstance(provider.dialect, str) and provider.dialect
++        assert isinstance(provider.dialect, str), f"dialect は str を期待: {provider.dialect!r}"
++        assert provider.dialect, "dialect は空でない文字列を期待"
+ 
+     @pytest.mark.asyncio
+     async def test_complete_returns_response(self) -> None:
+diff --git a/src/security_checker/testing/scanner_contract.py b/src/security_checker/testing/scanner_contract.py
+index 1225faf..c69c0a7 100644
+--- a/src/security_checker/testing/scanner_contract.py
++++ b/src/security_checker/testing/scanner_contract.py
+@@ -52,7 +52,8 @@ class ScannerContractTests:
+ 
+     def test_identity(self) -> None:
+         scanner = self.make_scanner()
+-        assert isinstance(scanner.name, str) and scanner.name
++        assert isinstance(scanner.name, str), f"name は str を期待: {scanner.name!r}"
++        assert scanner.name, "name は空でない文字列を期待"
+         assert isinstance(scanner.category, Category)
+ 
+     def test_probe_does_not_raise(self) -> None:

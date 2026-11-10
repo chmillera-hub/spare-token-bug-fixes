@@ -16,8 +16,9 @@ def main(batch):
     try:
         for k, v in json.load(open("/home/claude/work/search/sc_all.json", encoding="utf-8")).items():
             titles[("Sh1n1230/security-checker", int(k))] = v["title"]
-        for name in ("cands.json", "cands2.json", "cands3.json"):
-            for v in json.load(open("/home/claude/work/search/" + name, encoding="utf-8")):
+        import glob
+        for name in sorted(glob.glob("/home/claude/work/search/cands*.json")):
+            for v in json.load(open(name, encoding="utf-8")):
                 titles[(v["repo"], v["number"])] = v["title"]
     except FileNotFoundError: pass
     have = {(f["project"], f["issue"]) for f in data["fixes"]}

@@ -135,6 +135,10 @@ Changing the video: the seconds per fix are the two duration lines in tools/buil
 - ourdao/ourdao-frontend 536: the download checks the bytes against the content id so the test needs content ids computed by the project's own code
 - rel-kit/relkit 183 and 184: need a re-pinned template digest or a regenerated help snapshot made by the project's tooling
 - mfeflow/mfeflow 96: needs template version bumps and may change generated snapshot files
+- jakeOmega/Vic3TimelineExtended (every bug report): the project has no license file
+- helmholtz-analytics/heat 2664: the report says please do not fix (kept for a live demo)
+- EJRyan89/coding-agent-skills 2564: the text offers two ways (refuse the entry or state the contract)
+- ecmwf/anemoi-core 1555: the text says the value 192 is wrong and does not say which value the docs should show
 - Sh1n1230/security-checker 681: ruff reports no unused argument in consensus.py in the newest code
 - Sh1n1230/security-checker 277: asks to describe how --offline is treated and the text does not say what to write
 - Sh1n1230/security-checker 599: the fix would change the cut that the test of fix 288 on this shelf expects
@@ -262,4 +266,13 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - EJRyan89/coding-agent-skills holds many small reports titled as twins of earlier fixes. Each names the file and the line and the expected behaviour. Not started: 2522 2531 2533 2534 2541 2542 2545 2546 2563 2564. The line length limit of that project is 120.
 - Other leads from the third saved search that nobody has started: aigora-de/rdf-construct 526 and datamodel-code-generator/datamodel-code-generator 6648 and 6652 and skiweg1985/prtg-nats 152 (TypeScript) and tomi3-11/sentinel-monitor 31. Licenses not checked.
 - Push access to chmillera-hub/game1 was not asked for again in this session. The website copy still holds 271 fixes.
+
+## Notes from the eleventh session of 2026-11-10 (fixes 354 to 363)
+
+- The shelf holds 363 fixes. Charles asked for a flat 500 so 137 more are needed.
+- 10 fixes in this session. Six are for projects new to the shelf: DeckCheatz/wemod-launcher 337 (358: AGPL-3.0) and fitbenchmarking/fitbenchmarking 1804 (359) and jupyterlab/jupyter-builder 201 (360) and Nixtla/neuralforecast 1693 (361) and geoff-davis/aiogzip 176 (362) and CERTCC/Vultron 6187 (363). One is for EJRyan89/coding-agent-skills 2533 (357). Three are lint-rule reports of Sh1n1230/security-checker: 691 (354) and 689 (355) and 693 (356).
+- A search that found very small bugs: label:bug with the word typo in the title (language python and no assignee and no comments). The first page gave four one-line fixes. More pages and other languages are untried.
+- tools/add_fixes.py now reads report titles from every file named cands*.json in the search folder.
+- For security-checker 689 a noqa marker could not be added: the rule PLC0415 is off in the settings of the project and ruff reports a marker for a rule that is off as unused (RUF100).
+- Leads read and not started: jesdi/general-skills 222 (ticket 1 against 01: the fix also has to name the commit with the padded number so the naming code must be read first) and igormcsouza/tether 309 (several parts) and mrveiss/AutoBot-AI 21317 and falbany/ProFiles 127 and benjaminsnorris/storyforge 680 and asarelcastellanos/howlate.la 86. Licenses not checked.
 

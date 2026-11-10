@@ -1,0 +1,94 @@
+diff --git a/src/aiogzip/_text.py b/src/aiogzip/_text.py
+index 0d0d811..1042965 100644
+--- a/src/aiogzip/_text.py
++++ b/src/aiogzip/_text.py
+@@ -2193,19 +2193,19 @@ class AsyncGzipTextFile:
+                     break
+                 except BaseException:
+                     if pending or pending_empty:
+-                        await self._write_batch_reserved("".join(pending))
++                        await self._write_pending_reserved(pending)
+                     raise
+ 
+                 if not isinstance(line, str):
+                     if pending or pending_empty:
+-                        await self._write_batch_reserved("".join(pending))
++                        await self._write_pending_reserved(pending)
+                     await self._write_batch_reserved(line)
+                     continue
+ 
+                 length = len(line)
+                 if length >= self._chunk_size:
+                     if pending or pending_empty:
+-                        await self._write_batch_reserved("".join(pending))
++                        await self._write_pending_reserved(pending)
+                         pending = []
+                         pending_chars = 0
+                         pending_empty = False
+@@ -2216,7 +2216,7 @@ class AsyncGzipTextFile:
+                     pending_empty = True
+                 else:
+                     if pending and pending_chars + length > self._chunk_size:
+-                        await self._write_batch_reserved("".join(pending))
++                        await self._write_pending_reserved(pending)
+                         pending = []
+                         pending_chars = 0
+                         pending_empty = False
+@@ -2224,7 +2224,21 @@ class AsyncGzipTextFile:
+                     pending_chars += length
+ 
+             if pending or pending_empty:
+-                await self._write_batch_reserved("".join(pending))
++                await self._write_pending_reserved(pending)
++
++    async def _write_pending_reserved(self, pending: List[str]) -> None:
++        """Write a batch of lines, falling back to line by line on an encode error.
++
++        The fallback writes every line before the offending one and raises the
++        error for that line alone, as io.TextIOWrapper does. It runs only on the
++        error path, so the batched fast path is unchanged.
++        """
++        try:
++            await self._write_batch_reserved("".join(pending))
++        except UnicodeEncodeError:
++            for line in pending:
++                await self._write_batch_reserved(line)
++            raise
+ 
+     async def flush(self) -> None:
+         """
+diff --git a/tests/test_writelines_encode_error.py b/tests/test_writelines_encode_error.py
+new file mode 100644
+index 0000000..a08e409
+--- /dev/null
++++ b/tests/test_writelines_encode_error.py
+@@ -0,0 +1,29 @@
++"""writelines() keeps the lines written before one that cannot be encoded."""
++
++import gzip
++
++import pytest
++
++import aiogzip
++
++
++async def test_lines_before_an_unencodable_line_are_written(tmp_path):
++    path = str(tmp_path / "lines.gz")
++
++    async with aiogzip.open(path, "wt") as stream:
++        with pytest.raises(UnicodeEncodeError) as caught:
++            await stream.writelines(["a\n", "b\n", "\ud800", "c\n"])
++
++    with gzip.open(path) as written:
++        assert written.read() == b"a\nb\n"
++    assert caught.value.object == "\ud800"
++
++
++async def test_a_batch_without_a_bad_line_is_written_whole(tmp_path):
++    path = str(tmp_path / "lines.gz")
++
++    async with aiogzip.open(path, "wt") as stream:
++        await stream.writelines(["a\n", "b\n", "c\n"])
++
++    with gzip.open(path) as written:
++        assert written.read() == b"a\nb\nc\n"
