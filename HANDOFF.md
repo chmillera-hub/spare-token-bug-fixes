@@ -228,7 +228,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 ## Notes from the eighth session of 2026-11-10 (fixes 298 to 325)
 
 - The shelf holds 325 fixes. Charles asked for a flat 500 so 175 more are needed.
-- All 28 fixes of this session are for Sh1n1230/security-checker. 26 of them fix real bug reports from the ranges 161 to 337 and 433 to 466 and 597 to 701 (not test-only reports): 460 211 304 192 266 317 206 227 463 187 332 294 254 441 459 328 305 235 221 228 271 200 290 207 701 598 601. Two are test-only (576) or wording-only (228 is help text and 254 is one workflow line).
+- All 28 fixes of this session are for Sh1n1230/security-checker. 27 of them answer reports from the ranges 161 to 337 and 433 to 466 and 597 to 701 (not test-only reports): 460 211 304 192 266 317 206 227 463 187 332 294 254 441 459 328 305 235 221 228 271 200 290 207 701 598 601. One more is test-only (576). Among the 27: 228 changes only help text and 254 changes one workflow line.
 - All 28 patches apply one after another except fix 321 (report 207) which collides with fix 304 (report 206): both change main in cli.py.
 - Push access to chmillera-hub/game1 was refused again. The website copy still holds 271 fixes.
 - tools/add_fixes.py now accepts count in an edit (the old text must appear exactly that many times and every one is replaced).
