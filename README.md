@@ -1,6 +1,6 @@
 # Spare token bug fixes: a public shelf
 
-297 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
+310 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 71 of the 297 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 285 of the 297 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 73 of the 310 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 298 of the 310 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -917,6 +917,45 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 297. [btclib-wallet: the key_wallet docstring quotes a sentence that the bms docstring of btclib no longer holds](fix-297-btclib-wallet-755.md)
    Project: btclib-org/btclib-wallet. Bug report number 755. License: MIT. Test included: no. Patch file: [297-btclib-wallet-755.patch](fixes/297-btclib-wallet-755.patch)
+
+298. [security-checker: the CWE list of a finding includes CWEs from reviewers who judged the code not vulnerable](fix-298-security-checker-460.md)
+   Project: Sh1n1230/security-checker. Bug report number 460. License: MIT. Test included: yes. Patch file: [298-security-checker-460.patch](fixes/298-security-checker-460.patch)
+
+299. [security-checker: --preset with ../ reads a YAML file outside the presets folder](fix-299-security-checker-211.md)
+   Project: Sh1n1230/security-checker. Bug report number 211. License: MIT. Test included: yes. Patch file: [299-security-checker-211.patch](fixes/299-security-checker-211.patch)
+
+300. [security-checker: repository facts are empty when the checked folder sits under a folder named build or vendor](fix-300-security-checker-304.md)
+   Project: Sh1n1230/security-checker. Bug report number 304. License: MIT. Test included: yes. Patch file: [300-security-checker-304.patch](fixes/300-security-checker-304.patch)
+
+301. [security-checker: baseline update shows a traceback when the suppression rules cannot be loaded](fix-301-security-checker-192.md)
+   Project: Sh1n1230/security-checker. Bug report number 192. License: MIT. Test included: yes. Patch file: [301-security-checker-192.patch](fixes/301-security-checker-192.patch)
+
+302. [security-checker: trace files are written with permissions that let other users of the machine read them](fix-302-security-checker-317.md)
+   Project: Sh1n1230/security-checker. Bug report number 317. License: MIT. Test included: yes. Patch file: [302-security-checker-317.patch](fixes/302-security-checker-317.patch)
+
+303. [security-checker: report.md puts reviewer names and rule IDs between backticks without code_span](fix-303-security-checker-266.md)
+   Project: Sh1n1230/security-checker. Bug report number 266. License: MIT. Test included: yes. Patch file: [303-security-checker-266.patch](fixes/303-security-checker-266.patch)
+
+304. [security-checker: error messages lose text in square brackets or crash with MarkupError](fix-304-security-checker-206.md)
+   Project: Sh1n1230/security-checker. Bug report number 206. License: MIT. Test included: yes. Patch file: [304-security-checker-206.patch](fixes/304-security-checker-206.patch)
+
+305. [security-checker: the CWE named by the judge never reaches the finding](fix-305-security-checker-463.md)
+   Project: Sh1n1230/security-checker. Bug report number 463. License: MIT. Test included: yes. Patch file: [305-security-checker-463.patch](fixes/305-security-checker-463.patch)
+
+306. [security-checker: review --dry-run and --estimate show a traceback when the scan raises a configuration error](fix-306-security-checker-187.md)
+   Project: Sh1n1230/security-checker. Bug report number 187. License: MIT. Test included: yes. Patch file: [306-security-checker-187.patch](fixes/306-security-checker-187.patch)
+
+307. [security-checker: config show and providers check accept a folder that does not exist](fix-307-security-checker-227.md)
+   Project: Sh1n1230/security-checker. Bug report number 227. License: MIT. Test included: yes. Patch file: [307-security-checker-227.patch](fixes/307-security-checker-227.patch)
+
+308. [security-checker: a cancelled scan leaves the scanner process running](fix-308-security-checker-332.md)
+   Project: Sh1n1230/security-checker. Bug report number 332. License: MIT. Test included: yes. Patch file: [308-security-checker-332.patch](fixes/308-security-checker-332.patch)
+
+309. [security-checker: the fix example in report.md is a code block with no language](fix-309-security-checker-294.md)
+   Project: Sh1n1230/security-checker. Bug report number 294. License: MIT. Test included: yes. Patch file: [309-security-checker-294.patch](fixes/309-security-checker-294.patch)
+
+310. [security-checker: the CI run of one commit on main is cancelled when the next commit is merged](fix-310-security-checker-254.md)
+   Project: Sh1n1230/security-checker. Bug report number 254. License: MIT. Test included: no. Patch file: [310-security-checker-254.patch](fixes/310-security-checker-254.patch)
 
 ## How to use a fix
 

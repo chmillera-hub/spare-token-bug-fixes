@@ -1,0 +1,57 @@
+diff --git a/src/security_checker/scanners/base.py b/src/security_checker/scanners/base.py
+index bb8f154..72027bd 100644
+--- a/src/security_checker/scanners/base.py
++++ b/src/security_checker/scanners/base.py
+@@ -128,6 +128,12 @@ async def run_command(
+             process.kill()
+             await process.wait()
+             return CommandResult(exit_code=None, stdout=b"", stderr=b"", timed_out=True)
++        except BaseException:
++            # キャンセル (Ctrl-C を含む) でも子プロセスを残さない (#332)
++            if process.returncode is None:
++                process.kill()
++                await process.wait()
++            raise
+         return CommandResult(
+             exit_code=process.returncode,
+             stdout=stdout or b"",
+diff --git a/tests/unit/test_run_command_cancel_kills_child.py b/tests/unit/test_run_command_cancel_kills_child.py
+new file mode 100644
+index 0000000..e413bdc
+--- /dev/null
++++ b/tests/unit/test_run_command_cancel_kills_child.py
+@@ -0,0 +1,34 @@
++"""run_command: キャンセルされたら子プロセスを止めてから抜けること (#332)."""
++
++from __future__ import annotations
++
++import asyncio
++import os
++import sys
++from pathlib import Path
++
++import pytest
++
++from security_checker.scanners.base import run_command
++
++CHILD = "import os,sys,time; open(sys.argv[1],'w').write(str(os.getpid())); time.sleep(60)"
++
++
++@pytest.mark.skipif(os.name == "nt", reason="os.kill(pid, 0) で生存を確かめられない")
++async def test_cancelling_the_task_leaves_no_child_process(tmp_path: Path) -> None:
++    pid_file = tmp_path / "pid"
++    task = asyncio.create_task(
++        run_command([sys.executable, "-c", CHILD, str(pid_file)], cwd=tmp_path, timeout_s=30)
++    )
++    for _ in range(100):
++        if pid_file.exists() and pid_file.read_text():
++            break
++        await asyncio.sleep(0.1)
++    pid = int(pid_file.read_text())
++
++    task.cancel()
++    with pytest.raises(asyncio.CancelledError):
++        await task
++
++    with pytest.raises(ProcessLookupError):
++        os.kill(pid, 0)

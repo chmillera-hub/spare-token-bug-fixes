@@ -1,0 +1,103 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..c44ca30 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -380,15 +380,18 @@ def _estimate(
+ ) -> None:
+     """何件・いくらかかるかを、送信前に見せる (設計書 §24.3)."""
+     console = Console()
+-    outcome = asyncio.run(
+-        run_scan(
+-            loaded.config,
+-            root,
+-            extra_warnings=loaded.warnings,
+-            diff=diff,
+-            suppression=_suppression(loaded, root),
++    try:
++        outcome = asyncio.run(
++            run_scan(
++                loaded.config,
++                root,
++                extra_warnings=loaded.warnings,
++                diff=diff,
++                suppression=_suppression(loaded, root),
++            )
+         )
+-    )
++    except SecurityCheckerError as exc:
++        _fail(str(exc), exc.exit_code)
+     tasks, overflow = build_tasks(outcome.report.candidates, root, loaded.config)
+     result = estimate_run(tasks, loaded.config, price_table)
+     console.print(
+@@ -426,15 +429,18 @@ def _dry_run(
+ ) -> None:
+     """何が送信されるかを、送信前に全部見せる (設計書 §19.3)."""
+     console = Console()
+-    outcome = asyncio.run(
+-        run_scan(
+-            loaded.config,
+-            root,
+-            extra_warnings=[*loaded.warnings, *diff_warnings],
+-            diff=diff,
+-            suppression=_suppression(loaded, root),
++    try:
++        outcome = asyncio.run(
++            run_scan(
++                loaded.config,
++                root,
++                extra_warnings=[*loaded.warnings, *diff_warnings],
++                diff=diff,
++                suppression=_suppression(loaded, root),
++            )
+         )
+-    )
++    except SecurityCheckerError as exc:
++        _fail(str(exc), exc.exit_code)
+     for message in diff_warnings:
+         console.print(f"[yellow]警告[/yellow]: {message}", highlight=False)
+     if diff is not None:
+diff --git a/tests/unit/test_review_dry_run_scan_error.py b/tests/unit/test_review_dry_run_scan_error.py
+new file mode 100644
+index 0000000..335b130
+--- /dev/null
++++ b/tests/unit/test_review_dry_run_scan_error.py
+@@ -0,0 +1,39 @@
++"""review --dry-run: スキャン中の SecurityCheckerError を整形して終了すること (#187)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from typing import Any
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker import cli
++from security_checker.errors import ConfigError, ExitCode
++
++runner = CliRunner()
++
++
++def test_config_error_during_the_scan_is_a_formatted_exit_2(
++    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    (tmp_path / "security-checker.yml").write_text(
++        "version: 1\n"
++        "scanners:\n  semgrep: { enabled: false }\n  gitleaks: { enabled: false }\n"
++        "reviewers:\n"
++        "  - name: r1\n    transport: http\n    dialect: openai_chat\n"
++        "    base_url: http://127.0.0.1:9/v1\n    model: m\n",
++        encoding="utf-8",
++    )
++
++    async def broken(*args: Any, **kwargs: Any) -> Any:
++        raise ConfigError("同梱ルールを解決できません")
++
++    monkeypatch.setattr(cli, "run_scan", broken)
++    monkeypatch.chdir(tmp_path)
++
++    result = runner.invoke(cli.app, ["review", str(tmp_path), "--dry-run"])
++
++    assert result.exit_code == ExitCode.CONFIG_ERROR
++    assert isinstance(result.exception, SystemExit)
++    assert "同梱ルールを解決できません" in result.stderr

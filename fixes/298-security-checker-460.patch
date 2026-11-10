@@ -1,0 +1,40 @@
+diff --git a/src/security_checker/aggregate/findings.py b/src/security_checker/aggregate/findings.py
+index e32a36e..4b390f5 100644
+--- a/src/security_checker/aggregate/findings.py
++++ b/src/security_checker/aggregate/findings.py
+@@ -78,6 +78,9 @@ def _not_reviewed(candidate: Candidate) -> Finding:
+ def _merge_cwe(candidate: Candidate, verdicts: list[ReviewVerdict]) -> list[str]:
+     merged = list(candidate.cwe)
+     for verdict in verdicts:
++        # 脆弱だと判定できた Reviewer の CWE だけを足す (#460)
++        if verdict.status is not VerdictStatus.OK or not verdict.vulnerable:
++            continue
+         for cwe in verdict.cwe:
+             if cwe not in merged:
+                 merged.append(cwe)
+diff --git a/tests/unit/test_merge_cwe_only_from_vulnerable_verdicts.py b/tests/unit/test_merge_cwe_only_from_vulnerable_verdicts.py
+new file mode 100644
+index 0000000..1b8894b
+--- /dev/null
++++ b/tests/unit/test_merge_cwe_only_from_vulnerable_verdicts.py
+@@ -0,0 +1,20 @@
++"""_merge_cwe: 脆弱だと判定できた Reviewer の CWE だけを Finding に足すこと (#460)."""
++
++from __future__ import annotations
++
++from security_checker.aggregate.findings import _merge_cwe
++from security_checker.models.verdict import VerdictStatus
++from tests.factories import make_candidate, make_verdict
++
++
++def test_cwe_of_a_not_vulnerable_or_failed_verdict_is_left_out() -> None:
++    candidate = make_candidate()
++    verdicts = [
++        make_verdict("r1", cwe=["CWE-918"]),
++        make_verdict("r2", vulnerable=False, cwe=["CWE-611"]),
++        make_verdict("r3", status=VerdictStatus.PROVIDER_ERROR, vulnerable=False, cwe=["CWE-502"]),
++    ]
++
++    merged = _merge_cwe(candidate, verdicts)
++
++    assert merged == [*candidate.cwe, "CWE-918"]

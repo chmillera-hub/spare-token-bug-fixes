@@ -1,0 +1,101 @@
+diff --git a/src/security_checker/observability/trace.py b/src/security_checker/observability/trace.py
+index 66459d2..e705cb5 100644
+--- a/src/security_checker/observability/trace.py
++++ b/src/security_checker/observability/trace.py
+@@ -8,6 +8,7 @@ from __future__ import annotations
+ 
+ import hashlib
+ import json
++import os
+ from pathlib import Path
+ from typing import Any
+ 
+@@ -26,25 +27,48 @@ class TraceWriter:
+         self.enabled = enabled
+         self._index = 0
+ 
++    def _private_root(self) -> None:
++        _private_dir(self.root.parent)
++        _private_dir(self.root)
++
+     def write_run(self, payload: dict[str, Any]) -> Path | None:
+         if not self.enabled:
+             return None
+-        self.root.mkdir(parents=True, exist_ok=True)
++        self._private_root()
+         path = self.root / "run.json"
+-        path.write_text(_dump(payload), encoding="utf-8")
++        _write_private(path, _dump(payload))
+         return path
+ 
+     def write_call(self, payload: dict[str, Any]) -> Path | None:
+         if not self.enabled:
+             return None
+         calls = self.root / "calls"
+-        calls.mkdir(parents=True, exist_ok=True)
++        self._private_root()
++        _private_dir(calls)
+         path = calls / f"{self._index:04d}.json"
+         self._index += 1
+-        path.write_text(_dump(payload), encoding="utf-8")
++        _write_private(path, _dump(payload))
+         return path
+ 
+ 
++def _private_dir(path: Path) -> None:
++    """ディレクトリを作り、所有者だけが読めるようにする (#317). Windows では権限を変えない."""
++    path.mkdir(parents=True, exist_ok=True)
++    if os.name != "nt":
++        path.chmod(0o700)
++
++
++def _write_private(path: Path, text: str) -> None:
++    """所有者だけが読めるファイルとして書く (#317). Windows では通常どおり書く."""
++    if os.name == "nt":
++        path.write_text(text, encoding="utf-8")
++        return
++    descriptor = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
++    with os.fdopen(descriptor, "w", encoding="utf-8") as handle:
++        handle.write(text)
++    path.chmod(0o600)
++
++
+ def _dump(payload: dict[str, Any]) -> str:
+     """マスキングフィルタを必ず通す (§19.1)."""
+     text = json.dumps(payload, ensure_ascii=False, indent=2, default=str)
+diff --git a/tests/unit/test_trace_file_permissions.py b/tests/unit/test_trace_file_permissions.py
+new file mode 100644
+index 0000000..cbab230
+--- /dev/null
++++ b/tests/unit/test_trace_file_permissions.py
+@@ -0,0 +1,30 @@
++"""TraceWriter: trace/ 以下を所有者だけが読める権限で書くこと (#317)."""
++
++from __future__ import annotations
++
++import os
++import stat
++from pathlib import Path
++
++import pytest
++
++from security_checker.observability.trace import TraceWriter
++
++
++def _mode(path: Path) -> int:
++    return stat.S_IMODE(path.stat().st_mode)
++
++
++@pytest.mark.skipif(os.name == "nt", reason="Windows では権限を変えない")
++def test_trace_directories_are_0700_and_files_are_0600(tmp_path: Path) -> None:
++    writer = TraceWriter(tmp_path, "RUN1")
++
++    run_path = writer.write_run({"a": 1})
++    call_path = writer.write_call({"b": 2})
++
++    assert run_path is not None
++    assert call_path is not None
++    for directory in (tmp_path / "trace", tmp_path / "trace" / "RUN1", call_path.parent):
++        assert _mode(directory) == 0o700
++    for file in (run_path, call_path):
++        assert _mode(file) == 0o600

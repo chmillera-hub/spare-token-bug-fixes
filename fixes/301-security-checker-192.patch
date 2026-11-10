@@ -1,0 +1,52 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..01605f6 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -705,10 +705,10 @@ def baseline_update(
+     config = loaded.config.model_copy(
+         update={"policy": loaded.config.policy.model_copy(update={"baseline": None})}
+     )
+-    rules = load_rules(
+-        config, root, config_dir=config_dir, untrusted_target=loaded.untrusted_target
+-    )
+     try:
++        rules = load_rules(
++            config, root, config_dir=config_dir, untrusted_target=loaded.untrusted_target
++        )
+         outcome = asyncio.run(run_scan(config, root, suppression=rules, diff=None))
+     except SecurityCheckerError as exc:
+         _fail(str(exc), exc.exit_code)
+diff --git a/tests/unit/test_baseline_update_broken_ignore_rules.py b/tests/unit/test_baseline_update_broken_ignore_rules.py
+new file mode 100644
+index 0000000..7fc24ad
+--- /dev/null
++++ b/tests/unit/test_baseline_update_broken_ignore_rules.py
+@@ -0,0 +1,28 @@
++"""baseline update: 抑制ルールの読み込みエラーを整形して終了すること (#192)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from typing import Any
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker import cli
++from security_checker.errors import ConfigError
++
++runner = CliRunner()
++
++
++def test_error_from_load_rules_becomes_a_formatted_exit(
++    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    def broken(*args: Any, **kwargs: Any) -> Any:
++        raise ConfigError("ignore ファイルの 3 行目を読めません")
++
++    monkeypatch.setattr(cli, "load_rules", broken)
++
++    result = runner.invoke(cli.app, ["baseline", "update", str(tmp_path)])
++
++    assert result.exit_code == int(ConfigError("x").exit_code)
++    assert isinstance(result.exception, SystemExit)

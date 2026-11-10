@@ -1,0 +1,43 @@
+diff --git a/src/security_checker/context/facts.py b/src/security_checker/context/facts.py
+index 1f22479..3da3f10 100644
+--- a/src/security_checker/context/facts.py
++++ b/src/security_checker/context/facts.py
+@@ -79,7 +79,7 @@ def collect_repo_facts(root: Path) -> RepoFacts:
+     for path in root.rglob("*"):
+         if seen >= MAX_FILES:
+             break
+-        if any(part in SKIP_DIRS for part in path.parts):
++        if any(part in SKIP_DIRS for part in path.relative_to(root).parts):
+             continue
+         if not path.is_file():
+             continue
+diff --git a/tests/unit/test_repo_facts_under_a_directory_named_build.py b/tests/unit/test_repo_facts_under_a_directory_named_build.py
+new file mode 100644
+index 0000000..7941620
+--- /dev/null
++++ b/tests/unit/test_repo_facts_under_a_directory_named_build.py
+@@ -0,0 +1,24 @@
++"""collect_repo_facts: 検査対象の上にあるディレクトリ名で除外しないこと (#304)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++from security_checker.context.facts import collect_repo_facts
++
++
++def test_repository_placed_under_a_directory_named_build_is_still_scanned(tmp_path: Path) -> None:
++    root = tmp_path / "build" / "repo"
++    root.mkdir(parents=True)
++    (root / "app.py").write_text("print(1)\n", encoding="utf-8")
++
++    assert collect_repo_facts(root).languages == ["Python"]
++
++
++def test_build_directory_inside_the_repository_is_still_skipped(tmp_path: Path) -> None:
++    """対になるケース."""
++    inner = tmp_path / "build"
++    inner.mkdir()
++    (inner / "generated.py").write_text("print(1)\n", encoding="utf-8")
++
++    assert collect_repo_facts(tmp_path).languages == []
