@@ -84,12 +84,14 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 - gregoryduckworth/homepage-traefik (all): no license file
 - Subhrangsu90/repopilot-demo (all): no license file
 - vivekbhange-hub/repo-roast-skill 4: labelled enhancement and needs a choice about what counts as a test file
+- Hayuuka/sshhh 8: the maintainer offers two options (build the feature or delete the README section)
+- astahmer/dshfiles 196: cannot be trusted without running the jj tool
 
 ## Leads not yet looked at closely
 
 Read in full and looked doable but not started: hslee16/Archy 749 (two unread comments) and 756 (shallow clone warning: touches three outputs). remitsure/remitsure-frontend 3.
 
-Titles seen but text unread: hslee16/Archy 800 and 802 and the reports labelled good second issue (880 and 893 and 790 and 789 and 785 and 784 and 778 and 776 and 773 and 763 and 759 and 757 and 748 and 747 and 746 and 745 and 744 and 743 and 742 and 741). Santhosh-zeta/ColdGuard 61 (read in full: changes the potency numbers shown on the phone app so needs careful checking against NumPy). Muneer320/klicky 126 (read in full: Rust display fix). renatoasterio/DynamoOps 8 (read in full: the maintainer offers two approaches). ModAVD/ModAVD 135 and 136 and 139. mloda-ai/mloda 2684. TMHSDigital/Free-Game-Dev-Assets 275. astahmer/dshfiles 196. neomjs/neo 20673. Hayuuka/sshhh 8. laaielichter/Gulliver 93 and 109. stillproof-labs/stillproof 13 and 15 (check for a claim rule first). uutils/sed 655 and 657 and 658 (Rust: no way to compile in the session so far). maziyarpanahi/openmed 4544 and 5083 and DarkWorldCoder/market-mirror 53 and 54 (not found in search results on 2026-11-10).
+Titles seen but text unread: hslee16/Archy 800 and 802 and the reports labelled good second issue (880 and 893 and 790 and 789 and 785 and 784 and 778 and 776 and 773 and 763 and 759 and 757 and 748 and 747 and 746 and 745 and 744 and 743 and 742 and 741). Santhosh-zeta/ColdGuard 61 (read in full: changes the potency numbers shown on the phone app so needs careful checking against NumPy). Muneer320/klicky 126 (read in full: Rust display fix). renatoasterio/DynamoOps 8 (read in full: the maintainer offers two approaches). ModAVD/ModAVD 135 and 136 and 139. mloda-ai/mloda 2684. neomjs/neo 20673. laaielichter/Gulliver 93 and 109. stillproof-labs/stillproof 13 and 15 (check for a claim rule first). uutils/sed 655 and 657 and 658 (Rust: no way to compile in the session so far). maziyarpanahi/openmed 4544 and 5083 and DarkWorldCoder/market-mirror 53 and 54 (not found in search results on 2026-11-10).
 
 ## Notes from the session of 2026-11-10
 

@@ -1117,6 +1117,24 @@
    "logic_checked": true,
    "written_on": "2026-11-10",
    "full_report_read": true
+  },
+  {
+   "n": 65,
+   "patch": "65-free-game-dev-assets-275.patch",
+   "project": "TMHSDigital/Free-Game-Dev-Assets",
+   "issue": 275,
+   "lic": "CC0-1.0",
+   "lang": "JavaScript",
+   "test": true,
+   "title": "Free-Game-Dev-Assets: the link check reports a short server outage as dead links",
+   "symptom": "The weekly link check counted every answer from 400 up as a dead link. During a short GitHub outage 70 entries answered 504 and the report listed all 70 as dead. A recheck the same day found all 70 alive. The one real problem in the report was easy to miss.",
+   "change": "classify in site/lib/link-check.mjs returns the kind unavailable for 502 and 503 and 504. site/check-links.mjs retries such an answer once and lists the entries in a collapsed section named Server unavailable that does not count as a problem. When one host answered that way for more than one entry the section starts with one summary line for the host. site/lib/lib.test.mjs gains checks for 502 and 503 and 504 and for codes that stay dead.",
+   "note": "The bug report suggests an optional second retry after about 30 seconds. The fix keeps the existing single immediate retry and adds no delay. A licence page that answers 502 or 503 or 504 is no longer reported as dead and is not listed anywhere. Code 500 still counts as dead because the bug report names only 502 and 503 and 504. The chatbot checked the rule with a scratch script and checked the syntax of the three files with node --check. Nobody ran the project's tests.",
+   "words": "Free-Game-Dev-Assets link check classify 502 503 504 transient outage dead links unavailable could not check GitHub",
+   "report_title": "Link check reports transient 5xx answers (GitHub outage) as dead links",
+   "logic_checked": true,
+   "written_on": "2026-11-10",
+   "full_report_read": true
   }
  ]
 }
