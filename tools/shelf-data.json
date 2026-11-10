@@ -1135,6 +1135,24 @@
    "logic_checked": true,
    "written_on": "2026-11-10",
    "full_report_read": true
+  },
+  {
+   "n": 66,
+   "patch": "66-agav-681.patch",
+   "project": "prapaa-ai/agav",
+   "issue": 681,
+   "lic": "Apache-2.0",
+   "lang": "TypeScript",
+   "test": true,
+   "title": "agav: /undo with a mistyped argument reverts a file",
+   "symptom": "The /undo command treated any unknown argument as a plain undo. A typo such as /undo lsit (meant as /undo list) reverted the last file change.",
+   "change": "source/commands/undo.ts now accepts only empty input (undo) or list (show the tracked changes). Any other argument returns the usage text and reverts nothing. The usage text now names list. A new file source/__tests__/commands.undo.test.ts checks unknown arguments and empty input and list.",
+   "note": "The patch is written against the branch named beta because the bug report names beta as the target. The match for list is exact so /undo List also returns the usage text. Nobody ran the tests. The chatbot parsed both files with the TypeScript parser and found no syntax error.",
+   "words": "agav /undo unknown argument typo lsit reverts file performUndo usage list slash command",
+   "report_title": "fix(commands): reject unknown /undo arguments before reverting files",
+   "logic_checked": false,
+   "written_on": "2026-11-10",
+   "full_report_read": true
   }
  ]
 }
