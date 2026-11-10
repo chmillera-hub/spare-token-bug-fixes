@@ -1,0 +1,50 @@
+diff --git a/.claude/skills/audit-repository/scripts/audit_repository.py b/.claude/skills/audit-repository/scripts/audit_repository.py
+index bd40a88..51ba86b 100644
+--- a/.claude/skills/audit-repository/scripts/audit_repository.py
++++ b/.claude/skills/audit-repository/scripts/audit_repository.py
+@@ -627,11 +627,22 @@ def read_record(path: Path) -> list[Entry]:
+     return entries
+ 
+ 
++def is_calendar_date(text: str) -> bool:
++    """Whether text is YYYY-MM-DD in ASCII digits and names a date that exists."""
++    if not text.isascii() or not DATE_FORMAT.fullmatch(text):
++        return False
++    try:
++        date.fromisoformat(text)
++    except ValueError:
++        return False
++    return True
++
++
+ def record_entry(name: str, number: int, item: object) -> Entry:
+     if not isinstance(item, dict) or set(item) != {"date", "tag", "area"}:
+         raise AuditError(f"{name} audit {number} must have exactly a date, a tag, and an area")
+     when, tag, area = item["date"], item["tag"], item["area"]
+-    if not isinstance(when, str) or not DATE_FORMAT.fullmatch(when):
++    if not isinstance(when, str) or not is_calendar_date(when):
+         raise AuditError(f"{name} audit {number} has a date that is not YYYY-MM-DD")
+     if not isinstance(tag, str) or not is_release_tag(tag):
+         raise AuditError(f"{name} audit {number} has a tag that is not a release tag vX.Y.Z")
+diff --git a/.claude/skills/audit-repository/scripts/test_audit_repository.py b/.claude/skills/audit-repository/scripts/test_audit_repository.py
+index d421099..094dd7c 100644
+--- a/.claude/skills/audit-repository/scripts/test_audit_repository.py
++++ b/.claude/skills/audit-repository/scripts/test_audit_repository.py
+@@ -1320,6 +1320,17 @@ def test_a_code_literal_of_a_printable_path_is_its_json_string_in_backticks() ->
+         pytest.param(
+             '{"audits": [{"date": "1 Jan", "tag": "v1", "area": "deployer"}]}', "not YYYY-MM-DD", id="date-not-iso"
+         ),
++        pytest.param(
++            '{"audits": [{"date": "2026-13-45", "tag": "v1.0.0", "area": "deployer"}]}',
++            "not YYYY-MM-DD",
++            id="date-that-does-not-exist",
++        ),
++        pytest.param(
++            '{"audits": [{"date": "\\u0662\\u0660\\u0662\\u0666-\\u0661\\u0661-\\u0660\\u0669", '
++            '"tag": "v1.0.0", "area": "deployer"}]}',
++            "not YYYY-MM-DD",
++            id="date-in-non-ascii-digits",
++        ),
+         pytest.param(
+             '{"audits": [{"date": "2026-01-01", "tag": " ", "area": "deployer"}]}',
+             "has a tag that is not a release tag vX.Y.Z",

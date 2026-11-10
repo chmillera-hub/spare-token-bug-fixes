@@ -16,7 +16,7 @@ def main(batch):
     try:
         for k, v in json.load(open("/home/claude/work/search/sc_all.json", encoding="utf-8")).items():
             titles[("Sh1n1230/security-checker", int(k))] = v["title"]
-        for name in ("cands.json", "cands2.json"):
+        for name in ("cands.json", "cands2.json", "cands3.json"):
             for v in json.load(open("/home/claude/work/search/" + name, encoding="utf-8")):
                 titles[(v["repo"], v["number"])] = v["title"]
     except FileNotFoundError: pass
@@ -40,6 +40,8 @@ def main(batch):
                 s = s.replace(e["old"], e["new"])
                 if crlf: s = s.replace("\n", "\r\n")
                 open(full, "w", encoding="utf-8", newline="").write(s)
+            for argv in it.get("cmds", []):
+                sh(argv, repo, check=False)
             changed = list(it.get("files", {})) + [e["path"] for e in it.get("edits", [])]
             for path in changed:
                 s = open(f"{repo}/{path}", encoding="utf-8").read()

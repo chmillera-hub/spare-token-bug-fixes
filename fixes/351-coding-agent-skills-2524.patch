@@ -1,0 +1,12 @@
+diff --git a/.claude/skills/shepherd-pull-requests/scripts/shepherd_pull_requests.py b/.claude/skills/shepherd-pull-requests/scripts/shepherd_pull_requests.py
+index 139e986..f2e2b9e 100644
+--- a/.claude/skills/shepherd-pull-requests/scripts/shepherd_pull_requests.py
++++ b/.claude/skills/shepherd-pull-requests/scripts/shepherd_pull_requests.py
+@@ -1,5 +1,6 @@
+ """One tick of the merge shepherd over this repository's open pull requests, so the session that runs it only
+-messages the sessions that own them, judges what the script cannot, and hands each merge to repo-cleanup.
++messages the sessions that own them, judges what the script cannot, and names each merged worktree for the
++user to retire with /repo-cleanup.
+ 
+ Run it from the hub on main. One tick:
+ 

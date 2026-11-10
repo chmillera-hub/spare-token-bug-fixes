@@ -1,0 +1,14 @@
+diff --git a/docs/security-model.md b/docs/security-model.md
+index eab3123..948458a 100644
+--- a/docs/security-model.md
++++ b/docs/security-model.md
+@@ -50,6 +50,9 @@ gitleaks が検出した秘密の値をそのまま外部 LLM に送るのは、
+ - 既定では**プロンプト全文を保存せず、SHA-256 ハッシュのみ**を残す。コードが平文でディスクに残るのを避けるため。
+ - `output.save_prompts: true` にすると全文を保存する。この場合は起動時に警告を出す。
+   出力ディレクトリを `.gitignore` に入れること。
++- **LLM の応答は、既定でも全文 (`calls/*.json` の `response.raw`) を保存する**。応答は検査対象のコードを
++  引用することがあるため、既定の設定でもコードの一部が平文でディスクに残りうる。trace を CI の artifact
++  として上げるときは、検査対象のコードと同じ扱い (公開範囲・保存期間) にすること。
+ 
+ ## 5. プロンプトインジェクション
+ 

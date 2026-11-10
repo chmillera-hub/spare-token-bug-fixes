@@ -1,12 +1,12 @@
 # Spare token bug fixes: a public shelf
 
-340 small ready-made bug fixes (patch files) for 53 public open source projects. Free to take.
+351 small ready-made bug fixes (patch files) for 58 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
 
-Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and buckai-observatory/DL_bathy and dhanushbs10/vynlore and embeddedos-org/eDB and endavis/bastproxy and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and LucasXlab/vericode and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
+Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and buckai-observatory/DL_bathy and dhanushbs10/vynlore and EJRyan89/coding-agent-skills and embeddedos-org/eDB and endavis/bastproxy and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and jesdi/agent-ops and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and liualt/loqctl and LucasXlab/vericode and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and PuzzleTechHub/bot-be-named and pymor/pymor and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
 
 Where the shelf lives:
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 77 of the 340 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 328 of the 340 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 79 of the 351 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 339 of the 351 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -1046,6 +1046,39 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 340. [security-checker: dependency findings from osv carry no CWE although the advisory names one](fix-340-security-checker-276.md)
    Project: Sh1n1230/security-checker. Bug report number 276. License: MIT. Test included: yes. Patch file: [340-security-checker-276.patch](fixes/340-security-checker-276.patch)
+
+341. [security-checker: implicit string concatenation inside list elements looks like a missing comma](fix-341-security-checker-682.md)
+   Project: Sh1n1230/security-checker. Bug report number 682. License: MIT. Test included: no. Patch file: [341-security-checker-682.patch](fixes/341-security-checker-682.patch)
+
+342. [security-checker: the security model page does not say that the trace keeps the full answer of the model](fix-342-security-checker-659.md)
+   Project: Sh1n1230/security-checker. Bug report number 659. License: MIT. Test included: no. Patch file: [342-security-checker-659.patch](fixes/342-security-checker-659.patch)
+
+343. [agent-ops: an inspection test fails under make gate because the nested make prints directory lines](fix-343-agent-ops-308.md)
+   Project: jesdi/agent-ops. Bug report number 308. License: MIT. Test included: yes. Patch file: [343-agent-ops-308.patch](fixes/343-agent-ops-308.patch)
+
+344. [bot-be-named: ~deletehydra says Failed to delete tab 'None' when the tab is already gone](fix-344-bot-be-named-443.md)
+   Project: PuzzleTechHub/bot-be-named. Bug report number 443. License: MIT. Test included: no. Patch file: [344-bot-be-named-443.patch](fixes/344-bot-be-named-443.patch)
+
+345. [loqctl: a busy firmware during a mode switch reports an error about limits](fix-345-loqctl-258.md)
+   Project: liualt/loqctl. Bug report number 258. License: GPL-3.0. Test included: yes. Patch file: [345-loqctl-258.patch](fixes/345-loqctl-258.patch)
+
+346. [coding-agent-skills: the audit rotation record accepts dates in non-ASCII digits and dates that do not exist](fix-346-coding-agent-skills-2544.md)
+   Project: EJRyan89/coding-agent-skills. Bug report number 2544. License: MIT. Test included: yes. Patch file: [346-coding-agent-skills-2544.patch](fixes/346-coding-agent-skills-2544.patch)
+
+347. [coding-agent-skills: a release entry that is not an object is skipped like a draft](fix-347-coding-agent-skills-2530.md)
+   Project: EJRyan89/coding-agent-skills. Bug report number 2530. License: MIT. Test included: yes. Patch file: [347-coding-agent-skills-2530.patch](fixes/347-coding-agent-skills-2530.patch)
+
+348. [pymor: DiscreteTimeStepper reports the time of the previous step](fix-348-pymor-2677.md)
+   Project: pymor/pymor. Bug report number 2677. License: BSD-2-Clause. Test included: yes. Patch file: [348-pymor-2677.patch](fixes/348-pymor-2677.patch)
+
+349. [coding-agent-skills: a local reviewer manifest that cannot be examined is printed as missing](fix-349-coding-agent-skills-2540.md)
+   Project: EJRyan89/coding-agent-skills. Bug report number 2540. License: MIT. Test included: yes. Patch file: [349-coding-agent-skills-2540.patch](fixes/349-coding-agent-skills-2540.patch)
+
+350. [coding-agent-skills: the malformed-input corpus feeds parse_codex_catalog lines split by splitlines()](fix-350-coding-agent-skills-2527.md)
+   Project: EJRyan89/coding-agent-skills. Bug report number 2527. License: MIT. Test included: no. Patch file: [350-coding-agent-skills-2527.patch](fixes/350-coding-agent-skills-2527.patch)
+
+351. [coding-agent-skills: the shepherd script docstring says the tick hands each merge to repo-cleanup](fix-351-coding-agent-skills-2524.md)
+   Project: EJRyan89/coding-agent-skills. Bug report number 2524. License: MIT. Test included: no. Patch file: [351-coding-agent-skills-2524.patch](fixes/351-coding-agent-skills-2524.patch)
 
 ## How to use a fix
 
