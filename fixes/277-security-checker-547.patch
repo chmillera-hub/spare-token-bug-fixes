@@ -1,0 +1,48 @@
+diff --git a/tests/unit/test_http_transport_aclose_owned_client.py b/tests/unit/test_http_transport_aclose_owned_client.py
+new file mode 100644
+index 0000000..de6fc56
+--- /dev/null
++++ b/tests/unit/test_http_transport_aclose_owned_client.py
+@@ -0,0 +1,42 @@
++"""HttpProvider.aclose: 自分で作ったクライアントだけを閉じること."""
++
++from __future__ import annotations
++
++import httpx
++
++from security_checker.providers.base import Capabilities
++from security_checker.providers.http.dialects.openai_chat import OpenAIChatDialect
++from security_checker.providers.http.transport import HttpProvider
++
++
++def _provider(client: httpx.AsyncClient | None) -> HttpProvider:
++    return HttpProvider(
++        name="r1",
++        dialect=OpenAIChatDialect(),
++        base_url="http://endpoint.test/v1",
++        model="m",
++        capabilities=Capabilities(),
++        api_key=None,
++        client=client,
++    )
++
++
++async def test_aclose_closes_the_client_the_provider_created() -> None:
++    provider = _provider(None)
++    owned = provider._client
++    assert not owned.is_closed
++
++    await provider.aclose()
++
++    assert owned.is_closed
++
++
++async def test_aclose_leaves_a_client_passed_in_by_the_caller_open() -> None:
++    """対になるケース. 呼び出し側が渡したクライアントは呼び出し側が閉じる."""
++    client = httpx.AsyncClient()
++    provider = _provider(client)
++
++    await provider.aclose()
++
++    assert not client.is_closed
++    await client.aclose()

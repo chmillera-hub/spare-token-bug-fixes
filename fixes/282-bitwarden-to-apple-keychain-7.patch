@@ -1,0 +1,68 @@
+diff --git a/convert.py b/convert.py
+index d735464..bc9a2cb 100644
+--- a/convert.py
++++ b/convert.py
+@@ -90,7 +90,9 @@ def convert(input_path: str) -> None:
+ 
+     print(f"Done — {kept} passwords written to {output_file}")
+     if multi_site_entries:
+-        print(f"Found {len(multi_site_entries)} multi-site entries — see {multi_site_file}")
++        count = len(multi_site_entries)
++        noun = "entry" if count == 1 else "entries"
++        print(f"Found {count} multi-site {noun} — see {multi_site_file}")
+     if skipped:
+         print(f"Skipped {skipped} non-login entries (notes, cards, etc.)")
+ 
+diff --git a/tests/test_multi_site_plural.py b/tests/test_multi_site_plural.py
+new file mode 100644
+index 0000000..314b43b
+--- /dev/null
++++ b/tests/test_multi_site_plural.py
+@@ -0,0 +1,47 @@
++import shutil
++import subprocess
++import sys
++import tempfile
++import unittest
++from pathlib import Path
++
++ROOT = Path(__file__).resolve().parent.parent
++FIXTURE = ROOT / "tests" / "fixtures" / "sample_export.csv"
++HEADER = "folder,favorite,type,name,notes,fields,reprompt,login_uri,login_username,login_password,login_totp\n"
++
++
++def run(*args):
++    return subprocess.run([sys.executable, str(ROOT / "convert.py"), *map(str, args)],
++                          capture_output=True, text=True)
++
++
++class MultiSitePluralTest(unittest.TestCase):
++    def setUp(self):
++        self.tmp = Path(tempfile.mkdtemp())
++
++    def tearDown(self):
++        shutil.rmtree(self.tmp)
++
++    def test_one_multi_site_entry_uses_the_singular(self):
++        export = self.tmp / "export.csv"
++        shutil.copy(FIXTURE, export)
++        result = run(export)
++        self.assertEqual(result.returncode, 0)
++        self.assertIn("Found 1 multi-site entry ", result.stdout)
++        self.assertNotIn("multi-site entries", result.stdout)
++
++    def test_two_multi_site_entries_use_the_plural(self):
++        export = self.tmp / "export.csv"
++        export.write_text(
++            HEADER
++            + ',,login,A,,,0,"https://a.example.com,https://b.example.com",alice,pw-1,\n'
++            + ',,login,B,,,0,"https://c.example.com,https://d.example.com",bob,pw-2,\n',
++            encoding="utf-8",
++        )
++        result = run(export)
++        self.assertEqual(result.returncode, 0)
++        self.assertIn("Found 2 multi-site entries ", result.stdout)
++
++
++if __name__ == "__main__":
++    unittest.main()

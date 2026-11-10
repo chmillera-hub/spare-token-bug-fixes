@@ -1,0 +1,26 @@
+diff --git a/tests/unit/test_registry_http_provider_unresolved_base_url.py b/tests/unit/test_registry_http_provider_unresolved_base_url.py
+new file mode 100644
+index 0000000..452740d
+--- /dev/null
++++ b/tests/unit/test_registry_http_provider_unresolved_base_url.py
+@@ -0,0 +1,20 @@
++"""build_http_provider: preset からも base_url が決まらないときは ConfigError になること."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.config.schema import ReviewerConfig
++from security_checker.errors import ConfigError
++from security_checker.providers.presets.loader import HttpPreset
++from security_checker.providers.registry import build_http_provider
++
++
++def test_preset_without_base_url_and_reviewer_without_base_url_is_a_config_error() -> None:
++    reviewer = ReviewerConfig(name="r1", transport="http", preset="no-url", model="m")
++    presets = {"no-url": HttpPreset(name="no-url", dialect="openai_chat")}
++
++    with pytest.raises(ConfigError, match="dialect / base_url / model") as excinfo:
++        build_http_provider(reviewer, environ={}, presets=presets)
++
++    assert "r1" in str(excinfo.value)

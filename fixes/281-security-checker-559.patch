@@ -1,0 +1,44 @@
+diff --git a/tests/unit/test_markdown_summary_suppressed_and_false_positive.py b/tests/unit/test_markdown_summary_suppressed_and_false_positive.py
+new file mode 100644
+index 0000000..e52cd6d
+--- /dev/null
++++ b/tests/unit/test_markdown_summary_suppressed_and_false_positive.py
+@@ -0,0 +1,38 @@
++"""report.md の概要表: 抑制の行と、誤検出だけのときの判定の行."""
++
++from __future__ import annotations
++
++from security_checker.models.enums import FindingStatus
++from security_checker.models.finding import SuppressionReason
++from security_checker.models.report import SuppressedCandidate
++from security_checker.report.markdown import _summary
++from tests.factories import make_candidate, make_finding, make_report
++
++
++def test_suppressed_candidates_get_their_own_row() -> None:
++    suppressed = [
++        SuppressedCandidate(candidate=make_candidate("s1"), reason=SuppressionReason.BASELINE),
++        SuppressedCandidate(candidate=make_candidate("s2"), reason=SuppressionReason.BASELINE),
++        SuppressedCandidate(candidate=make_candidate("s3"), reason=SuppressionReason.IGNORE_FILE),
++    ]
++    report = make_report([], suppressed=suppressed)
++
++    lines = _summary(report)
++
++    assert "| 抑制 | 3 件 (baseline 2 / ignore 1) (レビュー・判定の対象外) |" in lines
++
++
++def test_false_positives_alone_are_named_in_the_verdict_row() -> None:
++    candidate = make_candidate("c1")
++    report = make_report([candidate], [make_finding(candidate, FindingStatus.FALSE_POSITIVE)])
++
++    lines = _summary(report)
++
++    assert "| 判定 | 誤検出 1 |" in lines
++
++
++def test_no_suppression_row_without_suppressed_candidates() -> None:
++    """対になるケース."""
++    lines = _summary(make_report([]))
++
++    assert not any(line.startswith("| 抑制 |") for line in lines)

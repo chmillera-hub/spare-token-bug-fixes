@@ -1,0 +1,50 @@
+diff --git a/tests/unit/test_registry_build_provider_plugin_transport.py b/tests/unit/test_registry_build_provider_plugin_transport.py
+new file mode 100644
+index 0000000..33d3005
+--- /dev/null
++++ b/tests/unit/test_registry_build_provider_plugin_transport.py
+@@ -0,0 +1,44 @@
++"""build_provider: http / process 以外の transport はプラグインの factory に渡すこと."""
++
++from __future__ import annotations
++
++from typing import Any
++
++import pytest
++
++from security_checker.config.schema import ReviewerConfig
++from security_checker.errors import ConfigError
++from security_checker.providers.registry import build_provider
++
++
++def _plugin_reviewer() -> ReviewerConfig:
++    base = ReviewerConfig(name="r1", transport="process", command=["tool"])
++    # transport は Literal なので、検証を通さない model_copy でプラグインの名前に差し替える
++    return base.model_copy(update={"transport": "custom"})
++
++
++def test_plugin_factory_receives_the_reviewer_and_its_result_is_returned() -> None:
++    reviewer = _plugin_reviewer()
++    received: list[Any] = []
++    sentinel = object()
++
++    def factory(config: Any) -> Any:
++        received.append(config)
++        return sentinel
++
++    provider = build_provider(reviewer, plugins={"custom": factory})
++
++    assert provider is sentinel
++    assert received == [reviewer]
++
++
++def test_unknown_transport_lists_the_registered_plugins() -> None:
++    """対になるケース. 該当するプラグインが無ければ、登録済みの名前を添えて ConfigError."""
++
++    def factory(config: Any) -> Any:
++        return config
++
++    with pytest.raises(ConfigError, match="custom") as excinfo:
++        build_provider(_plugin_reviewer(), plugins={"other": factory})
++
++    assert "other" in str(excinfo.value)

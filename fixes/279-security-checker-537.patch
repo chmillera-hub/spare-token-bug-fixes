@@ -1,0 +1,47 @@
+diff --git a/tests/unit/test_gemini_generate_seed_and_no_system_role.py b/tests/unit/test_gemini_generate_seed_and_no_system_role.py
+new file mode 100644
+index 0000000..b5782e1
+--- /dev/null
++++ b/tests/unit/test_gemini_generate_seed_and_no_system_role.py
+@@ -0,0 +1,41 @@
++"""gemini_generate の build_payload: seed の送信と、system ロールが使えないときの連結."""
++
++from __future__ import annotations
++
++from security_checker.providers.base import Capabilities, CompletionRequest, StructuredMode
++from security_checker.providers.http.dialects.gemini_generate import GeminiGenerateDialect
++
++
++def _payload(capabilities: Capabilities, request: CompletionRequest) -> dict[str, object]:
++    return GeminiGenerateDialect().build_payload(
++        request, model="m", capabilities=capabilities, mode=StructuredMode.PROMPT_ONLY
++    )
++
++
++def test_seed_is_sent_when_the_endpoint_supports_it() -> None:
++    request = CompletionRequest(system="sys", user="usr", seed=7)
++
++    payload = _payload(Capabilities(supports_seed=True), request)
++
++    generation = payload["generationConfig"]
++    assert isinstance(generation, dict)
++    assert generation["seed"] == 7
++
++
++def test_seed_is_not_sent_when_the_endpoint_does_not_support_it() -> None:
++    request = CompletionRequest(system="sys", user="usr", seed=7)
++
++    payload = _payload(Capabilities(supports_seed=False), request)
++
++    generation = payload["generationConfig"]
++    assert isinstance(generation, dict)
++    assert "seed" not in generation
++
++
++def test_system_text_is_joined_into_the_user_turn_without_a_system_role() -> None:
++    request = CompletionRequest(system="sys", user="usr")
++
++    payload = _payload(Capabilities(supports_system_role=False), request)
++
++    assert "systemInstruction" not in payload
++    assert payload["contents"] == [{"role": "user", "parts": [{"text": "sys\n\nusr"}]}]

@@ -1,12 +1,12 @@
 # Spare token bug fixes: a public shelf
 
-271 small ready-made bug fixes (patch files) for 47 public open source projects. Free to take.
+284 small ready-made bug fixes (patch files) for 48 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
 
-Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and dhanushbs10/vynlore and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
+Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and dhanushbs10/vynlore and FROWNINGdev/orm-lens and gabe-santana/arkdraw and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and Jigsaw777/OpenKeet and JimmyDi/loop and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
 
 Where the shelf lives:
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 71 of the 271 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 259 of the 271 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 71 of the 284 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 272 of the 284 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -839,6 +839,45 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 271. [security-checker: no test covers the combined detection of process and HTTP reviewers](fix-271-security-checker-534.md)
    Project: Sh1n1230/security-checker. Bug report number 534. License: MIT. Test included: yes. Patch file: [271-security-checker-534.patch](fixes/271-security-checker-534.patch)
+
+272. [security-checker: no test covers a provider plugin that fails to load](fix-272-security-checker-554.md)
+   Project: Sh1n1230/security-checker. Bug report number 554. License: MIT. Test included: yes. Patch file: [272-security-checker-554.patch](fixes/272-security-checker-554.patch)
+
+273. [security-checker: no test covers broken preset capabilities or a raised output token limit](fix-273-security-checker-555.md)
+   Project: Sh1n1230/security-checker. Bug report number 555. License: MIT. Test included: yes. Patch file: [273-security-checker-555.patch](fixes/273-security-checker-555.patch)
+
+274. [security-checker: no test covers an http reviewer whose base_url cannot be resolved](fix-274-security-checker-556.md)
+   Project: Sh1n1230/security-checker. Bug report number 556. License: MIT. Test included: yes. Patch file: [274-security-checker-556.patch](fixes/274-security-checker-556.patch)
+
+275. [security-checker: no test covers a process reviewer whose command cannot be resolved](fix-275-security-checker-557.md)
+   Project: Sh1n1230/security-checker. Bug report number 557. License: MIT. Test included: yes. Patch file: [275-security-checker-557.patch](fixes/275-security-checker-557.patch)
+
+276. [security-checker: no test covers a reviewer whose transport belongs to a plugin](fix-276-security-checker-558.md)
+   Project: Sh1n1230/security-checker. Bug report number 558. License: MIT. Test included: yes. Patch file: [276-security-checker-558.patch](fixes/276-security-checker-558.patch)
+
+277. [security-checker: no test covers closing the HTTP client that the provider created](fix-277-security-checker-547.md)
+   Project: Sh1n1230/security-checker. Bug report number 547. License: MIT. Test included: yes. Patch file: [277-security-checker-547.patch](fixes/277-security-checker-547.patch)
+
+278. [security-checker: no test covers a 200 answer whose JSON is a list or a bare value](fix-278-security-checker-548.md)
+   Project: Sh1n1230/security-checker. Bug report number 548. License: MIT. Test included: yes. Patch file: [278-security-checker-548.patch](fixes/278-security-checker-548.patch)
+
+279. [security-checker: no test covers sending a seed or joining the system text into the user turn for Gemini](fix-279-security-checker-537.md)
+   Project: Sh1n1230/security-checker. Bug report number 537. License: MIT. Test included: yes. Patch file: [279-security-checker-537.patch](fixes/279-security-checker-537.patch)
+
+280. [security-checker: no test covers the hint shown when Gemini rejects the response schema](fix-280-security-checker-540.md)
+   Project: Sh1n1230/security-checker. Bug report number 540. License: MIT. Test included: yes. Patch file: [280-security-checker-540.patch](fixes/280-security-checker-540.patch)
+
+281. [security-checker: no test covers the suppression row or the false positive count of the report summary](fix-281-security-checker-559.md)
+   Project: Sh1n1230/security-checker. Bug report number 559. License: MIT. Test included: yes. Patch file: [281-security-checker-559.patch](fixes/281-security-checker-559.patch)
+
+282. [bitwarden-to-apple-keychain converter: one multi-site entry is reported as 1 multi-site entries](fix-282-bitwarden-to-apple-keychain-7.md)
+   Project: MehdiMamas/bitwarden-to-apple-keychain-converter-script. Bug report number 7. License: MIT. Test included: yes. Patch file: [282-bitwarden-to-apple-keychain-7.patch](fixes/282-bitwarden-to-apple-keychain-7.patch)
+
+283. [bitwarden-to-apple-keychain converter: empty logins are counted as non-login entries in the skip message](fix-283-bitwarden-to-apple-keychain-4.md)
+   Project: MehdiMamas/bitwarden-to-apple-keychain-converter-script. Bug report number 4. License: MIT. Test included: yes. Patch file: [283-bitwarden-to-apple-keychain-4.patch](fixes/283-bitwarden-to-apple-keychain-4.patch)
+
+284. [bitwarden-to-apple-keychain converter: no way to choose where the Chrome CSV is written](fix-284-bitwarden-to-apple-keychain-5.md)
+   Project: MehdiMamas/bitwarden-to-apple-keychain-converter-script. Bug report number 5. License: MIT. Test included: yes. Patch file: [284-bitwarden-to-apple-keychain-5.patch](fixes/284-bitwarden-to-apple-keychain-5.patch)
 
 ## How to use a fix
 
