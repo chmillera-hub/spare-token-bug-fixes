@@ -67,7 +67,21 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 - andrewsiah/agentswarm-data-tasks 35: asks for a claim comment
 - itsOmidKarami/kraft 1343: asks for screenshots
 - Santhosh-zeta/ColdGuard 143: wording choice for the maintainers
+- FROWNINGdev/orm-lens 222: no longer in the list of open bug reports on 2026-11-10
+- laaielichter/Gulliver 98: asks for a claim comment and already has three comments that could not be read
+- mila-iqia/cluv 278: the output format needs maintainer choices and the result cannot be trusted without running against remote clusters
+- hslee16/Archy 882: the maintainers must choose the shape of the result and every sweep caller changes
+- himanshu748/ContextFirewall 67: asks for a claim comment and offers two different approaches for /health
+- sameeralam3127/llm-dev-kit 70: needs a new stored field in the database and cannot be trusted without running the app
+- DarkWorldCoder/market-mirror 94: needs the lock file rebuilt with the project's tooling and an unknown list of lint errors fixed
+- adhit-r/fairmind 369: the address must change in step in the frontend and the backend setting and the Authentik setup script and the docs. Sign-in can only be confirmed by running the app with an Authentik server. The project also asks contributors to sign a contributor agreement.
 
 ## Leads not yet looked at closely
 
-FROWNINGdev/orm-lens 220 and 222 and 224. laaielichter/Gulliver 98. itsOmidKarami/kraft 1345 and 1347. mila-iqia/cluv 278. hslee16/Archy 882. maziyarpanahi/openmed 4544 and 5083. vivekbhange-hub/repo-roast-skill 2 and 3. DarkWorldCoder/market-mirror 53 and 54 and 94. himanshu748/ContextFirewall 67. sameeralam3127/llm-dev-kit 70. Hadeva-Dev/dawnmere 16. adhit-r/fairmind 369.
+maziyarpanahi/openmed 4544 and 5083 (not found in the first 100 search results on 2026-11-10 so the text is still unread). DarkWorldCoder/market-mirror 53 and 54 (same: not found in the first 100 results). FROWNINGdev/orm-lens 226 and 227 (labelled help wanted). hslee16/Archy 752 (self-import counted as its own importer: read in full and looks doable but touches several metrics) and 795 (read in full: simulate headline) and 796 and 761 and 756 and 749 and 642. itsOmidKarami/kraft 1348 and 1117 and 1116. mila-iqia/cluv 259.
+
+## Notes from the session of 2026-11-10
+
+- The GitHub address for one bug report (api.github.com/repos/OWNER/PROJECT/issues/NUMBER) was refused for projects that are not attached to the session. The search address still worked: api.github.com/search/issues?q=repo:OWNER/PROJECT+is:issue+state:open returns the full text of each bug report. Wait about seven seconds between searches.
+- Use the date in UTC for written_on. tools/build_shelf.py counts every fix dated 2026-11-09 as part of the first batch.
+- hslee16/Archy and FROWNINGdev/orm-lens bug reports name file lines from an older commit. Find the function by name before editing.
