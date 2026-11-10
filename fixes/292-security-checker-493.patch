@@ -1,0 +1,44 @@
+diff --git a/tests/unit/test_repo_facts_limits_and_skips.py b/tests/unit/test_repo_facts_limits_and_skips.py
+new file mode 100644
+index 0000000..21f72f6
+--- /dev/null
++++ b/tests/unit/test_repo_facts_limits_and_skips.py
+@@ -0,0 +1,38 @@
++"""collect_repo_facts: 走査の上限・読み飛ばすディレクトリ・認証らしいパスの検出."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++import pytest
++
++from security_checker.context import facts
++
++
++def test_scan_stops_at_the_file_limit(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
++    (tmp_path / "app.py").write_text("print(1)\n", encoding="utf-8")
++    monkeypatch.setattr(facts, "MAX_FILES", 0)
++
++    assert facts.collect_repo_facts(tmp_path).languages == []
++
++
++def test_files_under_a_skipped_directory_are_not_counted(tmp_path: Path) -> None:
++    hidden = tmp_path / "node_modules" / "pkg"
++    hidden.mkdir(parents=True)
++    (hidden / "index.js").write_text("module.exports = 1\n", encoding="utf-8")
++    (tmp_path / "app.py").write_text("print(1)\n", encoding="utf-8")
++
++    assert facts.collect_repo_facts(tmp_path).languages == ["Python"]
++
++
++def test_a_path_with_an_auth_marker_sets_has_auth_layer(tmp_path: Path) -> None:
++    (tmp_path / "login_view.py").write_text("print(1)\n", encoding="utf-8")
++
++    assert facts.collect_repo_facts(tmp_path).has_auth_layer is True
++
++
++def test_no_auth_marker_leaves_has_auth_layer_unknown(tmp_path: Path) -> None:
++    """対になるケース. 見つからないときは False ではなく None (不明)."""
++    (tmp_path / "app.py").write_text("print(1)\n", encoding="utf-8")
++
++    assert facts.collect_repo_facts(tmp_path).has_auth_layer is None

@@ -1,0 +1,83 @@
+diff --git a/tests/unit/test_trivy_parser_skipped_entries.py b/tests/unit/test_trivy_parser_skipped_entries.py
+new file mode 100644
+index 0000000..a43e6c1
+--- /dev/null
++++ b/tests/unit/test_trivy_parser_skipped_entries.py
+@@ -0,0 +1,77 @@
++"""parse_trivy: 形の崩れた結果・除外パス・FAIL 以外・ID の無い項目の扱い."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from typing import Any
++
++from security_checker.scanners.trivy import parse_trivy
++
++
++def _misconfig(**overrides: Any) -> dict[str, Any]:
++    item: dict[str, Any] = {"Status": "FAIL", "ID": "DS002", "Title": "root user"}
++    item.update(overrides)
++    return item
++
++
++def test_results_that_are_not_a_list_give_one_warning(tmp_path: Path) -> None:
++    candidates, warnings = parse_trivy({"Results": {"Target": "Dockerfile"}}, tmp_path)
++
++    assert candidates == []
++    assert warnings == ["trivy の出力の Results が配列ではありません"]
++
++
++def test_result_without_a_target_is_skipped_with_a_warning(tmp_path: Path) -> None:
++    payload = {"Results": [{"Misconfigurations": [_misconfig()]}]}
++
++    candidates, warnings = parse_trivy(payload, tmp_path)
++
++    assert candidates == []
++    assert warnings == ["trivy の結果に Target がありません"]
++
++
++def test_excluded_target_is_skipped_without_a_warning(tmp_path: Path) -> None:
++    payload = {"Results": [{"Target": "vendor/Dockerfile", "Misconfigurations": [_misconfig()]}]}
++
++    candidates, warnings = parse_trivy(payload, tmp_path, exclude=["vendor"])
++
++    assert candidates == []
++    assert warnings == []
++
++
++def test_passed_checks_and_checks_without_an_id_are_skipped(tmp_path: Path) -> None:
++    payload = {
++        "Results": [
++            {
++                "Target": "Dockerfile",
++                "Misconfigurations": [
++                    _misconfig(Status="PASS"),
++                    {"Status": "FAIL", "Title": "no id"},
++                    _misconfig(),
++                ],
++            }
++        ]
++    }
++
++    candidates, warnings = parse_trivy(payload, tmp_path)
++
++    assert [candidate.rule_id for candidate in candidates] == ["DS002"]
++    assert warnings == ["Dockerfile: ID の無い誤設定を読み飛ばしました"]
++
++
++def test_vulnerability_without_id_or_package_name_is_skipped(tmp_path: Path) -> None:
++    payload = {
++        "Results": [
++            {
++                "Target": "requirements.txt",
++                "Type": "pip",
++                "Vulnerabilities": [{"PkgName": "flask"}, {"VulnerabilityID": "CVE-2024-0001"}],
++            }
++        ]
++    }
++
++    candidates, warnings = parse_trivy(payload, tmp_path)
++
++    assert candidates == []
++    assert len(warnings) == 2
++    assert all(warning.startswith("requirements.txt: ") for warning in warnings)

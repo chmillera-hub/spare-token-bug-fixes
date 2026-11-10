@@ -1,0 +1,33 @@
+diff --git a/tests/unit/test_markdown_findings_section_overflow.py b/tests/unit/test_markdown_findings_section_overflow.py
+new file mode 100644
+index 0000000..0957b0d
+--- /dev/null
++++ b/tests/unit/test_markdown_findings_section_overflow.py
+@@ -0,0 +1,27 @@
++"""report.md: 1 つのセクションの Finding が上限を超えたら、残りの件数を案内すること."""
++
++from __future__ import annotations
++
++from security_checker.models.enums import FindingStatus
++from security_checker.models.report import Report
++from security_checker.report.markdown import MAX_FINDINGS_PER_SECTION, _findings
++from tests.factories import make_candidate, make_finding, make_report
++
++
++def _report(count: int) -> Report:
++    candidates = [make_candidate(f"c{index}", line=index + 1) for index in range(count)]
++    findings = [make_finding(candidate, FindingStatus.CONFIRMED) for candidate in candidates]
++    return make_report(candidates, findings)
++
++
++def test_one_finding_over_the_limit_points_to_report_json() -> None:
++    lines = _findings(_report(MAX_FINDINGS_PER_SECTION + 1))
++
++    assert "_ほか 1 件は `report.json` を参照_" in lines
++
++
++def test_exactly_the_limit_shows_no_overflow_line() -> None:
++    """対になるケース."""
++    lines = _findings(_report(MAX_FINDINGS_PER_SECTION))
++
++    assert not any("report.json` を参照" in line for line in lines)

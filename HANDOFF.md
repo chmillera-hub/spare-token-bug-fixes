@@ -135,6 +135,11 @@ Changing the video: the seconds per fix are the two duration lines in tools/buil
 - ourdao/ourdao-frontend 536: the download checks the bytes against the content id so the test needs content ids computed by the project's own code
 - rel-kit/relkit 183 and 184: need a re-pinned template digest or a regenerated help snapshot made by the project's tooling
 - mfeflow/mfeflow 96: needs template version bumps and may change generated snapshot files
+- svayatta/agent-custody 305: writableAncestor is also called with the path of the log file so a plain directory check would reject an existing log file. The fix needs a choice about the callers
+- svayatta/agent-custody 303: the fix needs new wording about what a door receipt proves and that wording is for the maintainers
+- LucasXlab/vericode 2: the text does not say what the type check and the test run should do for a single file
+- MehdiMamas/bitwarden-to-apple-keychain-converter-script 6: offers two ways (a warning or a refusal without --force)
+- Sh1n1230/security-checker 487: the line is marked pragma: no cover in the newest code
 
 ## Leads not yet looked at closely
 
@@ -207,4 +212,16 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - security-checker reports read and skipped in this session: 467 (the method is used by two tests so removal needs a choice) and 441 (needs a new warning path and a docs change).
 - security-checker reports still open and not started. Untested lines: 537 and 540 and 547 and 548 and 554 to 560 and 563 to 569 and 571 to 576 and 582 and 586 to 588 and 591 to 593 and 532 and 527 and 510 and 508 and 500 to 502 and 493 and 474 to 487. Docstrings: 382 (21 items in config/schema.py) and 384 to 392 and 404 and 420. Typing reports 350 to 363 and complexity reports 338 to 349 need more judgment.
 - Working method that was fast: one JSON list of edits per batch and one helper that applies each edit and saves one patch per report and resets the clone. Tests go in new files only. Publish after every batch of about twenty so nothing is lost.
+
+## Notes from the seventh session of 2026-11-10 (fixes 272 to 297)
+
+- Charles asked for a flat 500 fixes. This session added 26 and the shelf holds 297. 203 more are needed for 500. The work stopped because each fix took a lot of reading and not because the reports ran out.
+- Push access to chmillera-hub/game1 was refused by a safety check in this session. The website copy still holds 271 fixes. Next session: ask for push access to game1 again and run python3 tools/build_shelf.py g1 PATH_TO_GAME1_PROJECT and push.
+- GitHub answered the third search with the secondary rate limit. Two saved searches gave 166 reports. Most of them carry a claim rule or ask for a feature.
+- New helper: tools/add_fixes.py BATCH.json. A batch is a JSON list. Each item names a clone folder (repo) and the project and the report number and new files (files: path to content) and edits (path and old text and new text) and the shelf texts. The helper applies the change and checks syntax and saves the patch and resets the clone and runs git apply --check and adds the shelf entry. The paths at the top of the helper (SHELF and REPOS and the two saved search files) must be changed to the folders of the new session. The helper keeps Windows line endings: the bitwarden converter project stores convert.py and README.md with CRLF and a patch with plain line endings does not apply there.
+- Projects new to the shelf: MehdiMamas/bitwarden-to-apple-keychain-converter-script (fixes 282 to 284: 282 and 283 collide) and LucasXlab/vericode (294) and btclib-org/btclib-wallet (297).
+- Sh1n1230/security-checker: 21 more fixes (272 to 281 and 285 to 293 and 295 and 296). All 21 apply one after another. Fix 293 (named constants in osv.py) applies together with 142 and 144 and 191.
+- A test that starts a script with subprocess and text=True must not set encoding to utf-8 when the script prints a long dash: on Windows the script writes the dash in the local code page.
+- security-checker untested-line reports still open and not started: 474 to 486 except 480 (cli.py: each needs the CliRunner patterns of tests/unit/test_cli.py) and 500 and 501 and 527 and 532 and 564 to 569 and 571 to 574 and 576 and 582 and 587 and 591 and 593. Bug reports 161 to 337 and 433 to 466 of that project are real bugs with clear texts and nobody on this shelf has started them: read 191 and 266 and 294 and 307 and 317 and 441 first.
+- Leads read and not started: AIwithDiego/humanizer-es 11 and 12 (a pattern for tools/deslop_es.py plus test lines: license not checked). abiroland/AI-MRG-Framework 15 (escape spreadsheet formulas in CSV output: touches four files). matchboxdesigngroup/wazuh-mcp 9 and 16. anubhav-qt/breader 3. piotrwozn/cairnmind 37. remitsure/remitsure-backend 19. l3montree-dev/devguard 3320.
 

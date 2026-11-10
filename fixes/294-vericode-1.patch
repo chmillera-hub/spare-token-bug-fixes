@@ -1,0 +1,35 @@
+diff --git a/tests/test_cli_version.py b/tests/test_cli_version.py
+new file mode 100644
+index 0000000..b192dbd
+--- /dev/null
++++ b/tests/test_cli_version.py
+@@ -0,0 +1,12 @@
++"""The CLI answers --version with the package version."""
++
++from click.testing import CliRunner
++
++from vericode import __version__
++from vericode.cli import main
++
++
++def test_version_flag_prints_the_package_version():
++    out = CliRunner().invoke(main, ["--version"])
++    assert out.exit_code == 0
++    assert __version__ in out.output
+diff --git a/vericode/cli.py b/vericode/cli.py
+index ee03ccf..a85d2bc 100644
+--- a/vericode/cli.py
++++ b/vericode/cli.py
+@@ -9,10 +9,12 @@ from pathlib import Path
+ import click
+ from rich.console import Console
+ 
++from . import __version__
+ from .core import run
+ 
+ 
+ @click.command()
++@click.version_option(__version__)
+ @click.argument("target", default=".", type=click.Path(exists=True, path_type=Path))
+ @click.option("--json", "json_output", is_flag=True, help="Output JSON instead of a pretty report.")
+ @click.option(
