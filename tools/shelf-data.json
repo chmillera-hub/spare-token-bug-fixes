@@ -1099,6 +1099,24 @@
    "logic_checked": false,
    "written_on": "2026-11-10",
    "full_report_read": true
+  },
+  {
+   "n": 64,
+   "patch": "64-loop-117.patch",
+   "project": "JimmyDi/loop",
+   "issue": 117,
+   "lic": "MIT",
+   "lang": "TypeScript",
+   "test": true,
+   "title": "loop: cleaning a session title removes the visible text between two terminal escape sequences",
+   "symptom": "The session title cleaner strips terminal title sequences (OSC sequences). When two such sequences ended with the ESC-backslash terminator the pattern ran from the start of the first sequence to the end of the second one. The ordinary text between the two sequences was deleted.",
+   "change": "The first pattern in normalizeTitle in packages/coding-agent/src/core/titles/title-text.ts no longer lets the body of a sequence hold an ESC character. Each sequence now ends at its own terminator. The test file gains cases for repeated ESC-backslash terminators and for mixed terminators. CHANGELOG.md gains a line.",
+   "note": "The chatbot checked the new pattern with a scratch script against the new cases and the existing case. Nobody ran the project's tests. Fixes 62 and 64 change neighbouring lines of the same function and the same test file and fixes 62 and 63 and 64 each add a line at the same spot of CHANGELOG.md. Applying more than one needs a small manual merge.",
+   "words": "loop coding-agent normalizeTitle OSC escape sequence ESC backslash string terminator ST greedy visible text removed",
+   "report_title": "bug(coding-agent): OSC stripping removes visible text between escape sequences",
+   "logic_checked": true,
+   "written_on": "2026-11-10",
+   "full_report_read": true
   }
  ]
 }
