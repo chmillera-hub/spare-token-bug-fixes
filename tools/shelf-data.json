@@ -1171,6 +1171,24 @@
    "logic_checked": false,
    "written_on": "2026-11-10",
    "full_report_read": true
+  },
+  {
+   "n": 68,
+   "patch": "68-openkeet-15.patch",
+   "project": "Jigsaw777/OpenKeet",
+   "issue": 15,
+   "lic": "MIT",
+   "lang": "TypeScript (React)",
+   "test": true,
+   "title": "OpenKeet: a newly added document is not ticked when building an interview pack",
+   "symptom": "On the Prepare page a person adds a resume and then a job description. Only the resume was ticked under Use these documents. The job description was left out of the interview pack unless the person noticed and ticked the box.",
+   "change": "A new file apps/desktop/src/prep-sources.ts holds reconcileSources: a document seen for the first time is ticked and an unticked document stays unticked and a removed document leaves the selection. apps/desktop/src/prep.tsx remembers the document ids already handled and calls the helper whenever the list of documents changes. A new file apps/desktop/tests/prep-sources.test.ts covers the three cases from the bug report.",
+   "note": "The helper file and the test file are both written by the chatbot. The chatbot ran those two files in a scratch folder with the project's own test command line (node --experimental-strip-types --test) and all five tests passed. No other project code was run and the app itself was not started. The effect now reacts to the list of document ids and not only to the number of documents.",
+   "words": "OpenKeet Prepare page interview pack Use these documents new document not ticked sources selection prep.tsx useEffect",
+   "report_title": "New documents aren't ticked when building an interview pack",
+   "logic_checked": true,
+   "written_on": "2026-11-10",
+   "full_report_read": true
   }
  ]
 }
