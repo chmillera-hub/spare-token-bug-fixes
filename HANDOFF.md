@@ -75,13 +75,29 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 - sameeralam3127/llm-dev-kit 70: needs a new stored field in the database and cannot be trusted without running the app
 - DarkWorldCoder/market-mirror 94: needs the lock file rebuilt with the project's tooling and an unknown list of lint errors fixed
 - adhit-r/fairmind 369: the address must change in step in the frontend and the backend setting and the Authentik setup script and the docs. Sign-in can only be confirmed by running the app with an Authentik server. The project also asks contributors to sign a contributor agreement.
+- mila-iqia/cluv 261: the right behaviour for --test-only is the subject of an open feature request (193)
+- itsOmidKarami/kraft 1117: asks for a before and after screenshot
+- hslee16/Archy 526: cannot be trusted without running the tree-sitter parser
+- salismt/promisebench 1: the fix changes the benchmark and must ship as a new fixture version
+- stillproof-labs/stillproof-anchor 5: says comment to be assigned before starting
+- flisk-sh/flisk 3536: asks for a claim comment and a rebuilt cli/dist folder and a signed-off commit and re-captured file hashes
+- gregoryduckworth/homepage-traefik (all): no license file
+- Subhrangsu90/repopilot-demo (all): no license file
+- vivekbhange-hub/repo-roast-skill 4: labelled enhancement and needs a choice about what counts as a test file
 
 ## Leads not yet looked at closely
 
-maziyarpanahi/openmed 4544 and 5083 (not found in the first 100 search results on 2026-11-10 so the text is still unread). DarkWorldCoder/market-mirror 53 and 54 (same: not found in the first 100 results). FROWNINGdev/orm-lens 226 and 227 (labelled help wanted). hslee16/Archy 752 (self-import counted as its own importer: read in full and looks doable but touches several metrics) and 795 (read in full: simulate headline) and 796 and 761 and 756 and 749 and 642. itsOmidKarami/kraft 1348 and 1117 and 1116. mila-iqia/cluv 259.
+Read in full and looked doable but not started: hslee16/Archy 749 (two unread comments) and 756 (shallow clone warning: touches three outputs). remitsure/remitsure-frontend 3 and 5. JimmyDi/loop 115 and 116.
+
+Titles seen but text unread: hslee16/Archy 800 and 802 and the reports labelled good second issue (880 and 893 and 790 and 789 and 785 and 784 and 778 and 776 and 773 and 763 and 759 and 757 and 748 and 747 and 746 and 745 and 744 and 743 and 742 and 741). JimmyDi/loop 117. Santhosh-zeta/ColdGuard 61. Muneer320/klicky 126. ModAVD/ModAVD 135 and 136 and 139. mloda-ai/mloda 2684. TMHSDigital/Free-Game-Dev-Assets 275. astahmer/dshfiles 196. renatoasterio/DynamoOps 8. neomjs/neo 20673. Hayuuka/sshhh 8. laaielichter/Gulliver 93 and 109. stillproof-labs/stillproof 13 and 15 (check for a claim rule first). uutils/sed 655 and 657 and 658 (Rust: no way to compile in the session so far). maziyarpanahi/openmed 4544 and 5083 and DarkWorldCoder/market-mirror 53 and 54 (not found in search results on 2026-11-10).
 
 ## Notes from the session of 2026-11-10
 
 - The GitHub address for one bug report (api.github.com/repos/OWNER/PROJECT/issues/NUMBER) was refused for projects that are not attached to the session. The search address still worked: api.github.com/search/issues?q=repo:OWNER/PROJECT+is:issue+state:open returns the full text of each bug report. Wait about seven seconds between searches.
 - Use the date in UTC for written_on. tools/build_shelf.py counts every fix dated 2026-11-09 as part of the first batch.
 - hslee16/Archy and FROWNINGdev/orm-lens bug reports name file lines from an older commit. Find the function by name before editing.
+- A second search that worked well for projects in other languages: label:"good first issue" label:bug state:open is:issue no:assignee created:>DATE comments:0 -language:python with sort=created.
+- Check the end of every bug report for a claim rule. Several projects end the text with "comment to be assigned" (skip) or "comment before you start" (the earlier sessions wrote the fix and put a note on the fix page).
+- When two fixes for one project add tests put the second test in a new file. Two patches that add text at the same spot of one file do not apply together.
+- Projects with a prettier or ruff format check: write new code in the shape the formatter would produce. Nobody ran any formatter in the session of 2026-11-10.
+
