@@ -1,0 +1,52 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..6b938fc 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -11,6 +11,7 @@ import json
+ import os
+ import shlex
+ import sys
++import traceback
+ from pathlib import Path
+ from typing import Annotated, Any, NoReturn
+ 
+@@ -984,6 +985,10 @@ def main() -> None:
+     except SecurityCheckerError as exc:  # pragma: no cover - 最後の砦
+         err_console.print(f"[bold red]エラー:[/bold red] {redact_known_patterns(str(exc))}")
+         sys.exit(int(exc.exit_code))
++    except Exception:
++        # 想定外の例外は「ツールが壊れた」(exit 3). ポリシー違反 (exit 1) と区別する (#207)
++        traceback.print_exc()
++        sys.exit(int(ExitCode.EXECUTION_ERROR))
+ 
+ 
+ if __name__ == "__main__":  # pragma: no cover
+diff --git a/tests/unit/test_main_unexpected_exception_exit_code.py b/tests/unit/test_main_unexpected_exception_exit_code.py
+new file mode 100644
+index 0000000..640c084
+--- /dev/null
++++ b/tests/unit/test_main_unexpected_exception_exit_code.py
+@@ -0,0 +1,23 @@
++"""main: 想定外の例外は exit 3 で終わり、スタックトレースを標準エラーに出すこと (#207)."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker import cli
++from security_checker.errors import ExitCode
++
++
++def test_unexpected_exception_ends_with_the_execution_error_code(
++    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
++) -> None:
++    def broken() -> None:
++        raise RuntimeError("scanner exploded")
++
++    monkeypatch.setattr(cli, "app", broken)
++
++    with pytest.raises(SystemExit) as excinfo:
++        cli.main()
++
++    assert excinfo.value.code == int(ExitCode.EXECUTION_ERROR)
++    assert "scanner exploded" in capsys.readouterr().err

@@ -225,3 +225,14 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - security-checker untested-line reports still open and not started: 474 to 486 except 480 (cli.py: each needs the CliRunner patterns of tests/unit/test_cli.py) and 500 and 501 and 527 and 532 and 564 to 569 and 571 to 574 and 576 and 582 and 587 and 591 and 593. Bug reports 161 to 337 and 433 to 466 of that project are real bugs with clear texts and nobody on this shelf has started them: read 191 and 266 and 294 and 307 and 317 and 441 first.
 - Leads read and not started: AIwithDiego/humanizer-es 11 and 12 (a pattern for tools/deslop_es.py plus test lines: license not checked). abiroland/AI-MRG-Framework 15 (escape spreadsheet formulas in CSV output: touches four files). matchboxdesigngroup/wazuh-mcp 9 and 16. anubhav-qt/breader 3. piotrwozn/cairnmind 37. remitsure/remitsure-backend 19. l3montree-dev/devguard 3320.
 
+## Notes from the eighth session of 2026-11-10 (fixes 298 to 325)
+
+- The shelf holds 325 fixes. Charles asked for a flat 500 so 175 more are needed.
+- All 28 fixes of this session are for Sh1n1230/security-checker. 26 of them fix real bug reports from the ranges 161 to 337 and 433 to 466 and 597 to 701 (not test-only reports): 460 211 304 192 266 317 206 227 463 187 332 294 254 441 459 328 305 235 221 228 271 200 290 207 701 598 601. Two are test-only (576) or wording-only (228 is help text and 254 is one workflow line).
+- All 28 patches apply one after another except fix 321 (report 207) which collides with fix 304 (report 206): both change main in cli.py.
+- Push access to chmillera-hub/game1 was refused again. The website copy still holds 271 fixes.
+- tools/add_fixes.py now accepts count in an edit (the old text must appear exactly that many times and every one is replaced).
+- Way of working that kept the cost per fix low: print only the proposal section of a report (the text after the heading 提案 or 対応案) for many reports at once and pick the reports with exactly one proposed way and then read only the function named in the report.
+- security-checker reports read in this session and skipped because the text offers two ways or needs a design choice: 191 199 203 210 212 213 307 321 334 433 435 466 625 645 680 685 688 300 (a validator would break the test factories) 189 (no cheap test) 279 (needs the trivy test doubles) 620 251 303 225 280 335 444 449 461.
+- security-checker reports with one clear way that nobody has started: 209 (init --stdout prints the list to standard output) 214 (warnings of providers check and baseline update) 613 614 621 661 665 694 695 and the test-only reports 475 to 486 and 500 501 527 532 564 to 574 582 587 591 593.
+

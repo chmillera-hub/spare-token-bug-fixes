@@ -43,7 +43,7 @@ _fail and the last-resort handler in main now pass the message through rich.mark
 - The fix was written against the project's code as of 2026-11-10 and may no longer apply cleanly.
 - The patch applied cleanly to the project's newest code on 2026-11-10 (checked with git apply --check).
 - Nobody has sent the fix to the project. Anyone is free to test the fix and send the fix.
-- The chatbot did not run the project's tests so nobody has confirmed that the new test passes or that every existing test still passes. The bug report also names five warning lines that keep markup switched on. This patch does not change those five lines.
+- The chatbot did not run the project's tests so nobody has confirmed that the new test passes or that every existing test still passes. The bug report also names five warning lines that keep markup switched on. This patch does not change those five lines. This patch and the patch of fix 321 on this shelf change neighbouring lines of main and do not apply together.
 
 ## Search words
 

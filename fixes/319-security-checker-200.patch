@@ -1,0 +1,92 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..dd227ab 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -855,17 +855,22 @@ def providers_check(
+             ExitCode.CONFIG_ERROR,
+         )
+     console = Console()
+-    failed = False
+-    for reviewer in reviewers:
+-        result = asyncio.run(check_reviewer(reviewer, probe=not no_probe))
+-        mark = "[green]✓[/green]" if result.ok else "[red]✗[/red]"
+-        console.print(f"{mark} [bold]{result.name}[/bold] ({result.transport})")
+-        for step in result.steps:
+-            step_mark = "[green]ok[/green]" if step.ok else "[red]NG[/red]"
+-            console.print(f"    {step.label:<8} {step_mark}  {step.detail}", highlight=False)
+-        for suggestion in result.suggestions:
+-            console.print(f"    [yellow]→[/yellow] {suggestion}", highlight=False)
+-        failed = failed or not result.ok
++    async def check_all() -> bool:
++        """全 Reviewer を 1 つのイベントループの中で順に確かめる (#200)."""
++        failed = False
++        for reviewer in reviewers:
++            result = await check_reviewer(reviewer, probe=not no_probe)
++            mark = "[green]✓[/green]" if result.ok else "[red]✗[/red]"
++            console.print(f"{mark} [bold]{result.name}[/bold] ({result.transport})")
++            for step in result.steps:
++                step_mark = "[green]ok[/green]" if step.ok else "[red]NG[/red]"
++                console.print(f"    {step.label:<8} {step_mark}  {step.detail}", highlight=False)
++            for suggestion in result.suggestions:
++                console.print(f"    [yellow]→[/yellow] {suggestion}", highlight=False)
++            failed = failed or not result.ok
++        return failed
++
++    failed = asyncio.run(check_all())
+     raise typer.Exit(code=int(ExitCode.EXECUTION_ERROR if failed else ExitCode.OK))
+ 
+ 
+diff --git a/tests/unit/test_providers_check_single_event_loop.py b/tests/unit/test_providers_check_single_event_loop.py
+new file mode 100644
+index 0000000..f051783
+--- /dev/null
++++ b/tests/unit/test_providers_check_single_event_loop.py
+@@ -0,0 +1,48 @@
++"""providers check: 全 Reviewer を 1 回の asyncio.run の中で確かめること (#200)."""
++
++from __future__ import annotations
++
++import asyncio
++from pathlib import Path
++from types import SimpleNamespace
++from typing import Any
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker import cli
++
++runner = CliRunner()
++
++CONFIG = (
++    "version: 1\n"
++    "scanners:\n  semgrep: { enabled: false }\n  gitleaks: { enabled: false }\n"
++    "reviewers:\n"
++    "  - name: r1\n    transport: http\n    dialect: openai_chat\n"
++    "    base_url: http://127.0.0.1:9/v1\n    model: m\n"
++    "  - name: r2\n    transport: http\n    dialect: openai_chat\n"
++    "    base_url: http://127.0.0.1:9/v1\n    model: m\n"
++)
++
++
++def test_two_reviewers_are_checked_inside_one_event_loop(
++    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    (tmp_path / "security-checker.yml").write_text(CONFIG, encoding="utf-8")
++    loops: list[asyncio.AbstractEventLoop] = []
++
++    async def fake_check(reviewer: Any, *, probe: bool) -> Any:
++        loops.append(asyncio.get_running_loop())
++        return SimpleNamespace(
++            ok=True, name=reviewer.name, transport="http", steps=[], suggestions=[]
++        )
++
++    monkeypatch.setattr(cli, "check_reviewer", fake_check)
++
++    result = runner.invoke(cli.app, ["providers", "check", "--path", str(tmp_path)])
++
++    assert result.exit_code == 0
++    assert len(loops) == 2
++    assert loops[0] is loops[1]
++    assert "r1" in result.stdout
++    assert "r2" in result.stdout

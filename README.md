@@ -1,6 +1,6 @@
 # Spare token bug fixes: a public shelf
 
-318 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
+325 small ready-made bug fixes (patch files) for 50 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
@@ -17,8 +17,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 74 of the 318 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 306 of the 318 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 75 of the 325 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 313 of the 325 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -980,6 +980,27 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 318. [security-checker: semgrep severities CRITICAL and HIGH and MEDIUM are all treated as low](fix-318-security-checker-271.md)
    Project: Sh1n1230/security-checker. Bug report number 271. License: MIT. Test included: yes. Patch file: [318-security-checker-271.patch](fixes/318-security-checker-271.patch)
+
+319. [security-checker: providers check starts a new event loop for every reviewer](fix-319-security-checker-200.md)
+   Project: Sh1n1230/security-checker. Bug report number 200. License: MIT. Test included: yes. Patch file: [319-security-checker-200.patch](fixes/319-security-checker-200.patch)
+
+320. [security-checker: internal Japanese docstrings are sent to the model inside the answer schema](fix-320-security-checker-290.md)
+   Project: Sh1n1230/security-checker. Bug report number 290. License: MIT. Test included: yes. Patch file: [320-security-checker-290.patch](fixes/320-security-checker-290.patch)
+
+321. [security-checker: an unexpected exception ends with exit code 1 which also means a policy violation](fix-321-security-checker-207.md)
+   Project: Sh1n1230/security-checker. Bug report number 207. License: MIT. Test included: yes. Patch file: [321-security-checker-207.patch](fixes/321-security-checker-207.patch)
+
+322. [security-checker: scanner error output goes into report.json with keys and proxy passwords in clear text](fix-322-security-checker-701.md)
+   Project: Sh1n1230/security-checker. Bug report number 701. License: MIT. Test included: yes. Patch file: [322-security-checker-701.patch](fixes/322-security-checker-701.patch)
+
+323. [security-checker: no test covers a scanner command that runs past its timeout](fix-323-security-checker-576.md)
+   Project: Sh1n1230/security-checker. Bug report number 576. License: MIT. Test included: yes. Patch file: [323-security-checker-576.patch](fixes/323-security-checker-576.patch)
+
+324. [security-checker: the PR summary comment says nothing about scanners that were skipped](fix-324-security-checker-598.md)
+   Project: Sh1n1230/security-checker. Bug report number 598. License: MIT. Test included: yes. Patch file: [324-security-checker-598.patch](fixes/324-security-checker-598.patch)
+
+325. [security-checker: the PR summary calls false positives suppressed which reads like baseline suppression](fix-325-security-checker-601.md)
+   Project: Sh1n1230/security-checker. Bug report number 601. License: MIT. Test included: yes. Patch file: [325-security-checker-601.patch](fixes/325-security-checker-601.patch)
 
 ## How to use a fix
 
