@@ -196,3 +196,15 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - Pranayd555/codelens-graph: the three new patches and the seven older ones were checked against the newest dev branch and all still apply one by one.
 - Use one helper script per session that saves the patch and resets the clone and runs git apply --check. A file removed with git rm must be removed again with plain rm before git diff or the deletion is missing from the patch.
 
+## Notes from the sixth session of 2026-11-10 (fixes 172 to 271)
+
+- One hundred fixes were added and published in six batches. All one hundred are for Sh1n1230/security-checker because that project has about 500 open reports and most of them are small and exact. The shelf is now lopsided: 136 of 271 fixes belong to that one project. For the next round look for other projects first.
+- Four kinds of report were used. Named constants for bare numbers (364 to 378). Missing docstrings (379 to 432). Untested lines (468 to 536). Small bugs with a clear fix (446 and 452 and 453 and 462).
+- Docstring reports: the project writes its docstrings in Japanese. Read the function body before writing the docstring and check every claim against the code. Each fix page says a native reader should check the wording.
+- Patches that collide (each pair is named in both notes): 132 with 180 and 132 with 264. 179 with 197. 185 with 225. 177 with 235. 121 with 136. Every other security-checker patch from 132 to 271 applies one after another (131 patches in a row).
+- A docstring patch collides with a code patch only when the two changes sit within three lines of each other. Check pairs with git apply --check after applying one of them.
+- The line length limit of the project is 100 columns and Japanese characters count as two columns. Check every added line with unicodedata.east_asian_width before saving a patch.
+- security-checker reports read and skipped in this session: 467 (the method is used by two tests so removal needs a choice) and 441 (needs a new warning path and a docs change).
+- security-checker reports still open and not started. Untested lines: 537 and 540 and 547 and 548 and 554 to 560 and 563 to 569 and 571 to 576 and 582 and 586 to 588 and 591 to 593 and 532 and 527 and 510 and 508 and 500 to 502 and 493 and 474 to 487. Docstrings: 382 (21 items in config/schema.py) and 384 to 392 and 404 and 420. Typing reports 350 to 363 and complexity reports 338 to 349 need more judgment.
+- Working method that was fast: one JSON list of edits per batch and one helper that applies each edit and saves one patch per report and resets the clone. Tests go in new files only. Publish after every batch of about twenty so nothing is lost.
+
