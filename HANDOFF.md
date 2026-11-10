@@ -14,6 +14,7 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 - fixes/N-project-issue.patch: one git patch file per fix
 - tools/shelf-data.json: one entry per fix (project and bug report number and license and plain descriptions and flags)
 - tools/build_shelf.py: rebuilds every page from the data file and the patch files
+- tools/build_video.sh and tools/video_cards.py and tools/video_music.py: build the video of every fix (see the section How to make the video)
 - README.md and fix-*.md and index.json and llms.txt: generated files. Do not edit them by hand.
 
 ## How to add a fix
@@ -27,6 +28,30 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 7. Run: python3 tools/build_shelf.py g1 PATH_TO_GAME1_PROJECT
 8. Commit and push both projects.
 9. Check that every patch_raw_url and page_raw_url in index.json loads.
+
+## How to make the video
+
+Charles posts a video of the shelf on social media so a person or a chatbot who sees the video can find a fix and send the fix on. Rebuild the video whenever fixes were added.
+
+1. Finish the shelf first: every new fix has its entry in tools/shelf-data.json. The video reads that file.
+2. Make sure python3 has Pillow and NumPy and that ffmpeg is installed.
+3. Run: bash tools/build_video.sh SOME_EMPTY_WORK_FOLDER OUTPUT.mp4 (name the output after the number of fixes: for example 121-free-bug-fixes-fast.mp4).
+4. Look at three frames before sending: the first frame and one fix screen and the closing screen. ffmpeg -ss SECONDS -i OUTPUT.mp4 -frames:v 1 frame.png grabs one frame.
+5. Send the file to Charles in the chat. The video is not stored in either GitHub project.
+
+What the build script makes and why:
+
+- Portrait 1080 by 1920 at 30 frames per second. Why: Charles posts the video on phones.
+- An opening screen for 3 seconds with the shelf address and five steps for using a fix. Then one screen per fix in order for 1.5 seconds each. Then a closing screen for 3 seconds. Why 1.5 seconds: Charles asked for that length because a chatbot reads the frames fast. A person has to pause to read a screen.
+- Straight cuts between screens with no scroll. Why: a fast scroll made the file four times larger and gave blurred in-between frames.
+- The first frame is the opening screen with no fade from black. Why: social media previews show the first frame.
+- Each fix screen shows the fix number and the project and the bug report number and the title and what is wrong and what the fix changes and the patch file name and a three-line warning (written by an AI chatbot and not reviewed and not tested in the project and not sent). The note field with the limits of each fix is not on the screen: the fix pages hold the notes.
+- Music: tools/video_music.py makes soft chords and a plucked pattern from scratch. No existing song or recording is used. Why: a video with someone else's music can be taken down.
+- Small file: one encode of still screens (libx264 with crf 31 and the stillimage tune) and 48 kbit audio. 121 fixes gave 3 minutes 8 seconds and about 8.4 megabytes. Why: Charles wants the smallest file that keeps the text sharp so uploads are fast.
+
+Limits to tell Charles each time: nobody listened to the music (the script only measures loudness when asked) and the screens leave out the notes of each fix.
+
+Changing the video: the seconds per fix are the two duration lines in tools/build_video.sh. The look of the screens is in tools/video_cards.py (the text shrinks by itself until a fix fits on one screen). An older slow version (5 seconds per fix with a scroll between fixes and about 30 megabytes for 101 fixes) was replaced by this fast version at Charles's request.
 
 ## Rules for choosing bug reports
 
