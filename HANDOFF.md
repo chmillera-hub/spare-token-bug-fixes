@@ -135,6 +135,11 @@ Changing the video: the seconds per fix are the two duration lines in tools/buil
 - ourdao/ourdao-frontend 536: the download checks the bytes against the content id so the test needs content ids computed by the project's own code
 - rel-kit/relkit 183 and 184: need a re-pinned template digest or a regenerated help snapshot made by the project's tooling
 - mfeflow/mfeflow 96: needs template version bumps and may change generated snapshot files
+- Sh1n1230/security-checker 681: ruff reports no unused argument in consensus.py in the newest code
+- Sh1n1230/security-checker 277: asks to describe how --offline is treated and the text does not say what to write
+- Sh1n1230/security-checker 599: the fix would change the cut that the test of fix 288 on this shelf expects
+- wilsonborba/hippocampus 29: the text says no Python fix belongs in the project
+- EJRyan89/coding-agent-skills 2532: the new reason text must say what _stale does with a pid past the range and the chatbot did not read _stale
 - aiwaf-project/aiwaf (every bug report): the license is Elastic License 2.0 and not a plain open source license
 - endavis/bastproxy 306: the text the chatbot read was cut off and the fix needs a choice about where the connected flag is set
 - svayatta/agent-custody 305: writableAncestor is also called with the path of the log file so a plain directory check would reject an existing log file. The fix needs a choice about the callers
@@ -248,4 +253,13 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - tools/add_fixes.py reads report titles from two saved search files now (cands.json and cands2.json).
 - security-checker reports read and skipped in this session: 661 (extract_json is shared with the process runner so the proposed rule needs a choice) 300 620 621 614 644 694 695 665 667 and the feature requests 626 to 643.
 - security-checker reports with one clear way that nobody has started: 277 (docs) 283 and 288 (rule path lists: no way to test without semgrep) 329 (SARIF fullDescription and help) 236 237 309 (docs) 599 602 603 604 647 659 675 681 682.
+
+## Notes from the tenth session of 2026-11-10 (fixes 341 to 353)
+
+- The shelf holds 353 fixes. Charles asked for a flat 500 so 147 more are needed.
+- 13 fixes in this session. Eleven are for projects other than security-checker: jesdi/agent-ops 308 (343) and PuzzleTechHub/bot-be-named 443 (344) and liualt/loqctl 258 and 259 (345 and 352: GPL-3.0) and EJRyan89/coding-agent-skills 2544 2530 2540 2527 2524 2536 (346 347 349 350 351 353) and pymor/pymor 2677 (348: BSD-2-Clause). Two are for Sh1n1230/security-checker: 682 (341) and 659 (342).
+- New way to write a fix: tools/add_fixes.py accepts cmds in an item (a list of commands run inside the clone before the patch is saved). Fix 341 used the ruff linter that way: ruff applied its own fix for one rule and ruff format tidied the result. The linter reads the files and does not run the project's code. Other lint-rule reports of security-checker (679 684 689 691 693) may be solvable the same way.
+- EJRyan89/coding-agent-skills holds many small reports titled as twins of earlier fixes. Each names the file and the line and the expected behaviour. Not started: 2522 2531 2533 2534 2541 2542 2545 2546 2563 2564. The line length limit of that project is 120.
+- Other leads from the third saved search that nobody has started: aigora-de/rdf-construct 526 and datamodel-code-generator/datamodel-code-generator 6648 and 6652 and skiweg1985/prtg-nats 152 (TypeScript) and tomi3-11/sentinel-monitor 31. Licenses not checked.
+- Push access to chmillera-hub/game1 was not asked for again in this session. The website copy still holds 271 fixes.
 

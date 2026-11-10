@@ -1,9 +1,9 @@
 {
   "name": "Spare token bug fixes: a public shelf",
-  "description": "351 small AI-written bug fixes for 58 public open source projects. None have been sent to the projects. Anyone (human or AI) may test a fix and submit the fix.",
+  "description": "353 small AI-written bug fixes for 58 public open source projects. None have been sent to the projects. Anyone (human or AI) may test a fix and submit the fix.",
   "repository": "https://github.com/chmillera-hub/spare-token-bug-fixes",
   "website": "https://chmillera-hub.github.io/game1/spare-token-bug-fixes/",
-  "fix_count": 351,
+  "fix_count": 353,
   "fixes": [
     {
       "id": 1,
@@ -12580,6 +12580,78 @@
       "page_raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-351-coding-agent-skills-2524.md",
       "github_page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/fix-351-coding-agent-skills-2524.md",
       "website_page_url": "https://chmillera-hub.github.io/game1/spare-token-bug-fixes/fix-351-coding-agent-skills-2524.html",
+      "status": {
+        "sent_to_project": false,
+        "ai_written": true,
+        "human_reviewed": false,
+        "project_tests_run": false,
+        "duplicate_check_done": false,
+        "full_bug_report_read": true,
+        "logic_checked_with_separate_script": false,
+        "bug_report_comments_read": false,
+        "patch_applied_cleanly_on": "2026-11-10"
+      },
+      "written_on": "2026-11-10"
+    },
+    {
+      "id": 352,
+      "title": "loqctl: a power mode change during a fan curve write still reports success",
+      "project": "liualt/loqctl",
+      "project_url": "https://github.com/liualt/loqctl",
+      "bug_report_number": 259,
+      "bug_report_url": "https://github.com/liualt/loqctl/issues/259",
+      "bug_report_title": "Fn+Q during a fan curve write still reports success",
+      "search_keywords": "loqctl write_fancurve Fn+Q mode change during write custom mode fan curve success read_mode",
+      "license": "GPL-3.0",
+      "language": "Python",
+      "files_changed": [
+        "loqctl/hardware.py",
+        "tests/test_fancurve.py"
+      ],
+      "test_included": true,
+      "symptom": "Hardware.write_fancurve in loqctl/hardware.py checks the mode once and then writes every point. The firmware can change the mode (Fn+Q) during the write. Points written after the change land in a mode that resets them and loqctl still reports success.",
+      "change": "write_fancurve now reads the mode again after the write and raises ControlError that names the new mode when the mode is no longer custom. A new block in the existing fan curve test makes read_mode answer custom and then balanced and expects the error.",
+      "note": "The chatbot did not run the project's code or tests. The bug report also says active.json should not be updated in that case. The chatbot did not read the callers so nobody has confirmed that every caller skips the update when write_fancurve raises. The bug report says real hardware is needed to see what the firmware does with points written during a mode change.",
+      "patch_raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/352-loqctl-259.patch",
+      "page_raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-352-loqctl-259.md",
+      "github_page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/fix-352-loqctl-259.md",
+      "website_page_url": "https://chmillera-hub.github.io/game1/spare-token-bug-fixes/fix-352-loqctl-259.html",
+      "status": {
+        "sent_to_project": false,
+        "ai_written": true,
+        "human_reviewed": false,
+        "project_tests_run": false,
+        "duplicate_check_done": false,
+        "full_bug_report_read": true,
+        "logic_checked_with_separate_script": false,
+        "bug_report_comments_read": false,
+        "patch_applied_cleanly_on": "2026-11-10"
+      },
+      "written_on": "2026-11-10"
+    },
+    {
+      "id": 353,
+      "title": "coding-agent-skills: two FAILED lines print outside text without flat_text",
+      "project": "EJRyan89/coding-agent-skills",
+      "project_url": "https://github.com/EJRyan89/coding-agent-skills",
+      "bug_report_number": 2536,
+      "bug_report_url": "https://github.com/EJRyan89/coding-agent-skills/issues/2536",
+      "bug_report_title": "repository skills: FAILED lines print an outside value without flat_text",
+      "search_keywords": "coding-agent-skills FAILED line flat_text audit_repository pull_request outside value one line git error",
+      "license": "MIT",
+      "language": "Python",
+      "files_changed": [
+        ".claude/skills/audit-repository/scripts/audit_repository.py",
+        ".claude/skills/implement-change/scripts/pull_request.py"
+      ],
+      "test_included": false,
+      "symptom": "main in .claude/skills/audit-repository/scripts/audit_repository.py and main in .claude/skills/implement-change/scripts/pull_request.py print FAILED followed by the error text as it is. The error can carry an error message from git that spans several lines so the FAILED line is not one line.",
+      "change": "Both lines now pass the error text through flat_text which both scripts already import. Each FAILED line is one line.",
+      "note": "No test was added because the chatbot did not read how the project tests the main functions of these two scripts. The chatbot did not run the project's code or tests. The bug report text the chatbot read was cut off after the first sentence of the expected behaviour.",
+      "patch_raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fixes/353-coding-agent-skills-2536.patch",
+      "page_raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/fix-353-coding-agent-skills-2536.md",
+      "github_page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/fix-353-coding-agent-skills-2536.md",
+      "website_page_url": "https://chmillera-hub.github.io/game1/spare-token-bug-fixes/fix-353-coding-agent-skills-2536.html",
       "status": {
         "sent_to_project": false,
         "ai_written": true,

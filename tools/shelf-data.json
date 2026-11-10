@@ -6283,6 +6283,42 @@
    "logic_checked": false,
    "full_report_read": true,
    "written_on": "2026-11-10"
+  },
+  {
+   "n": 352,
+   "patch": "352-loqctl-259.patch",
+   "project": "liualt/loqctl",
+   "issue": 259,
+   "lic": "GPL-3.0",
+   "lang": "Python",
+   "test": true,
+   "title": "loqctl: a power mode change during a fan curve write still reports success",
+   "symptom": "Hardware.write_fancurve in loqctl/hardware.py checks the mode once and then writes every point. The firmware can change the mode (Fn+Q) during the write. Points written after the change land in a mode that resets them and loqctl still reports success.",
+   "change": "write_fancurve now reads the mode again after the write and raises ControlError that names the new mode when the mode is no longer custom. A new block in the existing fan curve test makes read_mode answer custom and then balanced and expects the error.",
+   "note": "The chatbot did not run the project's code or tests. The bug report also says active.json should not be updated in that case. The chatbot did not read the callers so nobody has confirmed that every caller skips the update when write_fancurve raises. The bug report says real hardware is needed to see what the firmware does with points written during a mode change.",
+   "words": "loqctl write_fancurve Fn+Q mode change during write custom mode fan curve success read_mode",
+   "report_title": "Fn+Q during a fan curve write still reports success",
+   "logic_checked": false,
+   "full_report_read": true,
+   "written_on": "2026-11-10"
+  },
+  {
+   "n": 353,
+   "patch": "353-coding-agent-skills-2536.patch",
+   "project": "EJRyan89/coding-agent-skills",
+   "issue": 2536,
+   "lic": "MIT",
+   "lang": "Python",
+   "test": false,
+   "title": "coding-agent-skills: two FAILED lines print outside text without flat_text",
+   "symptom": "main in .claude/skills/audit-repository/scripts/audit_repository.py and main in .claude/skills/implement-change/scripts/pull_request.py print FAILED followed by the error text as it is. The error can carry an error message from git that spans several lines so the FAILED line is not one line.",
+   "change": "Both lines now pass the error text through flat_text which both scripts already import. Each FAILED line is one line.",
+   "note": "No test was added because the chatbot did not read how the project tests the main functions of these two scripts. The chatbot did not run the project's code or tests. The bug report text the chatbot read was cut off after the first sentence of the expected behaviour.",
+   "words": "coding-agent-skills FAILED line flat_text audit_repository pull_request outside value one line git error",
+   "report_title": "repository skills: FAILED lines print an outside value without flat_text",
+   "logic_checked": false,
+   "full_report_read": true,
+   "written_on": "2026-11-10"
   }
  ]
 }

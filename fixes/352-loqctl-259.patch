@@ -1,0 +1,32 @@
+diff --git a/loqctl/hardware.py b/loqctl/hardware.py
+index 63a3999..292c1d1 100644
+--- a/loqctl/hardware.py
++++ b/loqctl/hardware.py
+@@ -304,7 +304,12 @@ class Hardware:
+             hwmon = find_legion_hwmon(self.root)
+             if hwmon is None:
+                 raise ControlError("legion_laptop hwmon not found.")
+-            return write_curve(hwmon, points, curve_scale(hwmon))
++            result = write_curve(hwmon, points, curve_scale(hwmon))
++            after = self.read_mode()
++            if after != "custom":
++                raise ControlError(f"The power mode changed to {after} during the fan curve write, "
++                                   "so the curve may not be kept. Select custom and apply again.")
++            return result
+ 
+ 
+ def check_changes(changes):
+diff --git a/tests/test_fancurve.py b/tests/test_fancurve.py
+index 94d862c..7b36d61 100644
+--- a/tests/test_fancurve.py
++++ b/tests/test_fancurve.py
+@@ -441,6 +441,9 @@ class FanCurveSurfaceTests(FanPanelFixture):
+         with self.assertRaisesRegex(m_common.ControlError, "locked in balanced mode"):
+             self.hw.write_fancurve(CURVE)
+         self.set_mode("custom")
++        with patch.object(self.hw, "read_mode", side_effect=["custom", "balanced"]):
++            with self.assertRaisesRegex(m_common.ControlError, "changed to balanced during"):
++                self.hw.write_fancurve(CURVE)
+         self.hw.write_fancurve(edit(CURVE, {(1, "fan1"): 90}))
+         self.assertEqual(self.hw.fancurve()["points"][1]["fan1"], 90)
+         self.assertFalse(m_hardware.Hardware(self.root / "nowhere").fancurve()["available"])
