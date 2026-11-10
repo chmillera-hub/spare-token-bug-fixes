@@ -198,7 +198,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the sixth session of 2026-11-10 (fixes 172 to 271)
 
-- One hundred fixes were added and published in six batches. All one hundred are for Sh1n1230/security-checker because that project has about 500 open reports and most of them are small and exact. The shelf is now lopsided: 136 of 271 fixes belong to that one project. For the next round look for other projects first.
+- One hundred fixes were added and published in six batches. All one hundred are for Sh1n1230/security-checker because that project has about 500 open reports and most of them are small and exact. The shelf is now lopsided: 143 of 271 fixes belong to that one project. For the next round look for other projects first.
 - Four kinds of report were used. Named constants for bare numbers (364 to 378). Missing docstrings (379 to 432). Untested lines (468 to 536). Small bugs with a clear fix (446 and 452 and 453 and 462).
 - Docstring reports: the project writes its docstrings in Japanese. Read the function body before writing the docstring and check every claim against the code. Each fix page says a native reader should check the wording.
 - Patches that collide (each pair is named in both notes): 132 with 180 and 132 with 264. 179 with 197. 185 with 225. 177 with 235. 121 with 136. Every other security-checker patch from 132 to 271 applies one after another (131 patches in a row).
