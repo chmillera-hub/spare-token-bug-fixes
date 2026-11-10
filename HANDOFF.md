@@ -37,7 +37,8 @@ Charles posts a video of the shelf on social media so a person or a chatbot who 
 2. Make sure python3 has Pillow and NumPy and that ffmpeg is installed.
 3. Run: bash tools/build_video.sh SOME_EMPTY_WORK_FOLDER OUTPUT.mp4 (name the output after the number of fixes: for example 121-free-bug-fixes-fast.mp4).
 4. Look at three frames before sending: the first frame and one fix screen and the closing screen. ffmpeg -ss SECONDS -i OUTPUT.mp4 -frames:v 1 frame.png grabs one frame.
-5. Send the file to Charles in the chat. The video is not stored in either GitHub project.
+5. Send the file to Charles in the chat.
+6. Store a copy on the shelf so people can share the video: copy the file to video/free-bug-fixes.mp4 (always the same name so a shared link keeps working) and write the number of fixes into video/fix-count.txt and run python3 tools/build_shelf.py new PATH_TO_THIS_PROJECT and commit and push. The front page and llms.txt link to the video only when video/fix-count.txt exists. Each new copy adds about 20 megabytes to the history of the project. GitHub refuses a single file over 100 megabytes.
 
 What the build script makes and why:
 

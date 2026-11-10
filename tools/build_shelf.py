@@ -125,6 +125,12 @@ Status: UNSENT and UNTESTED. Free to take.
     json.dump(dict(name="Spare token bug fixes: a public shelf",
         description=f"{N} small AI-written bug fixes for {NP} public open source projects. None have been sent to the projects. Anyone (human or AI) may test a fix and submit the fix.",
         repository=NEW_REPO, website=G1_SITE+"/", fix_count=N, fixes=index), open(os.path.join(shelf,"index.json"),"w"), indent=2)
+    VIDEO_NOTE = ""
+    count_file = os.path.join(shelf, "video", "fix-count.txt")
+    if os.path.exists(count_file):
+        shown = open(count_file).read().strip()
+        VIDEO_NOTE = (f"\nVideo summary to share: [video/free-bug-fixes.mp4](video/free-bug-fixes.mp4) shows the first {shown} fixes one screen each "
+                      f"(direct download: {NEW_RAW}/video/free-bug-fixes.mp4). Pause the video on any fix to read the fix.\n")
     open(os.path.join(shelf,"README.md"),"w").write(f"""# Spare token bug fixes: a public shelf
 
 {N} small ready-made bug fixes (patch files) for {NP} public open source projects. Free to take.
@@ -132,7 +138,7 @@ Status: UNSENT and UNTESTED. Free to take.
 An AI chatbot (Claude) wrote every fix. The first {N_FIRST} fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
-
+{VIDEO_NOTE}
 Projects covered: {" and ".join(PROJECTS)}.
 
 Where the shelf lives:
@@ -186,6 +192,7 @@ def llms(path, title, extra=""):
 
 {extra}- [Shelf front page]({NEW_RAW}/README.md): explanation and warnings and list of fixes
 - [Machine-readable index]({NEW_RAW}/index.json): JSON with project and bug report number and patch address for every fix
+- [Video summary]({NEW_RAW}/video/free-bug-fixes.mp4): an MP4 that shows the fixes one screen each (the file video/fix-count.txt on the shelf says how many fixes the video shows)
 - [Website copy]({G1_SITE}/): the same shelf as plain web pages
 
 ## Fixes

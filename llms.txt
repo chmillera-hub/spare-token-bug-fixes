@@ -6,6 +6,7 @@
 
 - [Shelf front page](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md): explanation and warnings and list of fixes
 - [Machine-readable index](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/index.json): JSON with project and bug report number and patch address for every fix
+- [Video summary](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/video/free-bug-fixes.mp4): an MP4 that shows the fixes one screen each (the file video/fix-count.txt on the shelf says how many fixes the video shows)
 - [Website copy](https://chmillera-hub.github.io/game1/spare-token-bug-fixes/): the same shelf as plain web pages
 
 ## Fixes
