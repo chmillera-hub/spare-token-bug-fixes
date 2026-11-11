@@ -7,6 +7,7 @@ Click the folder named 1-research-click-here-first before anything else because 
 The folder named [1-research-click-here-first](1-research-click-here-first) holds short plain-language pages and documents that a visitor can read in a few minutes each.
 
 - [Voynich manuscript findings](1-research-click-here-first/voynich-manuscript-findings.md) tells who probably made an unreadable book in the early 1400s (five scribes and fifteen calfskins and a castle drawing that points to northern Italy) and how the book was built.
+- [Voynich location guess](1-research-click-here-first/voynich-geoguess-clue-sweep.md) guesses where the unreadable book was made from eight drawing clues such as a crossbow archer and forked castle walls and baggy sleeves.
 - [Word evolution experiments](1-research-click-here-first/word-evolution-experiments.md) shows what happens when text is copied with small mistakes over and over while a reader picks which copies survive.
 - [Try the word evolution program](1-research-click-here-first/try-the-word-evolution-program.md) explains two ways to run a live program with sliders where ten separate agents evolve text from random letters.
 - [Hiding a book by splitting pages](1-research-click-here-first/hiding-a-book-by-splitting-pages.md) shows how much sense is left when a 1000-page biology book is dealt into four piles.
