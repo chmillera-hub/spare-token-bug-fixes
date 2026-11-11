@@ -70,6 +70,31 @@ What the connecting words changed:
 - Connecting words could not repair a quote that was cut in the middle of a sentence such as "for the works which the" because the missing part is a noun or an action word and the rule allowed no new nouns or action words.
 - Each string needed only 4 to 6 added words because most quotes already begin with a connecting word such as "and" or "but" or "for".
 
+## A second pass that also allows reference words already used in the string
+
+Charles then widened the rule so that the AI model could add connecting words plus reference words such as "you" or "he" or "him" or "this" as long as the exact reference word already appears somewhere in the same string which means no new person or thing enters the string.
+
+Claude selection:
+
+- i will deliver him and you know me and your father *and i* before him all the *while* for i was hungry *yet you* with all your strength *then* when he saw him *from* heaven and in your sight *so you* and love remain and be thankful
+- and with all your might and we are his *just* like a father has *his* and know my heart and be exceedingly glad *among* yourselves on the earth for i was hungry *and* for it is written *for yourselves* and be thankful and he in god *as if* out of heaven saying
+
+Charles selection:
+
+- and dont sin you righteous people *so* that i may live upward for the wise *with* things to your heart and will have *those* and there they will be with his brothers so he will come but those who were *with* all of the disciples *whom* you wont believe *for they* not to the flesh
+- he is yahweh and all the righteous *with* the heart of the wise should eat and drink *while you* are in the earth like the wilderness and will rejoice themselves in him *until he* to the sword take away therefore and you shall have them for the works which the
+
+Words of Jesus:
+
+- when you pray as in heaven but sinners to repentance *by the* word of the kingdom but know this and not perceive *this* given to god and to return *you from* distress in the land but you dont believe but because of the multitude and you in me *out* of the synagogues
+- which of you and to the nations and the birds and you shall have them for from now on *the* resurrection of the righteous and will tell him *that* the father himself *and* this is the will of *him* and are life *so if* you know him you will live also and i in you
+
+What the reference words changed:
+
+- A reference word helped most where a quote was missing the one who acts such as "while you are in the earth like the wilderness" and "to return you from distress in the land".
+- A reference word could not supply a missing action word which means stretches such as "until he to the sword" still lack the word that says what he does.
+- The second string from the words of Jesus did not change because the first pass had already used the reference word "him" that appears in the string.
+
 ## Limits
 
 - The agents mostly built short common quotes because a short quote made of common words needs fewer lucky draws which means rare and famous lines seldom appear.
