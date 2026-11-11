@@ -9,3 +9,4 @@ This folder holds only program files and a researcher can rerun the tests with t
 - The folder mobius-strip-calculations holds the Python files behind the document named The Mobius Strip Picture of Physics.
 - The file bible_quotes_builder.py in word-evolution-scripts cuts chosen passages of the World English Bible into short quotes in Bible order for the Bible version of the live program.
 - The files word_level_engine.js and word_level_three_bible_selections.js in word-evolution-scripts run the word-level experiment on three Bible selections and the files whole_books_builder.py and words_of_jesus_builder.py cut the Bible text into short quotes.
+- The files key_phrase_builder.py and key_phrase_engine.js and key_phrase_three_bible_selections.js in word-evolution-scripts chop the Bible text into key phrases and run the key phrase experiment.

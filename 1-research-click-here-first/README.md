@@ -11,6 +11,7 @@ Every item in this folder is written for a person to read and each line below sa
 - [try-the-word-evolution-program.md](try-the-word-evolution-program.md) explains two ways to run the live word evolution program with sliders and ten separate agents and also covers a second version where the agents build strings out of short quotes from the World English Bible.
 - [bible-selections-word-evolution.md](bible-selections-word-evolution.md) compares what copying agents build from three Bible selections (41 well-known passages and ten whole books and only the words of Jesus) and gives two ways to run the live program.
 - [record-of-the-chat-behind-the-research.md](record-of-the-chat-behind-the-research.md) lists every request Charles made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
+- [bible-key-phrase-evolution.md](bible-key-phrase-evolution.md) reports what happens when the Bible is chopped into short key phrases and copying agents put stretches of the text back together and gives two ways to run the live program.
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 363 free bug fixes for public software projects.
 
 ## Something to play with
