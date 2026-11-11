@@ -12,6 +12,7 @@ Charles asked for a front page that shows only two folders so that a visitor is 
 - Every path in the rest of these notes (fixes/ and tools/ and video/ and README.md and index.json and llms.txt) is relative to the folder boring-things/bug-fixes.
 - The top README.md is written by hand and tools/build_shelf.py does not touch the top README.md. Update the fix count in the top README.md and in 1-research-click-here-first/free-bug-fixes-video.md by hand when fixes are added.
 - Run the rebuild as: python3 boring-things/bug-fixes/tools/build_shelf.py new PATH_TO_THIS_PROJECT (the program finds the folder boring-things/bug-fixes without help).
+- Charles said on 11 November 2026 that only material he has approved may be added to the research folder. Material from his other chats stays out of this public project until Charles has checked that material for personal information and has said yes. Ask Charles before adding anything from another chat.
 - Open work after the move: the website copy in chmillera-hub/game1 still links to the old addresses of the patch files and needs one rebuild with the g1 mode. The video screens still say fixes/ and index.json and llms.txt without the folder boring-things/bug-fixes and tools/video_cards.py needs that text changed before the next video is built.
 
 ## What the shelf is
