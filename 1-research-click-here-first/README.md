@@ -20,4 +20,13 @@ A live page with sliders runs the word evolution experiment in a web browser at 
 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 
+## Live Bible key phrase programs that open in a web browser
+
+Each link opens a live program where ten agents copy and paste short Bible phrases while a reader favors strings whose neighboring phrases are also neighbors in the Bible and each program starts on a different selection of Bible text.
+
+- Bible Key Phrases: Claude Selection starts on 41 well-known passages picked by the AI model: https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
+- Bible Key Phrases: Charles Version starts on the ten whole books picked by Charles (Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans): https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
+- Bible Key Phrases: Jesus Version starts on the words of Jesus in Matthew and Mark and Luke and John: https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz
+- A link opens for a visitor only if Charles has turned on sharing for that page in the Claude app and a visitor who sees an access message can use the program file in this folder named bible-key-phrase-evolution-live-program.html.
+
 Warning about a wording change: Charles replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps Charles follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
