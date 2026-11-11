@@ -14,3 +14,16 @@ The word evolution program shows ten separate agents that each start from differ
 - The top box shows the string that the reader likes most across all agents and complete commands show underlined in color.
 - The section near the bottom shows the best string of each of the ten agents which means a visitor can compare how different starting letters lead to different text.
 - The page named word-evolution-experiments.md in this folder explains the results of the test runs behind the program.
+
+## A second version built on Bible quotes
+
+A second version of the program swaps the list of everyday commands for about 1800 short quotes cut from chosen passages of the World English Bible which is a modern English translation that anyone may copy freely.
+
+- The chosen passages add up to about 10000 words and run in Bible order from Genesis 1 through Revelation 21 and include Psalm 23 and the Sermon on the Mount and the story of the lost son and the chapter on love in First Corinthians.
+- Long verses were cut into pieces of at most 44 letters which means some quotes are parts of sentences.
+- Ten separate agents start from different random letters and the reader favors strings that hold more quotes and a longer quote earns more credit than a shorter quote.
+- The page lists the quotes of the best string in Bible order with the passage name beside each quote such as "walk in love [Colossians 3]".
+- In one test run of 70 minutes of experiment time the agents built strings such as "is not proud and answer me nor your son walk in love" and the agents mostly found the shortest quotes first because a short quote needs fewer lucky letters.
+- Open this address in a web browser to run the Bible version without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-evolution-live-program.html
+- The address above depends on the free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
+- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-evolution-live-program.html

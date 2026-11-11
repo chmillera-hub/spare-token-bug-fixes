@@ -208,19 +208,20 @@ const RANK=new Map();sorted.forEach((c,i)=>RANK.set(c,i));
 const sceneOf=c=>scene(META.get(c));
 
 return {CMDS,RANK,SCENES,sceneOf};})();
+const NEARSCALE=Math.max(20,LIST.CMDS.length/20);
 const CMDS=LIST.CMDS, RK=CMDS.map(c=>LIST.RANK.get(c)), CW=CMDS.map(c=>c.split(' '));
 const tk=[new Map()],tterm=[-1];
 CMDS.forEach((c,ci)=>{let n=0;for(const ch of c){let k=tk[n].get(ch);if(k===undefined){k=tk.length;tk.push(new Map());tterm.push(-1);tk[n].set(ch,k);}n=k;}tterm[n]=ci;});
-const rows=[];for(let i=0;i<64;i++)rows.push(new Int16Array(64));
+const rows=[];for(let i=0;i<72;i++)rows.push(new Int16Array(72));
 let nb,nbC,NX,NL;
 function ndfs(n,depth){const prev=rows[depth-1],row=rows[depth];
   for(const [ch,k] of tk[n]){row[0]=depth;let mn=depth;const cc=ch.charCodeAt(0);
     for(let j=1;j<=NL;j++){const c=prev[j-1]+(NX.charCodeAt(j-1)===cc?0:1);const a=prev[j]+1,b=row[j-1]+1;const v=c<a?(c<b?c:b):(a<b?a:b);row[j]=v;if(v<mn)mn=v;}
     if(tterm[k]>=0&&row[NL]<nb){nb=row[NL];nbC=tterm[k];}
-    if(mn<nb&&depth<62)ndfs(k,depth+1);}}
+    if(mn<nb&&depth<70)ndfs(k,depth+1);}}
 const simCache=new Map();
 /* closeness of a leftover stretch of letters to the nearest command on the list: 0 means far and 1 means identical */
-function nearSim(r){if(r.length>40)return {v:0,c:-1};let v=simCache.get(r);if(v!==undefined)return v;
+function nearSim(r){if(r.length>56)return {v:0,c:-1};let v=simCache.get(r);if(v!==undefined)return v;
   NX=r;NL=r.length;nb=13;nbC=-1;for(let j=0;j<=NL;j++)rows[0][j]=j;ndfs(0,1);
   v=nbC<0?{v:0,c:-1}:{v:1-nb/Math.max(NL,CMDS[nbC].length),c:nbC};if(simCache.size>200000)simCache.clear();simCache.set(r,v);return v;}
 function listParse(x){const t=x.trim().split(' ').filter(Boolean);const found=[],seen=new Set(),junk=[],cls=t.map(()=>'j');let cur=[];
@@ -229,10 +230,10 @@ function listParse(x){const t=x.trim().split(' ').filter(Boolean);const found=[]
     if(bj>=0){if(cur.length){junk.push(cur.join(' '));cur=[];}if(!seen.has(bid)){seen.add(bid);found.push(bid);for(let j=i;j<=bj;j++)cls[j]='c';}else{for(let j=i;j<=bj;j++)cls[j]='r';}i=bj+1;}else{cur.push(t[i]);i++;}}
   if(cur.length)junk.push(cur.join(' '));return {t,found,junk,cls};}
 function listFit(x){const p=listParse(x);let m=0,jl=0,coh=0;const rk=p.found.map(i=>RK[i]).sort((a,b)=>a-b);
-  if(S.near>0)for(let i=1;i<rk.length;i++)coh+=S.near*Math.exp(-(rk[i]-rk[i-1])/500);
+  if(S.near>0)for(let i=1;i<rk.length;i++)coh+=S.near*Math.exp(-(rk[i]-rk[i-1])/NEARSCALE);
   const ws=new Set();if(S.uniq>0)for(const i of p.found)for(const w of CW[i])ws.add(w);
   for(const r of p.junk){const s=nearSim(r);let w=1;
-    if(S.near>0&&rk.length&&s.c>=0){let g=1e9;const q=RK[s.c];for(const k of rk){const d=Math.abs(k-q);if(d<g)g=d;}w*=0.5+0.5*Math.exp(-g/500);}
+    if(S.near>0&&rk.length&&s.c>=0){let g=1e9;const q=RK[s.c];for(const k of rk){const d=Math.abs(k-q);if(d<g)g=d;}w*=0.5+0.5*Math.exp(-g/NEARSCALE);}
     if(S.uniq>0&&s.c>=0){let nw=0;for(const q of CW[s.c])if(!ws.has(q))nw++;w*=0.5+0.5*nw/CW[s.c].length;}
     m+=s.v*s.v*w;jl+=r.length;}
   return p.found.length+coh+S.uniq*ws.size+0.9*m-S.junk*jl;}

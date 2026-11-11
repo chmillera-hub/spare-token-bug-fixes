@@ -7,3 +7,4 @@ This folder holds only program files and a researcher can rerun the tests with t
 - The folder word-evolution-scripts holds the copy-and-paste evolution programs and the builder for the 10000 commands. The live slider page now sits in the research folder under the name word-evolution-live-program.html so that visitors can find the live slider page.
 - The file many_commands_story_order.js in word-evolution-scripts runs with the command "node many_commands_story_order.js A 7" and the setting BONUS=1 in front of the command turns on the bonus for closeness in the story and the setting UNIQ=0.4 turns on the bonus for words that are not repeats.
 - The folder mobius-strip-calculations holds the Python files behind the document named The Mobius Strip Picture of Physics.
+- The file bible_quotes_builder.py in word-evolution-scripts cuts chosen passages of the World English Bible into short quotes in Bible order for the Bible version of the live program.
