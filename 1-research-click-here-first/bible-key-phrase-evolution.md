@@ -481,6 +481,19 @@ What the three attempts showed:
 - The second attempt leaves "the ten talents" and "tyre and sidon" unexplained because no allowed word can explain a sum of money or two cities and that gap costs the passage a point on the rule about explaining every label.
 - The ending of the second attempt softens the source because the source line about the city of Tyre and the city of Sidon speaks of a judgment being more bearable and the passage says "it will be right" which is a choice of the AI model.
 
+## Rule about the word "the": the word may be added anywhere or removed anywhere
+
+Charles added a rule for every selection: the AI model may add the word "the" anywhere and may remove the word "the" anywhere when the change makes a sentence easier to read.
+Adding "the" was already possible because "the" sits on the list of generic joining words and the new part of the rule is the removal which is the first rule that lets the AI model take a non-pronoun word out of a rebuilt stretch.
+
+Where the rule changed the passages above:
+
+- Words of Jesus fresh string: "he who loves son *and father in the love of god*" became "he who loves *the* son *and the father in the love of god*" because "loves son" reads as a cut-off phrase.
+- Charles selection passage: "*the righteous man answered* in heart" became "*the righteous man answered* in *the* heart" because "in heart" reads as a cut-off phrase.
+- No passage needed a removal because none of the passages so far holds a "the" that blocks a reader.
+- The grades did not change because each change smooths one phrase and adds no meaning.
+- A removal is most likely to matter in future strings where two stretches meet and both bring a "the" such as "in the the house".
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
