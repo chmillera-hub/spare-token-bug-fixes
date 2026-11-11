@@ -214,6 +214,66 @@ What the special rule changed:
 - The special rule applies to one selection only which means the scores of the words of Jesus passages can no longer be compared fairly with the scores of the other two selections.
 - The AI model chose which name goes with each "he" and "him" from knowledge of the source verses and a wrong choice would put words about one person onto another person.
 
+## Special words of three kinds may fill the gaps: naming words and action words and describing words
+
+Charles widened the joining rule again so that each selection has a list of special words that may be added in any gap even when the special word appears nowhere in the string.
+The AI model counted every word in each selection and then sorted the most used words by hand into naming words and action words and describing words and kept about 12 of each kind.
+Only the exact listed form of a word was used which means "made" is allowed in a selection where "made" is listed while "makes" is not allowed.
+The word "seed" was added to the words of Jesus list because Charles named the word and not because the word ranks high by count and the word "love" ranks about 38th by count in the words of Jesus (44 uses).
+
+Claude selection special words:
+
+- Naming words: god and yahweh and love and earth and father and time and day and heaven and man and light and son and heart.
+- Action words: made and give and know and tell and saw and see and keep and heard and called and seek and put and make.
+- Describing words: good and evil and blessed and right and great and holy and wicked and righteous and secret and perfect and living and new.
+
+Charles selection special words:
+
+- Naming words: yahweh and god and man and jesus and son and people and lord and day and king and house and land and heart.
+- Action words: says and know and tell and give and see and say and made and make and take and heard and hear and answered.
+- Describing words: good and evil and great and wicked and righteous and holy and high and right and wise and blessed and dead and poor.
+
+Words of Jesus special words:
+
+- Naming words: father and man and son and god and kingdom and lord and heaven and world and house and life and day and earth and love and seed plus the names jesus and christ and yahweh from the earlier special rule.
+- Action words: tell and see and know and give and sent and say and hear and take and believe and enter and receive and made.
+- Describing words: good and evil and little and great and blessed and greater and dead and eternal and last and righteous and right and full.
+
+The same four strings as the last two sections were joined again by hand with the wider rule and every added word is marked with stars.
+The grades use the same seven rules with a top score of 14 and the AI model graded passages that the AI model wrote which means the grades are a rough guide and not an outside measurement.
+
+Words of Jesus first string (14 of 14 and up from 13):
+
+- with you how long will i *jesus* bear with you for everyone in the marketplaces *and in* the best seats in the synagogues *made the house of god a house of the world* and traded with them i tell you and much more. *the father sent love to those* who hate you *so* bless those *in the marketplaces* for they shall inherit the earth blessed are those who have been persecuted *for the kingdom* before you. most certainly i tell you if you have faith with him *the christ* then he will sit on the throne of his glory *which the father made great in heaven*. on the earth i wish it were already kindled *the good seed of love that the father sent to the world*.
+
+Words of Jesus second string (14 of 14 and up from 13):
+
+- they persecuted the prophets who were *sent* before you and even the chosen ones *of god* behold i *jesus* have told you beforehand. *among* women there has not arisen anyone greater than john the baptizer *yet* for you to enter into gods kingdom before you most certainly i tell you i havent found *a place apart from the father*. *the father sent the son to give love* and not sacrifice for i *the christ* came not on an old garment for the patch would tear away *the garment*. *believe so the father and the son enter the house in heaven* and prepare a place for you *yet* and whoever says you fool will be *last in the kingdom*.
+
+Claude selection (13 of 14 and up from 12):
+
+- on the earth there was evening *and god made* herbs yielding seed after their kind and it was so god saw everything *good*. *blessed are those* who mourn for they shall be comforted *on the earth* and be exceedingly glad for great is your reward in heaven. *the righteous* who were before you *heard* you are the salt of the earth *from the father* who is in secret. *a man who saw evil* at a woman to lust after her has committed adultery *in the heart so keep your yes* yes and your no be no *before god*. *god saw the man* who is evil but whoever strikes you *give the man love because* you shall love your neighbor and hate your enemy *no longer*.
+
+Charles selection (12 of 14 and up from 10):
+
+- i have set yahweh always before me *the great king* whose sandal strap im *under because* the kingdom of heaven is at hand. *the righteous man answered* in heart if the foundations *of the house* are destroyed *the wise people know the righteous man* neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*. *the people of the land* in labor they will look on him *the holy king* who has had boldness to approach me says yahweh *and the lord answered* shouldnt my soul be avenged.
+
+What the three kinds of special words changed:
+
+- Action words gave the largest gain because a gap can now hold a full small claim such as "the father sent love to those" where the earlier rules could only hold a pointer such as "those".
+- Describing words let a passage say which kind of person a sentence is about such as "the righteous man" and "the wicked people" which is why the Charles selection gained 2 points after gaining the least under every earlier rule.
+- Both words of Jesus strings reached the top score while the gain was only 1 point each because the earlier rule had already lifted both strings to 13.
+- The added words now carry a large share of the meaning (for example "the father sent the son to give love" stands where the source verse has "i desire mercy") which means the passages read more like sentences written by the AI model around Bible fragments than like chance output of the agents.
+- The ending "last in the kingdom" is milder than the source verse about the word "fool" and that mildness is a choice of the AI model and not a finding.
+- The line "shouldnt my soul be avenged" stays a question spoken by yahweh in the book of Jeremiah and the passage does not present harm to any person as good.
+
+What the program does with the same lists:
+
+- The live program now lets agents place single joining words from the generic list and from the special list of the chosen selection and the reader gives credit when the word before the joining word and the word after the joining word each sit beside the joining word somewhere in the source.
+- In one run of 6 million pastes per selection the agents kept mostly generic joining words such as "and" and "there" and "with them" and almost no special words because the two-sided check is easier to pass for very common words.
+- The average count of phrases inside rebuilt stretches per agent was 29.4 for the Claude selection and 15.5 for the Charles selection and 21.0 for the words of Jesus.
+- The joining words chosen by the program read as filler because the program checks word pairs and has no test of meaning which means the hand joining above is still far ahead of the program.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
