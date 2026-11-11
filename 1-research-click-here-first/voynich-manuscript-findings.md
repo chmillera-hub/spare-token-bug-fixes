@@ -82,13 +82,6 @@ The direction test and the same-bundle control and the paragraph-end count might
 - The order of the sheets remains unknown because sheet-to-sheet scores were only slightly above chance.
 - Several versions of the analysis were tried before the ranking version which raises the risk of a lucky result.
 
-## Files
-
-- `voynich/t4.py` holds the main "next page" test and the 36-setting robustness grid.
-- `voynich/t5.py` holds the same-bundle control and the sheet-to-sheet tests.
-- `voynich/t6.py` and `voynich/t7.py` hold the word-habit contrast among sheets and the bundle clustering test.
-- The scripts expect the transcription files `ZL3b-n.txt` and `IT2a-n.txt` and `RF1b-e.txt` in a `data/` folder and the files are available from the site voynich.nu.
-
 ## Sources for the human story
 
 - Encyclopedia entry with the dating and the calfskins and the page counts and the ownership history: https://en.wikipedia.org/wiki/Voynich_manuscript
