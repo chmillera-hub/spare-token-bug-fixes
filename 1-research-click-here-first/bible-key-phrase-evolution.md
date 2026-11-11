@@ -105,6 +105,43 @@ What rearranging changed:
 - The Charles selection gained the most because the six stretches became one exchange (a question and an answer and a promise and a warning) where Bible order had scattered the speakers.
 - Every added word in the three strings is a connecting word or a reference word or a pointing word which means no new action word or thing word entered any string.
 
+## Five versions of one words of Jesus string graded against the writing rules in this folder
+
+The AI model took the eight rebuilt stretches of the words of Jesus string above and made five versions and graded each version against the seven sentence rules in the page named writing-rules-for-clear-chatbot-replies in this folder.
+Each rule earns 0 or 1 or 2 points which gives a top score of 14 and the grades are the judgment of the AI model and no second reader checked the grades.
+The seven rules are: a sentence can be understood alone and a reason is attached to each claim and labels are explained and people and things are named in place of pointing words and no short clipped sentences and one claim plus reason per sentence and no commas.
+
+Version 1 (Bible order and nothing added) scored 6 of 14:
+
+- for they shall inherit the earth blessed are those who have been persecuted before you most certainly i tell you if you have faith with him then he will sit on the throne of his glory who hate you bless those on the earth i wish it were already kindled in the marketplaces the best seats in the synagogues with you how long will i bear with you for everyone and traded with them i tell you and much more
+- The version lost points because the whole text is one run-on sentence that stacks about eight claims and names nobody.
+
+Version 2 (Bible order with generic joining words) scored 6 of 14:
+
+- for they shall inherit the earth blessed are those who have been persecuted *here* before you most certainly i tell you if you have faith with him then he will sit on the throne of his glory *and those* who hate you bless those *others* on the earth i wish it were already kindled *there* in the marketplaces *and not* the best seats in the synagogues *for those* with you how long will i bear with you for everyone *here* and traded with them i tell you and much more *than that*
+- The joining words made the text flow better and the score did not move because none of the seven rules measures flow and the text is still one run-on sentence.
+
+Version 3 (Bible order cut into sentences) scored 7 of 14:
+
+- for they shall inherit the earth blessed are those who have been persecuted *here* before you. most certainly i tell you if you have faith with him then he will sit on the throne of his glory. *and those* who hate you bless those *others* on the earth. i wish it were already kindled *there* in the marketplaces *and in* the best seats in the synagogues. with you how long will i bear with you for everyone *here* and traded with them. i tell you and much more *than that*.
+- Sentence breaks raised the score for one claim per sentence and the last sentence became short and clipped which cost a point.
+
+Version 4 (rearranged so that each sentence pairs a claim with a reason) scored 10 of 14:
+
+- with you how long will i bear with you for everyone *there* in the marketplaces *and in* the best seats in the synagogues *because those* and traded with them i tell you and much more. *those* who hate you bless those *others* for they shall inherit the earth blessed are those who have been persecuted *here* before you. most certainly i tell you if you have faith with him then he will sit on the throne of his glory *over all those*. on the earth i wish it were already kindled *for all of those here*.
+- Rearranging let every sentence carry a claim and a reason joined by "because" or "for" or "if" and removed the clipped sentence.
+
+Version 5 (reference words tied to a group named in the same sentence) scored 11 of 14:
+
+- with you how long will i bear with you for everyone *there* in the marketplaces *and in* the best seats in the synagogues *because those same ones* and traded with them i tell you and much more. *those* who hate you bless those *same ones* for they shall inherit the earth blessed are those who have been persecuted *here* before you. most certainly i tell you if you have faith with him then he will sit on the throne of his glory *over everyone*. on the earth i wish it were already kindled *because of all of you here*.
+- Tying "those same ones" to "everyone in the marketplaces" and to "those who hate you" earned one point for naming.
+
+Why the score stops at 11:
+
+- The rule about naming people and things asks for names in place of pointing words while the joining rule from Charles allows only pointing words and other generic words which means the two rules pull against each other.
+- The words "him" and "he" and "it" in the stretches point at someone or something the stretches never name and no generic word can supply the name.
+- The label "throne of his glory" stays unexplained because an explanation would need new thing words.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
