@@ -452,6 +452,35 @@ What the speaker rule changed:
 - The grades did not move because the earlier names had earned their point by telling a reader who "i" is and the speaker rule now gives a reader the same knowledge before the passage starts.
 - A reader who meets one of these passages with no notice that Christ is speaking would lose that knowledge which means the passages need a short heading such as "words of Christ" wherever the passages are posted.
 
+## Three brand new passages from the words of Jesus under every rule so far
+
+Charles asked for three fresh attempts from three different starting points using only the words of Jesus so the AI model ran the key phrase evolution three times with three different random starts (5 million pastes each) and joined one agent string from each run by hand.
+Every rule so far applies: generic joining words and special naming words and action words and describing words and reuse of naming words already in the string and deletion of a pronoun beside an added name and grammar changes and punctuation and the reading of every line as spoken by Christ.
+A listed action word sometimes appears in another form such as "says" for "say" and "gives" for "give" because the grammar rule allows a word to change form.
+Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
+
+First attempt (13 of 14) from the stretches "most certainly i tell you wherever this good news" and "from your father who is in heaven for the son of" and "against the holy spirit it will not be forgiven him" and "until all these things are accomplished heaven and earth will pass away" and "he will convict the world about sin about righteousness" and "from you in that day you will ask me no questions most certainly i tell you" and "he said this is what i will do" and "this is what i told you while i was still with you for everyone":
+
+- "most certainly i tell you, wherever this good news *enters the world, love is sent* from your father who is in heaven, for the son of *man is sent to give life*. this is what i told you while i was still with you, for everyone: *believe the good news, because* until all these things are accomplished, heaven and earth will pass away, *yet the love of the father will not*. *the holy spirit is sent to take the evil* from you in that day; you will ask me no questions. most certainly i tell you, *the holy spirit* will convict the world about sin, about righteousness. *the man who says evil* against the holy spirit, it will not be forgiven him. *a man with a full house* said, 'this is what i will do: *give to the little ones*.'"
+- Deleted pronouns: "he" before "will convict".
+
+Second attempt (12 of 14) from the stretches "who is in heaven he is my brother" and "well done good and faithful servant" and "and give it to him who has the ten talents" and "than me is not worthy of me and he who doesnt have even that which he has will be taken away from him" and "for tyre and sidon in the judgment with this generation" and "he sent him last to them saying they will respect my son but the farmers" and "and your mother you still lack one thing":
+
+- "*the man who hears the father* who is in heaven, he is my brother. *the lord says to the man,* 'well done, good and faithful servant,' and give *the kingdom* to him who has the ten talents. *the man who loves the world more* than me is not worthy of me, and he who doesnt have *love*, even that which he has will be taken away from him. *the father had a son, and* he sent him last to them, saying, 'they will respect my son.' but the farmers *did not receive the son*. *it will be right* for tyre and sidon in the judgment with this generation, *because this generation saw the son and did not believe*. *love your father* and your mother; you still lack one thing: *give to the little ones and enter the kingdom*."
+- Deleted pronouns: "it" before "to him who has the ten talents".
+
+Third attempt (11 of 14) from the stretches "before you most certainly i tell you" and "it is like a man going into another country" and "for they see and your ears" and "others fell among the thorns this is he" and "that was cast into the sea" and "then let those" and "from the sky and the powers that are" and "will not pass away until all these things happen" and "where the vultures gather together" and "will you lay down your life for me":
+
+- "*the kingdom of heaven is sent* before you. most certainly i tell you, it is like a man going into another country *who gives seed to the earth*. *blessed are the little ones,* for they see, and your ears *hear the good seed*. *some seed fell on good earth;* others fell among the thorns. this is he *who hears and takes the world for life, like a seed* that was cast into the sea. then let those *who believe see: life is sent* from the sky, and the powers that are *in heaven* will not pass away until all these things happen. *the dead world is* where the vultures gather together; will you lay down your life for me, *the son of man who made life eternal*?"
+
+What the three attempts showed:
+
+- The scores fell in the order 13 and 12 and 11 and the order follows the length of the stretches because the first string had long stretches that each already held a full thought while the third string had ten short stretches such as "then let those" that held no thought alone.
+- The first attempt needed the fewest added words and the third attempt needed the most which means the third passage carries more of the choices of the AI model than the first passage does.
+- The line "he said this is what i will do" comes from a parable about a rich man with full barns in the source so the passage names "a man with a full house" and does not put that line in the mouth of the father.
+- The second attempt leaves "the ten talents" and "tyre and sidon" unexplained because no allowed word can explain a sum of money or two cities and that gap costs the passage a point on the rule about explaining every label.
+- The ending of the second attempt softens the source because the source line about the city of Tyre and the city of Sidon speaks of a judgment being more bearable and the passage says "it will be right" which is a choice of the AI model.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
