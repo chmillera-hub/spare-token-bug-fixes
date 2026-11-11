@@ -8,3 +8,4 @@ This folder holds only program files and a researcher can rerun the tests with t
 - The file many_commands_story_order.js in word-evolution-scripts runs with the command "node many_commands_story_order.js A 7" and the setting BONUS=1 in front of the command turns on the bonus for closeness in the story and the setting UNIQ=0.4 turns on the bonus for words that are not repeats.
 - The folder mobius-strip-calculations holds the Python files behind the document named The Mobius Strip Picture of Physics.
 - The file bible_quotes_builder.py in word-evolution-scripts cuts chosen passages of the World English Bible into short quotes in Bible order for the Bible version of the live program.
+- The files word_level_engine.js and word_level_three_bible_selections.js in word-evolution-scripts run the word-level experiment on three Bible selections and the files whole_books_builder.py and words_of_jesus_builder.py cut the Bible text into short quotes.

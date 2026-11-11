@@ -9,6 +9,7 @@ Every item in this folder is written for a person to read and each line below sa
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [writing-rules-for-clear-chatbot-replies.md](writing-rules-for-clear-chatbot-replies.md) is a set of writing rules with before and after examples and the file ending in plain-text.txt holds the same rules for easy copying.
 - [try-the-word-evolution-program.md](try-the-word-evolution-program.md) explains two ways to run the live word evolution program with sliders and ten separate agents and also covers a second version where the agents build strings out of short quotes from the World English Bible.
+- [bible-selections-word-evolution.md](bible-selections-word-evolution.md) compares what copying agents build from three Bible selections (41 well-known passages and thirteen whole books and only the words of Jesus) and gives two ways to run the live program.
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 363 free bug fixes for public software projects.
 
 ## Something to play with
