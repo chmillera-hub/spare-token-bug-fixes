@@ -242,6 +242,42 @@ Any form that copies the form's own shape needs three things which are a templat
 
 Two questions remain open about a self-copying ribbon structure. The first question is how a complex form could be copied when a simple loop is easy to copy and a braided knot is not. One possibility is a chain of simple loops copied one loop at a time the way a zipper closes one tooth at a time because each single step would only require the easy kind of copying. The second question is how exact the copying has to be because selection needs copies that are mostly the same and occasionally different so that a version that survives better can appear. The same two questions are asked about how non-living chemistry on the early Earth became the first living cell.
 
+A worked example: a ribbon structure that behaves like a courting lizard
+
+This part of the document imagines one specific complex ribbon structure and follows the ribbon structure through feeding and signaling and traveling and reproducing because a concrete story shows how the survival behaviors described earlier could chain together. The name lizard ribbon structure is used here for a non-living ribbon structure complex enough to copy the signal-and-approach behavior that real lizards show when a lizard advertises readiness to mate and another lizard of the same species moves toward the advertisement. This part is an experimental reflection because nobody has observed any such ribbon structure and nothing here claims that the lizard ribbon structure feels or decides anything.
+
+Feeding: taking smaller strips into the structure
+
+A lizard ribbon structure could feed by absorbing smaller Mobius strips that drift into contact with the lizard ribbon structure which is similar to how a real lizard eats an insect. A pocket on the lizard ribbon structure would hold a small strip in place and the lizard ribbon structure would then unfold the small strip and join the ribbon of the small strip into the larger body. The motion and tension stored in the small strip would become part of the lizard ribbon structure so the lizard ribbon structure would gain energy and material with every small strip absorbed.
+
+Signaling: releasing small strips with one particular shape
+
+A lizard ribbon structure that has absorbed more energy than the lizard ribbon structure needs for upkeep could shed the surplus by pinching off small strips from the outer edge. The pinched-off strips would work as signaling strips because every signaling strip from one kind of lizard ribbon structure would carry the same recognizable shape such as a particular number of twists or a particular tightness of spiral. The signaling strips would drift outward in every direction so the space around a well-fed lizard ribbon structure would hold a cloud of signaling strips that is thickest near the lizard ribbon structure and thinner farther away. The cloud would work as an announcement that a lizard ribbon structure with spare energy for reproduction is nearby even though no ribbon intends to announce anything.
+
+Detecting: a pocket that fits only the matching signal
+
+A second lizard ribbon structure of the same kind could detect the signal because the second lizard ribbon structure would carry a pocket shaped to fit the signaling strip of that kind and no other strip. A signaling strip from a different kind of ribbon structure would have the wrong number of twists so the wrong signaling strip would slide past the pocket without lodging. The fit works like a key in a lock which means the lizard ribbon structure responds only to signals from the same kind of structure and ignores every other strip drifting by.
+
+Traveling: a spiral tail that turns when a signal lodges
+
+A signaling strip lodging in the pocket could release a held tension inside the second lizard ribbon structure and the released tension could set a spiral tail turning. The turning spiral tail would push the lizard ribbon structure forward the way a corkscrew pushes through thick pudding because the pudding-like resistance of flat space gives the spiral tail something to push against.
+
+The lizard ribbon structure would not need to know where the signal came from because the thickness of the cloud of signaling strips can do the steering. A lizard ribbon structure heading toward the source would meet signaling strips more and more often so the spiral tail would keep turning and the lizard ribbon structure would keep going. A lizard ribbon structure heading away from the source would meet signaling strips less and less often so the spiral tail would slow and the lizard ribbon structure would tumble to a new random heading. Repeating the keep-going and tumble behavior many times would carry the lizard ribbon structure up the cloud toward the source which is the same trick a swimming bacterium uses to find food.
+
+Meeting: complementary shapes locking together
+
+The traveling behavior raises the odds that two lizard ribbon structures of the same kind bump into each other because both structures end up in the thickest part of the cloud. Two lizard ribbon structures that touch could lock together when the outer edges carry complementary shapes which means a ridge on one structure fits a groove on the other structure. A ribbon structure of a different kind would carry edges that do not fit so the mismatched pair would bounce apart and no energy would be wasted on a partner that cannot help make a copy.
+
+Reproducing: pooling spare energy to build a new structure
+
+The locked pair of lizard ribbon structures could then pour spare energy into the space between the two structures and the spare energy would twist nearby flat space and nearby small strips into new ribbon. The shapes of the two locked structures would guide the new ribbon the way a mold guides clay so the new ribbon would fold into a third lizard ribbon structure resembling the two parents. Using two parents as the mold would mix features from both parents which could make each new lizard ribbon structure slightly different from either parent.
+
+The new lizard ribbon structure would break free once the new structure is complete because jostling from surrounding strips would work the new structure loose. The two parent structures would separate with less spare energy than before so the two parents would stop shedding signaling strips until feeding builds the surplus back up.
+
+Why the whole chain would be favored
+
+Every link in the chain raises the number of copies left behind because feeding supplies the energy and signaling plus traveling brings matching structures together and locking plus pooling builds the copy. A kind of ribbon structure missing any single link would leave fewer copies so over a long time the kinds of ribbon structures carrying the whole chain would become the common kinds. The slight differences between each new structure and the parents would give natural selection something to work on because a version that feeds or signals or travels a little better would leave a few more copies than the other versions.
+
 The whole picture in one paragraph
 
 Space in the ribbon picture began as a smooth flat sheet under tension and the flat sheet has been relaxing into twisted ribbons ever since because a twisted ribbon is a more relaxed shape than a stretched flat sheet. A closed twisted ribbon would be a particle of matter and an open traveling ribbon would be light. One ribbon stretched between two places would be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon would be the many-states-at-once behavior that physicists call superposition. Flat space flowing toward crowds of ribbons would be gravity and ribbons humming the same note would be magnetism. Simple unknotted loops would fill out the unseen part of the universe while braided knots would make atoms and knots fused into one seamless sphere would make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape would outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
