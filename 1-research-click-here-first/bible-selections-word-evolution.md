@@ -44,6 +44,32 @@ Words of Jesus (about 11 quotes per agent):
 - The words "you" and "your" made up 9 percent of the built quotes for the Claude selection and 8 percent for the words of Jesus and 6 percent for the Charles selection.
 - A warning about the "you" count: the share for the words of Jesus was 11 percent in the earlier run and 8 percent after two small sources were removed which means a gap of 3 points is within the run-to-run noise of this test.
 
+## The same strings with connecting words added by hand
+
+The AI model (Claude) took six of the strings above and added only connecting words such as "because" and "while" and "so" between the quotes and added no new nouns and no new action words which means every added word is marked with stars and every quote stays in the order the agents produced.
+The added words are choices made by the AI model and are not part of the Bible text.
+
+Claude selection:
+
+- i will deliver him and you know me and your father *because* before him all the *while* for i was hungry *yet* with all your strength *then* when he saw him *in* heaven and in your sight and love remain and be thankful
+- and with all your might and we are his *just* like a father has and know my heart and be exceedingly glad *among* yourselves on the earth for i was hungry *and* for it is written and be thankful and he in god *as if* out of heaven saying
+
+Charles selection:
+
+- and dont sin you righteous people *so* that i may live upward for the wise *with* things to your heart and will have and there they will be with his brothers so he will come but those who were *with* all of the disciples *whom* you wont believe *but* not to the flesh
+- he is yahweh and all the righteous *with* the heart of the wise should eat and drink *while* are in the earth like the wilderness and will rejoice themselves in him *until* to the sword take away therefore and you shall have them for the works which the
+
+Words of Jesus:
+
+- when you pray as in heaven but sinners to repentance *by the* word of the kingdom but know this and not perceive *whatever* given to god and to return *from* distress in the land but you dont believe but because of the multitude and you in me *out* of the synagogues
+- which of you and to the nations and the birds and you shall have them for from now on *the* resurrection of the righteous and will tell him *that* the father himself *and* this is the will of *him* and are life *so if* you know him you will live also and i in you
+
+What the connecting words changed:
+
+- Connecting words made short stretches read like speech where two neighboring quotes happened to fit such as "so if you know him you will live also and i in you".
+- Connecting words could not repair a quote that was cut in the middle of a sentence such as "for the works which the" because the missing part is a noun or an action word and the rule allowed no new nouns or action words.
+- Each string needed only 4 to 6 added words because most quotes already begin with a connecting word such as "and" or "but" or "for".
+
 ## Limits
 
 - The agents mostly built short common quotes because a short quote made of common words needs fewer lucky draws which means rare and famous lines seldom appear.
