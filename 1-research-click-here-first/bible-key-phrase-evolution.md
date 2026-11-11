@@ -1,5 +1,7 @@
 # Agents that rebuild the Bible out of chopped key phrases
 
+Warning about a wording change: Charles replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps Charles follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
+
 This page reports an experiment where a program chopped parts of the World English Bible into short key phrases and ten copying agents then tried to put pieces of the text back together.
 An AI model (Claude) ran the test on 11 November 2026 and no other person has rerun the test yet which means every result here is a single unconfirmed analysis.
 
@@ -341,6 +343,73 @@ Charles selection passage under the rule:
 Psalm 88 passage under the rule:
 
 - *god* i have cried in the morning *and in the night* on you daily god i have spread out my hands to you *because* my prayer comes before you god why do you reject my soul. i am afflicted and ready to die from my youth up while i suffer your terrors i am distracted your fierce wrath has gone over me *the afflicted soul* like the slain who lie in the grave whom you remember no more. you have laid me in the lowest pit in the darkest depths *because* your wrath lies heavily on me you have afflicted me with all your waves. your terrors have cut me off they came around me like water all day long *and the dark night cut the day* from me and my friends. *show your wonders* in the dark or your righteousness *in the night so the afflicted soul may rise and praise god*.
+
+## Newest rules: one word for God everywhere and adjacent pronouns may be deleted and punctuation may be added
+
+Charles made three rule changes at once:
+
+- The name "yahweh" is now always replaced by the word "god" in every selection and every Bible program because Charles wants one word for God (this is a personal reading choice and the warning at the top of this page says so).
+- When the AI model adds a naming word right beside a pronoun the AI model may delete that pronoun so that "i *jesus* bear with you" becomes "*jesus* bear with you" because the doubled wording reads badly.
+- The AI model may add periods and commas and question marks and quote marks and other neutral break marks wherever a break helps a reader because the key phrase cutting had removed every mark.
+
+Every added word is still marked with stars and every deleted pronoun is listed under the passage and punctuation marks are not starred because every mark in these passages was added by the AI model.
+The grades use the same seven rules with a top score of 14 and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
+
+### Three fresh strings from the selections Charles chose
+
+Charles selection first fresh string (12 of 14):
+
+- *the wise man says to god:* "i have sworn, i will not forget your word, *because* the entrance of your words gives light in the house *of the poor*." *the man heard the word* from god. god says, "*take heart* in yourselves, and those who dwell *in the land*." *the man answered,* "according to your word, god." *the wicked made evil,* yet they have not prevailed against me, *because* the ox knows his owner *and the wise man knows god* and turned my steps to your statutes. let those who are with them *hear:* "it will happen in that day," says god, "*the lord* will bring *the high and wicked* down *to the earth*." *the people of the land heard and* said, "this is truly the prophet." others said, "*this man is righteous*."
+- Deleted pronouns: "i" before "the lord" and "them" where "the high and wicked" now stands and "they" before "said".
+
+Charles selection second fresh string (11 of 14):
+
+- *the people answered,* "we dont know." jesus said to them, "take heed, *because* a good tree cant produce evil fruit, and broad is the way that doesnt grow good *fruit*." *what good man* who says to a father, "*hear*," will give *the son* a stone? or if he asks *for a house* with grain, *will say, "take a stone* or vinegar"? *the people* stand up together, "assemble yourselves, all of you," and saying, "you are the christ." *jesus answered,* "i will give you *a house on good earth*. *the house the wicked man made on poor land* before the pigs, and great was its fall." *jesus says,* "i will be with you, *and not with the evil* which brings about mischief, *because* it is the glory *of god that* all men will come to you."
+- Deleted pronouns: "him" before "the son" and "they" before "stand up together".
+- The sentence about grain and vinegar stays weak because the two small stretches "with grain" and "or vinegar" share no subject with the stretches around them.
+
+Words of Jesus fresh string (13 of 14):
+
+- "*hear* the son of man, who is *sent from the father, because the man who hears jesus* and believes *the father* who sent me *receives eternal life*. dont forbid him. *the man who receives a little one* receives me, and he who loves son *and father in the love of god receives the kingdom*. *tell the good from the evil, because* whatever is more than these is of the evil one. *the kingdom of heaven is a house* in which there will *be the life* that you see, for i tell you that unless your righteousness exceeds *the world, the little* which he has will be taken away. throw out the unprofitable servant. the king will answer them, 'most certainly i tell you, this generation will not pass away before you. most certainly i tell you, all sins of the descendants of man will be forgiven, including their blasphemies, *because the father sent the son to give love to the world*.'"
+- Deleted pronouns: "him" before "the father".
+- The line "throw out the unprofitable servant" comes from a parable about a servant and a master and the passage adds nothing to the line which means the passage does not present harm to any person as good.
+
+### The six earlier passages again under the newest rules
+
+Words of Jesus first string (14 of 14):
+
+- "with you, how long will *jesus* bear with you? for everyone in the marketplaces, *and in* the best seats in the synagogues, *made the house of god a house of the world* and traded with them, i tell you, and much more. *the father sent love to those* who hate you, *so* bless those *in the marketplaces*, for they shall inherit the earth. blessed are those who have been persecuted *for the kingdom* before you. most certainly i tell you, if you have faith with *the christ*, then he will sit on the throne of his glory, *which the father made great in heaven*. on the earth, i wish it were already kindled: *the good seed of love that the father sent to the world*."
+- Deleted pronouns: "i" before "jesus" and "him" before "the christ".
+
+Words of Jesus second string (14 of 14):
+
+- "they persecuted the prophets who were *sent* before you, and even the chosen ones *of god*. behold, i *jesus* have told you beforehand: *among* women there has not arisen anyone greater than john the baptizer, *yet* for you to enter into gods kingdom before you, most certainly i tell you, i havent found *a place apart from the father*. *the father sent the son to give love* and not sacrifice, for *the christ* came not on an old garment, for the patch would tear away *the garment*. *believe, so the father and the son enter the house in heaven* and prepare a place for you; *yet* and whoever says 'you fool' will be *last in the kingdom*."
+- Deleted pronouns: "i" before "the christ" while "i *jesus* have told" keeps the pronoun because "jesus have told" would break the grammar.
+
+Claude selection (13 of 14):
+
+- on the earth there was evening, *and god made* herbs yielding seed after their kind, and it was so. god saw everything *good*. *blessed are those* who mourn, for they shall be comforted *on the earth*, and be exceedingly glad, for great is your reward in heaven. *the righteous* who were before you *heard*, "you are the salt of the earth," *from the father* who is in secret. *a man who saw evil* at a woman, to lust after her, has committed adultery *in the heart; so keep your yes* "yes" and your no be "no" *before god*. *god saw the man* who is evil; but whoever strikes you, *give the man love, because* you shall love your neighbor, and hate your enemy *no longer*.
+
+Charles selection (13 of 14 and up from 12):
+
+- i have set god always before me, *the great king* whose sandal strap im *under, because* the kingdom of heaven is at hand. *the righteous man answered* in heart, "if the foundations *of the house* are destroyed, *the wise people know the righteous man*: neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*." *the people of the land* in labor, they will look on *the holy king* who has had boldness to approach me, says god, *and the lord answered,* "shouldnt my soul be avenged?"
+- Deleted pronouns: "him" before "the holy king".
+
+John 10 (14 of 14 and up from 13):
+
+- *jesus answered the jews,* "as i told you, my sheep hear my voice, and i know them, and they follow me. i give eternal life to them. the good shepherd lays down his life for the sheep, *because the sheep know the voice of the shepherd*. whenever he brings out his own sheep, he goes *to the door*." *the jews answered* and said to him, "how long will you hold us?" for they dont know the voice of strangers. jesus spoke this parable to them, but they didnt understand. jesus therefore said to them again, "most certainly, *no one can take the sheep out* of my fathers hand. i and the father are one." *so the jews take* stones again to stone him. jesus answered them, "*for which of the good* works do you stone me?" the jews answered him, "we dont stone you *for good works*." *jesus answered,* "if i dont do the works of my father, *do not believe*; but if i do them, though you dont believe me, believe the works." others said, "these are not the sayings of one possessed *by a demon, because the works are good*."
+
+Psalm 88 (13 of 14 and up from 12):
+
+- *god,* i have cried in the morning *and in the night* on you daily. god, i have spread out my hands to you, *because* my prayer comes before you. god, why do you reject my soul? i am afflicted and ready to die from my youth up. while i suffer your terrors, i am distracted. your fierce wrath has gone over me, *the afflicted soul*, like the slain who lie in the grave, whom you remember no more. you have laid me in the lowest pit, in the darkest depths, *because* your wrath lies heavily on me. you have afflicted me with all your waves. your terrors have cut me off. they came around me like water all day long, *and the dark night cut the day* from me and my friends. *show your wonders* in the dark, or your righteousness *in the night, so the afflicted soul may rise and praise god*.
+
+What the newest rules changed:
+
+- Quote marks gave the largest gain because quote marks show who is speaking and the passages with several speakers (John 10 and the Charles selection) each rose by 1 point.
+- Question marks turned lines such as "why do you reject my soul" and "for which of the good works do you stone me" back into questions which a reader could not tell from the bare words.
+- Deleting an adjacent pronoun removed doubled wording such as "i jesus" and "him the christ" and the deletion only works where the grammar still holds afterward.
+- The passages that already scored 14 could not rise and those passages still read more smoothly because sentence breaks now fall where a reader expects a break.
+- The live programs carry the one-word-for-God rule and the warning while the pronoun rule and the punctuation rule exist only in the hand joining because the programs have no test of meaning or grammar.
 
 ## Limits
 

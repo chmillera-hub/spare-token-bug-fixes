@@ -19,3 +19,5 @@ Every item in this folder is written for a person to read and each line below sa
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution-live-program.html
 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
+
+Warning about a wording change: Charles replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps Charles follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
