@@ -274,6 +274,50 @@ What the program does with the same lists:
 - The average count of phrases inside rebuilt stretches per agent was 29.4 for the Claude selection and 15.5 for the Charles selection and 21.0 for the words of Jesus.
 - The joining words chosen by the program read as filler because the program checks word pairs and has no test of meaning which means the hand joining above is still far ahead of the program.
 
+## One chapter against one chapter: John 10 and Psalm 88
+
+Charles asked for the same process on two single chapters which means the key phrase cutting and the evolution run and the special word lists and the hand joining were all repeated on John chapter 10 and on Psalm 88 from the World English Bible.
+
+Size of each source:
+
+- John 10 holds 799 words that the cutting rule turned into 193 different key phrases.
+- Psalm 88 holds 288 words that the cutting rule turned into 75 different key phrases.
+
+What the agents did in a run of 3 million pastes per chapter:
+
+- Every agent in both chapters ended with all 32 pieces inside rebuilt stretches because a single chapter has so few phrases that finding true neighbors is easy (the whole-book selections reached only about 15 to 29 of 32).
+- The agents dropped every joining word in both chapters because a rebuilt phrase pair earns more credit than a joining word and a small source always offers a rebuilt pair.
+- The best John 10 string held 13 short stretches and the best Psalm 88 string held 11 short stretches and the longest stretch was 6 phrases in both chapters which means the agents shuffled the chapter into short true pieces and did not rebuild the chapter in order.
+
+Special words for John 10 with counts:
+
+- Naming words: sheep 16 and father 11 and shepherd 6 and jesus 6 and hand 6 and voice 5 and life 5 and works 5 and door 4 and jews 4 and god 3 and demon 3.
+- Action words: know 6 and believe 6 and lay 4 and answered 4 and tell 3 and listen 3 and follow 3 and hear 2 and take 2 and snatch 2.
+- Describing words: good 5 and hired 3 and own and eternal and true and blind.
+
+Special words for Psalm 88 with counts:
+
+- Naming words: yahweh 4 and day 2 and prayer 2 and soul 2 and pit 2 and grave 2 and wrath 2 and friends 2 and wonders 2 and terrors 2 and god 1 and night 1.
+- Action words: cried 2 and made 2 and cut 2 and remember and turn and enter and show and rise and praise and spread and reject and hide.
+- Describing words: dead 2 and afflicted 2 and full and dim and dark and lowest and darkest and fierce and near and loving.
+
+John 10 joined by hand from the best string of agent 1 (13 of 14) with added words marked by stars:
+
+- *jesus answered the jews* as i told you my sheep hear my voice and i know them and they follow me i give eternal life to them. the good shepherd lays down his life for the sheep *because the sheep know the voice of the shepherd* whenever he brings out his own sheep he goes *to the door*. *the jews answered* and said to him how long will you hold us for they dont know the voice of strangers jesus spoke this parable to them but they didnt understand. jesus therefore said to them again most certainly *no one can take the sheep out* of my fathers hand i and the father are one. *so the jews take* stones again to stone him jesus answered them *for which of the good* works do you stone me the jews answered him we dont stone you *for good works*. *jesus answered* if i dont do the works of my father *do not believe* but if i do them though you dont believe me believe the works. others said these are not the sayings of one possessed *by a demon because the works are good*.
+
+Psalm 88 joined by hand from the best string of agent 1 (12 of 14) with added words marked by stars:
+
+- *yahweh god* i have cried in the morning *and in the night* on you daily yahweh i have spread out my hands to you *because* my prayer comes before you yahweh why do you reject my soul. i am afflicted and ready to die from my youth up while i suffer your terrors i am distracted your fierce wrath has gone over me *the afflicted soul* like the slain who lie in the grave whom you remember no more. you have laid me in the lowest pit in the darkest depths *because* your wrath lies heavily on me you have afflicted me with all your waves. your terrors have cut me off they came around me like water all day long *and the dark night cut the day* from me and my friends. *show your wonders* in the dark or your righteousness *in the night so the afflicted soul may rise and praise yahweh*.
+
+What the comparison showed:
+
+- John 10 has many speakers and many action words about relationship such as "know" and "believe" and "follow" and "hear" while Psalm 88 has one voice speaking to "you" and naming words about a low place such as "pit" and "grave" and "wrath" and "terrors".
+- John 10 repeats a few words many times ("sheep" 16 times and "father" 11 times) while Psalm 88 repeats almost nothing (the top word "yahweh" appears 4 times) which means the special word list for Psalm 88 is thin and nearly every allowed word is a one-time word.
+- Both hand-joined passages scored about as high as the passages from the large selections after far fewer rule changes because every stretch comes from one chapter and already shares one subject.
+- The added words in the John 10 passage mostly restore what the chapter says (for example "by a demon" finishes a line the cutting rule had split) which means the high score reflects a small and connected source more than skill in joining.
+- Psalm 88 in the source ends in darkness with no turn toward relief and the closing words "so the afflicted soul may rise and praise yahweh" are a choice of the AI model built from two questions in the psalm ("do the departed spirits rise up and praise you" and "are your wonders made known in the dark").
+- The John 10 passage reports that people picked up stones and the passage keeps the question "for which of the good works do you stone me" as a question which means the passage does not present harm to any person as good.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
