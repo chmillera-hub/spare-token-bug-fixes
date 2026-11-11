@@ -142,6 +142,31 @@ Why the score stops at 11:
 - The words "him" and "he" and "it" in the stretches point at someone or something the stretches never name and no generic word can supply the name.
 - The label "throne of his glory" stays unexplained because an explanation would need new thing words.
 
+## One finished passage per selection made the same way as version 5
+
+The AI model took the best string of a second agent from each selection and went straight to the method of version 5 which means free order and sentence breaks and a claim with a reason in each sentence and generic words only.
+Every added word is marked with stars and the grades use the same seven rules with a top score of 14.
+
+Claude selection (10 of 14) from the stretches "on the earth there was evening" and "herbs yielding seed after their kind and it was so god saw everything" and "who mourn for they shall be comforted" and "and be exceedingly glad for great is your reward in heaven" and "who were before you you are the salt of the earth" and "who is in secret" and "at a woman to lust after her has committed adultery" and "yes and your no be no" and "who is evil but whoever strikes you" and "you shall love your neighbor and hate your enemy":
+
+- on the earth there was evening *and* herbs yielding seed after their kind and it was so god saw everything. *those* who mourn for they shall be comforted *here* and be exceedingly glad for great is your reward in heaven. *those* who were before you you are the salt of the earth *for him* who is in secret. *anyone here* at a woman to lust after her has committed adultery *so* yes and your no be no. *as for him* who is evil but whoever strikes you *then* you shall love your neighbor and hate your enemy *no longer*.
+
+Charles selection (9 of 14) from the stretches "in heart if the foundations are destroyed" and "i have set yahweh always before me whose sandal strap im" and "who rose up against me and by" and "in labor they will look on him" and "who has had boldness to approach me says yahweh shouldnt my soul be avenged" and "neither has he gone into captivity" and "the kingdom of heaven is at hand":
+
+- i have set yahweh always before me whose sandal strap im *under because* the kingdom of heaven is at hand. *even* in heart if the foundations are destroyed neither has he gone into captivity *with those* who rose up against me and by *them*. in labor they will look on him who has had boldness to approach me says yahweh *for* shouldnt my soul be avenged.
+
+Words of Jesus (10 of 14) from the stretches "they persecuted the prophets who were" and "and whoever says you fool will be" and "and not sacrifice for i came not" and "on an old garment for the patch would tear away" and "women there has not arisen anyone greater than john the baptizer" and "for you to enter into gods kingdom before you most certainly i tell you i havent found" and "even the chosen ones behold i have told you beforehand" and "and prepare a place for you":
+
+- they persecuted the prophets who were *before you and* even the chosen ones behold i have told you beforehand. women there has not arisen anyone greater than john the baptizer *yet* for you to enter into gods kingdom before you most certainly i tell you i havent found *anyone here*. *for all of you* and not sacrifice for i came not on an old garment for the patch would tear away. *here with you* and prepare a place for you *yet* and whoever says you fool will be *apart from all of you*.
+
+Notes on the three passages:
+
+- The Claude selection passage scored 10 because five sentences each carry a claim and a reason while "him who is in secret" and "him who is evil" name nobody.
+- The words "no longer" were added to the stretch "you shall love your neighbor and hate your enemy" because the stretch quotes an old saying that the speaker in Matthew 5 goes on to reject and the two generic words keep the passage from teaching hatred of an enemy.
+- The Charles selection passage scored 9 because the stretches came from six different books and three of the stretches were cut in the middle of a thought such as "whose sandal strap im" and "who rose up against me and by".
+- The line "shouldnt my soul be avenged" is a question spoken by yahweh in the book of Jeremiah and the passage keeps the line as a question and does not present harm to any person as good.
+- The words of Jesus passage scored 10 because each sentence pairs a claim with "yet" or "for" while "for all of you and not sacrifice" lacks the thing that is wanted in place of sacrifice which is the word "mercy" in the source.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
