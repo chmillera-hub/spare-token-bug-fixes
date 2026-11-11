@@ -318,6 +318,30 @@ What the comparison showed:
 - Psalm 88 in the source ends in darkness with no turn toward relief and the closing words "so the afflicted soul may rise and praise yahweh" are a choice of the AI model built from two questions in the psalm ("do the departed spirits rise up and praise you" and "are your wonders made known in the dark").
 - The John 10 passage reports that people picked up stones and the passage keeps the question "for which of the good works do you stone me" as a question which means the passage does not present harm to any person as good.
 
+## A personal rule from Charles: one word for God in the selections Charles chose
+
+Charles set a personal rule for the selections that Charles chose: the name "yahweh" is replaced by the word "god" everywhere because Charles wants one word for God and keeps the word "lord" because "lord" connects with Christ for Charles.
+The rule applies to the Charles selection and to the words of Jesus and to the two single chapters and the rule does not apply to the Claude selection.
+The sections above this section were written before the rule and still show the older wording.
+
+What the rule changed:
+
+- The Charles selection had 1189 key phrases that held the name and the selection now has 43651 different key phrases (down from 43694) because some phrases became identical after the replacement.
+- The word "god" now appears about 2750 times in the Charles selection because the 1687 uses of the name were added to the 1064 uses of "god".
+- The words of Jesus and John 10 held no key phrase with the name so only the special word list of the words of Jesus changed (the name was removed from the list).
+- Psalm 88 held the name 4 times and now reads "god" in those 4 places.
+- The Charles special naming words are now god and man and jesus and son and people and lord and day and king and house and land and heart and earth.
+- A few phrases now repeat the word such as "god the god of my salvation" because the source reads "yahweh the god of my salvation".
+- The form "yahwehs" (which means "belonging to yahweh" because the cutting rule strips the mark of possession) became "gods" and a reader could mistake "gods" for more than one god.
+
+Charles selection passage under the rule:
+
+- i have set god always before me *the great king* whose sandal strap im *under because* the kingdom of heaven is at hand. *the righteous man answered* in heart if the foundations *of the house* are destroyed *the wise people know the righteous man* neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*. *the people of the land* in labor they will look on him *the holy king* who has had boldness to approach me says god *and the lord answered* shouldnt my soul be avenged.
+
+Psalm 88 passage under the rule:
+
+- *god* i have cried in the morning *and in the night* on you daily god i have spread out my hands to you *because* my prayer comes before you god why do you reject my soul. i am afflicted and ready to die from my youth up while i suffer your terrors i am distracted your fierce wrath has gone over me *the afflicted soul* like the slain who lie in the grave whom you remember no more. you have laid me in the lowest pit in the darkest depths *because* your wrath lies heavily on me you have afflicted me with all your waves. your terrors have cut me off they came around me like water all day long *and the dark night cut the day* from me and my friends. *show your wonders* in the dark or your righteousness *in the night so the afflicted soul may rise and praise god*.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
