@@ -147,6 +147,32 @@ What the third rule changed:
 - A pronoun for a named thing filled a gap after an action word such as "these will receive it" and "your father has it".
 - The third rule still could not supply a missing action word or a missing thing word which means endings such as "righteousness through the" and "against all the" stay cut off.
 
+## A fourth pass that allows any of the most generic words
+
+Charles widened the rule a last time so that the AI model could add any of the most generic words such as "you" and "them" and "those" and "others" and pointing phrases such as "over there" and "here" even when no such word appears in the string.
+The AI model read the rule as covering connecting words and reference words and pointing words and left out action words and thing words which means every added word still names nothing new.
+
+Claude selection:
+
+- god made the expanse on the earth *for you* your male servant *and for* you his saints *so* know that yahweh *and* you are there *with them* and know my heart *like* your father who is in heaven your heavenly father *for he* and you visited me *so* who is my neighbor *here*
+- in the beginning *you* fill the earth which is on the surface *so* listen to me *about what he* made in the earth *as* he said to him *there* and in your sight *from* heaven and in your sight and your father has *it for them* for god is love
+
+Charles selection:
+
+- among the nations *over there* by your name for your loving kindness is good and that which is *yours* for all this *because* god is my salvation and not spirit *yet* no one answered *him* against all the *others* and there they will be and against judah *so* which of you *with him* into all the earth
+- for who is god because of your *own* and therefore i love your *own so* come with us the neighbor and his *own* and not return *from the* goodness of yahweh and tell him and it will be *that* he was troubled as they went out *when* jesus came out *to* you from the father *with his* righteousness through the *others*
+
+Words of Jesus:
+
+- when you pray he said to them *over there* until you say *it here* or in prison and the last first *because* the lord is one and i in him for which of those *over yonder* and go to the father *so* that you sent me
+- judgment than for you *if they* and not understand that is to say these *here* will receive *it* and be killed but when it is evil *there* and you will be blessed and will tell him why are you troubled *when* the hour comes *and* you dont believe me for which of those *over there who* remain in me
+
+What the fourth rule changed:
+
+- Generic reference words closed the cut-off endings that the earlier rules could not close such as "against all the others" and "righteousness through the others" and "your own".
+- Pointing words such as "over there" and "here" gave the strings a sense of a speaker standing in a place and pointing at people which the earlier passes lacked.
+- The strings still lack action words in places such as "if they and not understand" because the rule still keeps new action words out.
+
 ## Limits
 
 - The agents mostly built short common quotes because a short quote made of common words needs fewer lucky draws which means rare and famous lines seldom appear.
