@@ -59,6 +59,29 @@ Words of Jesus (about 22 of 24 phrases per agent sat inside a rebuilt stretch):
 - The large Charles selection rebuilt less (18 phrases against 22 or 23) because the chance that a random phrase is the true neighbor of another phrase falls as the list grows.
 - The key phrase version ran about 2400000 to 2900000 pastes per second on the test machine which is faster than the word version.
 
+## One agent per selection from a second run with generic words added by hand
+
+The AI model ran the key phrase experiment a second time and took the whole best string of one agent per selection and joined the rebuilt stretches with only the most generic words which means connecting words and reference words such as "those" and "him" and pointing words such as "here" and "over there" and no new action words or thing words.
+Every added word is marked with stars and the stretches stay in the order of the Bible.
+
+Claude selection (all eleven stretches came from Matthew 5):
+
+- for they shall inherit the earth blessed are those *here* for great is your reward in heaven *and those* who are in the house *with him* who is in heaven for that is how *and so* to the ancient ones you shall not make false vows but i tell you dont swear *at him* who is angry with his brother while you are with him on the way *there so* pluck it out and throw it away for it is more profitable for you *than those others* if anyone sues you to take away your coat
+
+Charles selection (stretches from Psalm 24 and Psalm 89 and Proverbs 8 and Isaiah 52 and Matthew 9 and Matthew 12):
+
+- and those who were before you in that day says yahweh of armies yahweh says *to them* before your face who will prepare your way before you most certainly i tell you *this* by the way for the sword of the enemy *over there and* from there says yahweh with the sword *to those others* and sinners jesus answered them i told you *so when* they asked him what then are you elijah he said *that to them*
+
+Words of Jesus (stretches from Matthew 5 and 6 and 11 and 17 and 25):
+
+- for they shall inherit the earth blessed are those who have been persecuted *here* before you most certainly i tell you if you have faith with him then he will sit on the throne of his glory *and those* who hate you bless those *others* on the earth i wish it were already kindled *there* in the marketplaces *and not* the best seats in the synagogues *for those* with you how long will i bear with you for everyone *here* and traded with them i tell you and much more *than that*
+
+What the joined key phrase strings show:
+
+- Each string needed only 6 to 8 added word groups to read as one passage because each rebuilt stretch is already several words of real Bible text.
+- The joined key phrase strings read far more like a sermon than the joined word strings did because whole stretches such as "blessed are those who have been persecuted" arrive intact.
+- The meaning of each joined string is new and belongs to no Bible passage because the stretches come from different verses and the added words are choices made by the AI model.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
