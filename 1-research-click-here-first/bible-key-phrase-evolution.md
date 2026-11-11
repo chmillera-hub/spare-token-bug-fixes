@@ -424,6 +424,34 @@ Where the rule changed a passage in the section above:
 - Both changed passages keep the same grade because the grades were already counting those sentences as understandable and the change removes an awkward spot without adding meaning.
 - The rule also widens what the pronoun deletion rule can do because a pronoun that could not be deleted before (such as the "i" in "i have told") can now be replaced.
 
+## Speaker rule for the words of Jesus: the passages are read as spoken by Christ
+
+Charles added a rule for the words of Jesus selection only: every passage is read as spoken by Christ which means the added words avoid the name "jesus" because the speaker in the four gospels rarely uses that name for himself and more often says "i" or "the son of man".
+The word "i" now stays as the source has the word and "the son of man" stands where a "he" or "him" points at the speaker and the name "jesus" was removed from the special word list of the live program for this selection.
+The grades assume a reader who knows that Christ is speaking because the rule itself sets that assumption.
+
+Words of Jesus first string (14 of 14):
+
+- "with you, how long will i bear with you? for everyone in the marketplaces, *and in* the best seats in the synagogues, *made the house of god a house of the world* and traded with them, i tell you, and much more. *the father sent love to those* who hate you, *so* bless those *in the marketplaces*, for they shall inherit the earth. blessed are those who have been persecuted *for the kingdom* before you. most certainly i tell you, if you have faith with *the son of man*, then he will sit on the throne of his glory, *which the father made great in heaven*. on the earth, i wish it were already kindled: *the good seed of love that the father sent to the world*."
+- Deleted pronouns: "him" before "the son of man".
+
+Words of Jesus second string (14 of 14):
+
+- "they persecuted the prophets who were *sent* before you, and even the chosen ones *of god*. behold, i have told you beforehand: *among* women there has not arisen anyone greater than john the baptizer, *yet* for you to enter into gods kingdom before you, most certainly i tell you, i havent found *a place apart from the father*. *the father sent the son to give love* and not sacrifice, for *the son of man* came not on an old garment, for the patch would tear away *the garment*. *believe, so the father and the son enter the house in heaven* and prepare a place for you; *yet* and whoever says 'you fool' will be *last in the kingdom*."
+- Deleted pronouns: "i" before "came not".
+
+Words of Jesus fresh string (13 of 14):
+
+- "*hear* the son of man, who is *sent from the father, because the man who hears the son* and believes *the father* who sent me *receives eternal life*. dont forbid him. *the man who receives a little one* receives me, and he who loves son *and father in the love of god receives the kingdom*. *tell the good from the evil, because* whatever is more than these is of the evil one. *the kingdom of heaven is a house* in which there will *be the life* that you see, for i tell you that unless your righteousness exceeds *the world, the little* which he has will be taken away. throw out the unprofitable servant. the king will answer them, 'most certainly i tell you, this generation will not pass away before you. most certainly i tell you, all sins of the descendants of man will be forgiven, including their blasphemies, *because the father sent the son to give love to the world*.'"
+- Deleted pronouns: "him" before "the father".
+
+What the speaker rule changed:
+
+- The three passages now hold no added "jesus" and no added "the christ" which means every passage can be read aloud as one person speaking from start to end.
+- The phrase "the son of man" fits the source closely because the source verse behind the first string itself reads "when the son of man comes in his glory then he will sit on the throne of his glory".
+- The grades did not move because the earlier names had earned their point by telling a reader who "i" is and the speaker rule now gives a reader the same knowledge before the passage starts.
+- A reader who meets one of these passages with no notice that Christ is speaking would lose that knowledge which means the passages need a short heading such as "words of Christ" wherever the passages are posted.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
