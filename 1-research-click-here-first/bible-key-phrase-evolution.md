@@ -359,8 +359,8 @@ The grades use the same seven rules with a top score of 14 and the AI model grad
 
 Charles selection first fresh string (12 of 14):
 
-- *the wise man says to god:* "i have sworn, i will not forget your word, *because* the entrance of your words gives light in the house *of the poor*." *the man heard the word* from god. god says, "*take heart* in yourselves, and those who dwell *in the land*." *the man answered,* "according to your word, god." *the wicked made evil,* yet they have not prevailed against me, *because* the ox knows his owner *and the wise man knows god* and turned my steps to your statutes. let those who are with them *hear:* "it will happen in that day," says god, "*the lord* will bring *the high and wicked* down *to the earth*." *the people of the land heard and* said, "this is truly the prophet." others said, "*this man is righteous*."
-- Deleted pronouns: "i" before "the lord" and "them" where "the high and wicked" now stands and "they" before "said".
+- *the wise man has* sworn *to god,* "i will not forget your word, *because* the entrance of your words gives light in the house *of the poor*." *the man heard the word* from god. god says, "*take heart* in yourselves, and those who dwell *in the land*." *the man answered,* "according to your word, god." *the wicked made evil,* yet they have not prevailed against me, *because* the ox knows his owner *and the wise man knows god* and turned my steps to your statutes. let those who are with them *hear:* "it will happen in that day," says god, "*the lord* will bring *the high and wicked* down *to the earth*." *the people of the land heard and* said, "this is truly the prophet." others said, "*this man is righteous*."
+- Deleted pronouns: "i" before "have sworn" (and "have" became "has" under the grammar rule below) and "i" before "the lord" and "them" where "the high and wicked" now stands and "they" before "said".
 
 Charles selection second fresh string (11 of 14):
 
@@ -383,8 +383,8 @@ Words of Jesus first string (14 of 14):
 
 Words of Jesus second string (14 of 14):
 
-- "they persecuted the prophets who were *sent* before you, and even the chosen ones *of god*. behold, i *jesus* have told you beforehand: *among* women there has not arisen anyone greater than john the baptizer, *yet* for you to enter into gods kingdom before you, most certainly i tell you, i havent found *a place apart from the father*. *the father sent the son to give love* and not sacrifice, for *the christ* came not on an old garment, for the patch would tear away *the garment*. *believe, so the father and the son enter the house in heaven* and prepare a place for you; *yet* and whoever says 'you fool' will be *last in the kingdom*."
-- Deleted pronouns: "i" before "the christ" while "i *jesus* have told" keeps the pronoun because "jesus have told" would break the grammar.
+- "they persecuted the prophets who were *sent* before you, and even the chosen ones *of god*. behold, *jesus has* told you beforehand: *among* women there has not arisen anyone greater than john the baptizer, *yet* for you to enter into gods kingdom before you, most certainly i tell you, i havent found *a place apart from the father*. *the father sent the son to give love* and not sacrifice, for *the christ* came not on an old garment, for the patch would tear away *the garment*. *believe, so the father and the son enter the house in heaven* and prepare a place for you; *yet* and whoever says 'you fool' will be *last in the kingdom*."
+- Deleted pronouns: "i" before "the christ" and "i" before "have told" (and "have" became "has" under the grammar rule below).
 
 Claude selection (13 of 14):
 
@@ -410,6 +410,19 @@ What the newest rules changed:
 - Deleting an adjacent pronoun removed doubled wording such as "i jesus" and "him the christ" and the deletion only works where the grammar still holds afterward.
 - The passages that already scored 14 could not rise and those passages still read more smoothly because sentence breaks now fall where a reader expects a break.
 - The live programs carry the one-word-for-God rule and the warning while the pronoun rule and the punctuation rule exist only in the hand joining because the programs have no test of meaning or grammar.
+
+## Grammar rule: a word may change form when a naming word replaces a pronoun
+
+Charles added a smoothing rule for every selection: when a naming word replaces a pronoun and the swap breaks the grammar the AI model may change the form of the nearby word so that the sentence stays correct (for example "i have told you" becomes "*jesus has* told you" because "jesus have told you" reads wrongly).
+A changed word is marked with stars the same way an added word is marked.
+
+Where the rule changed a passage in the section above:
+
+- Words of Jesus second string: "behold, i *jesus* have told you beforehand" became "behold, *jesus has* told you beforehand".
+- Charles selection first fresh string: the opening "*the wise man says to god:* i have sworn" became "*the wise man has* sworn *to god*".
+- The other seven passages needed no change because every swap in those passages already left correct grammar (for example "how long will *jesus* bear with you" is correct because the word "will" takes the plain form "bear").
+- Both changed passages keep the same grade because the grades were already counting those sentences as understandable and the change removes an awkward spot without adding meaning.
+- The rule also widens what the pronoun deletion rule can do because a pronoun that could not be deleted before (such as the "i" in "i have told") can now be replaced.
 
 ## Names of the live programs
 
