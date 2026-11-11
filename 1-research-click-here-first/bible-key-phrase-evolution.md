@@ -89,7 +89,7 @@ The words inside each stretch stay in Bible order and every added word is marked
 
 Claude selection:
 
-- *to those* who are in the house *and to him* who is angry with his brother while you are with him on the way *i say* to the ancient ones you shall not make false vows but i tell you dont swear *and* if anyone sues you to take away your coat pluck it out and throw it away for it is more profitable for you for great is your reward in heaven *with him* who is in heaven for that is how *those before you* for they shall inherit the earth blessed are those
+- *to those* who are in the house *and to him* who is angry with his brother while you are with him on the way *and* to the ancient ones you shall not make false vows but i tell you dont swear *and* if anyone sues you to take away your coat pluck it out and throw it away for it is more profitable for you for great is your reward in heaven *with him* who is in heaven for that is how *those before you* for they shall inherit the earth blessed are those
 
 Charles selection:
 
@@ -103,7 +103,7 @@ What rearranging changed:
 
 - Free order let each string open with a scene and close with a blessing or a wish which the Bible order could not do because Bible order is fixed by chapter number.
 - The Charles selection gained the most because the six stretches became one exchange (a question and an answer and a promise and a warning) where Bible order had scattered the speakers.
-- The phrase "i say" in the Claude selection string uses the action word "say" which already appears in the stretches as "says" and "i tell you" and the AI model counted "i say" as a relational phrase which is a looser reading of the rule than in the earlier passes.
+- Every added word in the three strings is a connecting word or a reference word or a pointing word which means no new action word or thing word entered any string.
 
 ## Limits
 
