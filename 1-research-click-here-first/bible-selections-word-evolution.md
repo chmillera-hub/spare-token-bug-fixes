@@ -95,6 +95,32 @@ What the reference words changed:
 - A reference word could not supply a missing action word which means stretches such as "until he to the sword" still lack the word that says what he does.
 - The second string from the words of Jesus did not change because the first pass had already used the reference word "him" that appears in the string.
 
+## Two more runs with new random starting points
+
+The AI model reran all three selections twice more with different random starting points to see which differences repeat.
+
+Claude selection in the second run:
+
+- "god made the expanse / on the earth / your male servant / you his saints / know that yahweh / you are there / and know my heart / your father who is in heaven / your heavenly father / and you visited me / who is my neighbor"
+- "in the beginning / fill the earth / which is on the surface / listen to me / made in the earth / he said to him / and in your sight / heaven and in your sight / and your father has / for god is love"
+
+Charles selection in the second run:
+
+- "among the nations / by your name / for your loving kindness is good / and that which is / for all this / god is my salvation / and not spirit / no one answered / against all the / and there they will be / and against judah / which of you / into all the earth"
+- "for who is god / because of your / therefore i love your / come with us / the neighbor and his / and not return / goodness of yahweh / and tell him / and it will be / he was troubled / as they went out / jesus came out / you from the father / righteousness through the"
+
+Words of Jesus in the second run:
+
+- "when you pray / he said to them / until you say / or in prison / and the last first / the lord is one / and i in him / for which of those / and go to the father / that you sent me"
+- "judgment than for you / and not understand / that is to say / these will receive / and be killed / but when it is evil / and you will be blessed / and will tell him / why are you troubled / the hour comes / you dont believe me / for which of those / remain in me"
+
+What repeated across all three runs:
+
+- The word "earth" was the most used content word for the Claude selection in all three runs and "heaven" was in the top three in all three runs.
+- The word "father" was the most used content word for the words of Jesus in all three runs and "know" or "believe" or "receive" appeared near the top each time.
+- The words "yahweh" and "righteousness" appeared near the top for the Charles selection in all three runs while the rest of the top words changed from run to run which fits a much larger and more varied source.
+- The exact quotes changed almost completely from run to run which means a single run shows one draw out of many possible draws.
+
 ## Limits
 
 - The agents mostly built short common quotes because a short quote made of common words needs fewer lucky draws which means rare and famous lines seldom appear.

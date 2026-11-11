@@ -3,12 +3,12 @@ const sets={'Claude selection (41 passages)':'bible_phrases.json','Charles selec
 const total=+process.argv[2]||600000;
 for(const [name,f] of Object.entries(sets)){
   const W=makeWorld(JSON.parse(fs.readFileSync(f,'utf8')));const S={agents:10,pool:60,pick:3,add:30,swap:10,change:10,uniq:0.2,near:0,junk:0.02,maxWords:60};
-  const R=makeRun(W,S,11);R.restart();const t0=Date.now();while(R.pastes<total)R.step();
+  const R=makeRun(W,S,+process.argv[3]||11);R.restart();const t0=Date.now();while(R.pastes<total)R.step();
   console.log(`\n=== ${name}: ${W.N} quotes, ${W.words.length} different words | ${total} pastes = ${R.minutes().toFixed(0)} min of experiment time | ${Math.round(total/((Date.now()-t0)/1000))} pastes per second`);
   const cnt=new Map();let nq=0,nw=0;
   for(let a=0;a<S.agents;a++){const t=R.pop[R.agentBest(a)];const inf=W.info(t);nq+=inf.n;
     for(const o of inf.story)for(const w of o.c.split(' ')){cnt.set(w,(cnt.get(w)||0)+1);nw++;}
-    if(a<4)console.log(`Agent ${a+1} (${inf.n} quotes, ${inf.scenes} passages): `+inf.story.map(o=>o.c).join(' / '));}
+    if(a<3)console.log(`Agent ${a+1} (${inf.n} quotes, ${inf.scenes} passages): `+inf.story.map(o=>o.c).join(' / '));}
   const share=(m,tot,ws)=>Math.round(100*ws.reduce((x,w)=>x+(m.get(w)||0),0)/tot);
   const src=new Map();let sw=0;for(const q of W.D.p)for(const w of q.split(' ')){src.set(w,(src.get(w)||0)+1);sw++;}
   const G={'you/your':['you','your','yours','yourselves'],'i/me/my':['i','me','my','mine'],'he/him/they/them':['he','him','his','they','them','their'],'father':['father'],'love':['love','loved','loves'],'will/shall':['will','shall'],'dont/not/no':['dont','not','no','neither','nor'],'yahweh/god/lord':['yahweh','god','lord']};
