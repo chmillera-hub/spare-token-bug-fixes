@@ -8,6 +8,7 @@ The folder named [1-research-click-here-first](1-research-click-here-first) hold
 
 - [Voynich manuscript findings](1-research-click-here-first/voynich-manuscript-findings.md) explains what spelling-pattern tests suggest about the order in which scribes wrote an unreadable book from the early 1400s.
 - [Word evolution experiments](1-research-click-here-first/word-evolution-experiments.md) shows what happens when text is copied with small mistakes over and over while a reader picks which copies survive.
+- [Try the word evolution program](1-research-click-here-first/try-the-word-evolution-program.md) explains two ways to run a live program with sliders where ten separate agents evolve text from random letters.
 - [Hiding a book by splitting pages](1-research-click-here-first/hiding-a-book-by-splitting-pages.md) shows how much sense is left when a 1000-page biology book is dealt into four piles.
 - [The Mobius strip picture of physics](1-research-click-here-first/mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [Writing rules for clear chatbot replies](1-research-click-here-first/writing-rules-for-clear-chatbot-replies.md) is a set of rules with before and after examples that a person can paste into any chatbot.
