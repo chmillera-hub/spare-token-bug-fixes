@@ -121,6 +121,32 @@ What repeated across all three runs:
 - The words "yahweh" and "righteousness" appeared near the top for the Charles selection in all three runs while the rest of the top words changed from run to run which fits a much larger and more varied source.
 - The exact quotes changed almost completely from run to run which means a single run shows one draw out of many possible draws.
 
+## A third pass on the second run that also allows a pronoun for any named person or thing
+
+Charles widened the rule once more so that the AI model could add connecting words plus reference words already in the string plus a pronoun such as "he" or "they" or "it" that stands for a person or thing the string already names such as "god" or "the father" or "the earth" even when that pronoun appears nowhere in the string.
+The AI model applied all three rules to the six strings of the second run and every added word is marked with stars.
+
+Claude selection:
+
+- god made the expanse on the earth *for* your male servant *and* you his saints know that yahweh *he and* you are there and know my heart *like* your father who is in heaven your heavenly father *for he* and you visited me *so* who is my neighbor
+- in the beginning fill the earth which is on the surface *and* listen to me *about what he* made in the earth *as* he said to him and in your sight *from* heaven and in your sight and your father has *it* for god is love
+
+Charles selection:
+
+- among the nations by your name for your loving kindness is good and that which is *yours* for all this *because* god is my salvation and not spirit *yet* no one answered *him* against all the and there they will be and against judah *so* which of you *with him* into all the earth
+- for who is god because of your *and* therefore i love your *so* come with us the neighbor and his and not return *from the* goodness of yahweh and tell him and it will be *that* he was troubled as they went out *when* jesus came out *to* you from the father *with his* righteousness through the
+
+Words of Jesus:
+
+- when you pray he said to them until you say *it* or in prison and the last first *because* the lord is one and i in him for which of those *and they* and go to the father *so* that you sent me
+- judgment than for you *if they* and not understand that is to say these will receive *it* and be killed but when it is evil and you will be blessed and will tell him why are you troubled *when* the hour comes *and* you dont believe me for which of those *who* remain in me
+
+What the third rule changed:
+
+- A pronoun for a named person let a quote lean on a name from an earlier quote such as "about what he made in the earth" where "he" points back to the one who speaks in "listen to me" and forward to "god".
+- A pronoun for a named thing filled a gap after an action word such as "these will receive it" and "your father has it".
+- The third rule still could not supply a missing action word or a missing thing word which means endings such as "righteousness through the" and "against all the" stay cut off.
+
 ## Limits
 
 - The agents mostly built short common quotes because a short quote made of common words needs fewer lucky draws which means rare and famous lines seldom appear.
