@@ -82,6 +82,29 @@ What the joined key phrase strings show:
 - The joined key phrase strings read far more like a sermon than the joined word strings did because whole stretches such as "blessed are those who have been persecuted" arrive intact.
 - The meaning of each joined string is new and belongs to no Bible passage because the stretches come from different verses and the added words are choices made by the AI model.
 
+## The same three strings with the stretches rearranged into the most sensible order
+
+Charles then allowed the AI model to drop the chapter labels and to put the rebuilt stretches in any order and to add the same generic words as before (connecting words and reference words and pointing words) with the goal of the most sensible sounding passage.
+The words inside each stretch stay in Bible order and every added word is marked with stars.
+
+Claude selection:
+
+- *to those* who are in the house *and to him* who is angry with his brother while you are with him on the way *i say* to the ancient ones you shall not make false vows but i tell you dont swear *and* if anyone sues you to take away your coat pluck it out and throw it away for it is more profitable for you for great is your reward in heaven *with him* who is in heaven for that is how *those before you* for they shall inherit the earth blessed are those
+
+Charles selection:
+
+- they asked him what then are you elijah he said *to them* and sinners jesus answered them i told you *of him* before your face who will prepare your way before you most certainly i tell you *that he* and those who were before you in that day says yahweh of armies yahweh says *this* from there says yahweh with the sword *so not* by the way for the sword of the enemy
+
+Words of Jesus:
+
+- with you how long will i bear with you for everyone *there* in the marketplaces the best seats in the synagogues and traded with them i tell you and much more *yet those* who hate you bless those *others* for they shall inherit the earth blessed are those who have been persecuted *here* before you most certainly i tell you if you have faith with him then he will sit on the throne of his glory *over all those* on the earth i wish it were already kindled
+
+What rearranging changed:
+
+- Free order let each string open with a scene and close with a blessing or a wish which the Bible order could not do because Bible order is fixed by chapter number.
+- The Charles selection gained the most because the six stretches became one exchange (a question and an answer and a promise and a warning) where Bible order had scattered the speakers.
+- The phrase "i say" in the Claude selection string uses the action word "say" which already appears in the stretches as "says" and "i tell you" and the AI model counted "i say" as a relational phrase which is a looser reading of the rule than in the earlier passes.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
