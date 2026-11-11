@@ -411,6 +411,18 @@ What the newest rules changed:
 - The passages that already scored 14 could not rise and those passages still read more smoothly because sentence breaks now fall where a reader expects a break.
 - The live programs carry the one-word-for-God rule and the warning while the pronoun rule and the punctuation rule exist only in the hand joining because the programs have no test of meaning or grammar.
 
+## Names of the live programs
+
+The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
+
+- Bible Evolution Method 1: Letters copies single letters and uses the Claude selection only: https://claude.ai/artifact/Rk7TreKWL498TLBQi885x6
+- Bible Evolution Method 2: Single Words copies whole words and has a button for each selection: https://claude.ai/artifact/3VEDvP27dnjcmbSNtBdkVY
+- Bible Evolution Method 3: Key Phrases copies short phrases and has a button for each selection: https://claude.ai/artifact/8n9q5vuPKvNhn6R7fSZzKK
+- Bible Key Phrases: Claude Selection opens the key phrase method on the 41 passages picked by the AI model: https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
+- Bible Key Phrases: Charles Version opens the key phrase method on the ten whole books picked by Charles: https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
+- Bible Key Phrases: Jesus Version opens the key phrase method on the words of Jesus in the four gospels: https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz
+- Each link opens for other people only after Charles shares that page from the Claude app.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
