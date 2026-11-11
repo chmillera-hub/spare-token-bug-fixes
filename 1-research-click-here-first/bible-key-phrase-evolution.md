@@ -194,6 +194,26 @@ What the naming words changed:
 - The Charles selection gained the least because the seven stretches share few naming words and the words "he" and "him" inside the stretches still point at people the stretches never name.
 - Reused naming words also let the AI model steer meaning more strongly than generic words could (for example "this faith in all of you here" decides what "it" refers to) which means the passages now carry more of the choices of the AI model and less of the chance output of the agents.
 
+## A special rule for the words of Jesus selection: the names of the speaker and of God may be added freely
+
+Charles added a rule for the words of Jesus selection only: the AI model may add "the father" and "jesus" and "the christ" and "god" and "yahweh" wherever a sentence needs one of those names even when the name appears nowhere in the string.
+Every added word is marked with stars and the grades use the same seven rules with a top score of 14.
+
+First string (13 of 14 and up from 12):
+
+- with you how long will i *jesus* bear with you for everyone *there* in the marketplaces *and in* the best seats in the synagogues *because those in the synagogues* and traded with them i tell you and much more. *those* who hate you bless those *in the marketplaces* for they shall inherit the earth blessed are those who have been persecuted *on the earth* before you. most certainly i tell you if you have faith with him *the christ* then he will sit on the throne of his glory *beside the father over the earth*. on the earth i wish it were already kindled *this faith in god in all of you here*.
+
+Second string (13 of 14 and up from 12):
+
+- they persecuted the prophets who were *before you and* even the chosen ones *of god* behold i *jesus* have told you beforehand. *among* women there has not arisen anyone greater than john the baptizer *yet* for you to enter into gods kingdom before you most certainly i tell you i havent found *a place apart from the father*. *the father and* not sacrifice for i *the christ* came not on an old garment for the patch would tear away *the garment*. *with the father in gods kingdom* and prepare a place for you *yet* and whoever says you fool will be *apart from god*.
+
+What the special rule changed:
+
+- The names closed the gap that no earlier rule could close because "i" now has the name "jesus" beside the word and "him" and "he" now have "the christ" beside the words.
+- Both strings reached 13 of 14 and the one missing point comes from labels that stay unexplained such as "the throne of his glory".
+- The special rule applies to one selection only which means the scores of the words of Jesus passages can no longer be compared fairly with the scores of the other two selections.
+- The AI model chose which name goes with each "he" and "him" from knowledge of the source verses and a wrong choice would put words about one person onto another person.
+
 ## Limits
 
 - The reader rewards text that matches the Bible and has no sense of meaning which means the agents rebuild the source and do not write anything new.
