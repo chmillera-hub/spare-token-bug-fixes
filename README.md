@@ -16,6 +16,8 @@ The folder named [1-research-click-here-first](1-research-click-here-first) hold
 - [Writing rules for clear chatbot replies](1-research-click-here-first/writing-rules-for-clear-chatbot-replies.md) is a set of rules with before and after examples that a person can paste into any chatbot.
 - [Free bug fixes video](1-research-click-here-first/free-bug-fixes-video.md) points to a short video that shows 363 small ready-made bug fixes for public software projects.
 
+- [Record of the chat behind the research](1-research-click-here-first/record-of-the-chat-behind-the-research.md) lists every request Charles made in his own words and gives the public link to the full chat: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
+
 ## boring-things
 
 The folder named [boring-things](boring-things) holds program files and patch files and machine-readable lists which means files that programs and software maintainers use and that a casual visitor can skip.

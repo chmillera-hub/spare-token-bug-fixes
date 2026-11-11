@@ -5,6 +5,10 @@ Each entry gives the request from Charles in his own words and then a short summ
 Charles dictates by voice which means his requests read like speech and some words came out misspelled and the misspellings are kept as typed.
 All times are United States Central time.
 
+## The full chat word for word
+
+Charles shared the whole chat as a public link and the link shows every word from both Charles and the chatbot up to the moment Charles made the link: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
+
 ## Part 1: the Voynich manuscript
 
 **11:32 Charles asked:** Can you please do research and attempt to solve or make progress on the voyniche manuscript if you can't directly solve the cryptography of the symbols maybe the images are looking to express something important from the author's point of view maybe you could do research on the author's upbringing or information about the author or the time period or someone in the location where the writing took place that kind of s*** I'm looking for if the cryptography is too impossible maybe you could get an idea of who wrote it or the village It Was Written in or the country It Was Written in and the time period it was written in all of those things could be progress towards figuring out what was the meaning behind that possible manuscript this is to take into account that all of the symbols could have been randomly generated on the person was just doodling and was totally not trying to send any message there could still be meaning there because a human being wrote it and that human being was born in a certain place and in a certain time period and may have been exposed to different historical events all of those things
@@ -179,6 +183,6 @@ What happened: the chatbot wrote this record.
 
 ## What this record leaves out
 
-- The record leaves out the full replies of the chatbot because the replies are long and the research pages in this folder hold the results.
+- The record leaves out the full replies of the chatbot because the replies are long and the shared chat link near the top of this page shows the full replies.
 - The record leaves out several short "keep going" style exchanges about uploads that failed and were retried.
 - The record leaves out the chatbot's private working steps such as the programs run and the web searches made.
