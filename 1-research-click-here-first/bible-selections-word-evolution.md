@@ -14,8 +14,9 @@ An AI model (Claude) ran the test on 11 November 2026 and no other person has re
 ## The three selections
 
 - Claude selection: 1837 quotes from 41 well-known passages of about 10000 words such as Genesis 1 and Psalm 23 and the Sermon on the Mount and the love chapter in First Corinthians.
-- Charles selection: 45906 quotes from thirteen whole books which are Genesis and Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans and Galatians and Hebrews.
-- Words of Jesus: 6570 quotes cut only from the words that red-letter Bibles print in red (about 40900 words) in Matthew and Mark and Luke and John and Acts and Revelation.
+- Charles selection: 38236 quotes from ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
+- Words of Jesus: 6198 quotes cut only from the words that red-letter Bibles print in red (about 38500 words) in Matthew and Mark and Luke and John.
+- An earlier run used thirteen books for the Charles selection and included the words of Jesus from Acts and Revelation and Charles asked for Genesis and Galatians and Hebrews and those two extra sources to be removed.
 
 ## What the agents built after 2000 minutes of experiment time
 
@@ -26,21 +27,22 @@ Claude selection (about 10 quotes per agent):
 
 Charles selection (about 13 quotes per agent):
 
-- One agent: "and she conceived / because of the / for yahweh is a great god / my loving kindness / justice for the poor / even you only / me with your sins / and dont see / but they say / who tell them / and spoke to all the / and everyone his / he went to him / therefore said to one another"
-- Another agent: "but the god of my / who is yahweh / for all this / and according to the multitude / and by the pestilence / and heard it / against all the / he was hungry / the lord is with you / he said to himself / the father of the child / to the disciples"
+- One agent: "and dont sin / you righteous people / that i may live / upward for the wise / things to your heart / and will have / and there they will be / with his brothers / so he will come / but those who were / all of the disciples / you wont believe / not to the flesh"
+- Another agent: "he is yahweh / and all the righteous / the heart of the wise / should eat and drink / are in the earth / like the wilderness / and will rejoice / themselves in him / to the sword / take away therefore / and you shall have them / for the works which the"
 
 Words of Jesus (about 11 quotes per agent):
 
-- One agent: "for this is he / and for your children / dont you say / and i in him / to you from the beginning / and you dishonor me / for which of those / you are gods / that where i am / but whatever he hears / you follow me / what you see"
-- Another agent: "and all that he had / you are mistaken / and tell him / that you today / and come to light / things and you dont believe / because you dont / but now you say / and i know them / and i in you / and go to the father"
+- One agent: "when you pray / as in heaven / but sinners to repentance / word of the kingdom / but know this / and not perceive / given to god / and to return / distress in the land / but you dont believe / but because of the multitude / and you in me / of the synagogues"
+- Another agent: "which of you / and to the nations / and the birds / and you shall have them / for from now on / resurrection of the righteous / and will tell him / the father himself / this is the will of / and are life / you know him / you will live also / and i in you"
 
 ## Differences that can be counted
 
-- The words "you" and "your" made up 11 percent of the words in the quotes built from the words of Jesus and 9 percent for the Claude selection and 6 percent for the Charles selection which means the words of Jesus produced the most direct address to a listener.
-- The most used content words for the words of Jesus were "father" and "believe" and "know" and "go" and "follow" and "life".
-- The most used content words for the Charles selection were "yahweh" and "god" and "said" and "father" and "therefore" and "spoke" which fits storytelling about people and about God in the third person.
+- The most used content words for the words of Jesus were "father" and "life" and "believe" and "go" and "know" and "world".
+- The most used content words for the Charles selection were "disciples" and "yahweh" and "come" and "righteousness" and "father" and "righteous".
 - The most used content words for the Claude selection were "earth" and "heaven" and "father" and "know" and "sight" and "love".
-- The words "yahweh" and "god" and "lord" made up 3 percent of the built quotes for the Charles selection and 2 percent for the Claude selection and close to 0 percent for the words of Jesus.
+- The words "will" and "shall" made up 5 percent of the built quotes for the Charles selection and 4 percent for the words of Jesus and 2 percent for the Claude selection.
+- The words "you" and "your" made up 9 percent of the built quotes for the Claude selection and 8 percent for the words of Jesus and 6 percent for the Charles selection.
+- A warning about the "you" count: the share for the words of Jesus was 11 percent in the earlier run and 8 percent after two small sources were removed which means a gap of 3 points is within the run-to-run noise of this test.
 
 ## Limits
 

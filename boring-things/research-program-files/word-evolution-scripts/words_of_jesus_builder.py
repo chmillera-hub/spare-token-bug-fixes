@@ -1,6 +1,6 @@
 import re,json,math,sys
 x=open('/home/claude/dl/ob/eng-web.usfx.xml',encoding='utf-8').read()
-NAMES={'MAT':'Matthew','MRK':'Mark','LUK':'Luke','JHN':'John','ACT':'Acts','1CO':'First Corinthians','2CO':'Second Corinthians','REV':'Revelation'}
+NAMES={'MAT':'Matthew','MRK':'Mark','LUK':'Luke','JHN':'John'}
 def norm(t):
     t=t.replace('’','').replace("'",'').lower();return re.sub(r'[^a-z]+',' ',t).strip()
 phr=[];sec=[];names=[];seen=set();book=None;ch=None;words=0;bybook={}

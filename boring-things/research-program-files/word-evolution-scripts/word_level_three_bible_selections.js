@@ -1,5 +1,5 @@
 const fs=require('fs');const {makeWorld,makeRun}=require('./word_level_engine.js');
-const sets={'Claude selection (41 passages)':'bible_phrases.json','Charles selection (13 whole books)':'sel13.json','Words of Jesus (red letters)':'red.json'};
+const sets={'Claude selection (41 passages)':'bible_phrases.json','Charles selection (10 whole books)':'sel10.json','Words of Jesus (red letters)':'red.json'};
 const total=+process.argv[2]||600000;
 for(const [name,f] of Object.entries(sets)){
   const W=makeWorld(JSON.parse(fs.readFileSync(f,'utf8')));const S={agents:10,pool:60,pick:3,add:30,swap:10,change:10,uniq:0.2,near:0,junk:0.02,maxWords:60};
