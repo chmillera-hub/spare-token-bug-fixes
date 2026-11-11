@@ -6,11 +6,11 @@ These notes let a new AI session (or a person) continue the shelf without the ea
 
 Charles asked for a front page that shows only two folders so that a visitor is not put off by a long list of files.
 
-- The top of the project holds only README.md and the folder research and the folder boring-things. Do not add any other file or folder at the top.
-- The folder research holds things a person can read or watch or play with (documents and findings and videos and live pages). Every item in research needs one sentence in research/README.md that says what the item contains.
+- The top of the project holds only README.md and the folder 1-research-click-here-first and the folder boring-things. Do not add any other file or folder at the top. The research folder name starts with the digit 1 because GitHub lists folders in alphabet order and Charles asked for the research folder to show first.
+- The folder 1-research-click-here-first holds things a person can read or watch or play with (documents and findings and videos and live pages). Every item in that folder needs one sentence in 1-research-click-here-first/README.md that says what the item contains.
 - The folder boring-things holds program files and patch files and machine-readable lists. The whole bug fix shelf lives in boring-things/bug-fixes and these handoff notes live there too.
 - Every path in the rest of these notes (fixes/ and tools/ and video/ and README.md and index.json and llms.txt) is relative to the folder boring-things/bug-fixes.
-- The top README.md is written by hand and tools/build_shelf.py does not touch the top README.md. Update the fix count in the top README.md and in research/free-bug-fixes-video.md by hand when fixes are added.
+- The top README.md is written by hand and tools/build_shelf.py does not touch the top README.md. Update the fix count in the top README.md and in 1-research-click-here-first/free-bug-fixes-video.md by hand when fixes are added.
 - Run the rebuild as: python3 boring-things/bug-fixes/tools/build_shelf.py new PATH_TO_THIS_PROJECT (the program finds the folder boring-things/bug-fixes without help).
 - Open work after the move: the website copy in chmillera-hub/game1 still links to the old addresses of the patch files and needs one rebuild with the g1 mode. The video screens still say fixes/ and index.json and llms.txt without the folder boring-things/bug-fixes and tools/video_cards.py needs that text changed before the next video is built.
 

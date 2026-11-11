@@ -1,17 +1,17 @@
 # Research pages and free bug fixes from Charles and an AI chatbot
 
-This project has two folders and the folder named research is the folder written for people to read.
+Click the folder named 1-research-click-here-first before anything else because that folder holds the pages written for people to read and the other folder holds only program files.
 
-## research
+## 1-research-click-here-first
 
-The folder named [research](research) holds short plain-language pages and documents that a visitor can read in a few minutes each.
+The folder named [1-research-click-here-first](1-research-click-here-first) holds short plain-language pages and documents that a visitor can read in a few minutes each.
 
-- [Voynich manuscript findings](research/voynich-manuscript-findings.md) explains what spelling-pattern tests suggest about the order in which scribes wrote an unreadable book from the early 1400s.
-- [Word evolution experiments](research/word-evolution-experiments.md) shows what happens when text is copied with small mistakes over and over while a reader picks which copies survive.
-- [Hiding a book by splitting pages](research/hiding-a-book-by-splitting-pages.md) shows how much sense is left when a 1000-page biology book is dealt into four piles.
-- [The Mobius strip picture of physics](research/mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
-- [Writing rules for clear chatbot replies](research/writing-rules-for-clear-chatbot-replies.md) is a set of rules with before and after examples that a person can paste into any chatbot.
-- [Free bug fixes video](research/free-bug-fixes-video.md) points to a short video that shows 363 small ready-made bug fixes for public software projects.
+- [Voynich manuscript findings](1-research-click-here-first/voynich-manuscript-findings.md) explains what spelling-pattern tests suggest about the order in which scribes wrote an unreadable book from the early 1400s.
+- [Word evolution experiments](1-research-click-here-first/word-evolution-experiments.md) shows what happens when text is copied with small mistakes over and over while a reader picks which copies survive.
+- [Hiding a book by splitting pages](1-research-click-here-first/hiding-a-book-by-splitting-pages.md) shows how much sense is left when a 1000-page biology book is dealt into four piles.
+- [The Mobius strip picture of physics](1-research-click-here-first/mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
+- [Writing rules for clear chatbot replies](1-research-click-here-first/writing-rules-for-clear-chatbot-replies.md) is a set of rules with before and after examples that a person can paste into any chatbot.
+- [Free bug fixes video](1-research-click-here-first/free-bug-fixes-video.md) points to a short video that shows 363 small ready-made bug fixes for public software projects.
 
 ## boring-things
 
