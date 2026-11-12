@@ -550,6 +550,35 @@ What the name rule changed:
 - The rule applies only to the hand joining for now because the live programs hold the phrases in lowercase with no marker for which words are names which means the programs still show every name as the source has the name.
 - Which names count as widely known is a judgment by the AI model and Charles can overrule any single choice.
 
+## A new batch under every rule: one passage from each selection
+
+Charles asked for a new batch with one passage from each selection so the AI model ran the key phrase evolution once more on each selection from a new random start (5 million pastes each) and joined one agent string from each run by hand under every rule on this page.
+Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
+
+Claude selection (13 of 14) from the stretches "in all the earth you have set your" and "you have put all things under his feet all sheep" and "neither throw your pearls before the pigs" and "a good tree cant produce evil fruit neither can a corrupt" and "but he who does the will of my father who is in heaven for he makes his sun to rise" and "for righteousness sake for theirs is the kingdom of heaven" and "that it was said you shall not commit adultery but i tell you love your enemies" and "than these is of the evil one you have heard":
+
+- *lord god,* in all the earth you have set your *light, and* you have put all things under *the* feet *of man:* all sheep *and every living thing*. *keep what is holy, and* neither throw your pearls before the pigs. *whatever a man says more* than *what is right* is of the evil one. you have heard that it was said, "you shall not commit adultery," but i tell you, love your enemies, *because* a good tree cant produce evil fruit, neither can a corrupt *tree make good fruit*. *blessed are the righteous* for righteousness sake, for theirs is the kingdom of heaven; *not the man who says "lord,"* but he who does the will of my father who is in heaven, for *the father* makes his sun to rise *on the evil and the good*.
+- Replaced pronouns: "his" became "the ... of man" and "these" became "what is right" and "he" became "the father".
+
+Charles selection (11 of 14) from the stretches "for he commands" and "from the north says god for god says" and "from me says god for i am with you says god god said to me" and "the assembly of the elders of the people were gathered together" and "god i have called" and "in jerusalem because you have said" and "praise be to god god" and "with justice" and "when he cries" and "like lebanon" and "in bethany beyond the jordan" and "to take back to those":
+
+- the assembly of the elders of the people were gathered together in jerusalem, because you have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
+- Replaced pronouns: "he" became "the poor man" and "he" became "god".
+- Replaced names: "in bethany beyond the jordan" became "from a small town across the river" and "lebanon" became "a high green land" while "jerusalem" stays because the city is widely known.
+
+Words of Jesus (13 of 14) from the stretches "if you remain in me he was counted with transgressors for that" and "on the sand the rain came down" and "among yourselves for i tell you" and "for you from the foundation of the world for i was hungry" and "who are with child" and "so when he comes most certainly i tell you that one of you will betray me" and "for you always have the poor with you" and "your house is left to you desolate i tell you keep asking":
+
+- "*the kingdom is made* for you from the foundation of the world, for i was hungry *and you gave to me*. *give to the little ones and to those* who are with child, for you always have the poor with you. *love the little ones* among yourselves, for i tell you, *do not make a house* on the sand: the rain came down, *and* your house is left to you desolate. i tell you, keep asking *the father*. if you remain in me, *believe: the son of man* was counted with transgressors for that *love*. so when *the last day* comes, most certainly i tell you that one of you will betray me, *yet the love of the father is greater*."
+- Replaced pronouns: "he" became "the son of man" and "he" became "the last day".
+
+What the new batch showed:
+
+- The Claude selection and the words of Jesus both reached 13 because both strings had stretches long enough to hold a full thought and both lost one point for a label that stays unexplained ("pearls before the pigs" and "counted with transgressors").
+- The Charles selection reached 11 because twelve short stretches from several books left the AI model to supply most of the meaning and the phrase "says god" repeats four times in two lines.
+- The name rule was needed only in the Charles selection because the ten whole books hold many place names while the other two selections draw on better known passages.
+- In the words of Jesus passage the phrase "when he comes" became "when the last day comes" and that choice is a guess by the AI model because the stretch alone does not say who or what comes.
+- The closing words "yet the love of the father is greater" follow a line about betrayal and are a choice of the AI model and not part of the source.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
