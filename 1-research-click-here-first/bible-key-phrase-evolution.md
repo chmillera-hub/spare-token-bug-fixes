@@ -857,6 +857,34 @@ What the input quote rule changed:
 - The AI model that wrote these passages is made by the company named in the quote which is a reason for a reader to weigh the reflection with extra care.
 - The words of Jesus passage puts modern words such as "engineers" beside phrases from the gospels and a reader could take the passage for a real saying which is why the warning near the top of this page applies with special force here.
 
+## A second Claude selection that shares no book with the other two selections
+
+Charles invited the AI model to pick its own passages again with one limit which is to avoid the ten books Charles picked and the words of Jesus in the four gospels so that the three selections no longer overlap.
+The second Claude selection holds 35 passages (about 6600 words and 1554 different key phrases) from books outside the ten books Charles picked and outside the four gospels: Genesis 1 and Genesis 11 (the tower of Babel) and Exodus 20 and Deuteronomy 6 and Ruth 1 and First Samuel 16 and First Kings 3 and First Kings 19 and Job 28 and Job 38 and Song of Solomon 8 and Lamentations 3 and Ezekiel 37 and Amos 5 and Micah 4 and Micah 6 and Habakkuk 3 and Acts 2 and Acts 17 and First Corinthians 12 and 13 and Second Corinthians 4 and Galatians 5 and Ephesians 4 and Philippians 2 and 4 and Colossians 3 and Hebrews 11 and James 1 and 2 and 3 and First Peter 4 and First John 4 and Revelation 21.
+The AI model picked passages about making and building and wisdom and love and justice and shared life because those subjects kept coming up in the experiments on this page.
+The earlier Claude selection of 41 passages was used for every Claude selection result above this section and the second Claude selection is used from this section on.
+
+- The special naming words are now god and love and earth and man and body and day and lord and spirit and people and light and heart and name.
+- The special action words are now made and know and give and saw and seen and called and walk and live and says and make and asked and keep.
+- The special describing words are now good and great and living and whole and holy and just and pure and new.
+
+Two passages from the second Claude selection under all sixteen rules:
+
+Reflection on the input quote "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" (13 of 14 with 62 different words out of 62 words) from the phrases "lets build ourselves a city" and "and a tower whose" and "they had brick" and "but where will wisdom be found" and "man doesnt know its price" and "it cant be valued" and "with the gold of ophir" and "the price of wisdom is above rubies" and "but we have this treasure":
+
+- *people once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
+
+Eight random phrases kept in a random order (12 of 14 with 44 different words out of 44 words) from the phrases "which you have chosen" and "and a new earth" and "the wormwood" and "as it is today now" and "by the roots" and "the language of all the earth" and "and of thick darkness" and "if you have understanding":
+
+- *bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *pull grief up* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
+
+Notes on the second Claude selection:
+
+- The new selection held closer matches to the headline than the old selection did because Genesis 11 is the story of people building a city and a tower out of brick and Job 28 is a poem that asks where wisdom is found and says that gold cannot buy wisdom.
+- In the headline passage the place name "ophir" was replaced with "dug from distant mines" under the name rule and the second "price" and the second "wisdom" were replaced to keep every word different.
+- In the random passage the word "wormwood" (a bitter plant that stands for sorrow in the source) is explained by the added word "bitter".
+- The key phrase program with the three selection buttons now uses the second Claude selection while the two older programs (letters and single words) still use the first Claude selection.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

@@ -9,7 +9,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 ## The source text and the three selections
 
 - The text is the World English Bible because that translation is free for anyone to copy.
-- The Claude selection is 41 well-known passages picked by the AI model.
+- The Claude selection is 35 passages picked by the AI model from books outside the Charles selection and outside the four gospels (for example Genesis 1 and the tower of Babel in Genesis 11 and Job 28 and First Corinthians 13) and an earlier version with 41 passages was used before 11 November 2026 in the evening.
 - The Charles selection is ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
 - The words of Jesus selection is the words that red-letter Bibles print in red in Matthew and Mark and Luke and John.
 - A program cuts the text into key phrases of about four words at punctuation marks and before linking words such as "and" and "for" because a phrase of that size usually makes some sense alone.
@@ -84,3 +84,14 @@ Claude selection (13 of 14 with 82 different words out of 82 words and 52 percen
 - *every age knows planting* and a time to build up; *some builders now pour billions into thinking machines, prizing knowledge more* than much fine gold. whatever you spend beyond that *sum, ask who benefits.* when he had spent all of it, *one young heir felt hunger,* for where your treasure *sits, hearts settle too. lilies grow though* they dont toil. *once the thing* which is complete has come, *let its makers share,* so *common* barns will be filled *with bread, never pride.*
 
 - The live programs do not apply rules 4 to 16 because the programs only shuffle phrases and have no test of meaning or grammar which means these rules are carried out by an AI model that reads this page.
+
+## Outputs from the second Claude selection under all sixteen rules
+
+Reflection on the input quote "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" (13 of 14 with 62 different words out of 62 words) from the phrases "lets build ourselves a city" and "and a tower whose" and "they had brick" and "but where will wisdom be found" and "man doesnt know its price" and "it cant be valued" and "with the gold of ophir" and "the price of wisdom is above rubies" and "but we have this treasure":
+
+- *people once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
+
+Eight random phrases kept in a random order (12 of 14 with 44 different words out of 44 words) from the phrases "which you have chosen" and "and a new earth" and "the wormwood" and "as it is today now" and "by the roots" and "the language of all the earth" and "and of thick darkness" and "if you have understanding":
+
+- *bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *pull grief up* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
+
