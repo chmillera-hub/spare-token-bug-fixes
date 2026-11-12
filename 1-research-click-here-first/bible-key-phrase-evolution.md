@@ -1165,6 +1165,21 @@ The Claude selection gave up its three passages from those two letters (First Co
 - Outputs made before this change stay as they were and four of those earlier Claude outputs used phrases from the two letters (the body with many parts and the treasure in clay jars and seeing in part and being pressed on every side).
 - From this point on every new Claude output draws only on the 35 passages listed in the builder script named claude_selection_third_version_builder.py in the folder named boring-things.
 
+## A full check of every public output against all thirty rules
+
+Charles asked for every output on the page named bible-quote-builder-best-outputs to be checked against every rule whenever a rule changes and the AI model made the first full check on the evening of 11 November 2026.
+
+- Italics were missing from fourteen older paragraphs and their closings (the sets for the "seen you before" input and the video game input and the AI cost input and the random phrase set) and every one now shows added or changed words in italics.
+- Three labels read "attempt 1" without brackets and now match the label form used everywhere else.
+- Three lead-ins held a stray "of" (for example "the disciples who doubted and of the teaching") and now read cleanly.
+- Four added claims were softened under the claim check: "being recognized feels good" became "can feel good" and "joy returns" became "joy often returns" and "comfort comes at an hour" became "comfort may come at an hour" and "that treasure already sits inside ordinary people" became "i believe that treasure already sits inside ordinary people".
+- One paragraph from the Claude Bible set opened with the flat claim "mercy walks before every traveler" and now opens with the wish "may mercy walk before every traveler".
+- The same paragraph had leaned toward praising quiet over speaking ("louder prayers" and "quiet words") which sat badly with the rule that values people speaking from the heart and the paragraph now says that giving needs no applause and ends "let real need speak freely instead".
+- One paragraph addressed a "proud ruler" as "you" which a reader could take as a label and the line now reads "a proud ruler's pomp is brought down into the grave".
+- "early communities shared bread" became "some communities shared bread" under the rule against saying how old the material is.
+- A program check then confirmed that no word repeats inside any of the 48 bodies and closings on the page after one repeated word was fixed.
+- Two things were left as they are and flagged: the phrase "ten thousand talents" (a very large debt in a parable) stays unexplained and three older outputs from the Claude Bible set still use phrases from First and Second Corinthians because those outputs were made before the two letters moved into My Personal Bible set.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

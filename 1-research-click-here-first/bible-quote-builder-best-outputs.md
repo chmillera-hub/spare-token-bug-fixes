@@ -1,6 +1,7 @@
 # Bible quote builder: best outputs
 
 These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
+Words in italics were added or changed by the AI model and words in upright type come from the Bible phrases.
 The second paragraph under each remix is a plain explanation written by the AI model and the file ending in plain-text.txt in this folder holds the same text for easy copying.
 
 ## Input: A post that said the whole earth should be destroyed and that the writer has nothing left to live for (the wording of the post is softened here)
@@ -77,7 +78,7 @@ The AI model did not check the numbers on the chart and words in italics were ad
 
 From the Claude Bible set:
 
-*the first page of genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
+*the first page of genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; some communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
 
 *in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
@@ -97,88 +98,88 @@ From the Jesus Bible set:
 
 *when you thought of saying with a laugh that you have seen jesus somewhere before, i thought of these three things:*
 
-From the Jesus Bible set attempt 1:
+From the Jesus Bible set (attempt 1):
 
-"*the day i told a new follower that i had already seen him under a fig tree before anyone introduced us:* before philip called anyone, when one man sat under the fig tree, i saw him. having walked beside people such a long time, do you not know me? go ahead, laugh; recognition feels funny. every face deserves being noticed first; what follows remains anyone's own decision."
+"*the day i told a new follower that i had already seen him under a fig tree before anyone introduced us:* before philip called *anyone,* when *one man sat* under the fig tree, i saw *him. having walked beside people* such a long time, do you not know me? *go ahead,* laugh; *recognition feels funny. every face deserves being noticed first; what follows remains anyone's own decision.*"
 
-plainly: being recognized feels good because someone noticed you. keep showing your real self, since another person might spot something familiar and smile.
+*plainly: being recognized can feel good because someone noticed you. keep showing your real self, since another person might spot something familiar and smile.*
 
-From the Jesus Bible set attempt 2:
+From the Jesus Bible set (attempt 2):
 
-"*the teaching that anyone who helps a hungry person or a stranger has already met me without knowing:* i was a stranger and somebody took me in. people asked, "when did we see you?" whatever kindness reached the least of these my brothers, that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier; rejoice together."
+"*the teaching that anyone who helps a hungry person or a stranger has already met me without knowing:* i was a stranger and *somebody* took me in. *people asked,* "when did we see you?" *whatever kindness reached the* least of these my brothers, *that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier;* rejoice *together.*"
 
-simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
+*simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.*
 
-From the Jesus Bible set attempt 3:
+From the Jesus Bible set (attempt 3):
 
-"*the promise that people who lose sight of each other for a little while can meet again with joy:* a little while, and you will see me; i shall greet everyone again, then your heart can rejoice. laughter fits such reunions. because some have seen, they believe; others who never looked remain welcome. keep telling what happened, since somebody elsewhere may recognize their own story."
+"*the promise that people who lose sight of each other for a little while can meet again with joy:* a little while, and you will see me; i *shall greet everyone* again, *then* your heart *can* rejoice. *laughter fits such reunions.* because *some* have seen, *they believe; others* who *never looked remain welcome. keep telling what happened, since somebody elsewhere may recognize their own story.*"
 
-meaning: joy returns when separated friends meet again. share your experience even if people laugh, because one person could find comfort there.
+*meaning: joy often returns when separated friends meet again. share your experience even if people laugh, because one person could find comfort there.*
 
 ## Input: "Like Rockstar's CEO said, GTA 6 might be the last game in human history built at this scale, this much time, this much money. AI is getting so much better that even the non-believers are getting converted."
 
 *when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, and of the line that artificial intelligence is improving so fast that even people who doubted are being won over, i thought of these three things:*
 
-From the Jesus Bible set:
+From the Claude Bible set:
 
-"*the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last will be first. heaven and earth shall pass away, yet each human voice matters; they put new wine into fresh skins, though anyone tasting old vintage immediately desires it again. whenever faith runs low, keep speaking your heart even if crowds dismiss you, then dont doubt: whoever trusts me can do greater works than these."
+*the tower of babel, which is a story about people building something enormous together and about what came after:* the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad, *so every person carries words others need.* for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
 
-put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.
+*meaning: people working together can build almost anything, yet no giant project lasts forever. what endures is each human voice, so keep speaking even after being scattered.*
 
 From My Personal Bible set:
 
-*the disciples who doubted and of the teaching that every generation builds up and breaks down:* those disciples watched, but some doubted. doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions. still god says, "watch me do this new thing." every age has its season for building up, one where things break down, and a time to speak: so voice your heart, since another generation comes afterward.
+*the disciples who doubted and the teaching that every generation builds up and breaks down: those disciples watched,* but some doubted. *doubters often hear blame* because of unbelief; *someday, i hope, nobody gets scolded over questions. still* god says, "*watch me* do *this* new thing." *every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *afterward.*
 
-in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later people might understand.
+*in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later people might understand.*
 
-From the Claude Bible set:
+From the Jesus Bible set:
 
-*the tower of babel, which is a story about people building something enormous together and about what came after:* the whole earth spoke one language. "now nothing will be withheld which they intend to do." yet god scattered them abroad, so every person carries words others need. for today people see in part; once whatever is complete has come, giant projects fade. "look: all things are being made new," says a voice; first attempts have passed away.
+"*the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last will be first. heaven and earth *shall* pass away, *yet each human voice matters;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
 
-meaning: people working together can build almost anything, yet no giant project lasts forever. what endures is each human voice, so keep speaking even after being scattered.
+*put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
 
 ## Input: "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion."
 
 *when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of these three things:*
 
-From the Jesus Bible set:
+From the Claude Bible set:
 
-"*the saying about a builder who sits down to count the cost before starting a tower:* anyone desiring to build a tower must sit first and count the cost, asking if ordinary people have enough bread while work continues until crews complete it. one servant who owed his master ten thousand talents was forgiven; let such sums teach mercy, for where your treasure lies, there attention follows; make living persons that prize. wisdom is justified by her children, not through spending which only raises bigger ones."
+*the people who built a city and a tower out of brick and the poem that asks where wisdom can be found: folk said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so speak, share, keep telling your story.*
 
-simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
+*in other words: bricks and billions build towers, but neither buys wisdom. i believe that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.*
 
 From My Personal Bible set:
 
-*the songs and sayings that weigh wisdom against gold and of the man who started building and could not finish:* onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines feed hungry neighbors plus amplify unheard voices.
+*the songs and sayings that weigh wisdom against gold and the man who started building and could not finish: onlookers said,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines feed hungry neighbors plus amplify unheard voices.*
 
-plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.
-
-From the Claude Bible set:
-
-*the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found:* folk said, "lets build ourselves a city and one tower whose top touches heaven;" they had brick. today engineers stack billions instead, but where will wisdom be found? man doesnt know its price; it cant get valued with any gold dug from distant mines. such understanding ranks above rubies, yet we have this treasure inside ordinary clay jars, so speak, share, keep telling your story.
-
-in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.
-
-## No input: eight random phrases kept in a random order (written before the pro-human expression rule)
-
-From the Claude Bible set:
-
-mercy walks before every traveler, so that he who stumbles finds welcome. whoever shall put away his wife must first weigh her sorrow. if only you, god, would soften hard hearts! ask of your father plainly, for proud people think louder prayers win; anything showier than these quiet words is from the evil one. dont sound a trumpet.
-
-From My Personal Bible set:
-
-villagers were exceedingly astonished: "who are these strangers?" "whatever you will ask," came one reply from a far country, "yes, and true spirit of justice to any judge." his disciples asked him about the parable. "people hoped for fairness, but behold, oppression arrived instead; stand alongside those crushed."
+*plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.*
 
 From the Jesus Bible set:
 
-"visit your neighbor and tell him, 'friend, comfort comes at an hour that you cannot expect; therefore dont be afraid.' if dread speaks, reply, 'get behind me, satan.' from one end of earth people mourn, sitting in sackcloth; carry light within yourselves, because whoever does so doesnt stumble."
+"*the saying about a builder who sits down to count the cost before starting a tower: anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+*simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.*
+
+## No input: eight random phrases kept in a random order
+
+From the Claude Bible set:
+
+*may mercy walk* before *every traveler, so* that he *who stumbles finds welcome.* whoever shall put away his wife *must first weigh her sorrow.* if only you, god, *would soften hard hearts!* ask of the father *plainly,* for *some* think *gifts require applause; boasting louder* than these *simple requests* is *from an* evil one. dont sound a trumpet *when helping; let real need speak freely instead.*
+
+From My Personal Bible set:
+
+*villagers* were exceedingly astonished: "who are these *strangers?*" "whatever you will ask," *came one reply* from a far country, "yes, and *true* spirit of justice to *any judge.*" his disciples asked him about the parable. "*people hoped* for *fairness,* but behold, oppression *arrived instead; stand alongside* those *crushed.*"
+
+From the Jesus Bible set:
+
+"*visit your neighbor* and tell him, 'friend, *comfort may come at an hour* that you *cannot* expect; therefore dont be afraid.' *if dread speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
 
 From the Claude Bible set (second version):
 
-bless every path which you have chosen, and bring a new earth. sorrow tastes like wormwood, bitter as it is today; now pull grief up by its roots. speak the language of all peoples; lead nations away from thick darkness, if they hold understanding.
+*bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *pull grief up* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
 
-From My Personal Bible set (nine books after Proverbs was removed):
+From My Personal Bible set (second draw):
 
-whoever eats sour grapes, his teeth will be set aching, just as teachers taught. your pomp is brought down into the grave, proud ruler. now that disciple was asking, "how long shall i take counsel alone?" on every lofty mountain streams begin flowing. heaven gives you authority to tread safely past snakes and leave wizards behind.
+*whoever eats sour grapes,* his teeth will be set *aching, just as teachers* taught. *a proud ruler's* pomp is brought down *into the grave.* now that disciple was *asking,* "how long shall i take counsel *alone?*" on every lofty mountain *streams begin flowing. heaven gives* you authority to tread *safely past snakes* and *leave* wizards *behind.*
 
-roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.
+*roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.*

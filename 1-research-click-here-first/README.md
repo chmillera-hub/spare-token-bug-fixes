@@ -20,6 +20,7 @@ A live page with sliders runs the word evolution experiment in a web browser at 
 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 
+- [bible-quote-builder-prompt-for-a-new-chat-plain-text.txt](bible-quote-builder-prompt-for-a-new-chat-plain-text.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make Bible quote builder outputs from any input sentence.
 - [bible-quote-builder-best-outputs.md](bible-quote-builder-best-outputs.md) holds only the finished paragraphs from the Bible quote builder with no commentary and the file ending in plain-text.txt holds the same paragraphs for easy copying and the file ending in extra-spacing-plain-text.txt puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
 - [bible-quote-builder-current-rules.md](bible-quote-builder-current-rules.md) lists all thirty rules now in force for the Bible quote builder with the reason for each rule and the newest short output from each Bible selection.
 - [john-10-remixes-from-four-random-piles.md](john-10-remixes-from-four-random-piles.md) holds three remixes of John chapter 10 where the chapter was dealt at random into four piles and each pile was turned into one readable paragraph.
