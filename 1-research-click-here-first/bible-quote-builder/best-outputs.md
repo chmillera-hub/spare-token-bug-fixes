@@ -2,7 +2,7 @@
 
 These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
 Words in italics were added or changed by the AI model and words in upright type come from the Bible phrases.
-The second paragraph under each remix is a plain explanation written by the AI model and the file named best-outputs-plain.txt in this folder holds the same text for easy copying.
+The second paragraph under each remix is a plain explanation written by the AI model and the file named best-outputs-spaced.txt in this folder holds the same text without italics for copying.
 
 ## Input: A post that said the whole earth should be destroyed and that the writer has nothing left to live for (the wording of the post is softened here)
 

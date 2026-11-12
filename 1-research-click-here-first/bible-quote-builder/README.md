@@ -8,7 +8,7 @@ Warning about changed wording in the joined Bible passages: the passages that th
 
 ## Start here
 
-- [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named best-outputs-plain.txt holds the same paragraphs for easy copying and the file named best-outputs-spaced.txt puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
+- [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named best-outputs-spaced.txt holds the same paragraphs for copying and puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
 - [rules.md](rules.md) lists all thirty rules now in force with the reason for each rule.
 - [prompt-for-new-chat.txt](prompt-for-new-chat.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
 - The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
@@ -22,7 +22,8 @@ Warning about changed wording in the joined Bible passages: the passages that th
 
 ## Live programs
 
-- The three files whose names start with the word program are the programs for the three methods (copying letters and copying single words and copying key phrases) and each file runs in a web browser after downloading.
+- [program-3-key-phrases.html](program-3-key-phrases.html) is the program for the key phrase method which is the method behind the finished outputs and the file runs in a web browser after downloading.
+- The folder named [old](old) holds the two earlier programs (copying letters and copying single words) which Charles does not expect to use again.
 - Bible Key Phrases: Claude Selection (an older set of 41 passages): https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
 - Bible Key Phrases: Charles Version (an older set of ten whole books): https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
 - Bible Key Phrases: Jesus Version (the words of Jesus in Matthew and Mark and Luke and John): https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz
