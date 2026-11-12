@@ -45,3 +45,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [stop-pool-task.md](stop-pool-task.md) answers a Python help forum question with zero replies about stopping a job that is already running in a process pool.
 - [protocol-vs-abc.md](protocol-vs-abc.md) answers a Python help forum question with zero replies about what Protocol classes and ABC classes each enforce (eight small tests).
 - [forward-stdin-stdout.md](forward-stdin-stdout.md) answers a Python help forum question with zero replies about a program that hangs while passing input and output to a child process (the hang was reproduced and repaired).
+- [lambda-in-annotation.md](lambda-in-annotation.md) answers a Python help forum question with zero replies about a lambda in a type annotation that loses a global name (a namespace swap inside the standard library explains the error).
+- [try-block-order.md](try-block-order.md) answers a Python help forum question with zero replies about a textbook exercise that printed a line before an error message.
+- [histogram-centred-bars.md](histogram-centred-bars.md) answers a SageMath board question with zero answers about centering histogram bars on whole numbers.
+- [curve-mod-p-squared.md](curve-mod-p-squared.md) answers a SageMath board question with zero answers about a division error on an elliptic curve modulo p² (computed on the exact numbers from the question).
+- [graph-orbit-counts.md](graph-orbit-counts.md) answers a SageMath board question with zero answers about counting graphs up to relabeling (counts match the known totals 11 and 34 and 156 and 1044).
