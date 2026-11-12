@@ -725,6 +725,33 @@ Every line in this section is a guess by the AI model and no real reader was ask
 - Across all three: the lowercase letters and the missing apostrophes are the most likely first thing the imagined reader notices and a reader who knows the Bible well would likely notice that Jesus is quoting lines that the gospels never give him.
 - The guess points to one practical risk: a reader could take a passage for a real Bible quote which is why the warning near the top of this page matters wherever a passage is posted.
 
+## Unique word rule: every word in a passage is different where readability allows
+
+Charles added a rule for every selection: as long as the readability grade stays high the AI model picks added words so that as few words as possible repeat inside one passage and the AI model also uses the pronoun rule and the rule about the word "the" to remove repeats that sit inside the source phrases.
+A repeat stays only where removing the repeat would break a sentence or where the repeat sits inside a source phrase and is not a pronoun and is not the word "the".
+
+The three eight-phrase passages again under the unique word rule:
+
+First random order (12 of 14 and 46 different words out of 49 words where the earlier version had 44 different words out of 66):
+
+- *lord,* in the day you will show yourself perfect, for in this *a* saying is true: *one wicked son takes house* and drives away his mother, *but he* who deals wisely will *give her land.* "*blessed are those wise,*" *god* says. jesus began to preach *to people* on *earth.*
+
+Second random order (12 of 14 and 42 different words out of 44 words where the earlier version had 42 different words out of 55):
+
+- *god made good* on *people,* for in this the saying is true: "you will show yourself perfect." jesus began to preach: "*a son* who deals wisely will *hear, but one wicked takes house* and drives away his mother in *an evil* day," he says.
+
+Third random order (11 of 14 and 46 different words out of 48 words where the earlier version had 42 different words out of 51):
+
+- jesus began to preach in the day: "*god,* you will show yourself perfect. *a man* who deals wisely will *see good made* on *poor people. one wicked son hears* and drives away his mother, for in this *that* saying is true: *'evil hearts make dead land,'*" he says.
+
+What the unique word rule changed:
+
+- Almost every word is now different (only the words "in" and "will" repeat in each passage because both words sit twice inside the source phrases and neither word is a pronoun).
+- The passages became shorter because repeated naming words such as "son" and "house" and "god" had to be used once each which forced one mention to carry the meaning.
+- The grades stayed within one point (12 and 12 and 11 against 12 and 13 and 11) and the second passage lost a point because dropping "the" and "of" to avoid repeats left clipped wording such as "one wicked takes house".
+- The rule and the readability rules pull in opposite directions past a certain point because natural English repeats small words such as "the" and "a" and "of" many times and a passage with no repeats starts to read like a telegram.
+- The rule applies to every selection from here on and the older passages on this page were written before the rule.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
