@@ -15,7 +15,7 @@ From the Claude Bible set:
 
 *in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
-From the Charles Bible set:
+From my personal Bible set:
 
 *old lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *each worker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
 
@@ -31,19 +31,19 @@ From the Jesus Bible set:
 
 *when you thought of saying with a laugh that you have seen jesus somewhere before, i thought of these three things:*
 
-Words of Jesus attempt 1:
+From the Jesus Bible set attempt 1:
 
 "*the day i told a new follower that i had already seen him under a fig tree before anyone introduced us:* before philip called anyone, when one man sat under the fig tree, i saw him. having walked beside people such a long time, do you not know me? go ahead, laugh; recognition feels funny. every face deserves being noticed first; what follows remains anyone's own decision."
 
 plainly: being recognized feels good because someone noticed you. keep showing your real self, since another person might spot something familiar and smile.
 
-Words of Jesus attempt 2:
+From the Jesus Bible set attempt 2:
 
 "*the teaching that anyone who helps a hungry person or a stranger has already met me without knowing:* i was a stranger and somebody took me in. people asked, "when did we see you?" whatever kindness reached the least of these my brothers, that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier; rejoice together."
 
 simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
 
-Words of Jesus attempt 3:
+From the Jesus Bible set attempt 3:
 
 "*the promise that people who lose sight of each other for a little while can meet again with joy:* a little while, and you will see me; i shall greet everyone again, then your heart can rejoice. laughter fits such reunions. because some have seen, they believe; others who never looked remain welcome. keep telling what happened, since somebody elsewhere may recognize their own story."
 
@@ -53,19 +53,19 @@ meaning: joy returns when separated friends meet again. share your experience ev
 
 *when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, and of the line that artificial intelligence is improving so fast that even people who doubted are being won over, i thought of these three things:*
 
-Words of Jesus:
+From the Jesus Bible set:
 
 "*the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last will be first. heaven and earth shall pass away, yet each human voice matters; they put new wine into fresh skins, though anyone tasting old vintage immediately desires it again. whenever faith runs low, keep speaking your heart even if crowds dismiss you, then dont doubt: whoever trusts me can do greater works than these."
 
 put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.
 
-Charles selection:
+From my personal Bible set:
 
 *the disciples who doubted and of the old teaching that every generation builds up and breaks down:* those disciples watched, but some doubted. doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions. still god says, "watch me do this new thing." every age has its season for building up, one where things break down, and a time to speak: so voice your heart, since another generation comes afterward.
 
 in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later people might understand.
 
-Claude selection:
+From the Claude Bible set:
 
 *the tower of babel, which is the oldest story about people building something enormous together and about what came after:* the whole earth spoke one language. "now nothing will be withheld which they intend to do." yet god scattered them abroad, so every person carries words others need. for today people see in part; once whatever is complete has come, giant projects fade. "look: all things are being made new," says a voice; first attempts have passed away.
 
@@ -75,19 +75,19 @@ meaning: people working together can build almost anything, yet no giant project
 
 *when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of these three things:*
 
-Words of Jesus:
+From the Jesus Bible set:
 
 "*the saying about a builder who sits down to count the cost before starting a tower:* anyone desiring to build a tower must sit first and count the cost, asking if ordinary people have enough bread while work continues until crews complete it. one servant who owed his master ten thousand talents was forgiven; let such sums teach mercy, for where your treasure lies, there attention follows; make living persons that prize. wisdom is justified by her children, not through spending which only raises bigger ones."
 
 simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
 
-Charles selection:
+From my personal Bible set:
 
 *the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish:* onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines feed hungry neighbors plus amplify unheard voices.
 
 plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.
 
-Claude selection:
+From the Claude Bible set:
 
 *the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found:* folk once said, "lets build ourselves a city and one tower whose top touches heaven;" they had brick. today engineers stack billions instead, but where will wisdom be found? man doesnt know its price; it cant get valued with any gold dug from distant mines. such understanding ranks above rubies, yet we have this treasure inside ordinary clay jars, so speak, share, keep telling your story.
 
@@ -95,23 +95,23 @@ in other words: bricks and billions build towers, but neither buys wisdom. that 
 
 ## No input: eight random phrases kept in a random order (written before the pro-human expression rule)
 
-Claude selection:
+From the Claude Bible set:
 
 mercy walks before every traveler, so that he who stumbles finds welcome. whoever shall put away his wife must first weigh her sorrow. if only you, god, would soften hard hearts! ask of your father plainly, for proud people think louder prayers win; anything showier than these quiet words is from the evil one. dont sound a trumpet.
 
-Charles selection:
+From my personal Bible set:
 
 villagers were exceedingly astonished: "who are these strangers?" "whatever you will ask," came one reply from a far country, "yes, and true spirit of justice to any judge." his disciples asked him about the parable. "people hoped for fairness, but behold, oppression arrived instead; stand alongside those crushed."
 
-Words of Jesus:
+From the Jesus Bible set:
 
 "visit your neighbor and tell him, 'friend, comfort comes at an hour that you cannot expect; therefore dont be afraid.' if dread speaks, reply, 'get behind me, satan.' from one end of earth people mourn, sitting in sackcloth; carry light within yourselves, because whoever does so doesnt stumble."
 
-Claude selection (second version):
+From the Claude Bible set (second version):
 
 bless every path which you have chosen, and bring a new earth. sorrow tastes like wormwood, bitter as it is today; now pull grief up by its roots. speak the language of all peoples; lead nations away from thick darkness, if they hold understanding.
 
-Charles selection (nine books after Proverbs was removed):
+From my personal Bible set (nine books after Proverbs was removed):
 
 whoever eats sour grapes, his teeth will be set aching, just as elders taught. your pomp is brought down into the grave, proud ruler. now that disciple was asking, "how long shall i take counsel alone?" on every lofty mountain streams begin flowing. heaven gives you authority to tread safely past snakes and leave wizards behind.
 

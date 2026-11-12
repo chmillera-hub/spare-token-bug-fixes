@@ -56,6 +56,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 25. Every word that the AI model added or changed is shown in italics in every output and the whole opening sentence and the whole closing explanation are in italics because the AI model wrote both in full which means the words in plain upright type are the words that come from the Bible phrases and a reader can see at a glance how much of a passage is source and how much is addition.
 26. No output puts a negative label on the input quote or on the person who wrote the input quote (for example "mocking" or "dumb" or "stupid") because a negative label judges the person before the reply has said anything and gives the person a reason to stop reading and the one exception is naming explicit violence such as murder or rape or physical assault or contact without consent because naming violence plainly is how violence gets called out.
 27. When one input quote gets several outputs the restatement of the input appears once at the top in the form "when you thought of ... i thought of these three things:" and each output underneath is a short paragraph that starts with a few words naming its Bible material because repeating the same long restatement inside every paragraph made each paragraph about half restatement.
+28. Each output carries a label that says which set of Bible text the output came from and the three labels are "From the Claude Bible set" and "From my personal Bible set" and "From the Jesus Bible set" and the middle label says "my personal" in place of a name because any person who picks their own books can call that set their own which means the label fits whoever posts the output.
 
 ## The reasoning behind rules 20 to 24 spelled out
 
@@ -142,6 +143,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all twenty-seven rules
+## Outputs under all twenty-eight rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
