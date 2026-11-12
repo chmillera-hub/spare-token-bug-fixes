@@ -913,6 +913,23 @@ What the opening line rule changed:
 - In the words of Jesus passage the word "cost" in the source phrase "and count the cost" became "expenses" because the keyword in the opening line had already used the word.
 - The passages are reflections on the topic of the quote and are not verdicts by the AI model on any company and the AI model is made by the company named in the quote.
 
+## Passages for a second input quote about a very large video game
+
+The input quote was "Like Rockstar's CEO said, GTA 6 might be the last game in human history built at this scale, this much time, this much money. AI is getting so much better that even the non-believers are getting converted." and the AI model did not check whether the quote is accurate.
+All seventeen rules applied and added or changed words carry stars and the clean versions without stars are on the page named bible-quote-builder-best-outputs in this folder.
+
+Words of Jesus:
+
+- "when you thought of 'this scale,' i thought of *vineyard workers:* so the last will be first. heaven and earth *shall* pass away, *yet makers keep pouring;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. friends* of little faith, *ask whom such craft serves, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
+
+Charles selection:
+
+- when you thought of 'non-believers,' i thought of *those disciples who watched,* but some doubted. *nobody gets scolded over* unbelief; *god says,* "*watch me* do a new thing," *while elders* remember former things *long past. every age has its* time to build up, *one for breaking* down, and another generation comes. *still, nothing stays novel* under the sun.
+
+Claude selection:
+
+- when you thought of 'built at this scale,' i thought of *babel:* the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad. for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
