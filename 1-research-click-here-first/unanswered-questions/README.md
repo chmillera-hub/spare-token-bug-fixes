@@ -60,3 +60,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [ldap-crl-address.md](ldap-crl-address.md) answers a Python help forum question with zero replies about putting an LDAP address into a certificate.
 - [profile-c-slots.md](profile-c-slots.md) answers a Python help forum question with zero replies about calls into C code that a profiler hook never reports.
 - [point-in-polygon-speed.md](point-in-polygon-speed.md) answers one part of a Python help forum question with zero replies about a two-week point-inside-polygon computation (a bulk call was about 16 times faster in the test).
+- [dulwich-old-revision.md](dulwich-old-revision.md) answers a Python help forum question with zero replies about cloning with a pure-Python git library and switching to an older revision.
+- [shared-telnet-writer.md](shared-telnet-writer.md) answers a Python help forum question with zero replies about several functions sending to one device over a single connection.
+- [folium-sector-map.md](folium-sector-map.md) answers a Python help forum question with zero replies about a map that fails with a missing colour field.
+- [strptime-zone-name.md](strptime-zone-name.md) answers a Python help forum question with zero replies about a date parsing code that returns no time zone.
+- [recorded-warning-format.md](recorded-warning-format.md) answers a Python help forum question with zero replies about custom formatting for recorded warnings.
