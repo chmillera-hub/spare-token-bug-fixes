@@ -112,7 +112,7 @@ From the Jesus Bible set (attempt 2):
 
 From the Jesus Bible set (attempt 3):
 
-"*This is the promise that people who lose sight of each other for a little while can meet again with joy: I promised companions:* A little while, and you will see me; I *shall greet everyone* again, *then* your heart *can* rejoice. *Laughter fits such reunions.* Because *some* have seen *firsthand, they believe; others* who *never looked remain welcome. Keep telling what happened, since somebody elsewhere may recognize their own story.*"
+"*This is the promise that people who lose sight of each other for a little while can meet again with joy: Companions heard this promise:* A little while, and you will see me; I *shall greet everyone* again, *then* your heart *can* rejoice. *Laughter fits such reunions.* Because *some* have seen *firsthand, they believe; others* who *never looked remain welcome. Keep telling what happened, since somebody elsewhere may recognize their own story.*"
 
 *Meaning: joy often returns when separated friends meet again. Share your experience even if people laugh, because one person could find comfort there.*
 
