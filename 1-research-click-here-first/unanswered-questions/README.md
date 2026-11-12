@@ -65,3 +65,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [folium-sector-map.md](folium-sector-map.md) answers a Python help forum question with zero replies about a map that fails with a missing colour field.
 - [strptime-zone-name.md](strptime-zone-name.md) answers a Python help forum question with zero replies about a date parsing code that returns no time zone.
 - [recorded-warning-format.md](recorded-warning-format.md) answers a Python help forum question with zero replies about custom formatting for recorded warnings.
+- [audit-events-exists.md](audit-events-exists.md) answers a Python help forum question with zero replies about file checks that raise no audit event (one small patch saw all five existence checks).
+- [thread-pool-memory.md](thread-pool-memory.md) offers one tested possibility for a Python help forum question with zero replies about memory that stays high after a thread pool task.
+- [dollar-format-ignored.md](dollar-format-ignored.md) answers a Python help forum question with zero replies about a dollar format that a spreadsheet ignores (two causes found).
+- [red-missing-cells.md](red-missing-cells.md) answers a Python help forum question with zero replies about turning one text red in a spreadsheet column.
+- [crl-without-pyopenssl.md](crl-without-pyopenssl.md) answers a Python help forum question with zero replies about parsing certificate revocation lists after a library dropped the feature.
