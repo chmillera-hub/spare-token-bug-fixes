@@ -35,3 +35,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [svg-points-by-colour.md](svg-points-by-colour.md) answers a Python help forum question with zero replies about getting coordinates along the paths of one colour in an SVG drawing.
 - [cornacchia-cost.md](cornacchia-cost.md) answers a SageMath board question with zero answers about the cost of an algorithm that writes a number as a sum of two squares.
 - [srgb-to-webp.md](srgb-to-webp.md) answers the testable parts of a Python help forum question with zero replies about converting photos to sRGB and saving the photos as WebP.
+- [galois-group-c5.md](galois-group-c5.md) answers a SageMath board question with zero answers about getting a Galois group as a permutation group (the posted program never stored the group).
+- [quadruple-link.md](quadruple-link.md) answers a SageMath board question with zero answers about linking two formulas for special Pythagorean quadruples.
+- [crypt-heatmap.md](crypt-heatmap.md) answers a matplotlib forum question with zero replies about showing one value per cell position as colour on a U-shaped drawing (the picture crypt-example.png shows the result).
+- [live-plot-transients.md](live-plot-transients.md) answers the testable parts of a matplotlib forum question with zero replies about a live sensor display that loses fast spikes.
+- [echelon-chosen-columns.md](echelon-chosen-columns.md) answers a SageMath board question with zero answers about row-reducing a matrix so the identity appears on any chosen columns.
