@@ -225,3 +225,9 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **Before:** somebody tells them, "Go in peace," yet nobody gave anything the body needs  
 **After:** somebody tells them, "Go in peace," yet nobody gives anything the body needs  
 **Why:** the words "tells" and "gave" sat in two different tenses inside one sentence.
+
+## General audience [rule 29]
+
+**Before:** his father ran, and fell on his neck, and kissed him  
+**After:** his father ran, and hugged him  
+**Why:** a hug carries the same warmth and a reader in a public comment section could read a kiss as suggestive.
