@@ -15,3 +15,6 @@ This folder holds experiments where an AI model (Claude) looked for a question t
 - [prime-set-pairs.md](prime-set-pairs.md) answers a SageMath board question with zero answers about finding every pair of numbers 1 or 2 apart that are built from a chosen set of primes (a Python program confirms both lists in the question with two methods).
 - [tensor-grand-sum.md](tensor-grand-sum.md) answers a SageMath board question with zero answers about adding up every entry of a repeated tensor product (the sum equals one number raised to the power n).
 - [polar-image-plot.md](polar-image-plot.md) answers a matplotlib forum question with zero replies about an image that lands in the wrong place on a round polar chart (a different drawing command fixes the angle range).
+- [scatter-animation.md](scatter-animation.md) answers a matplotlib forum question with zero replies about animating 1000 dots at once (a one-line change to the update step worked in the test).
+- [celsius-top-axis.md](celsius-top-axis.md) answers a matplotlib forum question with zero replies about a second axis in degrees Celsius whose ticks sit exactly above the data points.
+- [match-stack-error.md](match-stack-error.md) gives a best-guess answer to a Python help forum question with zero replies about a compiler error in a home-made match pattern (the pattern never removes the value being matched).
