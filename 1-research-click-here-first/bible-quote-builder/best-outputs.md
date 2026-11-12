@@ -134,7 +134,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*These are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* So the last *workers hired* *were* first *paid, in my story.* Heaven and earth *may* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. Whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, because whoever trusts me can* do greater works *than these.*"
+"*These are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* So the last *workers hired received full pay too, in my story.* Heaven and earth *may* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. Whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, because whoever trusts me can* do greater works *than these.*"
 
 *Put plainly: I do not count size as worth. A person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
 
