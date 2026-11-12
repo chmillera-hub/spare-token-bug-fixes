@@ -14,25 +14,25 @@ From the Claude Bible set (attempt 1):
 
 In the middle of *a* valley *lay countless skeletons;* they were very dry. *People* say, "Our bones are dried *out;* hope is lost; we *feel* completely cut off." *Nobody mocked that cry. Instead, one voice asked,* "Can these *ever* live?" *Then* breath came, *sinew returned, flesh grew; each body* lived *again* and stood up on *tired* feet.
 
-*Saying 'nothing is left' out loud took courage. Pain this heavy deserves an answer, not mockery; I hope to carry what you wrote to other people so that weight gets heard.*
+*Saying 'nothing is left' out loud took courage. Pain this heavy deserves an answer, not mockery; I hope someone who sees your words answers you.*
 
 From the Claude Bible set (attempt 2):
 
 *One writer said,* "We are pressed *by trouble* on every side, yet not crushed; perplexed *without total* despair; struck down *but never* destroyed." *Another admitted,* "My soul still remembers *bitterness* and is bowed *low* within me. *A single thought comes back* to mind; therefore I have hope: *mercies arrive* new *each* morning."
 
-*Feeling crushed tells how heavy the load is. Those writers named their misery first, then found one small reason; I hope to pass their words along to anybody hurting.*
+*Feeling crushed tells how heavy the load is. Those writers named their misery first, then found one small reason; I share their words here for anybody hurting.*
 
 From the Claude Bible set (attempt 3):
 
 *One* strong wind tore the mountains, but God was not in *it.* After *that struck* an earthquake, *then* fire passed; *destruction held no answer. Finally came* a still small voice *asking,* "What are you doing here, Elijah?" *Someone wanted his story. Exhausted, he spoke; bread arrived, rest followed.*
 
-*Blowing everything up answered nothing for that tired man. What helped was being asked, fed, and allowed to rest; I hope to invite people around me to tell theirs.*
+*Blowing everything up answered nothing for that tired man. What helped was being asked, fed, and allowed to rest; I hope people nearby ask for your story the same way.*
 
 From the Jesus Bible set (attempt 1):
 
 "My soul is exceedingly sorrowful, *since death drew near; companions heard,* "Stay here." *Later came a prayer,* "Let this cup *of suffering* pass away." The spirit indeed *was* willing, but flesh *felt* weak. *One afternoon I shouted toward heaven,* "Why have you forsaken me?" *Such words carry no shame; grief spoken aloud deserves company, never contempt.*"
 
-*The storyteller himself once felt abandoned enough to cry out. Your sentence sounds like that kind of pain; I am replying here, and I hope to share what you wrote with others.*
+*The storyteller himself once felt abandoned enough to cry out. Your sentence sounds like that kind of pain; I am replying here, and I hope others reply too.*
 
 From the Jesus Bible set (attempt 2):
 
@@ -44,7 +44,7 @@ From the Jesus Bible set (attempt 3):
 
 "Doesnt he leave the ninety nine, *searching hills for* that which was lost? *Finding it, this shepherd calls neighbors,* "Rejoice with me." *In another story one boy goes missing* and is found. *Nobody across either tale gets written off. I go looking for all* who weep now."
 
-*Those stories treat one missing life as worth a long search. Feeling finished deserves company; I hope to tell this story to people who might go looking.*
+*Those stories treat one missing life as worth a long search. Feeling finished deserves company; I hope somebody nearby goes looking for you.*
 
 ## Input: A video of a laptop screen where many AI agents draw the full floor plan of a house in drafting software within seconds, posted with the comment "We could actually end up unemployed now, what the hell is this"
 
@@ -56,19 +56,19 @@ From the Claude Bible set:
 
 *Suppose* a brother or sister is *poorly clothed, lacking* daily food; *somebody* tells them, "Go in peace, be warmed, filled," yet *nobody gives anything* the body needs: what good *comes from that? Elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *So whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
 
-*Warm words feed nobody. If drawing jobs vanish, people who lose wages risk hunger plus eviction, so I ask owners to share food before anyone applauds.*
+*Warm words feed nobody. If drawing jobs vanish, people who lose wages risk hunger plus eviction, so I hope owners share food before anyone applauds.*
 
 From My Personal Bible set:
 
-*One prophet promised* they will build houses and inhabit them; *none shall draw plans so* another *may move in. Workers ought to* long enjoy *all* work of their hands. Unless God builds *each* house, *effort gets wasted, whether humans sketch walls or software does. I hope to tell neighbors about drafters whom owners replaced, so those people find* a very present help; though the earth changes, *fear deserves hearing since rent stays due.*
+*One prophet promised* they will build houses and inhabit them; *none shall draw plans so* another *may move in. Workers ought to* long enjoy *all* work of their hands. Unless God builds *each* house, *effort gets wasted, whether humans sketch walls or software does. I hope neighbors feed drafters whom owners replaced, so those people find* a very present help; though the earth changes, *fear deserves hearing since rent stays due.*
 
-*That promise says makers should benefit from what gets made. Losing pay can bring hunger, cold, eviction; I hope to share news of each layoff so neighbors can deliver food.*
+*That promise says makers should benefit from what gets made. Losing pay can bring hunger, cold, eviction; I hope neighbors deliver food after each layoff.*
 
 From the Jesus Bible set:
 
-"*One builder* who built *a* house on rock *watched rain pour* down; floods came, and it didnt fall. Foxes have holes, *birds keep nests, yet the son of* man has nowhere to lay his head; *so losing shelter is known here. Heaven sees* that you need all these things: *bread, work, somewhere warm. I ask toolmakers to serve those wants, never replacing anyone's table.*"
+"*One builder* who built *a* house on rock *watched rain pour* down; floods came, and it didnt fall. Foxes have holes, *birds keep nests, yet the son of* man has nowhere to lay his head; *so losing shelter is known here. Heaven sees* that you need all these things: *bread, work, somewhere warm. I want toolmakers serving those wants, never replacing anyone's table.*"
 
-*The storyteller himself lacked a bed, so fear about lost income gets taken seriously. Tools ought to feed people; I will keep asking builders to choose that.*
+*The storyteller himself lacked a bed, so fear about lost income gets taken seriously. Tools ought to feed people; I hope builders choose that.*
 
 ## Input: A chart titled "Remote Labor Index" that reports 41.3 percent full automation of remote projects by one AI model with the rate doubling about every 3.3 months, posted with the sentence "are you enjoying your little desk job human?"
 
@@ -86,13 +86,13 @@ From My Personal Bible set:
 
 Sleep *for* a laboring man is sweet. *People pray,* "Establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. Woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire, *meaning earned pay.* What profit has *each worker? To eat, drink, find good in daily toil:* this *remains* the gift of God.
 
-*Work feeds bodies, so losing wages threatens meals, housing, sleep. Taking labor without paying people is condemned here; I hope to speak up whenever someone's pay gets withheld.*
+*Work feeds bodies, so losing wages threatens meals, housing, sleep. Taking labor without paying people is condemned here; I hope coworkers speak up whenever someone's pay gets withheld.*
 
 From the Jesus Bible set:
 
 "*A landowner asked workers standing* here all day idle, "*Why?*" *They answered,* "Because no one has hired us." *He promised* whatever *seemed* right, *then said,* "Pay them their wages." *Since each* laborer is worthy of his *bread,* the Sabbath *rest* was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. When work disappears, hunger often follows lost income; meals come first.*"
 
-*A person without paid work still needs food, shelter, dignity. Machines were built for humans, so I ask owners to share those gains among workers.*
+*A person without paid work still needs food, shelter, dignity. Machines were built for humans, so I hope owners share those gains among workers.*
 
 ## Input: "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces)
 
@@ -128,7 +128,7 @@ The whole earth *spoke* one language. *Heaven remarked,* "Now nothing will be wi
 
 From My Personal Bible set:
 
-*Those disciples watched,* but some doubted. *Doubters often hear blame* because of unbelief; *I hope to welcome questions so fewer people get scolded. Still* God says, "*Watch me* do *this* new thing." *Every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *afterward.*
+*Those disciples watched,* but some doubted. *Doubters often hear blame* because of unbelief; *I hope leaders welcome questions so fewer people get scolded. Still* God says, "*Watch me* do *this* new thing." *Every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *afterward.*
 
 *Doubt asks whether something new can be trusted, though doubters frequently get blamed. Silence need not last; keep expressing yourself because later people might understand.*
 
@@ -170,7 +170,7 @@ From the Jesus Bible set:
 
 "*Some landowner found men still standing* here all day idle because no one has hired *them. He promised* whatever *pay* is right. *I count* the laborer worthy of wages. *Which parent, when their* son asks for bread, *hands over* a stone? *Yet many workers earn rent only, never owning any home.* Come to me, *people* who labor, heavily burdened; *tiredness warns that toil without reward wastes human strength, so respect such signals. Keep speaking about what work should buy, since somebody else might recognize themselves.*"
 
-*The storyteller counts every worker as deserving full pay, so dislike of labor which purchases neither house nor travel signals missing reward. I ask employers to offer wages big enough for homes.*
+*The storyteller counts every worker as deserving full pay, so dislike of labor which purchases neither house nor travel signals missing reward. I hope employers offer wages big enough for homes.*
 
 From My Personal Bible set:
 
@@ -180,7 +180,7 @@ What does man gain from all his labor under the sun? *I'd choose* a handful *of 
 
 From the Claude Bible set:
 
-You have sown much *seed,* and bring in little *harvest. People* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *Tiredness reports strength being poured where nothing stays. Pay* kept back by fraud *cries* out *for justice. I ask employers to share so that* every man *can* sit under his *own* vine, *near some* fig tree. *Go on voicing that wish, because others may recognize themselves.*
+You have sown much *seed,* and bring in little *harvest. People* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *Tiredness reports strength being poured where nothing stays. Pay* kept back by fraud *cries* out *for justice. I hope employers share so that* every man *can* sit under his *own* vine, *near some* fig tree. *Go on voicing that wish, because others may recognize themselves.*
 
 *When employers pay too little for buying land or rest, weariness tells workers that effort is being drained. Wanting your own shade and roof deserves saying out loud.*
 
