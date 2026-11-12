@@ -106,7 +106,7 @@ From the Jesus Bible set (attempt 1):
 
 From the Jesus Bible set (attempt 2):
 
-"I was a stranger and *somebody* took me in. *People asked,* "When did we see you?" *Whatever kindness reached the* least of these my brothers, *that deed touched heaven. Maybe a cashier who felt tired, a neighbor who was lonely, or a child who laughed showed this face earlier;* rejoice *together.*"
+"I was a stranger and *somebody* took me in. *People asked,* "When did we see you?" *Whatever kindness reached the* least of these my brothers, *that deed touched heaven. Maybe a cashier who felt tired, a neighbor who was lonely, or a passerby who laughed showed this face earlier;* rejoice *together.*"
 
 *You may have met something holy inside ordinary people already. Treat each stranger warmly, because your kindness tells them their life matters.*
 
@@ -156,7 +156,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*Anyone* desiring to build a tower *can sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *One servant* who owed *his master* ten thousand talents, *whole fortunes, was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* Wisdom is justified by her children, *not through spending which only raises* bigger *monuments.*"
+"*Anyone* desiring to build a tower *can sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *One servant* who owed *his master* ten thousand talents, *whole fortunes, was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* Wisdom is justified by her *results, not through spending which only raises* bigger *monuments.*"
 
 *Before spending huge sums, builders should ask whether ordinary people still have bread. I look for wisdom in how a tower helps humans speak, live, and be heard.*
 
