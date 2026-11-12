@@ -38,6 +38,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 14. As few words as possible repeat inside one passage as long as the readability grade stays high because Charles wants every word to be different.
 15. Almost any English word may be added and a repeated word inside a phrase may be replaced or deleted when the unique word rule would otherwise hurt readability because the short special list forced clipped wording.
 
+16. When Charles gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance because Charles wants the builder to respond to a topic and not only to shuffle text.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
@@ -51,7 +53,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 - The last two rules (14 and 15) make every word different and gave grades of 12 to 13 on random phrases in a random order while 37 to 49 percent of the words came from the AI model.
 - The page named bible-quote-builder-how-the-outputs-evolved in this folder shows a sample output from each stage and the page named bible-key-phrase-evolution in this folder holds every passage in the order the rules were added.
 
-## The newest outputs under all fifteen rules
+## Outputs under the first fifteen rules
 
 Claude selection (12 of 14 with 58 different words out of 58 words) from the eight phrases in this drawn order: "before you" and "that he" and "whoever shall put away his wife" and "if only you god" and "ask of the father" and "for they think" and "than these is of the evil one" and "dont sound a trumpet":
 
@@ -65,3 +67,20 @@ Words of Jesus (13 of 14 with 48 different words out of 48 words) from the eight
 
 - "*visit your neighbor* and tell him, 'friend, *comfort comes at an hour* that you *cannot* expect; therefore dont be afraid.' *if dread speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
 
+## Outputs under all sixteen rules for the input quote "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion"
+
+The AI model did not check whether the input quote is accurate and the passages are reflections on the topic of the quote and are not verdicts on any company.
+
+Words of Jesus (13 of 14 with 67 different words out of 67 words and 55 percent of the words added or changed):
+
+- "*engineers* desiring to build a tower *of thought must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+Charles selection (13 of 14 with 49 different words out of 49 words and 51 percent of the words added or changed):
+
+- *onlookers said:* "this man began to build *yet cannot* finish." *when builders report spending billions,* count the cost *twice. what lasting gain does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
+
+Claude selection (13 of 14 with 82 different words out of 82 words and 52 percent of the words added or changed):
+
+- *every age knows planting* and a time to build up; *some builders now pour billions into thinking machines, prizing knowledge more* than much fine gold. whatever you spend beyond that *sum, ask who benefits.* when he had spent all of it, *one young heir felt hunger,* for where your treasure *sits, hearts settle too. lilies grow though* they dont toil. *once the thing* which is complete has come, *let its makers share,* so *common* barns will be filled *with bread, never pride.*
+
+- The live programs do not apply rules 4 to 16 because the programs only shuffle phrases and have no test of meaning or grammar which means these rules are carried out by an AI model that reads this page.

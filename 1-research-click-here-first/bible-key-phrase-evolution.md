@@ -829,6 +829,34 @@ Notes on the matched passages:
 - The passages lean toward caution about cost because the matching phrases in the source are mostly warnings about counting the cost and about treasure and the lean is a property of the phrases the search found and is not a judgment by the AI model about any company.
 - Which phrases relate most to a headline is a guess and a different person would likely pick different phrases.
 
+## Input quote rule: the passage may be shaped into an answer or reflection on a quote that Charles gives
+
+Charles added a rule for every selection: when Charles gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance.
+Before this rule the added words could only serve readability and the tie to the input quote came only from which phrases were picked.
+
+The three headline passages again under the input quote rule (the input quote was "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and the AI model did not check whether the quote is accurate):
+
+Words of Jesus (13 of 14 with 67 different words out of 67 words and 55 percent of the words added or changed):
+
+- "*engineers* desiring to build a tower *of thought must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+Charles selection (13 of 14 with 49 different words out of 49 words and 51 percent of the words added or changed):
+
+- *onlookers said:* "this man began to build *yet cannot* finish." *when builders report spending billions,* count the cost *twice. what lasting gain does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
+
+Claude selection (13 of 14 with 82 different words out of 82 words and 52 percent of the words added or changed):
+
+- *every age knows planting* and a time to build up; *some builders now pour billions into thinking machines, prizing knowledge more* than much fine gold. whatever you spend beyond that *sum, ask who benefits.* when he had spent all of it, *one young heir felt hunger,* for where your treasure *sits, hearts settle too. lilies grow though* they dont toil. *once the thing* which is complete has come, *let its makers share,* so *common* barns will be filled *with bread, never pride.*
+
+What the input quote rule changed:
+
+- Each passage now speaks to the topic of the quote in plain words such as "billions" and "thinking machines" and "engineers" where the earlier versions only hinted at the topic through towers and barns.
+- All three passages reached 13 of 14 and every word in each passage is different.
+- About half of the words in each passage now come from the AI model which is the highest share for any passage built from chosen phrases.
+- The passages take the form of a reflection (count the cost and ask who benefits and share what is built) because the chosen Bible phrases are mostly cautions about cost and treasure and the reflection is not a verdict by the AI model on any company or on whether the quote is true.
+- The AI model that wrote these passages is made by the company named in the quote which is a reason for a reader to weigh the reflection with extra care.
+- The words of Jesus passage puts modern words such as "engineers" beside phrases from the gospels and a reader could take the passage for a real saying which is why the warning near the top of this page applies with special force here.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
