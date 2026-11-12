@@ -302,7 +302,8 @@ Space in the ribbon picture could have begun as a smooth flat sheet under tensio
 
 ## More pages in this folder
 
-Two shorter pages were added on November 12 2026 and each page tests one sentence of this document with a computer program.
+Three shorter pages were added on November 12 2026 and each page tests one sentence of this document with a computer program.
 
 - [half-angle-finding.md](half-angle-finding.md) shows that the half-angle rate for entangled pairs comes out of evenly random directions in three dimensions and fails in two dimensions and overshoots in four or more dimensions.
 - [smallest-size-finding.md](smallest-size-finding.md) puts a number on the smallest paper Mobius strip which has to be more than 1.732 times as long as wide and folds down toward a flat triangle.
+- [three-dimensions-check.md](three-dimensions-check.md) compares the half-angle result with published research and adds three new tests which include a test where two dimensions and four or more dimensions could allow faster-than-light messages.

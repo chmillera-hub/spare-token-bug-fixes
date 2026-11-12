@@ -57,7 +57,7 @@ The result also fits one sentence in the main document. The main document says a
 
 - The rule is still an assumption because nothing shows that space is built from ribbons or that a ribbon face tumbles evenly.
 - The rule still needs the whole ribbon to respond as one object at the same instant because a proven result in physics says no rule with results set in advance can score above 2.000.
-- The rule for a single particle has been known to physicists for decades as far as the chatbot knows. The chatbot did not search the published research to learn whether the comparison across two and three and four dimensions is already in print.
+- The rule for a single particle in three dimensions is already in print. A short search of published research was done later on 12 November 2026 and the page named three-dimensions-check.md in this folder reports what the search found and adds three new tests.
 - No other person has rerun the program which means the numbers on this page are unconfirmed.
 
 ## How to check this page
