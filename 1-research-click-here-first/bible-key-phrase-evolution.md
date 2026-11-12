@@ -803,6 +803,32 @@ Notes on the three short passages:
 - The word "sackcloth" (a rough cloth worn by people in mourning) stays as the source has the word and the added words "people mourn" explain the word in the same sentence.
 - The full list of rules in force is on the page named bible-quote-builder-current-rules in this folder.
 
+## Phrases matched to a news headline: one passage from each selection
+
+Charles gave the AI model a headline that read "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and asked for a guess at the Bible phrases that relate most to the headline with one passage from each selection.
+The AI model did not check whether the headline is accurate and treats the headline only as a topic which is the cost of building something very large.
+A program searched each selection for key phrases that hold words about cost and building and treasure and wisdom and the AI model picked seven or eight of the matching phrases by hand and chose their order which means this test uses deliberate choosing where the tests just above used random draws.
+Every rule on the page named bible-quote-builder-current-rules applied and a program check confirmed that no word repeats inside any of the three passages.
+
+Claude selection (12 of 14 with 73 different words out of 73 words) from the chosen phrases "and a time to build up" and "than much fine gold" and "whatever you spend beyond that" and "when he had spent all of it" and "for where your treasure is" and "they dont toil" and "that which is complete has come" and "so your barns will be filled":
+
+- *every season holds birth* and a time to build up; *knowledge shines brighter* than much fine gold. whatever you spend beyond that *sum, somebody repays later.* when he had spent all of it, *one young heir felt hunger,* for where your treasure *sits, hearts settle too. lilies grow though* they dont toil. *once the thing* which is complete has come, *partial efforts fade,* so *shared* barns will be filled *with bread, never pride.*
+
+Charles selection (13 of 14 with 40 different words out of 40 words) from the chosen phrases "this man began to build" and "and is not able to finish" and "and count the cost" and "man have of all his labor" and "god gives wisdom knowledge" and "than gold yes" and "and without price":
+
+- *neighbors laughed:* "this man began to build *yet cannot* finish." *first sit down, then* count the cost. *what profit does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *freely offered* and without price.
+
+Words of Jesus (13 of 14 with 58 different words out of 58 words) from the chosen phrases "desiring to build a tower" and "and count the cost" and "if he has enough to complete it" and "who owed him ten thousand talents" and "for where your treasure is" and "wisdom is justified" and "by her children" and "and build bigger ones":
+
+- "*anyone* desiring to build a tower *must sit first* and count the cost, *asking* if he has enough *that can* complete it. *one servant* who owed *his master* ten thousand talents *learned mercy;* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through plans which tear down barns then raise* bigger ones."
+
+Notes on the matched passages:
+
+- The words of Jesus selection held the closest match because the source has a saying about a person who wants to build a tower and first counts the cost to see whether the money is enough to finish.
+- The phrase "ten thousand talents" names a very large debt in a parable (a talent was a large weight of silver) and was picked because the headline is about a very large sum.
+- The passages lean toward caution about cost because the matching phrases in the source are mostly warnings about counting the cost and about treasure and the lean is a property of the phrases the search found and is not a judgment by the AI model about any company.
+- Which phrases relate most to a headline is a guess and a different person would likely pick different phrases.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
