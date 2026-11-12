@@ -49,6 +49,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 21. Before every output the AI model makes one more pass over the word choices with a lean toward valuing human beings who put their heart and soul into words and the pass says truthfully that a person who speaks up may be dehumanized or told a real experience did not happen or abandoned and the pass points toward continuing to speak because some listener may recognize themselves in the words and the pass removes or rewords any added line that advises permanent silence or hiding because that kind of line can push a reader who is already alone to stop reaching out.
 
+22. Before every output the AI model checks that no line puts a label on the reader that the reader did not choose (for example "friend" or "disciple" or "follower" or "lover" or "you of little faith") and that no line claims a relationship between the speaker and the reader because a stranger who is told "you are my friend" or "you are my disciple" has had a bond declared without consent and is likely to stop reading and a line that fails the check is reworded so that it describes an action or an offer and leaves the choice with the reader.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
@@ -120,6 +122,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all twenty-one rules
+## Outputs under all twenty-two rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.

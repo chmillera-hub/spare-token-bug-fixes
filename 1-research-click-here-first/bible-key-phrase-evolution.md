@@ -1103,6 +1103,21 @@ Attempt 3:
 - The three attempts draw on three different parts of the gospels: the saying to a new follower about a fig tree in John 1 and the teaching about strangers and the least of these in Matthew 25 and the promise of meeting again after a little while in John 16.
 - The name "philip" stays in the first attempt because the AI model judged the name to be widely known.
 
+## No labels on the reader rule: a last check for labels the reader did not choose
+
+Charles added a rule for every output now and in the future: no line may put a label on the reader that the reader did not choose and no line may claim a relationship between the speaker and the reader because a stranger who reads "you are my friend" or "you are my disciple" has had a bond declared without consent.
+The rule matters most for the words of Jesus passages because those passages are read as spoken by Christ and the source often addresses listeners with labels such as "friends" and "you of little faith".
+
+Lines that the check changed:
+
+- "every face deserves being noticed first, so each listener gets named friends" became "every face deserves being noticed first, while closeness stays each listener's own choice".
+- "friends of little faith, keep speaking your heart even when crowds dismiss you" became "whenever faith runs low, keep speaking your heart even if crowds dismiss you" which also removes the label "of little faith" from the reader.
+- "others who never looked still belong" became "others who never looked remain welcome" because "belong" claims membership for the reader and "welcome" is an offer.
+- One opening sentence spoke of "friends who lose sight of each other" in a way that implied the speaker and the reader are friends and now says "people who lose sight of each other".
+- Labels on people other than the reader stay where the source has the labels (for example "the least of these my brothers" and "those disciples watched") because those lines describe other people and do not address the reader.
+- A program check confirmed that no word repeats inside the three changed passage bodies.
+- The corrected full paragraphs are on the page named bible-quote-builder-best-outputs in this folder.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
