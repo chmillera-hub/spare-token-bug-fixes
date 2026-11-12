@@ -20,7 +20,7 @@ From the Claude Bible set (attempt 2):
 
 *these are two writers who described being crushed from every direction and who still wrote down one reason to see the next morning:* *one writer said,* "we are pressed *by trouble* on every side, yet not crushed; perplexed *without total* despair; struck down *but never* destroyed." *another admitted,* "my soul still remembers *bitterness* and is bowed *low* within me. *a single thought comes back* to mind; therefore i have hope: *mercies arrive* new *each* morning."
 
-*meaning: feeling crushed does not prove life is over. those writers named their misery first, then found one small reason; i want that for anybody hurting.*
+*meaning: feeling crushed tells how heavy the load is. those writers named their misery first, then found one small reason; i want that for anybody hurting.*
 
 From the Claude Bible set (attempt 3):
 
@@ -44,7 +44,7 @@ From the Jesus Bible set (attempt 3):
 
 "*this is the story i told about a shepherd who leaves ninety-nine sheep to search for the one that went missing:* doesnt he leave the ninety nine, *searching hills for* that which was lost? *finding it, this shepherd calls neighbors:* "rejoice with me." *in another story one boy goes missing* and is found. *nobody across either tale gets written off. all* who weep now, *i want laughter reaching them someday.*"
 
-*in short: those stories treat one missing life as worth a long search. feeling finished need not mean forgotten; i hope somebody goes looking.*
+*in short: those stories treat one missing life as worth a long search. feeling finished deserves company; i hope somebody goes looking.*
 
 ## Input: A video of a laptop screen where many AI agents draw the full floor plan of a house in drafting software within seconds, posted with the comment "We could actually end up unemployed now, what the hell is this"
 
@@ -60,7 +60,7 @@ From the Claude Bible set:
 
 From My Personal Bible set:
 
-*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw plans so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear need not win.*
+*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw plans so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear deserves hearing.*
 
 *meaning: that promise says makers should benefit from what gets made. losing pay can bring hunger, cold, eviction; i want help reaching every laid-off person.*
 
@@ -130,7 +130,7 @@ From My Personal Bible set:
 
 *this is about the disciples who doubted and the teaching that every generation builds up and breaks down: those disciples watched,* but some doubted. *doubters often hear blame* because of unbelief; *someday, i hope, nobody gets scolded over questions. still* god says, "*watch me* do *this* new thing." *every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *afterward.*
 
-*in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later people might understand.*
+*in short: doubt asks whether something new can be trusted, though doubters frequently get blamed. silence need not last; keep expressing yourself because later people might understand.*
 
 From the Jesus Bible set:
 
@@ -168,21 +168,21 @@ The public link to the chat that made these three outputs is https://claude.ai/s
 
 From the Jesus Bible set:
 
-"*this is my story about hired vineyard workers and my sayings about wages and bread: some landowner found men waiting late and said:* why do you stand here all day idle? *they answered:* because no one has hired us. *then came his promise:* whatever *pay* is right i will give. *hear another saying:* the laborer *stays* worthy of wages. *which parent, when their* son asks for bread, *hands over* a stone? *yet many young workers earn rent only, never owning any home.* come to me, *people* who labor, heavily burdened; *tiredness without reward makes sense. keep speaking about what toil should buy, since somebody else might recognize themselves.*"
+"*this is my story about hired vineyard workers and my sayings about wages and bread: some landowner found men waiting late and said:* why do you stand here all day idle? *they answered:* because no one has hired us. *then came his promise:* whatever *pay* is right i will give. *hear another saying:* the laborer *stays* worthy of wages. *which parent, when their* son asks for bread, *hands over* a stone? *yet many young workers earn rent only, never owning any home.* come to me, *people* who labor, heavily burdened; *tiredness warns that toil without reward wastes human strength; respect such signals. keep speaking about what work should buy, since somebody else might recognize themselves.*"
 
-*plainly: the storyteller counts every worker as deserving full pay, so disliking labor which purchases neither house nor travel is understandable. i hope employers choose wages big enough for homes.*
+*plainly: the storyteller counts every worker as deserving full pay, so dislike of labor which purchases neither house nor travel signals missing reward. i hope employers choose wages big enough for homes.*
 
 From My Personal Bible set:
 
-*this is a preacher asking what labor under the sun gains and isaiah picturing people living in houses they built:* what does man gain from all his labor under the sun? *i'd choose* a handful *of people,* with quietness, *over* two handfuls *plus* chasing after wind. *isaiah asked:* why spend money for that which is not bread, *such as endless rent? afterward he pictured another future:* they will build houses and inhabit them, plant vineyards, eat their fruit, *never toiling* in vain. *until then, landlords collect much pay, so joyless work holds no mystery. speak anyway; someone else carries matching pain.*
+*this is a preacher asking what labor under the sun gains and isaiah picturing people living in houses they built:* what does man gain from all his labor under the sun? *i'd choose* a handful *of people,* with quietness, *over* two handfuls *plus* chasing after wind. *isaiah asked:* why spend money for that which is not bread, *such as endless rent? afterward he pictured another future:* they will build houses and inhabit them, plant vineyards, eat their fruit, *never toiling* in vain. *until then, landlords collect much pay, so joylessness at work reports something true: effort returns too little. speak anyway; someone else carries matching pain.*
 
-*meaning: one writer doubted whether toil pays anything lasting, while another imagined workers living inside homes they built. wanting that outcome from a job is reasonable.*
+*meaning: one writer doubted whether toil pays anything lasting, while another imagined workers living inside homes they built. wanting that outcome from a job points toward what bodies need: shelter plus rest.*
 
 From the Claude Bible set:
 
-*this is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* you have sown much *seed,* and bring in little *harvest. people* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *tiredness follows naturally. james wrote: pay* kept back by fraud *cries* out *for justice. one prophet hoped:* every man will sit under his *own* vine, *near some* fig tree. *go on voicing that wish, because others may recognize themselves.*
+*this is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* you have sown much *seed,* and bring in little *harvest. people* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *tiredness says: stop pouring strength where nothing stays. james wrote: pay* kept back by fraud *cries* out *for justice. one prophet hoped:* every man will sit under his *own* vine, *near some* fig tree. *go on voicing that wish, because others may recognize themselves.*
 
-*in short: when employers pay too little for buying land or rest, weariness toward work has a cause. wanting your own shade and roof deserves saying out loud.*
+*in short: when employers pay too little for buying land or rest, weariness tells workers that effort is being drained. wanting your own shade and roof deserves saying out loud.*
 
 ## No input: eight random phrases kept in a random order
 
