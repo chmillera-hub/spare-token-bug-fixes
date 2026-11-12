@@ -162,6 +162,10 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** Then he told the midwives to kill newborn sons.  
 **Why:** the first line hides what the order was and the second line names the violence plainly as a report with the ruler as the one who gave the order.
 
+**Before:** his servants helped with one gentle question  
+**After:** his servants said, if the prophet had asked you to do some great thing, wouldnt you have done it?  
+**Why:** the first line names a question and leaves the question out of the sentence and a reader should never have to hunt through the paragraph for words that the sentence points at.
+
 ## No compression [rules 32 and 49]
 
 **Before:** Workers feared hunger because one day's harvest left them idle.  
