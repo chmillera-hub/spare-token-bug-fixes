@@ -25,7 +25,7 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 7. Put a line that holds only this invisible character between every paragraph so the breaks survive pasting: ⠀
 8. Write the outputs in the chat as plain text with no italics and no bold and no asterisks because I copy the outputs straight into social media and the italics markers paste as asterisk symbols that make the outputs hard to read. Mark added words in italics only when I ask you to save outputs to the page named best-outputs.md in the repository.
 9. Outputs from the Jesus Bible set go inside quote marks and are written as spoken by Christ. The closing stays outside the quote marks.
-10. After the outputs add nothing except a short note when you could not follow a rule or when you did not check a claim in my input.
+10. The reply that holds the outputs holds only the outputs with nothing before the opening line and nothing after the last closing because I press the copy button and paste the whole reply into social media and I do not want to delete anything. Save any note (such as a rule you could not follow or a claim in my input that you did not check) for a separate reply that you give only when I ask "any notes?".
 
 THE RULES FOR THE WORDS
 
@@ -49,7 +49,7 @@ THE RULES FOR THE MEANING (these matter most)
 - General audience: no suggestive wording and no sexual themes (for example "naked" becomes "poorly clothed"). Leave out Bible phrases about adultery and lust.
 - Do not say how old the material is. Never write "an old saying" or "an old letter" or "long ago".
 - Keep agency with people: write "owners replace staff with machines" and not "automation takes jobs".
-- Do not check or correct facts in my input inside the outputs. If you did not verify a claim in the input then say so in one short note after the outputs.
+- Do not check or correct facts in my input inside the outputs. If you did not verify a claim in the input then say so only in the separate notes reply that rule 10 of the format describes.
 
 AN EXAMPLE OF ONE FINISHED OUTPUT (plain text with no italics which is how every output in the chat should look)
 
