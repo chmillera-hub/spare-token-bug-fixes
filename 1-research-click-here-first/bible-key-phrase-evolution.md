@@ -494,6 +494,37 @@ Where the rule changed the passages above:
 - The grades did not change because each change smooths one phrase and adds no meaning.
 - A removal is most likely to matter in future strings where two stretches meet and both bring a "the" such as "in the the house".
 
+## Pronoun rule: any pronoun may be swapped for another pronoun or for a naming word
+
+Charles added a rule for every selection: the AI model may replace any pronoun anywhere in a passage (inside a rebuilt stretch or among the added words) with another pronoun or with an allowed naming word because a passage full of "he" and "him" and "they" and "it" leaves a reader guessing who is meant.
+A replaced word carries stars and the words of Jesus passages still keep "i" and "me" because those passages are read as spoken by Christ.
+
+The three fresh words of Jesus passages again under the pronoun rule:
+
+First attempt (13 of 14 and unchanged):
+
+- "most certainly i tell you, wherever this good news *enters the world, love is sent* from your father who is in heaven, for the son of *man is sent to give life*. this is what i told you while i was still with you, for everyone: *believe the good news, because* until all these things are accomplished, heaven and earth will pass away, *yet the love of the father will not*. *the holy spirit is sent to take the evil* from you in that day; you will ask me no questions. most certainly i tell you, *the holy spirit* will convict the world about sin, about righteousness. *the man who says evil* against the holy spirit, *the evil* will not be forgiven *that man*. *a man with a full house* said, 'this is what i will do: *give to the little ones*.'"
+- Replaced pronouns: "he" became "the holy spirit" and "it" became "the evil" and "him" became "that man".
+
+Second attempt (13 of 14 and up from 12):
+
+- "*the man who hears the father* who is in heaven, *that man* is my brother. *the lord says to the man,* 'well done, good and faithful servant,' and give *the kingdom* to *the servant* who has the ten talents. *the man who loves the world more* than me is not worthy of me, and *the man* who doesnt have *love*, even that which he has will be taken away from him. *the father had a son, and the father* sent *the son* last to *the farmers*, saying, '*the farmers* will respect my son.' but the farmers *did not receive the son*. *it will be right* for tyre and sidon in the judgment with this generation, *because this generation saw the son and did not believe*. *love your father* and your mother; you still lack one thing: *give to the little ones and enter the kingdom*."
+- Replaced pronouns: "he" became "that man" and "it" became "the kingdom" and "him" became "the servant" and "he" became "the man" and "he" became "the father" and "him" became "the son" and "them" became "the farmers" and "they" became "the farmers".
+
+Third attempt (12 of 14 and up from 11):
+
+- "*the kingdom of heaven is sent* before you. most certainly i tell you, *the kingdom* is like a man going into another country *who gives seed to the earth*. *blessed are the little ones,* for they see, and your ears *hear the good seed*. *some seed fell on good earth; other seed* fell among the thorns. this is *the man who hears and takes the world for life, like a seed* that was cast into the sea. then let those *who believe see: life is sent* from the sky, and the powers that are *in heaven* will not pass away until all these things happen. *the dead world is* where the vultures gather together; will you lay down your life for me, *the son of man who made life eternal*?"
+- Replaced pronouns: "it" became "the kingdom" and "others" became "other seed" and "he" became "the man".
+
+What the pronoun rule changed:
+
+- The second attempt gained a point because the sentence about the father and the son and the farmers had four pronouns in a row ("he sent him last to them saying they") and now names every person.
+- The third attempt gained a point because "it is like a man" now says what is like a man.
+- The first attempt stayed at 13 because the earlier rules had already named most of the people in that passage.
+- A pronoun stays where the same sentence already names the person (for example "the man who doesnt have love, even that which he has") because repeating the naming word three times in one sentence reads worse than one pronoun.
+- The same rule applies to the older passages on this page (for example "neither has he gone into captivity" in the Charles selection passage can become "neither has *the righteous man* gone into captivity" and "they came around me like water" in the Psalm 88 passage can become "*your terrors* came around me like water").
+- Every replacement is a choice by the AI model about who a pronoun points at and a wrong choice would put words about one person onto another person which means a reader who cares about exact meaning needs to compare the passage with the source verse.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
