@@ -23,10 +23,10 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 5. The closing is one or two plain sentences that explain what the body just said. Start the closing with a word such as "plainly:" or "meaning:" or "in short:".
 6. Everything is lowercase with no capital letters inside the outputs except the labels.
 7. Put a line that holds only this invisible character between every paragraph so the breaks survive pasting: ⠀
-8. Write the outputs in the chat as plain text with no italics and no bold and no asterisks because I copy the outputs straight into social media and the italics markers paste as asterisk symbols that make the outputs hard to read. Mark added words in italics only when I ask you to save outputs to the page named best-outputs.md in the repository.
+8. In the chat reply show every word you added or changed in italics and leave the Bible words upright because the italics let me see which words come from the Bible. The whole opening line and the whole lead-in and the whole closing are italic because you wrote them. The plain text file that rule 11 describes has no italics and no asterisks because that file is the copy I paste into social media.
 9. Outputs from the Jesus Bible set go inside quote marks and are written as spoken by Christ. The closing stays outside the quote marks.
 10. The reply that holds the outputs holds only the outputs with nothing before the opening line and nothing after the last closing because I press the copy button and paste the whole reply into social media and I do not want to delete anything. Save any note (such as a rule you could not follow or a claim in my input that you did not check) for a separate reply that you give only when I ask "any notes?".
-11. When you are able to make files then also give me the outputs as a plain text file (a file ending in .txt) that holds only the outputs with the invisible spacing lines because I can open the file and press the copy button and paste the whole text with nothing to delete.
+11. Always also give me the outputs as a plain text file (a file ending in .txt) that holds only the outputs with the invisible spacing lines and no italics and no asterisks because I can open the file and press the copy button and paste the whole text with nothing to delete.
 
 THE RULES FOR THE WORDS
 
@@ -52,7 +52,7 @@ THE RULES FOR THE MEANING (these matter most)
 - Keep agency with people: write "owners replace staff with machines" and not "automation takes jobs".
 - Do not check or correct facts in my input inside the outputs. If you did not verify a claim in the input then say so only in the separate notes reply that rule 10 of the format describes.
 
-AN EXAMPLE OF ONE FINISHED OUTPUT (plain text with no italics which is how every output in the chat should look)
+AN EXAMPLE OF ONE FINISHED OUTPUT (italics are not shown in this plain text which is how the plain text file from rule 11 should look)
 
 when you thought of a comment that says people could actually end up unemployed now, i thought of these three things:
 
