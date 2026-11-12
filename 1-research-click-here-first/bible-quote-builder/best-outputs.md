@@ -36,7 +36,7 @@ From the Jesus Bible set (attempt 1):
 
 From the Jesus Bible set (attempt 2):
 
-"*This is what I said about small birds sold for almost nothing and about who wants destruction and who wants life:* Arent two sparrows sold *for one small coin? Yet none gets forgotten.* You are of more value than many *birds.* The thief only comes to steal, kill, and destroy; *my purpose was* that *people* may have life. Consider *how* lilies *grow without earning anything; worth never depended on usefulness.*"
+"*This is what I said about small birds sold for almost nothing and about who wants destruction and who wants life:* Arent two sparrows sold *for one small coin? Yet none gets forgotten.* You are of more value than many *birds.* The thief only comes to steal, kill, and destroy; *my purpose was* that *people might* have life. Consider *how* lilies *grow without earning anything; worth never depended on usefulness.*"
 
 *Meaning: I count a life as holding worth even when everything feels pointless, because that feeling often reports unmet needs. The person hurting still matters, and nobody should face destruction.*
 
@@ -54,7 +54,7 @@ The AI model saw still frames of the video and did not hear the sound and did no
 
 From the Claude Bible set:
 
-*This comes from a letter about a neighbor who lacks food and an account of people who shared everything:* *Suppose* a brother or sister is *poorly clothed, lacking* daily food; *somebody* tells them, "Go in peace, be warmed, filled," yet *nobody gave anything* the body needs: what good *comes from that? Elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *So whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
+*This comes from a letter about a neighbor who lacks food and an account of people who shared everything:* *Suppose* a brother or sister is *poorly clothed, lacking* daily food; *somebody* tells them, "Go in peace, be warmed, filled," yet *nobody gives anything* the body needs: what good *comes from that? Elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *So whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
 
 *In short: warm words feed nobody. If drawing jobs vanish, people who lose wages risk hunger plus eviction, so I want sharing ahead of applause.*
 
