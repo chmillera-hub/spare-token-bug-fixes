@@ -588,6 +588,39 @@ Adding pronouns and swapping pronouns were already allowed for every selection a
 - The words of Jesus passages still keep "i" and "me" where the speaker means himself because those passages are read as spoken by Christ.
 - No passage on this page needed a new deletion because the swap rule had already handled every pronoun that blocked a reader and the wider rule will matter in future strings where a leftover pronoun such as a stray "it" has nothing to point at.
 
+## The outputs again under the widened pronoun rule
+
+The AI model went back through the six newest passages and looked for every place where deleting or adding a pronoun helps a reader.
+
+Sentences that changed in the three fresh words of Jesus attempts:
+
+- First attempt before: "*the man who says evil* against the holy spirit, *the evil* will not be forgiven *that man*." First attempt after: "*the man who says evil* against the holy spirit will not be forgiven." The source pronouns "it" and "him" are deleted because the sentence already names the man at the start.
+- Second attempt before: "*the man who hears the father* who is in heaven, *that man* is my brother." Second attempt after: "*the man who hears the father* who is in heaven is my brother." The source pronoun "he" is deleted because the sentence already names the man.
+- Third attempt before: "this is *the man who hears and takes the world for life*". Third attempt after: the same wording because the earlier swap had already replaced the pronoun.
+
+The newest batch under the widened rule:
+
+Claude selection (13 of 14 and unchanged):
+
+- *lord god,* in all the earth you have set your *light, and* have put all things under *the* feet *of man:* all sheep *and every living thing*. *keep what is holy, and* neither throw your pearls before the pigs. *whatever a man says more* than *what is right* is of the evil one. you have heard that it was said, "you shall not commit adultery," but i tell you, love your enemies, *because* a good tree cant produce evil fruit, neither can a corrupt *tree make good fruit*. *blessed are the righteous* for righteousness sake, for theirs is the kingdom of heaven; *not the man who says "lord,"* but he who does the will of my father who is in heaven, for *the father* makes his sun to rise *on the evil and the good*.
+- Deleted pronouns: the second "you" in "you have set your light and you have put".
+
+Charles selection (12 of 14 and up from 11):
+
+- the assembly of the elders of the people were gathered together in jerusalem, because *the people* have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
+- Replaced pronouns: "you" became "the people" in "because you have said" (a swap the earlier rule already allowed and the AI model had missed).
+
+Words of Jesus (13 of 14 and unchanged):
+
+- The passage stays exactly as printed in the section about the new batch because every pronoun in the passage either means the speaker or points at a person named in the same sentence.
+
+Does the widened pronoun rule improve readability:
+
+- The rule helps in one clear kind of sentence which is a sentence where the source repeats the subject as a pronoun (for example "the man who hears the father, he is my brother") because deleting the repeated pronoun leaves one clean sentence.
+- The rule changed 3 sentences across six passages and no grade moved because of a deletion which means the gain is smoothness inside a sentence and not a new level of understanding.
+- The one grade that moved (Charles selection from 11 to 12) came from a swap and not from a deletion.
+- The small effect has a likely reason: the earlier swap rule had already removed most pronouns that left a reader guessing so few pronouns were left for the deletion rule to fix.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
