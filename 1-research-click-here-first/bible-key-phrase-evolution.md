@@ -687,6 +687,33 @@ What the random order test showed:
 - The word "leanness" (which means hunger or wasting in the source psalm) was left as the source has the word and costs a point on the rule about explaining every label.
 - The phrase "and killed mighty kings" appears in every passage with evil as the one that kills which means no passage presents the killing as good.
 
+## Eight random phrases from the Charles selection kept in three random orders
+
+Charles asked for the same random order test with half the number of phrases so a program drew a new set of 8 key phrases at random from the Charles selection and shuffled the set three times and the AI model connected the phrases in the exact shuffled order under the same rules.
+The 8 phrases came from 8 different chapters in Jeremiah and Proverbs and Isaiah and Mark and Psalms and Matthew and John and a program check confirmed that the non-pronoun words of every phrase appear in each passage in the shuffled order.
+
+The set of 8 phrases: "on them" and "and drives away his mother" and "he says" and "who deals wisely will" and "in the day" and "you will show yourself perfect" and "jesus began to preach" and "for in this the saying is true".
+
+First random order (12 of 14 and 55 percent of the words were added):
+
+- *god,* in the day *of the poor* you will show yourself perfect, for in this the saying is true: *a wicked son takes the house* and drives away his mother, *but a son* who deals wisely will *give the house to his mother.* "*blessed is the wise son,*" *the lord* says. jesus began to preach, *and the day was good* on *the people of the land.*
+
+Second random order (13 of 14 and 44 percent of the words were added):
+
+- *god made the day good* on *the people,* for in this the saying is true: "*with the good* you will show yourself perfect." jesus began to preach: "*the son* who deals wisely will *hear his father, but the wicked son takes the house* and drives away his mother in the day *of evil,*" he says.
+
+Third random order (11 of 14 and 39 percent of the words were added):
+
+- jesus began to preach in the day: "*god,* you will show yourself perfect. *the man* who deals wisely will *see good made* on *the poor. the wicked son sees the poor* and drives away his mother, for in this the saying is true: *'the evil heart knows no house,'*" he says.
+
+What the smaller set showed:
+
+- Eight phrases gave shorter and tighter passages (about 50 to 60 words against about 105 words for sixteen phrases) and the grades were a little higher (11 to 13 against 10 to 11) because fewer phrases mean fewer awkward fragments that need a home.
+- The share of added words stayed about the same as with sixteen phrases which means the share depends on how unrelated the phrases are and not on how many phrases there are.
+- All three passages share one story (a wise son and a wicked son and a saying that proves true) because two phrases in the set ("who deals wisely will" and "and drives away his mother") come from sayings about sons in Proverbs and pulled every passage toward the same subject.
+- With sixteen phrases the three orders gave three different stories and with eight phrases the three orders gave one story told three ways which suggests that a small set is steered by its few strong phrases while a large set leaves more room for the joiner.
+- The phrase "and drives away his mother" appears in every passage as the act of a wicked son which means no passage presents driving a mother from her home as good.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
