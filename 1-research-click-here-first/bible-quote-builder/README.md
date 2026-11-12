@@ -12,6 +12,7 @@ Warning about changed wording in the joined Bible passages: the passages that th
 - [rules.md](rules.md) lists all forty-nine rules now in force with the reason for each rule.
 - [prompt-for-new-chat.txt](prompt-for-new-chat.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
 - The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
+- [corrections.md](corrections.md) lists lines that the AI model wrote and that Charles flagged as wrong and shows each line before the fix and after the fix with the reason for the fix which makes the page useful to anyone who wants to teach a chatbot to care for people without hurting people by accident.
 
 ## How the experiment developed
 
