@@ -11,7 +11,7 @@ The AI model did not check the numbers on the chart and words in italics were ad
 
 From the Claude Bible set:
 
-*the first page of genesis and of an old letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
+*the first page of genesis and an old letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
 
 *in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
@@ -23,7 +23,7 @@ From the Charles Bible set:
 
 From the Jesus Bible set:
 
-"*the story i told about workers left standing unhired all day and of my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. when work disappears, hunger often follows lost income; meals come first.*"
+"*the story i told about workers left standing unhired all day and my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. when work disappears, hunger often follows lost income; meals come first.*"
 
 *plainly: a person without paid work still needs food, shelter, dignity. machines were built for humans, so i want those gains shared among workers.*
 
