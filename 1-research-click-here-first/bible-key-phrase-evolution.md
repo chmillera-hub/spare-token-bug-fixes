@@ -1142,6 +1142,19 @@ The reason is that a hope tells a reader what the speaker wishes for and makes n
 - The Charles selection passage about doubt now reads "doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions" which keeps the truthful line and adds the hope beside it.
 - A program check confirmed that no word repeats inside the changed passage body.
 
+## No negative labels on the input rule
+
+Charles added a rule for every output: no output may put a negative label on the input quote or on the person who wrote the input quote (for example "mocking" or "dumb" or "stupid") because a negative label judges the person before the reply has said anything and the one exception is naming explicit violence such as murder or rape or physical assault or contact without consent.
+
+Lines that the check changed in the three passages about the chart of remote work automation:
+
+- All three opening sentences had described the question as asked "in a mocking tone" and now say only that the question was asked.
+- "what profit has any mocker" became "what profit has each worker" and "i want nobody mocked over needing income" became "i want everybody able to earn bread".
+- "nobody deserves mockery when work disappears" was removed and "ridicule helps nobody" became "i hope that happens" and "laughing at someone losing wages gets everything backward" became "i want those gains shared among workers".
+- "so nobody doing desk work deserves being called little" became "so desk work counts among needed tasks" because the earlier line argued with the wording of the input.
+- One older opening sentence said "joking that my face looks familiar" and now says "saying with a laugh that my face looks familiar".
+- The corrected passages are on the page named bible-quote-builder-best-outputs in this folder.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

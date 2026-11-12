@@ -9,21 +9,21 @@ The AI model did not check the numbers on the chart and words in italics were ad
 
 From the Claude Bible set:
 
-*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of the first page of genesis and of an old letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so nobody doing desk work deserves being called little.*
+*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking whether a human is enjoying a little desk job, i thought of the first page of genesis and of an old letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
 
-*in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; ridicule helps nobody.*
+*in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
 From the Charles Bible set:
 
-*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of old lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *any mocker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
+*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking whether a human is enjoying a little desk job, i thought of old lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *each worker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
 
-*meaning: work feeds bodies, so losing wages threatens meals, housing, sleep. taking labor without paying people is condemned here; i want nobody mocked over needing income.*
+*meaning: work feeds bodies, so losing wages threatens meals, housing, sleep. taking labor without paying people is condemned here; i want everybody able to earn bread.*
 
 From the Jesus Bible set:
 
-"*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of the story i told about workers left standing unhired all day and of my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. nobody deserves mockery when work disappears; hunger often follows lost income.*"
+"*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking whether a human is enjoying a little desk job, i thought of the story i told about workers left standing unhired all day and of my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. when work disappears, hunger often follows lost income; meals come first.*"
 
-*plainly: a person without paid work still needs food, shelter, dignity. machines were built for humans, so laughing at someone losing wages gets everything backward.*
+*plainly: a person without paid work still needs food, shelter, dignity. machines were built for humans, so i want those gains shared among workers.*
 
 ## Input: "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces)
 
@@ -35,7 +35,7 @@ plainly: being recognized feels good because someone noticed you. keep showing y
 
 Words of Jesus attempt 2:
 
-"when you thought of joking that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and somebody took me in. people asked, "when did we see you?" whatever kindness reached the least of these my brothers, that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier; rejoice together."
+"when you thought of saying with a laugh that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and somebody took me in. people asked, "when did we see you?" whatever kindness reached the least of these my brothers, that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier; rejoice together."
 
 simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
 
