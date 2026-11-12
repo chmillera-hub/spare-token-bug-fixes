@@ -12,3 +12,6 @@ This folder holds experiments where an AI model (Claude) looked for a question t
 - [animation-y-limit.md](animation-y-limit.md) answers a matplotlib forum question with zero replies about a y limit that would not stick in an animation (two causes found and a two-line fix tested).
 - [riemann-integral-step.md](riemann-integral-step.md) explains an unanswered Wikipedia math desk question about one step in Riemann's 1859 paper and checks the step with numbers to 21 digits.
 - [klein-bottle-formula.md](klein-bottle-formula.md) answers an unanswered Wikipedia math desk question about whether a formula describes a one-sided Klein bottle (the checks say the formula describes a torus).
+- [prime-set-pairs.md](prime-set-pairs.md) answers a SageMath board question with zero answers about finding every pair of numbers 1 or 2 apart that are built from a chosen set of primes (a Python program confirms both lists in the question with two methods).
+- [tensor-grand-sum.md](tensor-grand-sum.md) answers a SageMath board question with zero answers about adding up every entry of a repeated tensor product (the sum equals one number raised to the power n).
+- [polar-image-plot.md](polar-image-plot.md) answers a matplotlib forum question with zero replies about an image that lands in the wrong place on a round polar chart (a different drawing command fixes the angle range).
