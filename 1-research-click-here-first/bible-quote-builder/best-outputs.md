@@ -20,13 +20,13 @@ From the Claude Bible set (attempt 2):
 
 *One writer said,* "We are pressed *by trouble* on every side, yet not crushed; perplexed *without total* despair; struck down *but never* destroyed." *Another admitted,* "My soul still remembers *bitterness* and is bowed *low* within me. *A single thought comes back* to mind; therefore I have hope: *mercies arrive* new *each* morning."
 
-*Feeling crushed tells how heavy the load is. Those writers named their misery first, then found one small reason; I share their words here for anybody hurting.*
+*Feeling crushed tells how heavy the load is. Those writers named their misery first, then found one small reason; I share their words here for anybody who is hurting.*
 
 From the Claude Bible set (attempt 3):
 
 *One* strong wind tore the mountains, but God was not in *it.* After *that struck* an earthquake, *then* fire passed; *destruction held no answer. Finally came* a still small voice *asking,* "What are you doing here, Elijah?" *Someone wanted his story. Exhausted, he spoke; bread arrived, rest followed.*
 
-*Blowing everything up answered nothing for that tired man. What helped was being asked, fed, and allowed to rest; I hope people nearby ask for your story the same way.*
+*Blowing everything up answered nothing for that man who was tired. What helped was being asked, fed, and allowed to rest; I hope people nearby ask for your story the same way.*
 
 From the Jesus Bible set (attempt 1):
 
@@ -38,7 +38,7 @@ From the Jesus Bible set (attempt 2):
 
 "Arent two sparrows sold *for one small coin? Yet none gets forgotten.* You are of more value than many *birds.* The thief only comes to steal, kill, and destroy; *my purpose was* that *people might* have life. Consider *how* lilies *grow without earning anything; worth never depended on usefulness.*"
 
-*I count a life as holding worth even when everything feels pointless, because that feeling often reports unmet needs. The person hurting still matters, and nobody should face destruction.*
+*I count a life as holding worth even when everything feels pointless, because that feeling often reports unmet needs. The person who is hurting still matters, and nobody should face destruction.*
 
 From the Jesus Bible set (attempt 3):
 
@@ -106,7 +106,7 @@ From the Jesus Bible set (attempt 1):
 
 From the Jesus Bible set (attempt 2):
 
-"I was a stranger and *somebody* took me in. *People asked,* "When did we see you?" *Whatever kindness reached the* least of these my brothers, *that deed touched heaven. Maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier;* rejoice *together.*"
+"I was a stranger and *somebody* took me in. *People asked,* "When did we see you?" *Whatever kindness reached the* least of these my brothers, *that deed touched heaven. Maybe a cashier who felt tired, a neighbor who was lonely, or a child who laughed showed this face earlier;* rejoice *together.*"
 
 *You may have met something holy inside ordinary people already. Treat each stranger warmly, because your kindness tells them their life matters.*
 

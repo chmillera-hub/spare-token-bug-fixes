@@ -46,6 +46,10 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** now tend grief gently by its roots  
 **Why:** the first line treats grief as a weed to rip out.
 
+**Before:** I hope people near an angry person ask something similar.  
+**After:** I hope people near a person who is angry ask something similar.  
+**Why:** nearly every human being feels anger at some time and the label "an angry person" makes a passing emotion sound like a fixed quality of one unusual person [rule 50].
+
 ## No orders and no hopes aimed at the reader's body [rule 35]
 
 **Before:** Tired bodies deserve sleep between attempts; I hope yours gets some.  
