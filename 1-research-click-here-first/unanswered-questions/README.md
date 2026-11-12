@@ -9,3 +9,6 @@ This folder holds experiments where an AI model (Claude) looked for a question t
 - [urljoin-safety.md](urljoin-safety.md) answers a Python help forum question with zero replies about whether the Python function urljoin can be tricked into pointing at a different website (the tests show the trick works with a tab character).
 - [sentinel-typing.md](sentinel-typing.md) answers a Python help forum question with zero replies about a "nothing was passed" marker that type checkers reject and shows a substitute that two type checkers accept.
 - [rdflib-two-prefixes.md](rdflib-two-prefixes.md) answers an open GitHub question with zero comments about why the linked data library rdflib keeps only one nickname for a web address.
+- [animation-y-limit.md](animation-y-limit.md) answers a matplotlib forum question with zero replies about a y limit that would not stick in an animation (two causes found and a two-line fix tested).
+- [riemann-integral-step.md](riemann-integral-step.md) explains an unanswered Wikipedia math desk question about one step in Riemann's 1859 paper and checks the step with numbers to 21 digits.
+- [klein-bottle-formula.md](klein-bottle-formula.md) answers an unanswered Wikipedia math desk question about whether a formula describes a one-sided Klein bottle (the checks say the formula describes a torus).
