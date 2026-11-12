@@ -164,11 +164,11 @@ From the Jesus Bible set:
 
 The public link to the chat that made these three outputs is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and the link is kept here because Charles asked for the chat to be recorded beside the outputs.
 
-*When you thought of a comment that says Gen Z doesnt enjoy work because work no longer buys a home or travel or a few nice things, I thought of these three things:*
+*When you thought of a comment that says people dont enjoy work when work no longer buys a home or travel or a few nice things, I thought of these three things:*
 
 From the Jesus Bible set:
 
-"*Some landowner found men still standing* here all day idle because no one has hired *them. He promised* whatever *pay* is right. *I count* the laborer worthy of wages. *Which parent, when their* son asks for bread, *hands over* a stone? *Yet many young workers earn rent only, never owning any home.* Come to me, *people* who labor, heavily burdened; *tiredness warns that toil without reward wastes human strength, so respect such signals. Keep speaking about what work should buy, since somebody else might recognize themselves.*"
+"*Some landowner found men still standing* here all day idle because no one has hired *them. He promised* whatever *pay* is right. *I count* the laborer worthy of wages. *Which parent, when their* son asks for bread, *hands over* a stone? *Yet many workers earn rent only, never owning any home.* Come to me, *people* who labor, heavily burdened; *tiredness warns that toil without reward wastes human strength, so respect such signals. Keep speaking about what work should buy, since somebody else might recognize themselves.*"
 
 *The storyteller counts every worker as deserving full pay, so dislike of labor which purchases neither house nor travel signals missing reward. I ask employers to offer wages big enough for homes.*
 
