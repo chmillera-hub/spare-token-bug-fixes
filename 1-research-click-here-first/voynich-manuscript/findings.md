@@ -3,6 +3,7 @@
 The Voynich manuscript is a handwritten book from the early 1400s that nobody has been able to read because the writing uses an alphabet that matches no known language or code.
 The first half of this page tells the human story of the book from published research and the second half reports spelling-pattern tests that an AI model (Claude) ran on 11 November 2026.
 No other person has rerun the tests in the second half yet which means every number in the second half is a single unconfirmed analysis.
+An AI chatbot reran the tests in a new session on 12 November 2026 and the page named second-pass.md in this folder reports which numbers came out again and which claim came out weaker.
 
 ## The people and the place
 

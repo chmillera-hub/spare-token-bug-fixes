@@ -6,7 +6,7 @@ Every item in this folder is written for a person to read and the items are grou
 
 - [bible-quote-builder](bible-quote-builder) holds an experiment that remixes short phrases from the World English Bible into replies to comments and headlines and the folder has its own list that starts with the finished outputs and the rules.
 - [word-evolution](word-evolution) holds an experiment where text is copied with small mistakes over and over while a reader picks which copies survive and the folder includes a live program with sliders.
-- [voynich-manuscript](voynich-manuscript) holds two pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made.
+- [voynich-manuscript](voynich-manuscript) holds three pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made and a second run of the spelling-pattern tests.
 - [writing-rules](writing-rules) holds a set of writing rules for clear chatbot replies with before and after examples and a plain text copy of the same rules.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [christ-voice](christ-voice) holds short scripts where Christ talks with the warrior prince Vegeta (four scripts in word patterns counted from the red-letter words of the World English Bible and three interactions in a two-part shape counted from passages rated as hitting hard).
