@@ -11,6 +11,7 @@ Warning about changed wording in the joined Bible passages: the passages that th
 - [bible-quote-builder-best-outputs.md](bible-quote-builder-best-outputs.md) holds only the finished paragraphs with no commentary and the file ending in plain-text.txt holds the same paragraphs for easy copying and the file ending in extra-spacing-plain-text.txt puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
 - [bible-quote-builder-current-rules.md](bible-quote-builder-current-rules.md) lists all thirty rules now in force with the reason for each rule.
 - [bible-quote-builder-prompt-for-a-new-chat-plain-text.txt](bible-quote-builder-prompt-for-a-new-chat-plain-text.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
+- The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
 
 ## How the experiment developed
 
