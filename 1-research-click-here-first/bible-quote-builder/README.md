@@ -9,7 +9,7 @@ Warning about changed wording in the joined Bible passages: the passages that th
 ## Start here
 
 - [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named best-outputs-spaced.txt holds every one of the same paragraphs without italics for copying and puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
-- [rules.md](rules.md) lists all forty-five rules now in force with the reason for each rule.
+- [rules.md](rules.md) lists all forty-six rules now in force with the reason for each rule.
 - [prompt-for-new-chat.txt](prompt-for-new-chat.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
 - The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
 
