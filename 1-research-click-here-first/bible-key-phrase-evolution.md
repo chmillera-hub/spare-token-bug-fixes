@@ -776,7 +776,7 @@ What the open vocabulary rule changed:
 - Every word in all three passages is now different and all three grades rose to 13 because words such as "shelter" and "trouble" and "greed" say exactly what a sentence needs where the short special list had forced clipped wording such as "takes house".
 - Three source words were replaced to remove repeats: the second "in" became "through" in two passages and "in the" became "during her" in one passage and the second "will" became "shall" in all three passages.
 - The passages now hold words that appear nowhere in the Charles selection which means the passages have moved one more step away from the Bible text and toward free writing by the AI model around eight fixed phrases.
-- The share of added or changed words is now about half of each passage and the choice of each outside word (for example "greed" as the cause of the son driving away his mother) is an interpretation by the AI model.
+- The share of added or changed words is 37 to 49 percent of each passage and the choice of each outside word (for example "greed" as the cause of the son driving away his mother) is an interpretation by the AI model.
 
 ## Names of the live programs
 
