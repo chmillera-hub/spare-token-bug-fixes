@@ -26,7 +26,7 @@ From the Claude Bible set (attempt 3):
 
 *This is the story of a worn-out man on a mountain who watched wind and earthquake and fire tear the land apart and found that none of that destruction held what he was looking for:* *One* strong wind tore the mountains, but God was not in *it.* After *that struck* an earthquake, *then* fire passed; *destruction held no answer. Finally came* a still small voice *asking,* "What are you doing here, Elijah?" *Someone wanted his story. Exhausted, he spoke; bread arrived, rest followed.*
 
-*In short: blowing everything up answered nothing for that tired man. What helped was being asked, fed, and allowed to rest; I wish you the same.*
+*In short: blowing everything up answered nothing for that tired man. What helped was being asked, fed, and allowed to rest; I want such care reaching anyone worn out.*
 
 From the Jesus Bible set (attempt 1):
 
@@ -100,7 +100,7 @@ From the Jesus Bible set:
 
 From the Jesus Bible set (attempt 1):
 
-"*This is about the day I told a new follower that I had already seen him under a fig tree before anyone introduced us:* Before Philip called *anyone,* when *one man sat* under the fig tree, I saw *him. Having walked beside people* such a long time, do you not know me? *Go ahead,* laugh; *recognition feels funny. Every face deserves being noticed first; what follows remains anyone's own decision.*"
+"*This is about the day I told a new follower that I had already seen him under a fig tree before anyone introduced us:* Before Philip called *anyone,* when *one man sat* under the fig tree, I saw *him. Having walked beside people* such a long time, do you not know me? *Whoever wants may* laugh; *recognition feels funny. Every face deserves being noticed first; what follows remains anyone's own decision.*"
 
 *Plainly: being recognized can feel good because someone noticed you. Keep showing your real self, since another person might spot something familiar and smile.*
 
@@ -180,7 +180,7 @@ From My Personal Bible set:
 
 From the Claude Bible set:
 
-*This is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* You have sown much *seed,* and bring in little *harvest. People* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *Tiredness says: Stop pouring strength where nothing stays. James wrote: Pay* kept back by fraud *cries* out *for justice. One prophet hoped:* Every man will sit under his *own* vine, *near some* fig tree. *Go on voicing that wish, because others may recognize themselves.*
+*This is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* You have sown much *seed,* and bring in little *harvest. People* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *Tiredness reports strength being poured where nothing stays. James wrote: Pay* kept back by fraud *cries* out *for justice. One prophet hoped:* Every man will sit under his *own* vine, *near some* fig tree. *Go on voicing that wish, because others may recognize themselves.*
 
 *In short: when employers pay too little for buying land or rest, weariness tells workers that effort is being drained. Wanting your own shade and roof deserves saying out loud.*
 
@@ -196,7 +196,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*Visit your neighbor* and tell him, 'Friend, *comfort may come at an hour* that you *cannot* expect; therefore dont be afraid *alone.*' *If cruelty speaks, reply,* 'Get behind me, Satan.' From one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
+"*A neighbor could visit* and tell him, 'Friend, *comfort may come at an hour* that you *cannot* expect; therefore dont be afraid *alone.*' *If cruelty speaks, reply,* 'Get behind me, Satan.' From one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
 
 From the Claude Bible set (second version):
 
