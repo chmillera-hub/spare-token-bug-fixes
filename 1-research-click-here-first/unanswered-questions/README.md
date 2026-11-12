@@ -18,3 +18,8 @@ This folder holds experiments where an AI model (Claude) looked for a question t
 - [scatter-animation.md](scatter-animation.md) answers a matplotlib forum question with zero replies about animating 1000 dots at once (a one-line change to the update step worked in the test).
 - [celsius-top-axis.md](celsius-top-axis.md) answers a matplotlib forum question with zero replies about a second axis in degrees Celsius whose ticks sit exactly above the data points.
 - [match-stack-error.md](match-stack-error.md) gives a best-guess answer to a Python help forum question with zero replies about a compiler error in a home-made match pattern (the pattern never removes the value being matched).
+- [parallel-with-dill.md](parallel-with-dill.md) answers a Python help forum question with zero replies about parallel work with objects that the standard pickle module cannot handle (two routes tested).
+- [toggle-live-plots.md](toggle-live-plots.md) answers a matplotlib forum question with zero replies about switching between two live charts in one window.
+- [graph-distance.md](graph-distance.md) offers one workable approach to a SageMath board question with zero answers about measuring the distance between two graphs drawn in the plane.
+- [side-plot-layout.md](side-plot-layout.md) answers a matplotlib forum question with zero replies about putting a plot beside an image at exactly the same height (two layouts tested).
+- [inscribed-circle-check.md](inscribed-circle-check.md) checks the geometry of a script posted on the matplotlib forum with zero replies (the circle touches all three boundaries).
