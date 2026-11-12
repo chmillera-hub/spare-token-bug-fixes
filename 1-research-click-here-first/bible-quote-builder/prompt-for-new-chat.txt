@@ -19,11 +19,11 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 1. One opening line at the top that restates my input in plain words and ends with a count. The form is: When you thought of [plain restatement of the input], I thought of these three things:
 2. Then for each output: a label line then a body paragraph then a closing paragraph.
 3. The label is one of these: From the Claude Bible set: or From My Personal Bible set: or From the Jesus Bible set: (add "(attempt 1)" and so on when several outputs come from one set).
-4. The body starts with a few words that set the context and name the Bible material and end in a colon and then the remix follows. Open those words with plain pointing words such as "this is" or "these are" (for example "This is the story I told about a shepherd who searches for one lost sheep:" or "This is a preacher asking what labor under the sun gains:") because a lead-in that opens on a bare noun phrase sounds like the paragraph comes out of nowhere.
-5. The closing is one or two plain sentences that explain what the body just said. Start the closing with a word such as "Plainly:" or "Meaning:" or "In short:".
+4. The body starts straight inside the story or the reflection with no introduction. Never open a body with words that name the Bible material and end in a colon (never write "This is my story about a shepherd:") and never use a narrator frame that ends in a colon inside a body (never write "Hosts heard:" or "Then came his promise:") because those introductions sound like a narrator chiming in and break the fourth wall. Weave any context a reader needs into the sentence itself (for example "Some landowner found men still standing here all day idle because no one has hired them").
+5. The closing is one or two plain sentences that explain what the body just said. Start the closing straight on the explanation with no starter word and no colon (never write "Plainly:" or "Meaning:").
 6. Use natural capital letters inside the outputs which means a capital letter starts every sentence and every piece of quoted speech and every name such as Isaiah or God and the word "I" is always a capital letter because text in all lowercase is harder to read. A word that follows a colon in the middle of a sentence stays lowercase unless the word starts a piece of speech.
 7. Put a line that holds only this invisible character between every paragraph so the breaks survive pasting: ⠀
-8. In the chat reply show every word you added or changed in italics and leave the Bible words upright because the italics let me see which words come from the Bible. The whole opening line and the whole lead-in and the whole closing are italic because you wrote them. The plain text file that rule 11 describes has no italics and no asterisks because that file is the copy I paste into social media.
+8. In the chat reply show every word you added or changed in italics and leave the Bible words upright because the italics let me see which words come from the Bible. The whole opening line and the whole closing are italic because you wrote them. The plain text file that rule 11 describes has no italics and no asterisks because that file is the copy I paste into social media.
 9. Outputs from the Jesus Bible set go inside quote marks and are written as spoken by Christ. The closing stays outside the quote marks.
 10. The reply that holds the outputs holds only the outputs with nothing before the opening line and nothing after the last closing because I press the copy button and paste the whole reply into social media and I do not want to delete anything. Save any note (such as a rule you could not follow or a claim in my input that you did not check) for a separate reply that you give only when I ask "any notes?".
 11. Always also give me the outputs as a plain text file (a file ending in .txt) that holds only the outputs with the invisible spacing lines and no italics and no asterisks because I can open the file and press the copy button and paste the whole text with nothing to delete.
@@ -33,7 +33,7 @@ THE RULES FOR THE WORDS
 - Use the World English Bible wording and always replace the name "yahweh" with "god" because I want one word for God. Keep the word "lord".
 - Words inside a Bible phrase stay in their Bible order. You may add words anywhere around the phrases. You may use almost any English word.
 - Any pronoun may be added or deleted or swapped for a naming word. The tense or the form of any word may change wherever the change fixes the grammar or makes a sentence more reliable (for example "may receive" becomes "would receive" after the words "he hoped") and that freedom covers the Bible words too. Check every body for clashing tenses before you finish. The word "the" may be added or removed. Punctuation may be added anywhere.
-- Inside one body no word may repeat and inside one closing no word may repeat. The opening line and the lead-in are exempt. When a Bible phrase would repeat a word then replace or delete the repeated word. Reread each body to check this.
+- Inside one body no word may repeat and inside one closing no word may repeat. The opening line is exempt. When a Bible phrase would repeat a word then replace or delete the repeated word. Reread each body to check this.
 - Readability check: reread each body and add a few context words wherever a reader could ask "of what?" or "who?" or "which one?" because a bare Bible image leaves the reader guessing (for example "a handful" becomes "a handful of people" and "let this cup pass away" becomes "let this cup of suffering pass away").
 - Replace a rarely known name with a plain phrase (for example "tyre and sidon" becomes "two foreign cities"). Widely known names such as John and Elijah and Jerusalem and Babel stay.
 - In the Jesus Bible set never use the name "jesus" inside the output. Use "i" and "me" or "the son of man".
@@ -69,11 +69,11 @@ From the Jesus Bible set:
 
 ⠀
 
-"These are my sayings about a house built on rock and about having nowhere to sleep: One builder who built a house on rock watched rain pour down; floods came, and it didnt fall. Foxes have holes, birds keep nests, yet the Son of Man has nowhere to lay his head; so losing shelter is known here. Heaven sees that you need all these things: bread, work, somewhere warm. I want tools serving those wants, never replacing anyone's table."
+"One builder who built a house on rock watched rain pour down; floods came, and it didnt fall. Foxes have holes, birds keep nests, yet the Son of Man has nowhere to lay his head; so losing shelter is known here. Heaven sees that you need all these things: bread, work, somewhere warm. I want tools serving those wants, never replacing anyone's table."
 
 ⠀
 
-Plainly: the storyteller himself lacked a bed, so fear about lost income gets taken seriously. Tools ought to feed people; I hope builders choose that.
+The storyteller himself lacked a bed, so fear about lost income gets taken seriously. Tools ought to feed people; I hope builders choose that.
 
 HOW TO TALK TO ME OUTSIDE THE OUTPUTS
 
