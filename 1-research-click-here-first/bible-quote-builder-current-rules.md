@@ -58,6 +58,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 27. When one input quote gets several outputs the restatement of the input appears once at the top in the form "when you thought of ... i thought of these three things:" and each output underneath is a short paragraph that starts with a few words naming its Bible material because repeating the same long restatement inside every paragraph made each paragraph about half restatement.
 28. Each output carries a label that says which set of Bible text the output came from and the three labels are "From the Claude Bible set" and "From My Personal Bible set" and "From the Jesus Bible set" and the middle label says "My Personal" with capital letters so that the words read as a label and uses those words in place of a name because any person who picks their own books can call that set their own which means the label fits whoever posts the output.
 29. Every output stays suitable for a general audience which means no suggestive wording (for example the word "naked" beside people is replaced with wording such as "poorly clothed") and no sexual themes because the outputs get posted in public comment sections where readers of any age may see them and a source phrase that carries such wording is reworded or left out.
+30. No output describes how old its material is or when the material was written (for example "an old saying" or "an old letter" or "old writers" or "long ago") because the age of a line adds nothing a reader needs and the repeated word "old" makes the outputs sound stiff and words about age stay only where age is part of the story itself such as old wine beside new wine.
 
 ## The reasoning behind rules 20 to 24 spelled out
 
@@ -144,6 +145,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all twenty-nine rules
+## Outputs under all thirty rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
