@@ -50,3 +50,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [histogram-centred-bars.md](histogram-centred-bars.md) answers a SageMath board question with zero answers about centering histogram bars on whole numbers.
 - [curve-mod-p-squared.md](curve-mod-p-squared.md) answers a SageMath board question with zero answers about a division error on an elliptic curve modulo p² (computed on the exact numbers from the question).
 - [graph-orbit-counts.md](graph-orbit-counts.md) answers a SageMath board question with zero answers about counting graphs up to relabeling (counts match the known totals 11 and 34 and 156 and 1044).
+- [pool-finalizer-cut-off.md](pool-finalizer-cut-off.md) answers a Python help forum question with zero replies about clean-up callbacks that get cut off in pool workers (a gentle shutdown lets the callbacks finish).
+- [restricted-matching.md](restricted-matching.md) answers a SageMath board question with zero answers with a fast method for the restricted matching number of a graph (checked against brute force on 255 graphs).
+- [pygame-arc-holes.md](pygame-arc-holes.md) offers one tested possibility for a Python help forum question with zero replies about a drawing that looks different in a new project (the pictures arc-pygame.png and arc-pygame-ce.png show the difference).
+- [asyncio-condition.md](asyncio-condition.md) answers four questions from a Python help forum post with zero replies about a broadcast built on asyncio.Condition.
+- [true-finish-times.md](true-finish-times.md) answers a Python help forum question with zero replies about progress lines that fall behind the real work.
