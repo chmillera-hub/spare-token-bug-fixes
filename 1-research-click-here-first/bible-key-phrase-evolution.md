@@ -656,6 +656,37 @@ What the remix showed:
 - A strong caution applies: the AI model knows John 10 and very likely leaned on that knowledge when choosing the added words which means the paragraphs show how well a reader who knows the chapter can rebuild the chapter and do not show what a reader with no knowledge of the chapter could do.
 - The paragraphs report that people picked up stones and each paragraph keeps the question about the stoning as a question which means no paragraph presents harm to any person as good.
 
+## Sixteen random phrases from the Charles selection kept in three random orders
+
+Charles asked for a harder test: one set of key phrases is drawn at random from the Charles selection and the set is shuffled three times and the AI model must connect the phrases in the exact shuffled order with no sorting of any kind.
+A program drew 16 key phrases at random from the 43651 key phrases of the ten whole books and the 16 phrases came from 14 different chapters in Isaiah and Proverbs and Psalms and Jeremiah and Matthew and Mark and John.
+The AI model could add joining words and the special words of the Charles selection and could change or delete or add pronouns and could add punctuation and could not move any phrase.
+A program check confirmed that the non-pronoun words of every phrase appear in each passage in the shuffled order.
+Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
+
+The set of 16 phrases: "with you" and "my hand has found" and "i am god" and "wisdom is too high" and "and my vineyard" and "for the upright" and "for these things happened" and "but sent leanness" and "for god says to me" and "of the guard left" and "and in his own house" and "he arose" and "be under your hand" and "and killed mighty kings" and "and hid" and "and gave them to".
+
+First random order (11 of 14 and 49 percent of the words were added):
+
+- *the wise man saw evil* and hid. *on a good day* he arose, *and the wicked* of the guard left. "*god, let the land* be under your hand, for the upright." and in his own house *every man says,* "my hand has found *good,*" for these things happened. for god says to me, "wisdom is too high *for a man;* i am god. *the wicked king took from the people* but sent leanness, *so i took the land of the king* and gave *the land* to *the poor,* and my vineyard *to the upright. evil took the land* and killed mighty kings, *but i am* with you."
+
+Second random order (11 of 14 and 48 percent of the words were added):
+
+- *the king says in the land* and in his own house, "i am god." *the wise* of the guard left *the house of the king.* "*god is not* with you," *the wise say,* "for these things happened: *the land was made* for the upright, and my vineyard *was good,* but *you* sent leanness." for god says to me, "*let the poor man* be under your hand." *the poor man* arose *and says,* "my hand has found *good. evil took the land* and killed mighty kings and hid; wisdom is too high *for evil. god took the land* and gave *the land* to *the poor.*"
+
+Third random order (10 of 14 and 46 percent of the words were added):
+
+- *the people say "god is good,"* for these things happened for the upright: *god took good things* and gave them to *the poor* with you, and my vineyard *is one of the things.* wisdom is too high *for me, but* "i am god," *god says. a wise man* arose, for god says to me, "*let the people* be under your hand." *the wicked king heard* but sent leanness. *the wise man* of the guard left and hid. "my hand has found *the evil that took the land* and killed mighty kings, and in his own house *no king is high,*" *says god.*
+
+What the random order test showed:
+
+- Each passage reads as a short connected scene which means a coherent passage can be made from random phrases in a random order when pronouns and joining words are free.
+- About half of the words in each passage were added (46 to 49 percent) which is the highest share in any test on this page because nothing in the set shared a subject and no phrase could be moved next to a phrase that fits.
+- The three passages tell three different stories from the same 16 phrases (a wise man who hides and returns and a king who claims to be god and a people who thank god) which means the story comes from the AI model and the order of the phrases and not from the phrases themselves.
+- The grades of 10 and 11 are lower than the grades of 12 to 14 for sorted passages because several phrases such as "of the guard left" and "but sent leanness" stay hard to follow even with words around them.
+- The word "leanness" (which means hunger or wasting in the source psalm) was left as the source has the word and costs a point on the rule about explaining every label.
+- The phrase "and killed mighty kings" appears in every passage with evil as the one that kills which means no passage presents the killing as good.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

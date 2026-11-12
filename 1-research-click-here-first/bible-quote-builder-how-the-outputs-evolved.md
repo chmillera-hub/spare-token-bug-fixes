@@ -75,6 +75,12 @@ Words of Jesus (13 of 14):
 - Each pile came out as a small version of the whole chapter because the chapter repeats its main ideas and about one word in three had to be added.
 - Three full remixes (twelve paragraphs) are on the page named john-10-remixes-from-four-random-piles in this folder.
 
+## Side experiment: sixteen random phrases kept in a random order
+
+- Sixteen key phrases were drawn at random from the ten whole books of the Charles selection and shuffled three times and the AI model connected the phrases in the exact shuffled order with no sorting.
+- Each of the three passages reads as a short connected scene and about half of the words in each passage had to be added and the three passages tell three different stories.
+- The three passages are on the page named bible-key-phrase-evolution in this folder in the section about sixteen random phrases.
+
 ## What the ten stages show together
 
 - The scores for one words of Jesus string rose from 6 to 10 to 12 to 14 as the rules widened which means each new rule removed one kind of obstacle for a reader.
