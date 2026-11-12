@@ -25,3 +25,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [graph-distance.md](graph-distance.md) offers one workable approach to a SageMath board question with zero answers about measuring the distance between two graphs drawn in the plane.
 - [side-plot-layout.md](side-plot-layout.md) answers a matplotlib forum question with zero replies about putting a plot beside an image at exactly the same height (two layouts tested).
 - [inscribed-circle-check.md](inscribed-circle-check.md) checks the geometry of a script posted on the matplotlib forum with zero replies (the circle touches all three boundaries).
+- [zstd-many-frames.md](zstd-many-frames.md) answers a Python help forum question with zero replies about packing several files into one .zst archive without loading a whole file into memory.
+- [spawn-warning-filter.md](spawn-warning-filter.md) answers a Python help forum question with zero replies about silencing an import warning inside a spawned child process (three routes tested).
+- [mypy-inference-direction.md](mypy-inference-direction.md) answers a Python help forum question with zero replies about whether the type checker mypy reads assignments the same way as the type checker pyright.
+- [fit-uncertainty.md](fit-uncertainty.md) answers a Python help forum question with zero replies about getting fit uncertainties from analytical derivatives and comparing with curve_fit.
+- [s3-triangle-matrices.md](s3-triangle-matrices.md) answers a SageMath board question with zero answers about mapping the six rearrangements of three things to rotations and reflections of a triangle.
