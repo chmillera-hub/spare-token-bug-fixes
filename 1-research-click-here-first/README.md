@@ -21,7 +21,7 @@ A live page with sliders runs the word evolution experiment in a web browser at 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 
 - [bible-quote-builder-best-outputs.md](bible-quote-builder-best-outputs.md) holds only the finished paragraphs from the Bible quote builder with no commentary and the file ending in plain-text.txt holds the same paragraphs for easy copying.
-- [bible-quote-builder-current-rules.md](bible-quote-builder-current-rules.md) lists all twenty-two rules now in force for the Bible quote builder with the reason for each rule and the newest short output from each Bible selection.
+- [bible-quote-builder-current-rules.md](bible-quote-builder-current-rules.md) lists all twenty-four rules now in force for the Bible quote builder with the reason for each rule and the newest short output from each Bible selection.
 - [john-10-remixes-from-four-random-piles.md](john-10-remixes-from-four-random-piles.md) holds three remixes of John chapter 10 where the chapter was dealt at random into four piles and each pile was turned into one readable paragraph.
 - [bible-quote-builder-how-the-outputs-evolved.md](bible-quote-builder-how-the-outputs-evolved.md) shows one sample output from each of ten stages of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs as Charles added rules.
 

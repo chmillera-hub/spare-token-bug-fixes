@@ -1118,6 +1118,22 @@ Lines that the check changed:
 - A program check confirmed that no word repeats inside the three changed passage bodies.
 - The corrected full paragraphs are on the page named bible-quote-builder-best-outputs in this folder.
 
+## Distance rule and story rule: no physical closeness toward the reader and no naming of the audience
+
+Charles added two rules for every output now and in the future.
+The distance rule says that no line may describe physical closeness between the speaker and the reader (for example the word "closeness" or touching or a hand on a shoulder or whispering in an ear) because a reader who meets that wording from a stranger pictures an uninvited person in their space and the wording is fine when the closeness happens between characters inside the story.
+The story rule says that passages avoid naming the audience with words such as "listener" or "reader" or "hearer" because the passages are meant to be little stories and a line that points at the audience breaks the story.
+
+Lines that the two checks changed:
+
+- "while closeness stays each listener's own choice" became "what follows remains anyone's own decision".
+- "since somebody listening may recognize their own story" became "since somebody elsewhere may recognize their own story".
+- "because one hearer could find comfort there" became "because one person could find comfort there".
+- "because somebody listening could finally feel understood" became "because somebody else could finally feel understood".
+- "since another generation comes listening" became "since another generation comes afterward" and "later listeners" became "later people".
+- "having walked beside people" and "that deed touched heaven" stay because both lines describe people and things inside the story and not the reader.
+- A program check confirmed that no word repeats inside the changed bodies or closings.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
