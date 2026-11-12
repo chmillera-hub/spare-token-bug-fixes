@@ -55,3 +55,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [pygame-arc-holes.md](pygame-arc-holes.md) offers one tested possibility for a Python help forum question with zero replies about a drawing that looks different in a new project (the pictures arc-pygame.png and arc-pygame-ce.png show the difference).
 - [asyncio-condition.md](asyncio-condition.md) answers four questions from a Python help forum post with zero replies about a broadcast built on asyncio.Condition.
 - [true-finish-times.md](true-finish-times.md) answers a Python help forum question with zero replies about progress lines that fall behind the real work.
+- [input-prompt-hidden.md](input-prompt-hidden.md) answers a Python help forum question with zero replies about a prompt that appears only after the answer is sent (the prompt has no line break and the reader waits for one).
+- [ctrl-c-nested-pools.md](ctrl-c-nested-pools.md) answers a Python help forum question with zero replies about a program that keeps running for seconds after Ctrl-C.
+- [ldap-crl-address.md](ldap-crl-address.md) answers a Python help forum question with zero replies about putting an LDAP address into a certificate.
+- [profile-c-slots.md](profile-c-slots.md) answers a Python help forum question with zero replies about calls into C code that a profiler hook never reports.
+- [point-in-polygon-speed.md](point-in-polygon-speed.md) answers one part of a Python help forum question with zero replies about a two-week point-inside-polygon computation (a bulk call was about 16 times faster in the test).
