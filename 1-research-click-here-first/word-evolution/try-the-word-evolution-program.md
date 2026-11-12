@@ -4,9 +4,9 @@ The word evolution program shows ten separate agents that each start from differ
 
 ## Two ways to run the program
 
-- Open this address in a web browser to run the program without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution-live-program.html
+- Open this address in a web browser to run the program without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/word-evolution-live-program.html
 - The address above depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
-- The second way is to download the program file from this address and then open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution-live-program.html
+- The second way is to download the program file from this address and then open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/word-evolution-live-program.html
 - The program file sits in this folder under the name word-evolution-live-program.html and a click on that name on GitHub shows the program text and does not run the program because GitHub displays web page files as text.
 
 ## What to watch for
@@ -24,9 +24,9 @@ A second version of the program swaps the list of everyday commands for about 18
 - Ten separate agents start from different random letters and the reader favors strings that hold more quotes and a longer quote earns more credit than a shorter quote.
 - The page lists the quotes of the best string in Bible order with the passage name beside each quote such as "walk in love [Colossians 3]".
 - In one test run of 70 minutes of experiment time the agents built strings such as "is not proud and answer me nor your son walk in love" and the agents mostly found the shortest quotes first because a short quote needs fewer lucky letters.
-- Open this address in a web browser to run the Bible version without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-evolution-live-program.html
+- Open this address in a web browser to run the Bible version without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-quote-evolution-live-program.html
 - The address above depends on the free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
-- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-evolution-live-program.html
+- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/bible-quote-evolution-live-program.html
 
 ## Live Bible key phrase programs that open in a web browser
 

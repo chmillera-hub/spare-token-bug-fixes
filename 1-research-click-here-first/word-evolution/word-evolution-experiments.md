@@ -2,7 +2,7 @@
 
 One AI model (Claude) ran every test in a single working session on 11 November 2026 and no other person has rerun the tests yet which means every number on this page is a single unconfirmed analysis.
 
-A live version of the experiment with sliders runs in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution-live-program.html
+A live version of the experiment with sliders runs in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/word-evolution-live-program.html
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 
 A pool of 300 strings starts as single letters and each paste copies one string with a chance of an added letter or a letter swap or a letter change and no deleting.

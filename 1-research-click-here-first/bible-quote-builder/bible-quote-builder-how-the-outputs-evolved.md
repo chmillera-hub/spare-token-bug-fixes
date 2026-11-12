@@ -3,7 +3,7 @@
 This page shows one sample output from each stage of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs.
 The Bible quote builder is a working name for an experiment where ten copying agents paste pieces of the World English Bible together while a simple reader favors strings that match the Bible and an AI model (Claude) then joins the result by hand under rules that Charles set one at a time.
 Every sample comes from the words of Jesus in the four gospels unless the line says otherwise because following one selection makes the change from stage to stage easy to see.
-Added or changed words carry stars from stage 4 onward and the scores use seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in this folder with a top score of 14.
+Added or changed words carry stars from stage 4 onward and the scores use seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules with a top score of 14.
 The AI model graded outputs that the AI model wrote which means the scores are a rough guide and not an outside measurement.
 
 Warning about changed wording: the later samples are not exact Bible quotes because the rules allow added words and swapped pronouns and replaced names and added punctuation and the name "yahweh" is always replaced by the word "god" which means a reader who wants the exact wording needs to open the World English Bible itself.

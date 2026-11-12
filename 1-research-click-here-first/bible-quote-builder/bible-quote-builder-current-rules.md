@@ -78,7 +78,7 @@ Charles asked the AI model to spell out the logic of the five newest rules and t
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
 - Every choice about who a pronoun points at and every outside word is an interpretation by the AI model and the results pages say so.
-- Each passage is graded against seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in this folder with a top score of 14 and the AI model grades its own passages which means every grade is a rough guide.
+- Each passage is graded against seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules with a top score of 14 and the AI model grades its own passages which means every grade is a rough guide.
 
 ## What the rules do taken together
 

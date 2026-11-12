@@ -73,7 +73,7 @@ When you write to me outside the outputs then use no commas at all and give almo
 
 WHERE THE FULL RECORD LIVES
 
-The full rule list with the reason for every rule: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder-current-rules.md
-Finished outputs to study as models: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder-best-outputs.md
+The full rule list with the reason for every rule: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-quote-builder-current-rules.md
+Finished outputs to study as models: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-quote-builder-best-outputs.md
 
 My first request and input follow below.

@@ -111,7 +111,7 @@ What rearranging changed:
 
 ## Five versions of one words of Jesus string graded against the writing rules in this folder
 
-The AI model took the eight rebuilt stretches of the words of Jesus string above and made five versions and graded each version against the seven sentence rules in the page named writing-rules-for-clear-chatbot-replies in this folder.
+The AI model took the eight rebuilt stretches of the words of Jesus string above and made five versions and graded each version against the seven sentence rules in the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules.
 Each rule earns 0 or 1 or 2 points which gives a top score of 14 and the grades are the judgment of the AI model and no second reader checked the grades.
 The seven rules are: a sentence can be understood alone and a reason is attached to each claim and labels are explained and people and things are named in place of pointing words and no short clipped sentences and one claim plus reason per sentence and no commas.
 
@@ -652,7 +652,7 @@ What the remix showed:
 - Each pile came out as a small version of the whole chapter (the shepherd and the door and then the argument about works and stoning) because John 10 repeats its main ideas many times so a random quarter of the phrases still holds a piece of every idea.
 - The four paragraphs therefore say nearly the same thing four times and the remix reads like four tellings of one story more than like one long story.
 - About one word in three had to be added (30 to 37 percent) which is far more than in the passages built from agent strings because random dealing left most phrases without their true neighbor (a neighbor lands in the same pile only about one time in four).
-- The result fits the earlier page-dealing test in this folder where dealing a biology book into four piles at random hid less than expected when the book repeated its ideas.
+- The result fits the earlier page-dealing test in the research folder where dealing a biology book into four piles at random hid less than expected when the book repeated its ideas.
 - A strong caution applies: the AI model knows John 10 and very likely leaned on that knowledge when choosing the added words which means the paragraphs show how well a reader who knows the chapter can rebuild the chapter and do not show what a reader with no knowledge of the chapter could do.
 - The paragraphs report that people picked up stones and each paragraph keeps the question about the stoning as a question which means no paragraph presents harm to any person as good.
 
@@ -1200,6 +1200,6 @@ The three older Bible programs differ by the size of the piece that the agents c
 
 ## Try the program
 
-- Open this address in a web browser to run the program with a button for each of the three selections: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-key-phrase-evolution-live-program.html
+- Open this address in a web browser to run the program with a button for each of the three selections: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-key-phrase-evolution-live-program.html
 - The address above depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
-- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-key-phrase-evolution-live-program.html
+- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/bible-key-phrase-evolution-live-program.html

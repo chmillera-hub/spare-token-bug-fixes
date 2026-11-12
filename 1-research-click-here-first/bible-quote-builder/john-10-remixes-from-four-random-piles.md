@@ -4,7 +4,7 @@ This page holds three remixes of John chapter 10 from the World English Bible an
 A key phrase is a short piece of about four words such as "i am the good shepherd" and the three remixes differ only in the random order of the deal.
 An AI model (Claude) wrote the paragraphs on 11 November 2026 under rules that Charles set which allow free order and added joining words and a short list of the most used words of the chapter and changed pronouns and added punctuation and generic words in place of rarely used names.
 Added or changed words carry stars and a program check confirmed that every dealt phrase appears in its paragraph except the two place names that were replaced ("beyond the jordan" became "across the river" and "in solomons porch" became "in a covered walkway").
-The grades use seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in this folder with a top score of 14 and the AI model graded paragraphs that the AI model wrote which means the grades are a rough guide.
+The grades use seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules with a top score of 14 and the AI model graded paragraphs that the AI model wrote which means the grades are a rough guide.
 
 Warning about changed wording: these paragraphs are not exact Bible quotes because about one word in three was added by the AI model and pronouns and names were changed which means a reader who wants the exact wording needs to open John chapter 10 in the World English Bible itself.
 
