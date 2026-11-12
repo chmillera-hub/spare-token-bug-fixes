@@ -8,6 +8,7 @@ All times are United States Central time.
 ## The full chat word for word
 
 Charles shared the whole chat as a public link and the link shows every word from both Charles and the chatbot up to the moment Charles made the link: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
+Charles refreshed the shared link on the evening of 11 November 2026 which means the same address now also shows the later part of the chat where the Bible quote builder rules and outputs were made and the pages named bible-quote-builder-current-rules and bible-quote-builder-best-outputs in this folder hold the results of that later part.
 
 ## Part 1: the Voynich manuscript
 
