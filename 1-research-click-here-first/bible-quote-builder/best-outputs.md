@@ -38,7 +38,7 @@ From the Jesus Bible set (attempt 2):
 
 "*This is what I said about small birds sold for almost nothing and about who wants destruction and who wants life:* Arent two sparrows sold *for one small coin? Yet none gets forgotten.* You are of more value than many *birds.* The thief only comes to steal, kill, and destroy; *my purpose was* that *people* may have life. Consider *how* lilies *grow without earning anything; worth never depended on usefulness.*"
 
-*Meaning: a life holds worth even when everything feels pointless, because that feeling reports unmet needs. The person hurting still matters, and I want destruction for nobody.*
+*Meaning: I count a life as holding worth even when everything feels pointless, because that feeling often reports unmet needs. The person hurting still matters, and nobody should face destruction.*
 
 From the Jesus Bible set (attempt 3):
 
@@ -56,11 +56,11 @@ From the Claude Bible set:
 
 *This comes from a letter about a neighbor who lacks food and an account of people who shared everything:* *Suppose* a brother or sister is *poorly clothed, lacking* daily food; *somebody* tells them, "Go in peace, be warmed, filled," yet *nobody gave anything* the body needs: what good *comes from that? Elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *So whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
 
-*In short: warm words feed nobody. If drawing jobs vanish, people who lose wages risk hunger plus eviction, so sharing must come before applause.*
+*In short: warm words feed nobody. If drawing jobs vanish, people who lose wages risk hunger plus eviction, so I want sharing ahead of applause.*
 
 From My Personal Bible set:
 
-*This is a promise that builders will live in what they build and a song about work done in vain:* They will build houses and inhabit them; *none shall draw plans so* another *may move in. Workers ought to* long enjoy *all* work of their hands. Unless God builds *each* house, *effort gets wasted, whether humans sketch walls or software does. Someday, I hope, displaced drafters find* a very present help; though the earth changes, *fear deserves hearing since rent stays due.*
+*This is a promise that builders will live in what they build and a song about work done in vain:* *One prophet promised:* They will build houses and inhabit them; *none shall draw plans so* another *may move in. Workers ought to* long enjoy *all* work of their hands. Unless God builds *each* house, *effort gets wasted, whether humans sketch walls or software does. Someday, I hope, displaced drafters find* a very present help; though the earth changes, *fear deserves hearing since rent stays due.*
 
 *Meaning: that promise says makers should benefit from what gets made. Losing pay can bring hunger, cold, eviction; I want help reaching every laid-off person.*
 
@@ -78,9 +78,9 @@ The AI model did not check the numbers on the chart and words in italics were ad
 
 From the Claude Bible set:
 
-*This comes from the first page of Genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *People were made* in our image, *says Genesis; tools came later. An* eye cant tell the hand, "I have no need *for such help.*" *Parts* which seem to be weaker are necessary. When one member suffers, all *others* suffer *too.* You shall labor six days, but *each* seventh day *brings rest; some communities shared bread* according as anyone *lacked. So desk work counts among needed tasks.*
+*This comes from the first page of Genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *People were made* in our image, *says Genesis; tools came later. An* eye cant tell the hand, "I have no need *for such help.*" *Parts* which seem to be weaker are necessary. When one member suffers, all *others* suffer *too. Moses's law has workers* labor six days, but *each* seventh day *brings rest; some communities shared bread* according as anyone *lacked. So desk work counts among needed tasks.*
 
-*In short: every worker is a needed part, whatever charts say. If owners replace staff with machines, hungry people must be fed first; I hope that happens.*
+*In short: one letter counts every worker as a needed part, whatever charts say. If owners replace staff with machines, I want hungry people fed first.*
 
 From My Personal Bible set:
 
@@ -112,7 +112,7 @@ From the Jesus Bible set (attempt 2):
 
 From the Jesus Bible set (attempt 3):
 
-"*This is the promise that people who lose sight of each other for a little while can meet again with joy:* A little while, and you will see me; I *shall greet everyone* again, *then* your heart *can* rejoice. *Laughter fits such reunions.* Because *some* have seen *proof, they believe; others* who *never looked remain welcome. Keep telling what happened, since somebody elsewhere may recognize their own story.*"
+"*This is the promise that people who lose sight of each other for a little while can meet again with joy: I promised companions:* A little while, and you will see me; I *shall greet everyone* again, *then* your heart *can* rejoice. *Laughter fits such reunions.* Because *some* have seen *firsthand, they believe; others* who *never looked remain welcome. Keep telling what happened, since somebody elsewhere may recognize their own story.*"
 
 *Meaning: joy often returns when separated friends meet again. Share your experience even if people laugh, because one person could find comfort there.*
 
@@ -122,9 +122,9 @@ From the Jesus Bible set (attempt 3):
 
 From the Claude Bible set:
 
-*This is the tower of Babel, which is a story about people building something enormous together and about what came after:* The whole earth *spoke* one language. *Heaven remarked:* "Now nothing will be withheld which they intend to do." *Yet* God scattered them abroad, *so every person carries words others need.* For *today people* see *truth* in part; *once whatever* is complete has come, *giant projects fade.* "*Look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
+*This is the tower of Babel, which is a story about people building something enormous together and about what came after:* The whole earth *spoke* one language. *Heaven remarked:* "Now nothing will be withheld which they intend to do." *Yet* God scattered them abroad, *so perhaps each person carries words others need.* For *today people* see *truth* in part; *once whatever* is complete has come, *giant projects may fade.* "*Look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
 
-*Meaning: people working together can build almost anything, yet no giant project lasts forever. What endures is each human voice, so keep speaking even after being scattered.*
+*Meaning: people working together can build almost anything, yet giant projects tend to fade. I believe each human voice matters longer, so keep speaking even after being scattered.*
 
 From My Personal Bible set:
 
@@ -134,9 +134,9 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*These are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* So the last *workers hired* will be first *paid.* Heaven and earth *shall* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. Whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, because whoever trusts me can* do greater works *than these.*"
+"*These are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* So the last *workers hired* *were* first *paid, in my story.* Heaven and earth *may* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. Whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, because whoever trusts me can* do greater works *than these.*"
 
-*Put plainly: size never proves worth. A person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
+*Put plainly: I do not count size as worth. A person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
 
 ## Input: "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion."
 
@@ -146,19 +146,19 @@ From the Claude Bible set:
 
 *This is about the people who built a city and a tower out of brick and the poem that asks where wisdom can be found: Folk said,* "Lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *Today engineers stack billions instead,* but where will wisdom be found? Man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. Such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, meaning human bodies, so speak, share, keep telling your story.*
 
-*In other words: bricks and billions build towers, but neither buys wisdom. I believe that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.*
+*In other words: bricks and billions build towers, but that poem says neither buys wisdom. I believe such treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.*
 
 From My Personal Bible set:
 
 *These are the songs and sayings that weigh wisdom against gold and the man who started building and could not finish: Onlookers said,* "This man began to build *yet cannot* finish." *So* count the cost *twice. What lasting gain does anyone* have *from* all his labor? God gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines feed hungry neighbors plus amplify unheard voices.*
 
-*Plainly: money can start a building without finishing it. Wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.*
+*Plainly: money can start a building without finishing it. Those songs rank wisdom above gold, so I count costly machines as worthwhile when they feed people and let them speak.*
 
 From the Jesus Bible set:
 
-"*This is the saying about a builder who sits down to count the cost before starting a tower: Anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *One servant* who owed *his master* ten thousand talents, *whole fortunes, was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* Wisdom is justified by her children, *not through spending which only raises* bigger *monuments.*"
+"*This is the saying about a builder who sits down to count the cost before starting a tower: Anyone* desiring to build a tower *can sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *One servant* who owed *his master* ten thousand talents, *whole fortunes, was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* Wisdom is justified by her children, *not through spending which only raises* bigger *monuments.*"
 
-*Simply said: Before spending huge sums, builders should ask whether ordinary people still have bread. Wisdom shows itself through how a tower helps humans speak, live, and be heard.*
+*Simply said: before spending huge sums, builders should ask whether ordinary people still have bread. I look for wisdom in how a tower helps humans speak, live, and be heard.*
 
 ## Input: "i don’t know why people are shocked that gen z don’t enjoy work. back in the day work was to let you buy a home, travel and set up a few nice things for yourself. would you feel the same way about work if it lead to none of the above?"
 
@@ -188,7 +188,7 @@ From the Claude Bible set:
 
 From the Claude Bible set:
 
-*May mercy walk* before *every traveler, so* that he *who stumbles finds welcome.* Whoever shall put away his wife *must first weigh her sorrow.* If only you, God, *would soften hard hearts!* Ask of the Father *plainly,* for *some* think *gifts require applause; boasting louder* than these *simple requests* is *from an* evil one. Dont sound a trumpet *when helping; let real need speak freely instead.*
+*May mercy walk* before *every traveler, so* that he *who stumbles finds welcome.* Whoever shall put away his wife *could first weigh her sorrow.* If only you, God, *would soften hard hearts!* Ask of the Father *plainly,* for *some* think *gifts require applause; boasting louder* than these *simple requests* is *from an* evil one. Dont sound a trumpet *when helping; let real need speak freely instead.*
 
 From My Personal Bible set:
 
