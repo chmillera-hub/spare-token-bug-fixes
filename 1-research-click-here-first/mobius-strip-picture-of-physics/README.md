@@ -299,3 +299,10 @@ Every link in the chain could raise the number of copies left behind because fee
 ## The whole picture in one paragraph
 
 Space in the ribbon picture could have begun as a smooth flat sheet under tension and the flat sheet could have been relaxing into twisted ribbons ever since because a twisted ribbon is imagined as a more relaxed shape than a stretched flat sheet. A closed twisted ribbon could be a particle of matter and an open traveling ribbon could be light. One ribbon stretched between two places and then pinched into a left-handed strip and a right-handed strip could be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon could be the many-states-at-once behavior that physicists call superposition. Flat space flowing toward crowds of ribbons could be gravity and ribbons humming the same note could be magnetism. Simple unknotted loops could fill out the unseen part of the universe while braided knots could make atoms and knots fused into one seamless sphere could make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape could outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
+
+## More pages in this folder
+
+Two shorter pages were added on November 12 2026 and each page tests one sentence of this document with a computer program.
+
+- [half-angle-finding.md](half-angle-finding.md) shows that the half-angle rate for entangled pairs comes out of evenly random directions in three dimensions and fails in two dimensions and overshoots in four or more dimensions.
+- [smallest-size-finding.md](smallest-size-finding.md) puts a number on the smallest paper Mobius strip which has to be more than 1.732 times as long as wide and folds down toward a flat triangle.
