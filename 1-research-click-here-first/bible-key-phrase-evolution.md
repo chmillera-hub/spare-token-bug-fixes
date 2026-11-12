@@ -970,6 +970,31 @@ What the full context opening changed:
 - The word "cost" returned to the source phrase "and count the cost" in the words of Jesus passage because the opening sentence no longer has to stay free of repeats.
 - The AI model did not check whether either input quote is accurate and the passages are reflections on the topic and not verdicts on any company or any person.
 
+## Closing explanation rule: one or two plain sentences after the remix say what the remix meant
+
+Charles added a rule for every selection: after the remixed passage the AI model adds a second paragraph of one or two sentences that explains in plain words what the passage just said and the explanation may reuse words from the passage or from the input quote.
+The unique word count starts fresh for the closing explanation which means no word repeats inside the explanation while the explanation may share words with the passage above it.
+The closing explanation sits outside the quote marks in the words of Jesus passages because the explanation is written by the AI model and is not read as spoken by Christ.
+
+Closing explanations for the input quote about a very large video game:
+
+- Words of Jesus: put plainly: size never proves worth. a project gains meaning when its makers serve others, so even small efforts done with trust may outlast giant ones.
+- Charles selection: in short: doubt is normal whenever something new appears. each generation builds, tears down, then watches another begin, which means today's marvel will feel ordinary soon.
+- Claude selection: meaning: people working together can build almost anything, yet no giant project lasts forever. what stays is whatever gets made new after old attempts pass away.
+
+Closing explanations for the input quote about the cost of developing an AI model:
+
+- Words of Jesus: simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through what a tower does for others, not by its size.
+- Charles selection: plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed hungry neighbors.
+- Claude selection: in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why sharing matters more than stacking.
+
+What the closing explanation changed:
+
+- A reader now gets the point of each passage in everyday words without having to decode the Bible phrases which is the part of the output that comes closest to full marks on the seven sentence rules.
+- A program check confirmed that no word repeats inside any of the six closing explanations.
+- Each closing explanation is an interpretation by the AI model of a passage that the AI model also assembled which means the explanation shows what the AI model meant and does not show what the Bible phrases mean in their own setting.
+- The full paragraphs with the openings and the passages and the closing explanations together are on the page named bible-quote-builder-best-outputs in this folder.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

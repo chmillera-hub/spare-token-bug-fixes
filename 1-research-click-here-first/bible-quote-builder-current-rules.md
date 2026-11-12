@@ -43,6 +43,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 17. When Charles gives an input quote the passage opens with one sentence in the form "when you thought of ... i thought of ..." and the sentence has no length limit and must give full context which means the first half restates in plain words the part of the input quote being answered and the second half says which Bible material the passage draws on because a reader who has not seen the input quote needs to know what is being answered.
 18. The opening sentence is exempt from the unique word rule and carries no stars because the AI model writes the whole sentence and a clear sentence needs to repeat small words.
 
+19. After the remixed passage the AI model adds a second paragraph of one or two sentences that explains in plain words what the passage just said and the explanation may reuse words from the passage or the input quote and no word may repeat inside the explanation because a reader gets the point fastest from a short plain summary.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
@@ -114,6 +116,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all eighteen rules
+## Outputs under all nineteen rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
