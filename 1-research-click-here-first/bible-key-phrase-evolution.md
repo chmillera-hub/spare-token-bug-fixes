@@ -714,6 +714,17 @@ What the smaller set showed:
 - With sixteen phrases the three orders gave three different stories and with eight phrases the three orders gave one story told three ways which suggests that a small set is steered by its few strong phrases while a large set leaves more room for the joiner.
 - The phrase "and drives away his mother" appears in every passage as the act of a wicked son which means no passage presents driving a mother from her home as good.
 
+## A guess at how a reader with no background would take the three eight-phrase passages
+
+Charles asked the AI model to imagine a person who scrolls a discussion site without posting and who meets each of the three eight-phrase passages with no notice that an AI model joined the passages.
+Every line in this section is a guess by the AI model and no real reader was asked.
+
+- First passage: the imagined reader probably takes the passage for a loose Bible paraphrase about a good son and a bad son because the wise son and the wicked son are easy to follow and the reader probably stumbles on the last sentence because "the day was good on the people of the land" is not how people talk.
+- Second passage: the imagined reader probably finds this passage the clearest of the three because the passage is short and has one speaker and one contrast and the reader might assume the passage is a real verse from an unfamiliar translation.
+- Third passage: the imagined reader probably gets lost in the middle because "see good made on the poor" does not parse on a first read and the quoted saying "the evil heart knows no house" sounds like a proverb the reader has never heard which could make the reader doubt the source.
+- Across all three: the lowercase letters and the missing apostrophes are the most likely first thing the imagined reader notices and a reader who knows the Bible well would likely notice that Jesus is quoting lines that the gospels never give him.
+- The guess points to one practical risk: a reader could take a passage for a real Bible quote which is why the warning near the top of this page matters wherever a passage is posted.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
