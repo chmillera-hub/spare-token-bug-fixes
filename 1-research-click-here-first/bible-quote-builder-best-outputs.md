@@ -3,6 +3,28 @@
 These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
 The second paragraph under each remix is a plain explanation written by the AI model and the file ending in plain-text.txt in this folder holds the same text for easy copying.
 
+## Input: A chart titled "Remote Labor Index" that reports 41.3 percent full automation of remote projects by one AI model with the rate doubling about every 3.3 months, posted with the sentence "are you enjoying your little desk job human?"
+
+The AI model did not check the numbers on the chart and words in italics were added or changed by the AI model.
+
+From the Claude Bible set:
+
+*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of the first page of genesis and of an old letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; early communities shared bread* according as anyone *lacked. so nobody doing desk work deserves being called little.*
+
+*in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; ridicule helps nobody.*
+
+From the Charles Bible set:
+
+*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of old lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *any mocker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
+
+*meaning: work feeds bodies, so losing wages threatens meals, housing, sleep. taking labor without paying people is condemned here; i want nobody mocked over needing income.*
+
+From the Jesus Bible set:
+
+"*when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking in a mocking tone whether a human is enjoying a little desk job, i thought of the story i told about workers left standing unhired all day and of my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, even a thinking machine, exists to help people. nobody deserves mockery when work disappears; hunger often follows lost income.*"
+
+*plainly: a person without paid work still needs food, shelter, dignity. machines were built for humans, so laughing at someone losing wages gets everything backward.*
+
 ## Input: "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces)
 
 Words of Jesus attempt 1:
