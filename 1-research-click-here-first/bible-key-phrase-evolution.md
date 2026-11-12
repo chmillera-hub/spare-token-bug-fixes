@@ -1155,6 +1155,16 @@ Lines that the check changed in the three passages about the chart of remote wor
 - One older opening sentence said "joking that my face looks familiar" and now says "saying with a laugh that my face looks familiar".
 - The corrected passages are on the page named bible-quote-builder-best-outputs in this folder.
 
+## First and Second Corinthians moved into My Personal Bible set
+
+Charles added First Corinthians and Second Corinthians to My Personal Bible set which now holds eleven whole books and 43863 different key phrases.
+The Claude selection gave up its three passages from those two letters (First Corinthians 12 and 13 and Second Corinthians 4) so that the sets do not overlap and took three passages in their place which are Galatians 6 verses 1 to 10 and First Thessalonians 5 verses 11 to 24 and First John 3 verses 11 to 18.
+
+- The Claude selection still holds 35 passages and now has 1484 different key phrases.
+- The special naming word "body" left the Claude list because that word had ranked high through First Corinthians 12 and the word "word" took its place.
+- Outputs made before this change stay as they were and four of those earlier Claude outputs used phrases from the two letters (the body with many parts and the treasure in clay jars and seeing in part and being pressed on every side).
+- From this point on every new Claude output draws only on the 35 passages listed in the builder script named claude_selection_third_version_builder.py in the folder named boring-things.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
