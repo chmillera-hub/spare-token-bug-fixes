@@ -54,6 +54,20 @@ Warning about changed wording: passages made under these rules are not exact Bib
 23. No line may describe physical closeness between the speaker and the reader (for example "closeness" or touching or a hand on a shoulder or whispering in an ear or any act that only happens when two people stand right next to each other) because a reader who meets that wording from a stranger pictures an uninvited person in their space and the wording is fine when the closeness happens between characters inside the story.
 24. Passages avoid stepping outside the story to name the audience (for example "listener" or "reader" or "hearer") because the passages are meant to be little stories and a line that points at the audience breaks the story and the opening form "when you thought of ... i thought of ..." stays because that form answers the input quote.
 
+## The reasoning behind rules 20 to 24 spelled out
+
+Charles asked the AI model to spell out the logic of the five newest rules and this section records that reading so another person can judge whether the logic holds.
+
+- One idea runs under all five rules: a passage read as spoken by a figure with great authority lands on a stranger who never asked for the passage so every added word has to respect the stranger as a person who decides for themselves.
+- Rule 20 (check added claims) follows from that idea because a smooth sentence in an authoritative voice gets believed and a false comfort such as "nobody gets scolded over unbelief" tells a person who was shunned that the shunning never happened.
+- Rule 21 (lean toward human expression) fills the gap that rule 20 leaves because removing false comfort alone could leave a bleak passage and the lean gives a true kind of encouragement which is that speaking may be met with dismissal and is still worth continuing because some person may recognize themselves.
+- Rule 22 (no labels on the reader) follows because a label such as "friend" or "disciple" declares a bond that only two people can agree to and a declared bond from a stranger reads as presumption and can also read as a claim on the reader.
+- Rule 23 (keep physical distance) is the bodily version of rule 22 because a word such as "closeness" or "whisper" places the speaker inside the space of the reader without an invitation.
+- Rule 24 (stay inside the story) follows because a story lets a reader step in at their own pace while a line aimed at "the listener" singles the reader out and turns a story into an instruction.
+- Rules 20 and 21 pull against each other in a useful way because rule 21 wants encouragement and rule 20 only allows encouragement that ordinary experience supports which is why the passages say "may" and "might" about how others will respond.
+- One tension remains open: the opening form "when you thought of ... i thought of ..." speaks straight to a "you" which sits close to what rule 24 avoids and the form stays because it answers a quote the person actually wrote and makes no claim about who that person is.
+- A second tension remains open: an encouraging line such as "keep speaking your heart" is phrased as a direction and a reader could hear a direction from an authoritative voice as pressure so wording such as "speaking your heart stays worth doing" would leave more of the choice with the reader.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
