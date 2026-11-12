@@ -11,7 +11,7 @@ The AI model saw still frames of the video and did not hear the sound and did no
 
 From the Claude Bible set:
 
-*an old letter about a neighbor who lacks food and an old account of people who shared everything:* *suppose* a brother or sister is naked, *lacking* daily food; *somebody* tells them, "go in peace, be warmed, filled," yet *nobody gave anything* the body needs: what good *comes from that? elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *so whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
+*an old letter about a neighbor who lacks food and an old account of people who shared everything:* *suppose* a brother or sister is *poorly clothed, lacking* daily food; *somebody* tells them, "go in peace, be warmed, filled," yet *nobody gave anything* the body needs: what good *comes from that? elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *so whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
 
 *in short: warm words feed nobody. if drawing jobs vanish, people who lose wages risk hunger plus eviction, so sharing must come before applause.*
 
