@@ -7,43 +7,43 @@ The second paragraph under each remix is a plain explanation written by the AI m
 
 Words of Jesus:
 
-"when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, i thought of the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for: so the last will be first. heaven and earth shall pass away, yet makers keep pouring; they put new wine into fresh skins, though anyone tasting old vintage immediately desires it again. friends of little faith, ask whom such craft serves, then dont doubt: whoever trusts me can do greater works than these."
+"when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, i thought of the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for: so the last will be first. heaven and earth shall pass away, yet each human voice matters; they put new wine into fresh skins, though anyone tasting old vintage immediately desires it again. friends of little faith, keep speaking your heart even when crowds dismiss you, then dont doubt: whoever trusts me can do greater works than these."
 
-put plainly: size never proves worth. a project gains meaning when its makers serve others, so even small efforts done with trust may outlast giant ones.
+put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody listening could finally feel understood.
 
 Charles selection:
 
-when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: those disciples watched, but some doubted. doubters often hear blame because of unbelief; still god says, "watch me do a new thing," while elders remember former things long past. every age has its time to build up, one for breaking down, and another generation comes. even so, nothing stays novel under the sun.
+when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: those disciples watched, but some doubted. doubters often hear blame because of unbelief; still god says, "watch me do this new thing." every age has its season for building up, one where things break down, and a time to speak: so voice your heart, since another generation comes listening.
 
-in short: doubt is normal whenever something new appears, though doubters frequently get blamed. each generation builds, tears down, then watches another begin, so today's marvel may feel ordinary later.
+in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later listeners might understand.
 
 Claude selection:
 
-when you thought of a game that might be the last thing in human history built at this scale, i thought of the tower of babel, which is the oldest story about people building something enormous together and about what came after: the whole earth spoke one language. "now nothing will be withheld which they intend to do." yet god scattered them abroad. for today people see in part; once whatever is complete has come, giant projects fade. "look: all things are being made new," says a voice; first attempts have passed away.
+when you thought of a game that might be the last thing in human history built at this scale, i thought of the tower of babel, which is the oldest story about people building something enormous together and about what came after: the whole earth spoke one language. "now nothing will be withheld which they intend to do." yet god scattered them abroad, so every person carries words others need. for today people see in part; once whatever is complete has come, giant projects fade. "look: all things are being made new," says a voice; first attempts have passed away.
 
-meaning: people working together can build almost anything, yet no giant project lasts forever. what stays is whatever gets made new after old attempts pass away.
+meaning: people working together can build almost anything, yet no giant project lasts forever. what endures is each human voice, so keep speaking even after being scattered.
 
 ## Input: "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion."
 
 Words of Jesus:
 
-"when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: anyone desiring to build a tower must sit first and count the cost, asking if ordinary people have enough bread while work continues until crews complete it. one servant who owed his master ten thousand talents was forgiven; let such sums teach mercy, for where your treasure lies, there attention follows. wisdom is justified by her children, not through spending which only raises bigger ones."
+"when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: anyone desiring to build a tower must sit first and count the cost, asking if ordinary people have enough bread while work continues until crews complete it. one servant who owed his master ten thousand talents was forgiven; let such sums teach mercy, for where your treasure lies, there attention follows; make living persons that prize. wisdom is justified by her children, not through spending which only raises bigger ones."
 
-simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through what a tower does for others, not by its size.
+simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
 
 Charles selection:
 
-when you thought of a price above ten billion dollars for building one thinking machine, i thought of the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish: onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines serve hungry neighbors.
+when you thought of a price above ten billion dollars for building one thinking machine, i thought of the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish: onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines feed hungry neighbors plus amplify unheard voices.
 
-plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed hungry neighbors.
+plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.
 
 Claude selection:
 
-when you thought of the huge effort of developing a new artificial intelligence model, i thought of the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found: folk once said, "lets build ourselves a city and one tower whose top touches heaven;" they had brick. today engineers stack billions instead, but where will wisdom be found? man doesnt know its price; it cant get valued with any gold dug from distant mines. such understanding ranks above rubies, yet we have this treasure inside ordinary clay jars, so share freely.
+when you thought of the huge effort of developing a new artificial intelligence model, i thought of the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found: folk once said, "lets build ourselves a city and one tower whose top touches heaven;" they had brick. today engineers stack billions instead, but where will wisdom be found? man doesnt know its price; it cant get valued with any gold dug from distant mines. such understanding ranks above rubies, yet we have this treasure inside ordinary clay jars, so speak, share, keep telling your story.
 
-in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why sharing matters more than stacking.
+in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.
 
-## No input: eight random phrases kept in a random order
+## No input: eight random phrases kept in a random order (written before the pro-human expression rule)
 
 Claude selection:
 

@@ -1021,6 +1021,63 @@ The line was also the reverse of its source because the source phrase was "becau
 - Rule 20 on the rules page now requires a check of every added sentence for claims about how people get treated or how the world works.
 - Other added lines in the finished paragraphs are also claims by the AI model and not by the Bible (for example "size never proves worth" and "whatever you spend beyond that sum, somebody repays later") and a reader is right to test each added line the same way.
 
+## Pro-human expression rule: a last pass before every output
+
+Charles added a rule for every output: before a passage goes out the AI model makes one more pass over the word choices with a lean toward valuing human beings who put their heart and soul into words for the world to hear.
+The pass keeps three things in view: a person who speaks up may be dehumanized or told that a real experience did not happen or abandoned and the passage says so truthfully where the subject comes up and the passage points toward continuing to speak because some listener may recognize themselves in the words.
+The pass removes or rewords any added line that advises permanent silence or hiding (for example "it is good to be silent and never speak up") because that kind of line can push a reader who is already alone to stop reaching out.
+No promise is made that speaking will be received well because rule 20 forbids claims that ordinary experience does not support and the passages use words such as "may" and "might" for what a listener will do.
+
+The six input-quote passages again under the pro-human expression rule with added or changed words in stars:
+
+Passages for the input quote about a very large video game:
+
+Words of Jesus:
+
+- "when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, i thought of the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for: so the last will be first. heaven and earth *shall* pass away, *yet each human voice matters;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. friends* of little faith, *keep speaking your heart even when crowds dismiss you, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
+
+- Closing explanation: put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody listening could finally feel understood.
+
+Charles selection:
+
+- when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: *those disciples watched,* but some doubted. *doubters often hear blame* because of unbelief; *still* god says, "*watch me* do *this* new thing." *every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *listening.*
+
+- Closing explanation: in short: doubt is normal whenever something new appears, though doubters frequently get blamed. silence need not last; keep expressing yourself because later listeners might understand.
+
+Claude selection:
+
+- when you thought of a game that might be the last thing in human history built at this scale, i thought of the tower of babel, which is the oldest story about people building something enormous together and about what came after: the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad, *so every person carries words others need.* for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
+
+- Closing explanation: meaning: people working together can build almost anything, yet no giant project lasts forever. what endures is each human voice, so keep speaking even after being scattered.
+
+Passages for the input quote about the cost of developing an AI model:
+
+Words of Jesus:
+
+- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+- Closing explanation: simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
+
+Charles selection:
+
+- when you thought of a price above ten billion dollars for building one thinking machine, i thought of the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish: *onlookers said,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines feed hungry neighbors plus amplify unheard voices.*
+
+- Closing explanation: plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed people and let them speak.
+
+Claude selection:
+
+- when you thought of the huge effort of developing a new artificial intelligence model, i thought of the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found: *folk once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so speak, share, keep telling your story.*
+
+- Closing explanation: in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.
+
+What the pro-human expression pass changed:
+
+- Each passage now has one line that values a person speaking (for example "keep speaking your heart even when crowds dismiss you" and "every person carries words others need" and "amplify unheard voices").
+- The Charles selection passage about doubt gained the source phrase "and a time to speak" from Ecclesiastes and left out the neighboring source phrase about a time to keep silence because the pass does not present silence as standing advice.
+- Each closing explanation now says in plain words that a person may be ignored or blamed and that continuing to speak still matters because a later listener might understand.
+- A program check confirmed that no word repeats inside any passage body or inside any closing explanation.
+- The pass makes every passage lean one way on purpose which means the passages are encouragement written by the AI model around Bible phrases and are not neutral summaries of what the Bible phrases say.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

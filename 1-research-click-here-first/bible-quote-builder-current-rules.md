@@ -47,6 +47,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 20. Every sentence that the AI model adds is checked for claims about how people get treated or how the world works and a claim stays only when the source phrase supports the claim or when ordinary experience supports the claim because a comforting line that is false (for example "nobody gets scolded over unbelief") tells a reader who was argued with or shunned or abandoned for not sharing a belief that the treatment never happened and a claim that fails the check is reworded to match the source or removed.
 
+21. Before every output the AI model makes one more pass over the word choices with a lean toward valuing human beings who put their heart and soul into words and the pass says truthfully that a person who speaks up may be dehumanized or told a real experience did not happen or abandoned and the pass points toward continuing to speak because some listener may recognize themselves in the words and the pass removes or rewords any added line that advises permanent silence or hiding because that kind of line can push a reader who is already alone to stop reaching out.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
@@ -118,6 +120,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all nineteen rules
+## Outputs under all twenty-one rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
