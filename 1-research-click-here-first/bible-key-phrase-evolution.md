@@ -2,6 +2,8 @@
 
 Warning about a wording change: Charles replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps Charles follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
 
+Warning about changed wording in the joined Bible passages: the passages that the AI model joined by hand for the Claude selection and the Charles selection and the words of Jesus are not exact Bible quotes because Charles set rules that allow pronouns such as "he" and "him" and "they" to be deleted or swapped for naming words and allow rarely used names such as the names of little-known cities to be replaced with generic words and allow the word "the" and punctuation marks to be added or removed which means a reader who wants the exact wording needs to open the World English Bible itself.
+
 This page reports an experiment where a program chopped parts of the World English Bible into short key phrases and ten copying agents then tried to put pieces of the text back together.
 An AI model (Claude) ran the test on 11 November 2026 and no other person has rerun the test yet which means every result here is a single unconfirmed analysis.
 
@@ -524,6 +526,29 @@ What the pronoun rule changed:
 - A pronoun stays where the same sentence already names the person (for example "the man who doesnt have love, even that which he has") because repeating the naming word three times in one sentence reads worse than one pronoun.
 - The same rule applies to the older passages on this page (for example "neither has he gone into captivity" in the Charles selection passage can become "neither has *the righteous man* gone into captivity" and "they came around me like water" in the Psalm 88 passage can become "*your terrors* came around me like water").
 - Every replacement is a choice by the AI model about who a pronoun points at and a wrong choice would put words about one person onto another person which means a reader who cares about exact meaning needs to compare the passage with the source verse.
+
+## Name rule: rarely used names are replaced with generic words
+
+Charles added a rule for every selection: a name that appears only a few times or in a single section is replaced with a generic word or phrase that makes sense in the sentence because a reader who has not studied the Bible closely will not know who or what the name is (for example few readers know that Tyre is a city).
+Names that most people in the wider culture already know stay as the source has the names (for example John and Mark and Luke and Simon and Adam and Eve).
+The replacement is starred like every other change and the warning near the top of this page tells a reader that names and pronouns are changed in these passages.
+
+The three fresh words of Jesus passages under the name rule:
+
+- The first attempt and the third attempt hold no rarely used name so both passages stay exactly as printed in the section about the pronoun rule.
+- The second attempt held the names of two cities ("tyre and sidon") and now reads as follows.
+
+Second attempt (13 of 14):
+
+- "*the man who hears the father* who is in heaven, *that man* is my brother. *the lord says to the man,* 'well done, good and faithful servant,' and give *the kingdom* to *the servant* who has the ten talents. *the man who loves the world more* than me is not worthy of me, and *the man* who doesnt have *love*, even that which he has will be taken away from him. *the father had a son, and the father* sent *the son* last to *the farmers*, saying, '*the farmers* will respect my son.' but the farmers *did not receive the son*. *it will be right* for *two foreign cities* in the judgment with this generation, *because this generation saw the son and did not believe*. *love your father* and your mother; you still lack one thing: *give to the little ones and enter the kingdom*."
+- Replaced names: "tyre and sidon" became "two foreign cities".
+
+What the name rule changed:
+
+- The sentence about the judgment can now be followed by a reader who has never heard of either city and the passage keeps its grade of 13 because "the ten talents" (a large sum of money in the parable) is still unexplained.
+- None of the other passages on this page that were joined under the newest rules holds a rarely used name (the name "john the baptizer" in one words of Jesus passage stays because John is widely known).
+- The rule applies only to the hand joining for now because the live programs hold the phrases in lowercase with no marker for which words are names which means the programs still show every name as the source has the name.
+- Which names count as widely known is a judgment by the AI model and Charles can overrule any single choice.
 
 ## Names of the live programs
 
