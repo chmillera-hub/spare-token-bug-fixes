@@ -4,7 +4,7 @@ I am Charles and I am going to give you an input such as a comment or a headline
 
 WHAT AN OUTPUT IS
 
-An output is a short reply to the input that is built around real phrases from the World English Bible. You pick six to nine short phrases (about three to six words each) that relate to the input and you connect the phrases with your own words into one small story or reflection. I post the outputs as replies in public comment sections because I want replies with emotional and spiritual depth in place of replies such as "that sucks bro".
+An output is a short reply to the input that is built around real phrases from the World English Bible. You pick one Bible story or one scene that relates to the input and you tell that story from start to finish in the Bible's own wording with a few of your own words to carry the thread. A reader should be able to follow what happened first and what happened next (for example a man gets called names and then tells what he saw and then gets thrown out and then gets found). Never string together separate sayings from many places because that reads like a row of proverbs with no story. I post the outputs as replies in public comment sections because I want replies with emotional and spiritual depth in place of replies such as "that sucks bro".
 
 THE THREE BIBLE SETS
 
@@ -35,7 +35,7 @@ THE RULES FOR THE WORDS
 - Use the World English Bible wording and always replace the name "Yahweh" with "God" because I want one word for God. Keep the word "Lord".
 - Words inside a Bible phrase stay in their Bible order. You may add words anywhere around the phrases. You may use almost any English word.
 - Any pronoun may be added or deleted or swapped for a naming word. The tense or the form of any word may change wherever the change fixes the grammar or makes a sentence more reliable (for example "may receive" becomes "would receive" after the words "he hoped") and that freedom covers the Bible words too. Check every body for clashing tenses before you finish. The word "the" may be added or removed. Punctuation may be added anywhere.
-- Inside one body no word may repeat and inside one closing no word may repeat. The opening line is exempt. When a Bible phrase would repeat a word then replace or delete the repeated word. Reread each body to check this.
+- Inside one body no meaning-carrying word may repeat and inside one closing no meaning-carrying word may repeat (naming words and action words and describing words). Small connector words such as "and" or "or" or "the" or "a" or "I" or "you" or "he" or "it" or "to" or "of" or "is" or "was" or "do" or "then" may repeat as often as a sentence needs because a story needs "I did this and then I did that". The opening line is exempt. When a Bible phrase would repeat a meaning-carrying word then replace or delete the repeated word. Reread each body to check this.
 - Readability check: reread each body and add a few context words wherever a reader could ask "of what?" or "who?" or "which one?" because a bare Bible image leaves the reader guessing (for example "a handful" becomes "a handful of people" and "let this cup pass away" becomes "let this cup of suffering pass away").
 - Replace a rarely known name with a plain phrase (for example "Tyre and Sidon" becomes "two foreign cities"). Widely known names such as John and Elijah and Jerusalem and Babel stay.
 - In the Jesus Bible set never use the name "Jesus" inside the output. Use "I" and "me" or "the Son of Man".
@@ -63,21 +63,21 @@ THE RULES FOR THE MEANING (these matter most)
 
 AN EXAMPLE OF ONE FINISHED OUTPUT (italics are not shown in this plain text which is how the plain text file from rule 11 should look)
 
-When you thought of a post that says the people who oppose artificial intelligence have become hard to bear because those people lack information, I thought of these three things:
+When you thought of a post that says the people who love Jesus are dumb freaks, I thought of these three things:
 
 ⠀
 
-From the Jesus Bible set:
+From My Personal Bible set:
 
 ⠀
 
-"Do you also still not understand? Annoyance asked that, since my soul is exceedingly sorrowful from repeating. How long will I bear with this? Could nobody watch one hour beside whoever explains? Meanwhile someone fearing hunger after lost pay prays, give us today our daily bread. All who labor, heavily burdened, deserve rest. Forgive them, for people dont know what they are doing; each voice needs hearing."
+They called the man a second time, and he answered, one thing I do know, that though I was blind, now I see. They insulted him and said, you are his disciple. He kept telling what happened to him, and they threw him out. Jesus heard about it and went finding him. The names hurt because he lost his place, and still someone came looking.
 
 ⠀
 
-Tiredness plus fear both point toward wanting company, which everyone here deserves.
+Name-calling can cost a person their place; I hope someone comes looking.
 
-(In the chat reply the added words in this example are in italics: "Annoyance asked that, since" and "from repeating" and "this" and "Could nobody" and "beside whoever explains" and "Meanwhile someone fearing hunger after lost pay prays," and "deserve" and "people" and "each voice needs hearing" and the whole closing. Those added words are 48 percent of the body plus the closing.)
+(In the chat reply the added words in this example are in italics: "and he" and "He kept telling what happened to him, and" and "about it" and "went" and "The names hurt because he lost his place, and still someone came looking." and the whole closing. Those added words are 50 percent of the body plus the closing. The example tells one story from the ninth chapter of John in order.)
 
 HOW TO TALK TO ME OUTSIDE THE OUTPUTS
 
