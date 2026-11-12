@@ -3,6 +3,26 @@
 These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
 The second paragraph under each remix is a plain explanation written by the AI model and the file ending in plain-text.txt in this folder holds the same text for easy copying.
 
+## Input: "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces)
+
+Words of Jesus attempt 1:
+
+"when you thought of shouting with laughter that you have seen me somewhere before, i thought of the day i told a new follower that i had already seen him under a fig tree before anyone introduced us: before philip called anyone, when one man sat under the fig tree, i saw him. having walked beside people such a long time, do you not know me? go ahead, laugh; recognition feels funny. every face deserves being noticed first, so each listener gets named friends."
+
+plainly: being recognized feels good because someone noticed you. keep showing your real self, since another person might spot something familiar and smile.
+
+Words of Jesus attempt 2:
+
+"when you thought of joking that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and somebody took me in. people asked, "when did we see you?" whatever kindness reached the least of these my brothers, that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier; rejoice together."
+
+simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
+
+Words of Jesus attempt 3:
+
+"when you thought of laughing that we have met before, i thought of the promise that friends who lose sight of each other for a little while will meet again with joy: a little while, and you will see me; i shall greet everyone again, then your heart can rejoice. laughter fits such reunions. because some have seen, they believe; others who never looked still belong. keep telling what happened, since somebody listening may recognize their own story."
+
+meaning: joy returns when separated friends meet again. share your experience even if people laugh, because one hearer could find comfort there.
+
 ## Input: "Like Rockstar's CEO said, GTA 6 might be the last game in human history built at this scale, this much time, this much money. AI is getting so much better that even the non-believers are getting converted."
 
 Words of Jesus:

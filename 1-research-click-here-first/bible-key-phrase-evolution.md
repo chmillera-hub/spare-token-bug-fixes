@@ -1078,6 +1078,31 @@ What the pro-human expression pass changed:
 - A program check confirmed that no word repeats inside any passage body or inside any closing explanation.
 - The pass makes every passage lean one way on purpose which means the passages are encouragement written by the AI model around Bible phrases and are not neutral summaries of what the Bible phrases say.
 
+## Three words of Jesus passages for a playful input quote
+
+The input quote was "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces) and all twenty-one rules applied with added or changed words in stars.
+
+Attempt 1:
+
+- "when you thought of shouting with laughter that you have seen me somewhere before, i thought of the day i told a new follower that i had already seen him under a fig tree before anyone introduced us: before philip called *anyone,* when *one man sat* under the fig tree, i saw *him. having walked beside people* such a long time, do you not know me? *go ahead,* laugh; *recognition feels funny. every face deserves being noticed first, so each listener gets named* friends."
+
+- Closing explanation: plainly: being recognized feels good because someone noticed you. keep showing your real self, since another person might spot something familiar and smile.
+
+Attempt 2:
+
+- "when you thought of joking that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and *somebody* took me in. *people asked,* "when did we see you?" *whatever kindness reached the* least of these my brothers, *that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier;* rejoice *together.*"
+
+- Closing explanation: simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
+
+Attempt 3:
+
+- "when you thought of laughing that we have met before, i thought of the promise that friends who lose sight of each other for a little while will meet again with joy: a little while, and you will see me; i *shall greet everyone* again, *then* your heart *can* rejoice. *laughter fits such reunions.* because *some* have seen, *they believe; others* who *never looked still belong. keep telling what happened, since somebody listening may recognize their own story.*"
+
+- Closing explanation: meaning: joy returns when separated friends meet again. share your experience even if people laugh, because one hearer could find comfort there.
+
+- The three attempts draw on three different parts of the gospels: the saying to a new follower about a fig tree in John 1 and the teaching about strangers and the least of these in Matthew 25 and the promise of meeting again after a little while in John 16.
+- The name "philip" stays in the first attempt because the AI model judged the name to be widely known.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
