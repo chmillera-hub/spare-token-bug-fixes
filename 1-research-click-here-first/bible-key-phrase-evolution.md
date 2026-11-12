@@ -885,6 +885,34 @@ Notes on the second Claude selection:
 - In the random passage the word "wormwood" (a bitter plant that stands for sorrow in the source) is explained by the added word "bitter".
 - The key phrase program with the three selection buttons now uses the second Claude selection while the two older programs (letters and single words) still use the first Claude selection.
 
+## Opening line rule: each passage starts from one keyword of the input quote
+
+Charles added a rule for every selection: when Charles gives an input quote the passage opens with the line "when you thought of" followed by one keyword or phrase taken from the input quote and then "i thought of" and the rest of the passage is arranged as a plausible continuation of that line of thinking.
+The opening line itself repeats the words "thought" and "of" because the line is a fixed formula and every other word in the passage is still different.
+The opening line is not starred because the line is the same in every passage and only the keyword changes.
+
+The three headline passages again under the opening line rule (the input quote was "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and the AI model did not check whether the quote is accurate):
+
+Words of Jesus with the keyword "cost" (13 of 14 with 71 different words out of 73 words):
+
+- "when you thought of 'cost,' i thought of *engineers* desiring to build a tower: *each must sit first* and count *expenses, asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+Charles selection with the keyword "ten billion dollars" (13 of 14 with 53 different words out of 55 words):
+
+- when you thought of 'ten billion dollars,' i thought of *onlookers saying,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
+
+Claude selection with the keyword "developing" (13 of 14 with 69 different words out of 71 words):
+
+- when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
+
+What the opening line rule changed:
+
+- The opening line tells a reader at once that the passage is a response to something another person said which removes the risk that the passage looks like a free-standing Bible quote.
+- Each selection took a different keyword ("cost" and "ten billion dollars" and "developing") because each selection holds phrases that fit a different part of the quote.
+- The sentence that used to carry the topic in the middle of each passage (for example "when builders report spending billions") could be dropped because the opening line now carries the topic.
+- In the words of Jesus passage the word "cost" in the source phrase "and count the cost" became "expenses" because the keyword in the opening line had already used the word.
+- The passages are reflections on the topic of the quote and are not verdicts by the AI model on any company and the AI model is made by the company named in the quote.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

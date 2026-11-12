@@ -40,6 +40,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 16. When Charles gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance because Charles wants the builder to respond to a topic and not only to shuffle text.
 
+17. When Charles gives an input quote the passage opens with "when you thought of" plus one keyword or phrase from the input quote plus "i thought of" and the rest of the passage continues that line of thinking because the opening line shows a reader that the passage is a response and not a free-standing Bible quote.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
@@ -94,4 +96,20 @@ Reflection on the input quote "JUST IN: Anthropic says developing Opus 5.5 cost 
 Eight random phrases kept in a random order (12 of 14 with 44 different words out of 44 words) from the phrases "which you have chosen" and "and a new earth" and "the wormwood" and "as it is today now" and "by the roots" and "the language of all the earth" and "and of thick darkness" and "if you have understanding":
 
 - *bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *pull grief up* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
+
+## Outputs under all seventeen rules for the input quote "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion"
+
+The AI model did not check whether the input quote is accurate and the passages are reflections on the topic of the quote and are not verdicts on any company.
+
+Words of Jesus with the keyword "cost" (13 of 14 with 71 different words out of 73 words):
+
+- "when you thought of 'cost,' i thought of *engineers* desiring to build a tower: *each must sit first* and count *expenses, asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+Charles selection with the keyword "ten billion dollars" (13 of 14 with 53 different words out of 55 words):
+
+- when you thought of 'ten billion dollars,' i thought of *onlookers saying,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
+
+Claude selection with the keyword "developing" (13 of 14 with 69 different words out of 71 words):
+
+- when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
