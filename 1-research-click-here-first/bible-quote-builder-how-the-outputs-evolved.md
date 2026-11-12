@@ -73,7 +73,7 @@ Words of Jesus (13 of 14):
 
 - The 201 key phrases of John chapter 10 were dealt at random into four piles and the AI model built one paragraph from every phrase in each pile.
 - Each pile came out as a small version of the whole chapter because the chapter repeats its main ideas and about one word in three had to be added.
-- The four full paragraphs are on the page named bible-key-phrase-evolution in this folder in the section about John 10 dealt into four random piles.
+- Three full remixes (twelve paragraphs) are on the page named john-10-remixes-from-four-random-piles in this folder.
 
 ## What the ten stages show together
 

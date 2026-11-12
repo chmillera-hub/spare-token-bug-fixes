@@ -2,7 +2,8 @@
 # Phrases that were neighbors in the chapter and landed in the same pile are printed joined.
 import json,random
 D=json.load(open('ph_john10.json'));u=D['u'];seq=D['seq']
-random.seed(10)
+import sys
+random.seed(int(sys.argv[1]) if len(sys.argv)>1 else 10)
 idx=list(range(len(seq)));random.shuffle(idx)
 piles=[sorted(idx[i::4]) for i in range(4)]
 for n,p in enumerate(piles,1):
