@@ -18,7 +18,7 @@ From the Claude Bible set (attempt 1):
 
 From the Claude Bible set (attempt 2):
 
-*these are two writers who described being crushed from every direction and who still wrote down one reason to see the next morning:* *one writer said,* "we are pressed on every side, yet not crushed; perplexed *without total* despair; struck down *but never* destroyed." *another admitted,* "my soul still remembers *bitterness* and is bowed *low* within me. this *comes back* to mind; therefore i have hope: *mercies arrive* new *each* morning."
+*these are two writers who described being crushed from every direction and who still wrote down one reason to see the next morning:* *one writer said,* "we are pressed *by trouble* on every side, yet not crushed; perplexed *without total* despair; struck down *but never* destroyed." *another admitted,* "my soul still remembers *bitterness* and is bowed *low* within me. *a single thought comes back* to mind; therefore i have hope: *mercies arrive* new *each* morning."
 
 *meaning: feeling crushed does not prove life is over. those writers named their misery first, then found one small reason; i want that for anybody hurting.*
 
@@ -30,7 +30,7 @@ From the Claude Bible set (attempt 3):
 
 From the Jesus Bible set (attempt 1):
 
-"*this is about the night i said almost the same thing aloud in a garden and the cry i gave when i felt completely abandoned:* my soul is exceedingly sorrowful; *companions heard,* "stay here." *later came a prayer,* "let this cup pass away." the spirit indeed *was* willing, but flesh *felt* weak. *one afternoon i shouted,* "why have you forsaken me?" *such words carry no shame; grief spoken aloud deserves company, never contempt.*"
+"*this is about the night i said almost the same thing aloud in a garden and the cry i gave when i felt completely abandoned:* my soul is exceedingly sorrowful; *companions heard,* "stay here." *later came a prayer,* "let this cup *of suffering* pass away." the spirit indeed *was* willing, but flesh *felt* weak. *one afternoon i shouted toward heaven,* "why have you forsaken me?" *such words carry no shame; grief spoken aloud deserves company, never contempt.*"
 
 *plainly: the storyteller himself once felt abandoned enough to cry out. your sentence sounds like that kind of pain; i hope somebody answers with care.*
 
@@ -60,7 +60,7 @@ From the Claude Bible set:
 
 From My Personal Bible set:
 
-*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear need not win.*
+*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw plans so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear need not win.*
 
 *meaning: that promise says makers should benefit from what gets made. losing pay can bring hunger, cold, eviction; i want help reaching every laid-off person.*
 
@@ -78,19 +78,19 @@ The AI model did not check the numbers on the chart and words in italics were ad
 
 From the Claude Bible set:
 
-*this comes from the first page of genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need." *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; some communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
+*this comes from the first page of genesis and a letter that compares a community to one body where no part gets to tell another part that it is not needed:* *people were made* in our image, *says genesis; tools came later. an* eye cant tell the hand, "i have no need *for such help.*" *parts* which seem to be weaker are necessary. when one member suffers, all *others* suffer *too.* you shall labor six days, but *each* seventh day *brings rest; some communities shared bread* according as anyone *lacked. so desk work counts among needed tasks.*
 
 *in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
 From My Personal Bible set:
 
-*these are lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *each worker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
+*these are lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire, *meaning earned pay.* what profit has *each worker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
 
 *meaning: work feeds bodies, so losing wages threatens meals, housing, sleep. taking labor without paying people is condemned here; i want everybody able to earn bread.*
 
 From the Jesus Bible set:
 
-"*this is the story i told about workers left standing unhired all day and my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. when work disappears, hunger often follows lost income; meals come first.*"
+"*this is the story i told about workers left standing unhired all day and my saying that the day of rest was made for people and not people for the day of rest:* *a landowner asked workers standing* here all day idle, "*why?*" *they answered,* "because no one has hired us." *he promised* whatever *seemed* right, *then said,* "pay them their wages." *since each* laborer is worthy of his *bread,* the sabbath *rest* was made *serving* man, *never humans* for *it; so every tool, thinking machines included, exists to help people. when work disappears, hunger often follows lost income; meals come first.*"
 
 *plainly: a person without paid work still needs food, shelter, dignity. machines were built for humans, so i want those gains shared among workers.*
 
@@ -112,7 +112,7 @@ From the Jesus Bible set (attempt 2):
 
 From the Jesus Bible set (attempt 3):
 
-"*this is the promise that people who lose sight of each other for a little while can meet again with joy:* a little while, and you will see me; i *shall greet everyone* again, *then* your heart *can* rejoice. *laughter fits such reunions.* because *some* have seen, *they believe; others* who *never looked remain welcome. keep telling what happened, since somebody elsewhere may recognize their own story.*"
+"*this is the promise that people who lose sight of each other for a little while can meet again with joy:* a little while, and you will see me; i *shall greet everyone* again, *then* your heart *can* rejoice. *laughter fits such reunions.* because *some* have seen *proof, they believe; others* who *never looked remain welcome. keep telling what happened, since somebody elsewhere may recognize their own story.*"
 
 *meaning: joy often returns when separated friends meet again. share your experience even if people laugh, because one person could find comfort there.*
 
@@ -122,7 +122,7 @@ From the Jesus Bible set (attempt 3):
 
 From the Claude Bible set:
 
-*this is the tower of babel, which is a story about people building something enormous together and about what came after:* the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad, *so every person carries words others need.* for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
+*this is the tower of babel, which is a story about people building something enormous together and about what came after:* the whole earth *spoke* one language. *heaven remarked:* "now nothing will be withheld which they intend to do." *yet* god scattered them abroad, *so every person carries words others need.* for *today people* see *truth* in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
 
 *meaning: people working together can build almost anything, yet no giant project lasts forever. what endures is each human voice, so keep speaking even after being scattered.*
 
@@ -134,7 +134,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*these are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last will be first. heaven and earth *shall* pass away, *yet each human voice matters;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
+"*these are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last *workers hired* will be first *paid.* heaven and earth *shall* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
 
 *put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
 
@@ -144,7 +144,7 @@ From the Jesus Bible set:
 
 From the Claude Bible set:
 
-*this is about the people who built a city and a tower out of brick and the poem that asks where wisdom can be found: folk said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so speak, share, keep telling your story.*
+*this is about the people who built a city and a tower out of brick and the poem that asks where wisdom can be found: folk said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, meaning human bodies, so speak, share, keep telling your story.*
 
 *in other words: bricks and billions build towers, but neither buys wisdom. i believe that treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.*
 
@@ -156,7 +156,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*this is the saying about a builder who sits down to count the cost before starting a tower: anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+"*this is the saying about a builder who sits down to count the cost before starting a tower: anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents, *whole fortunes, was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her children, *not through spending which only raises* bigger *monuments.*"
 
 *simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.*
 
@@ -168,19 +168,19 @@ The public link to the chat that made these three outputs is https://claude.ai/s
 
 From the Jesus Bible set:
 
-"*this is my story about hired vineyard workers and my sayings about wages and bread: some landowner found men waiting late and said:* why do you stand here all day idle? *they answered:* because no one has hired us. *then came his promise:* whatever is right i will give. *hear another saying:* the laborer *stays* worthy of wages. *which parent, when their* son asks for bread, *hands over* a stone? *yet many young workers earn rent only, never owning any home.* come to me, *people* who labor, heavily burdened; *tiredness without reward makes sense. keep speaking about what toil should buy, since somebody else might recognize themselves.*"
+"*this is my story about hired vineyard workers and my sayings about wages and bread: some landowner found men waiting late and said:* why do you stand here all day idle? *they answered:* because no one has hired us. *then came his promise:* whatever *pay* is right i will give. *hear another saying:* the laborer *stays* worthy of wages. *which parent, when their* son asks for bread, *hands over* a stone? *yet many young workers earn rent only, never owning any home.* come to me, *people* who labor, heavily burdened; *tiredness without reward makes sense. keep speaking about what toil should buy, since somebody else might recognize themselves.*"
 
 *plainly: the storyteller counts every worker as deserving full pay, so disliking labor which purchases neither house nor travel is understandable. i hope employers choose wages big enough for homes.*
 
 From My Personal Bible set:
 
-*this is a preacher asking what labor under the sun gains and isaiah picturing people living in houses they built:* what does man gain from all his labor under the sun? *i'd choose* a handful, with quietness, *over* two handfuls *plus* chasing after wind. *isaiah asked:* why spend money for that which is not bread? *then he pictured people differently:* they will build houses and inhabit them, plant vineyards, eat their fruit, *never toiling* in vain. *until such days, landlords collect large shares of pay, so joyless work holds no mystery. speak anyway; someone else carries matching pain.*
+*this is a preacher asking what labor under the sun gains and isaiah picturing people living in houses they built:* what does man gain from all his labor under the sun? *i'd choose* a handful *of people,* with quietness, *over* two handfuls *plus* chasing after wind. *isaiah asked:* why spend money for that which is not bread, *such as endless rent? afterward he pictured another future:* they will build houses and inhabit them, plant vineyards, eat their fruit, *never toiling* in vain. *until then, landlords collect much pay, so joyless work holds no mystery. speak anyway; someone else carries matching pain.*
 
 *meaning: one writer doubted whether toil pays anything lasting, while another imagined workers living inside homes they built. wanting that outcome from a job is reasonable.*
 
 From the Claude Bible set:
 
-*this is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* you have sown much, and bring in little. *people* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *tiredness follows naturally. elsewhere, pay* kept back by fraud *cries* out. *one prophet hoped:* every man will sit under his vine, *near some* fig tree. *go on voicing that wish, because others may recognize themselves.*
+*this is a prophet's picture of a bag with holes and another prophet's picture of a vine and a fig tree:* you have sown much *seed,* and bring in little *harvest. people* eat, but *lack* enough; *whoever* earns wages *puts* them into a bag with holes. *tiredness follows naturally. james wrote: pay* kept back by fraud *cries* out *for justice. one prophet hoped:* every man will sit under his *own* vine, *near some* fig tree. *go on voicing that wish, because others may recognize themselves.*
 
 *in short: when employers pay too little for buying land or rest, weariness toward work has a cause. wanting your own shade and roof deserves saying out loud.*
 
