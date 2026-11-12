@@ -53,7 +53,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 23. No line may describe physical closeness between the speaker and the reader (for example "closeness" or touching or a hand on a shoulder or whispering in an ear or any act that only happens when two people stand right next to each other) because a reader who meets that wording from a stranger pictures an uninvited person in their space and the wording is fine when the closeness happens between characters inside the story.
 24. Passages avoid stepping outside the story to name the audience (for example "listener" or "reader" or "hearer") because the passages are meant to be little stories and a line that points at the audience breaks the story and the opening form "when you thought of ... i thought of ..." stays because that form answers the input quote.
-25. Every word that the AI model added or changed is shown in italics in every output and the whole opening sentence and the whole closing explanation are in italics because the AI model wrote both in full which means the words in plain upright type are the words that come from the Bible phrases and a reader can see at a glance how much of a passage is source and how much is addition.
+25. Every word that the AI model added or changed is shown in italics in every output and the whole opening sentence and the whole closing explanation are in italics because the AI model wrote both in full which means the words in plain upright type are the words that come from the Bible phrases and a reader can see at a glance how much of a passage is source and how much is addition. Charles narrowed this rule on 11 November 2026: the italics now appear only on the page named best-outputs.md in this folder and every output written in a chat is plain text with no italics because copying an output from a chat pastes the italics markers as asterisk symbols and the asterisk symbols make the output hard to read on social media.
 26. No output puts a negative label on the input quote or on the person who wrote the input quote (for example "mocking" or "dumb" or "stupid") because a negative label judges the person before the reply has said anything and gives the person a reason to stop reading and the one exception is naming explicit violence such as murder or rape or physical assault or contact without consent because naming violence plainly is how violence gets called out.
 27. When one input quote gets several outputs the restatement of the input appears once at the top in the form "when you thought of ... i thought of these three things:" and each output underneath is a short paragraph that starts with a few words naming its Bible material because repeating the same long restatement inside every paragraph made each paragraph about half restatement.
 28. Each output carries a label that says which set of Bible text the output came from and the three labels are "From the Claude Bible set" and "From My Personal Bible set" and "From the Jesus Bible set" and the middle label says "My Personal" with capital letters so that the words read as a label and uses those words in place of a name because any person who picks their own books can call that set their own which means the label fits whoever posts the output.
@@ -78,14 +78,14 @@ Charles asked the AI model to spell out the logic of the five newest rules and t
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.
 - Every choice about who a pronoun points at and every outside word is an interpretation by the AI model and the results pages say so.
-- Each passage is graded against seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules with a top score of 14 and the AI model grades its own passages which means every grade is a rough guide.
+- Each passage is graded against seven sentence rules from the page named writing-rules in the folder named writing-rules with a top score of 14 and the AI model grades its own passages which means every grade is a rough guide.
 
 ## What the rules do taken together
 
 - The early rules (1 to 5) keep nearly all meaning in the Bible phrases and gave grades of 6 to 12.
 - The middle rules (6 to 13) gave grades of 12 to 14 and moved a large share of the meaning to the AI model.
 - The last two rules (14 and 15) make every word different and gave grades of 12 to 13 on random phrases in a random order while 37 to 49 percent of the words came from the AI model.
-- The page named bible-quote-builder-how-the-outputs-evolved in this folder shows a sample output from each stage and the page named bible-key-phrase-evolution in this folder holds every passage in the order the rules were added.
+- The page named bible-quote-builder-how-the-outputs-evolved in this folder shows a sample output from each stage and the page named full-record in this folder holds every passage in the order the rules were added.
 
 ## Outputs under the first fifteen rules
 
@@ -147,4 +147,4 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 ## Outputs under all thirty rules
 
-The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
+The finished paragraphs for both input quotes are on the page named best-outputs in this folder and the versions with stars are on the page named full-record in the section about the full context opening rule.

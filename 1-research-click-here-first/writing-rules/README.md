@@ -2,5 +2,5 @@
 
 This folder holds a set of writing rules for clear chatbot replies.
 
-- [writing-rules-for-clear-chatbot-replies.md](writing-rules-for-clear-chatbot-replies.md) is the set of rules with before and after examples.
-- The file ending in plain-text.txt holds the same rules for easy copying into a chat.
+- [writing-rules.md](writing-rules.md) is the set of rules with before and after examples.
+- The file named writing-rules-plain.txt holds the same rules for easy copying into a chat.

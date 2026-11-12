@@ -8,7 +8,7 @@ All times are United States Central time.
 ## The full chat word for word
 
 Charles shared the whole chat as a public link and the link shows every word from both Charles and the chatbot up to the moment Charles made the link: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
-Charles refreshed the shared link on the evening of 11 November 2026 which means the same address now also shows the later part of the chat where the Bible quote builder rules and outputs were made and the pages named bible-quote-builder-current-rules and bible-quote-builder-best-outputs in this folder hold the results of that later part.
+Charles refreshed the shared link on the evening of 11 November 2026 which means the same address now also shows the later part of the chat where the Bible quote builder rules and outputs were made and the pages named rules and best-outputs in this folder hold the results of that later part.
 
 ## Part 1: the Voynich manuscript
 
@@ -42,7 +42,7 @@ What happened: the chatbot wrote a plain summary.
 
 **12:04 and 12:05 Charles sent two sets of writing rules** which asked for sentences that stand alone and carry their own reasons and explain every label and avoid pronouns and commas and match confident wording to evidence.
 
-What happened: the chatbot rewrote the summary twice under the rules and the rules themselves are in the page named writing-rules-for-clear-chatbot-replies in this folder.
+What happened: the chatbot rewrote the summary twice under the rules and the rules themselves are in the page named writing-rules in this folder.
 
 **12:16 Charles asked:** Okay great now can you do a top 10 bullet points from your findings for social media remember these are for social media people who might have limited emotional or mental bandwidth while scrolling
 
@@ -160,7 +160,7 @@ What happened: the repository now has two folders at the top (the research folde
 
 **16:08 Charles asked:** Can you do like a geoguessr sweep where you are taking on the Persona of a professional geoguesser looking at the details within the book and if you don't immediately know you can start doing research on various things adding details to the different images using advanced geoguesser or Sherlock Holmes kind of energy you know what I mean but no b******* meaning if you can't justify something with the evidence don't make up s*** out of your ass and then of course update the repository with your findings
 
-What happened: the Voynich page gained the human story of the book and a new page named voynich-geoguess-clue-sweep reads eight drawing clues and guesses the borderland around the Alps.
+What happened: the Voynich page gained the human story of the book and a new page named location-guess reads eight drawing clues and guesses the borderland around the Alps.
 
 ## Part 6: Bible versions of the experiment
 

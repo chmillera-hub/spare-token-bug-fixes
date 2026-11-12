@@ -12,12 +12,12 @@ Every item in this folder is written for a person to read and the items are grou
 
 ## Single pages (each page is its own project)
 
-- [hiding-a-book-by-splitting-pages.md](hiding-a-book-by-splitting-pages.md) shows how much sense is left when a 1000-page biology book is dealt into four piles in four different ways.
-- [record-of-the-chat-behind-the-research.md](record-of-the-chat-behind-the-research.md) lists every request Charles made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
+- [hiding-a-book.md](hiding-a-book.md) shows how much sense is left when a 1000-page biology book is dealt into four piles in four different ways.
+- [chat-record.md](chat-record.md) lists every request Charles made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 363 free bug fixes for public software projects.
 
 ## Something to play with
 
-A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/word-evolution-live-program.html
+A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.

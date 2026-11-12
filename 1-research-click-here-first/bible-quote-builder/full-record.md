@@ -111,7 +111,7 @@ What rearranging changed:
 
 ## Five versions of one words of Jesus string graded against the writing rules in this folder
 
-The AI model took the eight rebuilt stretches of the words of Jesus string above and made five versions and graded each version against the seven sentence rules in the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules.
+The AI model took the eight rebuilt stretches of the words of Jesus string above and made five versions and graded each version against the seven sentence rules in the page named writing-rules in the folder named writing-rules.
 Each rule earns 0 or 1 or 2 points which gives a top score of 14 and the grades are the judgment of the AI model and no second reader checked the grades.
 The seven rules are: a sentence can be understood alone and a reason is attached to each claim and labels are explained and people and things are named in place of pointing words and no short clipped sentences and one claim plus reason per sentence and no commas.
 
@@ -645,7 +645,7 @@ Pile 4 (12 of 14 and 35 percent of the words were added):
 - "i tell you, one who doesnt enter by the door into the sheep fold *is not the shepherd,* but one who enters *by the door is the shepherd,* and leads them out. whenever he brings out his own sheep, *the sheep follow,* for they know his voice; they will *not follow strangers*." jesus therefore said to them again, "i tell you, i am the sheeps door. all who came *by another door are not shepherds.* i am the door, that they may have life and may have it abundantly. the good shepherd lays down his life; the hired hand flees *when he* sees the wolf coming. *i know my own, and i am known* by my own, even as the father knows me. *the sheep will be one* with one shepherd. *no one takes my life* from me; i received this commandment *from my father*." *there was no one voice* among the jews because of these words. in *a covered walkway the jews said,* "how long will you hold us in suspense?" jesus answered them, "*my sheep hear me,* and i know them. i give eternal life to them. *the father, who is good* to me, is greater *than all;* no one is able *to snatch the sheep from the father.* i and the father are one." therefore jews took up *their hands against him.* "for which of those *works?" "you,* being a man, *make yourself god.*" "i said *what god said:* if he called them gods, and the scripture cant be broken, *then the one the father knows* and sent *tells what is true.* believe the works, that you may know *the father is* in me." they said, "*we did not know,* but everything that john said about this man is true."
 
 The four paragraphs read one after another are the remix of John 10.
-Two more remixes from two more random deals are on the page named john-10-remixes-from-four-random-piles in this folder which holds all three remixes together.
+Two more remixes from two more random deals are on the page named john-10-remixes in this folder which holds all three remixes together.
 
 What the remix showed:
 
@@ -916,7 +916,7 @@ What the opening line rule changed:
 ## Passages for a second input quote about a very large video game
 
 The input quote was "Like Rockstar's CEO said, GTA 6 might be the last game in human history built at this scale, this much time, this much money. AI is getting so much better that even the non-believers are getting converted." and the AI model did not check whether the quote is accurate.
-All seventeen rules applied and added or changed words carry stars and the clean versions without stars are on the page named bible-quote-builder-best-outputs in this folder.
+All seventeen rules applied and added or changed words carry stars and the clean versions without stars are on the page named best-outputs in this folder.
 
 Words of Jesus:
 
@@ -993,7 +993,7 @@ What the closing explanation changed:
 - A reader now gets the point of each passage in everyday words without having to decode the Bible phrases which is the part of the output that comes closest to full marks on the seven sentence rules.
 - A program check confirmed that no word repeats inside any of the six closing explanations.
 - Each closing explanation is an interpretation by the AI model of a passage that the AI model also assembled which means the explanation shows what the AI model meant and does not show what the Bible phrases mean in their own setting.
-- The full paragraphs with the openings and the passages and the closing explanations together are on the page named bible-quote-builder-best-outputs in this folder.
+- The full paragraphs with the openings and the passages and the closing explanations together are on the page named best-outputs in this folder.
 
 ## Charles removed Proverbs from the Charles selection
 
@@ -1116,7 +1116,7 @@ Lines that the check changed:
 - One opening sentence spoke of "friends who lose sight of each other" in a way that implied the speaker and the reader are friends and now says "people who lose sight of each other".
 - Labels on people other than the reader stay where the source has the labels (for example "the least of these my brothers" and "those disciples watched") because those lines describe other people and do not address the reader.
 - A program check confirmed that no word repeats inside the three changed passage bodies.
-- The corrected full paragraphs are on the page named bible-quote-builder-best-outputs in this folder.
+- The corrected full paragraphs are on the page named best-outputs in this folder.
 
 ## Distance rule and story rule: no physical closeness toward the reader and no naming of the audience
 
@@ -1153,7 +1153,7 @@ Lines that the check changed in the three passages about the chart of remote wor
 - "nobody deserves mockery when work disappears" was removed and "ridicule helps nobody" became "i hope that happens" and "laughing at someone losing wages gets everything backward" became "i want those gains shared among workers".
 - "so nobody doing desk work deserves being called little" became "so desk work counts among needed tasks" because the earlier line argued with the wording of the input.
 - One older opening sentence said "joking that my face looks familiar" and now says "saying with a laugh that my face looks familiar".
-- The corrected passages are on the page named bible-quote-builder-best-outputs in this folder.
+- The corrected passages are on the page named best-outputs in this folder.
 
 ## First and Second Corinthians moved into My Personal Bible set
 
@@ -1167,7 +1167,7 @@ The Claude selection gave up its three passages from those two letters (First Co
 
 ## A full check of every public output against all thirty rules
 
-Charles asked for every output on the page named bible-quote-builder-best-outputs to be checked against every rule whenever a rule changes and the AI model made the first full check on the evening of 11 November 2026.
+Charles asked for every output on the page named best-outputs to be checked against every rule whenever a rule changes and the AI model made the first full check on the evening of 11 November 2026.
 
 - Italics were missing from fourteen older paragraphs and their closings (the sets for the "seen you before" input and the video game input and the AI cost input and the random phrase set) and every one now shows added or changed words in italics.
 - Three labels read "attempt 1" without brackets and now match the label form used everywhere else.
@@ -1200,6 +1200,6 @@ The three older Bible programs differ by the size of the piece that the agents c
 
 ## Try the program
 
-- Open this address in a web browser to run the program with a button for each of the three selections: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-key-phrase-evolution-live-program.html
+- Open this address in a web browser to run the program with a button for each of the three selections: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html
 - The address above depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
-- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/bible-key-phrase-evolution-live-program.html
+- The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html

@@ -23,7 +23,7 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 5. The closing is one or two plain sentences that explain what the body just said. Start the closing with a word such as "plainly:" or "meaning:" or "in short:".
 6. Everything is lowercase with no capital letters inside the outputs except the labels.
 7. Put a line that holds only this invisible character between every paragraph so the breaks survive pasting: ⠀
-8. Show every word you added or changed in italics and leave the Bible words upright. The whole opening line and the whole lead-in and the whole closing are italic because you wrote them.
+8. Write the outputs in the chat as plain text with no italics and no bold and no asterisks because I copy the outputs straight into social media and the italics markers paste as asterisk symbols that make the outputs hard to read. Mark added words in italics only when I ask you to save outputs to the page named best-outputs.md in the repository.
 9. Outputs from the Jesus Bible set go inside quote marks and are written as spoken by Christ. The closing stays outside the quote marks.
 10. After the outputs add nothing except a short note when you could not follow a rule or when you did not check a claim in my input.
 
@@ -51,7 +51,7 @@ THE RULES FOR THE MEANING (these matter most)
 - Keep agency with people: write "owners replace staff with machines" and not "automation takes jobs".
 - Do not check or correct facts in my input inside the outputs. If you did not verify a claim in the input then say so in one short note after the outputs.
 
-AN EXAMPLE OF ONE FINISHED OUTPUT (italics are not shown in this plain text)
+AN EXAMPLE OF ONE FINISHED OUTPUT (plain text with no italics which is how every output in the chat should look)
 
 when you thought of a comment that says people could actually end up unemployed now, i thought of these three things:
 
@@ -73,7 +73,7 @@ When you write to me outside the outputs then use no commas at all and give almo
 
 WHERE THE FULL RECORD LIVES
 
-The full rule list with the reason for every rule: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-quote-builder-current-rules.md
-Finished outputs to study as models: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/bible-quote-builder-best-outputs.md
+The full rule list with the reason for every rule: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/rules.md
+Finished outputs to study as models: https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/best-outputs.md
 
 My first request and input follow below.

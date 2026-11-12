@@ -8,21 +8,21 @@ Warning about changed wording in the joined Bible passages: the passages that th
 
 ## Start here
 
-- [bible-quote-builder-best-outputs.md](bible-quote-builder-best-outputs.md) holds only the finished paragraphs with no commentary and the file ending in plain-text.txt holds the same paragraphs for easy copying and the file ending in extra-spacing-plain-text.txt puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
-- [bible-quote-builder-current-rules.md](bible-quote-builder-current-rules.md) lists all thirty rules now in force with the reason for each rule.
-- [bible-quote-builder-prompt-for-a-new-chat-plain-text.txt](bible-quote-builder-prompt-for-a-new-chat-plain-text.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
+- [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named best-outputs-plain.txt holds the same paragraphs for easy copying and the file named best-outputs-spaced.txt puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
+- [rules.md](rules.md) lists all thirty rules now in force with the reason for each rule.
+- [prompt-for-new-chat.txt](prompt-for-new-chat.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
 - The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
 
 ## How the experiment developed
 
-- [bible-quote-builder-how-the-outputs-evolved.md](bible-quote-builder-how-the-outputs-evolved.md) shows one sample output from each stage so that a visitor can watch the outputs change from noise into readable paragraphs as Charles added rules.
-- [bible-key-phrase-evolution.md](bible-key-phrase-evolution.md) is the full record which holds every rule and every passage in the order the rules were added.
-- [bible-selections-word-evolution.md](bible-selections-word-evolution.md) reports the earlier stage where copying agents built strings out of single words from three Bible selections.
-- [john-10-remixes-from-four-random-piles.md](john-10-remixes-from-four-random-piles.md) holds three remixes of John chapter 10 where the chapter was dealt at random into four piles and each pile was turned into one readable paragraph.
+- [how-outputs-evolved.md](how-outputs-evolved.md) shows one sample output from each stage so that a visitor can watch the outputs change from noise into readable paragraphs as Charles added rules.
+- [full-record.md](full-record.md) is the full record which holds every rule and every passage in the order the rules were added.
+- [single-word-stage.md](single-word-stage.md) reports the earlier stage where copying agents built strings out of single words from three Bible selections.
+- [john-10-remixes.md](john-10-remixes.md) holds three remixes of John chapter 10 where the chapter was dealt at random into four piles and each pile was turned into one readable paragraph.
 
 ## Live programs
 
-- The three files that end in live-program.html are the programs for the three methods (copying letters and copying single words and copying key phrases) and each file runs in a web browser after downloading.
+- The three files whose names start with the word program are the programs for the three methods (copying letters and copying single words and copying key phrases) and each file runs in a web browser after downloading.
 - Bible Key Phrases: Claude Selection (an older set of 41 passages): https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
 - Bible Key Phrases: Charles Version (an older set of ten whole books): https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
 - Bible Key Phrases: Jesus Version (the words of Jesus in Matthew and Mark and Luke and John): https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz

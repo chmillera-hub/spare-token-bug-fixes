@@ -3,7 +3,7 @@
 This page shows one sample output from each stage of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs.
 The Bible quote builder is a working name for an experiment where ten copying agents paste pieces of the World English Bible together while a simple reader favors strings that match the Bible and an AI model (Claude) then joins the result by hand under rules that Charles set one at a time.
 Every sample comes from the words of Jesus in the four gospels unless the line says otherwise because following one selection makes the change from stage to stage easy to see.
-Added or changed words carry stars from stage 4 onward and the scores use seven sentence rules from the page named writing-rules-for-clear-chatbot-replies in the folder named writing-rules with a top score of 14.
+Added or changed words carry stars from stage 4 onward and the scores use seven sentence rules from the page named writing-rules in the folder named writing-rules with a top score of 14.
 The AI model graded outputs that the AI model wrote which means the scores are a rough guide and not an outside measurement.
 
 Warning about changed wording: the later samples are not exact Bible quotes because the rules allow added words and swapped pronouns and replaced names and added punctuation and the name "yahweh" is always replaced by the word "god" which means a reader who wants the exact wording needs to open the World English Bible itself.
@@ -73,13 +73,13 @@ Words of Jesus (13 of 14):
 
 - The 201 key phrases of John chapter 10 were dealt at random into four piles and the AI model built one paragraph from every phrase in each pile.
 - Each pile came out as a small version of the whole chapter because the chapter repeats its main ideas and about one word in three had to be added.
-- Three full remixes (twelve paragraphs) are on the page named john-10-remixes-from-four-random-piles in this folder.
+- Three full remixes (twelve paragraphs) are on the page named john-10-remixes in this folder.
 
 ## Side experiment: sixteen random phrases kept in a random order
 
 - Sixteen key phrases were drawn at random from the ten whole books of the Charles selection and shuffled three times and the AI model connected the phrases in the exact shuffled order with no sorting.
 - Each of the three passages reads as a short connected scene and about half of the words in each passage had to be added and the three passages tell three different stories.
-- The three passages are on the page named bible-key-phrase-evolution in this folder in the section about sixteen random phrases.
+- The three passages are on the page named full-record in this folder in the section about sixteen random phrases.
 
 ## Stage 11: every word different and an open vocabulary on random phrases in a random order
 
@@ -107,6 +107,6 @@ Words of Jesus (13 of 14 with 48 different words out of 48 words) from the eight
 
 ## Where the full record is
 
-- The page named bible-key-phrase-evolution in this folder holds every rule and every passage in the order the rules were added.
+- The page named full-record in this folder holds every rule and every passage in the order the rules were added.
 - The page named bible-selections-word-evolution in this folder holds the stage 2 runs with single words.
 - The folder named boring-things at the top of the repository holds the program files for every stage.
