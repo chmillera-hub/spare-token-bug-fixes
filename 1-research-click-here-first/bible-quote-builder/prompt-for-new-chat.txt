@@ -30,7 +30,7 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 
 THE RULES FOR THE WORDS
 
-- Pick the Bible phrases by hand from inside the named Bible set and choose phrases that carry strong feeling in short plain words (for example "How long will you crush me with words?").
+- Inside the passage that the random pick landed on (see the rule named Random starting quote), use the phrases that carry strong feeling in short plain words (for example "How long will you crush me with words?").
 - Keep at least half of the words as the Bible wrote the words: when the body and the closing of one output are counted together no more than 50 percent of the words may be added or changed words (the opening line is not counted). Keep the closing to one short sentence when that is what the limit needs. Count the words before you finish.
 - Use the World English Bible wording and always replace the name "Yahweh" with "God" because I want one word for God. Keep the word "Lord".
 - Words inside a Bible phrase stay in their Bible order. You may add words anywhere around the phrases. You may use almost any English word.
