@@ -40,3 +40,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [crypt-heatmap.md](crypt-heatmap.md) answers a matplotlib forum question with zero replies about showing one value per cell position as colour on a U-shaped drawing (the picture crypt-example.png shows the result).
 - [live-plot-transients.md](live-plot-transients.md) answers the testable parts of a matplotlib forum question with zero replies about a live sensor display that loses fast spikes.
 - [echelon-chosen-columns.md](echelon-chosen-columns.md) answers a SageMath board question with zero answers about row-reducing a matrix so the identity appears on any chosen columns.
+- [lll-gram-identity.md](lll-gram-identity.md) answers a SageMath board question with zero answers about a lattice function that returned an identity matrix (the function returns a change of basis and not a basis).
+- [mock-method-self.md](mock-method-self.md) answers a Python help forum question with zero replies about replacing a method in a test with a stand-in that uses self (three routes tested).
+- [stop-pool-task.md](stop-pool-task.md) answers a Python help forum question with zero replies about stopping a job that is already running in a process pool.
+- [protocol-vs-abc.md](protocol-vs-abc.md) answers a Python help forum question with zero replies about what Protocol classes and ABC classes each enforce (eight small tests).
+- [forward-stdin-stdout.md](forward-stdin-stdout.md) answers a Python help forum question with zero replies about a program that hangs while passing input and output to a child process (the hang was reproduced and repaired).
