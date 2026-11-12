@@ -40,7 +40,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 16. When Charles gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance because Charles wants the builder to respond to a topic and not only to shuffle text.
 
-17. When Charles gives an input quote the passage opens with "when you thought of" plus one keyword or phrase from the input quote plus "i thought of" and the rest of the passage continues that line of thinking because the opening line shows a reader that the passage is a response and not a free-standing Bible quote.
+17. When Charles gives an input quote the passage opens with one sentence in the form "when you thought of ... i thought of ..." and the sentence has no length limit and must give full context which means the first half restates in plain words the part of the input quote being answered and the second half says which Bible material the passage draws on because a reader who has not seen the input quote needs to know what is being answered.
+18. The opening sentence is exempt from the unique word rule and carries no stars because the AI model writes the whole sentence and a clear sentence needs to repeat small words.
 
 ## Rules about harm and about honesty that always apply
 
@@ -113,3 +114,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
+## Outputs under all eighteen rules
+
+The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.

@@ -930,6 +930,46 @@ Claude selection:
 
 - when you thought of 'built at this scale,' i thought of *babel:* the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad. for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
 
+## Full context opening rule: the opening sentence explains what the passage answers
+
+Charles changed the opening line rule for every selection: the opening sentence still uses the form "when you thought of ... i thought of ..." and now has no length limit and must give a reader full context which means the first half restates the part of the input quote being answered in plain words and the second half says which Bible material the passage draws on and why.
+The opening sentence is written by the AI model and carries no stars and is exempt from the unique word rule because a clear sentence needs to repeat small words and the body after the opening sentence still has no repeated word.
+
+Passages for the input quote about a very large video game:
+
+Words of Jesus:
+
+- "when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, i thought of the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for: so the last will be first. heaven and earth *shall* pass away, *yet makers keep pouring;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. friends* of little faith, *ask whom such craft serves, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
+
+Charles selection:
+
+- when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: *those disciples watched,* but some doubted. *nobody gets scolded over* unbelief; *god says,* "*watch me* do a new thing," *while elders* remember former things *long past. every age has its* time to build up, *one for breaking* down, and another generation comes. *still, nothing stays novel* under the sun.
+
+Claude selection:
+
+- when you thought of a game that might be the last thing in human history built at this scale, i thought of the tower of babel, which is the oldest story about people building something enormous together and about what came after: the whole earth *spoke* one language. "now nothing will be withheld which they intend to do." *yet* god scattered them abroad. for *today people* see in part; *once whatever* is complete has come, *giant projects fade.* "*look:* all things *are being made* new," *says a voice;* first *attempts* have passed away.
+
+Passages for the input quote about the cost of developing an AI model:
+
+Words of Jesus:
+
+- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+
+Charles selection:
+
+- when you thought of a price above ten billion dollars for building one thinking machine, i thought of the proverbs that weigh wisdom against gold and of the man who started building and could not finish: *onlookers said,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
+
+Claude selection:
+
+- when you thought of the huge effort of developing a new artificial intelligence model, i thought of the people who built a city and a tower out of brick and of the poem that asks where wisdom can be found: *folk once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
+
+What the full context opening changed:
+
+- A reader who has not seen the input quote can now tell what was said and what the passage is answering because the opening sentence carries both.
+- The opening sentence also names the Bible material that follows (for example the tower of babel or the saying about counting the cost) which tells a reader that the body is built from Bible phrases.
+- The word "cost" returned to the source phrase "and count the cost" in the words of Jesus passage because the opening sentence no longer has to stay free of repeats.
+- The AI model did not check whether either input quote is accurate and the passages are reflections on the topic and not verdicts on any company or any person.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
