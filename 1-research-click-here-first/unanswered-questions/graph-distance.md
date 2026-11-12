@@ -1,5 +1,11 @@
 # Measuring how far apart two graphs drawn in the plane are
 
+## Link to the original question
+
+https://ask.sagemath.org/question/88280/
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) wrote the program and ran the checks in a single chat on 12 November 2026 and no other person has rerun the checks yet which means the page is unconfirmed. The question is open-ended so the page offers one workable approach and not the only correct approach.
 
 ## The question

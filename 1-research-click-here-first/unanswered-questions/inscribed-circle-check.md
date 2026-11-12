@@ -1,5 +1,11 @@
 # Checking a posted script that draws a circle squeezed between two lines and an arc
 
+## Link to the original question
+
+https://discourse.matplotlib.org/t/26068
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the check in a single chat on 12 November 2026 and no other person has rerun the check yet which means the page is unconfirmed.
 
 ## The post

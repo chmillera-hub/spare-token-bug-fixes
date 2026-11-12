@@ -1,5 +1,13 @@
 # Is a four-coordinate formula Lawson's Klein bottle (the checks say torus)
 
+## Link to the original question
+
+https://en.wikipedia.org/wiki/Wikipedia:Reference_desk/Mathematics
+
+The copy of the page that was read turned out to be an old stored copy so the question (a section dated 11 December about the Klein bottle of Lawson) has probably moved into the archive of the help board and may already have an answer there.
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the checks in a single chat on 12 November 2026 and no other person has rerun the checks yet which means the page is unconfirmed.
 
 ## The question

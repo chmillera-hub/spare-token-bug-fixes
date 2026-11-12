@@ -1,5 +1,11 @@
 # A mistake found in a published number list (OEIS A394252)
 
+## Link to the original question
+
+https://oeis.org/A394252
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) did the search and the computing in a single chat on 12 November 2026 and no other person has rerun the work yet which means every result on this page is unconfirmed except the one sum that any reader can check on a calculator.
 
 ## The question

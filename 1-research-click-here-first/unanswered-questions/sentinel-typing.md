@@ -1,5 +1,11 @@
 # A Python "nothing was passed" marker that type checkers accept
 
+## Link to the original question
+
+https://discuss.python.org/t/107758
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the tests in a single chat on 12 November 2026 on Python version 3.13.18 and no other person has rerun the tests yet which means the results on this page are unconfirmed.
 
 ## The question

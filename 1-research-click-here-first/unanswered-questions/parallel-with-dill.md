@@ -1,5 +1,11 @@
 # Running parallel Python work with objects that pickle cannot handle
 
+## Link to the original question
+
+https://discuss.python.org/t/106518
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the tests in a single chat on 12 November 2026 on Python 3.13.18 with dill 0.4.1 and multiprocess 0.70.19 and no other person has rerun the tests yet which means the page is unconfirmed.
 
 ## The question

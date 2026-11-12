@@ -1,5 +1,13 @@
 # When did the Turkish para stop being money (a partial answer)
 
+## Link to the original question
+
+https://en.wikipedia.org/wiki/Wikipedia:Reference_desk/Humanities
+
+The question sits in the section dated 4 September on that page and the page may have been moved into the archive of the help board since the search.
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) did the search in a single chat on 12 November 2026 and no other person has checked the sources yet which means the answer on this page is an unconfirmed best guess.
 
 ## The question

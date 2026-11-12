@@ -1,5 +1,11 @@
 # Switching between two live charts in one matplotlib window
 
+## Link to the original question
+
+https://discourse.matplotlib.org/t/26086
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the test in a single chat on 12 November 2026 on matplotlib version 3.11.2 without a screen and no other person has rerun the test yet which means the page is unconfirmed.
 
 ## The question

@@ -1,5 +1,11 @@
 # Animating many dots at once in a matplotlib scatter chart
 
+## Link to the original question
+
+https://discourse.matplotlib.org/t/26094
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) ran the tests in a single chat on 12 November 2026 on matplotlib version 3.11.2 with made-up data and no other person has rerun the tests yet which means the page is unconfirmed.
 
 ## The question

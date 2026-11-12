@@ -1,5 +1,13 @@
 # Where the screenwriting word "logline" comes from
 
+## Link to the original question
+
+https://en.wiktionary.org/wiki/Wiktionary:Etymology_scriptorium/2024/February
+
+The question sits in the section named logline on that page.
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) did the search in a single chat on 12 November 2026 and no other person has checked the sources yet which means the answer on this page is unconfirmed.
 
 ## The question

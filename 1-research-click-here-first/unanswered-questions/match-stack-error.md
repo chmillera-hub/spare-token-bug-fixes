@@ -1,5 +1,11 @@
 # Why a home-made Python match pattern gives "Invalid CFG, inconsistent stackdepth"
 
+## Link to the original question
+
+https://discuss.python.org/t/109464
+
+Nobody has posted the answer from this page at that link so any reader is free to carry the answer over to the person who asked.
+
 One AI model (Claude) read the Python source code and ran a small check in a single chat on 12 November 2026 and no other person has checked the work yet. The suggested fix was not tested because testing needs a rebuilt copy of Python with the asker's changes which means the fix is an unconfirmed best guess.
 
 ## The question
