@@ -53,6 +53,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 23. No line may describe physical closeness between the speaker and the reader (for example "closeness" or touching or a hand on a shoulder or whispering in an ear or any act that only happens when two people stand right next to each other) because a reader who meets that wording from a stranger pictures an uninvited person in their space and the wording is fine when the closeness happens between characters inside the story.
 24. Passages avoid stepping outside the story to name the audience (for example "listener" or "reader" or "hearer") because the passages are meant to be little stories and a line that points at the audience breaks the story and the opening form "when you thought of ... i thought of ..." stays because that form answers the input quote.
+25. Every word that the AI model added or changed is shown in italics in every output and the whole opening sentence and the whole closing explanation are in italics because the AI model wrote both in full which means the words in plain upright type are the words that come from the Bible phrases and a reader can see at a glance how much of a passage is source and how much is addition.
 
 ## The reasoning behind rules 20 to 24 spelled out
 
@@ -139,6 +140,6 @@ Claude selection with the keyword "developing" (13 of 14 with 69 different words
 
 - when you thought of 'developing,' i thought of *folk who once said,* "lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *today engineers stack billions instead,* but where will wisdom be found? man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, so share freely.*
 
-## Outputs under all twenty-four rules
+## Outputs under all twenty-five rules
 
 The finished paragraphs for both input quotes are on the page named bible-quote-builder-best-outputs in this folder and the versions with stars are on the page named bible-key-phrase-evolution in the section about the full context opening rule.
