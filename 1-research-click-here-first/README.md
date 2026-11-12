@@ -20,7 +20,7 @@ A live page with sliders runs the word evolution experiment in a web browser at 
 
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 
-- bible-quote-builder-how-the-outputs-evolved.md shows one sample output from each of ten stages of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs as Charles added rules.
+- [bible-quote-builder-how-the-outputs-evolved.md](bible-quote-builder-how-the-outputs-evolved.md) shows one sample output from each of ten stages of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs as Charles added rules.
 
 ## Live Bible key phrase programs that open in a web browser
 

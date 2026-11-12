@@ -52,6 +52,7 @@ Warning about changed wording: the later samples are not exact Bible quotes beca
 ## Stage 9: any pronoun may be swapped for a naming word and rarely used names become generic words (13 of 14 on a fresh string)
 
 - "*the man who hears the father* who is in heaven, *that man* is my brother. *the lord says to the man,* 'well done, good and faithful servant,' and give *the kingdom* to *the servant* who has the ten talents. *the man who loves the world more* than me is not worthy of me, and *the man* who doesnt have *love*, even that which he has will be taken away from him. *the father had a son, and the father* sent *the son* last to *the farmers*, saying, '*the farmers* will respect my son.' but the farmers *did not receive the son*. *it will be right* for *two foreign cities* in the judgment with this generation, *because this generation saw the son and did not believe*. *love your father* and your mother; you still lack one thing: *give to the little ones and enter the kingdom*."
+- Pronouns may also be added or deleted anywhere in every selection when the change helps a reader.
 - The source stretch read "he sent him last to them saying they will respect my son" and now names the father and the son and the farmers and the city names "tyre and sidon" became "two foreign cities".
 
 ## Stage 10: a fresh paragraph from each selection under every rule

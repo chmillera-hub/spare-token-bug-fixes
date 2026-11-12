@@ -579,6 +579,15 @@ What the new batch showed:
 - In the words of Jesus passage the phrase "when he comes" became "when the last day comes" and that choice is a guess by the AI model because the stretch alone does not say who or what comes.
 - The closing words "yet the love of the father is greater" follow a line about betrayal and are a choice of the AI model and not part of the source.
 
+## Pronoun rule widened: any pronoun may be added or deleted anywhere in every selection
+
+Charles confirmed that the pronoun freedom covers every selection: the AI model may add a pronoun anywhere and may delete a pronoun anywhere and may swap a pronoun for another pronoun or for a naming word whenever the change makes a passage easier to read.
+Adding pronouns and swapping pronouns were already allowed for every selection and the new part is that a pronoun may now be deleted even when no added name sits beside the pronoun.
+
+- The rule applies to the Claude selection and the Charles selection and the words of Jesus and the single chapters alike.
+- The words of Jesus passages still keep "i" and "me" where the speaker means himself because those passages are read as spoken by Christ.
+- No passage on this page needed a new deletion because the swap rule had already handled every pronoun that blocked a reader and the wider rule will matter in future strings where a leftover pronoun such as a stray "it" has nothing to point at.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
