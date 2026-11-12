@@ -995,6 +995,22 @@ What the closing explanation changed:
 - Each closing explanation is an interpretation by the AI model of a passage that the AI model also assembled which means the explanation shows what the AI model meant and does not show what the Bible phrases mean in their own setting.
 - The full paragraphs with the openings and the passages and the closing explanations together are on the page named bible-quote-builder-best-outputs in this folder.
 
+## Charles removed Proverbs from the Charles selection
+
+Charles removed the book of Proverbs from the Charles selection which now holds nine whole books: Psalms and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
+The selection now has 40721 different key phrases (down from 43651) and every Charles selection result above this section used the ten-book version.
+
+- The special describing words changed because "wise" and "poor" had ranked high mainly through Proverbs and the list is now good and evil and great and wicked and righteous and holy and high and right and blessed and dead and first and mighty.
+- A check confirmed that every phrase in the two Charles selection passages for the input quotes comes from the nine remaining books so the bodies of both passages stay the same.
+- One opening sentence had described its material as "the proverbs that weigh wisdom against gold" and now reads "the old songs and sayings that weigh wisdom against gold" because the phrases in that passage come from Psalms and Ecclesiastes and Isaiah and Luke.
+
+A fresh passage from the nine-book selection (12 of 14) from eight random phrases kept in this drawn order: "his teeth will be set" and "and you taught" and "your pomp is brought down to sheol" and "now that disciple was" and "how long shall i take counsel" and "on every lofty mountain" and "i give you authority to tread" and "and the wizards":
+
+- *whoever eats sour grapes,* his teeth will be set *aching, just as elders* taught. your pomp is brought down *into the grave, proud ruler.* now that disciple was *asking,* "how long shall i take counsel *alone?*" on every lofty mountain *streams begin flowing. heaven gives* you authority to tread *safely past snakes* and *leave* wizards *behind.*
+
+- Closing explanation: roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.
+- The place name "sheol" became "the grave" under the name rule and a program check confirmed that no word repeats inside the passage or inside the closing explanation.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

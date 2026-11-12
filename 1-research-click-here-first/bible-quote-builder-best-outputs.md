@@ -33,7 +33,7 @@ simply said: before spending huge sums, builders should ask whether ordinary peo
 
 Charles selection:
 
-when you thought of a price above ten billion dollars for building one thinking machine, i thought of the proverbs that weigh wisdom against gold and of the man who started building and could not finish: onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines serve hungry neighbors.
+when you thought of a price above ten billion dollars for building one thinking machine, i thought of the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish: onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines serve hungry neighbors.
 
 plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed hungry neighbors.
 
@@ -60,3 +60,9 @@ Words of Jesus:
 Claude selection (second version):
 
 bless every path which you have chosen, and bring a new earth. sorrow tastes like wormwood, bitter as it is today; now pull grief up by its roots. speak the language of all peoples; lead nations away from thick darkness, if they hold understanding.
+
+Charles selection (nine books after Proverbs was removed):
+
+whoever eats sour grapes, his teeth will be set aching, just as elders taught. your pomp is brought down into the grave, proud ruler. now that disciple was asking, "how long shall i take counsel alone?" on every lofty mountain streams begin flowing. heaven gives you authority to tread safely past snakes and leave wizards behind.
+
+roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.

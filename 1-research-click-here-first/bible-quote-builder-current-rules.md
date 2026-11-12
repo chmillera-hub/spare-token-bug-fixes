@@ -10,7 +10,7 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 - The text is the World English Bible because that translation is free for anyone to copy.
 - The Claude selection is 35 passages picked by the AI model from books outside the Charles selection and outside the four gospels (for example Genesis 1 and the tower of Babel in Genesis 11 and Job 28 and First Corinthians 13) and an earlier version with 41 passages was used before 11 November 2026 in the evening.
-- The Charles selection is ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
+- The Charles selection is nine whole books which are Psalms and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans (Charles removed Proverbs on 11 November 2026).
 - The words of Jesus selection is the words that red-letter Bibles print in red in Matthew and Mark and Luke and John.
 - A program cuts the text into key phrases of about four words at punctuation marks and before linking words such as "and" and "for" because a phrase of that size usually makes some sense alone.
 
