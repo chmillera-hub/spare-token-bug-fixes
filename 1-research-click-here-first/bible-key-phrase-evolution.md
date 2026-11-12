@@ -752,6 +752,32 @@ What the unique word rule changed:
 - The rule and the readability rules pull in opposite directions past a certain point because natural English repeats small words such as "the" and "a" and "of" many times and a passage with no repeats starts to read like a telegram.
 - The rule applies to every selection from here on and the older passages on this page were written before the rule.
 
+## Open vocabulary rule: any English word may be added or swapped in to keep every word different
+
+Charles added a rule for all three selections: when the unique word rule would hurt readability the AI model may reach for almost any word in the English language and may replace or delete a repeated word inside a source phrase so that every word in a passage stays different and the passage still reads well.
+Before this rule the added words had to come from the generic list or from the special words of the selection or from the passage itself.
+
+The three eight-phrase passages again under the open vocabulary rule:
+
+First random order (13 of 14 and up from 12 with 53 different words out of 53 words and 49 percent of the words added or changed):
+
+- *lord,* in the day *of trouble* you will show yourself perfect, for *through* this *an old* saying is true: *one cruel son seizes a house* and drives away his mother, *while another* who deals wisely *shall shelter her.* "*blessed are such children,*" *god* says. jesus began to preach *that message* on *every hillside.*
+
+Second random order (13 of 14 and up from 12 with 50 different words out of 50 words and 44 percent of the words added or changed):
+
+- *kindness rests* on *ordinary people,* for in this the saying is true: "you will show yourself perfect *toward anyone merciful.*" jesus began to preach: "*a child* who deals wisely *shall prosper, but one cruel heir grabs every room* and drives away his mother *during her* day *of need,*" he says.
+
+Third random order (13 of 14 and up from 11 with 43 different words out of 43 words and 37 percent of the words added or changed):
+
+- jesus began to preach in the day: "*father,* you will show yourself perfect. *whoever* deals wisely *shall pour kindness* on *strangers. a selfish man hoards* and drives away his mother, for *through* this *one* saying is true: *'greed empties any home,'*" he says.
+
+What the open vocabulary rule changed:
+
+- Every word in all three passages is now different and all three grades rose to 13 because words such as "shelter" and "trouble" and "greed" say exactly what a sentence needs where the short special list had forced clipped wording such as "takes house".
+- Three source words were replaced to remove repeats: the second "in" became "through" in two passages and "in the" became "during her" in one passage and the second "will" became "shall" in all three passages.
+- The passages now hold words that appear nowhere in the Charles selection which means the passages have moved one more step away from the Bible text and toward free writing by the AI model around eight fixed phrases.
+- The share of added or changed words is now about half of each passage and the choice of each outside word (for example "greed" as the cause of the son driving away his mother) is an interpretation by the AI model.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
