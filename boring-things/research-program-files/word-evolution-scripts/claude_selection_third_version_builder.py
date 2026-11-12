@@ -1,4 +1,4 @@
-# Third Claude selection (no passages from First or Second Corinthians): passages picked by the AI model from books outside the ten books Charles picked
+# Third Claude selection (no passages from First or Second Corinthians): passages picked by the AI model from books outside the ten books the repository owner picked
 # and outside the four gospels, cut into key phrases, with the name "yahweh" replaced by "god".
 import json,sys
 src=open('phrase_build.py').read();exec(src[:src.index('# 1 Claude selection')])

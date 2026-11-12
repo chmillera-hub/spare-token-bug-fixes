@@ -46,12 +46,12 @@ def from_json(sel):
 src=open('bible_build.py').read();a=src.index('SEL=[');b=src.index(']',src.index("('revelation'"))+1
 exec(src[a:b])
 u=pack(from_json(SEL),'ph_mine.json')
-# 2 Charles selection: ten whole books
+# 2 personal selection: ten whole books
 sel=[]
 for bk in BOOKS:
     d=json.load(open(J+bk+'.json',encoding='utf-8'))
     for ch in sorted({x['chapterNumber'] for x in d if 'chapterNumber' in x}): sel.append((bk,BOOKS[bk],ch,1,999))
-pack(from_json(sel),'ph_charles.json')
+pack(from_json(sel),'ph_personal.json')
 # 3 words of Jesus in the four gospels
 x=open('/home/claude/dl/ob/eng-web.usfx.xml',encoding='utf-8').read();NAMES={'MAT':'Matthew','MRK':'Mark','LUK':'Luke','JHN':'John'}
 secs=[];book=None;ch=None

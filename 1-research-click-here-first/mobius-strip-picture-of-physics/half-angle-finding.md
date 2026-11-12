@@ -66,4 +66,4 @@ The program is named half_angle_from_directions.py and sits in the folder boring
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the test and wrote this page at the request of Charles.
+An AI chatbot (Claude) ran the test and wrote this page.

@@ -1,6 +1,6 @@
 # Bible quote builder: corrections
 
-This page lists lines that an AI model (Claude) wrote for the Bible quote builder and that Charles flagged as wrong on 11 November 2026 and 12 November 2026. Each entry shows the line before the fix and the line after the fix and the reason for the fix. The page exists because two lines that both sound caring can differ in whether the line helps or hurts a reader and a matched pair shows where the edge is.
+This page lists lines that an AI model (Claude) wrote for the Bible quote builder and that the repository owner flagged as wrong on 11 November 2026 and 12 November 2026. Each entry shows the line before the fix and the line after the fix and the reason for the fix. The page exists because two lines that both sound caring can differ in whether the line helps or hurts a reader and a matched pair shows where the edge is.
 
 The quoted lines keep their own punctuation. The numbers in brackets point to the rule on the page named rules.md in this folder.
 
@@ -134,7 +134,7 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** The baby came first and the town owed a bed, so I hope landlords open rooms.  
 **Why:** the first line ranks a house above a child and the second line says the duty to provide sits with the town.
 
-## Hopes name what other people do and never promise anything for Charles [rules 43 and 48]
+## Hopes name what other people do and never promise anything for the repository owner [rules 43 and 48]
 
 **Before:** I hope things get better  
 **After:** I hope employers offer wages big enough for homes.  
@@ -142,15 +142,15 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 
 **Before:** I hope to bring food to anyone welcoming a child.  
 **After:** I hope neighbors bring food to anyone welcoming a child.  
-**Why:** the first line makes a promise in the name of Charles who is one person sharing Bible quotes and who does not have food or money or time to hand out.
+**Why:** the first line makes a promise in the name of the repository owner who is one person sharing Bible quotes and who does not have food or money or time to hand out.
 
 **Before:** I will keep asking builders to choose that.  
 **After:** I hope builders choose that.  
-**Why:** the first line commits Charles to a task that Charles never took on.
+**Why:** the first line commits the repository owner to a task that the repository owner never took on.
 
 **Before:** I hope to carry what you wrote to other people so that weight gets heard.  
 **After:** I hope someone who sees your words answers you.  
-**Why:** the first line still says what Charles will do later and the second line names what another person could do.
+**Why:** the first line still says what the repository owner will do later and the second line names what another person could do.
 
 ## No cliffhangers [rule 47]
 

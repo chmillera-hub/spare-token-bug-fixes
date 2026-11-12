@@ -2,7 +2,7 @@ BIBLE QUOTE BUILDER: BEST OUTPUTS
 
 ⠀
 
-These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles. They are not exact Bible quotes. The second paragraph under each remix is a plain explanation written by the AI model. This copy has no italics and has an invisible spacing character between paragraphs for easy pasting.
+These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by the repository owner. They are not exact Bible quotes. The second paragraph under each remix is a plain explanation written by the AI model. This copy has no italics and has an invisible spacing character between paragraphs for easy pasting.
 
 ⠀
 
@@ -310,7 +310,7 @@ INPUT: "i don’t know why people are shocked that gen z don’t enjoy work. bac
 
 ⠀
 
-The public link to the chat that made these three outputs is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and the link is kept here because Charles asked for the chat to be recorded beside the outputs.
+The public link to the chat that made these three outputs is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and the link is kept here because the repository owner asked for the chat to be recorded beside the outputs.
 
 ⠀
 

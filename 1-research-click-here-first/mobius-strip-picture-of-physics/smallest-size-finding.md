@@ -41,4 +41,4 @@ The program is named smallest_paper_strip.py and sits in the folder boring-thing
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the check and wrote this page at the request of Charles.
+An AI chatbot (Claude) ran the check and wrote this page.

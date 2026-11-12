@@ -1,6 +1,6 @@
 # Bible quote builder: best outputs
 
-These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
+These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by the repository owner and the paragraphs are not exact Bible quotes.
 Words in italics were added or changed by the AI model and words in upright type come from the Bible phrases.
 The second paragraph under each remix is a plain explanation written by the AI model and the file named best-outputs-spaced.txt in this folder holds the same text without italics for copying.
 
@@ -162,7 +162,7 @@ From the Jesus Bible set:
 
 ## Input: "i don’t know why people are shocked that gen z don’t enjoy work. back in the day work was to let you buy a home, travel and set up a few nice things for yourself. would you feel the same way about work if it lead to none of the above?"
 
-The public link to the chat that made these three outputs is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and the link is kept here because Charles asked for the chat to be recorded beside the outputs.
+The public link to the chat that made these three outputs is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and the link is kept here because the repository owner asked for the chat to be recorded beside the outputs.
 
 *When you thought of a comment that says people dont enjoy work when work no longer buys a home or travel or a few nice things, I thought of these three things:*
 

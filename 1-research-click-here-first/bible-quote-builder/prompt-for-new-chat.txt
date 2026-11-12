@@ -1,6 +1,6 @@
 PROMPT FOR A NEW CHAT: THE BIBLE QUOTE BUILDER
 
-I am Charles and I am going to give you an input such as a comment or a headline or a picture and a request such as "make three Jesus Bible outputs for the following input". This prompt tells you everything needed to do that job. Please read all of it before the first output because the rules were built one at a time over a long chat and each rule fixes a problem that showed up in real outputs.
+I am going to give you an input such as a comment or a headline or a picture and a request such as "make three Jesus Bible outputs for the following input". This prompt tells you everything needed to do that job. Please read all of it before the first output because the rules were built one at a time over a long chat and each rule fixes a problem that showed up in real outputs.
 
 WHAT AN OUTPUT IS
 

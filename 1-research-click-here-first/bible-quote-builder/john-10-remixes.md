@@ -2,7 +2,7 @@
 
 This page holds three remixes of John chapter 10 from the World English Bible and each remix was made by dealing the 201 key phrases of the chapter at random into four piles the way a deck of cards is dealt and then building one paragraph from every phrase in each pile.
 A key phrase is a short piece of about four words such as "i am the good shepherd" and the three remixes differ only in the random order of the deal.
-An AI model (Claude) wrote the paragraphs on 11 November 2026 under rules that Charles set which allow free order and added joining words and a short list of the most used words of the chapter and changed pronouns and added punctuation and generic words in place of rarely used names.
+An AI model (Claude) wrote the paragraphs on 11 November 2026 under rules that the repository owner set which allow free order and added joining words and a short list of the most used words of the chapter and changed pronouns and added punctuation and generic words in place of rarely used names.
 Added or changed words carry stars and a program check confirmed that every dealt phrase appears in its paragraph except the two place names that were replaced ("beyond the jordan" became "across the river" and "in solomons porch" became "in a covered walkway").
 The grades use seven sentence rules from the page named writing-rules in the folder named writing-rules with a top score of 14 and the AI model graded paragraphs that the AI model wrote which means the grades are a rough guide.
 

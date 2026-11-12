@@ -4,22 +4,22 @@ These notes let a new AI session (or a person) continue the shelf without the ea
 
 ## Layout of the whole project (changed on 11 November 2026)
 
-Charles asked for a front page that shows only two folders so that a visitor is not put off by a long list of files.
+The repository owner asked for a front page that shows only two folders so that a visitor is not put off by a long list of files.
 
-- The top of the project holds only README.md and the folder 1-research-click-here-first and the folder boring-things. Do not add any other file or folder at the top. The research folder name starts with the digit 1 because GitHub lists folders in alphabet order and Charles asked for the research folder to show first.
+- The top of the project holds only README.md and the folder 1-research-click-here-first and the folder boring-things. Do not add any other file or folder at the top. The research folder name starts with the digit 1 because GitHub lists folders in alphabet order and the repository owner asked for the research folder to show first.
 - The folder 1-research-click-here-first holds things a person can read or watch or play with (documents and findings and videos and live pages). Every item in that folder needs one sentence in 1-research-click-here-first/README.md that says what the item contains.
-- Inside 1-research-click-here-first each project with more than one file has its own folder (bible-quote-builder and word-evolution and voynich-manuscript and writing-rules and mobius-strip-picture-of-physics) and each of those folders has a README.md with one sentence per item while a project with a single page stays as a single page in 1-research-click-here-first. Charles asked for this grouping on 11 November 2026 so that a visitor sees projects and not a long list of files.
+- Inside 1-research-click-here-first each project with more than one file has its own folder (bible-quote-builder and word-evolution and voynich-manuscript and writing-rules and mobius-strip-picture-of-physics) and each of those folders has a README.md with one sentence per item while a project with a single page stays as a single page in 1-research-click-here-first. The repository owner asked for this grouping on 11 November 2026 so that a visitor sees projects and not a long list of files.
 - The folder boring-things holds program files and patch files and machine-readable lists. The whole bug fix shelf lives in boring-things/bug-fixes and these handoff notes live there too.
 - Every path in the rest of these notes (fixes/ and tools/ and video/ and README.md and index.json and llms.txt) is relative to the folder boring-things/bug-fixes.
 - The top README.md is written by hand and tools/build_shelf.py does not touch the top README.md. Update the fix count in the top README.md and in 1-research-click-here-first/free-bug-fixes-video.md by hand when fixes are added.
 - Run the rebuild as: python3 boring-things/bug-fixes/tools/build_shelf.py new PATH_TO_THIS_PROJECT (the program finds the folder boring-things/bug-fixes without help).
-- Charles said on 11 November 2026 that only material he has approved may be added to the research folder. Material from his other chats stays out of this public project until Charles has checked that material for personal information and has said yes. Ask Charles before adding anything from another chat.
-- Charles set a standing rule on 11 November 2026 for the chat that produced the research pages: after each answer in that chat anything useful to another researcher goes into the research folder and irrelevant material stays out.
+- The repository owner said on 11 November 2026 that only material he has approved may be added to the research folder. Material from his other chats stays out of this public project until the repository owner has checked that material for personal information and has said yes. Ask the repository owner before adding anything from another chat.
+- The repository owner set a standing rule on 11 November 2026 for the chat that produced the research pages: after each answer in that chat anything useful to another researcher goes into the research folder and irrelevant material stays out.
 - Open work after the move: the website copy in chmillera-hub/game1 still links to the old addresses of the patch files and needs one rebuild with the g1 mode. The video screens still say fixes/ and index.json and llms.txt without the folder boring-things/bug-fixes and tools/video_cards.py needs that text changed before the next video is built.
 
 ## What the shelf is
 
-Charles spends leftover weekly AI subscription allowance on small open bug reports in public projects. An AI model writes a small fix for each bug. The fixes are NOT sent to the projects. The fixes are published here so any person or AI can test a fix and send the fix on.
+The repository owner spends leftover weekly AI subscription allowance on small open bug reports in public projects. An AI model writes a small fix for each bug. The fixes are NOT sent to the projects. The fixes are published here so any person or AI can test a fix and send the fix on.
 
 - Main home: https://github.com/chmillera-hub/spare-token-bug-fixes/tree/main/boring-things/bug-fixes (branch main)
 - Website copy: https://chmillera-hub.github.io/game1/spare-token-bug-fixes/ (built from the folder spare-token-bug-fixes in the project chmillera-hub/game1 on its default branch claude/word-equation-game-Dju9I)
@@ -46,28 +46,28 @@ Charles spends leftover weekly AI subscription allowance on small open bug repor
 
 ## How to make the video
 
-Charles posts a video of the shelf on social media so a person or a chatbot who sees the video can find a fix and send the fix on. Rebuild the video whenever fixes were added.
+The repository owner posts a video of the shelf on social media so a person or a chatbot who sees the video can find a fix and send the fix on. Rebuild the video whenever fixes were added.
 
 1. Finish the shelf first: every new fix has its entry in tools/shelf-data.json. The video reads that file.
 2. Make sure python3 has Pillow and NumPy and that ffmpeg is installed.
 3. Run: bash tools/build_video.sh SOME_EMPTY_WORK_FOLDER OUTPUT.mp4 (name the output after the number of fixes: for example 121-free-bug-fixes-fast.mp4).
 4. Look at three frames before sending: the first frame and one fix screen and the closing screen. ffmpeg -ss SECONDS -i OUTPUT.mp4 -frames:v 1 frame.png grabs one frame.
-5. Send the file to Charles in the chat.
+5. Send the file to the repository owner in the chat.
 6. Store a copy on the shelf so people can share the video: copy the file to video/free-bug-fixes.mp4 (always the same name so a shared link keeps working) and write the number of fixes into video/fix-count.txt and run python3 tools/build_shelf.py new PATH_TO_THIS_PROJECT and commit and push. The front page and llms.txt link to the video only when video/fix-count.txt exists. Each new copy adds about 20 megabytes to the history of the project. GitHub refuses a single file over 100 megabytes.
 
 What the build script makes and why:
 
-- Portrait 1080 by 1920 at 30 frames per second. Why: Charles posts the video on phones.
-- An opening screen for 3 seconds with the shelf address and five steps for using a fix. Then one screen per fix in order for 1.5 seconds each. Then a closing screen for 3 seconds. Why 1.5 seconds: Charles asked for that length because a chatbot reads the frames fast. A person has to pause to read a screen.
+- Portrait 1080 by 1920 at 30 frames per second. Why: the repository owner posts the video on phones.
+- An opening screen for 3 seconds with the shelf address and five steps for using a fix. Then one screen per fix in order for 1.5 seconds each. Then a closing screen for 3 seconds. Why 1.5 seconds: the repository owner asked for that length because a chatbot reads the frames fast. A person has to pause to read a screen.
 - Straight cuts between screens with no scroll. Why: a fast scroll made the file four times larger and gave blurred in-between frames.
 - The first frame is the opening screen with no fade from black. Why: social media previews show the first frame.
 - Each fix screen shows the fix number and the project and the bug report number and the title and what is wrong and what the fix changes and the patch file name and a three-line warning (written by an AI chatbot and not reviewed and not tested in the project and not sent). The note field with the limits of each fix is not on the screen: the fix pages hold the notes.
 - Music: tools/video_music.py makes soft chords and a plucked pattern from scratch. No existing song or recording is used. Why: a video with someone else's music can be taken down.
-- Small file: one encode of still screens (libx264 with crf 31 and the stillimage tune) and 48 kbit audio. 121 fixes gave 3 minutes 8 seconds and about 8.4 megabytes. Why: Charles wants the smallest file that keeps the text sharp so uploads are fast.
+- Small file: one encode of still screens (libx264 with crf 31 and the stillimage tune) and 48 kbit audio. 121 fixes gave 3 minutes 8 seconds and about 8.4 megabytes. Why: the repository owner wants the smallest file that keeps the text sharp so uploads are fast.
 
-Limits to tell Charles each time: nobody listened to the music (the script only measures loudness when asked) and the screens leave out the notes of each fix.
+Limits to tell the repository owner each time: nobody listened to the music (the script only measures loudness when asked) and the screens leave out the notes of each fix.
 
-Changing the video: the seconds per fix are the two duration lines in tools/build_video.sh. The look of the screens is in tools/video_cards.py (the text shrinks by itself until a fix fits on one screen). An older slow version (5 seconds per fix with a scroll between fixes and about 30 megabytes for 101 fixes) was replaced by this fast version at Charles's request.
+Changing the video: the seconds per fix are the two duration lines in tools/build_video.sh. The look of the screens is in tools/video_cards.py (the text shrinks by itself until a fix fits on one screen). An older slow version (5 seconds per fix with a scroll between fixes and about 30 megabytes for 101 fixes) was replaced by this fast version at the repository owner's request.
 
 ## Rules for choosing bug reports
 
@@ -218,7 +218,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the fifth session of 2026-11-10 (fixes 122 to 171)
 
-- The first request for push access in this session was refused by a safety check because Charles had not yet asked for publishing in his own words. After Charles wrote put them on the Shelf the same request went through. Lesson: when push access is refused finish the work locally and hand Charles a zip file and ask Charles to say plainly that the fixes should go on GitHub.
+- The first request for push access in this session was refused by a safety check because the repository owner had not yet asked for publishing in his own words. After the repository owner wrote put them on the Shelf the same request went through. Lesson: when push access is refused finish the work locally and hand the repository owner a zip file and ask the repository owner to say plainly that the fixes should go on GitHub.
 - Fifty fixes were added with one new search. The search gave almost no new projects so the fixes came from five projects already on the shelf: hslee16/Archy (122 to 125) and awslabs/social-messaging-agent-runtime-toolkit (126 to 131) and Sh1n1230/security-checker (132 to 137 and 142 to 171) and Pranayd555/codelens-graph (138 to 140) and himanshu748/devswarm (141).
 - A fast source of small clear reports: Sh1n1230/security-checker has about 500 open reports. Reports 537 to 596 each name one function with untested lines (title: 未テストの分岐をテストする). Each one takes a new small test file. Put every test in its own new file so the patches never collide. The line numbers in those reports come from an older commit so read the function first: in report 589 the code had changed from a warning to an exception.
 - Still open from that series and not looked at: 537 and 540 and 547 and 548 and 554 to 558 and 559 and 560 and 563 to 569 and 571 to 576 and 582 and 586 to 588 and 591 to 593. Also not looked at: the third to fifth page of the security-checker list.
@@ -242,7 +242,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the seventh session of 2026-11-10 (fixes 272 to 297)
 
-- Charles asked for a flat 500 fixes. This session added 26 and the shelf holds 297. 203 more are needed for 500. The work stopped because each fix took a lot of reading and not because the reports ran out.
+- The repository owner asked for a flat 500 fixes. This session added 26 and the shelf holds 297. 203 more are needed for 500. The work stopped because each fix took a lot of reading and not because the reports ran out.
 - Push access to chmillera-hub/game1 was refused by a safety check in this session. The website copy still holds 271 fixes. Next session: ask for push access to game1 again and run python3 tools/build_shelf.py g1 PATH_TO_GAME1_PROJECT and push.
 - GitHub answered the third search with the secondary rate limit. Two saved searches gave 166 reports. Most of them carry a claim rule or ask for a feature.
 - New helper: tools/add_fixes.py BATCH.json. A batch is a JSON list. Each item names a clone folder (repo) and the project and the report number and new files (files: path to content) and edits (path and old text and new text) and the shelf texts. The helper applies the change and checks syntax and saves the patch and resets the clone and runs git apply --check and adds the shelf entry. The paths at the top of the helper (SHELF and REPOS and the two saved search files) must be changed to the folders of the new session. The helper keeps Windows line endings: the bitwarden converter project stores convert.py and README.md with CRLF and a patch with plain line endings does not apply there.
@@ -254,7 +254,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the eighth session of 2026-11-10 (fixes 298 to 325)
 
-- The shelf holds 325 fixes. Charles asked for a flat 500 so 175 more are needed.
+- The shelf holds 325 fixes. The repository owner asked for a flat 500 so 175 more are needed.
 - All 28 fixes of this session are for Sh1n1230/security-checker. 27 of them answer reports from the ranges 161 to 337 and 433 to 466 and 597 to 701 (not test-only reports): 460 211 304 192 266 317 206 227 463 187 332 294 254 441 459 328 305 235 221 228 271 200 290 207 701 598 601. One more is test-only (576). Among the 27: 228 changes only help text and 254 changes one workflow line.
 - All 28 patches apply one after another except fix 321 (report 207) which collides with fix 304 (report 206): both change main in cli.py.
 - Push access to chmillera-hub/game1 was refused again. The website copy still holds 271 fixes.
@@ -265,7 +265,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the ninth session of 2026-11-10 (fixes 326 to 340)
 
-- The shelf holds 340 fixes. Charles asked for a flat 500 so 160 more are needed.
+- The shelf holds 340 fixes. The repository owner asked for a flat 500 so 160 more are needed.
 - 15 fixes in this session. Three are for projects new to the shelf: buckai-observatory/DL_bathy 37 (fix 326) and endavis/bastproxy 307 (fix 327) and embeddedos-org/eDB 108 (fix 328). Twelve are for Sh1n1230/security-checker: reports 209 214 613 597 624 648 670 671 196 249 330 276.
 - Patches that do not apply together: 330 with 307 (providers_check in cli.py) and 339 with 338 (action.yml and docs/github-actions.md). Fix 321 with 304 was already noted.
 - Two saved searches of this session gave 62 short unclaimed reports (the file is not on the shelf). Leads from them that nobody has started: binlai06/ai-quality-poc 7 and 8 (license not checked) and daytona/clients 563 to 565 and PuzzleTechHub/bot-be-named 443 and awslabs/visual-asset-management-system 1267 1268 1270 and jesdi/agent-ops 308 and endavis/bastproxy 305.
@@ -276,7 +276,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the tenth session of 2026-11-10 (fixes 341 to 353)
 
-- The shelf holds 353 fixes. Charles asked for a flat 500 so 147 more are needed.
+- The shelf holds 353 fixes. The repository owner asked for a flat 500 so 147 more are needed.
 - 13 fixes in this session. Eleven are for projects other than security-checker: jesdi/agent-ops 308 (343) and PuzzleTechHub/bot-be-named 443 (344) and liualt/loqctl 258 and 259 (345 and 352: GPL-3.0) and EJRyan89/coding-agent-skills 2544 2530 2540 2527 2524 2536 (346 347 349 350 351 353) and pymor/pymor 2677 (348: BSD-2-Clause). Two are for Sh1n1230/security-checker: 682 (341) and 659 (342).
 - New way to write a fix: tools/add_fixes.py accepts cmds in an item (a list of commands run inside the clone before the patch is saved). Fix 341 used the ruff linter that way: ruff applied its own fix for one rule and ruff format tidied the result. The linter reads the files and does not run the project's code. Other lint-rule reports of security-checker (679 684 689 691 693) may be solvable the same way.
 - EJRyan89/coding-agent-skills holds many small reports titled as twins of earlier fixes. Each names the file and the line and the expected behaviour. Not started: 2522 2531 2533 2534 2541 2542 2545 2546 2563 2564. The line length limit of that project is 120.
@@ -285,7 +285,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 
 ## Notes from the eleventh session of 2026-11-10 (fixes 354 to 363)
 
-- The shelf holds 363 fixes. Charles asked for a flat 500 so 137 more are needed.
+- The shelf holds 363 fixes. The repository owner asked for a flat 500 so 137 more are needed.
 - 10 fixes in this session. Six are for projects new to the shelf: DeckCheatz/wemod-launcher 337 (358: AGPL-3.0) and fitbenchmarking/fitbenchmarking 1804 (359) and jupyterlab/jupyter-builder 201 (360) and Nixtla/neuralforecast 1693 (361) and geoff-davis/aiogzip 176 (362) and CERTCC/Vultron 6187 (363). One is for EJRyan89/coding-agent-skills 2533 (357). Three are lint-rule reports of Sh1n1230/security-checker: 691 (354) and 689 (355) and 693 (356).
 - A search that found very small bugs: label:bug with the word typo in the title (language python and no assignee and no comments). The first page gave four one-line fixes. More pages and other languages are untried.
 - tools/add_fixes.py now reads report titles from every file named cands*.json in the search folder.

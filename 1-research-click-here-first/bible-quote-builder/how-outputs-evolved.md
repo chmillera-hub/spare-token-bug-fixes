@@ -1,7 +1,7 @@
 # How the outputs of the Bible quote builder evolved step by step
 
 This page shows one sample output from each stage of the Bible quote builder so that a visitor can watch the outputs change from noise into readable paragraphs.
-The Bible quote builder is a working name for an experiment where ten copying agents paste pieces of the World English Bible together while a simple reader favors strings that match the Bible and an AI model (Claude) then joins the result by hand under rules that Charles set one at a time.
+The Bible quote builder is a working name for an experiment where ten copying agents paste pieces of the World English Bible together while a simple reader favors strings that match the Bible and an AI model (Claude) then joins the result by hand under rules that the repository owner set one at a time.
 Every sample comes from the words of Jesus in the four gospels unless the line says otherwise because following one selection makes the change from stage to stage easy to see.
 Added or changed words carry stars from stage 4 onward and the scores use seven sentence rules from the page named writing-rules in the folder named writing-rules with a top score of 14.
 The AI model graded outputs that the AI model wrote which means the scores are a rough guide and not an outside measurement.
@@ -61,7 +61,7 @@ Claude selection of 41 well-known passages (13 of 14):
 
 - *lord god,* in all the earth you have set your *light, and* you have put all things under *the* feet *of man:* all sheep *and every living thing*. *keep what is holy, and* neither throw your pearls before the pigs. *whatever a man says more* than *what is right* is of the evil one. you have heard that it was said, "you shall not commit adultery," but i tell you, love your enemies, *because* a good tree cant produce evil fruit, neither can a corrupt *tree make good fruit*. *blessed are the righteous* for righteousness sake, for theirs is the kingdom of heaven; *not the man who says "lord,"* but he who does the will of my father who is in heaven, for *the father* makes his sun to rise *on the evil and the good*.
 
-Charles selection of ten whole books (11 of 14):
+personal selection of ten whole books (11 of 14):
 
 - the assembly of the elders of the people were gathered together in jerusalem, because you have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
 
@@ -77,7 +77,7 @@ Words of Jesus (13 of 14):
 
 ## Side experiment: sixteen random phrases kept in a random order
 
-- Sixteen key phrases were drawn at random from the ten whole books of the Charles selection and shuffled three times and the AI model connected the phrases in the exact shuffled order with no sorting.
+- Sixteen key phrases were drawn at random from the ten whole books of the personal selection and shuffled three times and the AI model connected the phrases in the exact shuffled order with no sorting.
 - Each of the three passages reads as a short connected scene and about half of the words in each passage had to be added and the three passages tell three different stories.
 - The three passages are on the page named full-record in this folder in the section about sixteen random phrases.
 
@@ -87,7 +87,7 @@ Claude selection (12 of 14 with 58 different words out of 58 words) from the eig
 
 - *mercy walks* before *every traveler, so* that he *who stumbles finds welcome.* whoever shall put away his wife *must first weigh her sorrow.* if only you, god, *would soften hard hearts!* ask of *your* father *plainly,* for *proud people* think *louder prayers win; anything showier* than these *quiet words* is *from* the evil one. dont sound a trumpet.
 
-Charles selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
+personal selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
 
 - *villagers* were exceedingly astonished: "who are these *strangers?*" "whatever you will ask," *came one reply* from a far country, "yes, and *true* spirit of justice to *any judge.*" his disciples asked him about the parable. "*people hoped* for *fairness,* but behold, oppression *arrived instead; stand alongside* those *crushed.*"
 

@@ -19,7 +19,7 @@ The folder named [1-research-click-here-first](1-research-click-here-first) hold
 - [Unanswered questions](1-research-click-here-first/unanswered-questions) holds a checkable mistake found in a published number list (OEIS A394252) and a partial answer about when the Turkish para coin stopped being money and sixty-four more answered questions (a medical first-case claim and the word logline and forty-five programming questions and seventeen mathematics questions).
 - [Free bug fixes video](1-research-click-here-first/free-bug-fixes-video.md) points to a short video that shows 363 small ready-made bug fixes for public software projects.
 
-- [Record of the chat behind the research](1-research-click-here-first/chat-record.md) lists every request Charles made in his own words and gives the public link to the full chat: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
+- [Record of the chat behind the research](1-research-click-here-first/chat-record.md) lists every request the repository owner made in his own words and gives the public link to the full chat: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
 
 ## boring-things
 
@@ -30,4 +30,4 @@ The folder named [boring-things](boring-things) holds program files and patch fi
 
 ## Who made the pages
 
-An AI chatbot (Claude) wrote the pages and the bug fixes at the request of Charles and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.
+An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.

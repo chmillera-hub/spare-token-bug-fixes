@@ -1,8 +1,8 @@
 # Agents that rebuild the Bible out of chopped key phrases
 
-Warning about a wording change: Charles replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps Charles follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
+Warning about a wording change: the repository owner replaces the name "yahweh" with the word "god" everywhere in the Bible programs and in the newer results as a personal reading choice that helps the repository owner follow the quotes which means the quotes differ from the World English Bible at every place where the World English Bible prints the name and a reader who wants the original wording can open the World English Bible itself.
 
-Warning about changed wording in the joined Bible passages: the passages that the AI model joined by hand for the Claude selection and the Charles selection and the words of Jesus are not exact Bible quotes because Charles set rules that allow pronouns such as "he" and "him" and "they" to be deleted or swapped for naming words and allow rarely used names such as the names of little-known cities to be replaced with generic words and allow the word "the" and punctuation marks to be added or removed which means a reader who wants the exact wording needs to open the World English Bible itself.
+Warning about changed wording in the joined Bible passages: the passages that the AI model joined by hand for the Claude selection and the personal selection and the words of Jesus are not exact Bible quotes because the repository owner set rules that allow pronouns such as "he" and "him" and "they" to be deleted or swapped for naming words and allow rarely used names such as the names of little-known cities to be replaced with generic words and allow the word "the" and punctuation marks to be added or removed which means a reader who wants the exact wording needs to open the World English Bible itself.
 
 This page reports an experiment where a program chopped parts of the World English Bible into short key phrases and ten copying agents then tried to put pieces of the text back together.
 An AI model (Claude) ran the test on 11 November 2026 and no other person has rerun the test yet which means every result here is a single unconfirmed analysis.
@@ -17,7 +17,7 @@ An AI model (Claude) ran the test on 11 November 2026 and no other person has re
 ## The three selections
 
 - Claude selection: 2342 different key phrases from 41 well-known passages.
-- Charles selection: 43694 different key phrases from ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
+- personal selection: 43694 different key phrases from ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
 - Words of Jesus: 7463 different key phrases from the words that red-letter Bibles print in red in Matthew and Mark and Luke and John.
 
 ## How the experiment works
@@ -36,7 +36,7 @@ Claude selection (about 23 of 24 phrases per agent sat inside a rebuilt stretch)
 - [Matthew 6] neither do they spin yet i tell you that even solomon in all his glory was not dressed like one of these
 - [John 15] i command these things to you that you may love one another
 
-Charles selection (about 18 of 24 phrases per agent sat inside a rebuilt stretch):
+personal selection (about 18 of 24 phrases per agent sat inside a rebuilt stretch):
 
 - [Psalm 10] and the fatherless break the arm of the wicked
 - [Jeremiah 29] when you search for me
@@ -60,7 +60,7 @@ Words of Jesus (about 22 of 24 phrases per agent sat inside a rebuilt stretch):
 - The longest rebuilt stretch in every selection was 6 key phrases in a row which is about 25 words.
 - Some rebuilt stretches jump between two places in the Bible at a phrase that occurs in both places such as "i tell you" or "jesus said to him" which produced blends such as "the lord your vows but i tell you love your enemies" and "but there yahweh will be with us jesus said to him you shall love the lord your god".
 - The jumps happen because the reader checks one pair of neighbors at a time and a common phrase has many true neighbors.
-- The large Charles selection rebuilt less (18 phrases against 22 or 23) because the chance that a random phrase is the true neighbor of another phrase falls as the list grows.
+- The large personal selection rebuilt less (18 phrases against 22 or 23) because the chance that a random phrase is the true neighbor of another phrase falls as the list grows.
 - The key phrase version ran about 2400000 to 2900000 pastes per second on the test machine which is faster than the word version.
 
 ## One agent per selection from a second run with generic words added by hand
@@ -72,7 +72,7 @@ Claude selection (all eleven stretches came from Matthew 5):
 
 - for they shall inherit the earth blessed are those *here* for great is your reward in heaven *and those* who are in the house *with him* who is in heaven for that is how *and so* to the ancient ones you shall not make false vows but i tell you dont swear *at him* who is angry with his brother while you are with him on the way *there so* pluck it out and throw it away for it is more profitable for you *than those others* if anyone sues you to take away your coat
 
-Charles selection (stretches from Psalm 24 and Psalm 89 and Proverbs 8 and Isaiah 52 and Matthew 9 and Matthew 12):
+personal selection (stretches from Psalm 24 and Psalm 89 and Proverbs 8 and Isaiah 52 and Matthew 9 and Matthew 12):
 
 - and those who were before you in that day says yahweh of armies yahweh says *to them* before your face who will prepare your way before you most certainly i tell you *this* by the way for the sword of the enemy *over there and* from there says yahweh with the sword *to those others* and sinners jesus answered them i told you *so when* they asked him what then are you elijah he said *that to them*
 
@@ -88,14 +88,14 @@ What the joined key phrase strings show:
 
 ## The same three strings with the stretches rearranged into the most sensible order
 
-Charles then allowed the AI model to drop the chapter labels and to put the rebuilt stretches in any order and to add the same generic words as before (connecting words and reference words and pointing words) with the goal of the most sensible sounding passage.
+The repository owner then allowed the AI model to drop the chapter labels and to put the rebuilt stretches in any order and to add the same generic words as before (connecting words and reference words and pointing words) with the goal of the most sensible sounding passage.
 The words inside each stretch stay in Bible order and every added word is marked with stars.
 
 Claude selection:
 
 - *to those* who are in the house *and to him* who is angry with his brother while you are with him on the way *and* to the ancient ones you shall not make false vows but i tell you dont swear *and* if anyone sues you to take away your coat pluck it out and throw it away for it is more profitable for you for great is your reward in heaven *with him* who is in heaven for that is how *those before you* for they shall inherit the earth blessed are those
 
-Charles selection:
+personal selection:
 
 - they asked him what then are you elijah he said *to them* and sinners jesus answered them i told you *of him* before your face who will prepare your way before you most certainly i tell you *that he* and those who were before you in that day says yahweh of armies yahweh says *this* from there says yahweh with the sword *so not* by the way for the sword of the enemy
 
@@ -106,7 +106,7 @@ Words of Jesus:
 What rearranging changed:
 
 - Free order let each string open with a scene and close with a blessing or a wish which the Bible order could not do because Bible order is fixed by chapter number.
-- The Charles selection gained the most because the six stretches became one exchange (a question and an answer and a promise and a warning) where Bible order had scattered the speakers.
+- The personal selection gained the most because the six stretches became one exchange (a question and an answer and a promise and a warning) where Bible order had scattered the speakers.
 - Every added word in the three strings is a connecting word or a reference word or a pointing word which means no new action word or thing word entered any string.
 
 ## Five versions of one words of Jesus string graded against the writing rules in this folder
@@ -142,7 +142,7 @@ Version 5 (reference words tied to a group named in the same sentence) scored 11
 
 Why the score stops at 11:
 
-- The rule about naming people and things asks for names in place of pointing words while the joining rule from Charles allows only pointing words and other generic words which means the two rules pull against each other.
+- The rule about naming people and things asks for names in place of pointing words while the joining rule from the repository owner allows only pointing words and other generic words which means the two rules pull against each other.
 - The words "him" and "he" and "it" in the stretches point at someone or something the stretches never name and no generic word can supply the name.
 - The label "throne of his glory" stays unexplained because an explanation would need new thing words.
 
@@ -155,7 +155,7 @@ Claude selection (10 of 14) from the stretches "on the earth there was evening" 
 
 - on the earth there was evening *and* herbs yielding seed after their kind and it was so god saw everything. *those* who mourn for they shall be comforted *here* and be exceedingly glad for great is your reward in heaven. *those* who were before you you are the salt of the earth *for him* who is in secret. *anyone here* at a woman to lust after her has committed adultery *so* yes and your no be no. *as for him* who is evil but whoever strikes you *then* you shall love your neighbor and hate your enemy *no longer*.
 
-Charles selection (9 of 14) from the stretches "in heart if the foundations are destroyed" and "i have set yahweh always before me whose sandal strap im" and "who rose up against me and by" and "in labor they will look on him" and "who has had boldness to approach me says yahweh shouldnt my soul be avenged" and "neither has he gone into captivity" and "the kingdom of heaven is at hand":
+personal selection (9 of 14) from the stretches "in heart if the foundations are destroyed" and "i have set yahweh always before me whose sandal strap im" and "who rose up against me and by" and "in labor they will look on him" and "who has had boldness to approach me says yahweh shouldnt my soul be avenged" and "neither has he gone into captivity" and "the kingdom of heaven is at hand":
 
 - i have set yahweh always before me whose sandal strap im *under because* the kingdom of heaven is at hand. *even* in heart if the foundations are destroyed neither has he gone into captivity *with those* who rose up against me and by *them*. in labor they will look on him who has had boldness to approach me says yahweh *for* shouldnt my soul be avenged.
 
@@ -167,13 +167,13 @@ Notes on the three passages:
 
 - The Claude selection passage scored 10 because five sentences each carry a claim and a reason while "him who is in secret" and "him who is evil" name nobody.
 - The words "no longer" were added to the stretch "you shall love your neighbor and hate your enemy" because the stretch quotes an old saying that the speaker in Matthew 5 goes on to reject and the two generic words keep the passage from teaching hatred of an enemy.
-- The Charles selection passage scored 9 because the stretches came from six different books and three of the stretches were cut in the middle of a thought such as "whose sandal strap im" and "who rose up against me and by".
+- The personal selection passage scored 9 because the stretches came from six different books and three of the stretches were cut in the middle of a thought such as "whose sandal strap im" and "who rose up against me and by".
 - The line "shouldnt my soul be avenged" is a question spoken by yahweh in the book of Jeremiah and the passage keeps the line as a question and does not present harm to any person as good.
 - The words of Jesus passage scored 10 because each sentence pairs a claim with "yet" or "for" while "for all of you and not sacrifice" lacks the thing that is wanted in place of sacrifice which is the word "mercy" in the source.
 
-## The same passages after Charles allowed naming words that already appear in the string
+## The same passages after the repository owner allowed naming words that already appear in the string
 
-Charles widened the joining rule so that the AI model could also add a naming word such as "the earth" or "god" or "the synagogues" as long as that naming word already appears somewhere in the same string which means no person or thing from outside the string enters the passage.
+The repository owner widened the joining rule so that the AI model could also add a naming word such as "the earth" or "god" or "the synagogues" as long as that naming word already appears somewhere in the same string which means no person or thing from outside the string enters the passage.
 Every added word is marked with stars and the grades use the same seven rules with a top score of 14.
 
 Version 6 of the words of Jesus string from the five-version section (12 of 14 and up from 11):
@@ -184,7 +184,7 @@ Claude selection (12 of 14 and up from 10):
 
 - on the earth there was evening *and* herbs yielding seed after their kind and it was so god saw everything. *those* who mourn for they shall be comforted *on the earth* and be exceedingly glad for great is your reward in heaven. *those* who were before you you are the salt of the earth *for god* who is in secret. *anyone* at a woman to lust after her has committed adultery *so* yes and your no be no *before god*. *as for the enemy* who is evil but whoever strikes you *then* you shall love your neighbor and hate your enemy *no longer*.
 
-Charles selection (10 of 14 and up from 9):
+personal selection (10 of 14 and up from 9):
 
 - i have set yahweh always before me whose sandal strap im *under because* the kingdom of heaven is at hand. *even* in heart if the foundations *of the kingdom* are destroyed neither has he gone into captivity *with those* who rose up against me and by *their boldness against yahweh*. in labor they will look on him who has had boldness to approach me says yahweh *for* shouldnt my soul be avenged.
 
@@ -195,12 +195,12 @@ Words of Jesus (12 of 14 and up from 10):
 What the naming words changed:
 
 - Reused naming words lifted every score by 1 or 2 points because phrases such as "god who is in secret" and "the enemy who is evil" and "apart from gods kingdom" now say who or what a sentence is about.
-- The Charles selection gained the least because the seven stretches share few naming words and the words "he" and "him" inside the stretches still point at people the stretches never name.
+- The personal selection gained the least because the seven stretches share few naming words and the words "he" and "him" inside the stretches still point at people the stretches never name.
 - Reused naming words also let the AI model steer meaning more strongly than generic words could (for example "this faith in all of you here" decides what "it" refers to) which means the passages now carry more of the choices of the AI model and less of the chance output of the agents.
 
 ## A special rule for the words of Jesus selection: the names of the speaker and of God may be added freely
 
-Charles added a rule for the words of Jesus selection only: the AI model may add "the father" and "jesus" and "the christ" and "god" and "yahweh" wherever a sentence needs one of those names even when the name appears nowhere in the string.
+The repository owner added a rule for the words of Jesus selection only: the AI model may add "the father" and "jesus" and "the christ" and "god" and "yahweh" wherever a sentence needs one of those names even when the name appears nowhere in the string.
 Every added word is marked with stars and the grades use the same seven rules with a top score of 14.
 
 First string (13 of 14 and up from 12):
@@ -220,10 +220,10 @@ What the special rule changed:
 
 ## Special words of three kinds may fill the gaps: naming words and action words and describing words
 
-Charles widened the joining rule again so that each selection has a list of special words that may be added in any gap even when the special word appears nowhere in the string.
+The repository owner widened the joining rule again so that each selection has a list of special words that may be added in any gap even when the special word appears nowhere in the string.
 The AI model counted every word in each selection and then sorted the most used words by hand into naming words and action words and describing words and kept about 12 of each kind.
 Only the exact listed form of a word was used which means "made" is allowed in a selection where "made" is listed while "makes" is not allowed.
-The word "seed" was added to the words of Jesus list because Charles named the word and not because the word ranks high by count and the word "love" ranks about 38th by count in the words of Jesus (44 uses).
+The word "seed" was added to the words of Jesus list because the repository owner named the word and not because the word ranks high by count and the word "love" ranks about 38th by count in the words of Jesus (44 uses).
 
 Claude selection special words:
 
@@ -231,7 +231,7 @@ Claude selection special words:
 - Action words: made and give and know and tell and saw and see and keep and heard and called and seek and put and make.
 - Describing words: good and evil and blessed and right and great and holy and wicked and righteous and secret and perfect and living and new.
 
-Charles selection special words:
+personal selection special words:
 
 - Naming words: yahweh and god and man and jesus and son and people and lord and day and king and house and land and heart.
 - Action words: says and know and tell and give and see and say and made and make and take and heard and hear and answered.
@@ -258,14 +258,14 @@ Claude selection (13 of 14 and up from 12):
 
 - on the earth there was evening *and god made* herbs yielding seed after their kind and it was so god saw everything *good*. *blessed are those* who mourn for they shall be comforted *on the earth* and be exceedingly glad for great is your reward in heaven. *the righteous* who were before you *heard* you are the salt of the earth *from the father* who is in secret. *a man who saw evil* at a woman to lust after her has committed adultery *in the heart so keep your yes* yes and your no be no *before god*. *god saw the man* who is evil but whoever strikes you *give the man love because* you shall love your neighbor and hate your enemy *no longer*.
 
-Charles selection (12 of 14 and up from 10):
+personal selection (12 of 14 and up from 10):
 
 - i have set yahweh always before me *the great king* whose sandal strap im *under because* the kingdom of heaven is at hand. *the righteous man answered* in heart if the foundations *of the house* are destroyed *the wise people know the righteous man* neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*. *the people of the land* in labor they will look on him *the holy king* who has had boldness to approach me says yahweh *and the lord answered* shouldnt my soul be avenged.
 
 What the three kinds of special words changed:
 
 - Action words gave the largest gain because a gap can now hold a full small claim such as "the father sent love to those" where the earlier rules could only hold a pointer such as "those".
-- Describing words let a passage say which kind of person a sentence is about such as "the righteous man" and "the wicked people" which is why the Charles selection gained 2 points after gaining the least under every earlier rule.
+- Describing words let a passage say which kind of person a sentence is about such as "the righteous man" and "the wicked people" which is why the personal selection gained 2 points after gaining the least under every earlier rule.
 - Both words of Jesus strings reached the top score while the gain was only 1 point each because the earlier rule had already lifted both strings to 13.
 - The added words now carry a large share of the meaning (for example "the father sent the son to give love" stands where the source verse has "i desire mercy") which means the passages read more like sentences written by the AI model around Bible fragments than like chance output of the agents.
 - The ending "last in the kingdom" is milder than the source verse about the word "fool" and that mildness is a choice of the AI model and not a finding.
@@ -275,12 +275,12 @@ What the program does with the same lists:
 
 - The live program now lets agents place single joining words from the generic list and from the special list of the chosen selection and the reader gives credit when the word before the joining word and the word after the joining word each sit beside the joining word somewhere in the source.
 - In one run of 6 million pastes per selection the agents kept mostly generic joining words such as "and" and "there" and "with them" and almost no special words because the two-sided check is easier to pass for very common words.
-- The average count of phrases inside rebuilt stretches per agent was 29.4 for the Claude selection and 15.5 for the Charles selection and 21.0 for the words of Jesus.
+- The average count of phrases inside rebuilt stretches per agent was 29.4 for the Claude selection and 15.5 for the personal selection and 21.0 for the words of Jesus.
 - The joining words chosen by the program read as filler because the program checks word pairs and has no test of meaning which means the hand joining above is still far ahead of the program.
 
 ## One chapter against one chapter: John 10 and Psalm 88
 
-Charles asked for the same process on two single chapters which means the key phrase cutting and the evolution run and the special word lists and the hand joining were all repeated on John chapter 10 and on Psalm 88 from the World English Bible.
+The repository owner asked for the same process on two single chapters which means the key phrase cutting and the evolution run and the special word lists and the hand joining were all repeated on John chapter 10 and on Psalm 88 from the World English Bible.
 
 Size of each source:
 
@@ -322,23 +322,23 @@ What the comparison showed:
 - Psalm 88 in the source ends in darkness with no turn toward relief and the closing words "so the afflicted soul may rise and praise yahweh" are a choice of the AI model built from two questions in the psalm ("do the departed spirits rise up and praise you" and "are your wonders made known in the dark").
 - The John 10 passage reports that people picked up stones and the passage keeps the question "for which of the good works do you stone me" as a question which means the passage does not present harm to any person as good.
 
-## A personal rule from Charles: one word for God in the selections Charles chose
+## A personal rule from the repository owner: one word for God in the selections the repository owner chose
 
-Charles set a personal rule for the selections that Charles chose: the name "yahweh" is replaced by the word "god" everywhere because Charles wants one word for God and keeps the word "lord" because "lord" connects with Christ for Charles.
-The rule applies to the Charles selection and to the words of Jesus and to the two single chapters and the rule does not apply to the Claude selection.
+The repository owner set a personal rule for the selections that the repository owner chose: the name "yahweh" is replaced by the word "god" everywhere because the repository owner wants one word for God and keeps the word "lord" because "lord" connects with Christ for the repository owner.
+The rule applies to the personal selection and to the words of Jesus and to the two single chapters and the rule does not apply to the Claude selection.
 The sections above this section were written before the rule and still show the older wording.
 
 What the rule changed:
 
-- The Charles selection had 1189 key phrases that held the name and the selection now has 43651 different key phrases (down from 43694) because some phrases became identical after the replacement.
-- The word "god" now appears about 2750 times in the Charles selection because the 1687 uses of the name were added to the 1064 uses of "god".
+- The personal selection had 1189 key phrases that held the name and the selection now has 43651 different key phrases (down from 43694) because some phrases became identical after the replacement.
+- The word "god" now appears about 2750 times in the personal selection because the 1687 uses of the name were added to the 1064 uses of "god".
 - The words of Jesus and John 10 held no key phrase with the name so only the special word list of the words of Jesus changed (the name was removed from the list).
 - Psalm 88 held the name 4 times and now reads "god" in those 4 places.
-- The Charles special naming words are now god and man and jesus and son and people and lord and day and king and house and land and heart and earth.
+- The the repository owner special naming words are now god and man and jesus and son and people and lord and day and king and house and land and heart and earth.
 - A few phrases now repeat the word such as "god the god of my salvation" because the source reads "yahweh the god of my salvation".
 - The form "yahwehs" (which means "belonging to yahweh" because the cutting rule strips the mark of possession) became "gods" and a reader could mistake "gods" for more than one god.
 
-Charles selection passage under the rule:
+personal selection passage under the rule:
 
 - i have set god always before me *the great king* whose sandal strap im *under because* the kingdom of heaven is at hand. *the righteous man answered* in heart if the foundations *of the house* are destroyed *the wise people know the righteous man* neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*. *the people of the land* in labor they will look on him *the holy king* who has had boldness to approach me says god *and the lord answered* shouldnt my soul be avenged.
 
@@ -348,23 +348,23 @@ Psalm 88 passage under the rule:
 
 ## Newest rules: one word for God everywhere and adjacent pronouns may be deleted and punctuation may be added
 
-Charles made three rule changes at once:
+The repository owner made three rule changes at once:
 
-- The name "yahweh" is now always replaced by the word "god" in every selection and every Bible program because Charles wants one word for God (this is a personal reading choice and the warning at the top of this page says so).
+- The name "yahweh" is now always replaced by the word "god" in every selection and every Bible program because the repository owner wants one word for God (this is a personal reading choice and the warning at the top of this page says so).
 - When the AI model adds a naming word right beside a pronoun the AI model may delete that pronoun so that "i *jesus* bear with you" becomes "*jesus* bear with you" because the doubled wording reads badly.
 - The AI model may add periods and commas and question marks and quote marks and other neutral break marks wherever a break helps a reader because the key phrase cutting had removed every mark.
 
 Every added word is still marked with stars and every deleted pronoun is listed under the passage and punctuation marks are not starred because every mark in these passages was added by the AI model.
 The grades use the same seven rules with a top score of 14 and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
 
-### Three fresh strings from the selections Charles chose
+### Three fresh strings from the selections the repository owner chose
 
-Charles selection first fresh string (12 of 14):
+personal selection first fresh string (12 of 14):
 
 - *the wise man has* sworn *to god,* "i will not forget your word, *because* the entrance of your words gives light in the house *of the poor*." *the man heard the word* from god. god says, "*take heart* in yourselves, and those who dwell *in the land*." *the man answered,* "according to your word, god." *the wicked made evil,* yet they have not prevailed against me, *because* the ox knows his owner *and the wise man knows god* and turned my steps to your statutes. let those who are with them *hear:* "it will happen in that day," says god, "*the lord* will bring *the high and wicked* down *to the earth*." *the people of the land heard and* said, "this is truly the prophet." others said, "*this man is righteous*."
 - Deleted pronouns: "i" before "have sworn" (and "have" became "has" under the grammar rule below) and "i" before "the lord" and "them" where "the high and wicked" now stands and "they" before "said".
 
-Charles selection second fresh string (11 of 14):
+personal selection second fresh string (11 of 14):
 
 - *the people answered,* "we dont know." jesus said to them, "take heed, *because* a good tree cant produce evil fruit, and broad is the way that doesnt grow good *fruit*." *what good man* who says to a father, "*hear*," will give *the son* a stone? or if he asks *for a house* with grain, *will say, "take a stone* or vinegar"? *the people* stand up together, "assemble yourselves, all of you," and saying, "you are the christ." *jesus answered,* "i will give you *a house on good earth*. *the house the wicked man made on poor land* before the pigs, and great was its fall." *jesus says,* "i will be with you, *and not with the evil* which brings about mischief, *because* it is the glory *of god that* all men will come to you."
 - Deleted pronouns: "him" before "the son" and "they" before "stand up together".
@@ -392,7 +392,7 @@ Claude selection (13 of 14):
 
 - on the earth there was evening, *and god made* herbs yielding seed after their kind, and it was so. god saw everything *good*. *blessed are those* who mourn, for they shall be comforted *on the earth*, and be exceedingly glad, for great is your reward in heaven. *the righteous* who were before you *heard*, "you are the salt of the earth," *from the father* who is in secret. *a man who saw evil* at a woman, to lust after her, has committed adultery *in the heart; so keep your yes* "yes" and your no be "no" *before god*. *god saw the man* who is evil; but whoever strikes you, *give the man love, because* you shall love your neighbor, and hate your enemy *no longer*.
 
-Charles selection (13 of 14 and up from 12):
+personal selection (13 of 14 and up from 12):
 
 - i have set god always before me, *the great king* whose sandal strap im *under, because* the kingdom of heaven is at hand. *the righteous man answered* in heart, "if the foundations *of the house* are destroyed, *the wise people know the righteous man*: neither has he gone into captivity *with the wicked people* who rose up against me and by *evil made the land poor*." *the people of the land* in labor, they will look on *the holy king* who has had boldness to approach me, says god, *and the lord answered,* "shouldnt my soul be avenged?"
 - Deleted pronouns: "him" before "the holy king".
@@ -407,7 +407,7 @@ Psalm 88 (13 of 14 and up from 12):
 
 What the newest rules changed:
 
-- Quote marks gave the largest gain because quote marks show who is speaking and the passages with several speakers (John 10 and the Charles selection) each rose by 1 point.
+- Quote marks gave the largest gain because quote marks show who is speaking and the passages with several speakers (John 10 and the personal selection) each rose by 1 point.
 - Question marks turned lines such as "why do you reject my soul" and "for which of the good works do you stone me" back into questions which a reader could not tell from the bare words.
 - Deleting an adjacent pronoun removed doubled wording such as "i jesus" and "him the christ" and the deletion only works where the grammar still holds afterward.
 - The passages that already scored 14 could not rise and those passages still read more smoothly because sentence breaks now fall where a reader expects a break.
@@ -415,20 +415,20 @@ What the newest rules changed:
 
 ## Grammar rule: a word may change form when a naming word replaces a pronoun
 
-Charles added a smoothing rule for every selection: when a naming word replaces a pronoun and the swap breaks the grammar the AI model may change the form of the nearby word so that the sentence stays correct (for example "i have told you" becomes "*jesus has* told you" because "jesus have told you" reads wrongly).
+The repository owner added a smoothing rule for every selection: when a naming word replaces a pronoun and the swap breaks the grammar the AI model may change the form of the nearby word so that the sentence stays correct (for example "i have told you" becomes "*jesus has* told you" because "jesus have told you" reads wrongly).
 A changed word is marked with stars the same way an added word is marked.
 
 Where the rule changed a passage in the section above:
 
 - Words of Jesus second string: "behold, i *jesus* have told you beforehand" became "behold, *jesus has* told you beforehand".
-- Charles selection first fresh string: the opening "*the wise man says to god:* i have sworn" became "*the wise man has* sworn *to god*".
+- personal selection first fresh string: the opening "*the wise man says to god:* i have sworn" became "*the wise man has* sworn *to god*".
 - The other seven passages needed no change because every swap in those passages already left correct grammar (for example "how long will *jesus* bear with you" is correct because the word "will" takes the plain form "bear").
 - Both changed passages keep the same grade because the grades were already counting those sentences as understandable and the change removes an awkward spot without adding meaning.
 - The rule also widens what the pronoun deletion rule can do because a pronoun that could not be deleted before (such as the "i" in "i have told") can now be replaced.
 
 ## Speaker rule for the words of Jesus: the passages are read as spoken by Christ
 
-Charles added a rule for the words of Jesus selection only: every passage is read as spoken by Christ which means the added words avoid the name "jesus" because the speaker in the four gospels rarely uses that name for himself and more often says "i" or "the son of man".
+The repository owner added a rule for the words of Jesus selection only: every passage is read as spoken by Christ which means the added words avoid the name "jesus" because the speaker in the four gospels rarely uses that name for himself and more often says "i" or "the son of man".
 The word "i" now stays as the source has the word and "the son of man" stands where a "he" or "him" points at the speaker and the name "jesus" was removed from the special word list of the live program for this selection.
 The grades assume a reader who knows that Christ is speaking because the rule itself sets that assumption.
 
@@ -456,7 +456,7 @@ What the speaker rule changed:
 
 ## Three brand new passages from the words of Jesus under every rule so far
 
-Charles asked for three fresh attempts from three different starting points using only the words of Jesus so the AI model ran the key phrase evolution three times with three different random starts (5 million pastes each) and joined one agent string from each run by hand.
+The repository owner asked for three fresh attempts from three different starting points using only the words of Jesus so the AI model ran the key phrase evolution three times with three different random starts (5 million pastes each) and joined one agent string from each run by hand.
 Every rule so far applies: generic joining words and special naming words and action words and describing words and reuse of naming words already in the string and deletion of a pronoun beside an added name and grammar changes and punctuation and the reading of every line as spoken by Christ.
 A listed action word sometimes appears in another form such as "says" for "say" and "gives" for "give" because the grammar rule allows a word to change form.
 Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
@@ -485,20 +485,20 @@ What the three attempts showed:
 
 ## Rule about the word "the": the word may be added anywhere or removed anywhere
 
-Charles added a rule for every selection: the AI model may add the word "the" anywhere and may remove the word "the" anywhere when the change makes a sentence easier to read.
+The repository owner added a rule for every selection: the AI model may add the word "the" anywhere and may remove the word "the" anywhere when the change makes a sentence easier to read.
 Adding "the" was already possible because "the" sits on the list of generic joining words and the new part of the rule is the removal which is the first rule that lets the AI model take a non-pronoun word out of a rebuilt stretch.
 
 Where the rule changed the passages above:
 
 - Words of Jesus fresh string: "he who loves son *and father in the love of god*" became "he who loves *the* son *and the father in the love of god*" because "loves son" reads as a cut-off phrase.
-- Charles selection passage: "*the righteous man answered* in heart" became "*the righteous man answered* in *the* heart" because "in heart" reads as a cut-off phrase.
+- personal selection passage: "*the righteous man answered* in heart" became "*the righteous man answered* in *the* heart" because "in heart" reads as a cut-off phrase.
 - No passage needed a removal because none of the passages so far holds a "the" that blocks a reader.
 - The grades did not change because each change smooths one phrase and adds no meaning.
 - A removal is most likely to matter in future strings where two stretches meet and both bring a "the" such as "in the the house".
 
 ## Pronoun rule: any pronoun may be swapped for another pronoun or for a naming word
 
-Charles added a rule for every selection: the AI model may replace any pronoun anywhere in a passage (inside a rebuilt stretch or among the added words) with another pronoun or with an allowed naming word because a passage full of "he" and "him" and "they" and "it" leaves a reader guessing who is meant.
+The repository owner added a rule for every selection: the AI model may replace any pronoun anywhere in a passage (inside a rebuilt stretch or among the added words) with another pronoun or with an allowed naming word because a passage full of "he" and "him" and "they" and "it" leaves a reader guessing who is meant.
 A replaced word carries stars and the words of Jesus passages still keep "i" and "me" because those passages are read as spoken by Christ.
 
 The three fresh words of Jesus passages again under the pronoun rule:
@@ -524,12 +524,12 @@ What the pronoun rule changed:
 - The third attempt gained a point because "it is like a man" now says what is like a man.
 - The first attempt stayed at 13 because the earlier rules had already named most of the people in that passage.
 - A pronoun stays where the same sentence already names the person (for example "the man who doesnt have love, even that which he has") because repeating the naming word three times in one sentence reads worse than one pronoun.
-- The same rule applies to the older passages on this page (for example "neither has he gone into captivity" in the Charles selection passage can become "neither has *the righteous man* gone into captivity" and "they came around me like water" in the Psalm 88 passage can become "*your terrors* came around me like water").
+- The same rule applies to the older passages on this page (for example "neither has he gone into captivity" in the personal selection passage can become "neither has *the righteous man* gone into captivity" and "they came around me like water" in the Psalm 88 passage can become "*your terrors* came around me like water").
 - Every replacement is a choice by the AI model about who a pronoun points at and a wrong choice would put words about one person onto another person which means a reader who cares about exact meaning needs to compare the passage with the source verse.
 
 ## Name rule: rarely used names are replaced with generic words
 
-Charles added a rule for every selection: a name that appears only a few times or in a single section is replaced with a generic word or phrase that makes sense in the sentence because a reader who has not studied the Bible closely will not know who or what the name is (for example few readers know that Tyre is a city).
+The repository owner added a rule for every selection: a name that appears only a few times or in a single section is replaced with a generic word or phrase that makes sense in the sentence because a reader who has not studied the Bible closely will not know who or what the name is (for example few readers know that Tyre is a city).
 Names that most people in the wider culture already know stay as the source has the names (for example John and Mark and Luke and Simon and Adam and Eve).
 The replacement is starred like every other change and the warning near the top of this page tells a reader that names and pronouns are changed in these passages.
 
@@ -548,11 +548,11 @@ What the name rule changed:
 - The sentence about the judgment can now be followed by a reader who has never heard of either city and the passage keeps its grade of 13 because "the ten talents" (a large sum of money in the parable) is still unexplained.
 - None of the other passages on this page that were joined under the newest rules holds a rarely used name (the name "john the baptizer" in one words of Jesus passage stays because John is widely known).
 - The rule applies only to the hand joining for now because the live programs hold the phrases in lowercase with no marker for which words are names which means the programs still show every name as the source has the name.
-- Which names count as widely known is a judgment by the AI model and Charles can overrule any single choice.
+- Which names count as widely known is a judgment by the AI model and the repository owner can overrule any single choice.
 
 ## A new batch under every rule: one passage from each selection
 
-Charles asked for a new batch with one passage from each selection so the AI model ran the key phrase evolution once more on each selection from a new random start (5 million pastes each) and joined one agent string from each run by hand under every rule on this page.
+The repository owner asked for a new batch with one passage from each selection so the AI model ran the key phrase evolution once more on each selection from a new random start (5 million pastes each) and joined one agent string from each run by hand under every rule on this page.
 Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
 
 Claude selection (13 of 14) from the stretches "in all the earth you have set your" and "you have put all things under his feet all sheep" and "neither throw your pearls before the pigs" and "a good tree cant produce evil fruit neither can a corrupt" and "but he who does the will of my father who is in heaven for he makes his sun to rise" and "for righteousness sake for theirs is the kingdom of heaven" and "that it was said you shall not commit adultery but i tell you love your enemies" and "than these is of the evil one you have heard":
@@ -560,7 +560,7 @@ Claude selection (13 of 14) from the stretches "in all the earth you have set yo
 - *lord god,* in all the earth you have set your *light, and* you have put all things under *the* feet *of man:* all sheep *and every living thing*. *keep what is holy, and* neither throw your pearls before the pigs. *whatever a man says more* than *what is right* is of the evil one. you have heard that it was said, "you shall not commit adultery," but i tell you, love your enemies, *because* a good tree cant produce evil fruit, neither can a corrupt *tree make good fruit*. *blessed are the righteous* for righteousness sake, for theirs is the kingdom of heaven; *not the man who says "lord,"* but he who does the will of my father who is in heaven, for *the father* makes his sun to rise *on the evil and the good*.
 - Replaced pronouns: "his" became "the ... of man" and "these" became "what is right" and "he" became "the father".
 
-Charles selection (11 of 14) from the stretches "for he commands" and "from the north says god for god says" and "from me says god for i am with you says god god said to me" and "the assembly of the elders of the people were gathered together" and "god i have called" and "in jerusalem because you have said" and "praise be to god god" and "with justice" and "when he cries" and "like lebanon" and "in bethany beyond the jordan" and "to take back to those":
+personal selection (11 of 14) from the stretches "for he commands" and "from the north says god for god says" and "from me says god for i am with you says god god said to me" and "the assembly of the elders of the people were gathered together" and "god i have called" and "in jerusalem because you have said" and "praise be to god god" and "with justice" and "when he cries" and "like lebanon" and "in bethany beyond the jordan" and "to take back to those":
 
 - the assembly of the elders of the people were gathered together in jerusalem, because you have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
 - Replaced pronouns: "he" became "the poor man" and "he" became "god".
@@ -574,17 +574,17 @@ Words of Jesus (13 of 14) from the stretches "if you remain in me he was counted
 What the new batch showed:
 
 - The Claude selection and the words of Jesus both reached 13 because both strings had stretches long enough to hold a full thought and both lost one point for a label that stays unexplained ("pearls before the pigs" and "counted with transgressors").
-- The Charles selection reached 11 because twelve short stretches from several books left the AI model to supply most of the meaning and the phrase "says god" repeats four times in two lines.
-- The name rule was needed only in the Charles selection because the ten whole books hold many place names while the other two selections draw on better known passages.
+- The personal selection reached 11 because twelve short stretches from several books left the AI model to supply most of the meaning and the phrase "says god" repeats four times in two lines.
+- The name rule was needed only in the personal selection because the ten whole books hold many place names while the other two selections draw on better known passages.
 - In the words of Jesus passage the phrase "when he comes" became "when the last day comes" and that choice is a guess by the AI model because the stretch alone does not say who or what comes.
 - The closing words "yet the love of the father is greater" follow a line about betrayal and are a choice of the AI model and not part of the source.
 
 ## Pronoun rule widened: any pronoun may be added or deleted anywhere in every selection
 
-Charles confirmed that the pronoun freedom covers every selection: the AI model may add a pronoun anywhere and may delete a pronoun anywhere and may swap a pronoun for another pronoun or for a naming word whenever the change makes a passage easier to read.
+The repository owner confirmed that the pronoun freedom covers every selection: the AI model may add a pronoun anywhere and may delete a pronoun anywhere and may swap a pronoun for another pronoun or for a naming word whenever the change makes a passage easier to read.
 Adding pronouns and swapping pronouns were already allowed for every selection and the new part is that a pronoun may now be deleted even when no added name sits beside the pronoun.
 
-- The rule applies to the Claude selection and the Charles selection and the words of Jesus and the single chapters alike.
+- The rule applies to the Claude selection and the personal selection and the words of Jesus and the single chapters alike.
 - The words of Jesus passages still keep "i" and "me" where the speaker means himself because those passages are read as spoken by Christ.
 - No passage on this page needed a new deletion because the swap rule had already handled every pronoun that blocked a reader and the wider rule will matter in future strings where a leftover pronoun such as a stray "it" has nothing to point at.
 
@@ -605,7 +605,7 @@ Claude selection (13 of 14 and unchanged):
 - *lord god,* in all the earth you have set your *light, and* have put all things under *the* feet *of man:* all sheep *and every living thing*. *keep what is holy, and* neither throw your pearls before the pigs. *whatever a man says more* than *what is right* is of the evil one. you have heard that it was said, "you shall not commit adultery," but i tell you, love your enemies, *because* a good tree cant produce evil fruit, neither can a corrupt *tree make good fruit*. *blessed are the righteous* for righteousness sake, for theirs is the kingdom of heaven; *not the man who says "lord,"* but he who does the will of my father who is in heaven, for *the father* makes his sun to rise *on the evil and the good*.
 - Deleted pronouns: the second "you" in "you have set your light and you have put".
 
-Charles selection (12 of 14 and up from 11):
+personal selection (12 of 14 and up from 11):
 
 - the assembly of the elders of the people were gathered together in jerusalem, because *the people* have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
 - Replaced pronouns: "you" became "the people" in "because you have said" (a swap the earlier rule already allowed and the AI model had missed).
@@ -618,12 +618,12 @@ Does the widened pronoun rule improve readability:
 
 - The rule helps in one clear kind of sentence which is a sentence where the source repeats the subject as a pronoun (for example "the man who hears the father, he is my brother") because deleting the repeated pronoun leaves one clean sentence.
 - The rule changed 3 sentences across six passages and no grade moved because of a deletion which means the gain is smoothness inside a sentence and not a new level of understanding.
-- The one grade that moved (Charles selection from 11 to 12) came from a swap and not from a deletion.
+- The one grade that moved (personal selection from 11 to 12) came from a swap and not from a deletion.
 - The small effect has a likely reason: the earlier swap rule had already removed most pronouns that left a reader guessing so few pronouns were left for the deletion rule to fix.
 
 ## John 10 dealt into four random piles and remixed
 
-Charles asked for a remix of John chapter 10: the 201 key phrases of the chapter were dealt at random into four piles the way a deck of cards is dealt (51 and 50 and 50 and 50 phrases) and the AI model then built the most coherent paragraph it could from each pile using every phrase in the pile.
+The repository owner asked for a remix of John chapter 10: the 201 key phrases of the chapter were dealt at random into four piles the way a deck of cards is dealt (51 and 50 and 50 and 50 phrases) and the AI model then built the most coherent paragraph it could from each pile using every phrase in the pile.
 Every rule on this page applied (free order and joining words and the special words of John 10 and reuse of words already in the pile and pronoun changes and grammar changes and punctuation and generic words for rarely used names) and no copying agents ran in this test because the dealing itself did the shuffling.
 A check by program confirmed that every dealt phrase appears in its paragraph except two phrases whose place names were replaced under the name rule ("beyond the jordan" became "across the river" and "in solomons porch" became "in a covered walkway").
 Added or changed words carry stars and the AI model graded paragraphs that the AI model wrote which means the grades are a rough guide.
@@ -656,11 +656,11 @@ What the remix showed:
 - A strong caution applies: the AI model knows John 10 and very likely leaned on that knowledge when choosing the added words which means the paragraphs show how well a reader who knows the chapter can rebuild the chapter and do not show what a reader with no knowledge of the chapter could do.
 - The paragraphs report that people picked up stones and each paragraph keeps the question about the stoning as a question which means no paragraph presents harm to any person as good.
 
-## Sixteen random phrases from the Charles selection kept in three random orders
+## Sixteen random phrases from the personal selection kept in three random orders
 
-Charles asked for a harder test: one set of key phrases is drawn at random from the Charles selection and the set is shuffled three times and the AI model must connect the phrases in the exact shuffled order with no sorting of any kind.
+The repository owner asked for a harder test: one set of key phrases is drawn at random from the personal selection and the set is shuffled three times and the AI model must connect the phrases in the exact shuffled order with no sorting of any kind.
 A program drew 16 key phrases at random from the 43651 key phrases of the ten whole books and the 16 phrases came from 14 different chapters in Isaiah and Proverbs and Psalms and Jeremiah and Matthew and Mark and John.
-The AI model could add joining words and the special words of the Charles selection and could change or delete or add pronouns and could add punctuation and could not move any phrase.
+The AI model could add joining words and the special words of the personal selection and could change or delete or add pronouns and could add punctuation and could not move any phrase.
 A program check confirmed that the non-pronoun words of every phrase appear in each passage in the shuffled order.
 Added or changed words carry stars and the AI model graded passages that the AI model wrote which means the grades are a rough guide.
 
@@ -687,9 +687,9 @@ What the random order test showed:
 - The word "leanness" (which means hunger or wasting in the source psalm) was left as the source has the word and costs a point on the rule about explaining every label.
 - The phrase "and killed mighty kings" appears in every passage with evil as the one that kills which means no passage presents the killing as good.
 
-## Eight random phrases from the Charles selection kept in three random orders
+## Eight random phrases from the personal selection kept in three random orders
 
-Charles asked for the same random order test with half the number of phrases so a program drew a new set of 8 key phrases at random from the Charles selection and shuffled the set three times and the AI model connected the phrases in the exact shuffled order under the same rules.
+The repository owner asked for the same random order test with half the number of phrases so a program drew a new set of 8 key phrases at random from the personal selection and shuffled the set three times and the AI model connected the phrases in the exact shuffled order under the same rules.
 The 8 phrases came from 8 different chapters in Jeremiah and Proverbs and Isaiah and Mark and Psalms and Matthew and John and a program check confirmed that the non-pronoun words of every phrase appear in each passage in the shuffled order.
 
 The set of 8 phrases: "on them" and "and drives away his mother" and "he says" and "who deals wisely will" and "in the day" and "you will show yourself perfect" and "jesus began to preach" and "for in this the saying is true".
@@ -716,7 +716,7 @@ What the smaller set showed:
 
 ## A guess at how a reader with no background would take the three eight-phrase passages
 
-Charles asked the AI model to imagine a person who scrolls a discussion site without posting and who meets each of the three eight-phrase passages with no notice that an AI model joined the passages.
+The repository owner asked the AI model to imagine a person who scrolls a discussion site without posting and who meets each of the three eight-phrase passages with no notice that an AI model joined the passages.
 Every line in this section is a guess by the AI model and no real reader was asked.
 
 - First passage: the imagined reader probably takes the passage for a loose Bible paraphrase about a good son and a bad son because the wise son and the wicked son are easy to follow and the reader probably stumbles on the last sentence because "the day was good on the people of the land" is not how people talk.
@@ -727,7 +727,7 @@ Every line in this section is a guess by the AI model and no real reader was ask
 
 ## Unique word rule: every word in a passage is different where readability allows
 
-Charles added a rule for every selection: as long as the readability grade stays high the AI model picks added words so that as few words as possible repeat inside one passage and the AI model also uses the pronoun rule and the rule about the word "the" to remove repeats that sit inside the source phrases.
+The repository owner added a rule for every selection: as long as the readability grade stays high the AI model picks added words so that as few words as possible repeat inside one passage and the AI model also uses the pronoun rule and the rule about the word "the" to remove repeats that sit inside the source phrases.
 A repeat stays only where removing the repeat would break a sentence or where the repeat sits inside a source phrase and is not a pronoun and is not the word "the".
 
 The three eight-phrase passages again under the unique word rule:
@@ -754,7 +754,7 @@ What the unique word rule changed:
 
 ## Open vocabulary rule: any English word may be added or swapped in to keep every word different
 
-Charles added a rule for all three selections: when the unique word rule would hurt readability the AI model may reach for almost any word in the English language and may replace or delete a repeated word inside a source phrase so that every word in a passage stays different and the passage still reads well.
+The repository owner added a rule for all three selections: when the unique word rule would hurt readability the AI model may reach for almost any word in the English language and may replace or delete a repeated word inside a source phrase so that every word in a passage stays different and the passage still reads well.
 Before this rule the added words had to come from the generic list or from the special words of the selection or from the passage itself.
 
 The three eight-phrase passages again under the open vocabulary rule:
@@ -775,7 +775,7 @@ What the open vocabulary rule changed:
 
 - Every word in all three passages is now different and all three grades rose to 13 because words such as "shelter" and "trouble" and "greed" say exactly what a sentence needs where the short special list had forced clipped wording such as "takes house".
 - Three source words were replaced to remove repeats: the second "in" became "through" in two passages and "in the" became "during her" in one passage and the second "will" became "shall" in all three passages.
-- The passages now hold words that appear nowhere in the Charles selection which means the passages have moved one more step away from the Bible text and toward free writing by the AI model around eight fixed phrases.
+- The passages now hold words that appear nowhere in the personal selection which means the passages have moved one more step away from the Bible text and toward free writing by the AI model around eight fixed phrases.
 - The share of added or changed words is 37 to 49 percent of each passage and the choice of each outside word (for example "greed" as the cause of the son driving away his mother) is an interpretation by the AI model.
 
 ## A short passage from each selection under the full current rule set
@@ -787,7 +787,7 @@ Claude selection (12 of 14 with 58 different words out of 58 words) from the eig
 
 - *mercy walks* before *every traveler, so* that he *who stumbles finds welcome.* whoever shall put away his wife *must first weigh her sorrow.* if only you, god, *would soften hard hearts!* ask of *your* father *plainly,* for *proud people* think *louder prayers win; anything showier* than these *quiet words* is *from* the evil one. dont sound a trumpet.
 
-Charles selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
+personal selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
 
 - *villagers* were exceedingly astonished: "who are these *strangers?*" "whatever you will ask," *came one reply* from a far country, "yes, and *true* spirit of justice to *any judge.*" his disciples asked him about the parable. "*people hoped* for *fairness,* but behold, oppression *arrived instead; stand alongside* those *crushed.*"
 
@@ -798,14 +798,14 @@ Words of Jesus (13 of 14 with 48 different words out of 48 words) from the eight
 Notes on the three short passages:
 
 - In the Claude selection passage the second "you" was avoided by turning "before you" into "before every traveler" and the second "of" became "from" and the second "the" became "your".
-- In the Charles selection passage the second "justice" became "fairness" and "to him" became "to any judge" and the last "for" became "stand alongside".
+- In the personal selection passage the second "justice" became "fairness" and "to him" became "to any judge" and the last "for" became "stand alongside".
 - In the words of Jesus passage the second "dont" became "cannot" and the second "in" became part of "within" and one "him" was deleted and the passage is read as spoken by Christ.
 - The word "sackcloth" (a rough cloth worn by people in mourning) stays as the source has the word and the added words "people mourn" explain the word in the same sentence.
 - The full list of rules in force is on the page named bible-quote-builder-current-rules in this folder.
 
 ## Phrases matched to a news headline: one passage from each selection
 
-Charles gave the AI model a headline that read "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and asked for a guess at the Bible phrases that relate most to the headline with one passage from each selection.
+The repository owner gave the AI model a headline that read "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and asked for a guess at the Bible phrases that relate most to the headline with one passage from each selection.
 The AI model did not check whether the headline is accurate and treats the headline only as a topic which is the cost of building something very large.
 A program searched each selection for key phrases that hold words about cost and building and treasure and wisdom and the AI model picked seven or eight of the matching phrases by hand and chose their order which means this test uses deliberate choosing where the tests just above used random draws.
 Every rule on the page named bible-quote-builder-current-rules applied and a program check confirmed that no word repeats inside any of the three passages.
@@ -814,7 +814,7 @@ Claude selection (12 of 14 with 73 different words out of 73 words) from the cho
 
 - *every season holds birth* and a time to build up; *knowledge shines brighter* than much fine gold. whatever you spend beyond that *sum, somebody repays later.* when he had spent all of it, *one young heir felt hunger,* for where your treasure *sits, hearts settle too. lilies grow though* they dont toil. *once the thing* which is complete has come, *partial efforts fade,* so *shared* barns will be filled *with bread, never pride.*
 
-Charles selection (13 of 14 with 40 different words out of 40 words) from the chosen phrases "this man began to build" and "and is not able to finish" and "and count the cost" and "man have of all his labor" and "god gives wisdom knowledge" and "than gold yes" and "and without price":
+personal selection (13 of 14 with 40 different words out of 40 words) from the chosen phrases "this man began to build" and "and is not able to finish" and "and count the cost" and "man have of all his labor" and "god gives wisdom knowledge" and "than gold yes" and "and without price":
 
 - *neighbors laughed:* "this man began to build *yet cannot* finish." *first sit down, then* count the cost. *what profit does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *freely offered* and without price.
 
@@ -829,9 +829,9 @@ Notes on the matched passages:
 - The passages lean toward caution about cost because the matching phrases in the source are mostly warnings about counting the cost and about treasure and the lean is a property of the phrases the search found and is not a judgment by the AI model about any company.
 - Which phrases relate most to a headline is a guess and a different person would likely pick different phrases.
 
-## Input quote rule: the passage may be shaped into an answer or reflection on a quote that Charles gives
+## Input quote rule: the passage may be shaped into an answer or reflection on a quote that the repository owner gives
 
-Charles added a rule for every selection: when Charles gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance.
+The repository owner added a rule for every selection: when the repository owner gives an input quote such as a headline the AI model may add or delete or change any word so that the passage reads as a plausible answer or reflection on that quote as long as the change raises readability or relevance.
 Before this rule the added words could only serve readability and the tie to the input quote came only from which phrases were picked.
 
 The three headline passages again under the input quote rule (the input quote was "JUST IN: Anthropic says developing Opus 5.5 cost more than $10 billion" and the AI model did not check whether the quote is accurate):
@@ -840,7 +840,7 @@ Words of Jesus (13 of 14 with 67 different words out of 67 words and 55 percent 
 
 - "*engineers* desiring to build a tower *of thought must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
 
-Charles selection (13 of 14 with 49 different words out of 49 words and 51 percent of the words added or changed):
+personal selection (13 of 14 with 49 different words out of 49 words and 51 percent of the words added or changed):
 
 - *onlookers said:* "this man began to build *yet cannot* finish." *when builders report spending billions,* count the cost *twice. what lasting gain does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
 
@@ -859,8 +859,8 @@ What the input quote rule changed:
 
 ## A second Claude selection that shares no book with the other two selections
 
-Charles invited the AI model to pick its own passages again with one limit which is to avoid the ten books Charles picked and the words of Jesus in the four gospels so that the three selections no longer overlap.
-The second Claude selection holds 35 passages (about 6600 words and 1554 different key phrases) from books outside the ten books Charles picked and outside the four gospels: Genesis 1 and Genesis 11 (the tower of Babel) and Exodus 20 and Deuteronomy 6 and Ruth 1 and First Samuel 16 and First Kings 3 and First Kings 19 and Job 28 and Job 38 and Song of Solomon 8 and Lamentations 3 and Ezekiel 37 and Amos 5 and Micah 4 and Micah 6 and Habakkuk 3 and Acts 2 and Acts 17 and First Corinthians 12 and 13 and Second Corinthians 4 and Galatians 5 and Ephesians 4 and Philippians 2 and 4 and Colossians 3 and Hebrews 11 and James 1 and 2 and 3 and First Peter 4 and First John 4 and Revelation 21.
+The repository owner invited the AI model to pick its own passages again with one limit which is to avoid the ten books the repository owner picked and the words of Jesus in the four gospels so that the three selections no longer overlap.
+The second Claude selection holds 35 passages (about 6600 words and 1554 different key phrases) from books outside the ten books the repository owner picked and outside the four gospels: Genesis 1 and Genesis 11 (the tower of Babel) and Exodus 20 and Deuteronomy 6 and Ruth 1 and First Samuel 16 and First Kings 3 and First Kings 19 and Job 28 and Job 38 and Song of Solomon 8 and Lamentations 3 and Ezekiel 37 and Amos 5 and Micah 4 and Micah 6 and Habakkuk 3 and Acts 2 and Acts 17 and First Corinthians 12 and 13 and Second Corinthians 4 and Galatians 5 and Ephesians 4 and Philippians 2 and 4 and Colossians 3 and Hebrews 11 and James 1 and 2 and 3 and First Peter 4 and First John 4 and Revelation 21.
 The AI model picked passages about making and building and wisdom and love and justice and shared life because those subjects kept coming up in the experiments on this page.
 The earlier Claude selection of 41 passages was used for every Claude selection result above this section and the second Claude selection is used from this section on.
 
@@ -887,7 +887,7 @@ Notes on the second Claude selection:
 
 ## Opening line rule: each passage starts from one keyword of the input quote
 
-Charles added a rule for every selection: when Charles gives an input quote the passage opens with the line "when you thought of" followed by one keyword or phrase taken from the input quote and then "i thought of" and the rest of the passage is arranged as a plausible continuation of that line of thinking.
+The repository owner added a rule for every selection: when the repository owner gives an input quote the passage opens with the line "when you thought of" followed by one keyword or phrase taken from the input quote and then "i thought of" and the rest of the passage is arranged as a plausible continuation of that line of thinking.
 The opening line itself repeats the words "thought" and "of" because the line is a fixed formula and every other word in the passage is still different.
 The opening line is not starred because the line is the same in every passage and only the keyword changes.
 
@@ -897,7 +897,7 @@ Words of Jesus with the keyword "cost" (13 of 14 with 71 different words out of 
 
 - "when you thought of 'cost,' i thought of *engineers* desiring to build a tower: *each must sit first* and count *expenses, asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
 
-Charles selection with the keyword "ten billion dollars" (13 of 14 with 53 different words out of 55 words):
+personal selection with the keyword "ten billion dollars" (13 of 14 with 53 different words out of 55 words):
 
 - when you thought of 'ten billion dollars,' i thought of *onlookers saying,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
 
@@ -922,7 +922,7 @@ Words of Jesus:
 
 - "when you thought of 'this scale,' i thought of *vineyard workers:* so the last will be first. heaven and earth *shall* pass away, *yet makers keep pouring;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. friends* of little faith, *ask whom such craft serves, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
 
-Charles selection:
+personal selection:
 
 - when you thought of 'non-believers,' i thought of *those disciples who watched,* but some doubted. *nobody gets scolded over* unbelief; *god says,* "*watch me* do a new thing," *while elders* remember former things *long past. every age has its* time to build up, *one for breaking* down, and another generation comes. *still, nothing stays novel* under the sun.
 
@@ -932,7 +932,7 @@ Claude selection:
 
 ## Full context opening rule: the opening sentence explains what the passage answers
 
-Charles changed the opening line rule for every selection: the opening sentence still uses the form "when you thought of ... i thought of ..." and now has no length limit and must give a reader full context which means the first half restates the part of the input quote being answered in plain words and the second half says which Bible material the passage draws on and why.
+The repository owner changed the opening line rule for every selection: the opening sentence still uses the form "when you thought of ... i thought of ..." and now has no length limit and must give a reader full context which means the first half restates the part of the input quote being answered in plain words and the second half says which Bible material the passage draws on and why.
 The opening sentence is written by the AI model and carries no stars and is exempt from the unique word rule because a clear sentence needs to repeat small words and the body after the opening sentence still has no repeated word.
 
 Passages for the input quote about a very large video game:
@@ -941,7 +941,7 @@ Words of Jesus:
 
 - "when you thought of the claim that one video game may be the last ever built at such a huge scale of time and money, i thought of the old sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for: so the last will be first. heaven and earth *shall* pass away, *yet makers keep pouring;* they put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. friends* of little faith, *ask whom such craft serves, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
 
-Charles selection:
+personal selection:
 
 - when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: *those disciples watched,* but some doubted. *nobody gets scolded over* unbelief; *god says,* "*watch me* do a new thing," *while elders* remember former things *long past. every age has its* time to build up, *one for breaking* down, and another generation comes. *still, nothing stays novel* under the sun.
 
@@ -955,7 +955,7 @@ Words of Jesus:
 
 - "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
 
-Charles selection:
+personal selection:
 
 - when you thought of a price above ten billion dollars for building one thinking machine, i thought of the proverbs that weigh wisdom against gold and of the man who started building and could not finish: *onlookers said,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines serve hungry neighbors.*
 
@@ -972,20 +972,20 @@ What the full context opening changed:
 
 ## Closing explanation rule: one or two plain sentences after the remix say what the remix meant
 
-Charles added a rule for every selection: after the remixed passage the AI model adds a second paragraph of one or two sentences that explains in plain words what the passage just said and the explanation may reuse words from the passage or from the input quote.
+The repository owner added a rule for every selection: after the remixed passage the AI model adds a second paragraph of one or two sentences that explains in plain words what the passage just said and the explanation may reuse words from the passage or from the input quote.
 The unique word count starts fresh for the closing explanation which means no word repeats inside the explanation while the explanation may share words with the passage above it.
 The closing explanation sits outside the quote marks in the words of Jesus passages because the explanation is written by the AI model and is not read as spoken by Christ.
 
 Closing explanations for the input quote about a very large video game:
 
 - Words of Jesus: put plainly: size never proves worth. a project gains meaning when its makers serve others, so even small efforts done with trust may outlast giant ones.
-- Charles selection: in short: doubt is normal whenever something new appears. each generation builds, tears down, then watches another begin, which means today's marvel will feel ordinary soon.
+- personal selection: in short: doubt is normal whenever something new appears. each generation builds, tears down, then watches another begin, which means today's marvel will feel ordinary soon.
 - Claude selection: meaning: people working together can build almost anything, yet no giant project lasts forever. what stays is whatever gets made new after old attempts pass away.
 
 Closing explanations for the input quote about the cost of developing an AI model:
 
 - Words of Jesus: simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through what a tower does for others, not by its size.
-- Charles selection: plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed hungry neighbors.
+- personal selection: plainly: money can start a building without finishing it. wisdom is worth more than gold, so costly machines matter only if they feed hungry neighbors.
 - Claude selection: in other words: bricks and billions build towers, but neither buys wisdom. that treasure already sits inside ordinary people, which is why sharing matters more than stacking.
 
 What the closing explanation changed:
@@ -995,13 +995,13 @@ What the closing explanation changed:
 - Each closing explanation is an interpretation by the AI model of a passage that the AI model also assembled which means the explanation shows what the AI model meant and does not show what the Bible phrases mean in their own setting.
 - The full paragraphs with the openings and the passages and the closing explanations together are on the page named best-outputs in this folder.
 
-## Charles removed Proverbs from the Charles selection
+## The repository owner removed Proverbs from the personal selection
 
-Charles removed the book of Proverbs from the Charles selection which now holds nine whole books: Psalms and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
-The selection now has 40721 different key phrases (down from 43651) and every Charles selection result above this section used the ten-book version.
+The repository owner removed the book of Proverbs from the personal selection which now holds nine whole books: Psalms and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
+The selection now has 40721 different key phrases (down from 43651) and every personal selection result above this section used the ten-book version.
 
 - The special describing words changed because "wise" and "poor" had ranked high mainly through Proverbs and the list is now good and evil and great and wicked and righteous and holy and high and right and blessed and dead and first and mighty.
-- A check confirmed that every phrase in the two Charles selection passages for the input quotes comes from the nine remaining books so the bodies of both passages stay the same.
+- A check confirmed that every phrase in the two personal selection passages for the input quotes comes from the nine remaining books so the bodies of both passages stay the same.
 - One opening sentence had described its material as "the proverbs that weigh wisdom against gold" and now reads "the old songs and sayings that weigh wisdom against gold" because the phrases in that passage come from Psalms and Ecclesiastes and Isaiah and Luke.
 
 A fresh passage from the nine-book selection (12 of 14) from eight random phrases kept in this drawn order: "his teeth will be set" and "and you taught" and "your pomp is brought down to sheol" and "now that disciple was" and "how long shall i take counsel" and "on every lofty mountain" and "i give you authority to tread" and "and the wizards":
@@ -1011,9 +1011,9 @@ A fresh passage from the nine-book selection (12 of 14) from eight random phrase
 - Closing explanation: roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.
 - The place name "sheol" became "the grave" under the name rule and a program check confirmed that no word repeats inside the passage or inside the closing explanation.
 
-## A false added claim that Charles caught and the claim check rule
+## A false added claim that the repository owner caught and the claim check rule
 
-Charles pointed out that one line the AI model had added to the Charles selection passage about the video game was false: the line read "nobody gets scolded over unbelief" and people who do not share a belief system are very often challenged or argued with or looked at strangely or abandoned.
+The repository owner pointed out that one line the AI model had added to the personal selection passage about the video game was false: the line read "nobody gets scolded over unbelief" and people who do not share a belief system are very often challenged or argued with or looked at strangely or abandoned.
 The line was also the reverse of its source because the source phrase was "because of your unbelief" from Matthew 17 where the speaker tells his followers that they failed because of unbelief and the AI model had deleted the word "because" and turned a rebuke into a reassurance.
 
 - The line now reads "doubters often hear blame because of unbelief" which keeps the source phrase whole and matches what happens to people who doubt.
@@ -1023,7 +1023,7 @@ The line was also the reverse of its source because the source phrase was "becau
 
 ## Pro-human expression rule: a last pass before every output
 
-Charles added a rule for every output: before a passage goes out the AI model makes one more pass over the word choices with a lean toward valuing human beings who put their heart and soul into words for the world to hear.
+The repository owner added a rule for every output: before a passage goes out the AI model makes one more pass over the word choices with a lean toward valuing human beings who put their heart and soul into words for the world to hear.
 The pass keeps three things in view: a person who speaks up may be dehumanized or told that a real experience did not happen or abandoned and the passage says so truthfully where the subject comes up and the passage points toward continuing to speak because some listener may recognize themselves in the words.
 The pass removes or rewords any added line that advises permanent silence or hiding (for example "it is good to be silent and never speak up") because that kind of line can push a reader who is already alone to stop reaching out.
 No promise is made that speaking will be received well because rule 20 forbids claims that ordinary experience does not support and the passages use words such as "may" and "might" for what a listener will do.
@@ -1038,7 +1038,7 @@ Words of Jesus:
 
 - Closing explanation: put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody listening could finally feel understood.
 
-Charles selection:
+personal selection:
 
 - when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: *those disciples watched,* but some doubted. *doubters often hear blame* because of unbelief; *still* god says, "*watch me* do *this* new thing." *every age has its season for building* up, *one where things break* down, and a time to speak: *so voice your heart, since* another generation comes *listening.*
 
@@ -1058,7 +1058,7 @@ Words of Jesus:
 
 - Closing explanation: simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
 
-Charles selection:
+personal selection:
 
 - when you thought of a price above ten billion dollars for building one thinking machine, i thought of the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish: *onlookers said,* "this man began to build *yet cannot* finish." *so* count the cost *twice. what lasting gain does anyone* have *from* all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *shared freely* and without price; *may costly machines feed hungry neighbors plus amplify unheard voices.*
 
@@ -1073,7 +1073,7 @@ Claude selection:
 What the pro-human expression pass changed:
 
 - Each passage now has one line that values a person speaking (for example "keep speaking your heart even when crowds dismiss you" and "every person carries words others need" and "amplify unheard voices").
-- The Charles selection passage about doubt gained the source phrase "and a time to speak" from Ecclesiastes and left out the neighboring source phrase about a time to keep silence because the pass does not present silence as standing advice.
+- The personal selection passage about doubt gained the source phrase "and a time to speak" from Ecclesiastes and left out the neighboring source phrase about a time to keep silence because the pass does not present silence as standing advice.
 - Each closing explanation now says in plain words that a person may be ignored or blamed and that continuing to speak still matters because a later listener might understand.
 - A program check confirmed that no word repeats inside any passage body or inside any closing explanation.
 - The pass makes every passage lean one way on purpose which means the passages are encouragement written by the AI model around Bible phrases and are not neutral summaries of what the Bible phrases say.
@@ -1105,7 +1105,7 @@ Attempt 3:
 
 ## No labels on the reader rule: a last check for labels the reader did not choose
 
-Charles added a rule for every output now and in the future: no line may put a label on the reader that the reader did not choose and no line may claim a relationship between the speaker and the reader because a stranger who reads "you are my friend" or "you are my disciple" has had a bond declared without consent.
+The repository owner added a rule for every output now and in the future: no line may put a label on the reader that the reader did not choose and no line may claim a relationship between the speaker and the reader because a stranger who reads "you are my friend" or "you are my disciple" has had a bond declared without consent.
 The rule matters most for the words of Jesus passages because those passages are read as spoken by Christ and the source often addresses listeners with labels such as "friends" and "you of little faith".
 
 Lines that the check changed:
@@ -1120,7 +1120,7 @@ Lines that the check changed:
 
 ## Distance rule and story rule: no physical closeness toward the reader and no naming of the audience
 
-Charles added two rules for every output now and in the future.
+The repository owner added two rules for every output now and in the future.
 The distance rule says that no line may describe physical closeness between the speaker and the reader (for example the word "closeness" or touching or a hand on a shoulder or whispering in an ear) because a reader who meets that wording from a stranger pictures an uninvited person in their space and the wording is fine when the closeness happens between characters inside the story.
 The story rule says that passages avoid naming the audience with words such as "listener" or "reader" or "hearer" because the passages are meant to be little stories and a line that points at the audience breaks the story.
 
@@ -1136,15 +1136,15 @@ Lines that the two checks changed:
 
 ## A refinement to the claim check: a failed claim may become a stated hope
 
-Charles said that a line such as "i want a world where nobody gets scolded over unbelief" or "someday i believe there will be a world where nobody gets scolded over unbelief" is acceptable where the flat claim "nobody gets scolded over unbelief" was not.
+The repository owner said that a line such as "i want a world where nobody gets scolded over unbelief" or "someday i believe there will be a world where nobody gets scolded over unbelief" is acceptable where the flat claim "nobody gets scolded over unbelief" was not.
 The reason is that a hope tells a reader what the speaker wishes for and makes no false statement about how people are treated today and rule 20 on the rules page now lists a stated hope as a third way to repair a claim that fails the check.
 
-- The Charles selection passage about doubt now reads "doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions" which keeps the truthful line and adds the hope beside it.
+- The personal selection passage about doubt now reads "doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions" which keeps the truthful line and adds the hope beside it.
 - A program check confirmed that no word repeats inside the changed passage body.
 
 ## No negative labels on the input rule
 
-Charles added a rule for every output: no output may put a negative label on the input quote or on the person who wrote the input quote (for example "mocking" or "dumb" or "stupid") because a negative label judges the person before the reply has said anything and the one exception is naming explicit violence such as murder or rape or physical assault or contact without consent.
+The repository owner added a rule for every output: no output may put a negative label on the input quote or on the person who wrote the input quote (for example "mocking" or "dumb" or "stupid") because a negative label judges the person before the reply has said anything and the one exception is naming explicit violence such as murder or rape or physical assault or contact without consent.
 
 Lines that the check changed in the three passages about the chart of remote work automation:
 
@@ -1157,7 +1157,7 @@ Lines that the check changed in the three passages about the chart of remote wor
 
 ## First and Second Corinthians moved into My Personal Bible set
 
-Charles added First Corinthians and Second Corinthians to My Personal Bible set which now holds eleven whole books and 43863 different key phrases.
+The repository owner added First Corinthians and Second Corinthians to My Personal Bible set which now holds eleven whole books and 43863 different key phrases.
 The Claude selection gave up its three passages from those two letters (First Corinthians 12 and 13 and Second Corinthians 4) so that the sets do not overlap and took three passages in their place which are Galatians 6 verses 1 to 10 and First Thessalonians 5 verses 11 to 24 and First John 3 verses 11 to 18.
 
 - The Claude selection still holds 35 passages and now has 1484 different key phrases.
@@ -1167,7 +1167,7 @@ The Claude selection gave up its three passages from those two letters (First Co
 
 ## A full check of every public output against all thirty rules
 
-Charles asked for every output on the page named best-outputs to be checked against every rule whenever a rule changes and the AI model made the first full check on the evening of 11 November 2026.
+The repository owner asked for every output on the page named best-outputs to be checked against every rule whenever a rule changes and the AI model made the first full check on the evening of 11 November 2026.
 
 - Italics were missing from fourteen older paragraphs and their closings (the sets for the "seen you before" input and the video game input and the AI cost input and the random phrase set) and every one now shows added or changed words in italics.
 - Three labels read "attempt 1" without brackets and now match the label form used everywhere else.
@@ -1188,9 +1188,9 @@ The three older Bible programs differ by the size of the piece that the agents c
 - Bible Evolution Method 2: Single Words copies whole words and has a button for each selection: https://claude.ai/artifact/3VEDvP27dnjcmbSNtBdkVY
 - Bible Evolution Method 3: Key Phrases copies short phrases and has a button for each selection: https://claude.ai/artifact/8n9q5vuPKvNhn6R7fSZzKK
 - Bible Key Phrases: Claude Selection opens the key phrase method on the 41 passages picked by the AI model: https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
-- Bible Key Phrases: Charles Version opens the key phrase method on the ten whole books picked by Charles: https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
+- Bible Key Phrases: Personal Version opens the key phrase method on the ten whole books picked by the repository owner: https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
 - Bible Key Phrases: Jesus Version opens the key phrase method on the words of Jesus in the four gospels: https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz
-- Each link opens for other people only after Charles shares that page from the Claude app.
+- Each link opens for other people only after the repository owner shares that page from the Claude app.
 
 ## Limits
 

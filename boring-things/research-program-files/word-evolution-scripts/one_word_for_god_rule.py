@@ -1,5 +1,5 @@
-# Personal rule set by Charles for the selections he chose: the name "yahweh" is replaced by the word "god"
-# in a key phrase file so that the selection uses one word for God. Usage: python3 one_word_for_god_rule.py ph_charles.json
+# Personal rule set by the repository owner for the selections he chose: the name "yahweh" is replaced by the word "god"
+# in a key phrase file so that the selection uses one word for God. Usage: python3 one_word_for_god_rule.py ph_personal.json
 import json,sys
 M={'yahweh':'god','yahwehs':'gods'}
 for f in sys.argv[1:]:

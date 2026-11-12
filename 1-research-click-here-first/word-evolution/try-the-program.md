@@ -33,6 +33,6 @@ A second version of the program swaps the list of everyday commands for about 18
 Each link opens a live program where ten agents copy and paste short Bible phrases while a reader favors strings whose neighboring phrases are also neighbors in the Bible and each program starts on a different selection of Bible text.
 
 - Bible Key Phrases: Claude Selection starts on 41 well-known passages picked by the AI model: https://claude.ai/artifact/PK8tNEMDZM2eVaCfuNSxdR
-- Bible Key Phrases: Charles Version starts on the ten whole books picked by Charles (Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans): https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
+- Bible Key Phrases: Personal Version starts on the ten whole books picked by the repository owner (Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans): https://claude.ai/artifact/4pJdWtCH4ahdFjsb4GVb8Q
 - Bible Key Phrases: Jesus Version starts on the words of Jesus in Matthew and Mark and Luke and John: https://claude.ai/artifact/Bzcg2eYnte9cTc7wtpBArz
-- A link opens for a visitor only if Charles has turned on sharing for that page in the Claude app and a visitor who sees an access message can use the program file in this folder named program-3-key-phrases.html.
+- A link opens for a visitor only if the repository owner has turned on sharing for that page in the Claude app and a visitor who sees an access message can use the program file in this folder named program-3-key-phrases.html.

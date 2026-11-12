@@ -15,7 +15,7 @@ Every item in this folder is written for a person to read and the items are grou
 ## Single pages (each page is its own project)
 
 - [hiding-a-book.md](hiding-a-book.md) shows how much sense is left when a 1000-page biology book is dealt into four piles in four different ways.
-- [chat-record.md](chat-record.md) lists every request Charles made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
+- [chat-record.md](chat-record.md) lists every request the repository owner made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 363 free bug fixes for public software projects.
 
 ## Something to play with

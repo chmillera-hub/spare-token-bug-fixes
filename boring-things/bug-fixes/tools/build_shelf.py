@@ -138,7 +138,7 @@ Status: UNSENT and UNTESTED. Free to take.
 
 {N} small ready-made bug fixes (patch files) for {NP} public open source projects. Free to take.
 
-An AI chatbot (Claude) wrote every fix. The first {N_FIRST} fixes were written on 9 November 2026. Charles asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
+An AI chatbot (Claude) wrote every fix. The first {N_FIRST} fixes were written on 9 November 2026. The repository owner asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
 {VIDEO_NOTE}
