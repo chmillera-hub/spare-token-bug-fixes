@@ -231,3 +231,9 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **Before:** his father ran, and fell on his neck, and kissed him  
 **After:** his father ran, and hugged him  
 **Why:** a hug carries the same warmth and a reader in a public comment section could read a kiss as suggestive.
+
+## Something to do [rule 51]
+
+**Before:** I hope people who hire meet each applicant in person.  
+**After:** A person who keeps getting silence can return to one named decision maker again and again as she did, and the duty to listen stays with the judge.  
+**Why:** a wish about strangers leaves the hurting reader with the same unmet need and no next step.
