@@ -1,7 +1,7 @@
 // build 10000 sensible commands from action words paired only with things the action fits
 const G=[
  {v:'love hug kiss hold carry comfort protect thank help greet visit call teach trust forgive welcome invite praise respect hear feed thank bless guide follow answer'.split(' '),
-  s:'baby child mother father sister brother neighbor friend son daughter wife husband grandmother grandfather guest stranger elder family aunt uncle cousin teacher boy girl'.split(' '),p:'children kids parents neighbors friends guests elders sisters brothers'.split(' ')},
+  s:'farmer baker mother father sister brother neighbor friend son daughter wife husband grandmother grandfather guest stranger elder family aunt uncle cousin teacher boy girl'.split(' '),p:'farmers bakers parents neighbors friends guests elders sisters brothers'.split(' ')},
  {v:'open close lock fix paint clean hold'.split(' '),s:'door window gate box lid drawer bag book jar'.split(' '),p:'doors windows boxes bags jars'.split(' ')},
  {v:'wash dry clean wipe'.split(' '),s:'face cup plate bowl spoon floor table window car dog pot pan'.split(' '),p:'hands feet dishes clothes cups plates bowls spoons'.split(' ')},
  {v:['pick up','put down','bring','carry','take','hold','pass','find','move','lift','fetch','hand me'],s:'cup book ball toy spoon bag box bowl plate coat hat basket blanket pillow chair lamp bottle letter pen key'.split(' '),p:'shoes keys toys books cups bags boxes'.split(' ')},

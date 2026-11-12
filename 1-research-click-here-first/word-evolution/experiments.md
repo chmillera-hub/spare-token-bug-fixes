@@ -51,4 +51,6 @@ The reader in this experiment gives extra credit for every different word inside
 - Turning on the bonus for words that are not repeats together with the bonus for closeness in the story left many repeats (63 percent and 56 percent of words were not repeats) and produced strings such as "fix the lid / fix my lid / fix the gate / fix your bag".
 - Here is a guess about the reason: the two bonuses could pull in opposite directions because commands that sit side by side in the story list share most of their words.
 
+The list of 10000 commands was changed on 12 November 2026 after every run on this page because four words about highly vulnerable people ("baby" and "child" and "children" and "kids") were swapped for "farmer" and "baker" and "farmers" and "bakers" under rule 54 of the rules page in the Bible quote builder folder. A fresh run with the same starting point can therefore give different commands from the commands quoted on this page.
+
 The program files behind every number on this page sit in the folder named boring-things at the top of this project inside the folder named research-program-files.

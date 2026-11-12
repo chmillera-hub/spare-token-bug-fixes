@@ -43,6 +43,10 @@ The second pass used four new starting points (numbers 21 to 24) and ran each on
 - No person has rerun either pass which means every number on this page is still unconfirmed by a human.
 - The second pass used the same engine programs as the first pass so a mistake inside an engine program would affect both passes.
 
+## A change to the command list after the runs
+
+The list of 10000 commands was changed on 12 November 2026 after every run on this page because four words about highly vulnerable people ("baby" and "child" and "children" and "kids") were swapped for "farmer" and "baker" and "farmers" and "bakers" under rule 54 of the rules page in the Bible quote builder folder. A fresh run with the same starting point can therefore give different numbers from the numbers on this page.
+
 ## How to check this page
 
 The program files sit in the folder boring-things/research-program-files/word-evolution-scripts in this repository and need the program Node.js.
