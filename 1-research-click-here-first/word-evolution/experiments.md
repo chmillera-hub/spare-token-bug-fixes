@@ -22,7 +22,6 @@ The reader score in this experiment is the number of different complete commands
 
 - A first scoring rule failed because both runs stalled at 1 command when only the single best half-formed command earned partial credit and junk letters cost nothing.
 - A corrected rule gave partial credit to every half-formed command and a small cost to every junk letter and the corrected rule reached 7 to 13 different commands per string after 1500 minutes of experiment time across four runs.
-- One evolved string read "lift my hat help my son pet the dog pet my cow kiss the baby hug my son move my cups call my cat hug my boy pass my cups" plus two damaged leftovers.
 - A wrong extra letter inside a half-formed command such as "hug myson" becomes a permanent dead end because the no-deleting rule means the extra letter can never be removed.
 
 ## Sorting the picked commands into the order of a one-day story

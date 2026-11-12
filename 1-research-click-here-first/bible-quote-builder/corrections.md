@@ -124,25 +124,11 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** many workers earn rent only  
 **Why:** the word "young" adds nothing to the meaning and splits adults into groups and hints that other adults are left out of the care.
 
-## Human beings rank above food and rent [rule 44]
-
-**Before:** Counting rent and bread before babies is care; I hope pay rises for families.  
-**After:** A baby outranks rent and food, so whoever sets prices and wages owes families enough.  
-**Why:** the first line puts a baby beneath a rent bill and praises people for holding back from having children and takes a shortage that landlords and employers created and hands the shortage to everyone else as a duty on their bodies.
-
-**Before:** Shelter came before children; I hope homes become affordable.  
-**After:** The baby came first and the town owed a bed, so I hope landlords open rooms.  
-**Why:** the first line ranks a house above a child and the second line says the duty to provide sits with the town.
-
 ## Hopes name what other people do and never promise anything for the repository owner [rules 43 and 48]
 
 **Before:** I hope things get better  
 **After:** I hope employers offer wages big enough for homes.  
 **Why:** a hope with no action is a person staring into the distance and the second line names who could do what.
-
-**Before:** I hope to bring food to anyone welcoming a child.  
-**After:** I hope neighbors bring food to anyone welcoming a child.  
-**Why:** the first line makes a promise in the name of the repository owner who is one person sharing Bible quotes and who does not have food or money or time to hand out.
 
 **Before:** I will keep asking builders to choose that.  
 **After:** I hope builders choose that.  
@@ -153,14 +139,6 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **Why:** the first line still says what the repository owner will do later and the second line names what another person could do.
 
 ## No cliffhangers [rule 47]
-
-**Before:** they publicized widely the saying which was spoken to them about this child  
-**After:** and repeated an angel's words, good news of great joy which will be to all the people  
-**Why:** the first line points at a saying and then withholds the saying.
-
-**Before:** Then he gave a cruel order about newborns.  
-**After:** Then he told the midwives to kill newborn sons.  
-**Why:** the first line hides what the order was and the second line names the violence plainly as a report with the ruler as the one who gave the order.
 
 **Before:** his servants helped with one gentle question  
 **After:** his servants said, if the prophet had asked you to do some great thing, wouldnt you have done it?  
@@ -191,12 +169,6 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **Before:** the last will be first  
 **After:** the last workers hired received full pay too  
 **Why:** the first line does not say the last of what and the first line also swaps the rank of two groups.
-
-## General audience [rule 29]
-
-**Before:** The door is now shut, and my children are with me in bed.  
-**After:** The door is now shut, and my children are asleep.  
-**Why:** the Bible story comes from a one-room house and a present-day reader pictures children in a parent's bed and stops to ask what is going on.
 
 ## Story form [rules 40 and 42 and 46]
 

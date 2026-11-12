@@ -65,10 +65,6 @@ personal selection of ten whole books (11 of 14):
 
 - the assembly of the elders of the people were gathered together in jerusalem, because you have said, "praise be to god." god, i have called *on you from a small town across the river, and god hears* when *the poor man* cries, for *god* commands *the king to give* with justice. "*evil will not take the land* from the north," says god, for god says, "*do not take your heart* from me," says god, "for i am with you," says god. god said to me, "*make the land* like *a high green land, and give the good of the land* to take back to those *poor people*."
 
-Words of Jesus (13 of 14):
-
-- "*the kingdom is made* for you from the foundation of the world, for i was hungry *and you gave to me*. *give to the little ones and to those* who are with child, for you always have the poor with you. *love the little ones* among yourselves, for i tell you, *do not make a house* on the sand: the rain came down, *and* your house is left to you desolate. i tell you, keep asking *the father*. if you remain in me, *believe: the son of man* was counted with transgressors for that *love*. so when *the last day* comes, most certainly i tell you that one of you will betray me, *yet the love of the father is greater*."
-
 ## Side experiment: John 10 dealt into four random piles
 
 - The 201 key phrases of John chapter 10 were dealt at random into four piles and the AI model built one paragraph from every phrase in each pile.

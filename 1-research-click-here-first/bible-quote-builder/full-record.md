@@ -566,11 +566,6 @@ personal selection (11 of 14) from the stretches "for he commands" and "from the
 - Replaced pronouns: "he" became "the poor man" and "he" became "god".
 - Replaced names: "in bethany beyond the jordan" became "from a small town across the river" and "lebanon" became "a high green land" while "jerusalem" stays because the city is widely known.
 
-Words of Jesus (13 of 14) from the stretches "if you remain in me he was counted with transgressors for that" and "on the sand the rain came down" and "among yourselves for i tell you" and "for you from the foundation of the world for i was hungry" and "who are with child" and "so when he comes most certainly i tell you that one of you will betray me" and "for you always have the poor with you" and "your house is left to you desolate i tell you keep asking":
-
-- "*the kingdom is made* for you from the foundation of the world, for i was hungry *and you gave to me*. *give to the little ones and to those* who are with child, for you always have the poor with you. *love the little ones* among yourselves, for i tell you, *do not make a house* on the sand: the rain came down, *and* your house is left to you desolate. i tell you, keep asking *the father*. if you remain in me, *believe: the son of man* was counted with transgressors for that *love*. so when *the last day* comes, most certainly i tell you that one of you will betray me, *yet the love of the father is greater*."
-- Replaced pronouns: "he" became "the son of man" and "he" became "the last day".
-
 What the new batch showed:
 
 - The Claude selection and the words of Jesus both reached 13 because both strings had stretches long enough to hold a full thought and both lost one point for a label that stays unexplained ("pearls before the pigs" and "counted with transgressors").
@@ -759,14 +754,6 @@ Before this rule the added words had to come from the generic list or from the s
 
 The three eight-phrase passages again under the open vocabulary rule:
 
-First random order (13 of 14 and up from 12 with 53 different words out of 53 words and 49 percent of the words added or changed):
-
-- *lord,* in the day *of trouble* you will show yourself perfect, for *through* this *an old* saying is true: *one cruel son seizes a house* and drives away his mother, *while another* who deals wisely *shall shelter her.* "*blessed are such children,*" *god* says. jesus began to preach *that message* on *every hillside.*
-
-Second random order (13 of 14 and up from 12 with 50 different words out of 50 words and 44 percent of the words added or changed):
-
-- *kindness rests* on *ordinary people,* for in this the saying is true: "you will show yourself perfect *toward anyone merciful.*" jesus began to preach: "*a child* who deals wisely *shall prosper, but one cruel heir grabs every room* and drives away his mother *during her* day *of need,*" he says.
-
 Third random order (13 of 14 and up from 11 with 43 different words out of 43 words and 37 percent of the words added or changed):
 
 - jesus began to preach in the day: "*father,* you will show yourself perfect. *whoever* deals wisely *shall pour kindness* on *strangers. a selfish man hoards* and drives away his mother, for *through* this *one* saying is true: *'greed empties any home,'*" he says.
@@ -818,9 +805,9 @@ personal selection (13 of 14 with 40 different words out of 40 words) from the c
 
 - *neighbors laughed:* "this man began to build *yet cannot* finish." *first sit down, then* count the cost. *what profit does anyone* have of all his labor? god gives wisdom, knowledge, *worth more* than gold, yes, *freely offered* and without price.
 
-Words of Jesus (13 of 14 with 58 different words out of 58 words) from the chosen phrases "desiring to build a tower" and "and count the cost" and "if he has enough to complete it" and "who owed him ten thousand talents" and "for where your treasure is" and "wisdom is justified" and "by her children" and "and build bigger ones":
+Words of Jesus (13 of 14 with 58 different words out of 58 words) from the chosen phrases "desiring to build a tower" and "and count the cost" and "if he has enough to complete it" and "who owed him ten thousand talents" and "for where your treasure is" and "wisdom is justified" and a phrase about what wisdom produces and "and build bigger ones":
 
-- "*anyone* desiring to build a tower *must sit first* and count the cost, *asking* if he has enough *that can* complete it. *one servant* who owed *his master* ten thousand talents *learned mercy;* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through plans which tear down barns then raise* bigger ones."
+- "*anyone* desiring to build a tower *must sit first* and count the cost, *asking* if he has enough *that can* complete it. *one servant* who owed *his master* ten thousand talents *learned mercy;* for where your treasure *lies, there attention follows.* wisdom is justified by her *results, not through plans which tear down barns then raise* bigger ones."
 
 Notes on the matched passages:
 
@@ -838,7 +825,7 @@ The three headline passages again under the input quote rule (the input quote wa
 
 Words of Jesus (13 of 14 with 67 different words out of 67 words and 55 percent of the words added or changed):
 
-- "*engineers* desiring to build a tower *of thought must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+- "*engineers* desiring to build a tower *of thought must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her *results, not through spending which only raises* bigger ones."
 
 personal selection (13 of 14 with 49 different words out of 49 words and 51 percent of the words added or changed):
 
@@ -895,7 +882,7 @@ The three headline passages again under the opening line rule (the input quote w
 
 Words of Jesus with the keyword "cost" (13 of 14 with 71 different words out of 73 words):
 
-- "when you thought of 'cost,' i thought of *engineers* desiring to build a tower: *each must sit first* and count *expenses, asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+- "when you thought of 'cost,' i thought of *engineers* desiring to build a tower: *each must sit first* and count *expenses, asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her *results, not through spending which only raises* bigger ones."
 
 personal selection with the keyword "ten billion dollars" (13 of 14 with 53 different words out of 55 words):
 
@@ -953,7 +940,7 @@ Passages for the input quote about the cost of developing an AI model:
 
 Words of Jesus:
 
-- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows.* wisdom is justified by her *results, not through spending which only raises* bigger ones."
 
 personal selection:
 
@@ -1054,7 +1041,7 @@ Passages for the input quote about the cost of developing an AI model:
 
 Words of Jesus:
 
-- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her children, *not through spending which only raises* bigger ones."
+- "when you thought of the report that developing one artificial intelligence model cost more than ten billion dollars, i thought of the saying about a builder who sits down to count the cost before starting a tower: *anyone* desiring to build a tower *must sit first* and count the cost, *asking* if *ordinary people have* enough *bread while work continues until crews* complete it. *one servant* who owed *his master* ten thousand talents *was forgiven; let such sums teach mercy,* for where your treasure *lies, there attention follows; make living persons that prize.* wisdom is justified by her *results, not through spending which only raises* bigger ones."
 
 - Closing explanation: simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
 
@@ -1090,7 +1077,7 @@ Attempt 1:
 
 Attempt 2:
 
-- "when you thought of joking that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and *somebody* took me in. *people asked,* "when did we see you?" *whatever kindness reached the* least of these my brothers, *that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing child showed this face earlier;* rejoice *together.*"
+- "when you thought of joking that my face looks familiar, i thought of the teaching that anyone who helps a hungry person or a stranger has already met me without knowing: i was a stranger and *somebody* took me in. *people asked,* "when did we see you?" *whatever kindness reached the* least of these my brothers, *that deed touched heaven. maybe every tired cashier, lonely neighbor, or laughing passerby showed this face earlier;* rejoice *together.*"
 
 - Closing explanation: simply: you may have met something holy inside ordinary people already. treat each stranger warmly, because your kindness tells them their life matters.
 
