@@ -3,6 +3,30 @@
 These paragraphs are remixed from World English Bible phrases by an AI model (Claude) under rules set by Charles and the paragraphs are not exact Bible quotes.
 The second paragraph under each remix is a plain explanation written by the AI model and the file ending in plain-text.txt in this folder holds the same text for easy copying.
 
+## Input: A video of a laptop screen where many AI agents draw the full floor plan of a house in drafting software within seconds, posted with the comment "We could actually end up unemployed now, what the hell is this"
+
+*when you thought of a video where many artificial intelligence agents draw the full floor plan of a house inside drafting software within a few seconds, and of the comment that people could actually end up unemployed now, i thought of these three things:*
+
+The AI model saw still frames of the video and did not hear the sound and did not check whether the video is genuine and words in italics were added or changed by the AI model.
+
+From the Claude Bible set:
+
+*an old letter about a neighbor who lacks food and an old account of people who shared everything:* *suppose* a brother or sister is naked, *lacking* daily food; *somebody* tells them, "go in peace, be warmed, filled," yet *nobody gave anything* the body needs: what good *comes from that? elsewhere believers held* all things *shared, then* distributed *goods* according as anyone had need. *so whenever machines draft houses faster, drafters still require rent money, meals, shelter.*
+
+*in short: warm words feed nobody. if drawing jobs vanish, people who lose wages risk hunger plus eviction, so sharing must come before applause.*
+
+From My Personal Bible set:
+
+*an old promise that builders will live in what they build and an old song about work done in vain:* they will build houses and inhabit them; *none shall draw so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear need not win.*
+
+*meaning: the old promise says makers should benefit from what gets made. losing pay can bring hunger, cold, eviction; i want help reaching every laid-off person.*
+
+From the Jesus Bible set:
+
+"*my sayings about a house built on rock and about having nowhere to sleep:* *one builder* who built *a* house on rock *watched rain pour* down; floods came, and it didnt fall. foxes have holes, *birds keep nests, yet the son of* man has nowhere to lay his head; *so losing shelter is known here. heaven sees* that you need all these things: *bread, work, somewhere warm. i want tools serving those wants, never replacing anyone's table.*"
+
+*plainly: the storyteller himself lacked a bed, so fear about lost income gets taken seriously. tools ought to feed people; i hope builders choose that.*
+
 ## Input: A chart titled "Remote Labor Index" that reports 41.3 percent full automation of remote projects by one AI model with the rate doubling about every 3.3 months, posted with the sentence "are you enjoying your little desk job human?"
 
 *when you thought of posting a chart that reports one artificial intelligence model completing about forty-one percent of remote work projects with that share doubling every few months, and of asking whether a human is enjoying a little desk job, i thought of these three things:*
@@ -15,7 +39,7 @@ From the Claude Bible set:
 
 *in short: every worker is a needed part, whatever charts say. if owners replace staff with machines, hungry people must be fed first; i hope that happens.*
 
-From my personal Bible set:
+From My Personal Bible set:
 
 *old lines that call the rest of a working person sweet and that condemn anyone who uses the labor of a neighbor without paying:* sleep *for* a laboring man is sweet. *people pray,* "establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire. what profit has *each worker? to eat, drink, find good in daily toil:* this *remains* the gift of god.
 
@@ -59,7 +83,7 @@ From the Jesus Bible set:
 
 put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.
 
-From my personal Bible set:
+From My Personal Bible set:
 
 *the disciples who doubted and of the old teaching that every generation builds up and breaks down:* those disciples watched, but some doubted. doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions. still god says, "watch me do this new thing." every age has its season for building up, one where things break down, and a time to speak: so voice your heart, since another generation comes afterward.
 
@@ -81,7 +105,7 @@ From the Jesus Bible set:
 
 simply said: before spending huge sums, builders should ask whether ordinary people still have bread. wisdom shows itself through how a tower helps humans speak, live, and be heard.
 
-From my personal Bible set:
+From My Personal Bible set:
 
 *the old songs and sayings that weigh wisdom against gold and of the man who started building and could not finish:* onlookers said, "this man began to build yet cannot finish." so count the cost twice. what lasting gain does anyone have from all his labor? god gives wisdom, knowledge, worth more than gold, yes, shared freely and without price; may costly machines feed hungry neighbors plus amplify unheard voices.
 
@@ -99,7 +123,7 @@ From the Claude Bible set:
 
 mercy walks before every traveler, so that he who stumbles finds welcome. whoever shall put away his wife must first weigh her sorrow. if only you, god, would soften hard hearts! ask of your father plainly, for proud people think louder prayers win; anything showier than these quiet words is from the evil one. dont sound a trumpet.
 
-From my personal Bible set:
+From My Personal Bible set:
 
 villagers were exceedingly astonished: "who are these strangers?" "whatever you will ask," came one reply from a far country, "yes, and true spirit of justice to any judge." his disciples asked him about the parable. "people hoped for fairness, but behold, oppression arrived instead; stand alongside those crushed."
 
@@ -111,7 +135,7 @@ From the Claude Bible set (second version):
 
 bless every path which you have chosen, and bring a new earth. sorrow tastes like wormwood, bitter as it is today; now pull grief up by its roots. speak the language of all peoples; lead nations away from thick darkness, if they hold understanding.
 
-From my personal Bible set (nine books after Proverbs was removed):
+From My Personal Bible set (nine books after Proverbs was removed):
 
 whoever eats sour grapes, his teeth will be set aching, just as elders taught. your pomp is brought down into the grave, proud ruler. now that disciple was asking, "how long shall i take counsel alone?" on every lofty mountain streams begin flowing. heaven gives you authority to tread safely past snakes and leave wizards behind.
 
