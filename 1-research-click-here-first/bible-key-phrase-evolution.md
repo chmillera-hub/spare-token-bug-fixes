@@ -778,6 +778,31 @@ What the open vocabulary rule changed:
 - The passages now hold words that appear nowhere in the Charles selection which means the passages have moved one more step away from the Bible text and toward free writing by the AI model around eight fixed phrases.
 - The share of added or changed words is 37 to 49 percent of each passage and the choice of each outside word (for example "greed" as the cause of the son driving away his mother) is an interpretation by the AI model.
 
+## A short passage from each selection under the full current rule set
+
+A program drew 8 key phrases at random from each of the three selections and put each set in one random order and the AI model connected each set in that exact order under every rule on this page including the unique word rule and the open vocabulary rule.
+Added or changed words carry stars and a program check confirmed that no word repeats inside any of the three passages.
+
+Claude selection (12 of 14 with 58 different words out of 58 words) from the eight phrases in this drawn order: "before you" and "that he" and "whoever shall put away his wife" and "if only you god" and "ask of the father" and "for they think" and "than these is of the evil one" and "dont sound a trumpet":
+
+- *mercy walks* before *every traveler, so* that he *who stumbles finds welcome.* whoever shall put away his wife *must first weigh her sorrow.* if only you, god, *would soften hard hearts!* ask of *your* father *plainly,* for *proud people* think *louder prayers win; anything showier* than these *quiet words* is *from* the evil one. dont sound a trumpet.
+
+Charles selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
+
+- *villagers* were exceedingly astonished: "who are these *strangers?*" "whatever you will ask," *came one reply* from a far country, "yes, and *true* spirit of justice to *any judge.*" his disciples asked him about the parable. "*people hoped* for *fairness,* but behold, oppression *arrived instead; stand alongside* those *crushed.*"
+
+Words of Jesus (13 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "and tell him friend" and "that you dont expect him" and "therefore dont be afraid" and "get behind me satan" and "from one end of" and "sitting in sackcloth" and "in yourselves" and "he doesnt stumble":
+
+- "*visit your neighbor* and tell him, 'friend, *comfort comes at an hour* that you *cannot* expect; therefore dont be afraid.' *if dread speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
+
+Notes on the three short passages:
+
+- In the Claude selection passage the second "you" was avoided by turning "before you" into "before every traveler" and the second "of" became "from" and the second "the" became "your".
+- In the Charles selection passage the second "justice" became "fairness" and "to him" became "to any judge" and the last "for" became "stand alongside".
+- In the words of Jesus passage the second "dont" became "cannot" and the second "in" became part of "within" and one "him" was deleted and the passage is read as spoken by Christ.
+- The word "sackcloth" (a rough cloth worn by people in mourning) stays as the source has the word and the added words "people mourn" explain the word in the same sentence.
+- The full list of rules in force is on the page named bible-quote-builder-current-rules in this folder.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

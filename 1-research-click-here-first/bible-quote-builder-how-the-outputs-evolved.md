@@ -81,6 +81,22 @@ Words of Jesus (13 of 14):
 - Each of the three passages reads as a short connected scene and about half of the words in each passage had to be added and the three passages tell three different stories.
 - The three passages are on the page named bible-key-phrase-evolution in this folder in the section about sixteen random phrases.
 
+## Stage 11: every word different and an open vocabulary on random phrases in a random order
+
+Claude selection (12 of 14 with 58 different words out of 58 words) from the eight phrases in this drawn order: "before you" and "that he" and "whoever shall put away his wife" and "if only you god" and "ask of the father" and "for they think" and "than these is of the evil one" and "dont sound a trumpet":
+
+- *mercy walks* before *every traveler, so* that he *who stumbles finds welcome.* whoever shall put away his wife *must first weigh her sorrow.* if only you, god, *would soften hard hearts!* ask of *your* father *plainly,* for *proud people* think *louder prayers win; anything showier* than these *quiet words* is *from* the evil one. dont sound a trumpet.
+
+Charles selection (12 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "they were exceedingly astonished" and "who are these" and "whatever you will ask" and "from a far country yes" and "and a spirit of justice to him" and "his disciples asked him about the parable" and "for justice but behold oppression" and "for those":
+
+- *villagers* were exceedingly astonished: "who are these *strangers?*" "whatever you will ask," *came one reply* from a far country, "yes, and *true* spirit of justice to *any judge.*" his disciples asked him about the parable. "*people hoped* for *fairness,* but behold, oppression *arrived instead; stand alongside* those *crushed.*"
+
+Words of Jesus (13 of 14 with 48 different words out of 48 words) from the eight phrases in this drawn order: "and tell him friend" and "that you dont expect him" and "therefore dont be afraid" and "get behind me satan" and "from one end of" and "sitting in sackcloth" and "in yourselves" and "he doesnt stumble":
+
+- "*visit your neighbor* and tell him, 'friend, *comfort comes at an hour* that you *cannot* expect; therefore dont be afraid.' *if dread speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
+
+- Eight phrases were drawn at random from each selection and kept in a random order and the AI model could add almost any English word while keeping every word in the passage different.
+
 ## What the ten stages show together
 
 - The scores for one words of Jesus string rose from 6 to 10 to 12 to 14 as the rules widened which means each new rule removed one kind of obstacle for a reader.
