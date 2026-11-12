@@ -45,6 +45,8 @@ Warning about changed wording: passages made under these rules are not exact Bib
 
 19. After the remixed passage the AI model adds a second paragraph of one or two sentences that explains in plain words what the passage just said and the explanation may reuse words from the passage or the input quote and no word may repeat inside the explanation because a reader gets the point fastest from a short plain summary.
 
+20. Every sentence that the AI model adds is checked for claims about how people get treated or how the world works and a claim stays only when the source phrase supports the claim or when ordinary experience supports the claim because a comforting line that is false (for example "nobody gets scolded over unbelief") tells a reader who was argued with or shunned or abandoned for not sharing a belief that the treatment never happened and a claim that fails the check is reworded to match the source or removed.
+
 ## Rules about harm and about honesty that always apply
 
 - No passage may present physical harm to any person as good and a line about harm from the source is kept as a report or a question or is given to evil as the one who acts.

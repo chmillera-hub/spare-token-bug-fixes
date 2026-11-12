@@ -1011,6 +1011,16 @@ A fresh passage from the nine-book selection (12 of 14) from eight random phrase
 - Closing explanation: roughly: pride ends low, bad choices bring their own ache, yet lonely worry gives way once help arrives like water from high ground.
 - The place name "sheol" became "the grave" under the name rule and a program check confirmed that no word repeats inside the passage or inside the closing explanation.
 
+## A false added claim that Charles caught and the claim check rule
+
+Charles pointed out that one line the AI model had added to the Charles selection passage about the video game was false: the line read "nobody gets scolded over unbelief" and people who do not share a belief system are very often challenged or argued with or looked at strangely or abandoned.
+The line was also the reverse of its source because the source phrase was "because of your unbelief" from Matthew 17 where the speaker tells his followers that they failed because of unbelief and the AI model had deleted the word "because" and turned a rebuke into a reassurance.
+
+- The line now reads "doubters often hear blame because of unbelief" which keeps the source phrase whole and matches what happens to people who doubt.
+- The closing explanation now reads "doubt is normal whenever something new appears, though doubters frequently get blamed" and the prediction "today's marvel will feel ordinary soon" was softened to "may feel ordinary later" because the AI model has no evidence for a firm prediction.
+- Rule 20 on the rules page now requires a check of every added sentence for claims about how people get treated or how the world works.
+- Other added lines in the finished paragraphs are also claims by the AI model and not by the Bible (for example "size never proves worth" and "whatever you spend beyond that sum, somebody repays later") and a reader is right to test each added line the same way.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.

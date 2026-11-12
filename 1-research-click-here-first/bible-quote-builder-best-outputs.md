@@ -13,9 +13,9 @@ put plainly: size never proves worth. a project gains meaning when its makers se
 
 Charles selection:
 
-when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: those disciples watched, but some doubted. nobody gets scolded over unbelief; god says, "watch me do a new thing," while elders remember former things long past. every age has its time to build up, one for breaking down, and another generation comes. still, nothing stays novel under the sun.
+when you thought of the line that artificial intelligence is improving so fast that even people who doubted are now being won over, i thought of the disciples who doubted and of the old teaching that every generation builds up and breaks down: those disciples watched, but some doubted. doubters often hear blame because of unbelief; still god says, "watch me do a new thing," while elders remember former things long past. every age has its time to build up, one for breaking down, and another generation comes. even so, nothing stays novel under the sun.
 
-in short: doubt is normal whenever something new appears. each generation builds, tears down, then watches another begin, which means today's marvel will feel ordinary soon.
+in short: doubt is normal whenever something new appears, though doubters frequently get blamed. each generation builds, tears down, then watches another begin, so today's marvel may feel ordinary later.
 
 Claude selection:
 
