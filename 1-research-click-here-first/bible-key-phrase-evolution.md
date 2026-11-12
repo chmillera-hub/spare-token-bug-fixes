@@ -1134,6 +1134,14 @@ Lines that the two checks changed:
 - "having walked beside people" and "that deed touched heaven" stay because both lines describe people and things inside the story and not the reader.
 - A program check confirmed that no word repeats inside the changed bodies or closings.
 
+## A refinement to the claim check: a failed claim may become a stated hope
+
+Charles said that a line such as "i want a world where nobody gets scolded over unbelief" or "someday i believe there will be a world where nobody gets scolded over unbelief" is acceptable where the flat claim "nobody gets scolded over unbelief" was not.
+The reason is that a hope tells a reader what the speaker wishes for and makes no false statement about how people are treated today and rule 20 on the rules page now lists a stated hope as a third way to repair a claim that fails the check.
+
+- The Charles selection passage about doubt now reads "doubters often hear blame because of unbelief; someday, i hope, nobody gets scolded over questions" which keeps the truthful line and adds the hope beside it.
+- A program check confirmed that no word repeats inside the changed passage body.
+
 ## Names of the live programs
 
 The three older Bible programs differ by the size of the piece that the agents copy and not by Bible selection so the programs are now named by method and three further pages open the key phrase method on one selection each.
