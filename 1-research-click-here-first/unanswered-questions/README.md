@@ -30,3 +30,8 @@ Every page starts with a link to the original question so a reader can find the 
 - [mypy-inference-direction.md](mypy-inference-direction.md) answers a Python help forum question with zero replies about whether the type checker mypy reads assignments the same way as the type checker pyright.
 - [fit-uncertainty.md](fit-uncertainty.md) answers a Python help forum question with zero replies about getting fit uncertainties from analytical derivatives and comparing with curve_fit.
 - [s3-triangle-matrices.md](s3-triangle-matrices.md) answers a SageMath board question with zero answers about mapping the six rearrangements of three things to rotations and reflections of a triangle.
+- [log-equation-solve.md](log-equation-solve.md) answers a SageMath board question with zero answers about an equation with a logarithm that the solver handed back unsolved (a closed-form solution exists).
+- [legendre-outside-interval.md](legendre-outside-interval.md) offers a tested workaround for a SageMath board question with zero answers about special functions that the asker found missing.
+- [svg-points-by-colour.md](svg-points-by-colour.md) answers a Python help forum question with zero replies about getting coordinates along the paths of one colour in an SVG drawing.
+- [cornacchia-cost.md](cornacchia-cost.md) answers a SageMath board question with zero answers about the cost of an algorithm that writes a number as a sum of two squares.
+- [srgb-to-webp.md](srgb-to-webp.md) answers the testable parts of a Python help forum question with zero replies about converting photos to sRGB and saving the photos as WebP.

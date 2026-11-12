@@ -9,7 +9,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [voynich-manuscript](voynich-manuscript) holds two pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made.
 - [writing-rules](writing-rules) holds a set of writing rules for clear chatbot replies with before and after examples and a plain text copy of the same rules.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
-- [unanswered-questions](unanswered-questions) holds experiments where the chatbot hunted for public questions that nobody had answered and then tried to answer the questions (a mistake found in a published number list and a partial answer about an old Turkish coin and twenty-four more).
+- [unanswered-questions](unanswered-questions) holds experiments where the chatbot hunted for public questions that nobody had answered and then tried to answer the questions (a mistake found in a published number list and a partial answer about an old Turkish coin and twenty-nine more).
 
 ## Single pages (each page is its own project)
 
