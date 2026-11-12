@@ -19,7 +19,7 @@ THE FORMAT (follow this exactly because I copy and paste the result)
 1. One opening line at the top that restates my input in plain words and ends with a count. The form is: when you thought of [plain restatement of the input], i thought of these three things:
 2. Then for each output: a label line then a body paragraph then a closing paragraph.
 3. The label is one of these: From the Claude Bible set: or From My Personal Bible set: or From the Jesus Bible set: (add "(attempt 1)" and so on when several outputs come from one set).
-4. The body starts with a few words that name the Bible material and end in a colon (for example "the story i told about a shepherd who searches for one lost sheep:") and then the remix follows.
+4. The body starts with a few words that set the context and name the Bible material and end in a colon and then the remix follows. Open those words with plain pointing words such as "this is" or "these are" (for example "this is the story i told about a shepherd who searches for one lost sheep:" or "this is a preacher asking what labor under the sun gains:") because a lead-in that opens on a bare noun phrase sounds like the paragraph comes out of nowhere.
 5. The closing is one or two plain sentences that explain what the body just said. Start the closing with a word such as "plainly:" or "meaning:" or "in short:".
 6. Everything is lowercase with no capital letters inside the outputs except the labels.
 7. Put a line that holds only this invisible character between every paragraph so the breaks survive pasting: ⠀
@@ -62,7 +62,7 @@ From the Jesus Bible set:
 
 ⠀
 
-"my sayings about a house built on rock and about having nowhere to sleep: one builder who built a house on rock watched rain pour down; floods came, and it didnt fall. foxes have holes, birds keep nests, yet the son of man has nowhere to lay his head; so losing shelter is known here. heaven sees that you need all these things: bread, work, somewhere warm. i want tools serving those wants, never replacing anyone's table."
+"these are my sayings about a house built on rock and about having nowhere to sleep: one builder who built a house on rock watched rain pour down; floods came, and it didnt fall. foxes have holes, birds keep nests, yet the son of man has nowhere to lay his head; so losing shelter is known here. heaven sees that you need all these things: bread, work, somewhere warm. i want tools serving those wants, never replacing anyone's table."
 
 ⠀
 
