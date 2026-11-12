@@ -69,6 +69,12 @@ Words of Jesus (13 of 14):
 
 - "*the kingdom is made* for you from the foundation of the world, for i was hungry *and you gave to me*. *give to the little ones and to those* who are with child, for you always have the poor with you. *love the little ones* among yourselves, for i tell you, *do not make a house* on the sand: the rain came down, *and* your house is left to you desolate. i tell you, keep asking *the father*. if you remain in me, *believe: the son of man* was counted with transgressors for that *love*. so when *the last day* comes, most certainly i tell you that one of you will betray me, *yet the love of the father is greater*."
 
+## Side experiment: John 10 dealt into four random piles
+
+- The 201 key phrases of John chapter 10 were dealt at random into four piles and the AI model built one paragraph from every phrase in each pile.
+- Each pile came out as a small version of the whole chapter because the chapter repeats its main ideas and about one word in three had to be added.
+- The four full paragraphs are on the page named bible-key-phrase-evolution in this folder in the section about John 10 dealt into four random piles.
+
 ## What the ten stages show together
 
 - The scores for one words of Jesus string rose from 6 to 10 to 12 to 14 as the rules widened which means each new rule removed one kind of obstacle for a reader.
