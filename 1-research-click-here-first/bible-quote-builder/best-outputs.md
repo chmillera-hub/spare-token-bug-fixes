@@ -30,7 +30,7 @@ From the Claude Bible set (attempt 3):
 
 From the Jesus Bible set (attempt 1):
 
-"*this is about the night i said almost the same thing aloud in a garden and the cry i gave when i felt completely abandoned:* my soul is exceedingly sorrowful; *companions heard,* "stay here." *later came a prayer,* "let this cup *of suffering* pass away." the spirit indeed *was* willing, but flesh *felt* weak. *one afternoon i shouted toward heaven,* "why have you forsaken me?" *such words carry no shame; grief spoken aloud deserves company, never contempt.*"
+"*this is about the night i said almost the same thing aloud in a garden and the cry i gave when i felt completely abandoned:* my soul is exceedingly sorrowful, *since death drew near; companions heard,* "stay here." *later came a prayer,* "let this cup *of suffering* pass away." the spirit indeed *was* willing, but flesh *felt* weak. *one afternoon i shouted toward heaven,* "why have you forsaken me?" *such words carry no shame; grief spoken aloud deserves company, never contempt.*"
 
 *plainly: the storyteller himself once felt abandoned enough to cry out. your sentence sounds like that kind of pain; i hope somebody answers with care.*
 
@@ -38,7 +38,7 @@ From the Jesus Bible set (attempt 2):
 
 "*this is what i said about small birds sold for almost nothing and about who wants destruction and who wants life:* arent two sparrows sold *for one small coin? yet none gets forgotten.* you are of more value than many *birds.* the thief only comes to steal, kill, and destroy; *my purpose was* that *people* may have life. consider *how* lilies *grow without earning anything; worth never depended on usefulness.*"
 
-*meaning: a life holds worth even when everything feels pointless. the person hurting still matters, and i want destruction for nobody.*
+*meaning: a life holds worth even when everything feels pointless, because that feeling reports unmet needs. the person hurting still matters, and i want destruction for nobody.*
 
 From the Jesus Bible set (attempt 3):
 
@@ -60,7 +60,7 @@ From the Claude Bible set:
 
 From My Personal Bible set:
 
-*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw plans so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear deserves hearing.*
+*this is a promise that builders will live in what they build and a song about work done in vain:* they will build houses and inhabit them; *none shall draw plans so* another *may move in. workers ought to* long enjoy *all* work of their hands. unless god builds *each* house, *effort gets wasted, whether humans sketch walls or software does. someday, i hope, displaced drafters find* a very present help; though the earth changes, *fear deserves hearing since rent stays due.*
 
 *meaning: that promise says makers should benefit from what gets made. losing pay can bring hunger, cold, eviction; i want help reaching every laid-off person.*
 
@@ -134,7 +134,7 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*these are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last *workers hired* will be first *paid.* heaven and earth *shall* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, then* dont doubt: *whoever trusts me can* do greater works *than these.*"
+"*these are the sayings about workers who were hired last and about new wine and old wine, because those sayings ask who a great work is for:* so the last *workers hired* will be first *paid.* heaven and earth *shall* pass away, *yet each human voice matters;* *winemakers* put new wine *into fresh skins, though anyone tasting* old *vintage* immediately desires *it again. whenever* faith *runs low, keep speaking your heart even if crowds dismiss you, because whoever trusts me can* do greater works *than these.*"
 
 *put plainly: size never proves worth. a person sharing true feeling may get ignored, yet continuing matters because somebody else could finally feel understood.*
 
@@ -196,11 +196,11 @@ From My Personal Bible set:
 
 From the Jesus Bible set:
 
-"*visit your neighbor* and tell him, 'friend, *comfort may come at an hour* that you *cannot* expect; therefore dont be afraid.' *if dread speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
+"*visit your neighbor* and tell him, 'friend, *comfort may come at an hour* that you *cannot* expect; therefore dont be afraid *alone.*' *if cruelty speaks, reply,* 'get behind me, satan.' from one end of *earth people mourn,* sitting in sackcloth; *carry light with*in yourselves, *because whoever does so* doesnt stumble."
 
 From the Claude Bible set (second version):
 
-*bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *pull grief up* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
+*bless every path* which you have chosen, and *bring* a new earth. *sorrow tastes like* wormwood, *bitter* as it is today; now *tend grief gently* by *its* roots. *speak* the language of all *peoples; lead nations away from* thick darkness, if *they hold* understanding.
 
 From My Personal Bible set (second draw):
 
