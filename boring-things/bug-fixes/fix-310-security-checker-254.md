@@ -1,5 +1,7 @@
 # Fix 310: security-checker: the CI run of one commit on main is cancelled when the next commit is merged
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: Sh1n1230/security-checker
@@ -67,3 +69,5 @@ index 14b939a..98dbd3d 100644
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->

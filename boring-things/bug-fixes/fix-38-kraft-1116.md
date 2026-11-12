@@ -1,5 +1,7 @@
 # Fix 38: kraft: the document viewer adds a second banner landmark
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: itsOmidKarami/kraft
@@ -103,3 +105,5 @@ index 5afedb0..8f8f0d9 100644
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->

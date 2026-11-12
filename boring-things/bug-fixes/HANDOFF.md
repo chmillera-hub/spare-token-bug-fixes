@@ -292,3 +292,7 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - For security-checker 689 a noqa marker could not be added: the rule PLC0415 is off in the settings of the project and ruff reports a marker for a rule that is off as unused (RUF100).
 - Leads read and not started: jesdi/general-skills 222 (ticket 1 against 01: the fix also has to name the commit with the padded number so the naming code must be read first) and igormcsouza/tether 309 (several parts) and mrveiss/AutoBot-AI 21317 and falbany/ProFiles 127 and benjaminsnorris/storyforge 680 and asarelcastellanos/howlate.la 86. Licenses not checked.
 
+## Keeping the free website working
+
+The repository is also published as a free website (GitHub Pages) at https://chmillera-hub.github.io/spare-token-bug-fixes/ and the website builder treats two curly brackets in a row or a curly bracket next to a percent sign inside any .md file as a command which means one such file can make the whole website build fail. Any .md file that holds those symbols needs the line `<!-- {% raw %} -->` right after the title line and the line `<!-- {% endraw %} -->` as the last line because those two lines tell the website builder to leave the symbols alone and the lines stay invisible on the normal GitHub view. Five bug fix pages got those two lines on 12 November 2026 after the first website build failed.
+

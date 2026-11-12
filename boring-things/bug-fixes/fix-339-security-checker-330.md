@@ -1,5 +1,7 @@
 # Fix 339: security-checker: the SARIF upload category of the action is fixed so a monorepo cannot upload more than one result
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: Sh1n1230/security-checker
@@ -105,3 +107,5 @@ index 7250be2..285169e 100644
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->

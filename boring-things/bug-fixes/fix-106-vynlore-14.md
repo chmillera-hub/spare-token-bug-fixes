@@ -1,5 +1,7 @@
 # Fix 106: vynlore: the artist page crashes to a white screen when the artist has no tracks left
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: dhanushbs10/vynlore
@@ -109,3 +111,5 @@ index f29c28e..fc1262f 100644
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->

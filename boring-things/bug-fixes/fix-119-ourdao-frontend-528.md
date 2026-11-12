@@ -1,5 +1,7 @@
 # Fix 119: ourdao-frontend: the step that posts the preview link on a pull request would stop with an error
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: ourdao/ourdao-frontend
@@ -148,3 +150,5 @@ index 0000000..91ae821
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->
