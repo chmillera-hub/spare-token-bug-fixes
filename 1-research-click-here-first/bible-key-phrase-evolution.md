@@ -732,9 +732,9 @@ A repeat stays only where removing the repeat would break a sentence or where th
 
 The three eight-phrase passages again under the unique word rule:
 
-First random order (12 of 14 and 46 different words out of 49 words where the earlier version had 44 different words out of 66):
+First random order (12 of 14 and 47 different words out of 49 words where the earlier version had 44 different words out of 66):
 
-- *lord,* in the day you will show yourself perfect, for in this *a* saying is true: *one wicked son takes house* and drives away his mother, *but he* who deals wisely will *give her land.* "*blessed are those wise,*" *god* says. jesus began to preach *to people* on *earth.*
+- *lord,* in the day you will show yourself perfect, for in this *a* saying is true: *one wicked son takes house* and drives away his mother, *but he* who deals wisely will *give her land.* "*blessed are those wise,*" *god* says. jesus began to preach *with people* on *earth.*
 
 Second random order (12 of 14 and 42 different words out of 44 words where the earlier version had 42 different words out of 55):
 
