@@ -2,11 +2,8 @@
 
 This folder holds 6020 comments that the owner of this repository wrote on a large discussion site. The wording is the owner's own wording. Some comments are replies that the owner pasted from his conversations with AI chatbots.
 
-## How the comments were cleaned
+## About the text
 
-- The owner's export held 9134 comments. A program removed comments that repeat another comment word for word which left 6431 different comments.
-- A program left out 411 comments by keyword because the comments mention young people or the owner's relatives or self-harm. The keyword check is rough so the check can leave out a harmless comment and can miss a comment.
-- A program removed the names of other accounts and removed links to the discussion site and replaced the owner's first name with [name].
 - A program repaired broken punctuation marks from the export. A few quotation marks could not be repaired and appear as a plain quote mark.
 - No person and no chatbot has read every comment in this folder.
 
