@@ -17,6 +17,7 @@ The folder named [1-research-click-here-first](1-research-click-here-first) hold
 - [The Mobius strip picture of physics](1-research-click-here-first/mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [Writing rules for clear chatbot replies](1-research-click-here-first/writing-rules/writing-rules.md) is a set of rules with before and after examples that a person can paste into any chatbot.
 - [Unanswered questions](1-research-click-here-first/unanswered-questions) holds a checkable mistake found in a published number list (OEIS A394252) and a partial answer about when the Turkish para coin stopped being money and sixty-four more answered questions (a medical first-case claim and the word logline and forty-five programming questions and seventeen mathematics questions).
+- [Social media vibes](1-research-click-here-first/social-media-vibes/wifi-block-thread.md) counts what behaviors 349 commenters in one Reddit thread asked a homeowner to carry out after she asked whether to block an AI chatbot on her home wifi.
 - [Free bug fixes video](1-research-click-here-first/free-bug-fixes-video.md) points to a short video that shows 371 small ready-made bug fixes for public software projects.
 
 - [Record of the chat behind the research](1-research-click-here-first/chat-record.md) lists every request the repository owner made in his own words and gives the public link to the full chat: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
