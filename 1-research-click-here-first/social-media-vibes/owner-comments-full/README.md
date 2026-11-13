@@ -18,8 +18,9 @@ Each file is small enough for the search box at the top of the GitHub page to lo
 
 - [Words graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html) opens a live page where each bar shows how many times one of the 25 most common words appears across the 6020 comments and a tap on a bar opens an explanation under the bar.
 - [Phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html) opens a live page where each bar shows how many times one of the 25 most common phrases of two or more words appears across the 6020 comments and a tap on a bar opens an explanation under the bar.
+- [Sentences graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html) opens a live page where each bar shows how many of the 6020 comments contain one of the 25 most repeated sentences word for word and a tap on a bar opens an explanation under the bar.
 
-An AI chatbot (Claude) counted the words and phrases with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the two graph pages is unconfirmed.
+An AI chatbot (Claude) counted the words and phrases and sentences with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the three graph pages is unconfirmed.
 
 ## The files
 
