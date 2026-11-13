@@ -1,6 +1,6 @@
 # What 349 commenters asked a homeowner to do about a houseguest and an AI chatbot
 
-An AI chatbot (Claude) wrote this page from a screen recording of one Reddit thread on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts.
+An AI chatbot (Claude) wrote this page from a screen recording of one Reddit thread on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts. A reworded copy of every comment sits in the file [comments-reworded.txt](comments-reworded.txt) in the same folder.
 
 ## The situation in the thread
 
