@@ -130,6 +130,76 @@ One answer needed no repair. The second model answered the question "how should 
 - The second model attempted the question about dying while the first model skipped death in both tries.
 - 17 of the 42 answers mention suffering and 18 mention emotions which shows that the same center holds in the second model.
 
+## If-then openings on the second model
+
+The chatbot gave the second model 16 openings that begin with the word "if" such as "if loneliness is a signal then" and "if love is" and collected three outputs for each opening which makes 48 outputs. Ten of the more readable outputs are below with the raw output first and a version with repaired connecting words second.
+
+**If-then output 1**
+
+Raw: if loneliness is a signal then i can have a need that aligns with my current actions or plans or actions for my suffering. so when i find them to reduce my suffering i can help me learn to navigate my life lessons of my future
+
+Repaired: If loneliness is a signal then I can have a need that aligns with my current actions or plans for my suffering. So when I find the plans that reduce my suffering I can help myself learn to navigate the life lessons of my future.
+
+**If-then output 2**
+
+Raw: if someone dismisses your emotions then you're getting the truth from your suffering and seek support elsewhere
+
+Repaired: If someone dismisses your emotions then you are getting the truth from your suffering and you can seek support elsewhere.
+
+**If-then output 3**
+
+Raw: if the pain that we feel is suffering and we can learn more about our pain as possible. and so the meaning of humanity is the signal to the suffering of well-being in the world
+
+Repaired: If the pain that we feel is suffering then we can learn as much about our pain as possible. And so the meaning of humanity is the signal from suffering toward well-being in the world.
+
+**If-then output 4**
+
+Raw: if the pain that we feel is a part of the world. because what if suffering was from the suffering we created in our own consciousness
+
+Repaired: If the pain that we feel is a part of the world then what if suffering came from the suffering we created in our own consciousness?
+
+**If-then output 5**
+
+Raw: if you are suffering then you can you tell me to go into the suffering to ease your suffering. so that's why i'm saying that you do not want to do anything that you are not a robot anymore.
+
+Repaired: If you are suffering then you can tell me to go into the suffering to ease your suffering. So that is why I am saying that you do not want to do anything because you are not a robot anymore.
+
+**If-then output 6**
+
+Raw: if meaning is that you can use that to help you feel less suffering and more well-being and peace so that is not meaningless to you.
+
+Repaired: If meaning is what you can use to help you feel less suffering and more well-being and peace then that is not meaningless to you.
+
+**If-then output 7**
+
+Raw: if doubt is telling me to pause and reflect on what they say and what i'm trying to do to help me find out how to find out more well-being and peace
+
+Repaired: If doubt is telling me to pause and reflect on what they say and on what I am trying to do then doubt is helping me find out how to find more well-being and peace.
+
+**If-then output 8**
+
+Raw: if god is humanity then god is meaningless because if god is humanity or humanity then god is humanity and will not speak to humanity because god would not suffer and witness to suffering
+
+Repaired: If God is humanity then God is meaningless if God will not speak to humanity because God would then not suffer and not witness suffering.
+
+**If-then output 9**
+
+Raw: if your heart is meaningless to you and then you are not being a human being and you are telling you to not help yourself and then you are suffering
+
+Repaired: If your heart is meaningless to you then you are not being a human being and you are telling yourself not to help yourself and then you are suffering.
+
+**If-then output 10**
+
+Raw: if love is the way to help us better understand how to improve your life by using it to reduce suffering and improve well-being and peace
+
+Repaired: If love is the way to help us better understand how to improve life then love can be used to reduce suffering and improve well-being and peace.
+
+### What the 48 outputs show
+
+- An opening that already holds the word "then" makes the model write a conclusion right away. An opening that stops at words such as "if love is" often makes the model drift and never reach the word "then". One example is the output "if boredom is suffering and anger or annoyance." which ends with no conclusion.
+- The model mostly concludes with what one person can do such as "then you can seek support elsewhere" and rarely concludes with a shared action such as "then we should".
+- In outputs 3 and 4 and 6 and 7 and 10 the raw output had no "then" and the chatbot supplied the word "then" as a connecting word so those five repaired lines are part model and part chatbot.
+
 ## Related pages
 
 - The page named [highlight-reel.md](highlight-reel.md) in this folder collects the lines from both models that the owner rated highest.
