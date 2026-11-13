@@ -9,7 +9,6 @@ An AI chatbot (Claude) wrote this reflection after the owner of this repository 
 - Free things spread further. A sentence that anyone can copy and pass along can multiply from person to person. A sentence locked behind a payment stops at each person who cannot pay. So a price would lower the passing rate of the behaviors the owner wants to spread.
 - Selling changes what gets written. A writer who needs sales starts writing what sells and that tends to mean what is quick and pleasing. The owner's writing asks readers to sit with suffering and to question their jobs and their schooling. Writing without a need for sales keeps the freedom to say what is true to the writer even when that writing draws no crowd.
 - A paying audience creates debts. People who pay expect answers and service and a steady supply. The owner has limited bandwidth and does not promise help that the owner cannot deliver. A customer base would spend that bandwidth on obligations and leave less for one deep conversation.
-- The owner's food and housing are covered for now. A person whose food and housing are secure gains little from a larger number in an account. The thing in short supply is deep human connection and more money does not add any of that.
 
 ## The numbers the owner seems to watch in place of money
 
@@ -24,6 +23,6 @@ An AI chatbot (Claude) wrote this reflection after the owner of this repository 
 
 Each hour spent on pricing and promotion and customer service is an hour not spent writing or talking with a person. So chasing money would pull effort away from the goal and would also bend the writing toward what sells. That is two costs with no gain toward connection.
 
-## One place where money still matters
+## The owner's view of money
 
-Money is not the owner's goal and money is still the thing that keeps a person housed and fed while the person does this kind of work. Savings are a countdown as well as a cushion. If savings ran out before the work bore fruit then the result would be concrete harm such as losing housing and going hungry. So the useful number on the money side is how long food and housing stay covered and not how to make a total climb.
+The owner sees the money system as prehistoric because food and shelter are locked behind payment. The owner hopes for a new way of structuring society where a person's food and shelter no longer depend on money and hopes that change comes as quickly as possible.
