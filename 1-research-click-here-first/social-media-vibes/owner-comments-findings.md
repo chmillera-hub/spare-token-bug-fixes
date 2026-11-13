@@ -46,7 +46,7 @@ The owner's numbers for the first five lines come from the 60 sampled comments. 
 
 ## The generic phrase test
 
-The file [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable phrases such as "lol" or "that sucks".
+The counts in this section were made with an earlier version of the file [generic-phrases-10000.txt](generic-phrases-10000.txt) that included short phrases such as "lol" or "that sucks". The current version of the file holds phrases of six words or more. With the current version 0 of the owner's 6020 public comments are word for word the same as a phrase on the list and 12 of the 6020 comments (0.2%) contain one of the 320 base phrases somewhere inside a longer comment.
 
 - 54 of the owner's 9134 comments (0.59%) are word for word the same as a phrase on the list. Most of those 54 are the two words "go on" which the owner used 49 times to ask another person to continue.
 - 14 more comments (0.15%) are short comments built around a list phrase.

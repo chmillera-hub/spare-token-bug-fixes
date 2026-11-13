@@ -25,7 +25,7 @@ Deep dives (reflections on the work in this folder):
 
 Generic phrases (phrases that a program could post as easily as a person):
 
-- [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases in nine groups such as laughter and agreement and sympathy.
+- [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases of six words or more in eight groups such as laughter and agreement and sympathy.
 - [generic-phrases-test.md](generic-phrases-test.md) reports a test of the phrase list against 49525 posts and comments from a public archive and lists five findings.
 
 The repository owner's own comments compared with the two threads:

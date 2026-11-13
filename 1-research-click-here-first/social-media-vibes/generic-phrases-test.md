@@ -4,7 +4,18 @@ An AI chatbot (Claude) wrote this page on 12 November 2026.
 
 ## What the phrase list is
 
-The file [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases such as "lol" or "wow that's crazy" or "thanks for posting" or "sending love". Each phrase signals a reaction and carries no information and no request that a reader could act on. An AI chatbot wrote about 1400 base phrases and a small program combined the base phrases with common openers and closers until the list reached 10000 lines.
+The file [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases of six words or more such as "thank you so much for sharing this" or "I'm so sorry you're going through this" or "I could not agree more with this". Each phrase signals a reaction and carries no information and no request that a reader could act on. An AI chatbot wrote 320 base phrases by hand in eight groups and a small program combined the base phrases with common openers and closers such as "lol" or "bro" or "for real".
+
+The list changed on 13 November 2026. The earlier list included phrases as short as one word such as "lol". Every phrase on the current list has six words or more because a comment of five words or fewer is already counted as too short to carry a specific thought.
+
+## Counts with the current list (six words or more)
+
+- 2 of the 49525 rows are word for word the same as a phrase on the current list which is about 0.004%.
+- 26 of the 49525 rows (0.05%) contain one of the 320 base phrases somewhere in the row. The most common base phrase is "keep up the great work" which appears in 7 rows.
+- 39658 of the 49525 rows (80.1%) have six words or more so the current list was tested against most of the archive and still matched almost nothing.
+- 9867 rows (19.9%) are five words or fewer. That count does not depend on the list.
+
+The near-zero match rate suggests that a longer hollow comment is rarely worded the same way twice. A fixed list of long phrases works as a set of examples of hollow comments and works poorly as a filter for catching hollow comments.
 
 ## What this test does and does not claim
 
@@ -19,18 +30,20 @@ The archive is a public collection named reddit-dataset by the GitHub account li
 - The archive stripped punctuation and emoji from the text which means the emoji lines on the phrase list could not be tested.
 - The archive mixes thread titles with comments so some short rows are titles and not comments.
 
-## The three counts
+## The three counts with the earlier list
+
+The counts in this section and in the next two sections were made with the earlier list that included short phrases.
 
 - 343 of the 49525 rows (0.69%) are word for word the same as a phrase on the list.
 - 665 more rows (1.34%) are short rows of eight words or fewer that are built around a list phrase of two or more words such as a list phrase with a name added.
 - Together 1008 rows (2.0%) match the list in one of those two ways.
 - 9867 rows (19.9%) are five words or fewer whether or not the row matches the list.
 
-## The most common exact matches
+## The most common exact matches with the earlier list
 
 ok (15) and lol (11) and wow (10) and yes (10) and no (10) and awesome (9) and nice (8) and thank you (7) and beautiful (7) and neat (6) and very nice (6) and rip (5) and who cares (5) and nope (5) and this (5) and congratulations (5).
 
-## The counts by area
+## The counts by area with the earlier list
 
 Each line shows the share of rows that match the list in either way and the share of rows that are five words or fewer.
 
@@ -49,6 +62,7 @@ Each line shows the share of rows that match the list in either way and the shar
 3. The forum with the highest match rate is a forum where people post photos of their own progress because 14.9% of the rows there match the list. The matches there are praise phrases such as "great work" and "congratulations". So the place where people share something personal is also the place where the replies are most interchangeable.
 4. Forums that require detailed answers show almost no matches. A science question forum (395 rows) and a plain-explanation forum (485 rows) had zero matches and a history question forum (164 rows) had one. So the rules and habits of a space change how much room stock phrases get.
 5. The humor area and the gaming area hold the most short rows which fits the idea that quick reactions cluster where the posts are jokes or game moments.
+6. Long hollow phrases almost never repeat word for word because the current list of 10000 phrases of six words or more matched 2 rows out of 49525. So checking whether a comment mentions any detail from the post may catch hollow comments better than any fixed list can.
 
 ## Limits
 
