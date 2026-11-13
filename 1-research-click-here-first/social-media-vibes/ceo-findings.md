@@ -41,7 +41,7 @@ Each comment was labeled with the behaviors that the comment asks somebody to ca
 2. Among the comments that do ask for something the largest group asks for gentleness toward the executive because 15 labels ask for compassion or for lighter treatment while 2 ask for punishment.
 3. The thread is split on the planned-takedown idea because 6 comments point at hidden plotters and 5 comments mock that idea.
 4. Money bets lean downward because 5 comments bet on a falling stock and 2 bet on a rising stock.
-5. No comment asks anybody to care for the executive's wife or for the women named in the news reports. Three comments mention his family and each of those three treats the family as something the executive lost.
+5. No comment asks anybody to care for the executive's wife or family or for the women named in the news reports. The comments that mention his wife or family treat them as something the executive lost or as a reason why the affairs should not matter.
 6. One comment voices a worry that the executive might hurt himself and no comment answers that worry.
 7. Several of the longest and most thoughtful comments are about where a person finds meaning because those comments argue that money cannot replace lost work or a broken family.
 
