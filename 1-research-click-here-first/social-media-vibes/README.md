@@ -14,6 +14,11 @@ Second thread (a famous executive who lost his job):
 - [ceo-comments.txt](ceo-comments.txt) holds the 171 comments in anonymized form.
 - [ceo-labels.txt](ceo-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment.
 
+Third thread (an executive who answered messages from strangers within minutes):
+
+- [fast-reply-behavior-links.md](fast-reply-behavior-links.md) picks 11 behaviors that commenters described such as answering a stranger inside a minute and connects each behavior to what Charles does on social media.
+- [fast-reply-comments.txt](fast-reply-comments.txt) holds 247 comments from the thread in anonymized form.
+
 Generic phrases (phrases that a program could post as easily as a person):
 
 - [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases in nine groups such as laughter and agreement and sympathy.
