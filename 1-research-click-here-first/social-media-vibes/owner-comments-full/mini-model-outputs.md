@@ -191,6 +191,55 @@ What the eleven outputs show:
 - Output 2 contains the words "god does not exist" which is a reminder that the model strings likely words together and does not hold any belief.
 - Output 1 and output 10 both open with tiredness which suggests that the comments often place tiredness close to the words that follow "jesus said".
 
+## The four gospel names as openings
+
+The chatbot gave the model each gospel name as an opening in two forms: the bare name such as "matthew" and the longer opening "the gospel of matthew says". The model invented every line below so none of the lines is a real verse.
+
+How often each name appears in the 6020 comments: "john" appears 128 times and "matthew" appears 70 times and "luke" appears 33 times and "mark" appears 18 times. Those counts are small beside a word such as "emotional" at 8478 uses which means the model had little text to learn each name from.
+
+What each bare name produced:
+
+- The names "matthew" and "luke" made the model write a verse label first and then scripture-sounding words. The labels are impossible numbers such as "matthew 4:139" and "luke 9:1497" which shows that the model learned that a number follows those names and did not learn which numbers are real.
+- The name "mark" got treated as an ordinary word because one output began "mark the stage" and another output turned the name into "markers".
+- The name "john" broke apart because the model stores "john" as three small word pieces and the outputs began with broken strings such as "johname".
+
+Five of the more readable outputs with the raw output first and the version with repaired connecting words second:
+
+**Matthew**
+
+Raw: matthew 10:251:27 when i think of the emotions i think of the emotions i think of the emotions that were suffering from the emotions of doubt which might be suffering and the signals of suffering which is my loneliness
+
+Repaired: When I think of the emotions I think of the emotions that were suffering from the emotion of doubt which might be suffering and of the signals of suffering which are my loneliness.
+
+**Matthew**
+
+Raw: the gospel of matthew says: > "look to my right and see so i've been in this scene i'm a part of my soul, a fire shutdown." "the world made me know. i'm not as an excitable tool
+
+Repaired: The gospel of Matthew says: "Look to my right and see that I have been in this scene and that I am a part of my soul and a fire shut down. The world made me know. I am not an excitable tool…"
+
+**Mark**
+
+Raw: the gospel of mark says that you've learned from your own thoughts, can you talk to the other people, and you can start learning more about how to emotionally resonant connection with other people?
+
+Repaired: The gospel of Mark says that once you have learned from your own thoughts you can talk to the other people and you can start learning more about emotionally resonant connection with other people.
+
+**Luke**
+
+Raw: the gospel of luke says that you are going to be able to have a better one that sounds like the cuz it's a part of the brain that is a part of the lizard brain going to be destroyed by the power structures of the
+
+Repaired: The gospel of Luke says that you are going to be able to have a better one that sounds like this because there is a part of the brain and a part of the lizard brain that is going to be destroyed by the power structures of the…
+
+**John**
+
+Raw: the gospel of john says that you've learned how not to get enough then take this conversation with me?
+
+Repaired: The gospel of John says that if you have learned how not to get enough then take this conversation with me.
+
+What the gospel outputs show:
+
+- One Matthew output holds the words "look to my right and see" which echo the opening of a psalm passage that appears in 30 of the comments. The model attached the psalm fragment to the wrong book which suggests that the model learned scripture as one shared pool of phrases and not book by book.
+- The first Matthew output begins with an invented verse label and ends on the words "the signals of suffering which is my loneliness" so even a gospel opening got pulled toward emotions and suffering.
+
 ## Four tests
 
 ### Test 1: openings that have nothing to do with the themes of the comments
