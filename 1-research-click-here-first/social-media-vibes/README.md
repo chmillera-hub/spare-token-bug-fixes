@@ -7,4 +7,11 @@ This folder holds counts of what behaviors the commenters in a social media thre
 - [comments-reworded.txt](comments-reworded.txt) holds all 364 comments and the homeowner's post and replies from the same thread in anonymized form with wording written by an AI chatbot that keeps the meaning and the energy of each comment.
 - [comments-with-labels.txt](comments-with-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment so that a reader can check every count on the findings page.
 
+Second thread (a famous executive who lost his job):
+
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/ceo-bar-graph.html) opens a live page where each bar shows how many of 171 comments asked for a behavior after a news article reported that a famous technology executive resigned.
+- [ceo-findings.md](ceo-findings.md) counts the behaviors that 171 comments under one person's social media thread asked for and lists seven findings.
+- [ceo-comments.txt](ceo-comments.txt) holds the 171 comments in anonymized form.
+- [ceo-labels.txt](ceo-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment.
+
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
