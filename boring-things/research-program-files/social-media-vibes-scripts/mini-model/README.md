@@ -8,3 +8,4 @@ This folder holds a tiny text model that an AI chatbot (Claude) trained only on 
 - write.py is the program that makes the model write. Run python3 write.py gen to print sample outputs or run python3 write.py nb to print the closest words to a set of test words.
 
 The model only imitates which words tend to follow which words in the comments which means the model does not understand the comments and the outputs are not statements to rely on.
+- tests.py is the program that ran the tests reported on the page named mini-model-outputs.md. Run python3 tests.py from inside this folder.

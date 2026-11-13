@@ -29,5 +29,6 @@ The repository owner's own comments compared with the two threads:
 - [Sentences graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html) opens a live page inside the owner-comments-full folder where each bar shows how many of the 6020 comments contain one of the 25 most repeated sentences word for word.
 - [themes-findings.md](owner-comments-full/themes-findings.md) and [goal-findings.md](owner-comments-full/goal-findings.md) sit inside the owner-comments-full folder and report how themes shift across the 6020 comments and what goal the owner states in the comments.
 - [mini-model-findings.md](owner-comments-full/mini-model-findings.md) sits inside the owner-comments-full folder and reports what a tiny text model learned after training only on the 6020 comments.
+- [mini-model-outputs.md](owner-comments-full/mini-model-outputs.md) sits inside the owner-comments-full folder and holds example outputs and repaired outputs and four tests of the tiny text model.
 
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.

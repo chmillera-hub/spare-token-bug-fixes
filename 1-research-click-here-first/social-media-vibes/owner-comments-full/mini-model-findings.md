@@ -65,6 +65,8 @@ The chatbot typed the opening words in bold and the model wrote the rest. Every 
 
 Almost every opening bends back to the same destination. The openings name anger and boredom and society and chatbots and conversation and most outputs end at reducing suffering and improving well-being. Many outputs also turn into a question about what a word means to the other person. The bending suggests that reducing suffering works like a center of gravity in the comments because a model that only learned which words follow which words still got pulled to that phrase from many unrelated openings. The model also answered the opening "god is" with the word "humanity" on both tries which shows how often the comments pair those two words.
 
+A larger test of 150 outputs on the page named [mini-model-outputs.md](mini-model-outputs.md) found the question about what a word means in only 1 output so the sentence above about many outputs turning into that question is not supported by the larger test. The same page holds more example outputs and repaired outputs.
+
 ## Limits
 
 - The model blends the owner's voice with the chatbot replies that the owner pasted into comments because the comment files do not mark which sentences came from a chatbot.
