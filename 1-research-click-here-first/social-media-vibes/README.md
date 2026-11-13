@@ -21,7 +21,7 @@ Third thread (an executive who answered messages from strangers within minutes):
 
 Deep dives (reflections on the work in this folder):
 
-- [deep-dives](deep-dives) is a folder that holds two reflections: one about four habits in public conversation and one about why the work in this folder is not aimed at making money.
+- [deep-dives](deep-dives) is a folder that holds reflections such as one about four habits in public conversation and one about why a question teaches more than a verdict.
 
 Generic phrases (phrases that a program could post as easily as a person):
 
