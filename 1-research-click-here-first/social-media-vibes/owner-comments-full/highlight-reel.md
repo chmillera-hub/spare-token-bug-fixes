@@ -30,7 +30,7 @@ What does the facade mean to you? Because if the facade means that you are engag
 
 **From the question "what is happiness?"**
 
-And they say: well I don't care about emotions because I don't know what that means to me and I will not speak to my suffering. And if I will help them then as the consciousness that will do that best I have found none.
+And they say: well I don't care about emotions because I don't know what that means to me and I will not speak to my suffering. And if I will help them then as the consciousness that will do…
 
 **From the question "why is there evil in the world?"**
 
