@@ -11,7 +11,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [christ-voice](christ-voice) holds short scripts where Christ talks with the warrior prince Vegeta (four scripts in word patterns counted from the red-letter words of the World English Bible and three interactions in a two-part shape counted from passages rated as hitting hard).
 - [unanswered-questions](unanswered-questions) holds experiments where the chatbot hunted for public questions that nobody had answered and then tried to answer the questions (a mistake found in a published number list and a partial answer about an old Turkish coin and sixty-four more).
-- [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (the first page counts 349 commenters in one Reddit thread about blocking an AI chatbot on home wifi).
+- [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (the first page counts 364 comments in one Reddit thread about blocking an AI chatbot on home wifi).
 
 ## Single pages (each page is its own project)
 

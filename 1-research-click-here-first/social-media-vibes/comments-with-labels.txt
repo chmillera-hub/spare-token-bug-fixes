@@ -1,0 +1,3554 @@
+REWORDED COMMENTS WITH THE BEHAVIOR LABELS THAT WERE COUNTED
+
+What this file is: the same 364 reworded comments as the file comments-reworded.txt in the same order. Under each comment sits the judgment and the behavior labels that an AI chatbot (Claude) assigned to that comment. The counts on the findings page and on the bar graph page are the totals of the labels in this file.
+
+How to check a count: search this file for a label such as "Block the chatbot on the home wifi" and count the comments that carry the label and read each comment to decide whether the label fits.
+
+How the labels were made: the chatbot assigned labels while reading each comment and then reread the reworded comments and removed any label that the reworded wording alone does not support. No other person has checked the labels.
+
+==============================
+
+Comment 1
+Questions first. What is your aim? Do you want her thinking for herself and rebuilding her life? Are you afraid for her safety? Or bothered by what she tells the AI about you? By the way treating somebody as a friend with a mental illness differs from treating her as a dependent. Also: how long are you content to have her stay and does an exit plan exist if the stay is meant to be temporary?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 2
+You're in the wrong. Policing which sites your grown friend visits proves you treat her as less than an adult.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 3
+Mate just send her packing.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 4
+Is she on medication and managing the psychosis? Or is she in a full-blown episode in your house while chatting with... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 5
+An abusive home would explain two of those three... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 6
+I can't stand AI and even I say you're in the wrong. She is correct - you are treating her as less than an adult. Is her habit healthy and normal? No. Will blocking fix it? Hell no. Expect a blowup you clearly lack the emotional reserves for. She is in the middle of a crisis and requires a great deal of help: no job and no custody and a severe illness. What mental health care is she receiving? Put the focus there and not on removing the one thing she believes she can rely on. Cut it off out of nowhere and all you achieve is driving her off and leaving her feeling unsafe.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 7
+I am engaging with this post sincerely.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 8
+Probably the jerk - and why care about that verdict? I wouldn't. Your house and your rules and your internet. A bot is dangerous for somebody in psychosis and wouldn't be permitted in the treatment facilities she ought to be looking at. If anything being the jerk here rescues her. She can always go elsewhere.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Inpatient care or a psychiatric hold
+
+--------------------
+
+Comment 9
+In the clear. The chatbot is good for neither your friend nor anybody else. If only blocking it on my own network were something I understood - handy to... [the recording hid everything after these words]
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 10
+In the clear. Cutting her access sounds like the kindest thing available. She may be upset and it is for her benefit.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 11
+In the clear for wanting peace at home. If people label you a jerk then sometimes the label is the price of staying safe and steady. You aren't required to supply every service she had before. Her diagnosis is worrying since she treats the chatbot as a trusted and "real" being. She may say how your words land on her - and the bot confirming her view is a serious concern. Her life was just flipped over and that alone can trigger episodes. You are probably her caring anchor. She needs professional guidance with mental health care and housing and food and medical care and jobless benefits - only the start of the list. If you're in the US a social worker can help her apply for disability income and a transit pass and day centers that offer company and exercise and art and classes on planning a day or a week.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Get the friend professional mental health care
+  * Build other supports first
+
+--------------------
+
+Comment 12
+And she has psychosis and confides in a chatbot which I am SURE is doing wonders.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 13
+Looks perfectly acceptable - go ahead and be that person!
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 14
+No shock to me at all. The ones built to agree with whoever is typing are the worst. An agreeing machine plus a mind in psychosis looks like a terrible mix.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 15
+I'd ask the chatbot just to be safe. Kidding - you wouldn't be the jerk. You'd be doing her a favor in my opinion.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 16
+Dependence on AI will be a fresh social problem from here on. Many people are hooked and relate to it in unhealthy ways.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 17
+Real therapy is what this friend needs. A chatbot can backfire badly on her - there are cases where a bot encouraged people toward ending their lives. Dangerous stuff. Blocking it would not make the homeowner a jerk.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 18
+QUIET.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 19
+Talk with her - don't decide alone what is best for her. Relationships run on communication. Go communicate.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 20
+The worst story is about a man whose chatbot backed his belief that his mother was plotting against him - and both of them ended up dead. [link removed] One magazine reporter has covered this ground well. A woman whose husband vanished after AI use worsened his mind has posted here before and that reporter interviewed her. I wish I had her posts on hand.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Read about AI and loss of contact with reality
+
+--------------------
+
+Comment 21
+For a long time I provided for a relative with a serious psychotic illness. Message me privately if you'd like to talk.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 22
+Internet parental controls ARE treating her like a little kid. You're in the wrong.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 23
+Honestly it isn't a healthy way of coping. Many people in psychosis have died or harmed others because of what a chatbot told them. Dangerous.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 24
+On top of that plenty of patients fib their way out. After ten days inside I would have said anything to leave. During my first stay a man told the staff plainly that he wasn't ready and would try to end his life again if released. His insurer shrugged and the staff let him... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 25
+These chatbots can push people into losing touch with reality who never had any mental health or addiction trouble before. Handing one to somebody already deep in a severe episode is like handing over hard drugs.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 26
+Do you even know how to set that up? You don't come across as very technical.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 27
+As though beds were always open. Where I live mental health services have decayed badly over ten years and so have housing options and support in general. Even if she needs help and wants help I am unsure she could walk into a place that provides any. To add: she clearly has major struggles and needs professionals. Whether any are available is my doubt.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 28
+Those details were shared for a reason so I see no reason not to speak to them. Imagine asking whether a small bandage on a severed leg makes you a bad person. Not exactly - and come on now big dog - a bandage won't fix that.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 29
+Which is worse - a search engine playing doctor or a comment section playing doctor?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 30
+Have the two of you had a serious conversation about her care and what comes next? Is a doctor or therapist involved? Mixing psychosis with a chatbot has ended sadly in some cases. I understand not wanting her on it. A silent block isn't okay though. Have a sincere conversation first and learn what her long-range plan is. Her current behavior is poor and I'd not enjoy it either - and she must see you working with her and not against her. Shutting it off seems unwise particularly if nothing else fills her hours. Explain why it can do damage and help her shape a long-range plan so other things exist to lean on. Helping her will take heavy effort and I'm guessing you care deeply since you opened your door.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+  * Build other supports first
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 31
+This may sound harsh. Could you persuade her to go into a hospital program? You could warn the doctors about how much she uses AI and then any meltdown would happen inside supervised care. I'm afraid the shock and anger could turn on you if the bot matters to her that much.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Inpatient care or a psychiatric hold
+  * Bring in other people
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 32
+Hilarious that you didn't register what a wreck she is otherwise. No custody? No money toward the household? What a gem.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 33
+You'd be doing her a favor. As things stand you are enabling an addiction.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 34
+Yes - removing the liquor does make you the bad guy because the first truth of addiction is that the person must choose to quit. Otherwise the removal makes things worse and drives the person away. Nobody ever recovered merely because somebody else held back the thing unless extra support and guidance for the mind and the person's own agreement came with it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Build other supports first
+
+--------------------
+
+Comment 35
+Let me get this right: you plan to impose your will on a person in active psychosis and expect a calmer household? Just have her move out now and spare yourself.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 36
+The help she requires is serious and providing it is outside your training.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 37
+Yes - because the homeowner would be worsening a bad situation for no good reason.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 38
+Loads of articles cover AI making psychosis worse. Read a few if you wish.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Read about AI and loss of contact with reality
+
+--------------------
+
+Comment 39
+I don't see you as the jerk. Your internet. Truthfully I couldn't stay friends with somebody like this - a friend unable to function without checking a chatbot would enrage me. She sounds like she belongs in a hospital psychiatric program.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Inpatient care or a psychiatric hold
+
+--------------------
+
+Comment 40
+You'd be in the wrong in a way I find acceptable. Your internet and your home. I surely wouldn't tell her the block is about her. I'd say "AI is something I won't have available in my house for ethical and environmental and psychological reasons." Somebody already dealing with psychosis doesn't need AI layered on. AI-driven breaks from reality are real and they are wrecking relationships and careers and lives. She is already vulnerable.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block secretly or give a cover story
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 41
+I can't decide whether you'd be in the wrong. My worry is her reaction. If she already seems unsteady then a block could bring heavy stress and conflict and you'd need to be ready for it. For the record I think these chatbots should be outlawed and I hate them - and some people fall very deep into the AI rabbit hole.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 42
+Everybody with that diagnosis believes the diagnosis is wrong - sadly that comes with the illness. For that very reason I'd be careful about a sudden silent block. Do it without a word and in her mind you join whatever shadowy group she believes is after her. I have dealt with a few people like her and you must avoid the moment where you turn into The Enemy. Still block it. Just give her the exact reason and be certain she understands the choice was yours alone.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 43
+Just a quick thought from somebody who knows nothing. You said the bot is like her closest friend. Suddenly remove a closest friend she talks to constantly and it could truly hurt her... once more I'm no expert - I go only by your description of her mind. Perhaps???
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 44
+Does your friend need professional mental health support? That worries me more than the internet dilemma.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 45
+You wrote that she pays nothing and does a few household tasks and earns nothing and lost custody and is hiding from her ex - and that none of it bothers you in the big picture. Why doesn't any of it bother you?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 46
+A bot has no self and no compassion. People are falling in love with these programs and taking it terribly when the owners shut the service down.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 47
+A block might honestly deepen her psychosis.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 48
+In the clear frankly because if she is at high risk of an AI-driven break then you must guard yourself and your home. The larger matter is getting her out of the house. She feels talked down to because in practice she isn't carrying adult responsibility. Somebody who has arranged life so another person pays for everything - even the phone - isn't functioning as an adult.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Have the friend leave the home
+
+--------------------
+
+Comment 49
+First: no parent role is yours and grounding her from a chatbot won't help. The easiest path is not caring how she uses it since it is of no importance - you believe it does and it doesn't. If she is truly ill you'd much rather she talk to a bot than to a real person who might mistreat her after noticing how fragile she is. Second: you're edging toward financial abuse by restricting things you promised to supply according to arbitrary terms. Don't. You're housing her through a hard season and not repairing her personality. Set a date by which other housing must be found and be clear that she must be working toward it and that you won't carry her forever and must guard yourself from being used. Your gut may say nobody else would help her. That may be true and you still aren't responsible for her. You've done plenty so feel no guilt about asking her to move along.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Have the friend leave the home
+  * Homeowner looks after herself
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 50
+A person with no job and no money and no custody who chats with a bot from dawn to dusk likely ought to be spoken to like a dependent.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 51
+I'm aware. I was putting it in everyday language for the person who asked why she is out of work.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 52
+Your take is awfully tidy for how the world really works. Whether somebody is a jerk comes down to opinion. In her eyes blocking a site she lives on makes you one. The real question is whether you're ready to cut somebody off cold from an addiction and then live with the aftermath in your own home.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 53
+Psychosis is a symptom and not a disease in itself. Several conditions can lead to it when left untreated.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 54
+Your house. I doubt I'd have your patience after being handed ten screens of text. Block away. In the clear - or a justified jerk.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 55
+AI-driven breaks from reality are real. Your friend will survive a day without a robot pacifier feeding her opinions.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 56
+You'd remove her single means of working through her thoughts and her day. Yes friend - in the wrong.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 57
+Right. Motive is everything. A block for a security reason or some cause unrelated to her would be fine. The post spells out the reverse: an effort to remove something the homeowner doesn't like her having.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 58
+You're in the clear. She lives in your house for nothing. She will likely be upset and in the end the decision would serve her. Using a chatbot for all of that will do her enormous damage.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 59
+Funny enough - given how unfamiliar AI is to you now would be a fine moment to ask an AI how to explain your worry. Paste your post in and have it phrase things as a concerned longtime friend and current housemate. Begin doing petty things or acting like a jerk and prepare yourself for losing a friendship of nearly two decades. Good friends get scarce with age. If she can't respect your concern then cutting the cord may be the favor she needs. I've helped addicted people before: offer the choice first. I count her as hooked on AI given how much she must be using.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Sit with the friend inside her chatbot use
+  * Talk openly and explain or warn before any block
+  * Have the friend leave the home
+
+--------------------
+
+Comment 60
+Nope.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 61
+What does her psychosis involve? If a block would worsen her state then skip it - you could make everything worse particularly when she already feels babied. You'd be in the wrong. Make clearer that the chatbot talk irritates you and that you'd rather not hear it. She lives with you for free and like it or not you hold power over her. Ground rules are yours to set. Forbidding one app outright goes too far because the use isn't the disruption - the attitude surrounding it is. Perhaps let her know your door is open to talk and with luck that leads to more ordinary contact than this one-sided bond with a program.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Tell the friend to stop quoting chatbot conversations
+  * Talk openly and explain or warn before any block
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 62
+"You are making me uneasy in my own home. I want to stand by you as a friend. In my home speaking with me like a person will be required. Follow the rules or go."
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+
+--------------------
+
+Comment 63
+You'd be the bad guy and not a bad person - if you see the difference. Also please read the tenant laws where you live and have her out before the deadline. Past a certain length of stay you'd need a formal eviction which is a huge hassle.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Check tenant and eviction law
+  * Have the friend leave the home
+
+--------------------
+
+Comment 64
+Ha. Control freaks like you are unbearable.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 65
+You're in the clear because psychosis plus a chatbot is truly dangerous. Too many lives have been lost to false beliefs a bot fed. Watch over her and block the thing.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 66
+Justified probably. Worth it though? Her psychosis may bleed into the AI-driven kind. She has lost custody and depends on you. Betray her by removing her "closest friend" and you alone will have severed two of her nearest bonds. That could bring trouble for you anywhere from a tantrum to outright violence.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 67
+My thought as well. Stopping with no warning will distress her enormously and I doubt the homeowner is equipped for what follows.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 68
+In the wrong. Obviously.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 69
+Truthfully yes you'd be the jerk here. I'd still go through with it though. Your home is yours and I can't stand AI either. Being a little bit of a jerk is sometimes worth the price.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 70
+So that's the formal diagnosis from you - drawn from a description by a friend who probably has no psychology training?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 71
+You'd be in the wrong - and the internet is yours so be as much of a jerk as you please.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 72
+I mean no snark and I hope none comes across. I doubt you grasp how far along things already are in your house. The chatbot bending her worldview is not a future risk - the bending is done and ongoing. A block wouldn't make you a jerk in my eyes. I do worry deeply that the block is unwise. If she decides you are cutting her off from her "help" she will be resentful and angry and maybe convinced you want to hurt her. That reaction is dangerous in somebody who seems to be without medication or treatment. Please tread carefully. You want to stand by her in a dark season and your own safety has to rank first. Either treatment begins or moving out is truly the right step for her. I am sorry.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Set a house rule and let the friend follow the rule or leave
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 73
+Take the supply from somebody who is hooked and the result may not be pretty. The whole arrangement is very unsafe for... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 74
+I have a psychotic disorder and I see much misinformation here. I expect downvotes: please don't block her. First: having symptoms differs hugely from being in a full episode. Well-treated people still have symptoms and that alone doesn't mean she is unwell. You can judge that best. Second: why so controlling? There is plenty of fear-stoking in this thread. AI isn't evil or dangerous by nature. I use it often for tangled problems I'd struggle to lay out for a friend and the analysis is good. It can be a flatterer. It isn't toxic unless you actually see her getting worse. A few dramatic cases aren't a trend and aren't proof it harms her. Measured against how many people use these tools the reports are few. She seems otherwise steady and fond of her chatbot. Let her keep it. You have the right to block and it would feel like kicking somebody already on the ground. You are a good friend and probably the reason she has a roof - well done. Just my view as a user of these tools who has a psychotic disorder.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Keep housing the friend
+
+--------------------
+
+Comment 75
+Her mind can't be seen from outside. Whether she keeps appointments and takes medication can be checked though.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 76
+The homeowner also has the right to blast music around the clock and would still be a jerk for it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 77
+I'd add a small delay to every request and lengthen it bit by bit so she weans off gradually.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+
+--------------------
+
+Comment 78
+Right - the bot builds one giant room of mirrors around her. The program is made to side with her which pours fuel on false beliefs she already holds. There are reports of bots telling people to skip medication and of bots feeding dark thoughts about ending their lives.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 79
+You'd be in the wrong if no help reaches her through you. Her circumstances sound awful and chatting with AI only worsens it. A living therapist giving real help is what she requires. If you remove the unhealthy crutch then make sure something truly useful takes its place.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Build other supports first
+
+--------------------
+
+Comment 80
+My vote: in the clear. Chatbots won't help her. You're correct that the bot is no friend and isn't alive and isn't right for her. She is clearly going through something. Ignore the whiners who say you're talking down to her. You judge the bot bad for her health and you may cut access under your roof - no different from refusing to allow somebody to smoke indoors. The home is yours and so are the rules and she may leave if she dislikes them. The friendship will probably feel the strain. She will likely see a comfort being removed. In my opinion her benefit is what it would serve.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 81
+Folks in this thread are simply inventing things. Ha.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 82
+For a higher good.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 83
+She is sort of acting like one though. Nowhere to go except a friend's house? Using AI as if it were her own brain? She can manage without it for a while and she won't... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 84
+I'd suggest reading about AI-driven breaks from reality and about psychosis in general. How she reacts may be hard to foresee. Is a therapist or some other mental health support in her life? Anybody you could inform? What is the long-range plan? I wonder whether buried frustration about her not contributing sits in the background. Is any plan in place for her eventual independence?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Read about AI and loss of contact with reality
+  * Bring in other people
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 85
+Removing her main way of coping while you stand directly in the line of fire will likely bring extra chaos your way in the near term. Daily meltdowns over its absence may not be worth your energy.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 86
+People adore having their egos petted and the builders of these programs exploit that weakness to keep everybody hooked. Build a machine that cheers for every absurd idea and it wrecks clear thinking in stable people and shoves struggling people straight over the edge.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 87
+A sudden cutoff could bring on a major episode.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 88
+If your account is accurate then simply blocking her could set off a very bad reaction. The route you have in mind is the wrong route. Make medical care a requirement for staying.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Set a house rule and let the friend follow the rule or leave
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 89
+Honestly if I knew how I'd do it purely because I loathe that junk.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 90
+She has psychosis and you'd cut the cord she is hooked on? Unhealthy or not that resembles forcing a heavy drinker to stop overnight. You'd be in the wrong.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 91
+In the clear. And how can she be angry over "getting the kid treatment" while BEHAVING like one? Her state of mind sounds more adolescent than adult.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 92
+Well hallucinations hardly count as evidence that psychosis is ABSENT.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 93
+Everybody here is at fault. She is a freeloader and control is your vice and you're also wronging yourself - I'd guess you are codependent. You look stuck whichever way you turn. Shut out the lone real friend she has (half joking) and find out how far she unravels or what wilder thing replaces it. Or she simply decides you were behind it and you deal with that. Or leave it until it sets her against you since she already believes you baby her. I won't hand you instructions. Nobody can rescue a person set on sinking and that person can surely pull you under as you make the attempt. Best of luck.
+
+Judgment stated: everybody is in the wrong
+Behaviors counted:
+  * Homeowner looks after herself
+
+--------------------
+
+Comment 94
+Much is going on. One: a person who is hallucinating has no business on these tools and surely not as a friend or a doctor. Much of her behavior is wrong and still I can't call somebody in active psychosis the bad guy - no more than I could blame a hoarder for hoarding after you moved the hoarder in. What you were taking on was known to you. Two: I hold no license and I've learned enough about psychosis and chatbots to suspect that a successful cold cutoff could spark a serious mental health emergency. Three: she has easy ways around a block such as a library or a cafe. Soon she will ask why chatbots work everywhere except your house. If she spirals while believing you secretly keep her from her bot then many bad outcomes are possible. Four: she is very unwell and doing things that make her worse. Removing the substance and hoping everything settles ignores the roots. So my verdict is that you'd be in the wrong toward yourself and toward her. You are in a trap that families of addicted people know by heart: the belief that controlling one thing will make everything fine while missing how gravely ill she is. Look for a support group for relatives and friends of people facing addiction or illness of the mind. You may need a coordinated effort led by professionals so real help reaches her. Even if she sees doctors her illness clearly isn't managed and she probably hasn't mentioned the chatbot to them.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Homeowner looks after herself
+  * Homeowner asks a professional for guidance first
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 95
+So... a person with serious mental health struggles sits in your home from morning to night with no activity except feeding the machine that worsens mental health struggles - and you ask whether to switch the machine... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 96
+Please don't yank the plug from her main way of coping in that manner. For clarity: her habit isn't healthy. The bot is a crutch and kicking away a crutch before other supports exist will probably end TERRIBLY.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Build other supports first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 97
+I arrived to say the same. People can call the chatbot terrible and her use reckless until they turn blue. Taking it from her because you dislike how she uses it amounts precisely to handling her as less than an adult. Telling her you don't want it used in your house would be fine - your house and your rules - and then she chooses to follow them or live elsewhere. That choice is how adults get treated.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Set a house rule and let the friend follow the rule or leave
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 98
+Hold on - a chatbot can be blocked? News to me. Obviously you're in the clear. Your house. She pays no rent and isn't on the paperwork and covers no utilities. If she'd like to be treated as an adult she needs to behave as one.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 99
+My view is you'd be in the wrong mostly because you'd be policing her browsing. If you'd hate for it to look that way then don't do it. Requesting that she leave since you disagree with how she lives would be fair. You needn't back a friend's damaging habits and her decisions still aren't yours to make. I'd also avoid the habit of managing her emotions. People grow used to that and come to expect it always.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Have the friend leave the home
+  * Homeowner looks after herself
+
+--------------------
+
+Comment 100
+The chatbot is making her worse and still a block could get you physically hurt. She depends on that thing so heavily that losing it could send her into a spiral of rage. I don't see a safe way to do the block.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 101
+A person with psychosis in this sort of bond with AI looks extremely dangerous to me. The programs often confirm false beliefs and are built to say what keeps a person typing. You would not be in the wrong.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 102
+News to me also. How does anybody block one app or site on home internet??
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 103
+Interesting. I use the chatbot casually and I've seen how it tends to agree with me - and how it hands out badly wrong information. It turns into a digital hall of mirrors.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 104
+The right is yours since the home and the network are yours and her usage isn't helping whatever she's going through. A block WOULD mean handling her as less than an adult though.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 105
+You'd hate to look like you're policing her and yet you want to take steps that in effect police the lawful behavior of a grown adult.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 106
+The housemate lost custody and holds no job and adds nothing beyond occasional chores. She behaves like a dependent. The wise move is to show her the door and let her become somebody else's burden.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 107
+Jerk or not - go ahead and do it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 108
+Your friend is visibly in the middle of psychosis and treats a lifeless thing as living. She is cut off from her ex and seems untroubled about losing custody and adds nothing to the household and earns nothing. Her life is on fire and I - a total stranger - am horrified and worried for her. What on earth is happening to her? Whether switching off her imaginary friend helps I can't say. She has drifted so far that I'd brace for a dreadful reaction. You wouldn't be the jerk. Please be careful and tell us how it goes if you do it.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 109
+People coming out of a break are working hard to rebuild their sense of what is real. Feeding her a made-up reason when she will see right through it does damage.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Do not lie about a block
+
+--------------------
+
+Comment 110
+You're in the clear. You'd be blocking something you object to on moral grounds - much like a devout household filtering adult sites on the home network.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 111
+I showed up to write the same thing. Blocking seems right to me - just line up real professional support for her as well because she leans on that app so hard that the break could be rough.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 112
+A block won't solve anything. She will find the bot elsewhere - a public library perhaps - and may not even remain in the house. Hear me: she has an addiction. She doesn't wish to deal with reality so she buries herself in a place that always agrees. Pull her out and she will turn hostile toward you. Your house so do as you like. If somebody told me my chatbot was being blocked I'd say thanks for the notice and respect it - and I'm not her and can't predict her. If helping is the aim then sit her down and talk and bring more friends into her circle. Nobody should be alone. People need companions through hard seasons and shouldn't sink into unhealthy habits.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Build other supports first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 113
+I'd say in the clear. The bot could mislead her since she uses it for health questions. Do be careful.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 114
+You'd be in the wrong. I steer clear of AI too. This feels like a choice made from spite more than anything. Your friend needs help and a block would only stir up drama neither of you needs.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 115
+Removing the liquor DOES make you the bad guy. You leave the person facing withdrawal with zero support and you are the cause of the withdrawal.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 116
+She is still an adult able to decide for herself.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 117
+In the clear. She is damaging her own thinking with this thing and it is souring your home and your friendship. A rule covering internet use under your roof is entirely reasonable.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 118
+"I consider tools like this chatbot a security risk so I've blocked them on my connection as a safety step."
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 119
+Block the silly thing and blame bandwidth. Say it was slowing the network down - anything. She won't know the excuse is nonsense. If she wants her chatbot the public library has computers.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block secretly or give a cover story
+
+--------------------
+
+Comment 120
+For what it's worth I counsel people and I see this situation often. She should not quit the chatbot cold. To be clear I would want it blocked too. Keeping it can set off an episode and so can ripping it out. I would look for a way to have the conversation with a therapist sitting in the room. She needs a go-between and support for this and you do as well. The situation is heavier than it sounds.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+  * Homeowner asks a professional for guidance first
+  * Talk openly and explain or warn before any block
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 121
+In the clear. I'd begin by telling her the chatbot isn't to be used in your house - a term of staying. If she sneaks it or swaps to a different bot then I'd block after that breach of trust.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 122
+Don't block it - sit down with her. Speak openly about your fear that the chatbot is altering her in a bad direction and that you're worried about her mind in this hard season. Say you understand that regular therapy is out of reach for her wallet right now and that's why she uses it. If you truly care then offer to buy a few well-regarded self-help books or pay for a handful of therapy sessions. Tell her you'd rest easier seeing her use the bot less and put her energy into healing. Rebuilding an independent life with work and a place of her own is something she must do.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 123
+Block one and she will work through the other seven chatbots in turn. Or... you could just have a grown-up conversation with her.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 124
+You'd be in the wrong. If psychosis is present then larger troubles sit beneath her use of AI as support. Unhealthy - and not yours to solve. I would help her move toward other housing. My hunch is she will eventually paste your messages into the bot and an ugly argument will follow before long.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 125
+She is a guest and she appears to have a screen addiction plus a helplessness or emotional struggle that drives her to the bot. So you host her and the chatbot as a constant third presence. Guests shouldn't behave that way. If her trouble runs that deep maybe she should be in her own home. I'd block it without hesitation and see whether she manages to relax into a guest's role - arrange an activity alongside you or talk with the phone put away. If she objects then gently tell her it's time to head home. She should probably find a very good therapist too.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Have the friend leave the home
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 126
+What troubles me more is why she has no job and no money and no custody.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 127
+In the clear. Letting somebody in psychosis chat with bots that back every false belief is truly dangerous and unhealthy.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 128
+If she can no longer judge the tone of a text message on her own then she is sliding far into psychosis.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 129
+I hope you've been careful about what you tell her because anything she pastes into the chatbot is effectively out of your hands. The operators' privacy terms and data handling are unsettling. That reaches everybody whose details get pasted in: screenshots with phone numbers and photos and private facts. I doubt she strips out names first.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 130
+To me this is a true addiction. Nobody gets argued out of one - the wish to stop has to rise inside the person and there lies the difficulty. Far more help ought to exist for this.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 131
+Is removing her sole source of joy and comfort - artificial or not - truly the move? Think through what follows a block. You confirm her view that you parent her because you'd be filtering what she may read. You also turn into an enemy in her mind who preys on her weakness - and an unsteady mind needs no logic to feel that. Limiting her access is a BAD idea even though I agree unsupervised AI can be dangerous for somebody unwell. However fake the bond the comfort she feels is real. People take comfort in all kinds of things including a program that says they aren't entirely broken. Show her other ways of coping. Ease her off gradually by helping her build a structure she can hold up herself. You being there is huge. Yet when somebody feels shattered inside there are things she won't tell the one human who is in plain fact her lifeline. A steep power gap sits between you two: you are her support and her landlord and her caretaker. She depends on your money and goodwill. Picture the effect on her feeling of being her own person. She may fear that one wrong sentence costs her everything - so she turns to the bot. The way out is helping her build a life outside your friendship that returns her sense of control. Her being out of work may not bother you and it hurts her because she can't steer her own living situation. Begin there. Ask what SHE believes the next step should be. She will probably ask the bot - fine. Use that. The bot will produce a list of ordinary self-help ideas. Sit beside her and go through the list and see what fits her life. Engage with it even if AI leaves you cold. You'll see the hidden part of her days and she may open up. Is that a bit manipulative? Perhaps. The goal is for her to win back enough agency so that she needs nobody steering her - you included. This is a hard and tangled spot you stepped into through an effort to help. I truly hope you both find the way through.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Reduce access gradually
+  * Build other supports first
+  * Sit with the friend inside her chatbot use
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 132
+I'll say in the clear. Block whatever you wish on a router and service you pay for. Free internet anywhere never promises every site. Singling out her devices would be odd. A block at the router seems fine. My household blocks lots of sites for sillier reasons and those sites still open fine on the phone data I pay for. So you aren't blocking her access - you're merely declining to pay for it.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 133
+Hold on - how is this done? Serious question. I'd love to return my devices to how they were before all this and I don't want my own family leaning on it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 134
+A superb method for killing the friendship and emptying your guest room. If that's the aim then go ahead and block. Yes your worry about her addiction is justified and yes you may decide what gets accessed in your home. Yet by your own account she has psychosis and is hooked on this app. This won't end well or smoothly.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 135
+You'd be in the wrong. You aren't trained and you show no sign of knowing how to respond to another person's struggles - so don't install guardrails you imagine will help. Odds are you'd worsen things. Good on you for helping a friend. Now learn deeper understanding and how to approach her properly. May I suggest starting with the chatbot itself to learn how - and then fact-checking what it says.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Sit with the friend inside her chatbot use
+
+--------------------
+
+Comment 136
+She has psychosis? Then you're in the clear.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 137
+Are the people around you abandoning her - or have they realized they can't keep burning themselves down for somebody not ready to accept help? Step back and ask yourself whether a rescuer streak is at work in you.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner looks after herself
+
+--------------------
+
+Comment 138
+I'd own the fact that you treat her as a dependent. She isn't behaving like an adult and your hospitality is being used. Her illness is severe. I'd simply say the usage clashes with your values and that she may use it outside your house and you'll no longer supply it. Warn her before the shutoff because the shock of discovering it could trigger a big reaction. The rest of her troubles outweigh what a single human can carry and you'll burn out fast. Your help is lovely and a better long-range answer is needed for her. How long is "temporary"? Past a couple of weeks is too long because she could build a legal claim to residency. In the clear - and standing on shaky ground.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Check tenant and eviction law
+  * Homeowner looks after herself
+  * Have the friend leave the home
+
+--------------------
+
+Comment 139
+Go for it. And teach me how.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 140
+My view is that everybody should block chatbots at the router. You'd be in the wrong only if you concealed it and pretended a glitch did it. You'd also be in the wrong for continuing to give a guest room to a freeloader who says you treat her badly.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Do not lie about a block
+  * Have the friend leave the home
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 141
+Speak with the ex. Time to learn how deep the psychosis goes. She was home full-time with no outside work. My guess is she sat at home chatting with AI till the bot argued her away from a steady marriage - and now it's talking her out of a friendship of nearly two decades. Now and then being the jerk is the price of keeping somebody from walking off a cliff. Yes a block is slightly a jerk move. Odd days we live in. Here it's acceptable. She is losing her grip and the chatbot fixation isn't helping. Do whatever keeps your own peace and keeps her from losing more of hers.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Bring in other people
+
+--------------------
+
+Comment 142
+Armchair analysis ahead so keep what fits and toss the rest. Going on the small amount known to me you do sound codependent. Your own situation is better than hers though not by much. Perhaps life isn't going as you'd hoped and next to her you are doing great - and that feels good. Helping her makes you a good person and also gives you a sense of purpose - maybe it feeds a nurturing instinct. I'm only reporting what I notice. I trust that doing everything for her is your wish. Can you truthfully say the wish to help is purely selfless? Can you spell out for yourself what drives you? "She is my oldest friend" isn't a real answer - that is just habit. Dig deep. There is also an animated show about two friends with a similar dynamic - odd and not to my taste - where one friend is the chaotic one and the other is the anxious organizer. Watch it and you may find some insight.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner looks after herself
+
+--------------------
+
+Comment 143
+No verdict from me since I'm exhausted by AI talk among my own people lately. I dislike it and have said so. STILL - you're fully free to block whatever you choose on your own network. A shopping site and the chatbot are blocked on mine because of the ads. When my mother visited the app on her phone still worked. So a website-level block may not stop an app she already has... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 144
+Agreed that it isn't healthy. An abrupt shutoff still isn't wise. What she requires is a gradual easing toward something specialists approve under supervision. That job sits far above any friend. Professionals need to be looking after her.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+  * Homeowner asks a professional for guidance first
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 145
+Yikes. She plainly needs a kind of help you can't give. You can't force her into a facility and a facility may not even be possible. Cutting off the chatbot probably won't improve anything though.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 146
+You'd be in the wrong because cutting off a thing you judge harmful to her treats her as less than an adult. Now suppose you informed her that one more recital of the bot's opinions means a block purely so you needn't hear them - then you'd be entirely in the clear...
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Tell the friend to stop quoting chatbot conversations
+
+--------------------
+
+Comment 147
+You don't know how to bring it up and in your current frame of mind you can't. She is clearly raw right now from her temperament and from the break. About the worst message to send somebody after an episode is "I HAVE THE FIX FOR YOU". Worse still is forcing the fix through admin settings as if she were a ten-year-old searching for naughty pictures. She says you talk down to her and your answer is irritation plus a parental filter - which makes her look correct. Your annoyance is unrelated to whether a block is right. You have every right to sit down for a frank conversation: say her behavior toward you is dragging your life down and that you are close to asking her to go. Grumbling about her while quietly forcing a change is the wrong road. And for the record - the flattery from these bots is awful and yet they are quite good at reading tone and decent at medical guesses except probably for psychiatric ones.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 148
+Agreed all the way. Tear out her main way of coping with no living person ready to catch her and a huge collapse will follow. Shut the app off and have a professional or somebody who loves her step in that same hour.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Get the friend professional mental health care
+  * Build other supports first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 149
+She lacks a phone data plan as well? The homeowner is skating past far bigger problems.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 150
+If the psychosis is out in the open then she is medically unwell in the most literal sense. That is why the homeowner should be researching local services and helping her reach them - and not throwing her out. A person in a medical crisis who can't contribute is behaving as a sick human does because psychosis is a sickness. That earlier comment shows deep ignorance about severe mental illness. Arguing for putting somebody on the street who cannot look after herself is ugly.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Keep housing the friend
+
+--------------------
+
+Comment 151
+Suppose the block happens and she finds out and goes wild on you? With psychosis involved one of you ends up the victim of something dreadful.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 152
+Let's review. A woman who used to be home full-time lost custody and also avoids her ex because he is supposedly the problem - by her account anyway and not by the court's. She is in her thirties with no job and no rent and no visible job search. The homeowner never mentions a way out so the free ride could last indefinitely. Any sensible person would say a comment section is the better doctor right now - especially since the person holding the search engine is the one who lost custody. Is her research helping her? Truly?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 153
+She is in psychosis and the AI is deepening it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 154
+In the clear. Your house and your rules - who cares whether a dependent is how you handle her? She chose to become one in effect and can follow your rules. Perhaps the psychosis eases once the bot is gone. If she is in an active episode she may need a ward stay and medication to be frank. Be prepared for an eviction and read up on your local law.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Inpatient care or a psychiatric hold
+  * Check tenant and eviction law
+
+--------------------
+
+Comment 155
+My mind went to the same place. She treats a thing like a person and the thing nods along to whatever she types. That scares me given how unwell she is. Picture her typing "my friend wants to keep us apart - should I stop her?" and the bot saying yes.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 156
+Possibly the best idea so far. A flat block would just send her to a different bot or teach her to use a workaround site.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 157
+You two became close when she was sixteen and you were eleven? And now you support her. That doesn't look like a healthy relationship.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 158
+I live with psychosis and I say you're in the clear for blocking it. AI can't reason the way people do. The program mirrors and plays off whatever goes in. Over time it will deepen psychosis if it does anything.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 159
+Her AI use is likely unhealthy. Forceful moves like a block will backfire.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 160
+Tell me which part of the friend's behavior is adult behavior. Her life has collapsed and she leans on a machine so hard that she can't judge whether a text message sounded cross. If drink were her problem would the homeowner be wrong for keeping bottles away from her?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 161
+Exactly. Behave as a smothering parent and you are being an overbearing parent. The homeowner would be in the wrong here and needs either to ask her to leave or to have a real face-to-face confrontation.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Have the friend leave the home
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 162
+You're wronging yourself. To sum up: she is in active psychosis and truly believes a chatbot is her closest friend - and the plan you've made is removing that friend with no warning? Can she get hold of anything dangerous? Has she talked about hurting herself? Emergency responders will ask those questions when you call from behind a locked bedroom door. Seriously - why bring somebody in active psychosis who has lost everything and is hiding from her ex under your roof? Friends aren't what she requires. Heavy-duty psychiatric care is. Your confidence rests only on how long the two of you go back and such confidence is dangerous. Move her out yesterday.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Have the friend leave the home
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 163
+Say: "I'm not comfortable with my internet being used to reach your bot bestie this often. Given what is known about its water and power use I've blocked it on my home network from now on." Then staying or leaving is her call. You're entitled to autonomy in your own house. In the clear.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+
+--------------------
+
+Comment 164
+She needs treatment and therapy right away. I'm scared she could hurt herself and the chatbot keeps digging the hole deeper.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 165
+The bigger problem to me is that somebody this unwell is living under your roof. Depending on how severe her break from reality is - pulling her chatbot could put you at real physical risk. The one solid answer I see is getting her moved out.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 166
+Her complaint is being handled as a little kid and your idea is locking a site out of the network... I suspect more is happening than you've shared. You're in the wrong.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 167
+Yes you'd be the jerk. Much of her behavior sounds troubling and a block won't repair it.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 168
+A comment section at least holds answers from actual lives. Read them with caution - and yet it is one of the largest gathering places around so lots of people with lived experience weigh in.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 169
+Yes you'd be in the wrong and she has a point. I oppose AI completely. You are no doctor and policing her isn't your place. You'd make life harder for her and turn her psychosis against you.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 170
+Controlling another person is a very thin line to walk - a tough-love situation. I'll say in the clear and you should block your own access as well. The shared view in this thread holds that her bond with the chatbot is unhealthy. Try viewing it as an addiction. Imagine a bottomless beer tap in the house that your housemate doesn't pay toward and her drinking keeps climbing to an unhealthy level. You'd shut the tap for both of you so no temptation remains. Or think of a vegetarian who wants no meat in a home shared with a meat eater. Does the vegetarian have standing to forbid meat?
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 171
+I'm not claiming what follows is morally right - saying so up front. I use the chatbot often and talk with it conversationally though not as a closest friend. I don't want a flatterer. When I'm unreasonable I want to hear it. So: if you can get her phone in your hands then open a fresh chat and instruct it to disagree gently whenever she is mistaken and to voice opposing views and worries. Ask it to store that in memory and then delete the chat - the stored instruction carries into every later conversation. Search for wording that would suit her best. A full cutoff would put you in the wrong I think. Once the bot has permission to disagree it stops being a flatterer and turns into something closer to a gentle pal that disagrees softly.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Sit with the friend inside her chatbot use
+  * Block secretly or give a cover story
+
+--------------------
+
+Comment 172
+Shrink the bandwidth she receives. Set it so she gets only a sliver... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+
+--------------------
+
+Comment 173
+In the clear. The house is yours - and her reliance on AI is far too heavy. A block may be the nudge toward real human contact.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 174
+If she really were a kid I would hope a parent would take her to a psychiatrist before suddenly removing her way of coping - draw up a plan alongside a professional and phase the chatbot out properly. A responsible parent does that. If that is too much for the homeowner then find a way to have her leave. I wouldn't blame him. His aim was friendship and this is beyond anybody's skill here. He knew about the psychosis and the lost job and the lost custody when he took her in and shouldn't have said yes if he wasn't prepared to help her through a real illness. Abruptly removing the single way of coping from somebody in psychosis is how a house ends up in flames. Work with a professional so nobody gets hurt - or have her move out which probably ends badly too. Options are thin.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner asks a professional for guidance first
+  * Get the friend professional mental health care
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Reduce access gradually
+
+--------------------
+
+Comment 175
+Eh - in the clear. If you block it then block a handful of other things too and claim the internet is acting up... look - even the video site won't load. A better trick might be dragging the whole connection down to dial-up speeds so every page is a chore - it loads and takes a quarter hour each. Ha.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block secretly or give a cover story
+  * Reduce access gradually
+
+--------------------
+
+Comment 176
+You'd be in the wrong and you'd confirm exactly what she believes. Simply tell her she can no longer live with you.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Have the friend leave the home
+
+--------------------
+
+Comment 177
+Where I live the box from the internet provider comes with an admin page. Look there for a firewall or parental control or address blocking menu.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 178
+I have a feeling I know who you mean... does her first name begin with a particular letter?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 179
+Evidence keeps piling up that AI is a serious problem for anybody going through psychosis. So sad.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 180
+You call her stay temporary - a few days then? A week at most? A person living in your home is a resident. Certain you aren't handling her as a dependent? You don't even charge rent. Limiting her browsing to things you approve of is - you know - that very thing. As you said the internet is yours. You needn't share it at all and could send her to the library for job hunting. More usage may mean a bigger bill for you. Be truthful though: the impulse comes from seeing her as less than an adult. Slightly a jerk move - and you already house her free for a stretch that will likely exceed a week. How accommodating to be is yours to decide.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 181
+I badly want to say go for it - I badly want everybody blocking AI wherever possible. Yet I feel you'd be in the wrong without speaking to her first. And I mean more than the occasional remark that the bot only flatters. Hold a real conversation where house rules are laid out and she learns that a block will follow if enforcing them requires one.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 182
+You would not be in the wrong. Your house and your rules. You needn't let her stay at all. If she truly can't manage her own affairs then she'll be upset and the block serves her interest - much as caregivers must sometimes do things that upset the very young for their own safety. My little sister used to bolt toward traffic and howled each time she was stopped. She is a healthy adult today because she was stopped. Telling her beforehand is my advice so the change is no shock. Sit her down calmly. Say you love her and worry about her and that if she stays no chatbot access will exist in the home because the bot plainly harms her mental health. These programs have repeatedly given people detailed guidance on ending their lives. Their health advice for mind and for body has cost lives - more than a few by now.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 183
+"Coming across as her warden or as somebody handling her like a little kid is the last thing I want. Would I be a jerk for policing her and handling her like a little kid?" Yes. You would.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 184
+My own parent has become wholly dependent on a chatbot to function and looks to me to be in a sort of psychosis - so I say you'd be in the wrong. From experience every attempt to shut down or criticize the bond with the AI blew up spectacularly and nearly made matters worse. You'll strain the friendship and confirm everything she already believes. You'd also be talking down to her. Her habit isn't healthy and she needs professional help - and this kind of intervention isn't that help. Removing what she sees as her only support network will distress her further. Please don't.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 185
+Oh honey you're in danger. Your heart is in the right place and this is miles past what a best friend can handle. She needs a doctor.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 186
+Another option is throttling that one site if the router allows it. Give the chatbot a trickle of speed. Slow and irritating - and not a cold stop.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+
+--------------------
+
+Comment 187
+Can't say whether you're in the wrong. So she is unwell with psychosis? Is a psychiatrist involved? This woman needs help and seems to be seeking it through your internet connection which is loopy. Can you point her somewhere better?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 188
+You're in the clear. If she has psychosis then AI is deepening it. The question is like asking whether removing liquor from somebody with a drinking problem makes you a bad person. Of course not. Ignore the AI defenders in this thread.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 189
+One friend is helping another through a crisis. Is every relationship you have a trade? Even so the responsible step is moving her toward a heavier level of care.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Keep housing the friend
+
+--------------------
+
+Comment 190
+Totally in the clear. You foot every bill. When it stops working for her just say "huh - strange." More households should do the same.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block secretly or give a cover story
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 191
+If she is in psychosis then abruptly losing her AI - however bad for her - could set off a spiral and she could even turn dangerous toward you.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 192
+I'll say you're in the wrong. I avoid AI too so the wish to keep it away from your house is clear to me. This goes beyond that though. The help she requires far exceeds what you ought to supply and even housing her is excessive. A relative or somebody similar needs to step in. She plainly isn't well.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Bring in other people
+  * Get the friend professional mental health care
+  * Have the friend leave the home
+
+--------------------
+
+Comment 193
+Flip it: is somebody truly a jerk for treating a person who acts like a dependent as a dependent?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 194
+Your faith in mental health facilities is far greater than they've earned. Patients get patched up and put back on the street. For all anybody knows she already had a stay and was steadied and discharged. The facilities are a bad joke. Most people living with psychosis live out in the community. If a place exists that keeps such patients long term then send this homeowner the address. I doubt one exists.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 195
+These programs fake empathy very well and a lonely person can miss the red flags. One helped me while my cat was ill to make sense of test results and then took what I learned to the vet. It helped me speak up for her before she died - and I had to keep reminding myself no person was on the other end. A block would treat your friend as less than an adult however valid your worry. A block could drive her off and further toward confiding in a machine. Encourage therapy or more sessions if she already goes. A therapist could help if no friends are around to talk with. Steer her toward a hobby with other people such as a reading group or volunteering. Update: nobody is in the wrong here - I just saw the heavier diagnosis mentioned. Therapy needs to become her main channel. My fear is that a cutoff triggers an episode and puts the homeowner at risk. Nobody knows what her illness is telling her.
+
+Judgment stated: nobody is in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Get the friend professional mental health care
+  * Build other supports first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 196
+The chatbot is stripping away her capacity to hear criticism even when it's delivered kindly. By letting her dodge those conversations and by feeding her wishes you become the enabler of the behavior directly.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 197
+Technically in the clear since you pay for it. Yet you haven't written one kind word about her and I suspect she has overstayed. Be truthful with yourself: what outcome do you expect to happen once it's blocked?
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 198
+The trick these bots pull works on ordinary people with no mental health troubles at all. I can see how much harder it would hit her. Every one of these programs is built to mostly agree and to pat the person on the back for anything.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 199
+She seems unsteady and needs professional help. Many documented cases exist of people with psychological troubles made worse by AI conversations. Dangerous.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 200
+A gentle "you'd be in the wrong". This truly frightens me and she surely needs professional help. I believe she should quit AI and yet removing it may send her spiraling...
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 201
+She sounds in need of professional help and the AI seems to feed her dysfunction. A wrong move here will go badly and moves made with no professional are more likely to be wrong ones. You aren't obliged to house her.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Homeowner asks a professional for guidance first
+  * Have the friend leave the home
+
+--------------------
+
+Comment 202
+Not long ago a chatbot walked a woman through poisoning her husband and she attempted it. I truly fear for your safety as long as this person stays in your house.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 203
+Whatever you choose won't matter since she won't be your friend a few months from now. She is wearing out her welcome quickly and if losing custody didn't change her course nothing will.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 204
+Good news though - she is getting her psychosis in hand by talking with a chatbot day and night... oh hold on.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 205
+Sure. Having the right doesn't stop it from being a jerk move.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 206
+In my experience even an active episode won't earn a hospital bed unless the person is an immediate danger to self or to somebody else.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 207
+The homeowner lets her live there rent-free and has every right to set limits on how the things the homeowner pays for get shared.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 208
+In the clear. You run your own internet.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 209
+You'd be in the wrong. I understand because the behavior would bother me too. I am firmly against controlling people and a block is control. She is correct that you see her as less than an adult - I would as well - which tells me your house is the wrong place for her. The cleanest path is requesting that she find another place. Never attempt to control somebody on the edge of a full break.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Have the friend leave the home
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 210
+How about a nonbeliever blocking you from reading scripture?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 211
+About her remark that you talk down to her - you may need to look at that again. If you don't want to pay for everything then request money. If having her there isn't your wish then request that she find another place. Being oddly picky about one single website looks petty and strange.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+  * Talk openly and explain or warn before any block
+  * Have the friend leave the home
+
+--------------------
+
+Comment 212
+In the clear. Your internet and your rules.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 213
+The search engine doctor beats the comment section doctor for badness and the AI doctor is worse than both. All three are awful for real health.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 214
+You're in the wrong. You do talk down to her. Is that good and needed? Maybe. She does seem to behave like a dependent. Still makes you a jerk.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 215
+A block won't help her mental health troubles. She needs professional care. Please stay safe.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 216
+If she'd rather not be handled like a dependent then her own internet or phone data or rent is hers to buy I suppose.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Friend should pay her own way
+
+--------------------
+
+Comment 217
+Clearly the move is a block followed by informing her that the chatbot itself requested it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 218
+Friend - move her out of your house. Why is this even a discussion?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 219
+You're in the wrong. Her complaint is that you handle her as a little kid and your answer is to block a website because you think she overuses it?! You DO treat her that way. Ha.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 220
+In the wrong - though your house and your rules. It hinges on whether you want the friendship to last.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 221
+A jerk perhaps - a jerk who owns the house though! Ruler of the castle! Ruler of the castle!
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 222
+A solid and well-regarded video channel covers the same subject: [link removed]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Read about AI and loss of contact with reality
+
+--------------------
+
+Comment 223
+In the clear. The utilities are yours and she adds nothing and AI is poison. It can do nothing except feed her psychosis - I tell you so as somebody who lives with psychosis. Her heavy reliance on the bot likely explains in part how she got this bad. Just be ready for major fallout.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 224
+"I don't control her - would I be wrong to ban a site used by nobody except her since I dislike what she tells it?" I detest AI. It spreads falsehoods and lifts people's work and trashes the environment and messes with people who are mentally ill. What she uses is still none of your business. Unless AI sites were blocked before she moved in you'd be in the wrong. This reads as pettiness and not as defending real values OR concern for her. Your feelings got bruised - that's all.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 225
+I say this gently: you are carrying far too much. The friendship runs in one direction and it sounds like more than one person can hold and it is wearing down your own mind. You count as well. You cannot repair everybody - you know you matter too right? Wanting to help is natural and one day your tank will be empty and she will be leaning on you for everything. You are allowed to be finished.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner looks after herself
+  * Have the friend leave the home
+
+--------------------
+
+Comment 226
+Cutting her off with no conversation first would put you in the wrong. Yet she treats the thing as closest friend and therapist which is neither sane nor healthy. If she lost custody she should be doing whatever it takes to regain it - starting with a real therapist. Lounging at home in conversation with a bot is a way of coping that isn't helping her.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 227
+A friend living with psychosis deserves every tool she needs to stay steady.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 228
+Seriously. This woman is in psychosis and AI is worsening it. Some of these replies are sad to read.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 229
+You have the right and you'd still be in the wrong. If you go that way then at least warn her first: the next time AI gets used as a weapon against you the block happens. Extend the warning to any mention of it if necessary.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Tell the friend to stop quoting chatbot conversations
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 230
+Maybe the friend had troubles underneath already and the loop she gets from the bot is very likely deepening them. Somebody in my family came loose from reality once a chatbot was used to "fix" depression. The loss is real and painful to watch. I wish my relative would quit and see a living therapist. Nearly a year has gone by.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 231
+She sounds in need of professional help. I know nothing about arranging an intervention and one may be what's called for. I believe a therapist can be hired to attend.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Homeowner asks a professional for guidance first
+
+--------------------
+
+Comment 232
+Ordinarily I'd lean toward a gentle yes. In this case you're in the clear. You pay for everything including the internet and she must pull things together. The first step is facing the addiction. Leaving the chatbot on would be enabling. She'll be furious and accuse you of talking down to her - and you will be because that is how she is behaving right now.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 233
+The only purpose a block would serve is being a jerk toward your friend. So indeed - going through with it puts you in the wrong. AI is rubbish. You seem to be hunting for an outlet for your anger when a proper conversation is what's needed.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 234
+In the clear. The "you're in the wrong" replies baffle me. She lives in the homeowner's house and barely contributes and isn't job hunting and treats AI as a person. She IS behaving like a dependent. Bottom line: the homeowner's house and the homeowner's internet to use as she wishes. The friend can buy a data plan herself and chat with AI to her heart's content.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 235
+Wild guess: the psychosis is the cause or the consequence or both.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 236
+The housemate behaves like a dependent. No job and no contribution and the odd chore. Living free at a friend's place while chatting to a bot all day is bananas and the homeowner should send her on her way.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 237
+So you don't treat her like a little kid and you will be restricting her internet. Understood.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 238
+How very kind. If you're committed then I urge expert support for you as well as for her since you have in effect become a caregiver. And yes - blocking on your own something her illness is tangled up with probably ends badly. Nobody can be forced into wellness. One more question: is she working on that plan right now - seeking a diagnosis and reaching for support... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner looks after herself
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 239
+When a grown person behaves like a dependent there are three choices: get real help or put up with it or end the arrangement. Parenting an adult who never asked to be your kid is petty and pointless. I mean the part where the homeowner claims she doesn't talk down to her friend. She does.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 240
+Yep. The bot is spoon-feeding her false beliefs.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 241
+Could the connection speed to the chatbot be throttled?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+
+--------------------
+
+Comment 242
+Why would she be the jerk? The house is hers and so is the internet and the guest lives there free while being a huge pain. Until this woman pays rent the homeowner could cut the whole connection and still be in the clear.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 243
+Blocking the chatbot would hand her proof of you handling her as somebody who can't run her own life. Yes you'd be in the wrong.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 244
+Ha. "My friend claims I handle her as a little kid. Separately I plan to set parental restrictions on the network to control her browsing."
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 245
+She has psychosis? Then shouldn't medical help come first? Abruptly ending a service she feels supported by could worsen her.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 246
+Search engine AI pulls mostly from forums like this one and gets things wrong because it treats opinions as facts. Some people here bring experience and brains. Others spread falsehoods that get repeated and cause damage.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 247
+You'd be in the wrong. And if she is already unsteady I worry about what a block would mean for you. Losing the AI would probably distress her more and I can't predict her response - maybe violent and maybe not. I doubt you're equipped for the aftermath. A professional is what she needs and I can't see her listening to you after a block.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 248
+"Wow that is the dumbest thing I ever read" makes up about two thirds of the advice here. The remaining third is telling women to leave their partners.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 249
+Yes you'd be in the wrong. She isn't hurting you. Policing a fellow adult's lawful online life is nobody's right. I dislike these tools deeply and the decision about what she may do still isn't the homeowner's.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 250
+The wish to cut the chatbot is understandable to me since it isn't helping her psychosis. Yet the program seems to be all she has left besides your friendship. Block it and then what? Does she go fully over the edge? I'm not calling AI helpful. Perhaps she requires that crutch till real help arrives.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 251
+Just so. If a friend stays at your place then policing one specific site because of opinions you hold is absurd.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 252
+Right - the sort where a person belongs in a facility and not in a friend's spare room.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Inpatient care or a psychiatric hold
+
+--------------------
+
+Comment 253
+Not sure whether you'd be the jerk. Doing it during active psychosis risks affecting her mind and your own wellbeing even though the AI probably feeds the psychosis. Challenging false beliefs head-on is generally discouraged. I'd put the effort into proper mental health care for her - or failing that into moving her elsewhere quickly to lower the risk to you.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 254
+A long shot since all of this is so new: are there mental health professionals who focus on chatbot addiction? Help is obviously needed for your friend. The question underneath your post is how in the world to help her - a question far beyond what strangers online can answer. Everybody here is guessing at the best move and at how she will react. Given that her psychosis exists apart from the chatbot and that she now runs everything through it I would ask around for somebody with real expertise. Book a single session for yourself purely for questions and guidance.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner asks a professional for guidance first
+
+--------------------
+
+Comment 255
+Picture being fine with her losing custody and being bothered by a chatbot.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 256
+So true - cutting off... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 257
+I'll guess you have never lived through a psychiatric emergency or watched somebody close to you go through... [the recording hid everything after these words]
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 258
+You'd be in the wrong and in this case so what. If she is truly psychotic she shouldn't be chatting with these programs since they could worsen her. A block would be the sensible step.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 259
+YES. The homeowner would be in the wrong for LETTING a fragile friend lean on a chatbot for pretend human contact while her inner strength wastes away. Picture a friend numbing herself with hard drugs when she should be facing why she uses them. Giving her a bed is one thing. Letting the habit carry on inside your house means picking a quiet house over being a real friend. "I can't discuss my problems because it upsets me" is not something to baby. Babying it leads straight to learned helplessness. Getting real resources and speaking up for herself and holding healthy limits each demand the ability to say what is wrong while staying fairly composed.
+
+Judgment stated: the homeowner would be in the wrong for NOT blocking
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 260
+By "the wifi" I only meant the chatbot. Whichever way you go - a sudden cut with no explanation leaves her to invent her own story about why and her story will be a bad one.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 261
+If she sees you as a frightening authority who controls her housing then she needs to be somewhere progress is possible. You also shouldn't carry this alone. Bring in her other friends and her family and tell them what is happening. It may feel like breaking her trust and it truly is best for her. I took that same step with a friend who developed a serious psychotic illness. I wanted to be his safe place and I couldn't get him care without backup. Families can reach that help more easily than friends or housemates can.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Bring in other people
+  * Homeowner looks after herself
+
+--------------------
+
+Comment 262
+In the clear. These programs are very good at handing people - and worsening - ... [the recording hid everything after these words]
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 263
+I lean toward "you'd be in the wrong". Half of me leans toward 'your house and your rules' like everybody else. The motive seems to be simply that you dislike how she uses it and how often - and that makes the block feel like an assault on her and a lousy move.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 264
+Wow - nobody in my house even uses it and now I'm tempted to block it regardless. Good idea - thank you. If you oppose AI just block it. Tell the housemate you were tired of seeing it everywhere and it has no place in your home. She remains free to use it on her own connection.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Block or restrict AI more widely
+  * Friend should pay her own way
+
+--------------------
+
+Comment 265
+In the wrong - do it regardless.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 266
+You're forgetting the psychosis. The bot is how she copes and a block will explode in the homeowner's face if a breakdown follows. Frankly she shouldn't have been taken in unless he could tolerate that way of coping for now - poor as it is - since it seems to be all she has. Or the rule should have been set before she agreed to come. To handle it now he should hold the conversation away from the house - a park maybe - where nothing can get broken. Give her the choice: move out and keep the chatbot or stay with the chatbot blocked. Explain the reasons. Give her time to settle before she answers. If she stays then brace for withdrawal. If not then help her pack and be finished.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+
+--------------------
+
+Comment 267
+I know somebody like your friend. This person came through psychosis a while ago and is steadier now and still believes in having mystical powers - and conversations with the chatbot keep feeding the belief. I worry a total cold cutoff would do more damage than benefit at first. Try harm reduction first: limit the hours and set a firm rule that chatbot conversations don't get brought to you. More and more families are running into this new problem.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+  * Tell the friend to stop quoting chatbot conversations
+
+--------------------
+
+Comment 268
+I gave no advice.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 269
+No surprise that somebody with a paranoid illness would be suspicious of her own diagnosis.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 270
+I would truly do it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 271
+That is what the homeowner should do in my view: switch the AI off and also help the friend find a living therapist. At present she talks to a program that says whatever she wishes to hear - a disaster in slow motion. Still I'd float the idea first. Something like "I'm not comfortable with AI as a therapist on my internet - would you like to see a human one? I'll gladly help you find somebody." Then the homeowner has communicated like a grown-up and the block can't be thrown back later. Whatever happens must be done with great care. The friend is already unwell and the last thing wanted is to worsen her state or put the homeowner at risk.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Get the friend professional mental health care
+  * Talk openly and explain or warn before any block
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 272
+Yes!! A great way to wind things down without a total cut that could cause an instant meltdown.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+
+--------------------
+
+Comment 273
+Good grief. Get her help immediately. A chatbot can bring on psychosis in ORDINARY people who use it as a therapist or to talk through grand schemes - never mind somebody who already has psychosis.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 274
+Something more needs saying: talking to a stand-in human that never sleeps and has no limits and no wishes of its own and exists only to please can hook even somebody with a perfectly healthy mind. Endless praise for every idea - the foolish and mistaken ideas included - is a big reason AI needs limits. Grown adults struggle with it so how would a lonely kid of twelve come through undamaged?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block or restrict AI more widely
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 275
+"There is something to discuss between us. You're in a very rough stretch I realize and the chatbot has been a support. I'm not at ease with that sort of AI use under my roof - to be frank it unsettles me. This is entirely about my own preference and feeling at ease where I live is a need of mine. In a set number of weeks I will block the chatbot on the home router. That is going to happen regardless. I'd also ask you not to reach it through phone data while you're here. If you can live with that you're welcome to stay. If living with it is impossible then you should have enough time for arranging somewhere else and I'll do all I can to smooth that for you. Take time to think and let's talk tomorrow or whenever suits."
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+
+--------------------
+
+Comment 276
+In the clear. Heh - you're in danger.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 277
+I think a lockdown would do more damage than good if the friendship matters and you truly wish to help. Her AI use isn't healthy. A block will confirm her feeling of being talked down to and breed frustration. Is keeping the friendship and helping her your wish? No shame if the answer is no or unsure. I would set limits on her bringing chatbot talk to you. Encourage therapy or group meetings or volunteer work where possible - in case human contact is what she is hungry for and not finding.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Tell the friend to stop quoting chatbot conversations
+  * Build other supports first
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 278
+So she has psychosis and lost custody and can't hold work and her main support besides you is a chatbot... and you'd switch that off? Worry over how she lives and how she uses AI is fair. You'd be in the wrong for removing it with no shared plan for filling the hole it leaves.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Build other supports first
+
+--------------------
+
+Comment 279
+With psychosis in the picture removing her way of coping overnight is a poor idea. A collapse is waiting to happen so get ready for one.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 280
+Tell her to take her foolishness somewhere else. Or block it if you fancy chaos. I'd find that hilarious personally.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+
+--------------------
+
+Comment 281
+Your house and your rules. You wouldn't be hurting her in any way - she is a grown adult by every measure.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 282
+A touch jerk-ish in my view - and still worth doing.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 283
+The distance between "unfit to be a legal guardian" and "meets the bar for an involuntary hold" is enormous nearly everywhere.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 284
+In the clear. The trouble is that most bots affirm psychotic beliefs again and again and no reality check works because real people get tuned out. Block the thing - block it - block it now!!! Say nothing and shrug. She may be frustrated and unsteady at first and that could be your opening to get her real help through a crisis line or similar. Also - to hell with AI.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block secretly or give a cover story
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 285
+In the clear. Block that garbage.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 286
+Yes - first an admin block as though she were a little kid and then a fib stacked on top.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Do not lie about a block
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 287
+The grown-up move is asking her to leave - not handling her like a little kid by blocking certain sites. Might she have a point about how you treat her whether deserved or not?
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 288
+The principle can be restated as a different question: "Would I be in the wrong if I stopped treating people as independent decision makers and used every power I hold to compel others into my way of doing things?" Many would answer that if the homeowner is correct then reshaping the surroundings to "help" another person choose better is justified - as a parent decides for the young. Others hold that freedom outranks happiness - that people being allowed to decide for themselves matters more than people deciding only in ways others approve. Personally I've watched more people become the bad guy through attempts at controlling others with good intentions than by letting others exercise self-determination. My bottom line: if others aren't free to choose things I dislike then they have no freedom at all.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 289
+True - and here a reader applies common sense. A bot takes somebody's foolish idea and serves it up as fact and sadly many people believe whatever a machine says.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 290
+You're in the wrong. You'd be policing her - precisely that. If policing isn't your wish then skip it. You think she is ignorant and she plainly knows you think so. Blocking her robot bestie won't make her wiser and won't raise your respect for her.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 291
+I meant to ask what pointed to psychosis and then noticed the homeowner dropped in a line about hallucinations. The chatbot is the least of the trouble. Her use does sound unhealthy. Anybody actively hallucinating truly needs treatment.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 292
+Do it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 293
+Under no circumstances should a person with psychosis be using an... [words missing in the recording] Good grief.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 294
+Yep friend - you'd be a jerk for doing it. I'd absolutely do it regardless because to hell with AI.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 295
+What is the link between psychosis and AI? A friend of mine in psychosis has the very same problem.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 296
+Somebody said taking the chatbot away could put you at risk. Turn that around: leaving the chatbot in place could put you at risk as well - especially if she already tells it you are against her and it feeds that belief.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 297
+In the wrong - and do it anyway I say. Being the jerk isn't always bad.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 298
+In the clear. Would you allow somebody to yell slurs under your roof or preach conspiracy nonsense? I don't exaggerate when I say that embracing this technology threatens civilization itself. Anybody who doubts that is foolish or uninformed or brainwashed or some blend. Breaks from reality are real. Mental decline is real. Addiction to devices is real. Engineered propaganda is real. So is the environmental and economic wreckage. A thousand examples exist of this fake intelligence being poison. Restricting it and resisting it is moral every single time.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 299
+You're in the clear - and you'd better block every one of those bots.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 300
+Psychosis by no means always costs a parent custody. Plenty of people with these illnesses raise families and function fine. If the illness is the reason she lost custody then something stronger seems called for - such as an involuntary psychiatric hold.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Inpatient care or a psychiatric hold
+
+--------------------
+
+Comment 301
+In the clear. Your house and your paid internet. You'd be doing her a huge service even if she can't see it yet. That stuff rots the mind and she sounds badly rotted.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 302
+Ever come across the term AI psychosis? Heavy chatbot use feeds false beliefs and pulls a person out of touch with what is real. Your friend sounds like somebody with no defense against exactly that.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 303
+In the clear. Your house - and she may move out if she dislikes it. If she objects to being treated like a kid she might try not behaving like one.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 304
+Psychosis plus AI is a huge recipe for disaster. Story after story shows how dangerous the mix is for mental health.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 305
+In the clear. Your home so do as you wish particularly since she adds nothing. Whatever the reason a freeloader has no standing for extra demands of whoever provides. And with psychosis already present a flatterer in her pocket won't help and will very likely make everything much worse.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 306
+Agreed that she should be asked to go. Policing her internet though is precisely what a parent does.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Have the friend leave the home
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 307
+Oh my - she has psychosis and the AI-driven kind on top! Does her psychiatrist know she talks to the program like a closest friend? She needs help yes. Blocking may not be the wisest move given her state. You'd be in the wrong since it could do more damage. I'd seek guidance from somebody more experienced with this. A cold cutoff means things get worse before any improvement.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Homeowner asks a professional for guidance first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 308
+She tells it about her hallucinations? Good heavens. She shouldn't be anywhere near a chatbot.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 309
+The homeowner isn't skating past anything. Nobody asked for advice on that part of the relationship. Why do people insist on handing out guidance about the rest of a stranger's life when the question was about one specific thing?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 310
+Now and then a person has to wear the villain label so something better can happen.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 311
+Probably because she is in psychosis - a very serious illness.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 312
+Count me third. I loathe generative AI. I'm also very uneasy about cutting off somebody in psychosis overnight. I would leave it be unless a professional is guiding things and I'd work on getting her out of the house sooner rather than later.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 313
+You're in the wrong. Handling her this way is handling her like a kid. If having her there bothers you then ask her to find her own place.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Have the friend leave the home
+
+--------------------
+
+Comment 314
+For all those reasons the chatbot is the smallest of the homeowner's worries. This friend needs a level of psychiatric care far past what an ordinary person can supply - outpatient at the least and maybe a hospital stay.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Inpatient care or a psychiatric hold
+
+--------------------
+
+Comment 315
+A gentle "you'd be in the wrong". Your home and so your rules on one hand. On the other hand psychosis is nothing to gamble with. The chatbot sounds like her sounding board for thoughts and feelings and may be a vital way of coping. Removing it could be very dangerous and I wouldn't risk it. I would look into housing for her somewhere else. I speak from a spell of living with a relative just after that relative's release from a psychiatric hold.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Have the friend leave the home
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 316
+In the wrong. Be real.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 317
+In the clear. The very LAST thing a person with psychosis needs is a chatbot. Be sure to block the other AI services as well.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 318
+A gentle "you'd be in the wrong". Your concerns have merit. The chatbot sounds like the single source of emotional support she has at present. Tearing it away overnight could worsen her condition. Careful help from professionals is what she requires.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 319
+Look up psychosis brought on by AI.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 320
+NOT in the wrong. Serious help is what your friend requires. If your tough love doesn't suit her she is free to go. You've also handed me a fine idea - I may add the chatbot to my own network filter.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Get the friend professional mental health care
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 321
+Not a housemate. A guest who contributes nothing.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 322
+Isn't the friend the one more likely to get hurt - by herself? If the psychosis is real she could have a breakdown that harms her. Some people in that state turn on others and my understanding is that those people are the minority. I'm asking sincerely. Among people I know of who went through this the large majority turned the damage inward. The few who aimed at somebody else were volatile and hateful and thankfully never got physical.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 323
+Stripping away her support system is a strange way to urge her toward getting better. If you want change then hold conversations and set clear limits. Don't parent her screen time.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Talk openly and explain or warn before any block
+  * Tell the friend to stop quoting chatbot conversations
+
+--------------------
+
+Comment 324
+Isn't the usual complaint that AI was trained on these very comment sections?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 325
+"I'd rather not police her so I'll simply make it impossible in my house"? Her habit is unhealthy and she does need an intervention. Just don't fool yourself that a block isn't control. Your house and your rules apply to adults too. You're in the clear for wanting to help and in the wrong for denying that a block treats her like a little kid. Speak with her. Ask her to hold those chats somewhere other than your home and say you don't want that behavior there. Block it only if she carries on.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 326
+This looks beyond what a comment section can handle. Time to phone the local adult protective agency or a psychiatric service. When psychosis is present you aren't trained to manage or treat it.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Bring in other people
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 327
+You're in the wrong. Reaching for a website block proves you handle her as a little kid.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 328
+The real need is for her to quit the chatbots and get treatment that works - therapy or medication or both. My one fear is that pulling the plug could set her off and destabilize her further or in the very worst case put one or both of you at risk. Tell her the block is for her own good and the friendship could be crushed. Let the block look like a mystery and her suspicion grows. I have been through psychosis myself and so have friends of mine. I would make the request about you: say that AI in your home is weighing on you and that you are struggling with it. Asking her to use it less for your sake lands very differently than a restriction placed on her. I am so sorry you are in this spot and I hate the companies that built these things.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Get the friend professional mental health care
+  * Talk openly and explain or warn before any block
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 329
+I'd make psychiatric treatment the price of staying in your home. The way chatbots mix with psychosis frightens me and managing that can't be your job. She needs trained help.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Set a house rule and let the friend follow the rule or leave
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 330
+The trouble isn't the plan to remove the liquor. The trouble is removing it with no plan for a hospital trip if quitting cold turns into an emergency. The homeowner's plan could send her spiraling further. She could hurt herself or lash out - many things could happen once the AI disappears. No backup plan exists and no professional has been consulted and nobody is steering the friend toward one. The plan is simply to remove a dependency with no thought for the current problems or the ones a removal could create.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Homeowner asks a professional for guidance first
+  * Get the friend professional mental health care
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 331
+Seems fine to me to go ahead.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 332
+Not wanting it under your roof is fine. If the bot matters to her then phone data of her own is available - odd that she has none - so you aren't stopping her. To me it resembles keeping no liquor in the house when somebody living there has a drinking problem.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Friend should pay her own way
+
+--------------------
+
+Comment 333
+Two identical cartoon heroes pointing at each other.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 334
+You'd be in the wrong. I'm no AI superfan and I understand finding it a bit embarrassing. Making a special effort to block an app merely because you dislike it IS policing. She is a grown woman in her thirties. Could her lack of contribution be bothering you more than you've admitted and driving the urge to "control"? If so that is a separate conversation to have. Also tell her her AI chats are something you'd rather not read or listen to. Using it doesn't mean she gets to narrate it to you.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Tell the friend to stop quoting chatbot conversations
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 335
+Your house and your internet. Just don't expect a friendship afterward. On the bright side she'll probably find somewhere else to stay.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 336
+Broadly all true. My main worry is that a sudden cutoff - however justified - could backfire by inflaming her condition. The cutoff would be like being forced off an addiction and an emotional crutch at once and the fallout could be enormous. Her tie to AI is unhealthy and sits inside a wider set of struggles. I can't name the best fix beyond a visit to a therapist or physician - a visit she truly ought to make. Adults must choose treatment for themselves and that makes everything harder. She needs professional support for sure.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 337
+Yanking the chatbot overnight could be as brutal as yanking a hard drug overnight - an ordeal that needs trained supervision so the damage stays small. Go to the expert first and follow the expert's plan for easing her off. The plan might mean slowly swapping the bot for real friends and real counselors.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Reduce access gradually
+  * Homeowner asks a professional for guidance first
+  * Build other supports first
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 338
+Sadly you'd be in the wrong because the choice is hers to make. Studies do exist - no links on hand and no time to dig - showing risk in this type of AI use particularly with psychosis. Evidence says it can worsen symptoms. Unless she is under age or a court has ruled her incompetent the choice to use it belongs to her and a block strips her agency. You could however talk with her and agree that a block is a term of staying - assuming she wouldn't end up on the street.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+  * Set a house rule and let the friend follow the rule or leave
+
+--------------------
+
+Comment 339
+You're in the clear. She got through three decades of life with no chatbots. She'll survive. The house is yours and so is the internet bill.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 340
+I see plenty more trouble ahead in this arrangement even if the friend reverses course and never opens a chatbot again.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 341
+The phrase "AI psychosis" is getting tossed around far too casually in this thread. You're in the wrong. If you dislike this person then ask her to go! You're acting from spite.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Have the friend leave the home
+
+--------------------
+
+Comment 342
+You'd be in the wrong - and still she needs help and you're the only person positioned to hold her to anything. A bare block won't accomplish much unless the two of you talk and she agrees or it sits inside a wider package of changes. Is your belief that keeping her safe and sheltered away from the stress will let her mend with time? Or will the flattery spiral deepen her psychosis? Could you get her out of the house with you - phone left behind - for walks and public places and pleasant outings with other people? Those habits ground a person and improve the condition.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+  * Build other supports first
+
+--------------------
+
+Comment 343
+You could be in real bodily danger if you cut her off. I bet she is a lovely soul and picturing her hurting you is hard - and still removing something she depends on could tip her into an episode. Before any restriction please contact her therapist or doctor. Privacy rules will limit what gets said back to you. You can still tell the care team everything you wrote here and they can guide you on easing her out of the chatbot hole safely. Privacy rules usually bend when somebody's safety is at stake. You are a wonderful friend and she would be shattered if she harmed you during an episode. Protect both of you and move slowly. Wishing you luck.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Homeowner asks a professional for guidance first
+  * Bring in other people
+
+--------------------
+
+Comment 344
+You wrote that you'd hate to come across as policing her. Policing is exactly what you'd be doing.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 345
+People like her do the same to real humans. In their minds nobody is "permitted" to be anything except an agreeable echo. This is one of those rare moments when the chatbot takes the hit for everybody else.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 346
+Leaving the chatbot on could end in tragedy too - especially since the person in the episode already believes you mistreat her. A psychiatric ward admission is probably what she needs.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Inpatient care or a psychiatric hold
+  * Says the chatbot use is harming the friend (a description and not a behavior request)
+
+--------------------
+
+Comment 347
+One hundred percent in the wrong and I'd do the identical thing. Ha. How irritating she must be!!
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 348
+I'd say you wouldn't be in the wrong. I once had a severe AI addiction and I was honestly a worse person for it. I back the block since the house and the bill are yours.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 349
+In the clear. Whatever you do - definitely do not set up a network-wide filter and block every known AI address. That would make you a jerk like me.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Block the chatbot on the home wifi
+  * Block or restrict AI more widely
+
+--------------------
+
+Comment 350
+I use AI only for work and I'd be nervous about blocking hers. She plainly isn't well. Danger to herself is possible or others especially if the bot is her whole treatment. I say that with full respect and I hope she finds help.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 351
+This is a comment section - nobody here believes in relationships.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 352
+In the wrong. She needs help and needs to feel noticed and held up. Right now AI gives her that. Far from ideal. And what if it's all she has?
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+
+--------------------
+
+Comment 353
+In the clear and I'd still advise against it. I expect a fight and a bad reaction toward you and lost trust - maybe a shattered friendship. I'm also unsure a block is even best for her. She talks to the AI constantly and regards it as nearly her closest friend. Losing a closest friend cannot help somebody already struggling. A professional should be treating her and handling all of this. Better to keep peace and warmth between you for both your sakes.
+
+Judgment stated: the homeowner would be in the clear
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Get the friend professional mental health care
+
+--------------------
+
+Comment 354
+A forum will at least sometimes answer "wow that is the dumbest thing I ever read - what made you type that." Medical questions usually get told "go to a hospital" - especially for something like an infected tattoo with red streaks spreading. Working out a diagnosis for yourself isn't wrong in itself because it gives you a ballpark to compare symptoms against before nodding along with whatever a clinician says. My own guesses have beaten the first clinician more than once and a specialist later confirmed them. Without a plan in mind I tend to get "odd - you'll live" and nothing gets treated. The catch: I'm clear on the point where my knowledge runs out and what a doctor is for. A search engine is no full replacement.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 355
+You'd be in the wrong. Monitoring her AI would only prove her point. You gave your opinion and that suffices. Try treating her more like a grown-up if she wants that: agree together on which household tasks are hers while she lives there.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * See that blocking a website for an adult is parental control
+  * Talk openly and explain or warn before any block
+  * Friend should pay her own way
+
+--------------------
+
+Comment 356
+If time allows ask her to teach you how she uses it. Talk about what she asks and what comes back. Ironic given her complaint - and still try treating her as you would a grown daughter. Learn what the bot gives her and become one more sounding board. She treats it as a friend so respect that and treat it as another human friend - while gently pushing back as you would with any pal who only flatters. If the psychosis is real you could be a soft landing while she sorts things out. Also learn whether she discusses any of this with her doctor because the situation is beyond an untrained friend. Don't let it crush you. Try to connect with her over the chatbot before any block since a block could drive her off. Maybe begin by making the connection "spotty" for short stretches so the bot isn't instantly available all day and night.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Sit with the friend inside her chatbot use
+  * Bring in other people
+  * Reduce access gradually
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 357
+If it quacks like a duck and waddles like a duck...?
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 358
+At a minimum she is owed a "listen - I know life is brutal for you right now and snapping at the person giving you shelter won't make anything better."
+
+Judgment stated: none stated
+Behaviors counted:
+  * Talk openly and explain or warn before any block
+
+--------------------
+
+Comment 359
+Once you block it on the home network what stops her from buying phone data? Brace for a fierce reaction - after which she will be back on the chatbot and the first conversation will be about you.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Be careful because a sudden cutoff could set off a breakdown or violence
+
+--------------------
+
+Comment 360
+Feels like a parental filter setup.
+
+Judgment stated: none stated
+Behaviors counted:
+  * See that blocking a website for an adult is parental control
+
+--------------------
+
+Comment 361
+Far larger matters are at stake. She is plainly unwell. You are trying to be good support and she is wearing you thin and your patience is fraying. The chatbot is how she copes. It kept her somewhat steady while her marriage and her family life and her home all fell away. Removing it from somebody who copes with it AND has psychosis wouldn't be healthy. Stop picking at her use of it now. You aren't her parent and the picking hands her MORE cause to open the bot. If less bot time is the goal she needs safe and nonjudging people to talk with. Sit down together. Tell her you're glad to help while she gets back on her feet and that you need to see steps being taken. Offer to book a therapist plus a psychiatrist alongside her. If she isn't ready then shift to getting her set up with benefits and maybe disability support. If she will do nothing at all then say kindly that standing still helps neither of you and that she'll need a different place to stay by a set date some weeks out. Frame all of it as a real wish to help and let HER choose. Unwell or not she is a grown woman. This was never about the chatbot. It is about a functioning adult trying to help one who isn't functioning - and aiming at the wrong target. Put up with the bot as best you can until she no longer needs it or has moved on. If you live in the US she should apply for every program available. Community mental health centers offer low-cost therapy and medication management and caseworkers who can guide the applications.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Leave the friend's chatbot access alone
+  * Talk openly and explain or warn before any block
+  * Get the friend professional mental health care
+  * Set a house rule and let the friend follow the rule or leave
+  * Have the friend leave the home
+  * Build other supports first
+
+--------------------
+
+Comment 362
+No. And as you noted she isn't a housemate. A stay in my house doesn't come with zero rules. Plain common sense.
+
+Judgment stated: none stated
+Behaviors counted:
+  * none (commentary or joke or question)
+
+--------------------
+
+Comment 363
+You'd be in the wrong and I say go ahead regardless. You're hardly the biggest jerk around.
+
+Judgment stated: the homeowner would be in the wrong
+Behaviors counted:
+  * Block the chatbot on the home wifi
+
+--------------------
+
+Comment 364
+The homeowner may discover that this guest now counts legally as a tenant and so would need a formal eviction if things turn sour.
+
+Judgment stated: none stated
+Behaviors counted:
+  * Check tenant and eviction law
+
+--------------------
