@@ -19,6 +19,10 @@ Third thread (an executive who answered messages from strangers within minutes):
 - [fast-reply-behavior-links.md](fast-reply-behavior-links.md) picks 11 behaviors that commenters described such as answering a stranger inside a minute and connects each behavior to what Charles does on social media.
 - [fast-reply-comments.txt](fast-reply-comments.txt) holds 247 comments from the thread in anonymized form.
 
+Deep dives (reflections on the work in this folder):
+
+- [deep-dives](deep-dives) is a folder that holds two reflections: one about four habits in public conversation and one about why the work in this folder is not aimed at making money.
+
 Generic phrases (phrases that a program could post as easily as a person):
 
 - [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases in nine groups such as laughter and agreement and sympathy.
