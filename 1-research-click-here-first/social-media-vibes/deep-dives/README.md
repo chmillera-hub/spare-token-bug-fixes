@@ -8,3 +8,5 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [question-or-verdict.md](question-or-verdict.md) explains why a question such as "what does that word mean to you?" teaches and spreads further than a verdict such as "you are dumb" and ends with five quick points.
 - [fast-answer.md](fast-answer.md) explains why an answer within minutes can reach a person in pain while that person is still open to talking and ends with five quick points.
 - [sentence-travels-alone.md](sentence-travels-alone.md) explains why a sentence that names the subject and what happened and why can teach a reader who sees that one sentence alone and ends with five quick points.
+- [crowd-chooses-removal.md](crowd-chooses-removal.md) reports that about 37 percent of 364 comments under a homeowner's question asked for a person to be controlled or removed or punished while about 10 percent asked for care and ends with five quick points.
+- [program-could-write.md](program-could-write.md) explains why a comment such as "lol" that fits under any post gives the receiver no way to tell warmth from automation and ends with five quick points.
