@@ -50,7 +50,7 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** I hope people near a person who is angry ask something similar.  
 **Why:** nearly every human being feels anger at some time and the label "an angry person" makes a passing emotion sound like a fixed quality of one unusual person [rule 50].
 
-## No orders and no hopes aimed at the reader's body [rule 35]
+## No orders and no hopes aimed at what the reader physically does [rule 35]
 
 **Before:** Tired bodies deserve sleep between attempts; I hope yours gets some.  
 **After:** Tiredness after such nights reports how much got spent; I hope people see that cost.  
@@ -58,7 +58,7 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 
 **Before:** rest your sore leg, then tell everyone how long this took  
 **After:** tell everyone how long this took  
-**Why:** the first line orders the reader to do something with the reader's body.
+**Why:** the first line orders the reader to take a physical action.
 
 **Before:** Go ahead, laugh  
 **After:** Whoever wants may laugh  
@@ -70,7 +70,7 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 
 **Before:** Tiredness says: stop pouring strength where nothing stays  
 **After:** Tiredness reports strength being poured where nothing stays  
-**Why:** the first line gives the body a stop order.
+**Why:** the first line gives the reader a stop order.
 
 ## High-certainty words need evidence in the same sentence [rule 36]
 

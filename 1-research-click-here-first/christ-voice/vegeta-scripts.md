@@ -39,7 +39,7 @@ The lines of Christ are in rules mode and beat 58 percent of real passages of Ch
 
 **Vegeta:** Get out of my training room because the gravity in here is too heavy for most people to stand in. I have trained for three days without sleep and I will not stop until I pass Kakarot.
 
-**Christ:** You have trained for three days and your body is tired because your body has given all that a body has. But I tell you the tiredness is not your enemy since the tiredness speaks for the one body you have. Which servant works a field for three days with no bread and no wage and calls the master good?
+**Christ:** You have trained for three days and you are tired because you have given all that a person has. But I tell you the tiredness is not your enemy since the tiredness speaks for the one life you have. Which servant works a field for three days with no bread and no wage and calls the master good?
 
 **Vegeta:** I am my own master and I answer to nobody. A warrior who rests is a warrior who falls behind because I was taught that the enemy does not rest.
 
@@ -47,7 +47,7 @@ The lines of Christ are in rules mode and beat 58 percent of real passages of Ch
 
 **Vegeta:** Then what would you have me do? Would you have me sit in the grass and do nothing while my rival grows stronger?
 
-**Christ:** I give you no order because your body is yours and you alone choose what your body does. But I tell you what I see for you asked me. I see a man who is tired and alone in a locked room and I see a wife on the far side of the door. You can say I am tired to the people on the far side of the door because the people who love you can carry bread to a man who says so. I count no kingdom as lost when a man says I am tired since the words cost nothing and a man who is tired gains company.
+**Christ:** I give you no order because your life is yours and you alone choose what you do. But I tell you what I see for you asked me. I see a man who is tired and alone in a locked room and I see a wife on the far side of the door. You can say I am tired to the people on the far side of the door because the people who love you can carry bread to a man who says so. I count no kingdom as lost when a man says I am tired since the words cost nothing and a man who is tired gains company.
 
 
 ## Script 3: the worlds Vegeta burned

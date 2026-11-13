@@ -12,7 +12,7 @@ Words in italics were added or changed by the AI model and the second attempt fr
 
 From the Claude Bible set (attempt 1):
 
-In the middle of *a* valley *lay countless skeletons;* they were very dry. *People* say, "Our bones are dried *out;* hope is lost; we *feel* completely cut off." *Nobody mocked that cry. Instead, one voice asked,* "Can these *ever* live?" *Then* breath came, *sinew returned, flesh grew; each body* lived *again* and stood up on *tired* feet.
+In the middle of *a* valley *lay countless skeletons;* they were very dry. *People* say, "Our bones are dried *out;* hope is lost; we *feel* completely cut off." *Nobody mocked that cry. Instead, one voice asked,* "Can these *ever* live?" *Then* breath came, *sinew returned, flesh grew; each person* lived *again* and stood up on *tired* feet.
 
 *Saying 'nothing is left' out loud took courage. Pain this heavy deserves an answer, not mockery; I hope someone who sees your words answers you.*
 
@@ -86,7 +86,7 @@ From My Personal Bible set:
 
 Sleep *for* a laboring man is sweet. *People pray,* "Establish *all* work *by* our hands," *hoping they will* long enjoy *everything built. Woe comes upon whoever uses neighbors* without wages and doesnt give *anyone* his hire, *meaning earned pay.* What profit has *each worker? To eat, drink, find good in daily toil:* this *remains* the gift of God.
 
-*Work feeds bodies, so losing wages threatens meals, housing, sleep. Taking labor without paying people is condemned here; I hope coworkers speak up whenever someone's pay gets withheld.*
+*Work feeds workers, so losing wages threatens meals, housing, sleep. Taking labor without paying people is condemned here; I hope coworkers speak up whenever someone's pay gets withheld.*
 
 From the Jesus Bible set:
 
@@ -144,7 +144,7 @@ From the Jesus Bible set:
 
 From the Claude Bible set:
 
-*Folk said,* "Lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *Today engineers stack billions instead,* but where will wisdom be found? Man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. Such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, meaning human bodies, so speak, share, keep telling your story.*
+*Folk said,* "Lets build ourselves a city and *one* tower whose *top touches heaven;*" they had brick. *Today engineers stack billions instead,* but where will wisdom be found? Man doesnt know its price; it cant *get* valued with *any* gold *dug from distant mines. Such understanding ranks* above rubies, *yet* we have this treasure *inside ordinary clay jars, meaning human beings, so speak, share, keep telling your story.*
 
 *Bricks and billions build towers, but that poem says neither buys wisdom. I believe such treasure already sits inside ordinary people, which is why voicing your heart matters more than stacking.*
 
@@ -176,7 +176,7 @@ From My Personal Bible set:
 
 What does man gain from all his labor under the sun? *I'd choose* a handful *of people,* with quietness, *over* two handfuls *plus* chasing after wind. Why spend money for that which is not bread, *such as endless rent? I picture another future where families* build houses and inhabit them, plant vineyards, eat their fruit, *never toiling* in vain. *Until then, landlords collect much pay, so joylessness at work reports something true: effort returns too little. Speak anyway; someone else carries matching pain.*
 
-*One writer doubted whether toil pays anything lasting, while another imagined workers living inside homes they built. Wanting that outcome from a job points toward what bodies need: shelter plus rest.*
+*One writer doubted whether toil pays anything lasting, while another imagined workers living inside homes they built. Wanting that outcome from a job points toward what people need: shelter plus rest.*
 
 From the Claude Bible set:
 
