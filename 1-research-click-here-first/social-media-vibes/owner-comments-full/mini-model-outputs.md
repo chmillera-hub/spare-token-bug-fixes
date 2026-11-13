@@ -136,6 +136,54 @@ jesus said, "i're just tired of the secure of the sacred power of our emotional 
 
 jesus said on the cross and when there is no one who cares about the burning out of the lord, if you speak of the voice of humanity then god who have not justified your humanity and will say it is all that fire can i'm a worm or the worm sentive not just a worm, but
 
+## The eleven "jesus said" outputs with repaired connecting words
+
+The chatbot repaired the eleven raw outputs above by changing only connecting words such as "the" and "and" and "that" and "because" plus capital letters and punctuation. The nouns and verbs and adjectives that the model chose stay in place. A word inside square brackets is a broken non-word that the model wrote and that the chatbot could not repair without guessing. Three dots mark a place where the model stopped in the middle of a sentence. The invented verse labels are left off the repaired versions because the labels were attached to scrambled words. The model invented every line so none of the repaired lines is a real verse.
+
+**Repaired output 1**
+
+Jesus said: "I am tired but I am not here to hide my heart." The fire of your life is not in whoever recognizes that the fire is a part of the Lord. You cannot answer the word of the Lord and I send myself to God and you and I will be afraid.
+
+**Repaired output 2**
+
+Jesus said that this man is a greater and sacred world and I think these are the most powerful pattern. And then Jesus said that God does not exist as an example of God or as a superposition of God. And when the God of God was being born into God then God gave the voice of God to save the human.
+
+**Repaired output 3**
+
+Jesus said: "This is sacred but I am not the Lord. Indeed I have made us and I have made mine and we are full of man. My friends and my prayer or my God and my peace if you know…"
+
+**Repaired output 4**
+
+Jesus said that there is a bigger [citiz] from the cave and the [coalots] and that we are going to be your side eye and my heart. And I am wondering if I am a sheep while the dragon is going on to let them sit with the knight.
+
+**Repaired output 5**
+
+Jesus said: "If the divine sparrows of your mouth are of the Lord and of the name you gave me to move to the righteous Father then you may be one as we are one."
+
+**Repaired output 6**
+
+Jesus said: "Whoever you are remember that the voice of the voice of God is God and wear what echoes the cross because we have a garden of life to witness to our suffering. If God arises then remember that God repeats. If God is humanity then remember and then take action to reduce…"
+
+**Repaired output 7**
+
+Jesus said that we are staring at the cross and that we wish while we are staring at the head of the weather. And then the forest hero is the tragic hero and starts [tot] with the mountain and says: I don't want to get free from the forest bro bro because they wait for him to get out of the mountain.
+
+**Repaired output 8**
+
+What Jesus said is the sky of the sky of the sky. Redditor 2 is the last one [heartshipping] a cross and they are in the middle of the fire that cares for the Lord when you feel alone. And they carry you when they are too close and when they see that Jesus gave a light in…
+
+**Repaired output 9**
+
+Jesus said: "He is a joke here and he is no one of the mountain and no one with his mouth. And fear was for his sake and he sees himself [chessing] his head into the mountain. And he is in his own eyes and he is [chesting] on his shoulder and he shakes his shoulder."
+
+**Repaired output 10**
+
+Jesus said: "I am just tired of the secure and sacred power of our emotional suffering. We are not just being afraid. We are not here to say: wait! It is a [mirn] and a joke! I am the magic playbook and I don't feel lonely."
+
+**Repaired output 11**
+
+Jesus said on the cross that when there is no one who cares about the burning out of the Lord and you speak with the voice of humanity then God who has not justified your humanity will say it is all that fire and I am a worm or the worm [sentive] and not just a worm but…
+
 What the eleven outputs show:
 
 - Several outputs contain broken non-words such as "coalots" and "heartshipping" which shows that the model is shakier after this opening than after openings about emotions.
