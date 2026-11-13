@@ -12,3 +12,5 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [program-could-write.md](program-could-write.md) explains why a comment such as "lol" that fits under any post gives the receiver no way to tell warmth from automation and ends with five quick points.
 - [watching-crowd.md](watching-crowd.md) reports that 118 of 171 comments about a famous executive asked nobody to do anything while living people who could answer were in the same thread and ends with five quick points.
 - [go-on-two-words.md](go-on-two-words.md) explains why the two words "go on" open an exchange while a comment of "lol" tends to close an exchange and ends with five quick points.
+- [behavior-count-not-mood.md](behavior-count-not-mood.md) explains why counting the behavior that each comment asks for such as removing a person shows more than counting positive and negative words and ends with five quick points.
+- [short-share-compass.md](short-share-compass.md) explains how the share of comments with five words or fewer hints at whether a crowd came to react or came to explain and ends with five quick points.
