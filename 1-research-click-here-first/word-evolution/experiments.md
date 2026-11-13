@@ -41,6 +41,7 @@ All 10000 commands were arranged into one story of a single day with eleven scen
 - The closeness bonus cost commands (9 commands against 13 and 7 commands against 11).
 - The tightest run produced near-copies such as "take my cup / take the cup / lift my cup" which suggests closeness in the list rewards repeating one action and does not reward a sequence of different steps.
 - Only two starting points were tested for the closeness bonus which means the sizes of the effects are uncertain.
+- Twenty more runs on 12 November 2026 tested both bonuses with five starting points each and the page named bonus-runs.md in this folder reports the results.
 
 ## A bonus for words that are not repeats
 
