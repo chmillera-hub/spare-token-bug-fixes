@@ -70,3 +70,4 @@ Every page starts with a link to the original question so a reader can find the 
 - [dollar-format-ignored.md](dollar-format-ignored.md) answers a Python help forum question with zero replies about a dollar format that a spreadsheet ignores (two causes found).
 - [red-missing-cells.md](red-missing-cells.md) answers a Python help forum question with zero replies about turning one text red in a spreadsheet column.
 - [crl-without-pyopenssl.md](crl-without-pyopenssl.md) answers a Python help forum question with zero replies about parsing certificate revocation lists after a library dropped the feature.
+- [silence-after-a-question-reflection.md](silence-after-a-question-reflection.md) is a short reflection on what a question feels like when nobody answers and on how a reply such as "I don't know and I see that you asked" tells an asker that the question landed somewhere.
