@@ -22,6 +22,11 @@ Each file is small enough for the search box at the top of the GitHub page to lo
 
 An AI chatbot (Claude) counted the words and phrases and sentences with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the three graph pages is unconfirmed.
 
+## Findings pages
+
+- [themes-findings.md](themes-findings.md) reports how themes such as chatbots and God and gaslighting rise and fall across ten slices of the 6020 comments and which words sit closest to each named emotion such as loneliness and boredom and fear.
+- [goal-findings.md](goal-findings.md) reports what goal the owner states in the comments (well-being and peace through reducing suffering) and six methods the owner uses to work toward that goal.
+
 ## The files
 
 Every comment starts with a line such as ===== Comment 25 ===== and the comments keep the order of the owner's export.
