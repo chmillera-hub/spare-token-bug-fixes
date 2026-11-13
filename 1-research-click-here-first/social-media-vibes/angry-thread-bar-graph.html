@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What 458 comments said to a person who was angry with God</title>
+<style>
+:root{--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--ink3:#898781;--line:#d9d8d2;--card:#f3f2ee}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#898781;--line:#383835;--card:#262624}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+main{max-width:640px;margin:0 auto;padding:20px 14px 60px}
+h1{font-size:22px;font-weight:600;margin:0 0 8px}
+p{margin:0 0 12px;font-size:16px;color:var(--ink2)}
+a{color:inherit}
+.links a{display:block;padding:12px 14px;margin:0 0 8px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:16px;background:var(--card)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--ink2);margin:18px 0 8px}
+.sq{width:11px;height:11px;border-radius:2px;display:inline-block;margin-right:5px}
+.rw{display:block;width:100%;text-align:left;background:transparent;border:0;padding:8px 6px;border-radius:8px;cursor:pointer;min-height:44px;color:inherit;font:inherit}
+.rw.on{background:var(--card);outline:1px solid var(--line)}
+.lb{font-size:15px;line-height:1.35}
+.tr{display:flex;align-items:center;gap:8px;margin-top:5px}
+.br{height:16px;border-radius:0 4px 4px 0;min-width:3px}
+.nm{font-size:15px;font-weight:600}
+.dt{font-size:15px;color:var(--ink2);padding:8px 10px 12px;margin:0 0 8px 6px;border-left:4px solid var(--line)}
+.sm{font-size:13px;color:var(--ink3);margin-bottom:3px}
+h2{font-size:18px;font-weight:600;margin:34px 0 6px}
+</style>
+</head>
+<body>
+<main>
+<h1>What 458 comments said to a person who was angry with God</h1>
+<p>A person posted a video on a social media site. The person in the video describes being angry with God because understanding a life does not give a person authority over that life. Each bar below shows how many of the 458 comments did one thing. Tap a bar and an explanation opens under the bar.</p>
+<div class="links">
+<a href="angry-thread-comments.txt">Read all 458 comments (anonymized)</a>
+<a href="angry-thread-labels.txt">Check the count: the same anonymized comments with the counted labels under each comment</a>
+<a href="angry-thread-word-graphs.html">Open the graphs of the most common words in the same thread</a>
+</div>
+<div class="lg" id="lg"></div>
+<h2>Graph 1: what each comment did</h2>
+<p>One comment can count on several bars because many comments did more than one thing.</p>
+<div id="a"></div>
+<h2>Graph 2: did the comment stay with the feeling or point somewhere else</h2>
+<p>Each comment counts on one bar in this graph.</p>
+<div id="b"></div>
+<h2>Graph 3: where the comments pointed the speaker</h2>
+<p>This graph covers the comments that gave the speaker a direction. One comment can count on several bars.</p>
+<div id="c"></div>
+<h2>Graph 4: how many comments have more than five words</h2>
+<p>This graph is a rough gauge of depth because a comment of five words or fewer has little room for a specific thought. Each comment counts on one bar. The middle comment in the thread runs 17 words.</p>
+<div id="d"></div>
+<p style="margin-top:24px;font-size:14px">An AI chatbot (Claude) anonymized the comments and assigned the labels and wrote the explanations. No other person has rechecked the counts which means every count here is unconfirmed. Every count was made on the anonymized comments. A label is one chatbot's reading of a comment so a second reader could label some comments differently.</p>
+</main>
+<script>
+var G={"with": ["#1baf7a", "Stays with the feeling"], "god": ["#2a78d6", "Points toward God"], "pic": ["#7b61c9", "Points to a different picture"], "acc": ["#d99400", "Points to acceptance or action"], "flaw": ["#eb6834", "Points at the speaker"], "none": ["#888780", "Other"]};
+var N=458;
+function draw(id,D){
+var box=document.getElementById(id),open=null,mx=0;
+D.sort(function(a,b){return b[1]-a[1]});D.forEach(function(d){if(d[1]>mx)mx=d[1]});
+D.forEach(function(d,i){
+var b=document.createElement('button');b.className='rw';b.setAttribute('aria-expanded','false');
+b.innerHTML='<div class="lb">'+d[0]+'</div><div class="tr"><div class="br" style="width:'+Math.round(d[1]/mx*82)+'%;background:'+G[d[2]][0]+'"></div><span class="nm">'+d[1]+'</span></div>';
+var p=document.createElement('div');p.className='dt';p.style.display='none';p.style.borderLeftColor=G[d[2]][0];
+p.innerHTML='<div class="sm">'+d[1]+' of '+N+' comments ('+Math.round(d[1]/N*100)+'%)</div>'+d[3];
+b.onclick=function(){var was=open===i;var r=box.querySelectorAll('.rw'),t=box.querySelectorAll('.dt');for(var j=0;j<r.length;j++){r[j].classList.remove('on');r[j].setAttribute('aria-expanded','false');t[j].style.display='none'}if(!was){b.classList.add('on');b.setAttribute('aria-expanded','true');p.style.display='block';open=i}else{open=null}};
+box.appendChild(b);box.appendChild(p)});}
+var lg=document.getElementById('lg');
+Object.keys(G).forEach(function(k){var s=document.createElement('span');s.innerHTML='<span class="sq" style="background:'+G[k][0]+'"></span>'+G[k][1];lg.appendChild(s)});
+draw('d',[["More than five words",396,"with","These comments have six words or more in the anonymized wording. The share is 86 percent of the 458 comments. For comparison the same gauge gave 97 percent in a thread where a homeowner asked for advice and 89 percent in a thread about a famous executive who resigned and 80 percent in a large public archive of posts and comments."],["Five words or fewer",62,"none","These comments have five words or fewer in the anonymized wording such as \"I relate\" and \"Surrender\" and \"Cry friend\". A short comment is still the expression of a living person and some short comments here carry a full instruction or a full feeling."]]);draw('a',[["Say \"I feel this too\" or thank the speaker", 161, "with", "These comments said that the commenter feels the same anger or exhaustion or thanked the speaker for putting a feeling into words. Examples are \"I feel less alone with this\" and \"You put words to my thoughts\". Some of these comments told a personal story such as a commenter who has grieved a friend and is watching a parent grow old."], ["React or joke or repeat a line from the video", 54, "none", "These comments gave a short reaction such as \"Whew\" or made a joke or repeated a line from the video such as \"Knowledge is not sovereignty\". A repeated line can be a way of saying that the line landed and the comment itself adds no claim."], ["Point to scripture or a holy book or a religion", 53, "god", "These comments quoted or named a passage or told the speaker to read a holy book or to join a religion. The most common passage was the line in Ecclesiastes about more wisdom bringing more sorrow. Other comments named the Serenity Prayer or the Quran or the book of Job."], ["Accept human limits because life is what life is", 46, "acc", "These comments told the speaker to accept that people control very little. Examples are \"Life just is\" and \"Lose the illusion of control\". These comments did not lean on God for the reason."], ["Say the speaker has a flaw such as ego or impatience", 37, "flaw", "These comments located the problem inside the speaker. Examples are \"Check your ego\" and \"You're impatient\" and \"You're angry that you're not God\" and a comment about the speaker's tone of voice."], ["Surrender to God or trust God or pray", 35, "god", "These comments told the speaker to surrender or submit or trust or pray. Examples are \"Let go and let God\" and \"Surrender\" and \"You'll find rest and peace in surrender\"."], ["Offer a different spiritual picture such as \"you are God\"", 31, "pic", "These comments offered another picture of reality. Examples are \"We are all God\" and a recommendation of Buddhist detachment and an old teaching about a blind maker of the world and the idea that people live in a simulation."], ["Stop analyzing and act or live or be still", 27, "acc", "These comments told the speaker to stop thinking and start doing or to just be. Examples are \"You're thinking way too much\" and \"The one thing left to DO is to BE\"."], ["Say the reward or the explanation comes later", 25, "god", "These comments said that the meaning or the reward arrives later. Examples are \"It will all make sense soon\" and \"the next life will be even better\" and \"all this is a test\" and \"God has a plan for each life\"."], ["Say the blame does not belong on God", 20, "god", "These comments moved the blame away from God. The reasons given were human free will and a fallen world and the devil and choices that people made against God's will."], ["Say that no God exists or that the commenter left religion", 19, "pic", "These comments said that no God exists or described walking away from religion. Examples are \"Don't waste your time being angry at fairy tales\" and a commenter who left a faith after a major surgery."], ["Point at people and at how people arranged society", 17, "pic", "These comments named people as the cause or the fix. Examples are a comment that patriarchy and colonialism created the conditions and a comment that a collective of people has the power to change the setting and a comment about organizing."], ["Say that anger at God is allowed", 14, "with", "These comments told the speaker that the anger is acceptable. Examples are \"God is not afraid of your anger\" and \"Sacred rage. Yep - it's a thing\" and a comment that emotions have to be felt and processed and not suppressed."], ["Show care for the speaker such as a prayer or a hug", 12, "with", "These comments offered care directly. Examples are \"Here is a digital hug because I hear you\" and \"Praying for your peace with this\" and a commenter who offered to sit and lament beside the speaker."], ["Comment on the other commenters", 8, "none", "These comments were about the comment section. Examples are \"The people in the comments didn't understand the video\" and a comment that people were using theology to argue the speaker out of the speaker's position."], ["Offer a practical step such as crying or exercise", 8, "acc", "These comments named something to do with the body or the hands. Examples are \"Cry friend\" and \"Hit the gym\" and \"Try writing or learning an instrument\" and \"go eat an ice cream\"."], ["Invite a private message or promote an account", 6, "none", "These comments invited the speaker to send a private message or pointed to the commenter's own papers or teaching or to another account."]]);draw('b',[["Points the speaker somewhere else and does not join the feeling", 222, "acc", "These comments gave the speaker a direction such as scripture or surrender or acceptance or action or a different belief and did not say that the commenter shares the feeling. Each of these comments was typed by a living person who was trying to offer something. The count shows that advice was the most common thing offered."], ["Stays with the speaker's feeling and gives no direction", 146, "with", "These comments said \"me too\" or said that the anger is allowed or offered care and gave the speaker no instruction. An example is \"I'm so glad somebody else gets it\"."], ["Reacts or jokes or talks about the comment section", 59, "none", "These comments reacted or joked or repeated a line or talked about the other commenters and neither joined the feeling in words nor gave a direction."], ["Joins the feeling and also gives a direction", 31, "god", "These comments did both things. An example is a commenter who wrote \"I feel you friend\" and then described surrendering to God the way a grown child comes to trust a parent."]]);draw('c',[["Toward God (scripture or surrender or a later reward or \"God is not to blame\")", 112, "god", "These comments pointed the speaker back toward God in at least one of four ways: a passage or a holy book and surrender or prayer and a reward or explanation that comes later and the claim that the blame belongs somewhere other than God."], ["Toward accepting human limits", 46, "acc", "These comments pointed toward acceptance without leaning on God such as \"Life is beautiful and terrible at once\"."], ["Toward a flaw in the speaker", 37, "flaw", "These comments pointed at the speaker's ego or impatience or wish for control or tone."], ["Toward action or a practical step", 35, "acc", "These comments pointed toward doing something such as acting on what the speaker knows or being still or crying or exercise."], ["Toward a different spiritual picture", 31, "pic", "These comments pointed toward another picture such as \"you are God\" or Buddhism or a simulation."], ["Toward no God at all", 19, "pic", "These comments pointed toward the view that no God exists."], ["Toward people and how people arranged society", 17, "pic", "These comments pointed toward people as the cause or the fix such as organizing with others."]]);
+</script>
+</body>
+</html>

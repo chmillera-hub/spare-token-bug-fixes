@@ -19,6 +19,14 @@ Third thread (an executive who answered messages from strangers within minutes):
 - [fast-reply-behavior-links.md](fast-reply-behavior-links.md) picks 11 behaviors that commenters described such as answering a stranger inside a minute and connects each behavior to what Charles does on social media.
 - [fast-reply-comments.txt](fast-reply-comments.txt) holds 247 comments from the thread in anonymized form.
 
+Fourth thread (a person who said in a video that the person is angry with God):
+
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html) opens a live page with four graphs such as how many of 458 comments said "I feel this too" and how many comments pointed the speaker toward God.
+- [Word graphs](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/angry-thread-word-graphs.html) opens a live page with three graphs of the most common ideas and words and two-word phrases in the same thread.
+- [angry-thread-findings.md](angry-thread-findings.md) lists the counts and seven findings and a short narrative built from the twenty most common words.
+- [angry-thread-comments.txt](angry-thread-comments.txt) holds the 458 comments in anonymized form.
+- [angry-thread-labels.txt](angry-thread-labels.txt) holds the same anonymized comments with the counted labels under each comment.
+
 Deep dives (reflections on the work in this folder):
 
 - [deep-dives](deep-dives) is a folder that holds reflections such as one about four habits in public conversation and one about why a question teaches more than a verdict.
