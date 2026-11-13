@@ -10,3 +10,5 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [sentence-travels-alone.md](sentence-travels-alone.md) explains why a sentence that names the subject and what happened and why can teach a reader who sees that one sentence alone and ends with five quick points.
 - [crowd-chooses-removal.md](crowd-chooses-removal.md) reports that about 37 percent of 364 comments under a homeowner's question asked for a person to be controlled or removed or punished while about 10 percent asked for care and ends with five quick points.
 - [program-could-write.md](program-could-write.md) explains why a comment such as "lol" that fits under any post gives the receiver no way to tell warmth from automation and ends with five quick points.
+- [watching-crowd.md](watching-crowd.md) reports that 118 of 171 comments about a famous executive asked nobody to do anything while living people who could answer were in the same thread and ends with five quick points.
+- [go-on-two-words.md](go-on-two-words.md) explains why the two words "go on" open an exchange while a comment of "lol" tends to close an exchange and ends with five quick points.
