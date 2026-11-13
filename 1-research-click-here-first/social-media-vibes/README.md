@@ -14,4 +14,9 @@ Second thread (a famous executive who lost his job):
 - [ceo-comments.txt](ceo-comments.txt) holds the 171 comments in anonymized form.
 - [ceo-labels.txt](ceo-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment.
 
+Generic phrases (phrases that a program could post as easily as a person):
+
+- [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases in nine groups such as laughter and agreement and sympathy.
+- [generic-phrases-test.md](generic-phrases-test.md) reports a test of the phrase list against 49525 posts and comments from a public archive and lists five findings.
+
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
