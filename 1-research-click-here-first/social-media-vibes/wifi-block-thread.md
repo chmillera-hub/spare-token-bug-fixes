@@ -1,6 +1,6 @@
 # What 364 comments asked a homeowner to do about a houseguest and an AI chatbot
 
-An AI chatbot (Claude) wrote this page from a screen recording of one Reddit thread on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts.
+An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts.
 
 Every count on this page was made on the reworded comments that sit in this folder which means a reader can check every count against text that the reader can see.
 
@@ -47,7 +47,7 @@ The counts are counts of comments and not counts of people because the account n
 
 ## The count of judgments
 
-The subreddit asks commenters to judge the poster.
+The site section where the thread sits asks commenters to judge the poster.
 
 - 67 comments said the homeowner would be in the wrong (including soft and qualified versions).
 - 55 comments said the homeowner would be in the clear.

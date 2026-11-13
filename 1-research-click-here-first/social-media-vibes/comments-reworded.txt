@@ -1,6 +1,6 @@
-REWORDED COMMENTS FROM ONE REDDIT THREAD ABOUT BLOCKING A CHATBOT ON HOME WIFI
+REWORDED SOCIAL MEDIA COMMENTS FROM ONE PERSON'S THREAD ABOUT BLOCKING A CHATBOT ON HOME WIFI
 
-What this file is: an AI chatbot (Claude) read every comment captured in a screen recording of one Reddit thread and wrote a new comment for each one. Each new comment keeps the meaning and the energy of the original comment and uses different wording. None of the sentences below were written by the original commenters.
+What this file is: an AI chatbot (Claude) read every comment captured in a screen recording of one person's thread on a social media site and wrote a new comment for each one. Each new comment keeps the meaning and the energy of the original comment and uses different wording. None of the sentences below were written by the original commenters.
 
 Why the comments are reworded: different wording means that pasting a comment into a search engine does not lead back to the account that wrote the original. A check by program found no run of five or more words shared between any reworded comment and the comment the rewording came from.
 
