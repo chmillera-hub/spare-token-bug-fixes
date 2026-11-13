@@ -16,3 +16,5 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [short-share-compass.md](short-share-compass.md) explains how the share of comments with five words or fewer hints at whether a crowd came to react or came to explain and ends with five quick points.
 - [attention-lands.md](attention-lands.md) explains that a mind brings attention to one person at a time so a commenter who focuses on one person in a story with several people is using attention in the natural way and ends with quick points.
 - [wrong-and-anyway.md](wrong-and-anyway.md) asks what a person learns from advice such as "you would be a jerk and do the act anyway" and shows that the person who decides and the person who pays can be different people and ends with quick points.
+- [meaning-after-role.md](meaning-after-role.md) asks where meaning could live so that losing a job title does not take all of the meaning away and ends with quick points.
+- [asking-a-feeling.md](asking-a-feeling.md) explains what changes when a person asks a feeling such as sadness a question such as "why am I crying?" and stops fighting the feeling and ends with quick points.
