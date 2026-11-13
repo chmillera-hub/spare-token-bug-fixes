@@ -48,4 +48,39 @@ Rules for matching confident wording to evidence
   - Before: See section four.
   - After: See section four which lists the tools needed for the repair.
 
+Rules for writing a caring question or an offer of support
+
+- Say why a question about a feeling is being asked and say what the asker is able to give because a bare question can read as a trap when the other person cannot tell whether a "yes" will be met with support or with a brush-off.
+  - Before: Was the call hard?
+  - After: I wonder if that call held something important to you and I am asking because I want to support you and I have time right now to listen.
+- Keep a guess about what another person feels as open as the evidence because one sign such as quiet can come from sadness or from deep thought or from relief.
+  - Before: You went quiet so the call must have been hard.
+  - After: I noticed quiet after the call so I wonder if the call held something important to you.
+- Offer an action such as listening and leave out any announcement of closeness because announcing a bond that the other person has not agreed to can pressure the other person to act as if the bond were real.
+  - Before: I care about you so tell me what happened.
+  - After: I want to support you and I have time right now to listen.
+- State an offer of support plainly and leave off a condition such as "if you want support" because the condition raises the question of what could be wrong with the support.
+  - Before: I want to support you if you want support.
+  - After: I want to support you.
+- Describe the speaker's own availability with a sentence that starts from "I" and leave out a sentence that tells the other person what the other person can do because an instruction aimed at another person is far more forceful than a statement about the speaker's own time.
+  - Before: You can talk now or later.
+  - After: I am available to talk now or later.
+
+Rules for comparisons and borrowed pictures
+
+- Name an unusual object in the sentence where the object first appears and say what the object is because a reader who meets the object without a name will wonder why the object is in the text.
+  - Before: A strip of paper with a half twist has a single side.
+  - After: A strip of paper with a half twist joined end to end is called a Mobius strip and a Mobius strip has a single side.
+- Choose words for feelings that a reader cannot picture as an injury to a person because a picture of an injury pulls the reader away from the point.
+  - Before: The inside of a person and the outside of a person are one surface.
+  - After: A feeling can flow into voice and body language and words with no wall to cross.
+- Keep separate things separate when describing how the things work together because wording that merges the things into one can hide the part that each thing plays.
+  - Before: Feeling and face and voice and words are one surface.
+  - After: Feeling and face and voice and words are separate ways of expressing that run at the same moment and shape each other.
+- Spell out the things a short word stands for each time the word is used because a short word that stands for several earlier ideas forces the reader to hold all of those ideas in mind.
+  - Before: A guess from the channels stays a guess.
+  - After: A guess built from a person's face and posture and habits stays a guess.
+
+A caring question that hides the reason for asking can lead the other person to answer "I'm fine" for safety and the chance to give support is then lost.
+
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.
