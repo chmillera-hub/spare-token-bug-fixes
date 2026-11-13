@@ -70,5 +70,5 @@ The file [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 inte
 - The comparison is uneven because the owner's comments span many threads over many months while each of the other two sets is one thread on one day.
 - The same chatbot that works with the owner assigned the labels so a reader should check the labels against the sample file.
 - The thread comments are in anonymized wording so the word counts for the two threads are counts of the anonymized wording.
-- The full set of 9134 comments is not in this folder.
+- The folder [owner-comments-full](owner-comments-full) holds 6020 of the owner's comments in full. That folder leaves out repeated comments and 411 comments that a keyword check set aside.
 - No other person has rerun the counts which means every number here is unconfirmed.

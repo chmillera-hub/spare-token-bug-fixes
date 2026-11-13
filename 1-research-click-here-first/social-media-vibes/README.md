@@ -24,5 +24,6 @@ The repository owner's own comments compared with the two threads:
 - [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html) opens a live page where each bar shows what kind of energy 60 randomly picked comments by the owner carry.
 - [owner-comments-findings.md](owner-comments-findings.md) compares the owner's 9134 comments with the two threads and with the generic phrase list.
 - [owner-comments-sample.txt](owner-comments-sample.txt) holds the 60 sampled comments as excerpts in the owner's own wording with the counted labels.
+- [owner-comments-full](owner-comments-full) is a folder that holds 6020 of the owner's comments in full in 24 small files that the GitHub search box can look inside.
 
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
