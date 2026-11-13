@@ -10,7 +10,7 @@ Every count on this page was made on the reworded comments that sit in this fold
 
 ## The situation in the thread
 
-A homeowner asked whether she would be in the wrong for blocking the AI chatbot ChatGPT on her home wifi. A long-time friend is staying with her rent-free during a serious mental health crisis and the friend talks to the chatbot all day as a best friend and therapist. The friend had already told the homeowner that the homeowner talks down to her as if the friend could not make her own decisions.
+A homeowner asked whether she would be in the wrong for blocking an AI chatbot on her home wifi. A long-time friend is staying with her rent-free during a serious mental health crisis and the friend talks to the chatbot all day as a best friend and therapist. The friend had already told the homeowner that the homeowner talks down to her as if the friend could not make her own decisions.
 
 ## What was counted
 
