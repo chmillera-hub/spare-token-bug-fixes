@@ -14,6 +14,13 @@ This folder holds 6020 comments that the owner of this repository wrote on a lar
 
 Each file is small enough for the search box at the top of the GitHub page to look inside the file. Type a word or phrase in that search box and choose the option to search in this repository.
 
+## Graphs of the most common words and phrases
+
+- [Words graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html) opens a live page where each bar shows how many times one of the 25 most common words appears across the 6020 comments and a tap on a bar opens an explanation under the bar.
+- [Phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html) opens a live page where each bar shows how many times one of the 25 most common phrases of two or more words appears across the 6020 comments and a tap on a bar opens an explanation under the bar.
+
+An AI chatbot (Claude) counted the words and phrases with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the two graph pages is unconfirmed.
+
 ## The files
 
 Every comment starts with a line such as ===== Comment 25 ===== and the comments keep the order of the owner's export.

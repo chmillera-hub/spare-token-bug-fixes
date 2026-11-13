@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Most common words in 6020 comments</title>
+<style>
+:root{--s:#fcfcfb;--t:#0b0b0b;--t2:#52514e;--b:#2a78d6;--g:#e4e3df;--p:#f0efec}
+@media(prefers-color-scheme:dark){:root{--s:#1a1a19;--t:#f0efec;--t2:#c3c2b7;--b:#3987e5;--g:#383835;--p:#262624}}
+body{margin:0;background:var(--s);color:var(--t);font:16px/1.5 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:20px 14px 48px}
+h1{font-size:1.3rem;line-height:1.3;margin:0 0 8px}
+p{margin:0 0 14px;color:var(--t2)}a{color:var(--b)}
+.row{display:block;width:100%;background:none;border:0;padding:5px 0;text-align:left;color:inherit;font:inherit;cursor:pointer}
+.top{display:flex;justify-content:space-between;font-size:.95rem}
+.num{color:var(--t2);font-variant-numeric:tabular-nums}
+.track{height:12px;margin-top:3px;border-left:1px solid var(--g)}
+.bar{height:12px;background:var(--b);border-radius:0 4px 4px 0}
+.row:hover .bar,.row:focus-visible .bar,.row[aria-expanded=true] .bar{filter:brightness(.82)}
+.row:focus-visible{outline:2px solid var(--b);outline-offset:2px}
+.info{background:var(--p);border-radius:8px;padding:10px 12px;margin:4px 0 10px;font-size:.95rem}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin-top:8px}
+td,th{text-align:left;padding:4px 6px;border-bottom:1px solid var(--g)}
+details{margin-top:24px}summary{cursor:pointer}
+</style></head><body><main>
+<h1>The 25 most common words in 6020 comments written by the owner of this repository</h1>
+<p>Each bar shows how many times one word appears across the 6020 comments. Tap a bar to open a short explanation of the count behind that bar.</p>
+<p>Filler words such as "the" and "and" and "because" were left out of the count so that the words carrying the subject matter can show.</p>
+<p><a href="https://github.com/chmillera-hub/spare-token-bug-fixes/tree/main/1-research-click-here-first/social-media-vibes/owner-comments-full">Read the 6020 comments</a> that every count on this page comes from. <a href="phrases-graph.html">Open the graph of the most common phrases</a> from the same comments.</p>
+<div id="c"></div>
+<details><summary>Show the same counts as a plain table</summary><table id="t"><tr><th>Word</th><th>Times used</th><th>Comments containing the word</th></tr></table></details>
+<p style="margin-top:24px;font-size:.85rem">An AI chatbot (Claude) wrote this page and counted the words with a program and no person has rechecked the counts which means every count here is unconfirmed.</p>
+</main><script>
+const N=6020,K="word",D=[{"w": "emotional", "c": 8478, "d": 2664}, {"w": "suffering", "c": 5957, "d": 2316}, {"w": "emotions", "c": 4780, "d": 2033}, {"w": "human", "c": 3902, "d": 1763}, {"w": "life", "c": 2552, "d": 1554}, {"w": "society", "c": 2530, "d": 1108}, {"w": "humanity", "c": 2148, "d": 1202}, {"w": "well-being", "c": 2090, "d": 1458}, {"w": "meaning", "c": 2020, "d": 986}, {"w": "world", "c": 1933, "d": 1001}, {"w": "meaningful", "c": 1635, "d": 1038}, {"w": "system", "c": 1612, "d": 704}, {"w": "emotion", "c": 1545, "d": 784}, {"w": "emotionally", "c": 1528, "d": 883}, {"w": "brain", "c": 1522, "d": 786}, {"w": "fear", "c": 1437, "d": 714}, {"w": "others", "c": 1361, "d": 911}, {"w": "god", "c": 1336, "d": 427}, {"w": "power", "c": 1286, "d": 703}, {"w": "deep", "c": 1248, "d": 888}, {"w": "real", "c": 1242, "d": 707}, {"w": "connection", "c": 1211, "d": 692}, {"w": "truth", "c": 1210, "d": 648}, {"w": "words", "c": 1171, "d": 761}, {"w": "mind", "c": 1110, "d": 790}],m=D[0].c,c=document.getElementById('c'),t=document.getElementById('t');
+D.forEach((x,i)=>{
+ const b=document.createElement('button');b.className='row';b.setAttribute('aria-expanded','false');
+ b.innerHTML='<div class="top"><span>'+(i+1)+'. '+x.w+'</span><span class="num">'+x.c+'</span></div><div class="track"><div class="bar" style="width:'+(x.c/m*100).toFixed(1)+'%"></div></div>';
+ const f=document.createElement('div');f.className='info';f.hidden=true;
+ const pct=(x.d/N*100).toFixed(0),per=(x.c/x.d).toFixed(1);
+ f.textContent='The '+K+' "'+x.w+'" appears '+x.c+' times in total and shows up in '+x.d+' of the '+N+' comments which is about '+pct+' percent of the comments. A comment that contains the '+K+' "'+x.w+'" uses that '+K+' about '+per+' times on average which means a higher average points to comments that stay on that subject for longer.';
+ b.onclick=()=>{f.hidden=!f.hidden;b.setAttribute('aria-expanded',String(!f.hidden))};
+ c.append(b,f);
+ t.insertAdjacentHTML('beforeend','<tr><td>'+x.w+'</td><td>'+x.c+'</td><td>'+x.d+'</td></tr>');
+});
+</script></body></html>

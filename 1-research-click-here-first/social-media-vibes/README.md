@@ -25,5 +25,6 @@ The repository owner's own comments compared with the two threads:
 - [owner-comments-findings.md](owner-comments-findings.md) compares the owner's 9134 comments with the two threads and with the generic phrase list.
 - [owner-comments-sample.txt](owner-comments-sample.txt) holds the 60 sampled comments as excerpts in the owner's own wording with the counted labels.
 - [owner-comments-full](owner-comments-full) is a folder that holds 6020 of the owner's comments in full in 24 small files that the GitHub search box can look inside.
+- [Words graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html) and [phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html) open live pages inside the owner-comments-full folder where each bar shows how many times one of the 25 most common words or phrases appears across the 6020 comments.
 
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
