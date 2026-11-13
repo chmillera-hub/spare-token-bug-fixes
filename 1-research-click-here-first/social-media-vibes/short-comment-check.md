@@ -47,9 +47,20 @@ The share of short comments also says something about the kind of thread. A thre
 
 ## What the check can lose
 
-- A short comment can be a real invitation. The owner of this repository wrote the two words "go on" 49 times to ask another person to continue. The check would set those invitations aside.
+- A short comment can be a real invitation. The owner of this repository posted the two words "go on" as a whole comment to ask another person to continue. That whole comment appears 4 times in the 6020 public comments in this folder once question marks and emoji are ignored. The check would set those invitations aside.
 - A short comment can be a real question. About 4.6 percent of the short rows in the archive begin with a question word such as "why" or "what" or "who". One short comment in the executive thread asks "Which one?"
 - So the safer use is to set short comments aside in a separate pile and to keep the short questions for a second look. Deleting the short comments would throw away the invitations and the questions.
+
+## Short comments to keep
+
+The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists short comments that stay in the main pile. The list has one entry so far which is "go on".
+
+- "go on" joined the list because each of the 4 whole comments with those words asks another person to keep talking.
+- Zero of the 49525 rows in the public archive are the whole comment "go on". So keeping "go on" adds no stock reactions back into the main pile of the archive.
+- A comment matches when the words left after removing punctuation and emoji are the same as the entry from the first word to the last word. So "go on lmao" and "hi yes go on" do not match.
+- Short questions such as "proof?" and "got link?" are not on the list because the step that keeps short questions already catches comments ending in a question mark.
+- Phrases such as "tell me more" and "say more" were considered and left off because no counted whole comment in this folder uses those phrases. So there is no evidence here for how people use those phrases.
+- A phrase joins the list when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
 
 ## What the check cannot do
 
@@ -59,9 +70,10 @@ The share of short comments also says something about the kind of thread. A thre
 ## How the check can help with a large pile of comments
 
 1. Count the words in every comment and move the comments of five words or fewer into a separate pile.
-2. Keep the short comments that begin with a question word or end with a question mark because a short question can open a conversation.
-3. Give the main pile of longer comments to a person or a chatbot for closer reading such as looking for comments that describe a behavior a reader can picture.
-4. Report the share of short comments as a finding because the share shows whether the crowd mostly reacted or mostly explained.
+2. Keep the short comments that match the file named short-comments-to-keep.txt because those comments invite another person to keep talking.
+3. Keep the short comments that begin with a question word or end with a question mark because a short question can open a conversation.
+4. Give the main pile of longer comments to a person or a chatbot for closer reading such as looking for comments that describe a behavior a reader can picture.
+5. Report the share of short comments as a finding because the share shows whether the crowd mostly reacted or mostly explained.
 
 ## How to rerun the counts
 

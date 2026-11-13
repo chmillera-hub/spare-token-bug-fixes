@@ -28,6 +28,7 @@ Generic phrases (phrases that a program could post as easily as a person):
 - [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases of six words or more in eight groups such as laughter and agreement and sympathy.
 - [generic-phrases-test.md](generic-phrases-test.md) reports a test of the phrase list against 49525 posts and comments from a public archive and lists five findings.
 - [short-comment-check.md](short-comment-check.md) reports what happens when every comment of five words or fewer is set aside such as removing one row in five from a public archive while giving up about 1.5 percent of the words.
+- [short-comments-to-keep.txt](short-comments-to-keep.txt) lists the short comments that stay in the main pile because the comments invite another person to keep talking. The list has one entry so far which is "go on".
 
 The repository owner's own comments compared with the two threads:
 

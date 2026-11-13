@@ -18,3 +18,9 @@ c=collections.Counter(short); print('distinct short',len(c),'top',c.most_common(
 print('short rows that repeat (appear 2+ times)',sum(v for v in c.values() if v>1))
 random.seed(5); print(random.sample(short,70))
 qs=sum(t.split()[0] in ('what','why','how','who','where','when','is','are','do','does','did','can','could','would','should','any','anyone') for t in short); print('short rows starting with a question word',qs,round(100*qs/len(short),1))
+
+# Short comments to keep: a short comment stays in the main pile when the words left after
+# removing punctuation and emoji are the same as a line in short-comments-to-keep.txt
+keep={'go on'}
+k=lambda t:' '.join(re.sub(r"[^a-z' ]"," ",t.lower()).split())
+print('short rows kept by the keep list',sum(k(t) in keep for t in short))

@@ -1,0 +1,11 @@
+SHORT COMMENTS TO KEEP
+
+An AI chatbot (Claude) wrote this list on 13 November 2026 and no other person has rechecked the list.
+
+The five-words-or-fewer check sets short comments aside before reading. A short comment on this list stays in the main pile because the comment asks another person to keep talking. The page named short-comment-check.md in this folder explains the check.
+
+How a comment matches: a program changes the comment to small letters and removes punctuation marks and emoji. The comment matches when the words left over are the same as a line below from the first word to the last word. So "Go on?" matches and "go on lmao" does not match because of the extra word.
+
+The list has one entry so far because one phrase met the bar for joining the list. The bar is that the phrase reads as an invitation to keep talking in every place the phrase was found as a whole comment.
+
+go on
