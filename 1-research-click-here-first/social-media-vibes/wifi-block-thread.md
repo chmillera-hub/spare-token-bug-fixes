@@ -2,6 +2,8 @@
 
 An AI chatbot (Claude) wrote this page from a screen recording of one Reddit thread on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts. A reworded copy of every comment sits in the file [comments-reworded.txt](comments-reworded.txt) in the same folder.
 
+A live page shows the same count as a tappable bar graph: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/bar-graph.html
+
 ## The situation in the thread
 
 A homeowner asked whether she would be in the wrong for blocking the AI chatbot ChatGPT on her home wifi. A long-time friend is staying with her rent-free during a serious mental health crisis and the friend talks to the chatbot all day as a best friend and therapist. The friend had already told the homeowner that the homeowner talks down to her as if the friend could not make her own decisions.
