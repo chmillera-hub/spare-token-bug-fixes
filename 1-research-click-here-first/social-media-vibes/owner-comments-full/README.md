@@ -29,6 +29,10 @@ An AI chatbot (Claude) counted the words and phrases and sentences with a progra
 - [mini-model-findings.md](mini-model-findings.md) reports what a tiny text model learned after training only on the 6020 comments and shows 20 raw outputs that the model wrote from short openings such as "loneliness is" and "god is".
 - [mini-model-outputs.md](mini-model-outputs.md) holds example outputs from the tiny text model: 13 raw outputs beside versions with repaired connecting words and 11 raw outputs for the opening "jesus said" and four tests of the model.
 
+## Other writing by the owner
+
+- [other-writing](other-writing) is a folder that holds 919 entries of other writing by the owner such as monologues and stories and posts and notes in five text files.
+
 ## The files
 
 Every comment starts with a line such as ===== Comment 25 ===== and the comments keep the order of the owner's export.
