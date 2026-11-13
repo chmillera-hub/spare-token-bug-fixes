@@ -31,5 +31,6 @@ The repository owner's own comments compared with the two threads:
 - [themes-findings.md](owner-comments-full/themes-findings.md) and [goal-findings.md](owner-comments-full/goal-findings.md) sit inside the owner-comments-full folder and report how themes shift across the 6020 comments and what goal the owner states in the comments.
 - [mini-model-findings.md](owner-comments-full/mini-model-findings.md) sits inside the owner-comments-full folder and reports what a tiny text model learned after training only on the 6020 comments.
 - [mini-model-outputs.md](owner-comments-full/mini-model-outputs.md) sits inside the owner-comments-full folder and holds example outputs and repaired outputs and four tests of the tiny text model.
+- [highlight-reel.md](owner-comments-full/highlight-reel.md) and [second-model-outputs.md](owner-comments-full/second-model-outputs.md) sit inside the owner-comments-full folder and hold the mini model lines that the owner rated highest and the outputs of a second tiny text model.
 
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.

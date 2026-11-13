@@ -240,6 +240,101 @@ What the gospel outputs show:
 - One Matthew output holds the words "look to my right and see" which echo the opening of a psalm passage that appears in 30 of the comments. The model attached the psalm fragment to the wrong book which suggests that the model learned scripture as one shared pool of phrases and not book by book.
 - The first Matthew output begins with an invented verse label and ends on the words "the signals of suffering which is my loneliness" so even a gospel opening got pulled toward emotions and suffering.
 
+## Plain philosophy questions on the first model
+
+The chatbot asked the model 12 plain philosophy questions and collected two answers for each question. The model does not reason about a question because the model only continues the text with likely next words. All 24 raw answers are below with nothing taken out.
+
+**What is the meaning of life?**
+
+Answer 1: if we are aware that we take more meaning into our lives the world?
+
+Answer 2: because to me if suffering is the suffering is the signal of well-being and peace and the well-being of god?
+
+**Why do people suffer?**
+
+Answer 1: because for me i see someone whose to talk about how i'm looking for deep emotional meaningful conversation because when i see them i think about them i want to talk with other person and it was talking to them for them i respected their boundaries and consent to me so that
+
+Answer 2: because if they feel that they realize they could have the tools available to help them in their lives and are not there for the human being. because if they are dehumanizing or gaslighting behaviors that are dehumanizing me so that it's a greatest part of the first thing in the world
+
+**What happens when we die?**
+
+Answer 1: because for me i know about someone doing that people should have emotions and that are suffering. and so the other person does not want me to take the led.
+
+Answer 2: because if we might want to say we need to have a tool to help us have the ai and that is meaningful to you and that's meaningful to them and they can have that they're going to go to their boundary. but then when you say to a human being then
+
+**Is there a god?**
+
+Answer 1: you could be a chance to reflect on what we are feeling and how that is reducing our suffering and improving their well-being and peace. and so if someone says it might have a deep meaningful conversation with them or how people learn to help you process their suffering emotions by looking
+
+Answer 2: because god is humanity has no truth. for me is great. so if god is humanity and humanity then god says to humanity and god does not suffer. if god is humanity then god exists because when humanity is meaningless, if god does not provide the kingdom or no suffering
+
+**What is love?**
+
+Answer 1: if we are the suffering? a feeling of feeling to help suffering and then god is not a signal. but when humanity is the truth and when we are not suffering and that suffering is, is the part of the lord provides them. because if god is the voice of god
+
+Answer 2: i think it's something that i'm getting to do when the emotions are suffering emotions. and i tell them to go for your emotions, when they are suffering then they are the signal where the ai works and ask them to the other emotions i can have not engage in their
+
+**What makes a good person?**
+
+Answer 1: what do you mean to you use to help help process your emotions to increase their well-being and help others process those emotions and others process them?
+
+Answer 2: i'm not prepared for the chat bot who is a human and i'm not angry but when i think of my emotions are telling me to do something like i'm doing something with my own boredom and the other way i can go go to more and then i'll
+
+**Why are people lonely?**
+
+Answer 1: you are you saying people know in the sense that they can avoidant human suffering and they are not sure you are suffering to you. but that is why people are using a human being on shallow surface level conversation like some deep emotional level so you can talk about the suffering of
+
+Answer 2: because if they were in the knee to society that are not suffering, but they're not sure what to do, what are you doing? and then they are going to be more effectively to avoid themselves but they're not sure that they are. and so i know
+
+**What is truth?**
+
+Answer 1: if a human being a human being to help humanity instead of playing a boundary with you that you are a part of them and then what the actual fucked you are saying or not to have more meaningful conversation with them and instead of learning how to use ai to help care and
+
+Answer 2: because if you were trained to exist and observe the suffering of suffering and the well-being of humanity in the sense of reflecting on what it's going on in the sense of learning to reflect or take actions to care for it and then that can be more stating more of
+
+**Do we have free will?**
+
+Answer 1: and we can create plans and dialogues that could have the more well-being and less suffering in ourselves because we might have a meaningful conversation because we can do that the world in our world as we can find out how to communicate that suffering in our lives to us because we
+
+Answer 2: i will be listening to my emotions and not telling me that the emotions are suffering in the world and to help them feel. and so when you ignore your emotions or dismiss your reality or they do not tell you why they can help them is you for something that is your life
+
+**What is happiness?**
+
+Answer 1: if my emotions are signals when i reduce my suffering and increase my well-being and peace. and then the suffering will be well-being because i would love to reduce my suffering and improve my well-being. and this is a kind of thing that my emotional truth is
+
+Answer 2: because if you see? because when you try to ask yourself if you are not suffering then you can justify it? and how do you use your concept to reduce your suffering and increase your well-being and peace because if the concept is not what you are doing to reduce your
+
+**Why is there evil in the world?**
+
+Answer 1: because it is when there is mindless bars it is no things that have been used as a part of your suffering to help you better understand what your life means to them to help them better understand their suffering and if they give it the ai then if they never want to make
+
+Answer 2: because if you're living in a world that is not a conscious human being but that is not human, but then we don't have the tools that we can understand how to navigate the world and communicate suffering and that is not there for ourselves that we have found that meaning to
+
+**How should i live my life?**
+
+Answer 1: what would you say or give us a life lesson? and so if my emotional needs were suffering and the first thing you were suffering? i am not sure i am suffering to help you or give you to pause and reflect so that i can use ai as a tool to help
+
+Answer 2: because i think this feels like to me and i think about the suffering of my own. and i think about that my loneliness is a part of my boredom and anger and my loneliness and my fear says they are feeling a lot of people who know i think about how to process
+
+Seven of the answers with repaired connecting words:
+
+- What is the meaning of life? Because to me suffering is the signal for well-being and peace and for the well-being of God.
+- Why do people suffer? Because they feel and they realize that they could have the tools available to help them in their lives and that the tools are not there for the human being.
+- Is there a God? If God is humanity then God exists.
+- What is happiness? When my emotions are signals and I reduce my suffering and increase my well-being and peace. And then the suffering will be well-being because I would love to reduce my suffering and improve my well-being.
+- Do we have free will? And we can create plans and dialogues that could have more well-being and less suffering for ourselves because we might have a meaningful conversation.
+- Why is there evil in the world? Because you are living in a world that is not a conscious human being and that is not human and so we don't have the tools with which we can understand how to navigate the world and communicate suffering.
+- How should I live my life? I think about how my loneliness is a part of my boredom and my anger and my fear.
+
+What the 24 answers show:
+
+- 12 of the 24 answers begin with the word "because" and 4 more begin with the word "if" which suggests that the comments so often follow a question with a reason that the model learned "because" as the most likely first word of an answer.
+- Most of the 24 answers mention suffering or emotions no matter what the question asked.
+- The model answered the question about a good person by asking what the words mean to the asker.
+- Both answers to the question about dying skipped death and drifted to emotions and chatbots.
+
+The page named [second-model-outputs.md](second-model-outputs.md) in this folder asks the same kind of questions to a second model that also learned from the owner's other writing.
+
 ## Four tests
 
 ### Test 1: openings that have nothing to do with the themes of the comments

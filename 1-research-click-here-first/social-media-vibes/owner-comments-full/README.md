@@ -21,10 +21,12 @@ An AI chatbot (Claude) counted the words and phrases and sentences with a progra
 
 ## Findings pages
 
+- [highlight-reel.md](highlight-reel.md) collects the lines from the mini models that the owner rated 8 to 10 out of 10 for resonance.
 - [themes-findings.md](themes-findings.md) reports how themes such as chatbots and God and gaslighting rise and fall across ten slices of the 6020 comments and which words sit closest to each named emotion such as loneliness and boredom and fear.
 - [goal-findings.md](goal-findings.md) reports what goal the owner states in the comments (well-being and peace through reducing suffering) and six methods the owner uses to work toward that goal.
 - [mini-model-findings.md](mini-model-findings.md) reports what a tiny text model learned after training only on the 6020 comments and shows 20 raw outputs that the model wrote from short openings such as "loneliness is" and "god is".
 - [mini-model-outputs.md](mini-model-outputs.md) holds example outputs from the tiny text model: 13 raw outputs beside versions with repaired connecting words and 11 raw outputs for the opening "jesus said" and four tests of the model.
+- [second-model-outputs.md](second-model-outputs.md) holds outputs from a second tiny text model that learned from the comments plus the owner's other writing and compares the second model with the first model on the opening "jesus said" and on plain philosophy questions.
 
 ## Other writing by the owner
 
