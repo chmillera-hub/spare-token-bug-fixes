@@ -1,14 +1,14 @@
 # Spare token bug fixes: a public shelf
 
-363 small ready-made bug fixes (patch files) for 64 public open source projects. Free to take.
+371 small ready-made bug fixes (patch files) for 72 public open source projects. Free to take.
 
 An AI chatbot (Claude) wrote every fix. The first 26 fixes were written on 9 November 2026. The repository owner asked the chatbot to spend leftover weekly subscription allowance on small open bug reports so volunteer maintainers would carry less weight.
 
 Nobody has sent any of these fixes to the projects. The fixes wait here so that any person or any AI model can pick one up and test the fix and send the fix on.
 
-Video summary to share: [video/free-bug-fixes.mp4](video/free-bug-fixes.mp4) shows the first 363 fixes one screen each (direct download: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/video/free-bug-fixes.mp4). Pause the video on any fix to read the fix.
+Video summary to share: [video/free-bug-fixes.mp4](video/free-bug-fixes.mp4) shows the first 371 fixes one screen each (direct download: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/video/free-bug-fixes.mp4). Pause the video on any fix to read the fix.
 
-Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and buckai-observatory/DL_bathy and CERTCC/Vultron and DeckCheatz/wemod-launcher and dhanushbs10/vynlore and EJRyan89/coding-agent-skills and embeddedos-org/eDB and endavis/bastproxy and fitbenchmarking/fitbenchmarking and FROWNINGdev/orm-lens and gabe-santana/arkdraw and geoff-davis/aiogzip and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jasonkryst/MyFinances and jesdi/agent-ops and Jigsaw777/OpenKeet and JimmyDi/loop and jupyterlab/jupyter-builder and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and liualt/loqctl and LucasXlab/vericode and Lucy-Robotics/huri-modules and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and mila-iqia/cluv and Muneer320/klicky and Nixtla/neuralforecast and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and PuzzleTechHub/bot-be-named and pymor/pymor and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and wandb/rai-toolkit and wheelgap/wheelgap.
+Projects covered: AgenticResourceRegistry/AgenticResourceRegistry and ahmetatar/agent-blueprint and awslabs/social-messaging-agent-runtime-toolkit and btclib-org/btclib-wallet and buckai-observatory/DL_bathy and c2siorg/dataloom and capachow/arcane and CERTCC/Vultron and cooldood155/QCDX and DeckCheatz/wemod-launcher and dhanushbs10/vynlore and EJRyan89/coding-agent-skills and embeddedos-org/eDB and endavis/bastproxy and evennia/evennia and fitbenchmarking/fitbenchmarking and FROWNINGdev/orm-lens and gabe-santana/arkdraw and geoff-davis/aiogzip and Hadeva-Dev/dawnmere and Hayuuka/sshhh and himanshu748/devswarm and hslee16/Archy and iamvisheshsrivastava/microscopy-active-learning and itsOmidKarami/kraft and jacaudi/ws4kp and jasonkryst/MyFinances and jesdi/agent-ops and Jigsaw777/OpenKeet and JimmyDi/loop and jupyterlab/jupyter-builder and KonstantinStarovoytov/kitden and laaielichter/Gulliver and laaielichter/Threesmith and liualt/loqctl and LucasXlab/vericode and Lucy-Robotics/huri-modules and ludgerh/cam-ai and maximem-ai/maximem_synap_core and maziyarpanahi/openmed and MehdiMamas/bitwarden-to-apple-keychain-converter-script and meridianlabs-ai/inspect_scout and mfeflow/mfeflow and mhmdaskari/overleaf-web-mcp and microsphere-projects/microsphere-spring and mila-iqia/cluv and Muneer320/klicky and Nixtla/neuralforecast and oscarbol09/audiobard and ourdao/ourdao-frontend and OWASP/cve-lite-cli and pavlov99/json-rpc and pidrang/pidrang and Pranayd555/codelens-graph and prapaa-ai/agav and PuzzleTechHub/bot-be-named and pymor/pymor and rai-opensource/spatialmath-python and remitsure/remitsure-frontend and repowise-dev/repowise and Robbo-lab/mcp-task-app and Santhosh-zeta/ColdGuard and Sh1n1230/security-checker and svayatta/agent-custody and TMHSDigital/Free-Game-Dev-Assets and ujjwalv01/releaseproof and Under-Research-Labs/CONTINUUM and vignzpie/resume-agent-skills and vivekbhange-hub/repo-roast-skill and VolodymyrLinuxovich/heat-risk-cuda and wandb/rai-toolkit and wheelgap/wheelgap.
 
 Where the shelf lives:
 
@@ -19,8 +19,8 @@ Where the shelf lives:
 ## Read this before using a fix
 
 - An AI wrote the fixes. No human has reviewed the fixes.
-- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 82 of the 363 fixes. Each fix page says what was checked.
-- The chatbot read the full bug report text for at least 351 of the 363 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
+- Nobody has run the fixes against the projects' own test suites. The chatbot only checked that the changed Python files still compile and ran small separate checks of the logic for 84 of the 371 fixes. Each fix page says what was checked.
+- The chatbot read the full bug report text for at least 359 of the 371 fixes. The other fixes came from the bug report title plus the code. Each fix page says which. The chatbot could not read the comments under any bug report.
 - Nobody checked whether another person already sent a fix for the same bug.
 - Every patch applied cleanly to the newest code of its project on the day the patch was written. A project may have changed since then.
 - Please run the project's tests and read the project's contribution rules before sending anything. A wrong fix costs a volunteer maintainer time.
@@ -1117,6 +1117,30 @@ Each fix has a page of its own with the bug and the change and the full patch te
 
 363. [Vultron: markdownlint ignores leave out the mkdocs build output so a bare run lints generated files](fix-363-Vultron-6187.md)
    Project: CERTCC/Vultron. Bug report number 6187. License: MIT (SEI). Test included: no. Patch file: [363-Vultron-6187.patch](fixes/363-Vultron-6187.patch)
+
+364. [cam-ai: the eventer keeps the old tag names after the school of the eventer is changed](fix-364-cam-ai-172.md)
+   Project: ludgerh/cam-ai. Bug report number 172. License: GPL-3.0. Test included: no. Patch file: [364-cam-ai-172.patch](fixes/364-cam-ai-172.patch)
+
+365. [Evennia: the multidescer contrib shows the misspelled heading Decsription](fix-365-evennia-3990.md)
+   Project: evennia/evennia. Bug report number 3990. License: BSD-3-Clause. Test included: no. Patch file: [365-evennia-3990.patch](fixes/365-evennia-3990.patch)
+
+366. [heat-risk-cuda: a misspelled name in --impls crashes the benchmark after other timings are done](fix-366-heat-risk-cuda-28.md)
+   Project: VolodymyrLinuxovich/heat-risk-cuda. Bug report number 28. License: MIT. Test included: yes. Patch file: [366-heat-risk-cuda-28.patch](fixes/366-heat-risk-cuda-28.patch)
+
+367. [DataLoom: the Contents list of CONTRIBUTING.md has a misspelled entry and wrong nesting](fix-367-dataloom-626.md)
+   Project: c2siorg/dataloom. Bug report number 626. License: Apache-2.0. Test included: no. Patch file: [367-dataloom-626.patch](fixes/367-dataloom-626.patch)
+
+368. [Arcane: README.md closes a code block one line early and lists JavaScript assets under styles](fix-368-arcane-51.md)
+   Project: capachow/arcane. Bug report number 51. License: MIT. Test included: no. Patch file: [368-arcane-51.patch](fixes/368-arcane-51.patch)
+
+369. [ws4kp: Future Radar logs a note on every refresh and misspells the host name in the note](fix-369-ws4kp-118.md)
+   Project: jacaudi/ws4kp. Bug report number 118. License: MIT. Test included: no. Patch file: [369-ws4kp-118.patch](fixes/369-ws4kp-118.patch)
+
+370. [microsphere-spring: the public test helper createPreFightRequest misspells pre-flight](fix-370-microsphere-spring-321.md)
+   Project: microsphere-projects/microsphere-spring. Bug report number 321. License: Apache-2.0. Test included: yes. Patch file: [370-microsphere-spring-321.patch](fixes/370-microsphere-spring-321.patch)
+
+371. [QCDX: eight misspellings and one wrong path in the README and the docs and the changelog](fix-371-QCDX-31.md)
+   Project: cooldood155/QCDX. Bug report number 31. License: MIT. Test included: yes. Patch file: [371-QCDX-31.patch](fixes/371-QCDX-31.patch)
 
 ## How to use a fix
 

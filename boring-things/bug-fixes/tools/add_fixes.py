@@ -75,7 +75,8 @@ def main(batch):
                  "test": it.get("test", True), "title": it["title"], "symptom": it["symptom"], "change": it["change"],
                  "note": it.get("note") or SC_NOTE, "words": it["words"],
                  "report_title": it.get("report_title") or titles.get(key, ""), "logic_checked": it.get("logic_checked", False),
-                 "full_report_read": it.get("full_report_read", True), "written_on": "2026-11-10"}
+                 "full_report_read": it.get("full_report_read", True),
+                 "written_on": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%d")}
         for k in ("title", "symptom", "change", "note"): assert "," not in entry[k], f"comma in {k} of {it['issue']}"
         assert entry["report_title"], f"no report title for {key}"
         data["fixes"].append(entry); have.add(key)

@@ -114,6 +114,10 @@ Status: UNSENT and UNTESTED. Free to take.
 
 [Back to the shelf](README.md)
 """
+        if "{{" in md or "{%" in md or "%}" in md:
+            # the free website builder (GitHub Pages) reads these symbols as commands so the page is wrapped in raw markers
+            head,rest=md.split("\n",1)
+            md=head+"\n\n<!-- {% raw %} -->\n"+rest+"\n<!-- {% endraw %} -->\n"
         open(os.path.join(shelf,page),"w").write(md)
         index.append(dict(id=f["n"],title=f["title"],project=pr,project_url=f"https://github.com/{pr}",
             bug_report_number=f["issue"],bug_report_url=issue_url,bug_report_title=f.get("report_title"),search_keywords=f["words"].replace("`",""),license=f["lic"],language=f["lang"],

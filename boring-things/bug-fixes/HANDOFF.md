@@ -15,7 +15,7 @@ The repository owner asked for a front page that shows only two folders so that 
 - Run the rebuild as: python3 boring-things/bug-fixes/tools/build_shelf.py new PATH_TO_THIS_PROJECT (the program finds the folder boring-things/bug-fixes without help).
 - The repository owner said on 11 November 2026 that only material he has approved may be added to the research folder. Material from his other chats stays out of this public project until the repository owner has checked that material for personal information and has said yes. Ask the repository owner before adding anything from another chat.
 - The repository owner set a standing rule on 11 November 2026 for the chat that produced the research pages: after each answer in that chat anything useful to another researcher goes into the research folder and irrelevant material stays out.
-- Open work after the move: the website copy in chmillera-hub/game1 still links to the old addresses of the patch files and needs one rebuild with the g1 mode. The video screens still say fixes/ and index.json and llms.txt without the folder boring-things/bug-fixes and tools/video_cards.py needs that text changed before the next video is built.
+- Open work after the move: the website copy in chmillera-hub/game1 still links to the old addresses of the patch files and needs one rebuild with the g1 mode. The video screens were changed on 12 November 2026 and now name the folder boring-things/bug-fixes.
 
 ## What the shelf is
 
@@ -166,6 +166,14 @@ Changing the video: the seconds per fix are the two duration lines in tools/buil
 - svayatta/agent-custody 303: the fix needs new wording about what a door receipt proves and that wording is for the maintainers
 - LucasXlab/vericode 2: the text does not say what the type check and the test run should do for a single file
 - MehdiMamas/bitwarden-to-apple-keychain-converter-script 6: offers two ways (a warning or a refusal without --force)
+- centraluniverse/semonitor 46: the reporter says a fix already sits on another branch
+- dutchkemsystems/dutchkem-clawforge (every bug report): no license file
+- OpenCTI-Platform/connectors 7716: the name is already spelled correctly in the newest code
+- NCAR/StormSPEED 105: the repository holds no code and no license file
+- vishnuverse/humanize 5: the text of the report is written at AI agents and reads like a trap for bots
+- semlith/semlith 307: ends with comment here to take it (Rust)
+- faratech/bsod-analyzer 185: the text does not say what the correct behaviour is
+- openai/codex 58016: a Korean wording fix for the app and the chatbot did not check whether the wording sits in the public code
 - Sh1n1230/security-checker 487: the line is marked pragma: no cover in the newest code
 
 ## Leads not yet looked at closely
@@ -291,6 +299,17 @@ Titles seen but text unread: hslee16/Archy 800 and the reports labelled good sec
 - tools/add_fixes.py now reads report titles from every file named cands*.json in the search folder.
 - For security-checker 689 a noqa marker could not be added: the rule PLC0415 is off in the settings of the project and ruff reports a marker for a rule that is off as unused (RUF100).
 - Leads read and not started: jesdi/general-skills 222 (ticket 1 against 01: the fix also has to name the commit with the padded number so the naming code must be read first) and igormcsouza/tether 309 (several parts) and mrveiss/AutoBot-AI 21317 and falbany/ProFiles 127 and benjaminsnorris/storyforge 680 and asarelcastellanos/howlate.la 86. Licenses not checked.
+
+## Notes from the session of 2026-11-12 (fixes 364 to 371)
+
+- The shelf holds 371 fixes. The repository owner asked for a flat 500 so 129 more are needed. Earlier notes in the chat of 12 November 2026 said 370 before this session and that number was a miscount of files: the shelf held 363.
+- Eight fixes in this session and all eight are for projects new to the shelf: ludgerh/cam-ai 172 (364: GPL-3.0) and evennia/evennia 3990 (365) and VolodymyrLinuxovich/heat-risk-cuda 28 (366) and c2siorg/dataloom 626 (367) and capachow/arcane 51 (368: two of three points) and jacaudi/ws4kp 118 (369) and microsphere-projects/microsphere-spring 321 (370: Java) and cooldood155/QCDX 31 (371: nine of thirteen points).
+- Two searches found the reports: the word typo in the title with label:bug and no assignee and no comments. One search was for language python and one was for every other language (-language:python). The second search returned 310 reports and only the first 70 were looked at. Many of the 70 belong to practice repositories (names such as test-repo and uni-git-workshop) and those were left alone.
+- gh api -X GET search/issues worked in this session without the secondary rate limit answer (two searches).
+- tools/add_fixes.py needs the file /home/claude/work/search/sc_all.json to exist (a file holding {} is enough) or no report titles are loaded. The helper now writes the date of the day in UTC into written_on.
+- tools/build_shelf.py now adds the two raw marker lines for the free website by itself to every fix page that holds two curly brackets in a row or a curly bracket next to a percent sign. Before this change a rebuild removed the marker lines that had been added by hand.
+- Leads read and not started: peauc/lazydocker-ng 45 (Go: a template mistake makes the app panic and the fix changes what a function returns) and jsh9/format-docstring 44 and greentheo/langue 106 (marked stage: design) and Nauro-AI/nauro 710 and tenalisriharsha/golden-path-scaffolder 10 and conga-sh/conga 165. Titles seen but text unread: FortakenJay/SplitIt 5 and game-icons/icons 1177 and itchio/itch.io 2006 and foundryvtt/foundryvtt-premium-content 1843 and CEDStandards/CEDS-Elements 1112 and speys-app/speys-local 8 and 9. Licenses not checked.
+- Push access to chmillera-hub/game1 was asked for in this session and was refused by a safety check again because the repository owner had not named that project in his own words. The website copy still holds 271 fixes. The repository owner can say plainly that the website copy in the project game1 should be updated and the next session can ask again.
 
 ## Keeping the free website working
 

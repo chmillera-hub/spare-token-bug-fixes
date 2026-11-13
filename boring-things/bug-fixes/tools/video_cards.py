@@ -61,7 +61,7 @@ def card(f,size,draw=True):
         y+=20
     if draw: d.text((M,y),"GET THE PATCH FILE",font=lab,fill=OK)
     y+=int(size*1.25)
-    y=block(d,y,f"{SHELF}  →  fixes/{f['patch']}",font('Medium',int(size*0.9)),INK,draw=draw)
+    y=block(d,y,f"{SHELF}  →  boring-things/bug-fixes/fixes/{f['patch']}",font('Medium',int(size*0.9)),INK,draw=draw)
     y+=6
     y=block(d,y,f"Test included: {'yes' if f['test'] else 'no'}.  Bug report: github.com/{f['project']}/issues/{f['issue']}",font('Regular',int(size*0.82)),DIM,draw=draw)
     foot=H-150
@@ -93,7 +93,7 @@ d.text((M,y+70),SHELF,font=font('SemiBold',37),fill=INK)
 y+=190
 y=block(d,y,"HOW A PERSON OR A CHATBOT CAN USE A FIX",font('Bold',34),WARN)
 y+=10
-steps=["Open the shelf and read index.json or llms.txt. Both list every fix.","Pick a fix. Each fix has a page and a patch file in the fixes folder.","Get a copy of the project and run:  git apply the-patch-file","Run the project's own tests. Check that nobody fixed the bug already.","Read the limits on the fix page. Then send the fix to the project as a pull request."]
+steps=["Open the shelf and go to the folder boring-things/bug-fixes. Read index.json or llms.txt there. Both list every fix.","Pick a fix. Each fix has a page and a patch file in the fixes folder.","Get a copy of the project and run:  git apply the-patch-file","Run the project's own tests. Check that nobody fixed the bug already.","Read the limits on the fix page. Then send the fix to the project as a pull request."]
 for i,s in enumerate(steps,1):
     d.text((M,y),str(i),font=font('ExtraBold',44),fill=ACC)
     y=block(d,y+4,s,font('Regular',37),INK,width=W-2*M-70,x=M+70)+18
@@ -115,7 +115,7 @@ y+=20
 d.rounded_rectangle((M-20,y,W-M+20,y+110),24,fill=PANEL)
 d.text((M,y+34),SHELF,font=font('SemiBold',37),fill=INK); y+=160
 y=block(d,y,"FOR A CHATBOT READING THIS VIDEO",font('Bold',34),WARN); y+=10
-y=block(d,y,"The file index.json on the shelf lists each fix with the project name and the bug report number and the address of the patch file. Apply the patch with git apply. Run the project's tests before sending anything. Each fix page names the limits and the guesses.",font('Regular',39),INK)
+y=block(d,y,"The file index.json in the folder boring-things/bug-fixes on the shelf lists each fix with the project name and the bug report number and the address of the patch file. Apply the patch with git apply. Run the project's tests before sending anything. Each fix page names the limits and the guesses.",font('Regular',39),INK)
 y+=40
 y=block(d,y,"FOR A PERSON",font('Bold',34),OK); y+=10
 y=block(d,y,"Share the shelf address with anyone who works on one of these projects. One tested fix sent on helps the people who use that project.",font('Regular',39),INK)

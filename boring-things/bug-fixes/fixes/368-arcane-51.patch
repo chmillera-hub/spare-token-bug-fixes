@@ -1,0 +1,25 @@
+diff --git a/README.md b/README.md
+index 00099ef..83a59d1 100644
+--- a/README.md
++++ b/README.md
+@@ -106,7 +106,6 @@ Arcane keeps things minimal. You can build simple to complex applications using
+ ``` php
+ <?= path('/about/'); # normalized to /about ?>
+ <?= path('/shop/cart'); # /us/shop/cart (if active locale) ?>
+-```
+ <?= path(['IMAGES', 'logo.svg']); # /images/logo.svg (no matter the URL) ?>
+ ```
+ 
+@@ -340,9 +339,9 @@ When a layout is active, Arcane scans your `/styles` and `/scripts` directories.
+ 
+ For a user visiting `/blog/post` using the `default` layout, Arcane looks for and auto-injects:
+ 
+-  1. **Layout Assets**: `styles/default.css` & `styles/default.js`
+-  2. **Section Assets**: `styles/pages/blog.css` & `styles/pages/blog.js`
+-  3. **Page Assets**: `styles/pages/blog/post.css` & `styles/pages/blog/post.js`
++  1. **Layout Assets**: `styles/default.css` & `scripts/default.js`
++  2. **Section Assets**: `styles/pages/blog.css` & `scripts/pages/blog.js`
++  3. **Page Assets**: `styles/pages/blog/post.css` & `scripts/pages/blog/post.js`
+ 
+ *The Benefit*: You can create `styles/pages/blog.css` and it will automatically apply to every blog post, but nowhere else on the site. No manual `<link />` or `<script>` tags required. All assets are cache-busted automatically via `?m=` timestamp.
+ 

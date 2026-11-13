@@ -1,0 +1,32 @@
+diff --git a/.upstream-sync.json b/.upstream-sync.json
+index e9470f5..9e75bee 100644
+--- a/.upstream-sync.json
++++ b/.upstream-sync.json
+@@ -332,6 +332,12 @@
+             "server/scripts/modules/utils/is-obs-fresh.mjs"
+           ],
+           "reason": "always fresh: upstream's 75-minute cutoff blanked Current Conditions, Latest Observations and Regional Forecast whenever the NWS API lags (94-121 min on 2026-11-08), and the fork's MapClick fallback stamps rescued data with the stale NWS timestamp. Callers stay at upstream parity; this file holds the policy"
++        },
++        {
++          "paths": [
++            "server/scripts/modules/future-radar.mjs"
++          ],
++          "reason": "the note about expected 404 errors from hrrrzarr.s3.amazonaws.com is logged only when the future-radar debug flag is set (upstream logs it on every data load) and the host name in the note is spelled correctly"
+         }
+       ]
+     },
+diff --git a/web/server/scripts/modules/future-radar.mjs b/web/server/scripts/modules/future-radar.mjs
+index 28abb5c..12a424e 100644
+--- a/web/server/scripts/modules/future-radar.mjs
++++ b/web/server/scripts/modules/future-radar.mjs
+@@ -102,7 +102,9 @@ class FutureRadar extends FilmstripWeatherDisplay {
+ 		}
+ 
+ 		// get the latest run
+-		console.log('404 errors for hrrrzarrr.s3.amazonaws.com are expected, this app has to optimistically try and load hrrr data for the current hour even though it may not be published yet');
++		if (debugFlag('future-radar')) {
++			console.log('404 errors for hrrrzarr.s3.amazonaws.com are expected, this app has to optimistically try and load hrrr data for the current hour even though it may not be published yet');
++		}
+ 		const run = await findLatestRun();
+ 		if (!run) {
+ 			if (debugFlag('verbose-failures')) {

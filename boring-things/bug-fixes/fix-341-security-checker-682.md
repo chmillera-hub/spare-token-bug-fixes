@@ -1,5 +1,7 @@
 # Fix 341: security-checker: implicit string concatenation inside list elements looks like a missing comma
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: Sh1n1230/security-checker
@@ -257,3 +259,5 @@ index d78c871..56d5765 100644
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->

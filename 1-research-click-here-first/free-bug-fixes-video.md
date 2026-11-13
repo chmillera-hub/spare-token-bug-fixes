@@ -1,6 +1,6 @@
-# Video of 363 free bug fixes
+# Video of 371 free bug fixes
 
-A short video shows 363 small ready-made bug fixes for public open source software one screen each and a viewer can pause the video on any fix to read the fix.
+A short video shows 371 small ready-made bug fixes for public open source software one screen each and a viewer can pause the video on any fix to read the fix.
 
 - Watch or download the video here: [free-bug-fixes.mp4](../boring-things/bug-fixes/video/free-bug-fixes.mp4)
 - Direct download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/video/free-bug-fixes.mp4

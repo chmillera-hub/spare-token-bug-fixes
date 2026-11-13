@@ -1,5 +1,7 @@
 # Fix 303: security-checker: report.md puts reviewer names and rule IDs between backticks without code_span
 
+<!-- {% raw %} -->
+
 Status: UNSENT and UNTESTED. Free to take.
 
 - Project: Sh1n1230/security-checker
@@ -131,3 +133,5 @@ index 0000000..8b38769
 `````
 
 [Back to the shelf](README.md)
+
+<!-- {% endraw %} -->
