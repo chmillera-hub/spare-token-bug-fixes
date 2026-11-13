@@ -19,4 +19,10 @@ Generic phrases (phrases that a program could post as easily as a person):
 - [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases in nine groups such as laughter and agreement and sympathy.
 - [generic-phrases-test.md](generic-phrases-test.md) reports a test of the phrase list against 49525 posts and comments from a public archive and lists five findings.
 
+The repository owner's own comments compared with the two threads:
+
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html) opens a live page where each bar shows what kind of energy 60 randomly picked comments by the owner carry.
+- [owner-comments-findings.md](owner-comments-findings.md) compares the owner's 9134 comments with the two threads and with the generic phrase list.
+- [owner-comments-sample.txt](owner-comments-sample.txt) holds the 60 sampled comments as excerpts in the owner's own wording with the counted labels.
+
 An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
