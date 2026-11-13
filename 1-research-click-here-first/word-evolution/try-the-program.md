@@ -6,6 +6,8 @@ The word evolution program shows ten separate agents that each start from differ
 
 - Open this address in a web browser to run the program without downloading anything: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 - The address above depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
+A second live address runs on the free website copy of this repository: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/word-evolution/live-program.html
+An AI chatbot loaded the second live address on 12 November 2026 and the page came back with the title and the settings and the buttons of the program. The tool that the chatbot used does not run page scripts which means nobody has confirmed yet that the sliders move.
 - The second way is to download the program file from this address and then open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/live-program.html
 - The program file sits in this folder under the name live-program.html and a click on that name on GitHub shows the program text and does not run the program because GitHub displays web page files as text.
 

@@ -5,6 +5,8 @@ An AI chatbot reran two of the tests in a new session on 12 November 2026 and th
 
 A live version of the experiment with sliders runs in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
+A second live address runs on the free website copy of this repository: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/word-evolution/live-program.html
+An AI chatbot loaded the second live address on 12 November 2026 and the page came back with the title and the settings and the buttons of the program. The tool that the chatbot used does not run page scripts which means nobody has confirmed yet that the sliders move.
 
 A pool of 300 strings starts as single letters and each paste copies one string with a chance of an added letter or a letter swap or a letter change and no deleting.
 A "reader" chooses which strings get copied and the reader is a letter-pattern scorer and not a mind.
