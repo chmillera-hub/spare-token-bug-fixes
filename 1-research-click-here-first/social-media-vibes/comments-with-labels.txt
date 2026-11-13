@@ -1,10 +1,10 @@
-REWORDED COMMENTS WITH THE BEHAVIOR LABELS THAT WERE COUNTED
+ANONYMIZED COMMENTS WITH THE BEHAVIOR LABELS THAT WERE COUNTED
 
-What this file is: the same 364 reworded comments as the file comments-reworded.txt in the same order. Under each comment sits the judgment and the behavior labels that an AI chatbot (Claude) assigned to that comment. The counts on the findings page and on the bar graph page are the totals of the labels in this file.
+What this file is: the same 364 anonymized comments as the file comments-reworded.txt in the same order. Under each comment sits the judgment and the behavior labels that an AI chatbot (Claude) assigned to that comment. The counts on the findings page and on the bar graph page are the totals of the labels in this file.
 
 How to check a count: search this file for a label such as "Block the chatbot on the home wifi" and count the comments that carry the label and read each comment to decide whether the label fits.
 
-How the labels were made: the chatbot assigned labels while reading each comment and then reread the reworded comments and removed any label that the reworded wording alone does not support. No other person has checked the labels.
+How the labels were made: the chatbot assigned labels while reading each comment and then reread the anonymized comments and removed any label that the wording in this file alone does not support. No other person has checked the labels.
 
 ==============================
 

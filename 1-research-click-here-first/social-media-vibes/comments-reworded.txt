@@ -1,17 +1,13 @@
-REWORDED SOCIAL MEDIA COMMENTS FROM ONE PERSON'S THREAD ABOUT BLOCKING A CHATBOT ON HOME WIFI
+ANONYMIZED SOCIAL MEDIA COMMENTS FROM ONE PERSON'S THREAD ABOUT BLOCKING A CHATBOT ON HOME WIFI
 
-What this file is: an AI chatbot (Claude) read every comment captured in a screen recording of one person's thread on a social media site and wrote a new comment for each one. Each new comment keeps the meaning and the energy of the original comment and uses different wording. None of the sentences below were written by the original commenters.
+What this file is: social media comments from one person's thread that an AI chatbot (Claude) anonymized. The chatbot wrote the wording below and the wording keeps the meaning and the energy of each comment.
 
-Why the comments are reworded: different wording means that pasting a comment into a search engine does not lead back to the account that wrote the original. A check by program found no run of five or more words shared between any reworded comment and the comment the rewording came from.
-
-Other anonymity steps: account names are removed. The comments are in random order so the reply chains cannot be rebuilt. Ages and exact lengths of time in the homeowner's post are blurred. Links and outside names are removed.
-
-Limits: the recording captured about 364 comments out of roughly 2100. Some comments were cut off in the recording and those are marked in brackets. A rewording can drift from the original writer's meaning and no other person has checked the rewordings against the originals.
+Limits: the file holds 364 comments out of roughly 2100 in the thread. Some comments were incomplete and those are marked in brackets. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording.
 
 Verdict words: the thread asks readers to judge the homeowner. "In the wrong" and "the jerk" stand for the thread's label for a person who would be behaving badly. "In the clear" stands for the thread's label for a person who would not be behaving badly.
 
 ==============================
-PART 1. THE HOMEOWNER'S POST (REWORDED)
+PART 1. THE HOMEOWNER'S POST (ANONYMIZED)
 ==============================
 
 Would I be the jerk for blocking a chatbot on my home internet?
@@ -29,7 +25,7 @@ Admin access to the network belongs to me alone since she is not a permanent res
 Looking like her warden or bossing her around is the last thing I want. No other friend of hers knows the full story and retelling it sets her off so she won't explain it to anybody new. That leaves the chatbot as the only "friend" besides me who is "in the loop".
 
 ==============================
-PART 2. THE HOMEOWNER'S 27 REPLIES TO COMMENTERS (REWORDED AND IN RANDOM ORDER)
+PART 2. THE HOMEOWNER'S 27 REPLIES TO COMMENTERS (ANONYMIZED AND IN NO PARTICULAR ORDER)
 ==============================
 
 This outlook helps me a lot. It sort of counts as financial abuse - something she already lived through in her marriage. I hadn't even noticed! She also gets paid by me for household tasks so she has pocket money - an arrangement she agreed to! I see how parent-like that looks. What I want is to support her while she heals - two friends on level ground.
@@ -87,7 +83,7 @@ Somewhere inside I already knew she is hiding from reality in a place that agree
 A doctor confirmed the psychosis during her first forced hospital stay. She was given a heavier diagnosis on top of that and she believes the heavier label is wrong. The episodes themselves are real and she mostly knows what sets them off.
 
 ==============================
-PART 3. 364 COMMENTS FROM OTHER PEOPLE (REWORDED AND IN RANDOM ORDER)
+PART 3. 364 COMMENTS FROM OTHER PEOPLE (ANONYMIZED AND IN NO PARTICULAR ORDER)
 ==============================
 
 Questions first. What is your aim? Do you want her thinking for herself and rebuilding her life? Are you afraid for her safety? Or bothered by what she tells the AI about you? By the way treating somebody as a friend with a mental illness differs from treating her as a dependent. Also: how long are you content to have her stay and does an exit plan exist if the stay is meant to be temporary?

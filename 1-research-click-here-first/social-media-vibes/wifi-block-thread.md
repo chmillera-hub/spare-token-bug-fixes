@@ -1,11 +1,11 @@
 # What 364 comments asked a homeowner to do about a houseguest and an AI chatbot
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. Account names are removed and no comment is quoted word for word because quoted comments can be searched and traced back to the accounts.
+An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized.
 
-Every count on this page was made on the reworded comments that sit in this folder which means a reader can check every count against text that the reader can see.
+Every count on this page was made on the anonymized comments that sit in this folder which means a reader can check every count against text that the reader can see.
 
-- [comments-reworded.txt](comments-reworded.txt) holds every comment rewritten in new words.
-- [comments-with-labels.txt](comments-with-labels.txt) holds the same reworded comments with the behavior labels that were counted under each comment.
+- [comments-reworded.txt](comments-reworded.txt) holds every comment in anonymized form.
+- [comments-with-labels.txt](comments-with-labels.txt) holds the same anonymized comments with the behavior labels that were counted under each comment.
 - A live page shows the same count as a tappable bar graph: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/bar-graph.html
 
 ## The situation in the thread
@@ -16,7 +16,7 @@ A homeowner asked whether she would be in the wrong for blocking an AI chatbot o
 
 The recording captured 364 comments from other people plus 27 replies from the homeowner. The thread showed about 2100 comments in total which means the counts describe the top of the thread and not the whole thread.
 
-The counts are counts of comments and not counts of people because the account names are removed and so nobody can tell which comments came from the same person. One comment can count on several lines because many comments ask for more than one behavior.
+The counts are counts of comments and not counts of people because the comments are anonymized and so this page does not track which comments came from the same person. One comment can count on several lines because many comments ask for more than one behavior.
 
 ## The count of requested behaviors
 
@@ -66,8 +66,8 @@ The site section where the thread sits asks commenters to judge the poster.
 
 ## Limits of the count
 
-- The reworded comments were written by an AI chatbot and a rewording can drift from what the original writer meant. The counts describe the reworded comments because the reworded comments are the evidence that the public can see.
-- An earlier version of this page counted separate commenters from the original comments and showed slightly different numbers (for example 90 where this page shows 89). The numbers changed because this version counts comments and counts only what the reworded wording supports.
+- An AI chatbot wrote the wording of the anonymized comments and that wording can drift from what the original writer meant. The counts describe the anonymized comments because the anonymized comments are the evidence that the public can see.
+- An earlier version of this page counted separate commenters from the original comments and showed slightly different numbers (for example 90 where this page shows 89). The numbers changed because this version counts comments and counts only what the anonymized wording supports.
 - The recording scrolled quickly so some comments were cut off and reply chains that stayed collapsed are missing.
 - The behavior labels are one AI chatbot's reading of each comment so a second reader could label some comments differently.
 - No other person has rechecked the counts which means every count here is unconfirmed.
