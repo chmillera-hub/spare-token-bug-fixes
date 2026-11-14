@@ -6,8 +6,11 @@ The five-words-or-fewer check sets short comments aside before reading. A short 
 
 How a comment matches: a program changes the comment to small letters and removes punctuation marks and emoji. The comment matches when the words left over are the same as a line below from the first word to the last word. So "Go on?" matches and "go on lmao" does not match because of the extra word. In the same way "More!" and "Continue." match and "more of the same" and "continue to cope" do not match because of the extra words.
 
-The list has three entries so far. The phrase "go on" joined because a count showed the phrase reading as an invitation to keep talking in every place the phrase was found as a whole comment. The word "more" and the word "continue" joined on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. No count backs the word "more" or the word "continue" yet because zero whole comments in this folder are the single word "more" or the single word "continue".
+The list has six entries so far. The phrase "go on" joined because a count showed the phrase reading as an invitation to keep talking in every place the phrase was found as a whole comment. The word "more" and the word "continue" joined on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. No count backs the word "more" or the word "continue" yet because zero whole comments in this folder are the single word "more" or the single word "continue". The three entries ending in the word "please" joined on the same day because the owner of this repository judges that adding "please" keeps each reply an invitation to keep expressing.
 
 go on
 more
 continue
+go on please
+more please
+continue please
