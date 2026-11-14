@@ -29,6 +29,15 @@ The folder named [boring-things](boring-things) holds program files and patch fi
 - [The bug fix shelf](boring-things/bug-fixes) holds 371 small AI-written bug fixes for public open source projects and any person or AI model may test a fix and send the fix to the project.
 - [Research program files](boring-things/research-program-files) holds the Python and JavaScript files that produced every number in the research pages.
 
+## How to download everything
+
+Every file here is public and any person or AI agent may download the files for research.
+
+- One zip of every file: https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip
+- Every reading page joined into one plain text file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt
+- A list of every file with a direct download address for programs and AI agents: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json
+- The page named [download-everything](boring-things/download-everything) explains each way to download and holds a short map for AI agents named llms.txt.
+
 ## Who made the pages
 
 An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.
