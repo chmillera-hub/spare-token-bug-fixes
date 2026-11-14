@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1106,
- "total_bytes": 75669935,
+ "file_count": 1108,
+ "total_bytes": 75686113,
  "files": [
   {
    "path": ".gitignore",
@@ -487,7 +487,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 4094,
+   "bytes": 4359,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -645,6 +645,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md",
+   "title": "The wish for one enemy",
+   "bytes": 7533,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/wrong-and-anyway.md",
@@ -1855,11 +1864,20 @@
   {
    "path": "1-research-click-here-first/writing-rules/README.md",
    "title": "Writing rules",
-   "bytes": 269,
+   "bytes": 491,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/writing-rules/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/writing-rules/editing-lessons.md",
+   "title": "Lessons from editing two reflections line by line",
+   "bytes": 8158,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/editing-lessons.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/writing-rules/editing-lessons.md"
   },
   {
    "path": "1-research-click-here-first/writing-rules/writing-rules-plain.txt",
