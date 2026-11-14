@@ -1,0 +1,12 @@
+# Social media deep dive: "This is not just an economic problem anymore"
+
+An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+
+The sentence "this is not just an economic problem anymore" points at something beyond wages because a person on social media who writes "I have lost the will to live" during a job search is describing a wound to belonging as well as the loss of wages that pay for food and housing. Many people were taught that a job is where a person gets a daily rhythm and other people to talk with and proof of being needed and so months of rejection can remove all three at once.
+
+The wider problem is not that people looked to employment for care because the people who shaped how society runs implied that a job would take care of a worker. Beyond paying workers the people who run a workplace probably do not care about a worker at all on an emotional or spiritual level because an employer mostly only pays for labor and usually does not help the worker connect with other human beings on an emotional or spiritual level and usually does not help the worker find shelter or get fed in any way other than money. An employer could choose to help in those other ways because the people who run a workplace are free to offer more than pay. The people who run a workplace can also abandon a worker almost immediately once the worker is no longer needed and a former worker who walks back in asking for support will probably be reported for trespassing which means armed officers removing the person from the building. So care that was only ever money is absent exactly when a person most needs care. A pro-human nonviolent response gives care directly which means offering food and shelter and conversation to a person because the person exists and not because the person holds a job title.
+
+## Quick points
+
+- A person without work can ask for belonging directly such as "I am not working right now and I want people to talk with each day" because naming the need for human connection lets other people answer the need without a job in the middle.
+- A person with food or a spare room or time to spare can offer care to someone in need whether or not that someone is working because every person is worthy of care and care given outside of employment shows that a human being's place among other people does not depend on a job.

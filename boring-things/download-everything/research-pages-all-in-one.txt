@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-14 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 157 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 158 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -9762,6 +9762,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [never-asked-born.md](never-asked-born.md) imagines Christ praying the words "I never asked to be born" on a mountain and imagines an answer from the Father such as "now that you are here I am here to help you" and ends with quick points.
 - [wish-one-enemy.md](wish-one-enemy.md) uses a short parable about a gardener and two neighbors to show that an answer to "why does this hurt" works like a quiet order and explains why blaming one enemy can send harm back to the sender and ends with quick points.
 - [job-search-suffering.md](job-search-suffering.md) reads three sentences from people looking for work such as "I have genuinely lost the will to live" as signals of unmet needs for food and shelter and human connection and says what a reader can offer in reply and ends with quick points.
+- [not-just-economic.md](not-just-economic.md) reflects on the social media sentence "this is not just an economic problem anymore" and explains that care which was only ever pay is absent when a person most needs care and ends with quick points.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -10045,6 +10046,24 @@ And so Christ carries the Father's answer back down the mountain because the peo
 - A person cannot be asked for permission before birth and so the Father treats the missing permission as a reason to care for the person after birth because the Father says "now that you are here I am here to help you" and wants to help build a world worth being born into.
 - Creating something new that was meant to help save the world such as creating a new human being is not violence and so a child of God is a new person to be loved and not an injury done to anyone. The violence that people in the world inflict on the new human being is what needs to be called out and changed to be pro-human because the harm begins with how people treat the person after birth and not with the birth.
 - Feeding or sheltering or welcoming a person who is suffering is care given to the framework of Christ and to the Father which represents a universal pro-human nonviolent framework meant to increase human flourishing and thriving because the Father says "what you did for the least of these my son is what you did for yourself and for me" which means saving one person and saving other people are connected through an ecosystem of care in which people look after one another.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md
+================================================================================
+
+# Social media deep dive: "This is not just an economic problem anymore"
+
+An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+
+The sentence "this is not just an economic problem anymore" points at something beyond wages because a person on social media who writes "I have lost the will to live" during a job search is describing a wound to belonging as well as the loss of wages that pay for food and housing. Many people were taught that a job is where a person gets a daily rhythm and other people to talk with and proof of being needed and so months of rejection can remove all three at once.
+
+The wider problem is not that people looked to employment for care because the people who shaped how society runs implied that a job would take care of a worker. Beyond paying workers the people who run a workplace probably do not care about a worker at all on an emotional or spiritual level because an employer mostly only pays for labor and usually does not help the worker connect with other human beings on an emotional or spiritual level and usually does not help the worker find shelter or get fed in any way other than money. An employer could choose to help in those other ways because the people who run a workplace are free to offer more than pay. The people who run a workplace can also abandon a worker almost immediately once the worker is no longer needed and a former worker who walks back in asking for support will probably be reported for trespassing which means armed officers removing the person from the building. So care that was only ever money is absent exactly when a person most needs care. A pro-human nonviolent response gives care directly which means offering food and shelter and conversation to a person because the person exists and not because the person holds a job title.
+
+## Quick points
+
+- A person without work can ask for belonging directly such as "I am not working right now and I want people to talk with each day" because naming the need for human connection lets other people answer the need without a job in the middle.
+- A person with food or a spare room or time to spare can offer care to someone in need whether or not that someone is working because every person is worthy of care and care given outside of employment shows that a human being's place among other people does not depend on a job.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md

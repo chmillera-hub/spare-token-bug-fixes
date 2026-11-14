@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1109,
- "total_bytes": 75692475,
+ "file_count": 1110,
+ "total_bytes": 75695200,
  "files": [
   {
    "path": ".gitignore",
@@ -487,7 +487,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 4650,
+   "bytes": 4897,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -582,6 +582,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/never-asked-born.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/never-asked-born.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md",
+   "title": "Social media deep dive: \"This is not just an economic problem anymore\"",
+   "bytes": 2478,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md",
