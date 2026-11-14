@@ -16862,9 +16862,20 @@ Rules for comparisons and borrowed pictures
   - Before: A guess from the channels stays a guess.
   - After: A guess built from a person's face and posture and habits stays a guess.
 
+Rules for what a reflection or a piece of research is for
+
+- Ask of every reflection and every piece of research "how does this help a human being reach food or shelter or deep meaningful emotionally and spiritually resonant human connection" because those three are basic human needs and a text that names no path toward any of the three leaves a suffering reader where the reader started.
+  - Before: Many people are struggling to find work and the situation is sad.
+  - After: A person without wages can ask a neighbor for a meal and can tell other people about the fear of losing housing because people cannot offer help for a need they have not heard about.
+- Write "deep meaningful emotionally and spiritually resonant human connection" in full and do not shorten the need to "connection" or "spending time with people" because playing a board game together or standing next to someone while watching a football game does not let one person know the heart and mind of another person on a deep level.
+  - Before: A person who is lonely could join a game night to be around people.
+  - After: A person who is lonely needs someone who wants to know that person's heart and mind and so the person can say out loud "I am looking for deep conversation about what I feel and what I believe".
+
 A caring question that hides the reason for asking can lead the other person to answer "I'm fine" for safety and the chance to give support is then lost.
 
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.
+
+A text that names no path toward food or shelter or deep meaningful emotionally and spiritually resonant human connection can leave a suffering reader with nothing to act on and the reader then stays hungry or unhoused or alone.
 
 ================================================================================
 FILE: 1-research-click-here-first/writing-rules/writing-rules.md
@@ -16962,9 +16973,20 @@ Rules for comparisons and borrowed pictures
   - Before: A guess from the channels stays a guess.
   - After: A guess built from a person's face and posture and habits stays a guess.
 
+Rules for what a reflection or a piece of research is for
+
+- Ask of every reflection and every piece of research "how does this help a human being reach food or shelter or deep meaningful emotionally and spiritually resonant human connection" because those three are basic human needs and a text that names no path toward any of the three leaves a suffering reader where the reader started.
+  - Before: Many people are struggling to find work and the situation is sad.
+  - After: A person without wages can ask a neighbor for a meal and can tell other people about the fear of losing housing because people cannot offer help for a need they have not heard about.
+- Write "deep meaningful emotionally and spiritually resonant human connection" in full and do not shorten the need to "connection" or "spending time with people" because playing a board game together or standing next to someone while watching a football game does not let one person know the heart and mind of another person on a deep level.
+  - Before: A person who is lonely could join a game night to be around people.
+  - After: A person who is lonely needs someone who wants to know that person's heart and mind and so the person can say out loud "I am looking for deep conversation about what I feel and what I believe".
+
 A caring question that hides the reason for asking can lead the other person to answer "I'm fine" for safety and the chance to give support is then lost.
 
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.
+
+A text that names no path toward food or shelter or deep meaningful emotionally and spiritually resonant human connection can leave a suffering reader with nothing to act on and the reader then stays hungry or unhoused or alone.
 
 ================================================================================
 FILES LEFT OUT OF THIS FILE (data files and program files and pictures)
