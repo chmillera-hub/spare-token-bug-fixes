@@ -53,14 +53,16 @@ The share of short comments also says something about the kind of thread. A thre
 
 ## Short comments to keep
 
-The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists short comments that stay in the main pile. The list has one entry so far which is "go on".
+The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists short comments that stay in the main pile. The list has three entries so far which are "go on" and "more" and "continue".
 
 - "go on" joined the list because each of the 4 whole comments with those words asks another person to keep talking.
 - Zero of the 49525 rows in the public archive are the whole comment "go on". So keeping "go on" adds no stock reactions back into the main pile of the archive.
 - A comment matches when the words left after removing punctuation and emoji are the same as the entry from the first word to the last word. So "go on lmao" and "hi yes go on" do not match.
 - Short questions such as "proof?" and "got link?" are not on the list because the step that keeps short questions already catches comments ending in a question mark.
 - Phrases such as "tell me more" and "say more" were considered and left off because no counted whole comment in this folder uses those phrases. So there is no evidence here for how people use those phrases.
-- A phrase joins the list when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
+- "more" and "continue" joined the list on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. Zero whole comments in this folder are the single word "more" or the single word "continue" so the two entries rest on the owner's judgment and not on a count. The count of "more" and of "continue" as whole rows in the public archive has not been run yet.
+- A comment matches "more" or "continue" only when the single word is the whole comment. So "more of the same" and "no more" and "continue to cope" do not match.
+- A phrase can join the list in two ways. The owner of this repository can add a phrase by judgment as with "more" and "continue". Or a phrase joins when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
 
 ## What the check cannot do
 

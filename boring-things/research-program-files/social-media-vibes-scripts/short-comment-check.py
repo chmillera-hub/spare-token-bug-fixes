@@ -21,6 +21,6 @@ qs=sum(t.split()[0] in ('what','why','how','who','where','when','is','are','do',
 
 # Short comments to keep: a short comment stays in the main pile when the words left after
 # removing punctuation and emoji are the same as a line in short-comments-to-keep.txt
-keep={'go on'}
+keep={'go on','more','continue'}
 k=lambda t:' '.join(re.sub(r"[^a-z' ]"," ",t.lower()).split())
 print('short rows kept by the keep list',sum(k(t) in keep for t in short))
