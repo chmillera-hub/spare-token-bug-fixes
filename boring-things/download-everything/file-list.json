@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1110,
- "total_bytes": 75698246,
+ "file_count": 1112,
+ "total_bytes": 75710558,
  "files": [
   {
    "path": ".gitignore",
@@ -334,7 +334,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
    "title": "Packing test: how much room do Mobius strips need compared with flat strips and plain loops?",
-   "bytes": 6274,
+   "bytes": 9432,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
@@ -487,7 +487,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 4897,
+   "bytes": 5194,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -645,6 +645,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
+   "title": "Social media deep dive: open problems that are made of human suffering",
+   "bytes": 1850,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/watching-crowd.md",
@@ -8803,7 +8812,7 @@
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/packing-test/README.md",
    "title": "Programs for the packing test",
-   "bytes": 904,
+   "bytes": 1117,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/README.md",
@@ -8817,6 +8826,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/blocked-space.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/blocked-space.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/packing-test/pour-and-shake-big-bin.py",
+   "title": "pour-and-shake-big-bin.py",
+   "bytes": 6794,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/pour-and-shake-big-bin.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/pour-and-shake-big-bin.py"
   },
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/packing-test/pour-and-shake-finer-steps.py",
