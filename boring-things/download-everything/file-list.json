@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1104,
- "total_bytes": 75661785,
+ "file_count": 1106,
+ "total_bytes": 75669935,
  "files": [
   {
    "path": ".gitignore",
@@ -8682,6 +8682,24 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/video/free-bug-fixes.mp4",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/bug-fixes/video/free-bug-fixes.mp4"
+  },
+  {
+   "path": "boring-things/download-everything/README.md",
+   "title": "Download everything",
+   "bytes": 2821,
+   "type": "md",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/download-everything/README.md"
+  },
+  {
+   "path": "boring-things/download-everything/build-download-files.py",
+   "title": "build-download-files.py",
+   "bytes": 5329,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/build-download-files.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/download-everything/build-download-files.py"
   },
   {
    "path": "boring-things/research-program-files/README.md",
