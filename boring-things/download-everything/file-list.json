@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
  "file_count": 1125,
- "total_bytes": 92596057,
+ "total_bytes": 92596944,
  "files": [
   {
    "path": ".gitignore",
@@ -2026,7 +2026,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 5827,
+   "bytes": 6330,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -8839,7 +8839,7 @@
   {
    "path": "boring-things/download-everything/README.md",
    "title": "Download everything",
-   "bytes": 2821,
+   "bytes": 3117,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
@@ -8848,7 +8848,7 @@
   {
    "path": "boring-things/download-everything/build-download-files.py",
    "title": "build-download-files.py",
-   "bytes": 5329,
+   "bytes": 5417,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/build-download-files.py",

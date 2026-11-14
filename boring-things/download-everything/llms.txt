@@ -1,6 +1,6 @@
 # spare-token-bug-fixes
 
-> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository owner. Every file is public and may be downloaded for research. No other person has rechecked the pages.
+> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository owner. Every file is public and may be downloaded for research. The repository owner says anyone may use and copy and share the writing without asking. No other person has rechecked the pages.
 
 ## Download everything
 

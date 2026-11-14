@@ -57,7 +57,7 @@ with open(HERE + "research-pages-all-in-one.txt", "w", encoding="utf-8") as f:
 # llms.txt : a short map for AI agents
 with open(HERE + "llms.txt", "w", encoding="utf-8") as f:
     f.write("# spare-token-bug-fixes\n\n")
-    f.write("> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository owner. Every file is public and may be downloaded for research. No other person has rechecked the pages.\n\n")
+    f.write("> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository owner. Every file is public and may be downloaded for research. The repository owner says anyone may use and copy and share the writing without asking. No other person has rechecked the pages.\n\n")
     f.write("## Download everything\n\n")
     f.write("- [Zip of the whole repository](" + ZIP + "): one download that holds every file\n")
     f.write("- [Every reading page in one text file](" + RAW + q(HERE + "research-pages-all-in-one.txt") + "): " + str(len(picked)) + " pages joined into one plain text file\n")

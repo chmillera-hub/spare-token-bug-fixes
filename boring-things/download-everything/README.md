@@ -2,6 +2,10 @@
 
 An AI chatbot (Claude) wrote this page and built the files in this folder on 14 November 2026. Every file in this repository is public and any person or AI agent may download the files for research.
 
+## Permission
+
+Anyone may use and copy and share the writing in this repository without asking. Anyone who wants to chat with the owner of this repository about the pages is welcome to open an issue on the repository on GitHub. The bug fix files follow the licenses of the projects being fixed.
+
 ## The fastest ways to get the files
 
 - **One zip of the whole repository.** This address downloads every file in one zip of about 90 megabytes and the zip always holds the newest version because the hosting service builds the zip at the moment of the download: https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip

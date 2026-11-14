@@ -41,6 +41,10 @@ Every file here is public and any person or AI agent may download the files for 
 - A list of every file with a direct download address for programs and AI agents: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json
 - The page named [download-everything](boring-things/download-everything) explains each way to download and holds a short map for AI agents named llms.txt.
 
+## Permission to use these pages
+
+Anyone may use and copy and share the writing in this repository without asking because the owner of this repository wants the pages to help as many people as possible. Anyone who wants to chat with the owner about the pages is welcome to open an issue on this repository on GitHub. A few files started somewhere else and keep their own terms which means the bug fix files follow the licenses of the projects being fixed and the Bible text is the World English Bible.
+
 ## Who made the pages
 
 An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.
