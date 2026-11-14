@@ -1,0 +1,51 @@
+diff --git a/tests/unit/test_run_remaining_budget.py b/tests/unit/test_run_remaining_budget.py
+new file mode 100644
+index 0000000..bcf535f
+--- /dev/null
++++ b/tests/unit/test_run_remaining_budget.py
+@@ -0,0 +1,45 @@
++"""_remaining_budget: 一次レビューで使った分を引き、残りが無ければ None を返すこと."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.config.schema import BudgetConfig
++from security_checker.models.verdict import Usage
++from security_checker.run import _remaining_budget
++
++
++def test_spent_dollars_and_tokens_are_subtracted() -> None:
++    budget = BudgetConfig(max_usd=1.0, max_total_tokens=1000)
++    used = Usage(input_tokens=300, output_tokens=100, estimated_usd=0.4)
++
++    remaining = _remaining_budget(budget, used)
++
++    assert remaining is not None
++    assert remaining.max_usd == pytest.approx(0.6)
++    assert remaining.max_total_tokens == 600
++
++
++@pytest.mark.parametrize("spent", [1.0, 2.5])
++def test_no_dollars_left_means_no_budget(spent: float) -> None:
++    budget = BudgetConfig(max_usd=1.0, max_total_tokens=None)
++
++    assert _remaining_budget(budget, Usage(estimated_usd=spent)) is None
++
++
++@pytest.mark.parametrize("output_tokens", [700, 5000])
++def test_no_tokens_left_means_no_budget(output_tokens: int) -> None:
++    budget = BudgetConfig(max_usd=None, max_total_tokens=1000)
++    used = Usage(input_tokens=300, output_tokens=output_tokens)
++
++    assert _remaining_budget(budget, used) is None
++
++
++def test_unknown_cost_leaves_the_dollar_limit_unchanged() -> None:
++    budget = BudgetConfig(max_usd=1.0, max_total_tokens=None)
++
++    remaining = _remaining_budget(budget, Usage(input_tokens=10, estimated_usd=None))
++
++    assert remaining is not None
++    assert remaining.max_usd == 1.0
++    assert remaining.max_total_tokens is None

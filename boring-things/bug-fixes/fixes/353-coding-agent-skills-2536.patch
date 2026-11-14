@@ -1,0 +1,26 @@
+diff --git a/.claude/skills/audit-repository/scripts/audit_repository.py b/.claude/skills/audit-repository/scripts/audit_repository.py
+index bd40a88..0788852 100644
+--- a/.claude/skills/audit-repository/scripts/audit_repository.py
++++ b/.claude/skills/audit-repository/scripts/audit_repository.py
+@@ -1664,7 +1664,7 @@ def main(
+             else:
+                 lines = duplicates(gh, options.queries)
+     except AuditError as exc:
+-        print(f"FAILED {exc}")
++        print(f"FAILED {flat_text(str(exc))}")
+         return 1
+     print("\n".join(lines))
+     return 0
+diff --git a/.claude/skills/implement-change/scripts/pull_request.py b/.claude/skills/implement-change/scripts/pull_request.py
+index 5bd47c1..a5a21c3 100644
+--- a/.claude/skills/implement-change/scripts/pull_request.py
++++ b/.claude/skills/implement-change/scripts/pull_request.py
+@@ -398,7 +398,7 @@ def main(
+     try:
+         return run(options, git or GitClient(), github)
+     except PullRequestError as exc:
+-        print(f"FAILED {exc}")
++        print(f"FAILED {flat_text(str(exc))}")
+         return 1
+ 
+ 

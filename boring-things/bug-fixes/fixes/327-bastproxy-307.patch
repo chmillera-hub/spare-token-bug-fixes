@@ -1,0 +1,76 @@
+diff --git a/src/bastproxy/plugins/core/clients/plugin/_clients.py b/src/bastproxy/plugins/core/clients/plugin/_clients.py
+index b300601..3d4662e 100644
+--- a/src/bastproxy/plugins/core/clients/plugin/_clients.py
++++ b/src/bastproxy/plugins/core/clients/plugin/_clients.py
+@@ -297,7 +297,7 @@ class ClientPlugin(BasePlugin):
+                 "state": "Active",
+                 "address": client.addr,
+                 "port": client.port,
+-                "term_type": "Term Type",
++                "term_type": client.writer.get_extra_info("TERM") or "-",
+                 "connected": client.connected_length,
+                 "view_only": str(client.view_only),
+             }
+diff --git a/tests/plugins/core/clients/test_clients_formatted.py b/tests/plugins/core/clients/test_clients_formatted.py
+index 0769296..9338fbb 100644
+--- a/tests/plugins/core/clients/test_clients_formatted.py
++++ b/tests/plugins/core/clients/test_clients_formatted.py
+@@ -16,7 +16,13 @@ def _stub(banned: dict[str, Any] | None = None, permbanips: list[str] | None = N
+     stub = MagicMock()
+     stub.plugin_id = PID
+     stub.clients = {
+-        "uuid1": SimpleNamespace(addr="10.0.0.5", port=4242, connected_length="1m", view_only=False)
++        "uuid1": SimpleNamespace(
++            addr="10.0.0.5",
++            port=4242,
++            connected_length="1m",
++            view_only=False,
++            writer=SimpleNamespace(get_extra_info=lambda _name: None),
++        )
+     }
+     stub.banned = banned or {}
+ 
+diff --git a/tests/plugins/core/clients/test_clients_term_type.py b/tests/plugins/core/clients/test_clients_term_type.py
+new file mode 100644
+index 0000000..4ed3ef5
+--- /dev/null
++++ b/tests/plugins/core/clients/test_clients_term_type.py
+@@ -0,0 +1,38 @@
++"""Tests for the Term Type column of the Clients table (#307)."""
++
++from types import SimpleNamespace
++
++from bastproxy.plugins.core.clients.plugin._clients import ClientPlugin
++from tests.plugins.core.clients.test_clients_formatted import _stub
++
++
++def _client(term: str | None) -> SimpleNamespace:
++    return SimpleNamespace(
++        addr="::1",
++        port=49276,
++        connected_length="18s",
++        view_only=False,
++        writer=SimpleNamespace(get_extra_info=lambda name: term if name == "TERM" else None),
++    )
++
++
++def _client_row(term: str | None) -> str:
++    stub = _stub()
++    stub.clients = {"uuid1": _client(term)}
++    rows = [line for line in ClientPlugin._api_client_list_formatted(stub) if "49276" in line]
++    assert len(rows) == 1
++    return rows[0]
++
++
++def test_reported_terminal_type_is_shown() -> None:
++    row = _client_row("xterm")
++
++    assert "xterm" in row
++    assert "Term Type" not in row
++
++
++def test_missing_terminal_type_is_a_dash() -> None:
++    row = _client_row(None)
++
++    assert "Term Type" not in row
++    assert "-" in row

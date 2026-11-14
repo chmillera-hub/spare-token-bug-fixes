@@ -1,0 +1,34 @@
+diff --git a/src/security_checker/context/budget.py b/src/security_checker/context/budget.py
+index 9065511..f0d5b1b 100644
+--- a/src/security_checker/context/budget.py
++++ b/src/security_checker/context/budget.py
+@@ -17,7 +17,7 @@ PROMPT_OVERHEAD_TOKENS = 1500
+ @lru_cache(maxsize=1)
+ def _encode_fn() -> Callable[[str], list[int]] | None:
+     """tiktoken があればその encode を返す. なければ None (概算にフォールバック)."""
+-    try:  # tiktoken は任意依存 (extras)
++    try:  # tiktoken は任意依存 (extras) なので、使うときに遅延 import する
+         import tiktoken  # type: ignore[import-not-found]
+     except ImportError:
+         return None
+diff --git a/src/security_checker/providers/process/runner.py b/src/security_checker/providers/process/runner.py
+index 49e2670..da32e6f 100644
+--- a/src/security_checker/providers/process/runner.py
++++ b/src/security_checker/providers/process/runner.py
+@@ -28,6 +28,7 @@ from security_checker.providers.base import (
+     HealthStatus,
+     StructuredMode,
+ )
++from security_checker.providers.detect import command_version
+ from security_checker.providers.errors import (
+     ProviderError,
+     ProviderResponseError,
+@@ -109,8 +110,6 @@ class ProcessProvider:
+ 
+     async def health_check(self) -> HealthStatus:
+         """到達性の確認. 起動対象を実際には走らせず、存在とバージョンだけを見る."""
+-        from security_checker.providers.detect import command_version
+-
+         if not self.command:
+             return HealthStatus(ok=False, detail="command が空です")
+         found = command_version(self.command[0])

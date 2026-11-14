@@ -1,0 +1,62 @@
+diff --git a/src/security_checker/config/loader.py b/src/security_checker/config/loader.py
+index d1fecb5..15de53a 100644
+--- a/src/security_checker/config/loader.py
++++ b/src/security_checker/config/loader.py
+@@ -219,7 +219,7 @@ def load_config(
+ 
+     if preset is not None:
+         preset_path = PRESET_DIR / f"{preset}.yml"
+-        if not preset_path.is_file():
++        if preset not in available_presets() or not preset_path.is_file():
+             raise ConfigError(
+                 f"preset '{preset}' は存在しません。利用可能: {', '.join(available_presets())}"
+             )
+diff --git a/tests/unit/test_preset_name_outside_presets_dir.py b/tests/unit/test_preset_name_outside_presets_dir.py
+new file mode 100644
+index 0000000..e23bde5
+--- /dev/null
++++ b/tests/unit/test_preset_name_outside_presets_dir.py
+@@ -0,0 +1,43 @@
++"""--preset: presets ディレクトリの外の YAML を名前で指せないこと (#211)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker.cli import app
++from security_checker.config import loader
++
++runner = CliRunner()
++
++
++def _presets(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
++    presets = tmp_path / "presets"
++    presets.mkdir()
++    (presets / "only.yml").write_text("version: 1\n", encoding="utf-8")
++    (tmp_path / "outside.yml").write_text("version: 1\n", encoding="utf-8")
++    monkeypatch.setattr(loader, "PRESET_DIR", presets)
++    target = tmp_path / "target"
++    target.mkdir()
++    return target
++
++
++def test_preset_with_parent_directory_is_rejected(
++    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    target = _presets(tmp_path, monkeypatch)
++
++    result = runner.invoke(app, ["config", "show", str(target), "--preset", "../outside"])
++
++    assert result.exit_code == 2
++
++
++def test_listed_preset_is_still_accepted(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
++    """対になるケース."""
++    target = _presets(tmp_path, monkeypatch)
++
++    result = runner.invoke(app, ["config", "show", str(target), "--preset", "only"])
++
++    assert result.exit_code == 0

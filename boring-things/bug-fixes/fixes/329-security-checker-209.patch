@@ -1,0 +1,41 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..d7436c2 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -550,7 +550,8 @@ def init(
+     root = path.expanduser().resolve()
+     if not root.is_dir():
+         _fail(f"ディレクトリが見つかりません: {path}", ExitCode.CONFIG_ERROR)
+-    console = Console()
++    # --stdout では YAML だけを標準出力に出し、検出結果の一覧などは標準エラーに回す (#209)
++    console = Console(stderr=True) if stdout else Console()
+ 
+     usable = _print_detections(console, detect_all())
+     blocks: list[dict[str, Any]] = []
+diff --git a/tests/unit/test_init_stdout_only_yaml.py b/tests/unit/test_init_stdout_only_yaml.py
+new file mode 100644
+index 0000000..9b7b547
+--- /dev/null
++++ b/tests/unit/test_init_stdout_only_yaml.py
+@@ -0,0 +1,21 @@
++"""init --stdout: 標準出力には YAML だけを出し、検出結果の一覧は標準エラーに回すこと (#209)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++import yaml
++from typer.testing import CliRunner
++
++from security_checker.cli import app
++
++runner = CliRunner()
++
++
++def test_stdout_holds_only_the_generated_yaml(tmp_path: Path) -> None:
++    result = runner.invoke(app, ["init", str(tmp_path), "--command", "mycmd --x", "--stdout"])
++
++    assert result.exit_code == 0
++    assert "環境を検出しています" not in result.stdout
++    assert "環境を検出しています" in result.stderr
++    assert isinstance(yaml.safe_load(result.stdout), dict)

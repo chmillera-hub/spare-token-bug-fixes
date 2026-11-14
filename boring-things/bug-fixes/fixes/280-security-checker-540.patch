@@ -1,0 +1,32 @@
+diff --git a/tests/unit/test_gemini_generate_explain_schema_error.py b/tests/unit/test_gemini_generate_explain_schema_error.py
+new file mode 100644
+index 0000000..2873475
+--- /dev/null
++++ b/tests/unit/test_gemini_generate_explain_schema_error.py
+@@ -0,0 +1,26 @@
++"""gemini_generate の explain_error: スキーマ拒否の 400 に回避策を添えること."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.providers.http.dialects.gemini_generate import GeminiGenerateDialect
++
++
++@pytest.mark.parametrize(
++    "body",
++    [
++        "Invalid JSON payload received. Unknown name \"response_schema\"",
++        "generation_config.responseSchema: unsupported keyword",
++    ],
++)
++def test_schema_rejection_suggests_json_mode(body: str) -> None:
++    message = GeminiGenerateDialect().explain_error(400, body)
++
++    assert message is not None
++    assert "json_mode" in message
++
++
++def test_schema_words_with_another_status_get_no_explanation() -> None:
++    """対になるケース. 400 以外では説明を付けない."""
++    assert GeminiGenerateDialect().explain_error(500, "response_schema") is None

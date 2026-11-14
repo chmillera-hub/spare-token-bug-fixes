@@ -1,0 +1,25 @@
+diff --git a/tests/unit/test_eval_markdown_warnings_section.py b/tests/unit/test_eval_markdown_warnings_section.py
+new file mode 100644
+index 0000000..664a2af
+--- /dev/null
++++ b/tests/unit/test_eval_markdown_warnings_section.py
+@@ -0,0 +1,19 @@
++"""eval の比較表 (Markdown): 警告があれば「警告」の節に 1 行ずつ並べること."""
++
++from __future__ import annotations
++
++from security_checker.eval.runner import EvalResult, to_markdown
++
++
++def test_warnings_are_listed_in_their_own_section() -> None:
++    result = EvalResult(dataset="d", cases=0, warnings=["予算の上限に達しました", "w2"])
++
++    lines = to_markdown(result).split("\n")
++
++    start = lines.index("## 警告")
++    assert lines[start : start + 5] == ["## 警告", "", "- 予算の上限に達しました", "- w2", ""]
++
++
++def test_no_warning_section_without_warnings() -> None:
++    """対になるケース."""
++    assert "## 警告" not in to_markdown(EvalResult(dataset="d", cases=0))

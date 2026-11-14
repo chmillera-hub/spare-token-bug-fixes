@@ -1,0 +1,91 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..bb41fcf 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -497,6 +497,12 @@ def _reviewer_block(name: str, command: list[str]) -> dict[str, Any]:
+     }
+ 
+ 
++def _print_config_warnings(loaded: LoadedConfig) -> None:
++    """受け付けたが効かない設定の警告を標準エラーに出す (P9, #214)."""
++    for message in loaded.warnings:
++        err_console.print(f"[yellow]警告[/yellow]: {message}", highlight=False)
++
++
+ def _print_detections(console: Console, detections: list[Detection]) -> list[Detection]:
+     """検出結果を表示する. 推奨マークは付けず、検出順のまま並べる (§9.8)."""
+     console.print("環境を検出しています…\n")
+@@ -697,6 +703,7 @@ def baseline_update(
+     if not root.is_dir():
+         _fail(f"検査対象が見つかりません: {path}", ExitCode.CONFIG_ERROR)
+     loaded = _load(root, config_path, None, {})
++    _print_config_warnings(loaded)
+     config_dir = loaded.config_path.parent if loaded.config_path is not None else root
+     configured = loaded.config.policy.baseline
+     destination = output or (config_dir / (configured or DEFAULT_BASELINE))
+@@ -848,6 +855,7 @@ def providers_check(
+     """
+     root = path.expanduser().resolve()
+     loaded = _load(root, config_path, None, {})
++    _print_config_warnings(loaded)
+     reviewers = [r for r in loaded.config.reviewers if name is None or r.name == name]
+     if not reviewers:
+         _fail(
+diff --git a/tests/unit/test_cli_config_warnings_providers_check_baseline_update.py b/tests/unit/test_cli_config_warnings_providers_check_baseline_update.py
+new file mode 100644
+index 0000000..c697064
+--- /dev/null
++++ b/tests/unit/test_cli_config_warnings_providers_check_baseline_update.py
+@@ -0,0 +1,52 @@
++"""providers check / baseline update: 受け付けたが効かない設定の警告を出すこと (#214)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from types import SimpleNamespace
++from typing import Any
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker import cli
++
++runner = CliRunner()
++
++CONFIG = (
++    "version: 1\n"
++    "scanners:\n  semgrep: { enabled: false }\n  gitleaks: { enabled: false }\n"
++    "reviewers:\n"
++    "  - name: r1\n    transport: http\n    dialect: openai_chat\n"
++    "    base_url: http://127.0.0.1:9/v1\n    model: m\n"
++    "    command: [\"x\"]\n"
++)
++
++
++def test_providers_check_prints_the_config_warnings(
++    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    (tmp_path / "security-checker.yml").write_text(CONFIG, encoding="utf-8")
++
++    async def fake_check(reviewer: Any, *, probe: bool) -> Any:
++        return SimpleNamespace(
++            ok=True, name=reviewer.name, transport="http", steps=[], suggestions=[]
++        )
++
++    monkeypatch.setattr(cli, "check_reviewer", fake_check)
++
++    result = runner.invoke(
++        cli.app, ["providers", "check", "--path", str(tmp_path), "--no-probe"]
++    )
++
++    assert "警告" in result.stderr
++    assert "command" in result.stderr
++
++
++def test_baseline_update_prints_the_config_warnings(tmp_path: Path) -> None:
++    (tmp_path / "security-checker.yml").write_text(CONFIG, encoding="utf-8")
++
++    result = runner.invoke(cli.app, ["baseline", "update", str(tmp_path)])
++
++    assert "警告" in result.stderr
++    assert "command" in result.stderr

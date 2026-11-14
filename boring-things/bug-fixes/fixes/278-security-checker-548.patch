@@ -1,0 +1,42 @@
+diff --git a/tests/unit/test_http_transport_non_object_json_body.py b/tests/unit/test_http_transport_non_object_json_body.py
+new file mode 100644
+index 0000000..076066f
+--- /dev/null
++++ b/tests/unit/test_http_transport_non_object_json_body.py
+@@ -0,0 +1,36 @@
++"""HttpProvider: 応答の JSON がオブジェクトでなければ ProviderResponseError になること."""
++
++from __future__ import annotations
++
++import httpx
++import pytest
++import respx
++
++from security_checker.providers.base import Capabilities, CompletionRequest
++from security_checker.providers.errors import ProviderResponseError
++from security_checker.providers.http.dialects.openai_chat import OpenAIChatDialect
++from security_checker.providers.http.transport import HttpProvider
++
++BASE_URL = "http://endpoint.test/v1"
++URL = f"{BASE_URL}/chat/completions"
++
++
++@respx.mock
++@pytest.mark.parametrize("body", [["a", "b"], "text", 3])
++async def test_top_level_json_that_is_not_an_object_is_a_response_error(body: object) -> None:
++    respx.post(URL).mock(return_value=httpx.Response(200, json=body))
++    client = httpx.AsyncClient()
++    provider = HttpProvider(
++        name="r1",
++        dialect=OpenAIChatDialect(),
++        base_url=BASE_URL,
++        model="m",
++        capabilities=Capabilities(),
++        api_key="secret-key",
++        client=client,
++    )
++
++    with pytest.raises(ProviderResponseError, match="オブジェクトではありません"):
++        await provider.complete(CompletionRequest(system="s", user="u", timeout_s=5.0))
++
++    await client.aclose()

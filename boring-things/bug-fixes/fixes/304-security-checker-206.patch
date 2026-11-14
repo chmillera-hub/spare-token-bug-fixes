@@ -1,0 +1,62 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..bcdfe28 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -17,6 +17,7 @@ from typing import Annotated, Any, NoReturn
+ import typer
+ import yaml
+ from rich.console import Console
++from rich.markup import escape
+ from rich.panel import Panel
+ 
+ from security_checker import __version__
+@@ -73,7 +74,7 @@ err_console = Console(stderr=True)
+ 
+ 
+ def _fail(message: str, code: ExitCode) -> NoReturn:
+-    err_console.print(f"[bold red]エラー:[/bold red] {redact_known_patterns(message)}")
++    err_console.print(f"[bold red]エラー:[/bold red] {escape(redact_known_patterns(message))}")
+     raise typer.Exit(code=int(code))
+ 
+ 
+@@ -982,7 +983,8 @@ def main() -> None:
+     try:
+         app()
+     except SecurityCheckerError as exc:  # pragma: no cover - 最後の砦
+-        err_console.print(f"[bold red]エラー:[/bold red] {redact_known_patterns(str(exc))}")
++        message = escape(redact_known_patterns(str(exc)))
++        err_console.print(f"[bold red]エラー:[/bold red] {message}")
+         sys.exit(int(exc.exit_code))
+ 
+ 
+diff --git a/tests/unit/test_cli_error_message_square_brackets.py b/tests/unit/test_cli_error_message_square_brackets.py
+new file mode 100644
+index 0000000..e8fed2f
+--- /dev/null
++++ b/tests/unit/test_cli_error_message_square_brackets.py
+@@ -0,0 +1,25 @@
++"""_fail: メッセージ中の角括弧を rich のマークアップとして解釈しないこと (#206)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++import pytest
++from typer.testing import CliRunner
++
++from security_checker.cli import app
++from security_checker.errors import ExitCode
++
++runner = CliRunner()
++
++
++@pytest.mark.parametrize("name", ["nope[bold]y", "nope[/x]"])
++def test_path_with_square_brackets_is_shown_as_typed(
++    name: str, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
++) -> None:
++    monkeypatch.chdir(tmp_path)
++
++    result = runner.invoke(app, ["scan", name])
++
++    assert result.exit_code == ExitCode.CONFIG_ERROR
++    assert name in result.stderr

@@ -1,0 +1,1381 @@
+ANONYMIZED COMMENTS WITH THE BEHAVIOR LABELS THAT WERE COUNTED
+
+What this file is: the same 171 anonymized comments as the file ceo-comments.txt in the same order. Under each comment sit the behavior labels that an AI chatbot (Claude) assigned to that comment. The counts on the findings page and on the bar graph page are the totals of the labels in this file.
+
+How to check a count: search this file for a label such as "Bet that the company's stock falls" and count the comments that carry the label and read each comment to decide whether the label fits.
+
+How the labels were made: the chatbot read each anonymized comment and assigned a label only when the wording in this file asks somebody to do something. No other person has checked the labels.
+
+==============================
+
+Comment 1
+Mistakes? He had a wonderful time and simply never expected to get caught.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 2
+Small comfort once your marriage and your family are wrecked too.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 3
+The analogy is perfect.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 4
+So many bot-like and planted posts of this sort exist that it's absurd. Ha. The man bedded a spy plus TWO employees beneath him and what follows is a wave of "I feel SO awful for the poor guy - it's a conspiracy!" I have honestly seen that maybe fifty-plus times today.
+
+Behaviors counted:
+  * Reject the planned-takedown story
+
+--------------------
+
+Comment 5
+Ha. The owner of that outlet is a billionaire. A terminal subscription runs tens of thousands a year or thereabouts.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 6
+Nobody with multiple billions is ever outside that circle.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 7
+Did the leather jacket stay on though?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 8
+Thank you... now BOO this man!
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 9
+A fall from grace on the scale of that famous golfer - and it keeps on going.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 10
+If that computer holds a graphics card please think about donating it to me.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 11
+Good luck to him. With luck he can rebuild a life on the paltry billions he still has.
+
+Behaviors counted:
+  * The executive should enjoy his money and free time
+
+--------------------
+
+Comment 12
+The guy was a relaxed billionaire who came across as humble for one and who worked his way up the hard way. Keeping your trousers zipped was the only requirement man...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 13
+Hmm - the plot just got far more interesting...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 14
+Past a certain point I believe it turns into a matter of power and influence.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 15
+Hmm no. Making the software platform more portable doesn't wipe out the company's edge in hardware or networking or its software ecosystem. And assuming the company cannot compete with its founder gone overlooks the huge engineering workforce that built the place.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 16
+So where does he go now?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 17
+Zero ports. The first wireless graphics card on Earth.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 18
+An unbelievable story. Called a pioneer of AI - grew a small company into a vital giant - and then got betrayed by his own urges. He possessed everything and today his legacy and his family's trust are stained.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 19
+Looking forward to the next episode of that long-interview podcast.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 20
+Is this some sort of humiliation fantasy article?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 21
+Breaking news: I stopped caring years ago.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 22
+That is precisely what the poster was doing - for all of us - as a deliberate favor.
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 23
+Plenty of doormats in the administration.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 24
+He was one more cog in the machine and simple to replace.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 25
+Yes - and the outlet is a tool for shaping the minds of the employee class.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 26
+What number of women does a man of sixty require? He was probably swallowing performance pills like sweets.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 27
+For men like him work is the purpose of living. Even with a billion or a hundred billion in the bank he would never think "Wow - so much money - time to relax and enjoy things" the way ordinary folks like me would.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 28
+If retiring were the goal he could have done so decades ago. Working and inventing is a NEED for his sort. That drive is what made them successful to begin with.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 29
+Excellent take - and from a username like that of all things.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 30
+Sir - you are standing in a fast food restaurant...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 31
+The other party could easily go after him in court once it wins power again and its members are itching to play the foreign-menace card. My own view is that he is done for - though fleeing overseas is always open to him.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 32
+You believe all of those people steered him into bed with that woman?
+
+Behaviors counted:
+  * Reject the planned-takedown story
+
+--------------------
+
+Comment 33
+And you can get it in five different colors!
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 34
+Why does a blog post carry time stamps?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 35
+Ahh - THIS man!
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 36
+There is a word for a mind like that - people call it being on the spectrum.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 37
+A TV stock pundit just praised the interim boss as exactly who the company needs. Puts my friend. Puts.
+
+Behaviors counted:
+  * Bet that the company's stock falls
+
+--------------------
+
+Comment 38
+He began calling himself a piece of garbage. The sheer ego of men like that once somebody does the same to them though.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 39
+Not nearly as fun now...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 40
+Truthfully the founder of that giant online store made the smartest choice of any billionaire.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 41
+Yes - that's the thing I said.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 42
+Three organized takedowns. Maybe more. Maybe an entire orchestra!
+
+Behaviors counted:
+  * Reject the planned-takedown story
+
+--------------------
+
+Comment 43
+Money isn't the point anyway. I promise you he would hand all of it back today and start from zero if he could stay on as chief executive for a modest salary. People draw meaning and purpose from rising each morning and facing challenges and getting things done and beating obstacles. Sure - a mansion or a beach is available to him all day - and so what? That turns dull fast - above all for somebody very smart and very competitive.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 44
+I bet the man ate plenty of messy steaks at that fancy restaurant.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 45
+Put him behind bars.
+
+Behaviors counted:
+  * Punish the executive
+
+--------------------
+
+Comment 46
+You are fairly dim yourself if he seems dim to you.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 47
+Why does he have to testify before lawmakers? The latest I heard is that the rival nation's capital confirmed the woman was no spy. Source: a major news wire. Edit: source added.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 48
+A certain AI lab is behind it. The newspaper reporter has ties to that lab going back years.
+
+Behaviors counted:
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 49
+I don't get why cheating on his wife matters though. Why should that carry consequences on the job?
+
+Behaviors counted:
+  * Go easier on the executive
+
+--------------------
+
+Comment 50
+Those were at the office though.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 51
+Let's get real. Plenty of quiet flings probably happened as well.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 52
+We the people still love you! Even the finest of men fall for a honey trap.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 53
+He will most likely hang on to his phone and I'd wager every executive he worked with has his number. The company will be fine.
+
+Behaviors counted:
+  * Stay calm because the company will be fine
+
+--------------------
+
+Comment 54
+Your username has another man's name inside it.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 55
+You skipped the long drawn-out "good morning".
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 56
+Sure - and yet he just lost a large share of his power and got ejected from a very exclusive circle and now other people's decisions will set the value of his shares.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 57
+Yes - one hundred percent.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 58
+Poor choices on his part. Plenty of quiet flings were available to him. He picked people who reported to him plus a possible foreign spy. Unbelievable.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 59
+It hurts to watch my all-time favorite leave in such a sorry way.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 60
+Knowingly getting around sanctions that large can leave a man thoroughly cooked.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 61
+Chatbot - give me the short version and keep it tight and get nothing wrong.
+
+Behaviors counted:
+  * Somebody give a shorter version
+
+--------------------
+
+Comment 62
+I fear somebody at this table believes a person is unable to change.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 63
+Which part is nuts? None of it strikes me as nuts.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 64
+Man - reading all of this is not for me. Just tell me what comes next or something. Damn.
+
+Behaviors counted:
+  * Somebody give a shorter version
+
+--------------------
+
+Comment 65
+He sells chips and a replacement will arrive. Besides - calling yourself garbage is easy once you know you are garbage. I speak from experience.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 66
+Damn - I sincerely feel sorry for the man. He truly began at the bottom like the rest of us. He climbed until he became a huge star of the kind people will discuss for years. And in a single stroke everything collapses. Sure he had it coming - yet hearing him so sad is strange. I hope he recovers and maybe launches a podcast.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 67
+What difference does it make that the man had lovers on the side? His wife is no longer young - allow him a little fun.
+
+Behaviors counted:
+  * Go easier on the executive
+
+--------------------
+
+Comment 68
+People like him get no joy from that kind of life. They are workaholics whose sense of worth is tied to what they produce.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 69
+A particular foreign government did this pal. The next chief executive will be a firm ally of that government.
+
+Behaviors counted:
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 70
+What sort of opinion is that supposed to be? You believe the company's executives will ring their former boss for guidance on a regular basis and that such calls will shape the company?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 71
+My read is that this puts more pressure on the business models of the smaller cloud firms as the company turns more bureaucratic and pulls back its guarantees. I still expect the stock to sit pinned near its current level until earnings so I may load up on puts when the market opens tomorrow. The finance chief is truly awful and filling the founder's shoes is a tall order for her. This looks like one more excuse that hunts for a scapegoat when the real job is stopping chip smuggling. I remain baffled that the board stood by him for years and turned on him only now.
+
+Behaviors counted:
+  * Bet that the company's stock falls
+  * Go easier on the executive
+
+--------------------
+
+Comment 72
+Tell me you have never juggled three or more relationships at once without telling me you have never juggled three or more relationships at once.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 73
+The port sits underneath the slot connector though - so the card has to come out before anything gets plugged in.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 74
+Your generosity is appreciated.
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 75
+Ha. I guarantee this guy launches a new venture before the third quarter. A handy side of divorce is being able to unload blocks of stock off schedule - which makes competing with your old family less of a financial self-injury. The company's software moat is drying up if a certain AI lab is to be believed about its work with a rival chip maker. The company has faced no competition since its gaming days. Are those people ready for a fight or have they gone soft with no head? I am betting on the man himself.
+
+Behaviors counted:
+  * Expect the executive to start or join a rival
+
+--------------------
+
+Comment 76
+I can't help feeling for the man. Still - to borrow from a famous investor - a reputation takes twenty years to build and five minutes to wreck and a person who remembers that will act differently.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 77
+Just fifteen percent? Pardons from that office go for pocket change.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 78
+Funny thing - his removal helps that rival nation a great deal.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 79
+Besides - nobody like him would have become a billionaire to begin with if relaxing were all he wanted.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 80
+Yep - puts tomorrow or else Monday. That pundit told viewers to buy the stock last Friday and two days afterward the ugly news dropped.
+
+Behaviors counted:
+  * Bet that the company's stock falls
+
+--------------------
+
+Comment 81
+He could have walked away years ago. You honestly believe the money part is what such men live for?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 82
+The clear head that arrives afterward is hitting him hard.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 83
+Hahaha no way he really said that - this is nuts.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 84
+You are likely correct - yet governments in the West are so eager to demonize that rival nation that anything is possible.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 85
+I worry that he might try to hurt himself.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 86
+He co-founded the company as one of three people so that claim doesn't really fit this case. The claim makes sense for somebody who becomes chief executive of an already established company though.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 87
+The old saying goes: spot three ants indoors and the true number of ants indoors is likely far above three.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 88
+Three separate kinds of thin.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 89
+That answer amounts to "a second wrong cancels the first". I see few people holding up the president as a moral mascot.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 90
+Mmmmmmm.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 91
+The finance chief surely knew about the dodging of export controls as well. No chance he was the single person aware of it.
+
+Behaviors counted:
+  * Look at who else knew
+
+--------------------
+
+Comment 92
+That golfer won the biggest tournament again afterward. People still call him the greatest ever and he remains the sport's top draw.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 93
+Picture a world where shady and rotten bosses really were held to this standard. Simply: be rotten and you're out.
+
+Behaviors counted:
+  * Hold every powerful person to the same standard
+
+--------------------
+
+Comment 94
+At least three interests come to my mind.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 95
+Poor man.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 96
+A different newspaper broke the news of the affairs.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 97
+Tragic. Dreadful mistakes got made.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 98
+Phone Company Chips.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 99
+Why post articles from a serious finance outlet in here? Nobody in this place has the brainpower or the vocabulary for reading such things. (Thank you for doing it.)
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 100
+Relaxing is not what those people want.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 101
+Whoa. You truly expect me to read all of that...
+
+Behaviors counted:
+  * Somebody give a shorter version
+
+--------------------
+
+Comment 102
+Bullseye - my pick was going to be that famous cyclist.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 103
+I recall an interview in which he said his mind would never switch off from work. A movie or cooking dinner or anything else couldn't hold him because some matter at the company was always running in his head. So perhaps being barred from working at the firm he raised from scratch is the true punishment as he sees it.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 104
+Thanks for putting this up.
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 105
+With his kind of money I would be shrugging and saying I couldn't care less as well. Time for retirement and for romancing every middle-aged housewife he likes.
+
+Behaviors counted:
+  * The executive should enjoy his money and free time
+
+--------------------
+
+Comment 106
+A loud sports talk host is the new chief executive.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 107
+One hundred percent. His claim is likely the weakest one to plausible deniability though.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 108
+The man controls ninety percent of the world's chips and couldn't control one zipper.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 109
+The man is so rich that no waiter alive could refuse him a steak with a glass of water.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 110
+The stock is headed to one hundred dollars.
+
+Behaviors counted:
+  * Bet that the company's stock falls
+
+--------------------
+
+Comment 111
+A mistress has to be held the correct way.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 112
+And now the company gets handed over to agents of yet another foreign government.
+
+Behaviors counted:
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 113
+Meanwhile the president hears the news and asks: "How fast can you come work in my office?"
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 114
+Or perhaps that was career-site puffery. Clearly he had spare time and other interests.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 115
+Doormat energy.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 116
+Nobody becomes a chief executive without being a rotten person.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 117
+Kind of sad...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 118
+Calls.
+
+Behaviors counted:
+  * Bet that the company's stock rises
+
+--------------------
+
+Comment 119
+Which one?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 120
+So next the boss of a famous phone maker takes over and walks on stage to announce a new graphics card with a "Pro Max" name - the mightiest one the company ever built.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 121
+I believe the people nearest and dearest to him ought to stand at his side through this hard season. As a part owner of the company through my shares I forgive him. With luck the company will still gain from his technical expertise.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+  * Go easier on the executive
+
+--------------------
+
+Comment 122
+This forum really did get its hands on a pricey finance terminal!
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 123
+Yeah - the company in its familiar form is dead.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 124
+Why spend my own cash when rich people like you pay for it and post it here?
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 125
+Who cares that he was bedding foreign spies? Or people who reported straight to him?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 126
+That founder is still involved at the online store and at his rocket company and he launched a new AI company too.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 127
+Signed - that disgraced video game streamer.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 128
+The markets are about to rip upward and he will be lounging on a yacht off some sunny coast beside yet another glamorous woman.
+
+Behaviors counted:
+  * Bet that the company's stock rises
+
+--------------------
+
+Comment 129
+His largest error was getting involved with the spy. The company would probably have thrown a heap of cash at the subordinates to keep every one of them quiet.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 130
+Wow - really? I had begun to believe the jokes about him needing a fast food job were true...
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 131
+Ha - the board should simply have bolted some tight training wheels onto him and packed him off for twelve months of apologies and then kept the cheerful golden retriever of a man going. The board won't be bored for long. Its members will owe investors an explanation after they drive this train off a cliff. Should be entertaining at the very least.
+
+Behaviors counted:
+  * Go easier on the executive
+
+--------------------
+
+Comment 132
+Because either the president's office leaked the information or the board did so to get in front of coming investigations. You believe the release one week after a historic election was a coincidence?
+
+Behaviors counted:
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 133
+No - the claim is that the timing of every allegation is the attack. All the affair material was probably gathered over a long stretch so he could be brought down in a single sweep.
+
+Behaviors counted:
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 134
+Not a thing will happen to him. This isn't like that country where the head of a giant electronics firm went to jail.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 135
+Why such a flood of words? Exactly the thing I hate about AI. Enough of the wordiness.
+
+Behaviors counted:
+  * Somebody give a shorter version
+
+--------------------
+
+Comment 136
+No - I read that he picked up a part-time holiday job at a hardware store.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 137
+My heart truly goes out to him. An organized takedown is what happened and I am very curious who stands behind it... My suspicion falls on the faction in the president's office that is hostile to that rival nation and on the AI executives who oppose open source.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+  * Look for who arranged the scandal
+
+--------------------
+
+Comment 138
+Probably because he never set aside time for a steady fling. Day-to-day operations of the business swallowed him. He was also a hound. So he went for whoever stood nearest. Look at who the women were: a business customer and a direct report - not some stranger he would never have cause to talk with.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 139
+Why would anybody wish to be shaped by a publication for poor people? You are giving yourself away.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 140
+Yeah the hate confuses me. You obviously copied and pasted it as a public service. Thank you.
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 141
+Here is the opening of the article with the paywall removed.
+
+Behaviors counted:
+  * Thank the poster for sharing the paid article
+
+--------------------
+
+Comment 142
+Look - the man lost his company and his job and his family and his wife and his good name. You imagine he still likes himself? Be serious - the man feels awful. He made errors - bad ones - and those errors hurt him and people he cared about. He is allowed to be sad as well. I feel sorry for him too.
+
+Behaviors counted:
+  * Feel compassion for the executive or forgive him or stand beside him
+
+--------------------
+
+Comment 143
+Well if that government says so then it has to be true. No government would ever deny that one of its spies was its spy. (Sarcasm.)
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 144
+For people like him though: work is life.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 145
+I swear - one more report about yet another woman he ran around with and my computer goes off the balcony.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 146
+Calling it before it happens: a presidential pardon (fifteen percent odds).
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 147
+He still never needs to do a day of work for the rest of his life.
+
+Behaviors counted:
+  * The executive should enjoy his money and free time
+
+--------------------
+
+Comment 148
+Bring him back! Who on earth cares so long as everybody consented?
+
+Behaviors counted:
+  * Go easier on the executive
+
+--------------------
+
+Comment 149
+Do you believe the people who look away from the scandals at the top of government overlap with the crowd canceling this man??
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 150
+You left out the word "stunning".
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 151
+This. He can enjoy life now however he pleases. Wild parties ahoy!
+
+Behaviors counted:
+  * The executive should enjoy his money and free time
+
+--------------------
+
+Comment 152
+I'm not excusing his behavior - but what exactly is the standard in this country? People at the very top of government and on the highest court have done far worse and the list keeps going. Why is the one man whose relations were consensual and with grown women the one paying a price? In the country as it now stands he should get a light scolding and keep running the company.
+
+Behaviors counted:
+  * Go easier on the executive
+  * Hold every powerful person to the same standard
+
+--------------------
+
+Comment 153
+And the price tag is seventeen thousand dollars.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 154
+A smaller wrong than a notorious one is still a wrong and still earns its penalty. This man tanked his company and broke the law by selling chips illegally to a foreign shell company. Obviously firing him was right.
+
+Behaviors counted:
+  * Punish the executive
+
+--------------------
+
+Comment 155
+The first letter of the company name stands for hanky-panky.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 156
+The piece isn't even long. Slow down a little and undo some of the damage to your attention span.
+
+Behaviors counted:
+  * Read the whole article
+
+--------------------
+
+Comment 157
+One of us!
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 158
+HAHAHAHAHA oh my - I shrieked.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 159
+Hold on - so the affairs with the pair of staff members were planned attacks as well? I assumed only the spy one was.
+
+Behaviors counted:
+  * Reject the planned-takedown story
+
+--------------------
+
+Comment 160
+And our belief is that you will love it.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 161
+I can't stand that pundit. Any hope of a rally just died.
+
+Behaviors counted:
+  * Bet that the company's stock falls
+
+--------------------
+
+Comment 162
+Why are the dimmest people the most successful ones?
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 163
+Dumb - truly dumb - mistakes man.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 164
+Sure - and nobody loses a job over those.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 165
+That also explains why every one of his "other interests" was connected to the job.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 166
+Just a single port. So brave. Pure magic.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 167
+My reading was that he could hire those executives away if he ends up working somewhere else.
+
+Behaviors counted:
+  * Expect the executive to start or join a rival
+
+--------------------
+
+Comment 168
+Spies slipped him a pill and bedding those women was his only way to stay alive.
+
+Behaviors counted:
+  * Reject the planned-takedown story
+
+--------------------
+
+Comment 169
+The company name spelled so that it reads as a word for cheating.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 170
+Courage.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------
+
+Comment 171
+It is close to the last objective news source left. The one subject where I find it totally biased is a certain electric car maker. Even the big business newspaper reads almost like a tabloid these days.
+
+Behaviors counted:
+  * none (joke or commentary or question)
+
+--------------------

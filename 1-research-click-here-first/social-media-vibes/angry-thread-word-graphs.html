@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Most common words in a thread about being angry with God</title>
+<style>
+:root{--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--ink3:#898781;--line:#d9d8d2;--card:#f3f2ee}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#898781;--line:#383835;--card:#262624}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+main{max-width:640px;margin:0 auto;padding:20px 14px 60px}
+h1{font-size:22px;font-weight:600;margin:0 0 8px}
+p{margin:0 0 12px;font-size:16px;color:var(--ink2)}
+a{color:inherit}
+.links a{display:block;padding:12px 14px;margin:0 0 8px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:16px;background:var(--card)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--ink2);margin:18px 0 8px}
+.sq{width:11px;height:11px;border-radius:2px;display:inline-block;margin-right:5px}
+.rw{display:block;width:100%;text-align:left;background:transparent;border:0;padding:8px 6px;border-radius:8px;cursor:pointer;min-height:44px;color:inherit;font:inherit}
+.rw.on{background:var(--card);outline:1px solid var(--line)}
+.lb{font-size:15px;line-height:1.35}
+.tr{display:flex;align-items:center;gap:8px;margin-top:5px}
+.br{height:16px;border-radius:0 4px 4px 0;min-width:3px}
+.nm{font-size:15px;font-weight:600}
+.dt{font-size:15px;color:var(--ink2);padding:8px 10px 12px;margin:0 0 8px 6px;border-left:4px solid var(--line)}
+.sm{font-size:13px;color:var(--ink3);margin-bottom:3px}
+h2{font-size:18px;font-weight:600;margin:34px 0 6px}
+</style>
+</head>
+<body>
+<main>
+<h1>Most common words in a thread about being angry with God</h1>
+<p>A person posted a video on a social media site about being angry with God. These graphs count words in the commenters' own wording as collected from the thread. Each bar shows how many comments hold a word or a phrase or an idea. Tap a bar and more detail opens under the bar.</p>
+<div class="links">
+<a href="angry-thread-bar-graph.html">Open the graphs of what each comment did</a>
+</div>
+<h2>Graph 1: ideas that the comments mention</h2>
+<p>Each idea groups several related words. One comment can count on several bars.</p>
+<div id="i"></div>
+<h2>Graph 2: the twenty most common single words</h2>
+<p>Very common small words such as "the" and "you" and "just" are left out because those words appear in nearly every comment.</p>
+<div id="w"></div>
+<h2>Graph 3: common two-word phrases</h2>
+<p>Phrases made of small words alone such as "it is" are left out.</p>
+<div id="p"></div>
+<p style="margin-top:24px;font-size:14px">An AI chatbot (Claude) made the counts with a small program and no other person has rechecked the counts which means every count here is unconfirmed. Some words in the collected text were misread or cut off. The counts cover 528 pieces of comment text which is more than the 458 anonymized comments because the raw text includes fragments that were too broken to anonymize. Quoted scripture inside comments is counted too which raises the counts for words such as "God" and "wisdom".</p>
+</main>
+<script>
+var G={"word": ["#2a78d6", "Single word"], "phrase": ["#7b61c9", "Two-word phrase"], "idea": ["#1baf7a", "Idea group"]};var N=528;
+function draw(id,D){
+var box=document.getElementById(id),open=null,mx=0;
+D.sort(function(a,b){return b[1]-a[1]});D.forEach(function(d){if(d[1]>mx)mx=d[1]});
+D.forEach(function(d,i){
+var b=document.createElement('button');b.className='rw';b.setAttribute('aria-expanded','false');
+b.innerHTML='<div class="lb">'+d[0]+'</div><div class="tr"><div class="br" style="width:'+Math.round(d[1]/mx*82)+'%;background:'+G[d[2]][0]+'"></div><span class="nm">'+d[1]+'</span></div>';
+var p=document.createElement('div');p.className='dt';p.style.display='none';p.style.borderLeftColor=G[d[2]][0];
+p.innerHTML='<div class="sm">'+d[1]+' of '+N+' pieces of comment text ('+Math.round(d[1]/N*100)+'%)</div>'+d[3];
+b.onclick=function(){var was=open===i;var r=box.querySelectorAll('.rw'),t=box.querySelectorAll('.dt');for(var j=0;j<r.length;j++){r[j].classList.remove('on');r[j].setAttribute('aria-expanded','false');t[j].style.display='none'}if(!was){b.classList.add('on');b.setAttribute('aria-expanded','true');p.style.display='block';open=i}else{open=null}};
+box.appendChild(b);box.appendChild(p)});}
+draw('i',[["God or a name for God", 137, "idea", "Words such as God and Jesus and Christ and Lord and Allah and Creator. The count is the number of comments that hold at least one of those words."], ["Understanding or knowledge or wisdom", 122, "idea", "Words such as understand and knowledge and wisdom and intellect. The speaker's line \"knowledge is not sovereignty\" set this theme. The count is the number of comments that hold at least one of those words."], ["Anger", 90, "idea", "Words such as angry and anger and rage and mad. The count is the number of comments that hold at least one of those words."], ["Control or power or authority", 79, "idea", "Words such as control and power and authority and sovereignty. The count is the number of comments that hold at least one of those words."], ["Letting go or acceptance or surrender", 44, "idea", "Words such as accept and surrender and submit and let go and be still. The count is the number of comments that hold at least one of those words."], ["Pain or suffering or sorrow", 50, "idea", "Words such as pain and suffering and sorrow and grief and exhausted. The count is the number of comments that hold at least one of those words."], ["Love", 36, "idea", "The word love in any form such as loved and loving. The count is the number of comments that hold at least one of those words."], ["Peace", 24, "idea", "The word peace in any form such as peaceful. The count is the number of comments that hold at least one of those words."], ["Faith or belief or trust", 47, "idea", "Words such as faith and believe and trust. The count is the number of comments that hold at least one of those words."], ["Ecclesiastes or Solomon", 14, "idea", "A mention of the book of Ecclesiastes or of King Solomon or a line from that book. The count is the number of comments that hold at least one of those words."], ["Free will or choice", 24, "idea", "Words such as free will and choice and choose. The count is the number of comments that hold at least one of those words."], ["Ego or arrogance", 12, "idea", "Words such as ego and arrogance and humility. The count is the number of comments that hold at least one of those words."]]);draw('w',[["\"god\"", 112, "word", "The word \"god\" appears 167 times in total and sits in 112 comments."], ["\"life\"", 72, "word", "The word \"life\" appears 108 times in total and sits in 72 comments."], ["\"angry\"", 52, "word", "The word \"angry\" appears 73 times in total and sits in 52 comments."], ["\"people\"", 40, "word", "The word \"people\" appears 58 times in total and sits in 40 comments."], ["\"understand\"", 38, "word", "The word \"understand\" appears 44 times in total and sits in 38 comments."], ["\"knowledge\"", 36, "word", "The word \"knowledge\" appears 47 times in total and sits in 36 comments."], ["\"understanding\"", 36, "word", "The word \"understanding\" appears 45 times in total and sits in 36 comments."], ["\"control\"", 34, "word", "The word \"control\" appears 40 times in total and sits in 34 comments."], ["\"love\"", 33, "word", "The word \"love\" appears 42 times in total and sits in 33 comments."], ["\"experience\"", 31, "word", "The word \"experience\" appears 35 times in total and sits in 31 comments."], ["\"good\"", 30, "word", "The word \"good\" appears 42 times in total and sits in 30 comments."], ["\"change\"", 30, "word", "The word \"change\" appears 41 times in total and sits in 30 comments."], ["\"time\"", 30, "word", "The word \"time\" appears 37 times in total and sits in 30 comments."], ["\"human\"", 29, "word", "The word \"human\" appears 39 times in total and sits in 29 comments."], ["\"anger\"", 28, "word", "The word \"anger\" appears 31 times in total and sits in 28 comments."], ["\"world\"", 26, "word", "The word \"world\" appears 33 times in total and sits in 26 comments."], ["\"peace\"", 22, "word", "The word \"peace\" appears 27 times in total and sits in 22 comments."], ["\"believe\"", 22, "word", "The word \"believe\" appears 24 times in total and sits in 22 comments."], ["\"wisdom\"", 20, "word", "The word \"wisdom\" appears 28 times in total and sits in 20 comments."], ["\"brother\"", 19, "word", "The word \"brother\" appears 22 times in total and sits in 19 comments."]]);draw('p',[["\"angry at\"", 12, "phrase", "The phrase \"angry at\" appears 15 times in total and sits in 12 comments."], ["\"i'm angry\"", 12, "phrase", "The phrase \"i'm angry\" appears 13 times in total and sits in 12 comments."], ["\"thank you\"", 10, "phrase", "The phrase \"thank you\" appears 11 times in total and sits in 10 comments."], ["\"free will\"", 10, "phrase", "The phrase \"free will\" appears 10 times in total and sits in 10 comments."], ["\"be angry\"", 9, "phrase", "The phrase \"be angry\" appears 13 times in total and sits in 9 comments."], ["\"your life\"", 9, "phrase", "The phrase \"your life\" appears 9 times in total and sits in 9 comments."], ["\"my life\"", 8, "phrase", "The phrase \"my life\" appears 9 times in total and sits in 8 comments."], ["\"god has\"", 8, "phrase", "The phrase \"god has\" appears 8 times in total and sits in 8 comments."], ["\"being angry\"", 7, "phrase", "The phrase \"being angry\" appears 8 times in total and sits in 7 comments."], ["\"human experience\"", 7, "phrase", "The phrase \"human experience\" appears 7 times in total and sits in 7 comments."], ["\"angry too\"", 6, "phrase", "The phrase \"angry too\" appears 7 times in total and sits in 6 comments."], ["\"have faith\"", 6, "phrase", "The phrase \"have faith\" appears 7 times in total and sits in 6 comments."], ["\"one day\"", 6, "phrase", "The phrase \"one day\" appears 6 times in total and sits in 6 comments."], ["\"you understand\"", 5, "phrase", "The phrase \"you understand\" appears 6 times in total and sits in 5 comments."], ["\"no god\"", 4, "phrase", "The phrase \"no god\" appears 5 times in total and sits in 4 comments."], ["\"much wisdom\"", 4, "phrase", "The phrase \"much wisdom\" appears 4 times in total and sits in 4 comments."], ["\"not sovereignty\"", 4, "phrase", "The phrase \"not sovereignty\" appears 4 times in total and sits in 4 comments."]]);
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+diff --git a/src/security_checker/scanners/osv.py b/src/security_checker/scanners/osv.py
+index e1f2901..f904f6b 100644
+--- a/src/security_checker/scanners/osv.py
++++ b/src/security_checker/scanners/osv.py
+@@ -74,6 +74,19 @@ def _group_severity(group: dict[str, Any], vulns: list[dict[str, Any]]) -> Sever
+     return max(known, key=lambda s: s.order) if known else None
+ 
+ 
++_CWE_RE = re.compile(r"^CWE-\d+$")
++
++
++def _cwe_ids(vulns: list[dict[str, Any]]) -> list[str]:
++    """advisory の `database_specific.cwe_ids` から CWE を重複なく集める (#276)."""
++    found: list[str] = []
++    for vuln in vulns:
++        for item in as_dict(vuln.get("database_specific")).get("cwe_ids") or []:
++            if isinstance(item, str) and _CWE_RE.match(item) and item not in found:
++                found.append(item)
++    return found
++
++
+ def _fixed_version(vulns: list[dict[str, Any]], name: str) -> str | None:
+     fixed: list[str] = []
+     for vuln in vulns:
+@@ -160,6 +173,7 @@ def parse_osv(
+                         package=ref,
+                         # 不明を info にするとゲートから消える。依存の脆弱性は控えめに中とする
+                         severity_reported=severity or Severity.MEDIUM,
++                        cwe=_cwe_ids(vulns),
+                         cve=sorted({a for a in [*aliases, *group_ids] if _CVE_RE.match(a)}),
+                         references=list(dict.fromkeys(references))[:MAX_REFERENCES],
+                         fix_available=_fixed_version(vulns, name),
+diff --git a/tests/unit/test_osv_parser_cwe_ids.py b/tests/unit/test_osv_parser_cwe_ids.py
+new file mode 100644
+index 0000000..1ae400c
+--- /dev/null
++++ b/tests/unit/test_osv_parser_cwe_ids.py
+@@ -0,0 +1,49 @@
++"""parse_osv: advisory の database_specific.cwe_ids を候補の cwe に入れること (#276)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++from typing import Any
++
++from security_checker.scanners.osv import parse_osv
++
++
++def _payload(vulnerabilities: list[dict[str, Any]]) -> dict[str, Any]:
++    return {
++        "results": [
++            {
++                "source": {"path": "requirements.txt"},
++                "packages": [
++                    {
++                        "package": {"name": "django", "version": "3.2.0", "ecosystem": "PyPI"},
++                        "vulnerabilities": vulnerabilities,
++                        "groups": [{"ids": [item["id"] for item in vulnerabilities]}],
++                    }
++                ],
++            }
++        ]
++    }
++
++
++def test_cwe_ids_of_every_advisory_in_the_group_are_collected_once(tmp_path: Path) -> None:
++    payload = _payload(
++        [
++            {
++                "id": "GHSA-2gwj-7jmv-h26r",
++                "summary": "SQL injection",
++                "database_specific": {"cwe_ids": ["CWE-89", "CWE-89", "not-a-cwe", 5]},
++            },
++            {"id": "PYSEC-2022-1", "database_specific": {"cwe_ids": ["CWE-20"]}},
++        ]
++    )
++
++    candidates, _ = parse_osv(payload, tmp_path)
++
++    assert [candidate.cwe for candidate in candidates] == [["CWE-89", "CWE-20"]]
++
++
++def test_advisory_without_cwe_ids_keeps_an_empty_list(tmp_path: Path) -> None:
++    """対になるケース."""
++    candidates, _ = parse_osv(_payload([{"id": "GHSA-aaaa-bbbb-cccc"}]), tmp_path)
++
++    assert [candidate.cwe for candidate in candidates] == [[]]

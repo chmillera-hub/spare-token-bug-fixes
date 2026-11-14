@@ -1,0 +1,50 @@
+diff --git a/tests/unit/test_registry_plugin_discovery_failure.py b/tests/unit/test_registry_plugin_discovery_failure.py
+new file mode 100644
+index 0000000..418aa4b
+--- /dev/null
++++ b/tests/unit/test_registry_plugin_discovery_failure.py
+@@ -0,0 +1,44 @@
++"""discover_plugin_providers: 読み込みに失敗したプラグインは警告にして残りを返すこと."""
++
++from __future__ import annotations
++
++from typing import Any
++
++import pytest
++
++from security_checker.providers import registry
++
++
++class _Entry:
++    def __init__(self, name: str, value: Any = None, error: Exception | None = None) -> None:
++        self.name = name
++        self._value = value
++        self._error = error
++
++    def load(self) -> Any:
++        if self._error is not None:
++            raise self._error
++        return self._value
++
++
++def test_broken_plugin_becomes_a_warning_and_the_rest_is_kept(
++    monkeypatch: pytest.MonkeyPatch,
++) -> None:
++    def factory(reviewer: Any) -> Any:
++        return reviewer
++
++    groups: list[str] = []
++
++    def fake_entry_points(*, group: str) -> list[_Entry]:
++        groups.append(group)
++        return [_Entry("good", value=factory), _Entry("broken", error=ImportError("no module x"))]
++
++    monkeypatch.setattr(registry, "entry_points", fake_entry_points)
++
++    found, warnings = registry.discover_plugin_providers()
++
++    assert groups == [registry.ENTRY_POINT_GROUP]
++    assert found == {"good": factory}
++    assert len(warnings) == 1
++    assert "broken" in warnings[0]
++    assert "no module x" in warnings[0]

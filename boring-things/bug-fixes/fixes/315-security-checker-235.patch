@@ -1,0 +1,62 @@
+diff --git a/src/security_checker/eval/dataset.py b/src/security_checker/eval/dataset.py
+index afc618b..b47877e 100644
+--- a/src/security_checker/eval/dataset.py
++++ b/src/security_checker/eval/dataset.py
+@@ -28,7 +28,7 @@ class GroundTruth(BaseModel):
+     cwe: list[str] = Field(default_factory=list)
+     severity: Severity = Severity.NONE
+     #: なぜその正解なのか. 評価レポートに載せて、ラベルの妥当性を後から検証できるようにする
+-    rationale: str = ""
++    rationale: str = Field(min_length=1)
+ 
+ 
+ class CaseCandidate(BaseModel):
+diff --git a/tests/unit/test_eval_dataset_rationale_required.py b/tests/unit/test_eval_dataset_rationale_required.py
+new file mode 100644
+index 0000000..0fee241
+--- /dev/null
++++ b/tests/unit/test_eval_dataset_rationale_required.py
+@@ -0,0 +1,43 @@
++"""評価データセット: ground_truth.rationale の省略と空文字をエラーにすること (#235)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++import pytest
++
++from security_checker.errors import ConfigError
++from security_checker.eval.dataset import load_dataset
++
++CASE = """\
++candidate:
++  scanner: semgrep
++  rule_id: python.lang.security.dangerous-subprocess-use
++  path: app/upload.py
++  start_line: 12
++code: |
++  import subprocess
++ground_truth:
++  vulnerable: true
++  severity: high
++"""
++
++
++def _dataset(tmp_path: Path, extra: str) -> Path:
++    cases = tmp_path / "cases"
++    cases.mkdir()
++    (cases / "x.yaml").write_text(CASE + extra, encoding="utf-8")
++    return tmp_path
++
++
++@pytest.mark.parametrize("extra", ["", '  rationale: ""\n'])
++def test_missing_or_empty_rationale_is_a_config_error(tmp_path: Path, extra: str) -> None:
++    with pytest.raises(ConfigError):
++        load_dataset(_dataset(tmp_path, extra))
++
++
++def test_case_with_a_rationale_still_loads(tmp_path: Path) -> None:
++    """対になるケース."""
++    dataset = load_dataset(_dataset(tmp_path, "  rationale: 引数が利用者の入力から来る\n"))
++
++    assert dataset.cases[0].ground_truth.rationale == "引数が利用者の入力から来る"

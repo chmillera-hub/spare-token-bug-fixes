@@ -1,0 +1,23 @@
+diff --git a/.markdownlint-cli2.yaml b/.markdownlint-cli2.yaml
+index 49a872e..06928b4 100644
+--- a/.markdownlint-cli2.yaml
++++ b/.markdownlint-cli2.yaml
+@@ -61,6 +61,8 @@ ignores:
+   - "wip_outputs/**"
+   # Generated knowledge-graph output; git-ignored, but markdownlint globs it anyway
+   - "graphify-out/**"
++  # mkdocs build output; git-ignored, but markdownlint globs it anyway
++  - "site/**"
+   # Any node_modules, including ui/node_modules after `npm ci` in ui/
+   - "**/node_modules/**"
+   - ".github/**"
+diff --git a/mdlint.sh b/mdlint.sh
+index 869164e..048a0de 100755
+--- a/mdlint.sh
++++ b/mdlint.sh
+@@ -15,4 +15,4 @@
+ # U.S. Patent and Trademark Office by Carnegie Mellon University
+ #
+ 
+-markdownlint-cli2 --fix --config .markdownlint-cli2.yaml "**/*.md" "#node_modules/**" "#.venv/**" "#.git/**" "#wip_notes/**" "#graphify-out/**" "#plan/history/**"
++markdownlint-cli2 --fix --config .markdownlint-cli2.yaml "**/*.md" "#node_modules/**" "#.venv/**" "#.git/**" "#wip_notes/**" "#graphify-out/**" "#site/**" "#plan/history/**"

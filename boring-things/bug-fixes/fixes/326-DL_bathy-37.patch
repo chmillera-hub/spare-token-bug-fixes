@@ -1,0 +1,32 @@
+diff --git a/dl_bathy/train.py b/dl_bathy/train.py
+index 61c494f..6eef9df 100644
+--- a/dl_bathy/train.py
++++ b/dl_bathy/train.py
+@@ -57,7 +57,7 @@ def set_reproducible(seed=42):
+     torch.cuda.manual_seed(seed)
+     torch.cuda.manual_seed_all(seed)
+     torch.backends.cudnn.deterministic = True
+-    torch.backends.cudnn.benchmark     = True
++    torch.backends.cudnn.benchmark     = False
+ 
+ 
+ # =============================================================================
+diff --git a/tests/test_set_reproducible.py b/tests/test_set_reproducible.py
+new file mode 100644
+index 0000000..69188a5
+--- /dev/null
++++ b/tests/test_set_reproducible.py
+@@ -0,0 +1,13 @@
++import pytest
++
++torch = pytest.importorskip("torch")
++pytest.importorskip("segmentation_models_pytorch")
++
++from dl_bathy.train import set_reproducible
++
++
++def test_set_reproducible_keeps_cudnn_deterministic():
++    set_reproducible(7)
++
++    assert torch.backends.cudnn.deterministic is True
++    assert torch.backends.cudnn.benchmark is False

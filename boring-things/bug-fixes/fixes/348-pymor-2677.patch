@@ -1,0 +1,32 @@
+diff --git a/src/pymor/algorithms/timestepping.py b/src/pymor/algorithms/timestepping.py
+index 29f3ed9..b320bdc 100644
+--- a/src/pymor/algorithms/timestepping.py
++++ b/src/pymor/algorithms/timestepping.py
+@@ -498,7 +498,7 @@ class DiscreteTimeStepper(TimeStepper):
+             U = M.apply_inverse(rhs, mu=mu_t, initial_guess=U)
+             while sign * (k - k0) + 1 + (min(sign*dt, sign*DT) * 0.5) >= sign * num_ret_values * DT:
+                 num_ret_values += 1
+-                yield U, k
++                yield U, k + sign
+ 
+ 
+ def _depends_on_time(obj, mu):
+diff --git a/src/pymortests/algorithms/timestepping.py b/src/pymortests/algorithms/timestepping.py
+index eef8247..a17d90f 100644
+--- a/src/pymortests/algorithms/timestepping.py
++++ b/src/pymortests/algorithms/timestepping.py
+@@ -107,3 +107,14 @@ def test_backward_stepping_discrete():
+     U_backwards = time_stepper.solve(end_time, initial_time, initial_data, dt * operator, rhs=dt * rhs, mass=-mass,
+                                      num_values=num_values)
+     assert np.all((U - U_backwards).norm() <= tol)
++
++
++def test_discrete_time_stepper_reports_the_time_after_each_step():
++    fom, initial_time, end_time, nt, num_values, initial_data, operator, rhs, mass = setup_non_parametric_example()
++    time_stepper = DiscreteTimeStepper()
++
++    forward = time_stepper.iterate(0, 5, initial_data, 0.1 * operator, rhs=0.1 * rhs, mass=mass)
++    assert [t for _, t in forward] == [0, 1, 2, 3, 4, 5]
++
++    backward = time_stepper.iterate(5, 0, initial_data, 0.1 * operator, rhs=0.1 * rhs, mass=-mass)
++    assert [t for _, t in backward] == [5, 4, 3, 2, 1, 0]

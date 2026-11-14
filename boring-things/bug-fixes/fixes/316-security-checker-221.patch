@@ -1,0 +1,54 @@
+diff --git a/src/security_checker/language.py b/src/security_checker/language.py
+index 2473d2e..c34bddd 100644
+--- a/src/security_checker/language.py
++++ b/src/security_checker/language.py
+@@ -42,14 +42,18 @@ LANGUAGE_NAMES = {
+ 
+ 
+ def resolve_language(configured: str, environ: Mapping[str, str] | None = None) -> str:
+-    """設定値を実際の言語タグに解決する. `auto` のときだけ環境を見る."""
++    """設定値を実際の言語タグに解決する. `auto` のときだけ環境を見る.
++
++    空でない最初のロケール変数で判定を打ち切る (#221)。その値が C / POSIX なら既定 (英語)。
++    変数が空・未設定のときだけ次の変数を見る。
++    """
+     if configured != AUTO:
+         return configured
+     source = environ if environ is not None else os.environ
+     for variable in LOCALE_VARS:
+-        tag = _tag_from_locale(source.get(variable))
+-        if tag is not None:
+-            return tag
++        value = source.get(variable)
++        if value:
++            return _tag_from_locale(value) or DEFAULT_LANGUAGE
+     return DEFAULT_LANGUAGE
+ 
+ 
+diff --git a/tests/unit/test_language_explicit_c_locale.py b/tests/unit/test_language_explicit_c_locale.py
+new file mode 100644
+index 0000000..a4e2a77
+--- /dev/null
++++ b/tests/unit/test_language_explicit_c_locale.py
+@@ -0,0 +1,21 @@
++"""auto の言語推定: 空でない最初のロケール変数で打ち切ること (#221)."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.language import resolve_language
++
++
++@pytest.mark.parametrize("neutral", ["C", "POSIX", "C.UTF-8"])
++def test_explicit_c_locale_wins_over_a_later_variable(neutral: str) -> None:
++    environ = {"LC_ALL": neutral, "LANG": "ja_JP.UTF-8"}
++
++    assert resolve_language("auto", environ) == "en"
++
++
++def test_empty_variable_falls_through_to_the_next_one() -> None:
++    """対になるケース. 空・未設定のときだけ次の変数を見る."""
++    environ = {"LC_ALL": "", "LANG": "ja_JP.UTF-8"}
++
++    assert resolve_language("auto", environ) == "ja"

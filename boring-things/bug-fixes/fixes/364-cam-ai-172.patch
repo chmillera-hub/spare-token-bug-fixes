@@ -1,0 +1,13 @@
+diff --git a/eventers/c_eventers.py b/eventers/c_eventers.py
+index 911b132..16b8160 100644
+--- a/eventers/c_eventers.py
++++ b/eventers/c_eventers.py
+@@ -638,7 +638,7 @@ class eve_worker(mp_process):
+         await(a_break_time(60.0))
+         if self.tag_list_active != self.shared_mem.read_1_meta('school'):
+           self.tag_list_active = self.shared_mem.read_1_meta('school')
+-          self.taglist = await database_sync_to_async(get_taglist)(self.tag_list_active)
++          self.tag_list = await database_sync_to_async(get_taglist)(self.tag_list_active)
+     except Exception as fatal:
+       self.logger.error('Error in process: ' 
+         + self.logname 

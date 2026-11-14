@@ -1,0 +1,13 @@
+diff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml
+index 14b939a..98dbd3d 100644
+--- a/.github/workflows/ci.yml
++++ b/.github/workflows/ci.yml
+@@ -13,7 +13,7 @@ permissions:
+ 
+ concurrency:
+   group: ci-${{ github.ref }}
+-  cancel-in-progress: true
++  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+ 
+ jobs:
+   # squash merge 後のコミットメッセージは PR タイトルになる (設計書 §31.1)。

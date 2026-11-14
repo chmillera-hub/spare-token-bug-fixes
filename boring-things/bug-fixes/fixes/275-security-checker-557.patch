@@ -1,0 +1,28 @@
+diff --git a/tests/unit/test_registry_process_provider_empty_command.py b/tests/unit/test_registry_process_provider_empty_command.py
+new file mode 100644
+index 0000000..886fb63
+--- /dev/null
++++ b/tests/unit/test_registry_process_provider_empty_command.py
+@@ -0,0 +1,22 @@
++"""build_process_provider: preset の command が空なら ConfigError になること."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.config.schema import ReviewerConfig
++from security_checker.errors import ConfigError
++from security_checker.providers.presets.loader import ProcessPreset
++from security_checker.providers.registry import build_process_provider
++
++
++def test_preset_with_an_empty_command_is_a_config_error() -> None:
++    reviewer = ReviewerConfig(name="r1", transport="process", preset="empty")
++    presets = {"empty": ProcessPreset(name="empty", command=[])}
++    warnings: list[str] = []
++
++    with pytest.raises(ConfigError, match="command を解決できません") as excinfo:
++        build_process_provider(reviewer, environ={}, presets=presets, warnings=warnings)
++
++    assert "r1" in str(excinfo.value)
++    assert warnings == []

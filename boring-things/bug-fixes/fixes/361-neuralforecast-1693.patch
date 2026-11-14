@@ -1,0 +1,30 @@
+diff --git a/neuralforecast/losses/pytorch.py b/neuralforecast/losses/pytorch.py
+index f6be248..8247165 100644
+--- a/neuralforecast/losses/pytorch.py
++++ b/neuralforecast/losses/pytorch.py
+@@ -1097,7 +1097,8 @@ class Tweedie(Distribution):
+ 
+     @property
+     def variance(self):
+-        return torch.ones_line(self.log_mu)  # TODO need to be assigned
++        # sigma2 * mean ** rho, with the dispersion sigma2 fixed in 1 (see the class docstring)
++        return self.mean**self.rho
+ 
+     def sample(self, sample_shape=torch.Size()):
+         shape = self._extended_shape(sample_shape)
+diff --git a/tests/test_losses/test_tweedie_variance.py b/tests/test_losses/test_tweedie_variance.py
+new file mode 100644
+index 0000000..e954820
+--- /dev/null
++++ b/tests/test_losses/test_tweedie_variance.py
+@@ -0,0 +1,10 @@
++import torch
++
++from neuralforecast.losses.pytorch import Tweedie
++
++
++def test_variance_is_the_mean_to_the_power_rho():
++    distribution = Tweedie(log_mu=torch.log(torch.tensor([1.0, 4.0])), rho=1.5)
++
++    torch.testing.assert_close(distribution.variance, torch.tensor([1.0, 8.0]))
++    torch.testing.assert_close(distribution.stddev, torch.tensor([1.0, 8.0]).sqrt())

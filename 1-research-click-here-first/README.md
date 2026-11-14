@@ -1,0 +1,32 @@
+# Research
+
+Every item in this folder is written for a person to read and the items are grouped into one folder per project and each line below says in one sentence what the item contains.
+
+## Folders (one project each)
+
+- [bible-quote-builder](bible-quote-builder) holds an experiment that remixes short phrases from the World English Bible into replies to comments and headlines and the folder has its own list that starts with the finished outputs and the rules.
+- [word-evolution](word-evolution) holds an experiment where text is copied with small mistakes over and over while a reader picks which copies survive and the folder includes a live program with sliders.
+- [voynich-manuscript](voynich-manuscript) holds three pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made and a second run of the spelling-pattern tests.
+- [writing-rules](writing-rules) holds a set of writing rules for clear chatbot replies with before and after examples and a plain text copy of the same rules.
+- [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
+- [christ-voice](christ-voice) holds short scripts where Christ talks with the warrior prince Vegeta (four scripts in word patterns counted from the red-letter words of the World English Bible and three interactions in a two-part shape counted from passages rated as hitting hard).
+- [unanswered-questions](unanswered-questions) holds experiments where the chatbot hunted for public questions that nobody had answered and then tried to answer the questions (a mistake found in a published number list and a partial answer about an old Turkish coin and sixty-four more).
+- [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
+- [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (one thread is about blocking an AI chatbot on home wifi and a second thread is about a famous executive who lost his job).
+- [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
+
+## Single pages (each page is its own project)
+
+- [hiding-a-book.md](hiding-a-book.md) shows how much sense is left when a 1000-page biology book is dealt into four piles in four different ways.
+- [scattered-pages-reflection.md](scattered-pages-reflection.md) is a short reflection that compares a life told in separate parts to separate listeners with a book dealt into piles and asks who has been handed enough neighboring pages to follow the story.
+- [human-needs-as-research-topics.md](human-needs-as-research-topics.md) is a thought experiment that answers the question of what AI systems should work on next by pointing at living people whose needs are not being met such as a person who is lonely or a person in unexplained pain.
+- [chat-record.md](chat-record.md) lists every request the repository owner made in the chat that produced the research pages in his own words with a short note on what the chatbot did and gives the public link to the full word-for-word chat.
+- [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 371 free bug fixes for public software projects.
+
+## Something to play with
+
+A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
+
+The live address depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
+A second live address runs on the free website copy of this repository: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/word-evolution/live-program.html
+An AI chatbot loaded the second live address on 12 November 2026 and the page came back with the title and the settings and the buttons of the program. The tool that the chatbot used does not run page scripts which means nobody has confirmed yet that the sliders move.

@@ -1,0 +1,63 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..82da04f 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -66,6 +66,27 @@ app = typer.Typer(
+     no_args_is_help=True,
+     add_completion=False,
+ )
++
++
++def _version_callback(value: bool) -> None:
++    if value:
++        print(f"security-checker {__version__}")
++        raise typer.Exit
++
++
++@app.callback()
++def _root(
++    show_version: Annotated[
++        bool,
++        typer.Option(
++            "--version",
++            callback=_version_callback,
++            is_eager=True,
++            help="バージョンを表示する",
++        ),
++    ] = False,
++) -> None:
++    """拡張可能な AI Security Review プラットフォーム."""
+ config_app = typer.Typer(help="設定の確認", no_args_is_help=True)
+ app.add_typer(config_app, name="config")
+ 
+diff --git a/tests/unit/test_cli_version_flag.py b/tests/unit/test_cli_version_flag.py
+new file mode 100644
+index 0000000..7731d5a
+--- /dev/null
++++ b/tests/unit/test_cli_version_flag.py
+@@ -0,0 +1,25 @@
++"""--version: サブコマンド無しでバージョンを表示すること (#196)."""
++
++from __future__ import annotations
++
++from typer.testing import CliRunner
++
++from security_checker import __version__
++from security_checker.cli import app
++
++runner = CliRunner()
++
++
++def test_version_flag_prints_the_version_and_exits_0() -> None:
++    result = runner.invoke(app, ["--version"])
++
++    assert result.exit_code == 0
++    assert result.stdout == f"security-checker {__version__}\n"
++
++
++def test_version_subcommand_still_works() -> None:
++    """対になるケース. 既存の version サブコマンドは残す."""
++    result = runner.invoke(app, ["version"])
++
++    assert result.exit_code == 0
++    assert result.stdout == f"security-checker {__version__}\n"

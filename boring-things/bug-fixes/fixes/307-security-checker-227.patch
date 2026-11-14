@@ -1,0 +1,54 @@
+diff --git a/src/security_checker/cli.py b/src/security_checker/cli.py
+index 6f0a497..9dac425 100644
+--- a/src/security_checker/cli.py
++++ b/src/security_checker/cli.py
+@@ -649,6 +649,8 @@ def config_show(
+ ) -> None:
+     """解決された最終設定を出力する (秘匿値は保持しない設計のため常に安全)."""
+     root = path.expanduser().resolve()
++    if not root.is_dir():
++        _fail(f"検査対象が見つかりません: {path}", ExitCode.CONFIG_ERROR)
+     loaded = _load(root, config_path, preset, {})
+     console = Console()
+ 
+@@ -847,6 +849,8 @@ def providers_check(
+     リポジトリのコードは送らない。
+     """
+     root = path.expanduser().resolve()
++    if not root.is_dir():
++        _fail(f"ディレクトリが見つかりません: {path}", ExitCode.CONFIG_ERROR)
+     loaded = _load(root, config_path, None, {})
+     reviewers = [r for r in loaded.config.reviewers if name is None or r.name == name]
+     if not reviewers:
+diff --git a/tests/unit/test_cli_missing_directory_config_show_providers_check.py b/tests/unit/test_cli_missing_directory_config_show_providers_check.py
+new file mode 100644
+index 0000000..94450c1
+--- /dev/null
++++ b/tests/unit/test_cli_missing_directory_config_show_providers_check.py
+@@ -0,0 +1,26 @@
++"""config show / providers check: 存在しないディレクトリは exit 2 にすること (#227)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++from typer.testing import CliRunner
++
++from security_checker.cli import app
++from security_checker.errors import ExitCode
++
++runner = CliRunner()
++
++
++def test_config_show_rejects_a_missing_directory(tmp_path: Path) -> None:
++    result = runner.invoke(app, ["config", "show", str(tmp_path / "missing")])
++
++    assert result.exit_code == ExitCode.CONFIG_ERROR
++    assert "見つかりません" in result.stderr
++
++
++def test_providers_check_rejects_a_missing_directory(tmp_path: Path) -> None:
++    result = runner.invoke(app, ["providers", "check", "--path", str(tmp_path / "missing")])
++
++    assert result.exit_code == ExitCode.CONFIG_ERROR
++    assert "見つかりません" in result.stderr

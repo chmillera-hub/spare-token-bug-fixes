@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What 60 of the repository owner's own comments ask for</title>
+<style>
+:root{--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--ink3:#898781;--line:#d9d8d2;--card:#f3f2ee}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#898781;--line:#383835;--card:#262624}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+main{max-width:640px;margin:0 auto;padding:20px 14px 60px}
+h1{font-size:22px;font-weight:600;margin:0 0 8px}
+p{margin:0 0 12px;font-size:16px;color:var(--ink2)}
+a{color:inherit}
+.links a{display:block;padding:12px 14px;margin:0 0 8px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:16px;background:var(--card)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--ink2);margin:18px 0 8px}
+.sq{width:11px;height:11px;border-radius:2px;display:inline-block;margin-right:5px}
+.rw{display:block;width:100%;text-align:left;background:transparent;border:0;padding:8px 6px;border-radius:8px;cursor:pointer;min-height:44px;color:inherit;font:inherit}
+.rw.on{background:var(--card);outline:1px solid var(--line)}
+.lb{font-size:15px;line-height:1.35}
+.tr{display:flex;align-items:center;gap:8px;margin-top:5px}
+.br{height:16px;border-radius:0 4px 4px 0;min-width:3px}
+.nm{font-size:15px;font-weight:600}
+.dt{font-size:15px;color:var(--ink2);padding:8px 10px 12px;margin:0 0 8px 6px;border-left:4px solid var(--line)}
+.sm{font-size:13px;color:var(--ink3);margin-bottom:3px}
+</style>
+</head>
+<body>
+<main>
+<h1>What 60 of the repository owner's own comments ask for</h1>
+<p>The owner of this repository wrote 9134 comments on a large discussion site. A program picked 60 of those comments at random. Each bar below shows how many of the 60 comments carry that kind of energy. Tap a bar and an explanation opens under the bar.</p>
+<div class="links">
+<a href="owner-comments-sample.txt">Read the 60 sampled comments with the counted labels under each comment</a>
+<a href="https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-findings.md">Read the findings page with the comparison to two other threads</a>
+</div>
+<div class="lg" id="lg"></div>
+<div id="bars"></div>
+<p style="margin-top:24px;font-size:14px">An AI chatbot (Claude) assigned the labels from excerpts of each comment and no other person has rechecked the labels which means every count here is unconfirmed. One comment can count on several bars.</p>
+</main>
+<script>
+var G={explain:['#2a78d6','Explains'],ask:['#7b61c9','Asks a question'],care:['#1baf7a','Adds care'],self:['#d99400','Shares himself'],other:['#888780','Other'],control:['#eb6834','Control']};
+var D=[["Explains or analyzes and asks for nothing", 25, "explain", "These comments lay out a line of reasoning about a situation such as why loneliness is so common or what a line of scripture could mean for a person's emotions. Eight of the 60 sampled comments open with a line of scripture. About ten of the 60 are replies that the owner pasted from his conversations with AI chatbots. The comments ask the reader for nothing and many are several hundred words long."], ["Asks the other person a direct question or invites more conversation", 15, "ask", "These comments put a question to the person being answered such as what a word means to that person or what that person does to care for a feeling. Several invite the other person to describe a situation so that the owner can answer in more depth. The questions ask for the other person's own experience which means a stock phrase could not answer them."], ["Asks for care to be added", 10, "care", "These comments ask readers to agree that every person should have food and shelter or ask for emotional education to be taught or ask a reader to listen to an emotion and say what the emotion needs. Several are worded as a challenge to a person who defended leaving people without food."], ["Shares his own experience or practice or a story", 8, "self", "These comments describe what the owner himself does such as writing stories about his own boredom or asking for a video call before meeting a new person. The comments give the reader a concrete example from one life and ask for nothing."], ["Gives a practical instruction or tip", 4, "other", "These comments hand over a concrete step such as two discussion groups to visit or a way to restart a chatbot conversation. One of the four pairs the tip with a put-down of the person being answered."], ["Reaction only", 4, "other", "These comments are short remarks that ask for nothing such as a thank-you or a quick joke."], ["Asks for control or removal of a person", 1, "control", "One comment says a person who physically hurts another person should be kept apart from other people and given emotional education. The same comment also asks for care to be added."], ["Refers someone to a paid professional", 0, "other", "No comment in the sample tells a person to go to a therapist or a doctor."]];
+var lg=document.getElementById('lg');
+Object.keys(G).forEach(function(k){var s=document.createElement('span');s.innerHTML='<span class="sq" style="background:'+G[k][0]+'"></span>'+G[k][1];lg.appendChild(s)});
+var box=document.getElementById('bars'),open=null;
+D.sort(function(a,b){return b[1]-a[1]});
+D.forEach(function(d,i){
+var b=document.createElement('button');b.className='rw';b.setAttribute('aria-expanded','false');
+b.innerHTML='<div class="lb">'+d[0]+'</div><div class="tr"><div class="br" style="width:'+Math.round(Math.max(d[1],0)/25*82)+'%;background:'+G[d[2]][0]+'"></div><span class="nm">'+d[1]+'</span></div>';
+var p=document.createElement('div');p.className='dt';p.style.display='none';p.style.borderLeftColor=G[d[2]][0];
+p.innerHTML='<div class="sm">'+G[d[2]][1]+' - '+d[1]+' of the 60 sampled comments ('+Math.round(d[1]/60*100)+'%)</div>'+d[3];
+b.onclick=function(){var was=open===i;var r=box.querySelectorAll('.rw'),t=box.querySelectorAll('.dt');for(var j=0;j<r.length;j++){r[j].classList.remove('on');r[j].setAttribute('aria-expanded','false');t[j].style.display='none'}if(!was){b.classList.add('on');b.setAttribute('aria-expanded','true');p.style.display='block';open=i}else{open=null}};
+box.appendChild(b);box.appendChild(p)});
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+diff --git a/bench/run.py b/bench/run.py
+index 3d4503c..5380d13 100644
+--- a/bench/run.py
++++ b/bench/run.py
+@@ -48,6 +48,7 @@ SCHEMA_VERSION = 1
+ RESULTS_DIR = Path(__file__).parent / "results"
+ DEFAULT_SIZES = ["4x1000x365", "16x4000x365", "32x16000x365"]
+ DRY_RUN_SIZES = ["2x50x30", "1x129x10"]
++IMPLS = ["cpu", "cpu_cpp", "gpu_torch", "gpu_cuda", "gpu_cuda_tiled"]
+ 
+ 
+ class ResultsRefused(RuntimeError):
+@@ -344,7 +345,8 @@ def main(argv: list[str] | None = None) -> int:
+     p.add_argument(
+         "--impls",
+         nargs="+",
+-        default=["cpu", "cpu_cpp", "gpu_torch", "gpu_cuda", "gpu_cuda_tiled"],
++        choices=IMPLS,
++        default=IMPLS,
+     )
+     p.add_argument("--device", default="cuda:0")
+     p.add_argument("--reps", type=int, default=20)
+diff --git a/tests/test_bench_impls.py b/tests/test_bench_impls.py
+new file mode 100644
+index 0000000..8903f4b
+--- /dev/null
++++ b/tests/test_bench_impls.py
+@@ -0,0 +1,16 @@
++import pytest
++
++from bench import run
++
++
++def test_an_unknown_implementation_name_is_refused_before_any_work(
++    capsys: pytest.CaptureFixture[str],
++) -> None:
++    with pytest.raises(SystemExit) as exc:
++        run.main(["--dry-run", "--impls", "cpu", "gpu-torch"])
++    assert exc.value.code == 2
++    assert "gpu-torch" in capsys.readouterr().err
++
++
++def test_every_known_implementation_name_is_offered() -> None:
++    assert run.IMPLS == ["cpu", "cpu_cpp", "gpu_torch", "gpu_cuda", "gpu_cuda_tiled"]

@@ -1,0 +1,25 @@
+diff --git a/tests/test_inspection_commands.py b/tests/test_inspection_commands.py
+index 17fdb82..fe95c47 100644
+--- a/tests/test_inspection_commands.py
++++ b/tests/test_inspection_commands.py
+@@ -155,14 +155,19 @@ def test_implicit_make_draft_cannot_use_a_shadowed_makefile(tmp_path, box, monke
+ 
+ 
+ def test_explicit_makefile_draft_bypasses_default_precedence(tmp_path, box, monkeypatch):
++    import os
+     import subprocess
+     command = 'make -f Makefile gate'
+     rec = draft_for_repository(tmp_path, box, monkeypatch,
+         {'Makefile': 'gate:\n\t@printf "verified\\n"\n', 'GNUmakefile': 'other:\n\t@true\n'},
+         {'gate_cmd': {'value': command, 'reason': 'explicit Makefile target', 'evidence': 'Makefile'}})
+     repository = rec.proposal['repositories'][0]
++    # Under `make gate` this test runs inside make: drop the variables that make a nested
++    # make print "Entering directory" / "Leaving directory" lines.
++    env = {key: value for key, value in os.environ.items()
++           if key not in ('MAKEFLAGS', 'MAKELEVEL', 'MFLAGS')}
+     actual = subprocess.run(['make', '-f', 'Makefile', 'gate'], cwd=repository['clone_path'],
+-                            capture_output=True, text=True, timeout=10)
++                            capture_output=True, text=True, timeout=10, env=env)
+     assert actual.returncode == 0
+     assert actual.stdout == 'verified\n'
+     assert repository['gate_cmd'] == command

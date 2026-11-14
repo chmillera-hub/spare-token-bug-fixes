@@ -1,0 +1,30 @@
+diff --git a/src/security_checker/scanners/osv.py b/src/security_checker/scanners/osv.py
+index e1f2901..a3e6577 100644
+--- a/src/security_checker/scanners/osv.py
++++ b/src/security_checker/scanners/osv.py
+@@ -33,6 +33,10 @@ from security_checker.scanners.filters import is_excluded
+ 
+ EXIT_NO_PACKAGES = 128
+ MAX_REFERENCES = 5
++#: CVSS v3 の定性評価の帯の下限 (基本値がこの値以上ならその重大度)
++CVSS_CRITICAL_MIN = 9.0
++CVSS_HIGH_MIN = 7.0
++CVSS_MEDIUM_MIN = 4.0
+ 
+ #: OSV の database_specific.severity (GHSA の表記) → Severity
+ _TEXT_SEVERITY = {
+@@ -47,11 +51,11 @@ _CVE_RE = re.compile(r"^CVE-\d{4}-\d+$")
+ 
+ def severity_from_score(score: float) -> Severity:
+     """CVSS の基本値 → Severity (CVSS v3 の定性評価の帯)."""
+-    if score >= 9.0:
++    if score >= CVSS_CRITICAL_MIN:
+         return Severity.CRITICAL
+-    if score >= 7.0:
++    if score >= CVSS_HIGH_MIN:
+         return Severity.HIGH
+-    if score >= 4.0:
++    if score >= CVSS_MEDIUM_MIN:
+         return Severity.MEDIUM
+     if score > 0.0:
+         return Severity.LOW

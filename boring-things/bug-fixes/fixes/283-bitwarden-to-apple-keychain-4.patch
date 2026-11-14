@@ -1,0 +1,88 @@
+diff --git a/convert.py b/convert.py
+index d735464..d1ddd6c 100644
+--- a/convert.py
++++ b/convert.py
+@@ -38,6 +38,7 @@ def convert(input_path: str) -> None:
+     kept = 0
+     skipped = 0
+     multi_site_entries = []
++    empty_logins = 0
+ 
+     with open(input_file, newline="", encoding="utf-8-sig") as fin, \
+          open(output_file, "w", newline="", encoding="utf-8") as fout:
+@@ -57,7 +58,7 @@ def convert(input_path: str) -> None:
+             name = (row.get("name") or "").strip()
+ 
+             if not raw_uri and not username and not password:
+-                skipped += 1
++                empty_logins += 1
+                 continue
+ 
+             uris = [u.strip() for u in raw_uri.split(",") if u.strip()] if raw_uri else [""]
+@@ -93,6 +94,9 @@ def convert(input_path: str) -> None:
+         print(f"Found {len(multi_site_entries)} multi-site entries — see {multi_site_file}")
+     if skipped:
+         print(f"Skipped {skipped} non-login entries (notes, cards, etc.)")
++    if empty_logins:
++        noun = "login" if empty_logins == 1 else "logins"
++        print(f"Skipped {empty_logins} empty {noun}")
+ 
+ 
+ if __name__ == "__main__":
+diff --git a/tests/test_skip_counts.py b/tests/test_skip_counts.py
+new file mode 100644
+index 0000000..2190f51
+--- /dev/null
++++ b/tests/test_skip_counts.py
+@@ -0,0 +1,51 @@
++import shutil
++import subprocess
++import sys
++import tempfile
++import unittest
++from pathlib import Path
++
++ROOT = Path(__file__).resolve().parent.parent
++FIXTURE = ROOT / "tests" / "fixtures" / "sample_export.csv"
++HEADER = "folder,favorite,type,name,notes,fields,reprompt,login_uri,login_username,login_password,login_totp\n"
++
++
++def run(*args):
++    return subprocess.run([sys.executable, str(ROOT / "convert.py"), *map(str, args)],
++                          capture_output=True, text=True)
++
++
++class SkipCountsTest(unittest.TestCase):
++    def setUp(self):
++        self.tmp = Path(tempfile.mkdtemp())
++
++    def tearDown(self):
++        shutil.rmtree(self.tmp)
++
++    def test_non_logins_and_empty_logins_are_counted_separately(self):
++        export = self.tmp / "export.csv"
++        export.write_text(
++            HEADER
++            + ",,note,Wifi,network: example,,0,,,,\n"
++            + ",,card,Test card,,,0,,,,\n"
++            + ",,login,Empty,,,0,,,,\n"
++            + ",,login,Kept,,,0,https://a.example.com,alice,pw-1,\n",
++            encoding="utf-8",
++        )
++        result = run(export)
++        self.assertEqual(result.returncode, 0)
++        self.assertIn("1 passwords written", result.stdout)
++        self.assertIn("Skipped 2 non-login entries", result.stdout)
++        self.assertIn("Skipped 1 empty login", result.stdout)
++        self.assertNotIn("empty logins", result.stdout)
++
++    def test_sample_export_has_no_empty_login_line(self):
++        export = self.tmp / "export.csv"
++        shutil.copy(FIXTURE, export)
++        result = run(export)
++        self.assertIn("Skipped 2 non-login entries", result.stdout)
++        self.assertNotIn("empty login", result.stdout)
++
++
++if __name__ == "__main__":
++    unittest.main()

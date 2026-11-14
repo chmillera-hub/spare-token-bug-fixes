@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What 171 comments asked for after a famous executive lost his job</title>
+<style>
+:root{--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--ink3:#898781;--line:#d9d8d2;--card:#f3f2ee}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#898781;--line:#383835;--card:#262624}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+main{max-width:640px;margin:0 auto;padding:20px 14px 60px}
+h1{font-size:22px;font-weight:600;margin:0 0 8px}
+p{margin:0 0 12px;font-size:16px;color:var(--ink2)}
+a{color:inherit}
+.links a{display:block;padding:12px 14px;margin:0 0 8px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:16px;background:var(--card)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--ink2);margin:18px 0 8px}
+.sq{width:11px;height:11px;border-radius:2px;display:inline-block;margin-right:5px}
+.rw{display:block;width:100%;text-align:left;background:transparent;border:0;padding:8px 6px;border-radius:8px;cursor:pointer;min-height:44px;color:inherit;font:inherit}
+.rw.on{background:var(--card);outline:1px solid var(--line)}
+.lb{font-size:15px;line-height:1.35}
+.tr{display:flex;align-items:center;gap:8px;margin-top:5px}
+.br{height:16px;border-radius:0 4px 4px 0;min-width:3px}
+.nm{font-size:15px;font-weight:600}
+.dt{font-size:15px;color:var(--ink2);padding:8px 10px 12px;margin:0 0 8px 6px;border-left:4px solid var(--line)}
+.sm{font-size:13px;color:var(--ink3);margin-bottom:3px}
+</style>
+</head>
+<body>
+<main>
+<h1>What 171 comments asked for after a famous executive lost his job</h1>
+<p>One person pasted a news article on a social media site. The article reported that the founder and chief executive of a very large technology company resigned after reports of affairs. Each bar below shows how many of the 171 comments asked for that behavior. Tap a bar and an explanation opens under the bar.</p>
+<div class="links">
+<a href="ceo-comments.txt">Read all 171 comments (anonymized)</a>
+<a href="ceo-labels.txt">Check the count: the same anonymized comments with the counted behavior labels under each comment</a>
+<a href="https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/ceo-findings.md">Read the findings page with the full count and the limits of the count</a>
+</div>
+<div class="lg" id="lg"></div>
+<div id="bars"></div>
+<p style="margin-top:24px;font-size:14px">An AI chatbot (Claude) counted the behaviors and wrote the explanations and no other person has rechecked the counts which means every count here is unconfirmed. Every count was made on the anonymized comments. One comment can count on several bars because many comments ask for more than one behavior.</p>
+</main>
+<script>
+var G={care:['#1baf7a','Care for the executive'],against:['#eb6834','Against the executive'],money:['#2a78d6','Money moves'],article:['#d99400','About the article'],other:['#7b61c9','Other requests'],none:['#888780','No behavior asked']};
+var D=[["No behavior asked (jokes and commentary)", 118, "none", "These comments ask nobody to do anything. Most are jokes such as a parody of a product launch and puns and crude humor about the affairs. The remainder are side arguments about news outlets and about whether rich people enjoy rest and about what the executive's motives were."], ["Feel compassion for the executive or forgive him or stand beside him", 8, "care", "These comments said the writer feels sorry for the executive or forgives him or wants the people close to him to stand at his side. The reasons given were that he lost his company and his marriage and his good name all at once and that a person who made bad mistakes is still allowed to be sad."], ["Go easier on the executive", 7, "care", "These comments said the board should have kept the executive or should bring him back or should keep his private life apart from his job. The reasons given were that the relations were between consenting adults and that other powerful people have done worse and kept their positions."], ["Thank the poster for sharing the paid article", 7, "article", "These comments thanked the poster for pasting an article that normally sits behind a paid subscription. Several mixed the thanks with jokes about the readers of the forum being too broke or too simple for a serious finance outlet."], ["Look for who arranged the scandal", 6, "other", "These comments said the scandal was a planned takedown because the allegations arrived one after another in a short span. The comments pointed at different groups such as a faction in the president's office or rival technology executives or a foreign government. No comment offered evidence beyond the timing."], ["Reject the planned-takedown story", 5, "against", "These comments mocked the idea that outside plotters caused the scandal because the executive himself chose the affairs. One comment said the wave of sympathy posts looked planted."], ["Bet that the company's stock falls", 5, "money", "These comments told readers to buy bets that pay when the stock drops or predicted a much lower price. Several based the bet on a television pundit having praised the company because the writers treat that pundit's praise as a bad omen."], ["Somebody give a shorter version", 4, "article", "These comments said the pasted article was too long and asked for a summary or for a plain statement of what happens next."], ["The executive should enjoy his money and free time", 4, "other", "These comments said the executive never has to work again and can spend his days on pleasure. Other comments answered that a person like him draws meaning from work and that money cannot replace a lost purpose or a broken family."], ["Bet that the company's stock rises", 2, "money", "These comments told readers to buy bets that pay when the stock climbs or predicted that the markets would jump."], ["Expect the executive to start or join a rival", 2, "money", "These comments predicted that the executive will launch a new venture or will hire his former colleagues away which would make him a competitor of the company he built."], ["Hold every powerful person to the same standard", 2, "other", "These comments asked why one executive pays a price while people at the top of government keep their positions and said that every bad boss should face the same consequence."], ["Punish the executive", 2, "against", "These comments said the firing was right or called for prison because the writers believe the executive broke export law and damaged the company."], ["Read the whole article", 1, "article", "One comment told a complaining reader that the article is short and that reading the article would help the reader's attention span."], ["Look at who else knew", 1, "against", "One comment said other senior people at the company must have known about the dodging of export rules so the blame should not stop at one man."], ["Stay calm because the company will be fine", 1, "money", "One comment said the company will be fine because the former executive is still one phone call away from the people who run the company."]];
+var lg=document.getElementById('lg');
+Object.keys(G).forEach(function(k){var s=document.createElement('span');s.innerHTML='<span class="sq" style="background:'+G[k][0]+'"></span>'+G[k][1];lg.appendChild(s)});
+var box=document.getElementById('bars'),open=null;
+D.sort(function(a,b){return b[1]-a[1]});
+D.forEach(function(d,i){
+var b=document.createElement('button');b.className='rw';b.setAttribute('aria-expanded','false');
+b.innerHTML='<div class="lb">'+d[0]+'</div><div class="tr"><div class="br" style="width:'+Math.round(d[1]/118*82)+'%;background:'+G[d[2]][0]+'"></div><span class="nm">'+d[1]+'</span></div>';
+var p=document.createElement('div');p.className='dt';p.style.display='none';p.style.borderLeftColor=G[d[2]][0];
+p.innerHTML='<div class="sm">'+G[d[2]][1]+' - '+d[1]+' of 171 comments ('+Math.round(d[1]/171*100)+'%)</div>'+d[3];
+b.onclick=function(){var was=open===i;var r=box.querySelectorAll('.rw'),t=box.querySelectorAll('.dt');for(var j=0;j<r.length;j++){r[j].classList.remove('on');r[j].setAttribute('aria-expanded','false');t[j].style.display='none'}if(!was){b.classList.add('on');b.setAttribute('aria-expanded','true');p.style.display='block';open=i}else{open=null}};
+box.appendChild(b);box.appendChild(p)});
+</script>
+</body>
+</html>

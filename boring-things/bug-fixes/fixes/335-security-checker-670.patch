@@ -1,0 +1,94 @@
+diff --git a/src/security_checker/github/pr.py b/src/security_checker/github/pr.py
+index d412df7..3261495 100644
+--- a/src/security_checker/github/pr.py
++++ b/src/security_checker/github/pr.py
+@@ -84,12 +84,19 @@ def parse_unified_diff(text: str) -> tuple[dict[str, tuple[tuple[int, int], ...]
+     changed: set[str] = set()
+     current: str | None = None
+     old_path: str | None = None
++    git_path: str | None = None
+     # `diff --git` 行の無い素の unified diff も受け付けるよう、先頭はヘッダとして扱う
+     in_header = True
+     for line in text.splitlines():
+         if line.startswith("diff --git "):
+             in_header = True
+             current = old_path = None
++            git_path = _same_path(line[len("diff --git ") :])
++            continue
++        if in_header and line.startswith("Binary files ") and line.endswith(" differ"):
++            # バイナリの変更には --- / +++ もハンクも無い. diff --git 行のパスで数える (#670)
++            if git_path is not None:
++                changed.add(git_path)
+             continue
+         if in_header and line.startswith("--- "):
+             old_path = _strip_prefix(line[4:])
+@@ -113,6 +120,17 @@ def parse_unified_diff(text: str) -> tuple[dict[str, tuple[tuple[int, int], ...]
+     return {path: tuple(ranges) for path, ranges in added.items()}, changed
+ 
+ 
++def _same_path(rest: str) -> str | None:
++    """`a/x b/x` から x を取り出す. 前後でパスが違う (名前の変更) ときは None."""
++    half, odd = divmod(len(rest) - 1, 2)
++    if odd or half < 0 or rest[half] != " ":
++        return None
++    before, after = rest[:half], rest[half + 1 :]
++    if before.startswith("a/") and after.startswith("b/") and before[2:] == after[2:]:
++        return before[2:]
++    return None
++
++
+ def _strip_prefix(raw: str) -> str | None:
+     path = raw.split("\t", 1)[0]
+     if path == "/dev/null":
+diff --git a/tests/unit/test_diff_binary_files_are_changed_files.py b/tests/unit/test_diff_binary_files_are_changed_files.py
+new file mode 100644
+index 0000000..be6d0a3
+--- /dev/null
++++ b/tests/unit/test_diff_binary_files_are_changed_files.py
+@@ -0,0 +1,46 @@
++"""parse_unified_diff: バイナリファイルの変更も changed_files に入れること (#670)."""
++
++from __future__ import annotations
++
++from security_checker.github.pr import parse_unified_diff
++
++BINARY = (
++    "diff --git a/img/logo.png b/img/logo.png\n"
++    "index 1111111..2222222 100644\n"
++    "Binary files a/img/logo.png and b/img/logo.png differ\n"
++)
++NEW_BINARY = (
++    "diff --git a/data/a b.bin b/data/a b.bin\n"
++    "new file mode 100644\n"
++    "index 0000000..3333333\n"
++    "Binary files /dev/null and b/data/a b.bin differ\n"
++)
++TEXT = (
++    "diff --git a/app.py b/app.py\n"
++    "index 4444444..5555555 100644\n"
++    "--- a/app.py\n"
++    "+++ b/app.py\n"
++    "@@ -1,0 +2,1 @@\n"
++    "+x = 1\n"
++)
++
++
++def test_changed_binary_file_is_counted() -> None:
++    added, changed = parse_unified_diff(BINARY)
++
++    assert added == {}
++    assert changed == {"img/logo.png"}
++
++
++def test_new_binary_file_with_a_space_in_its_name_is_counted() -> None:
++    added, changed = parse_unified_diff(NEW_BINARY)
++
++    assert added == {}
++    assert changed == {"data/a b.bin"}
++
++
++def test_text_file_after_a_binary_file_is_still_parsed() -> None:
++    added, changed = parse_unified_diff(BINARY + TEXT)
++
++    assert added == {"app.py": ((2, 2),)}
++    assert changed == {"img/logo.png", "app.py"}

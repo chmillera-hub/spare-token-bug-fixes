@@ -1,0 +1,52 @@
+diff --git a/src/edb/core/keyvalue.py b/src/edb/core/keyvalue.py
+index a98baf6..2b204bf 100644
+--- a/src/edb/core/keyvalue.py
++++ b/src/edb/core/keyvalue.py
+@@ -76,8 +76,10 @@ class KeyValueStore:
+         now = time.time()
+         if prefix:
+             rows = self._e.execute(
+-                "SELECT key FROM _kv WHERE key LIKE ? AND (expires_at IS NULL OR expires_at >= ?)",
+-                (prefix + "%", now),
++                # exact, case-sensitive prefix match: LIKE would treat _ and % as wildcards
++                "SELECT key FROM _kv WHERE substr(key, 1, ?) = ? "
++                "AND (expires_at IS NULL OR expires_at >= ?)",
++                (len(prefix), prefix, now),
+             ).fetchall()
+         else:
+             rows = self._e.execute(
+diff --git a/tests/unit/test_unit_kv_prefix_exact.py b/tests/unit/test_unit_kv_prefix_exact.py
+new file mode 100644
+index 0000000..e8da5bb
+--- /dev/null
++++ b/tests/unit/test_unit_kv_prefix_exact.py
+@@ -0,0 +1,29 @@
++import pytest
++
++from edb.core.engine import StorageEngine
++from edb.core.keyvalue import KeyValueStore
++
++
++@pytest.fixture
++def kv_store():
++    store = KeyValueStore(StorageEngine(":memory:"))
++    for key in ["user_1", "userX", "User_2", "users", "a%b", "abc"]:
++        store.set(key, 1)
++    return store
++
++
++@pytest.mark.parametrize(
++    ("prefix", "expected"),
++    [
++        ("user_", ["user_1"]),
++        ("User", ["User_2"]),
++        ("a%", ["a%b"]),
++        ("user", ["userX", "user_1", "users"]),
++    ],
++)
++def test_list_keys_matches_the_prefix_exactly(kv_store, prefix, expected):
++    assert sorted(kv_store.list_keys(prefix)) == expected
++
++
++def test_list_keys_without_a_prefix_returns_every_key(kv_store):
++    assert len(kv_store.list_keys()) == 6

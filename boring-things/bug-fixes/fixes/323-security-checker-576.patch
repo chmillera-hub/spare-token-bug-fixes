@@ -1,0 +1,25 @@
+diff --git a/tests/unit/test_run_command_timeout.py b/tests/unit/test_run_command_timeout.py
+new file mode 100644
+index 0000000..c5805a0
+--- /dev/null
++++ b/tests/unit/test_run_command_timeout.py
+@@ -0,0 +1,19 @@
++"""run_command: タイムアウトしたら子プロセスを止め、timed_out の結果を返すこと."""
++
++from __future__ import annotations
++
++import sys
++from pathlib import Path
++
++from security_checker.scanners.base import run_command
++
++
++async def test_command_that_outlives_the_timeout_is_reported_as_timed_out(tmp_path: Path) -> None:
++    argv = [sys.executable, "-c", "import time; time.sleep(60)"]
++
++    result = await run_command(argv, cwd=tmp_path, timeout_s=1)
++
++    assert result.timed_out is True
++    assert result.exit_code is None
++    assert result.stdout == b""
++    assert result.stderr == b""

@@ -1,0 +1,46 @@
+diff --git a/tests/unit/test_github_comment_summary_limits.py b/tests/unit/test_github_comment_summary_limits.py
+new file mode 100644
+index 0000000..fc1537b
+--- /dev/null
++++ b/tests/unit/test_github_comment_summary_limits.py
+@@ -0,0 +1,40 @@
++"""sticky サマリ: Finding の件数の上限と、本文の長さの上限."""
++
++from __future__ import annotations
++
++import pytest
++
++from security_checker.github import comment
++from security_checker.models.enums import FindingStatus
++from security_checker.models.report import Report
++from tests.factories import make_candidate, make_finding, make_report
++
++
++def _report(count: int) -> Report:
++    candidates = [make_candidate(f"c{index}", line=index + 1) for index in range(count)]
++    findings = [make_finding(candidate, FindingStatus.CONFIRMED) for candidate in candidates]
++    return make_report(candidates, findings)
++
++
++def test_findings_over_the_limit_are_counted_in_one_line() -> None:
++    body = comment.render_summary(_report(comment.MAX_SUMMARY_FINDINGS + 2))
++
++    assert "_ほか 2 件は full report を参照_" in body
++
++
++def test_findings_at_the_limit_have_no_overflow_line() -> None:
++    """対になるケース."""
++    body = comment.render_summary(_report(comment.MAX_SUMMARY_FINDINGS))
++
++    assert "件は full report を参照_" not in body
++
++
++def test_body_over_the_length_limit_is_cut_with_a_notice(monkeypatch: pytest.MonkeyPatch) -> None:
++    monkeypatch.setattr(comment, "MAX_BODY_CHARS", 200)
++    notice = "\n\n_(長すぎるため省略しました。full report を参照)_\n"
++
++    body = comment.render_summary(_report(3))
++
++    assert body.endswith(notice)
++    assert len(body) == 200 + len(notice)
++    assert body.startswith(comment.SUMMARY_MARKER)

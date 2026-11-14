@@ -1,0 +1,13 @@
+diff --git a/tests/malformed_input/readers_deployer.py b/tests/malformed_input/readers_deployer.py
+index 8d57be6..6cfdae1 100644
+--- a/tests/malformed_input/readers_deployer.py
++++ b/tests/malformed_input/readers_deployer.py
+@@ -174,7 +174,7 @@ def _codex_refusals(path: Path) -> object:
+ 
+ def _codex_catalog(path: Path) -> object:
+     """The catalog as list_skills reads it, from the lines `codex debug prompt-input` prints."""
+-    return discovery.parse_codex_catalog(text_of(path).splitlines())
++    return discovery.parse_codex_catalog(discovery.output_lines(text_of(path)))
+ 
+ 
+ def _adapter_frontmatter(path: Path) -> object:

@@ -1,0 +1,44 @@
+# Research pages and free bug fixes from Charles and an AI chatbot
+
+Click the folder named 1-research-click-here-first before anything else because that folder holds the pages written for people to read and the other folder holds only program files.
+
+## 1-research-click-here-first
+
+The folder named [1-research-click-here-first](1-research-click-here-first) holds short plain-language pages and documents that a visitor can read in a few minutes each.
+
+- [Voynich manuscript findings](1-research-click-here-first/voynich-manuscript/findings.md) tells who probably made an unreadable book in the early 1400s (five scribes and fifteen calfskins and a castle drawing that points to northern Italy) and how the book was built.
+- [Voynich location guess](1-research-click-here-first/voynich-manuscript/location-guess.md) guesses where the unreadable book was made from eight drawing clues such as a crossbow archer and forked castle walls and baggy sleeves.
+- [Word evolution experiments](1-research-click-here-first/word-evolution/experiments.md) shows what happens when text is copied with small mistakes over and over while a reader picks which copies survive.
+- [Try the word evolution program](1-research-click-here-first/word-evolution/try-the-program.md) explains two ways to run a live program with sliders where ten separate agents evolve text from random letters.
+- [Bible quote builder](1-research-click-here-first/bible-quote-builder) is a folder that holds finished replies built from short Bible phrases and the rules behind the replies and a ready-made prompt for making more.
+- [Three Bible selections in the word evolution experiment](1-research-click-here-first/bible-quote-builder/single-word-stage.md) compares what copying agents build from well-known passages and from ten whole books and from only the words of Jesus.
+- [Agents that rebuild the Bible out of chopped key phrases](1-research-click-here-first/bible-quote-builder/full-record.md) reports what copying agents rebuild when the Bible is chopped into short key phrases of about four words.
+- [Hiding a book by splitting pages](1-research-click-here-first/hiding-a-book.md) shows how much sense is left when a 1000-page biology book is dealt into four piles.
+- [The Mobius strip picture of physics](1-research-click-here-first/mobius-strip-picture-of-physics) is a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
+- [Writing rules for clear chatbot replies](1-research-click-here-first/writing-rules/writing-rules.md) is a set of rules with before and after examples that a person can paste into any chatbot.
+- [Unanswered questions](1-research-click-here-first/unanswered-questions) holds a checkable mistake found in a published number list (OEIS A394252) and a partial answer about when the Turkish para coin stopped being money and sixty-four more answered questions (a medical first-case claim and the word logline and forty-five programming questions and seventeen mathematics questions).
+- [Social media vibes](1-research-click-here-first/social-media-vibes/wifi-block-thread.md) counts what behaviors 364 comments under one person's social media thread asked a homeowner to carry out after she asked whether to block an AI chatbot on her home wifi.
+- [Three needs](1-research-click-here-first/three-needs) holds research on helping people reach food and shelter and deep human connection without force which includes tested nonviolent replacements for six uses of force such as armed police and eviction.
+- [Free bug fixes video](1-research-click-here-first/free-bug-fixes-video.md) points to a short video that shows 371 small ready-made bug fixes for public software projects.
+
+- [Record of the chat behind the research](1-research-click-here-first/chat-record.md) lists every request the repository owner made in his own words and gives the public link to the full chat: https://claude.ai/share/a29d81cb-280d-4d44-a449-e84b9516b4f5
+
+## boring-things
+
+The folder named [boring-things](boring-things) holds program files and patch files and machine-readable lists which means files that programs and software maintainers use and that a casual visitor can skip.
+
+- [The bug fix shelf](boring-things/bug-fixes) holds 371 small AI-written bug fixes for public open source projects and any person or AI model may test a fix and send the fix to the project.
+- [Research program files](boring-things/research-program-files) holds the Python and JavaScript files that produced every number in the research pages.
+
+## How to download everything
+
+Every file here is public and any person or AI agent may download the files for research.
+
+- One zip of every file: https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip
+- Every reading page joined into one plain text file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt
+- A list of every file with a direct download address for programs and AI agents: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json
+- The page named [download-everything](boring-things/download-everything) explains each way to download and holds a short map for AI agents named llms.txt.
+
+## Who made the pages
+
+An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.

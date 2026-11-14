@@ -1,0 +1,25 @@
+diff --git a/contrib/host-audit/hooks/pre-commit b/contrib/host-audit/hooks/pre-commit
+index 6234647..f6e238f 100755
+--- a/contrib/host-audit/hooks/pre-commit
++++ b/contrib/host-audit/hooks/pre-commit
+@@ -11,11 +11,19 @@ if command -v gitleaks >/dev/null 2>&1; then
+   else
+     sub=(protect --staged)
+   fi
+-  if ! gitleaks "${sub[@]}" --exit-code 1 >/dev/null 2>&1; then
++  # 検出 (99) と gitleaks 自体の実行エラー (それ以外の非 0) を区別する (#671)
++  leak_err=$(gitleaks "${sub[@]}" --exit-code 99 2>&1 >/dev/null)
++  leak_status=$?
++  if [[ "$leak_status" -eq 99 ]]; then
+     echo "❌ コミットにシークレットが含まれている可能性があります (gitleaks)"
+     echo "   詳細: gitleaks ${sub[*]} --verbose"
+     echo "   誤検知なら: git commit --no-verify"
+     exit 1
++  elif [[ "$leak_status" -ne 0 ]]; then
++    echo "❌ gitleaks を実行できませんでした (終了コード $leak_status)。シークレット検査は行われていません"
++    [[ -n "$leak_err" ]] && echo "$leak_err"
++    echo "   一時的に外すなら: git commit --no-verify"
++    exit 1
+   fi
+ else
+   # gitleaks が無い場合の簡易パターン検査

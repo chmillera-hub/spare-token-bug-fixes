@@ -1,0 +1,54 @@
+diff --git a/tests/unit/test_registry_capabilities_preset_error_and_output_limit.py b/tests/unit/test_registry_capabilities_preset_error_and_output_limit.py
+new file mode 100644
+index 0000000..1eeb3e1
+--- /dev/null
++++ b/tests/unit/test_registry_capabilities_preset_error_and_output_limit.py
+@@ -0,0 +1,48 @@
++"""resolve_capabilities: プリセットの不正な capabilities と max_output_tokens の引き上げ."""
++
++from __future__ import annotations
++
++from typing import Any
++
++import pytest
++
++from security_checker.config.schema import ReviewerConfig
++from security_checker.errors import ConfigError
++from security_checker.providers.presets.loader import HttpPreset
++from security_checker.providers.registry import resolve_capabilities
++
++
++def _reviewer(**overrides: Any) -> ReviewerConfig:
++    payload: dict[str, Any] = {
++        "name": "r1",
++        "transport": "http",
++        "dialect": "openai_chat",
++        "base_url": "https://endpoint.test/v1",
++        "model": "m",
++    }
++    payload.update(overrides)
++    return ReviewerConfig(**payload)
++
++
++def test_invalid_preset_capabilities_are_a_config_error_naming_the_preset() -> None:
++    preset = HttpPreset(
++        name="broken-preset",
++        dialect="openai_chat",
++        capabilities={"max_context_tokens": "not-a-number"},
++    )
++
++    with pytest.raises(ConfigError, match="broken-preset"):
++        resolve_capabilities(_reviewer(), preset)
++
++
++def test_reviewer_max_output_tokens_above_the_capability_raises_the_limit() -> None:
++    capabilities = resolve_capabilities(_reviewer(max_output_tokens=9000), None)
++
++    assert capabilities.max_output_tokens == 9000
++
++
++def test_reviewer_max_output_tokens_below_the_capability_keeps_the_limit() -> None:
++    """対になるケース. 既定の上限 4096 より小さい値では上限を変えない."""
++    capabilities = resolve_capabilities(_reviewer(max_output_tokens=100), None)
++
++    assert capabilities.max_output_tokens == 4096

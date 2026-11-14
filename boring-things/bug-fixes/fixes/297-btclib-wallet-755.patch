@@ -1,0 +1,18 @@
+diff --git a/src/btclib_wallet/wallet/key_wallet.py b/src/btclib_wallet/wallet/key_wallet.py
+index 8a1a937..2e4e77f 100644
+--- a/src/btclib_wallet/wallet/key_wallet.py
++++ b/src/btclib_wallet/wallet/key_wallet.py
+@@ -4,10 +4,9 @@
+ 
+ """The wallets whose output is the hash of one key, and who signs for it.
+ 
+-`btclib.ecc.bms` says it in its own docstring -- "at signing time, a
+-wallet infrastructure is required to access the private key corresponding
+-to a given address" -- and then has none to reach for. This module is
+-that infrastructure, and no more of it than the sentence asks for: a
++Signing a message for an address needs the private key behind that
++address, and btclib's `bms` module has no way to find it. This module is
++the wallet infrastructure that does, and no more of it than that: a
+ wallet holds a key source, hands out addresses, remembers what each was
+ derived from, and answers which private key signs for one.
+ `sign(address, msg)` is what the three together buy, a message signature

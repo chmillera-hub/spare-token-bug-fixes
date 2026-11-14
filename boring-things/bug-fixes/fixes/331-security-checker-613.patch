@@ -1,0 +1,62 @@
+diff --git a/src/security_checker/providers/process/sandbox.py b/src/security_checker/providers/process/sandbox.py
+index c5c8d73..fc85ae2 100644
+--- a/src/security_checker/providers/process/sandbox.py
++++ b/src/security_checker/providers/process/sandbox.py
+@@ -171,11 +171,15 @@ def created_paths(cwd: Path) -> tuple[str, ...]:
+     (§25.2 の契約テスト 9 番)。絶対パスでこの外に書かれた場合は検知できない。
+     """
+     found: list[str] = []
++    total = 0
+     for path in sorted(cwd.rglob("*")):
+-        suffix = "/" if path.is_dir() else ""
+-        found.append(path.relative_to(cwd).as_posix() + suffix)
+-        if len(found) >= CREATED_PATHS_LIMIT:
+-            break
++        total += 1
++        if len(found) < CREATED_PATHS_LIMIT:
++            suffix = "/" if path.is_dir() else ""
++            found.append(path.relative_to(cwd).as_posix() + suffix)
++    if total > CREATED_PATHS_LIMIT:
++        # 上限を超えた分は件数だけを知らせる (#613)
++        found.append(f"ほか {total - CREATED_PATHS_LIMIT} 件")
+     return tuple(found)
+ 
+ 
+diff --git a/tests/unit/test_created_paths_reports_the_rest.py b/tests/unit/test_created_paths_reports_the_rest.py
+new file mode 100644
+index 0000000..a86102c
+--- /dev/null
++++ b/tests/unit/test_created_paths_reports_the_rest.py
+@@ -0,0 +1,32 @@
++"""created_paths: 上限を超えた分の件数も最後の 1 件として返すこと (#613)."""
++
++from __future__ import annotations
++
++from pathlib import Path
++
++from security_checker.providers.process.sandbox import CREATED_PATHS_LIMIT, created_paths
++
++
++def _fill(cwd: Path, count: int) -> None:
++    for index in range(count):
++        (cwd / f"file{index:03d}.txt").write_text("x", encoding="utf-8")
++
++
++def test_more_files_than_the_limit_end_with_the_remaining_count(tmp_path: Path) -> None:
++    _fill(tmp_path, CREATED_PATHS_LIMIT + 5)
++
++    found = created_paths(tmp_path)
++
++    assert len(found) == CREATED_PATHS_LIMIT + 1
++    assert found[0] == "file000.txt"
++    assert found[-1] == "ほか 5 件"
++
++
++def test_exactly_the_limit_has_no_extra_entry(tmp_path: Path) -> None:
++    """対になるケース."""
++    _fill(tmp_path, CREATED_PATHS_LIMIT)
++
++    found = created_paths(tmp_path)
++
++    assert len(found) == CREATED_PATHS_LIMIT
++    assert all(name.startswith("file") for name in found)

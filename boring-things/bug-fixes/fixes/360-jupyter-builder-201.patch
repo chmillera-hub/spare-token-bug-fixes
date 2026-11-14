@@ -1,0 +1,13 @@
+diff --git a/src/metadata_schema.json b/src/metadata_schema.json
+index 2320fca..6fca7b6 100644
+--- a/src/metadata_schema.json
++++ b/src/metadata_schema.json
+@@ -106,7 +106,7 @@
+     },
+     "sharedPackages": {
+       "description": "Modules that should be shared in the share scope. When provided, property names are used to match requested modules in this compilation.",
+-      "ref": "#/definitions/sharedObject"
++      "$ref": "#/definitions/sharedObject"
+     },
+     "discovery": {
+       "title": "Discovery metadata",

@@ -1,0 +1,40 @@
+diff --git a/modules/hydra/cog.py b/modules/hydra/cog.py
+index 29f99f4..e552606 100644
+--- a/modules/hydra/cog.py
++++ b/modules/hydra/cog.py
+@@ -909,6 +909,7 @@ class HydraCog(commands.Cog, name="Hydra"):
+ 
+                 # 4. Delete tab from sheet using worksheet ID
+                 tab_deleted = False
++                tab_error = "the tab ID was not found on the overview sheet"
+                 if tab_id_found and tab_id is not None:
+                     try:
+                         sh = (
+@@ -922,11 +923,11 @@ class HydraCog(commands.Cog, name="Hydra"):
+                         tab_deleted = True
+ 
+                     except gspread.WorksheetNotFound:  # Report error in final message
+-                        pass
+-                    except gspread.exceptions.APIError:
+-                        pass
+-                    except Exception:
+-                        pass
++                        tab_error = "the tab no longer exists on the sheet"
++                    except gspread.exceptions.APIError as e:
++                        tab_error = f"Google Sheets API error: {e}"
++                    except Exception as e:
++                        tab_error = f"{type(e).__name__}: {e}"
+ 
+                 # 5. Delete overview row
+                 row_moved = False
+@@ -969,8 +970,9 @@ class HydraCog(commands.Cog, name="Hydra"):
+                 if tab_deleted:
+                     status_lines.append(f"- ✅ Tab '{tab_name}' deleted from sheet.")
+                 else:
++                    tab_label = tab_name or target_channel.name
+                     status_lines.append(
+-                        f"- ❌ Failed to delete tab '{tab_name}' from sheet."
++                        f"- ❌ Failed to delete tab '{tab_label}' from sheet ({tab_error})."
+                     )
+ 
+                 if row_moved:
