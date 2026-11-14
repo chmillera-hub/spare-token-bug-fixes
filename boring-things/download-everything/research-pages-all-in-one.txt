@@ -4736,7 +4736,7 @@ Generic phrases (phrases that a program could post as easily as a person):
 - [generic-phrases-10000.txt](generic-phrases-10000.txt) holds 10000 interchangeable comment phrases of six words or more in eight groups such as laughter and agreement and sympathy.
 - [generic-phrases-test.md](generic-phrases-test.md) reports a test of the phrase list against 49525 posts and comments from a public archive and lists five findings.
 - [short-comment-check.md](short-comment-check.md) reports what happens when every comment of five words or fewer is set aside such as removing one row in five from a public archive while giving up about 1.5 percent of the words.
-- [short-comments-to-keep.txt](short-comments-to-keep.txt) lists the short comments that stay in the main pile because the comments invite another person to keep talking. The list has six entries so far which are "go on" and "more" and "continue" and each of those three with the word "please" added at the end.
+- [short-comments-to-keep.txt](short-comments-to-keep.txt) lists the short comments that stay in the main pile because the comments invite another person to keep talking. The list has seven entries so far which are "keep going" and "go on" and "more" and "continue" and each of those three with the word "please" added at the end.
 
 The repository owner's own comments compared with the two threads:
 
@@ -13181,7 +13181,7 @@ The share of short comments also says something about the kind of thread. A thre
 
 ## Short comments to keep
 
-The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists short comments that stay in the main pile. The list has six entries so far which are "go on" and "more" and "continue" and each of those three with the word "please" added at the end such as "go on please".
+The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists short comments that stay in the main pile. The list has seven entries so far which are "keep going" and "go on" and "more" and "continue" and each of those three with the word "please" added at the end such as "go on please".
 
 - "go on" joined the list because each of the 4 whole comments with those words asks another person to keep talking.
 - Zero of the 49525 rows in the public archive are the whole comment "go on". So keeping "go on" adds no stock reactions back into the main pile of the archive.
@@ -13191,6 +13191,7 @@ The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists sh
 - "more" and "continue" joined the list on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. Zero whole comments in this folder are the single word "more" or the single word "continue" so the two entries rest on the owner's judgment and not on a count. The count of "more" and of "continue" as whole rows in the public archive has not been run yet.
 - A comment matches "more" or "continue" only when the single word is the whole comment. So "more of the same" and "no more" and "continue to cope" do not match.
 - "go on please" and "more please" and "continue please" joined the list on 14 November 2026 because the owner of this repository judges that adding "please" at the end keeps each reply an invitation to keep expressing. These three entries also rest on the owner's judgment and not on a count.
+- "keep going" joined the list on 14 November 2026 because the owner of this repository judges that a reply of "keep going" asks another person to keep expressing. The entry rests on the owner's judgment and not on a count.
 - A phrase can join the list in two ways. The owner of this repository can add a phrase by judgment as with "more" and "continue". Or a phrase joins when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
 
 ## What the check cannot do
@@ -13223,7 +13224,7 @@ The five-words-or-fewer check sets short comments aside before reading. A short 
 
 How a comment matches: a program changes the comment to small letters and removes punctuation marks and emoji. The comment matches when the words left over are the same as a line below from the first word to the last word. So "Go on?" matches and "go on lmao" does not match because of the extra word. In the same way "More!" and "Continue." match and "more of the same" and "continue to cope" do not match because of the extra words.
 
-The list has six entries so far. The phrase "go on" joined because a count showed the phrase reading as an invitation to keep talking in every place the phrase was found as a whole comment. The word "more" and the word "continue" joined on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. No count backs the word "more" or the word "continue" yet because zero whole comments in this folder are the single word "more" or the single word "continue". The three entries ending in the word "please" joined on the same day because the owner of this repository judges that adding "please" keeps each reply an invitation to keep expressing.
+The list has seven entries so far. The phrase "go on" joined because a count showed the phrase reading as an invitation to keep talking in every place the phrase was found as a whole comment. The word "more" and the word "continue" joined on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. No count backs the word "more" or the word "continue" yet because zero whole comments in this folder are the single word "more" or the single word "continue". The three entries ending in the word "please" joined on the same day because the owner of this repository judges that adding "please" keeps each reply an invitation to keep expressing. The phrase "keep going" joined on the same day because the owner of this repository judges that a reply of "keep going" asks another person to keep expressing.
 
 go on
 more
@@ -13231,6 +13232,7 @@ continue
 go on please
 more please
 continue please
+keep going
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/wifi-block-thread.md
