@@ -19,3 +19,4 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [meaning-after-role.md](meaning-after-role.md) asks where meaning could live so that losing a job title does not take all of the meaning away and ends with quick points.
 - [asking-a-feeling.md](asking-a-feeling.md) explains what changes when a person asks a feeling such as sadness a question such as "why am I crying?" and stops fighting the feeling and ends with quick points.
 - [accept-not-approve.md](accept-not-approve.md) explains that a person can stop fighting a fact that cannot be moved today and still say "this hurt and I do not approve of the hurt" and ends with quick points.
+- [never-asked-born.md](never-asked-born.md) imagines Christ praying the words "I never asked to be born" on a mountain and imagines an answer from the Father such as "now that you are here I am here to help you" and ends with quick points.
