@@ -1,5 +1,7 @@
 # Research pages and free bug fixes from Charles and an AI chatbot
 
+These pages can also be read as a website at https://chmillera-hub.github.io/spare-token-bug-fixes/ and the pages and the bug fixes were made with the AI chatbot Claude Fable 5.2. The pages cover emotions and nonviolence and meeting human needs for food and shelter and deep human connection.
+
 Click the folder named 1-research-click-here-first before anything else because that folder holds the pages written for people to read and the other folder holds only program files.
 
 ## 1-research-click-here-first

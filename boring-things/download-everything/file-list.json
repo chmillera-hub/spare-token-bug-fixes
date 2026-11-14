@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1124,
- "total_bytes": 92595306,
+ "file_count": 1125,
+ "total_bytes": 92596057,
  "files": [
   {
    "path": ".gitignore",
@@ -2026,11 +2026,20 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 5533,
+   "bytes": 5827,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/README.md"
+  },
+  {
+   "path": "_config.yml",
+   "title": "_config.yml",
+   "bytes": 457,
+   "type": "yml",
+   "area": "top",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/_config.yml",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/_config.yml"
   },
   {
    "path": "boring-things/README.md",

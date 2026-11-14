@@ -1,0 +1,6 @@
+# Settings for the free website copy of this repository.
+# The two plugins below make a sitemap for search engines and add a title and description to every page.
+description: Bug fixes from Fable 5.2 plus free public pages about emotions and nonviolence and meeting human needs for food and shelter and deep human connection plus free bug fixes. Written with an AI chatbot (Claude). Free to read and download.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
