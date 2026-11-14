@@ -98,6 +98,12 @@ Rules for what a reflection or a piece of research is for
   - Before: A person who is lonely could join a game night to be around people.
   - After: A person who is lonely needs someone who wants to know that person's heart and mind and so the person can say out loud "I am looking for deep conversation about what I feel and what I believe".
 
+Rules for writing about emotions
+
+- Look up the nearest emotion in the document named The Emotional Framework before writing a sentence that names an emotion and use the purpose and the need listed there because the purpose says what the emotion is signaling and the need says what kind of plan would care for the emotion. The document is in the folder named emotional-framework inside the research folder.
+  - Before: The person feels annoyed and should try to calm down.
+  - After: The person's annoyance may be signaling that a small boundary is being ignored and so the person can ask the other person "why did you say that" to find out whether the remark was dismissive.
+
 A caring question that hides the reason for asking can lead the other person to answer "I'm fine" for safety and the chance to give support is then lost.
 
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.

@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-14",
- "file_count": 1122,
- "total_bytes": 92543309,
+ "file_count": 1124,
+ "total_bytes": 92595306,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 4666,
+   "bytes": 4959,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -294,6 +294,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/vegeta-scripts.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/christ-voice/vegeta-scripts.md"
+  },
+  {
+   "path": "1-research-click-here-first/emotional-framework/README.md",
+   "title": "Emotional framework",
+   "bytes": 1479,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotional-framework/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotional-framework/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/emotional-framework/emotional-framework.md",
+   "title": "The Emotional Framework",
+   "bytes": 48871,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotional-framework/emotional-framework.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotional-framework/emotional-framework.md"
   },
   {
    "path": "1-research-click-here-first/free-bug-fixes-video.md",
@@ -1990,7 +2008,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/writing-rules-plain.txt",
    "title": "writing-rules-plain.txt",
-   "bytes": 10546,
+   "bytes": 11223,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/writing-rules-plain.txt",
@@ -1999,7 +2017,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/writing-rules.md",
    "title": "Writing rules that make chatbot replies easier to read",
-   "bytes": 11024,
+   "bytes": 11701,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/writing-rules.md",
