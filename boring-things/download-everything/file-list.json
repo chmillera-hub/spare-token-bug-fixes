@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1141,
- "total_bytes": 92690771,
+ "file_count": 1142,
+ "total_bytes": 92693958,
  "files": [
   {
    "path": ".gitignore",
@@ -586,7 +586,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 7650,
+   "bytes": 7947,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -789,6 +789,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/quiet-room.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/quiet-room.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
+   "title": "Publishing at the speed of reading: what changed between a monastery scribe and a spoken \"upload\"",
+   "bytes": 2890,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/sentence-travels-alone.md",
