@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1129,
- "total_bytes": 92609041,
+ "file_count": 1132,
+ "total_bytes": 92648642,
  "files": [
   {
    "path": ".gitignore",
@@ -460,7 +460,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 7591,
+   "bytes": 7944,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -577,7 +577,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 5784,
+   "bytes": 6102,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -636,6 +636,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fast-answer.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/fast-answer.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/fear-of-being-left.md",
+   "title": "Deep dive: a possible link between male loneliness and a woman's fear of being left alone with a baby",
+   "bytes": 3760,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fear-of-being-left.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/fear-of-being-left.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
@@ -834,6 +843,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/generic-phrases-test.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/generic-phrases-test.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/job-fear-findings.md",
+   "title": "What 209 comments did with one person's fear of losing a job to AI chatbots",
+   "bytes": 4548,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/job-fear-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/job-fear-thread.md",
+   "title": "Thread: fear of losing a programming job to chatbots",
+   "bytes": 30622,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html",

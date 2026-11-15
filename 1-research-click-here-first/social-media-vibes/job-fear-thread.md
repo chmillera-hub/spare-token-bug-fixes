@@ -1,0 +1,219 @@
+# Thread: fear of losing a programming job to chatbots
+
+An AI chatbot (Claude) wrote this page from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled.
+
+## The post
+
+My coworkers and I stopped typing program text by hand so long ago that I cannot name the last day when one of us did. Releases go out faster than ever and fewer defects show up. Plans and design choices now travel between people mostly as documents that one chatbot drafts and another chatbot reads which means the human share keeps shrinking. I put many years into schooling and practice and staying current and for the first time I feel simple to swap out and that frightens me. I like what the tools allow and yet I seem to be helping to remove my own livelihood. What are other people doing to prepare? New skills or a different field or a business or other income? If this work stopped paying within three to five years then where would your time and money and energy go today?
+
+## The comments
+
+- The same squeeze opens doors at small and midsize firms that could never afford a team. I visited a food plant where a finance chief spends thirty hours a month building reports in a spreadsheet and the chatbot was unreliable in untrained hands. One expert with a chatbot could make real progress there. I hope such firms absorb the people whom large firms shed.
+- You are already living in your future.
+- I am a beginner with one year of paid work. My answer for other beginners is to stay curious and keep learning. A beginner today is expected to own a whole feature including the business reasons behind the feature. None of this would motivate me if I did not love the work. The constant change is exhausting sometimes and so is the constant talk that beginners are suddenly unneeded. I expect a revival of beginner hiring. Tell me if I am wrong because I want to learn from senior people.
+- Operations roles will merge into the programmer role and the number of positions will drop rapidly.
+- That last sentence is the one that counts. Telling people to just get better equals the old argument about pulling yourself up by your own bootstraps. That works for some and the field still shrinks and people are out of work.
+- (a link to a video) A chatbot made this and I truly liked the video. The world is done for.
+- Going from full human involvement to four fifths is one thing. The last stretch is very different. Do you think your manager will sit and prompt? Engineers are still needed.
+- I do not think a hedge exists. Software work is being targeted for automation and other knowledge work is next. The silver lining is making things for the joy of making which does not help a career.
+- To be frank I must have been a chatbot ever since I learned to write English.
+- Why do these machine drafted posts keep getting put up and what is anyone supposed to gain from reading them?
+- Laughing at the junk post about supposedly being replaced by a chatbot. Junk score: nearly ten out of ten.
+- Or be ambitious enough to go for chief executive.
+- What infrastructure and can you say more?
+- Who said cheap? The chatbot company aims to replace a huge share of workers and will not accept one percent of what those workers were paid. Trillions in investment cannot be recovered with low prices forever.
+- Half a century of computing history.
+- That overseas model is also subsidized.
+- The lab reported a fivefold gain in compute efficiency in half a year so I would not bet on price hikes given the fierce rivalry. I do think programmers are safe though for other reasons.
+- I reject the common belief that chatbots will get costly. Stronger models already exist inside the labs and running a finished model is a small share of a lab's bills and chips keep improving. Chatbots at today's ability will be dirt cheap provided clean energy gets solved.
+- I moved toward business development because other firms want to talk with a human and not with our chatbot. Oddly the best interface for chatbots is a text editor and a command line and few people handle those well.
+- I only began coding because of chatbots. Shift your main skill from coding to thinking. The tool has no human desire and what humans want matters most. Become an expert at wanting an outcome.
+- What is a human go between? One that adds only delay?
+- Real question. Everyone ships ten times more so how does that turn into value that can be measured?
+- This is what the doubters who call everything junk fail to see.
+- My situation matches the poster's. No hand typed code in a long while and quality is rising. I am not very worried because the field was always competitive and there was always a gap between highly skilled engineers and middle workers who pumped out code without thought. That gap is now visible. Passion matters more than ever and this work is my hobby around the clock. I am going deeper into system design and quality tooling and agent harnesses. The part I cannot answer is beginners. If middle roles vanish then how does anyone become senior? I was weak when I finished school and I learned from the right people. I do not know what that path looks like now.
+- Ten years in and I started thinking about my next profession. I agree with the message whoever typed the post.
+- Denial is more than a river.
+- I won several solo contests and I work at a giant firm and I think engineers as people know them are nearly extinct. Was I poor at the job?
+- This post could have been a short email and I dislike long generated posts. For anyone worried about a job: the work will shift from knowing syntax to handling the flood of software arriving over the next years. Most of the world does not know what a terminal or a database is.
+- So pointless. This place was among the last decent spots for self expression and careless people are wrecking the place.
+- This post sounds like the chatbot wrote the whole post.
+- Open models will match today's best within six months. Then a machine that costs as much as a car can run them all day at many times a human developer's output for a fraction of the cost.
+- Maybe the writer read so much chatbot text that the writer's own sentences started to sound similar.
+- The squeeze is real and slow. Cheaper software also raises demand for software.
+- Put in more effort. Describe the job and what was automated and which defects the chatbot still makes and whether more customers arrived. Also make the post readable.
+- Keep dreaming because billion dollar systems at the biggest firms are now mostly machine written.
+- This forum is an echo chamber for people who code by vibes.
+- Sounds like your whole product is worthless ha.
+- Truly (and the word truly is the part that matters).
+- Most of the replies are chatbot output too.
+- Just become a professional athlete and earn millions and be famous. Not sure why anyone complains when options exist.
+- Your job may vanish. The tool refuses to write forbidden software and you can still write in a plain editor. What if the data centers go dark one day? A human brain that writes great code will be rare. Hang in there.
+- Power grids are not built for this and utilities say new data centers are five or more years out. Expect a dip in the middle years. The stock debut will show how much confidence the public has.
+- Embrace the tech debt and other people's anxiety.
+- I have used that exact admission phrase for years. Each complaint that treats the phrase as proof of a chatbot stings a little more because I would be found guilty too.
+- The value is in the product and not in pumping out code. How does your employer earn money and where do you fit? I moved from developer to product and the newest model makes dumb product decisions often.
+- Another comment I wish were true. I doubt that any of this slows down.
+- Those products cost more because they do more. The cost of each unit of work fell a lot.
+- Graphics cards and memory and nuclear plants and chip factories and flights and cars and ride apps and television and phones and medicine. Products get costlier once sellers turn them into closed systems with recurring fees.
+- Dear chatbot please write me a forum post.
+- Chatbots show no talent for asking whether a thing should be done and they have no moral judgment. People feared books and calculators and the internet and those changed people for the better. I already see my new job title and I am leaning in.
+- These are the glory days of cheap tokens and they will not last so use them while they exist.
+- Developers or executives with no technical background?
+- Same number of developers employed? Most firms bottlenecked?
+- Even if the company must profit after going public open models exist so chatbots will not slow down because of cost.
+- The novelty will fade because coding was tedious for most people. Nobody can tell the finance team to maintain its own accounting system. People will still buy software and those who love the work will be here.
+- Everyone is a technical product manager now.
+- Same situation except my last employer ended the project and no longer needed me. Then the employer laid off more people while adopting chatbots. Those who still have a job can only hope to be the last ones cut. Aim for the role that runs the whole project and talks with clients because ordinary full stack work is already obsolete.
+- To be frank I lose nothing by skipping posts like these.
+- Programmers undersell themselves. There will be a market for simply understanding what these tools generate because liability demands that people understand important code. The idea that the human mind is losing the role of engine is frightening and yet judging and taste and final safety checks remain human roles.
+- Scare more people into quitting so that the chatbot takes over the remainder? My guess is that the poster already swapped a chatbot in for the poster.
+- Think of horse riders who learned to drive cars.
+- Limited compute is another reason for humans to stay involved because human brains will be cheap by comparison for many tasks.
+- The sentence where the writer admits being scared was where I stopped reading.
+- Hopefully that is the new path where programmers become product owners and agent coordinators.
+- Workers will be the costliest part of any chain and will get costlier as machines and electricity get cheaper.
+- I think this magic moment will slow down a lot. The magic arrives at almost no cost while firms burn billions. Once the company sells stock to the public profit will be required and token use is growing faster than the price per token falls.
+- What technology gets pricier as the technology matures?
+- Engineers will become hyper specialized auditors. I found a tiny niche in simulating water with maybe fifty experts worldwide. Everyone will be pushed into a narrow niche like that.
+- The road to profit already exists for the chatbot company so nothing will slow and things may speed up.
+- Chatbot posts are a treat. The aim is for wealthy owners to mine the skills of experts and swallow the earnings and leave wreckage behind. Adopting a home voice assistant for ease works the same way because the assistant then gets used to watch private health details.
+- Some days I suspect that the chatbot company pays people to put up posts like this one.
+- Tech is broad so pick another direction. I will try industrial controllers.
+- Running the model is not the sole cost because labs must keep training new models to stay ahead. That matters more for lab finances than for buyers.
+- The chatbot company plants fake grassroots praise everywhere. I am worn out by hustle ads where someone wakes at five and exercises and then launches a social media business with the newest model. The company has built this decade's version of brand superfans whose whole identity centers on usage windows.
+- Chatbots will keep getting cheaper and I do not understand people who say otherwise.
+- Fear farming.
+- Your experience makes you better with the tools. People who never typed a line will stay behind unless they learn.
+- The funny part is that a chatbot wrote even this post and I hold nothing against that choice.
+- There used to be a job title for a person who designs software structure and I believe every programmer will become that.
+- I use chatbots and I still hold that any message meant for a forum or a letter or a book deserves the writer's own hands.
+- Nuclear power.
+- That one line is carrying the weight of the entire post.
+- I quit reading at the line that sets up a dramatic reveal because that line sounds like a cheap old model wrote the sentence.
+- The count of publicly reported security flaws found last month equaled a third of the all time total and most of those flaws predate chatbots. Humans were poor programmers too. People without experience will leak secret keys.
+- Evolve because that is all anyone can do. You can now do what ten people did. Everyone is forced into this within two to five years.
+- Cost per unit of intelligence falls sharply each year and margins on paid access are high. Nobody at this scale will sell at a loss.
+- I disagree though I wish that what you said were true.
+- Design decisions still need people and soon maybe not. The next step is customer contact which I dislike so I hope that gets automated too. If I lose the job I love then I sort of hope everyone loses theirs so that officials are forced to act.
+- And here is the wild part: the job was never about building software.
+- How can anyone tell that a chatbot wrote the post?
+- Scared of chatbots and yet uses a chatbot to write the post.
+- Why do humans run the starship in that famous show when the onboard computer can answer what the humans cannot?
+- Go away is my advice to the poster.
+- Thirty years of platform migrations and chatbots are one more step up. Many coders prefer to switch fields and not broaden into operations. The long term risk for coders is operations people who use chatbots to write code.
+- Three to five years and then society falls within a few more years because capitalism does not work with full automation.
+- Nuclear power is sitting right there.
+- Yes the profit rises. Sales staff promise features that get faked up for clients in a day. Customers accept small defects in exchange for speed. One person's workload is now wild and the money is rolling in.
+- I have not typed a line of code either because I have been unable to get hired for three years. I will never use chatbots for code. I do like image generators because they cover my missing art skill for solo game making. I started studying music theory to regain the feeling of knowing something rare.
+- Foundations and deep engineering knowledge matter more now and who has them is obvious. Expectations for beginners are bigger. Large firms that plan ten years ahead will still invest in beginners because doing so is cheaper.
+- A first step could be writing forum posts by hand because doing so is soothing and lets feelings out.
+- Did you think you were irreplaceable before?
+- I felt the doom a year ago. Then I heard someone say that a person who knows the tools takes the job and the tool does not. I chose to be that person. I pushed agents for months and built software for a family business without typing a line. People go through grieving the loss of what they loved and the security that the work brought. Then people end up excited or end up resentful and left behind. The feeling is like the top of a rollercoaster. Learn the tools deeply and become the local expert.
+- So has the profit that your team brings in shot up too?
+- Painful to watch the bar rise after years spent on a skill set that is no longer enough. On the other side my learning sped up hugely with language models. The bar is higher and so is the speed of reaching the bar.
+- So profit provably rose at the firm and you still fear being let go?
+- You are right to worry and results depend on the person using the tool. Your years of investment keep you valuable. Twenty years in and I am not worried.
+- I began building for myself and serving customers with infrastructure that cannot be produced by vibes.
+- The poster probably typed three short lines about using chatbots for everything and feeling swappable and then asked the chatbot to turn those lines into a forum post.
+- The same goes for songs and movies in my view because chatbots are great for jobs and programming and I am strongly against chatbots in songs and paintings and novels.
+- So you moved into construction? Which trade?
+- Getting an idea to production quality will always need someone who knows the work because the tool lacks the full context.
+- There is a big gap between an experienced engineer with a model and a novice who ends up prompting and waiting and hoping. One contract of mine was repairing a mess that a chief executive made. I am making a game now and I struggle to express my vision for the art.
+- I show up for the replies more than for the headline.
+- Same here with prompts and reviews. My last hand typed commit was eleven months back. Skills are rusting fast. Is that the new normal?
+- Open models lean on copying the frontier models. What I expect to end is the cramming of chatbots into every corner of the internet.
+- Very cheap in the long run. In the middle years I can picture a price jump because rivals undercut each other until a bubble bursts and the survivors need profit. Anyone can pump out junk now and only people who know sound practice can steer the tool toward stable software.
+- A chatbot told to deploy with no testing workflow will break the live system again and again.
+- You specifically have reason to worry because you cannot even post without a chatbot.
+- Sorry and yes you are automating yourself out of a career. That is the position you are in and not your fault. The evolved roles are technical management which is also being taken over. Every position is being chipped away.
+- I scrolled for minutes and this appears to be the single reply that tries to answer the poster's question.
+- Development becomes a kind of management where a person stays responsible and delegates the legwork to agents that do not care about time off or raises. Does the job market shrink? Yes as long as the same things get built. And if a person enjoys coding nobody stops that person. The hobby can no longer be the job which is true for most people anyway.
+- Wow what a fake grassroots post.
+- The glory days are behind this field. Like barrel makers and shoe repairers the craft is being automated. Belief that the field is not shrinking looks like wishful thinking and I would not advise a student to enter computing until things settle.
+- This is the future so embrace the change. Be good at talking with people because that puts you ahead of most technical folks.
+- True for low stakes apps. I doubt that banks and defense and medicine will accept sealed boxes.
+- So power use and water use and data center costs change nothing? A decent computer now costs triple what one cost last year and a graphics card costs about as much as a car and newer models burn through tokens faster.
+- Except the customer should also be a chatbot.
+- More often than a person might guess.
+- I agree and I think the squeeze is being made light of. A firm that needed a hundred people to review things may now need ten. The poster's finger is on the pulse and the questions are fair.
+- Stop believing these fully fake propaganda posts because openings for programmers in this country keep rising. Do not buy the chatbot company's stock offering.
+- The career is gone in about fourteen years because even small yearly gains compound.
+- I am just starting to learn with no degree and no formal training. Seeing veterans doubt their future makes me wonder what that means for me. Is this still a realistic path or would I be foolish to put time and money in? I will do the work and I cannot tell where to aim.
+- But here is the thing:
+- I wish I could do what you can do.
+- Welcome to the party friend.
+- Why does everything now happen truly or quietly?
+- When engineers think they will be obsolete I just know they were poor at the job.
+- Hand typing code becomes obsolete and developers move up a level to designing features and managing agents which opens doors for businesses that were bottlenecked. I see myself changing from a woodworker who carves each piece to a designer of patterns that a machine cuts.
+- Odd take. By next year software engineering roars back at human speed.
+- I have grown to flat out hate that phrase.
+- What about ordinary people who are not geniuses like you? Stop thinking so narrowly.
+- Product decay will start right after the big chatbot companies sell stock to the public so do not worry.
+- Nearly all future software will be sealed boxes that no human reads. I have not typed code in twenty months and I fumbled a basic version control command the other day. The skill decay is real.
+- One task where people still beat chatbots is writing quality posts. A person who hands off weak work because the chatbot is fast will get swapped out. I use chatbots for every line and the first draft often needs heavy repair.
+- Every time without fail.
+- The final stage is to sell your software to chatbots so that only chatbots use the software. Then the unneeded human link is removed from the chain.
+- Even if a chatbot produced the text the worries inside are still worth saying out loud. The message matters more to me than who typed the words.
+- This reads as chatbot output and I find this site littered with that kind of trash.
+- Your firm ships garbage or this post is bait. No company goes fully automatic and ships sound code. Security holes and missed design norms need more human checking than before.
+- When was the last time you wrote a forum post on your own?
+- Any high paid specialist job done at a computer will see massive automation pushes within five years. None of those jobs are safe.
+- I am no smarter than average. A thousand hours on any subject makes a person world class.
+- Same feeling and I try to act early. Less learning of new frameworks and more consulting and sales and understanding business problems because many businesses have no technical knowledge and no wish to build anything. Someone proudly showed me a chatbot solution that was still built on a shared spreadsheet. Worrying never helped anyone and preparing has.
+- This is another cold war style race so regulation sits in the back seat. Brakes get applied only once things go badly and the dangers are real.
+- The good enough work of top models is not yet good enough. The last fifth matters in tough business competition so senior staff are needed for three to five more years.
+- I cannot read this nonsense anymore. I am tired of self described developers who say they spent decades building themselves up and still cannot see where they fit in the next step.
+- I took real pride in coding ever since I was small decades ago. I am far more productive with an agent and the pride and the joy are gone. I love and hate the tool. I need a new hobby and may return to piano.
+- Interesting so please say more.
+- Given the finances of every player the spending cannot last. Warehouses of graphics chips sit unpowered. Chatbots are here to stay and so are programmers. Do not throw away years of career or switch fields. Deepen system design and security and data handling and the debugging of huge codebases because when underpriced tokens end real engineers will be needed to repair today's random disasters. I work in a paper based office far from tech and tinker with the coding chatbot for fun and began learning a low level language in my forties. Imagine how valuable existing experience is.
+- The field is turning into something else. Firms need developers who understand the product and no chief executive will open a coding chatbot to build a tech stack. But if every team shrinks to one person then not everyone keeps a job in this field.
+- That point about taste and final judgment lands because the job is knowing what the program is supposed to do.
+- That description sounds so sinister. Programmers are often paid quite well and nobody is taking their skills by force.
+- Some industries only fight over a fixed market and compete on price. Other industries are limited by delivery pace and those will grow.
+- You are fooling yourself if you think operations work is safer because chatbots automate that work faster than coding.
+- I barely code now. I direct the structure and review every line and build agents for data teams. I hope I am not fired soon because I enjoy building these pieces.
+- The stranger part is that the account is a decade old.
+- Most software people deny that chatbots will take their jobs. Layoffs at big firms suggest otherwise.
+- More than all of them will be obsolete. Also no lawyers or designers or doctors. Feel for humanity since humanity will be obsolete.
+- A well known researcher says that code is now one more layer of abstraction.
+- Shift upstream toward architecture and written design records.
+- The same crowd once answered posts like this in mocking capital letters that chatbots are dumb and will never replace programmers. Those people may be smart and they lack the vision to see five minutes ahead.
+- But the poster had three hundred percent growth because users went from one to four.
+- The opposite is showing. Models use more tokens and yet the price per token keeps dropping. Swarms of cheaper models led by one top model cut usage further.
+- A huge benefit. You know how to build with agents so you can run a whole company alone. Only a few tens of thousands of people on Earth can do that.
+- Lucky for you nothing is real because the poster is a bot.
+- My longtime teammates joke that the chatbot company trained the model on twenty years of my messages because the cheerful tone and the long dash and the sentence rhythm match mine. I cannot argue with them.
+- Plainly a chatbot post.
+- That is already a thin slice of all the software that exists.
+- For my team yes. Experiments and features move faster and revenue trails behind because of contracts and sales cycles.
+- Agreed because I notice myself using the pattern where a sentence denies one thing and then announces another thing.
+- And a language model will later pull sources from this very site which closes the circle.
+- Unless a person knows how to manage development that person cannot yet get a mature product out of chatbots because engineers still build the harness and the documents. So yes there are a few more weeks until engineers are unneeded.
+- What is that belief based on?
+- Paid design work for business clients can gain from chatbot help layered over the designer's own taste because building models and animating figures and laying out print faster is no different from a programmer using the tool.
+- You disagree and then you agree because everything depends on solving clean energy. Cost is not made only of cash.
+- If your whole ability is turning a specification into code then you will struggle. Raise your ambition because the old job was small engines and the new job is whole factories.
+- I am not sure because one low cost overseas model is remarkably cheap.
+- Similar to hiring many veteran programmers because users of the tool become managers and product leads.
+- I was replaced by a chatbot and let go in early autumn at a large property firm. About a hundred engineers before and five now. One day and you are not needed anymore.
+- The coding plan is sold at a deep discount today at maybe a twentieth of the business rate and that discount could end tomorrow.
+- More of a sideways move where people who are fooling around stop paying and businesses pay more.
+- How can adoption of a technology just slow down? When has that ever happened?
+- So the objection is to low effort junk which existed in creative fields long before chatbots and is simply more common today.
+- I am fine with tools assisting steps of a creative process. What I reject is a finished piece made from one typed request by someone with no craft who then claims the title of artist. I do not want to hear anybody's generated songs.
+- If this tool replaced you then you earned the replacement. Use a better model next time so the tells are less obvious.
+- This reply belongs at the top.
+- People with this fear have not been around long enough to know that the field was always cyclical. The next job could always have been the last.
+- At some point why would a developer do this and not a project manager? And does the need for developers drop by three times or four times or ten times?
+- If a human is supposed to read the text then a human should be the one who writes the text.
+- I retired at fifty a few years ago so I am spared from facing this. Then language models arrived and now I build custom software for my own use in a language I never learned. I spend my time specifying what I want and testing the results. I would focus on user experience and detailed specifications.
+- Nine in ten will be obsolete because of chatbots and because customers will build their own systems. I feel for engineers since most will not be in development a year from now.
+- Posting chatbot text seems disrespectful to this group so why do that? I asked a chatbot for the odds and the answer was roughly eight in ten that the text was machine written or heavily polished because of the tidy template and the repeated favorite words and the row of questions and the lack of typos.
+- Is running cost really the small share? I heard that running a model is no longer as cheap as early on and I would read an article about that.
+- I swing between expecting a bloodbath and expecting things to work out. The tool can do most of what I do and clients still pay me. What if the economy breaks down and everything I set aside means nothing?
+- Treat work as a means to live that lets you return to the root of being human which is farming. Everything else is false.
+- I am applying in another city where there are openings. The people there think their business is chatbot proof.
+- Everyone needs sharper junk detection on social media. Anyone posting in a chatbot forum should spot chatbot output at once when the line about being scared is sitting in plain view.
+- A reassuring take. Maybe things will be fine for people who treat this work as an around the clock hobby. Wild times.
+- A hobby project took me a hundred hours by hand a year and a half ago. With the chatbot I had a working program in under two hours.
