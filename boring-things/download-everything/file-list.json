@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1138,
- "total_bytes": 92665549,
+ "file_count": 1140,
+ "total_bytes": 92686175,
  "files": [
   {
    "path": ".gitignore",
@@ -1333,7 +1333,7 @@
   {
    "path": "1-research-click-here-first/three-needs/README.md",
    "title": "Three needs",
-   "bytes": 825,
+   "bytes": 1450,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md",
@@ -1356,6 +1356,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/replace-force.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/replace-force.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/systems-ai-would-need.md",
+   "title": "Which systems an AI model would need to reach to get one hungry person fed and housed tonight",
+   "bytes": 16879,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/systems-ai-would-need.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/systems-ai-would-need.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/what-blocks-dinner.md",
+   "title": "What blocks dinner and a dry bed for one hungry person when the answer already exists",
+   "bytes": 3122,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/what-blocks-dinner.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/what-blocks-dinner.md"
   },
   {
    "path": "1-research-click-here-first/unanswered-questions/README.md",
