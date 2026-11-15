@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1135,
- "total_bytes": 92655399,
+ "file_count": 1137,
+ "total_bytes": 92661094,
  "files": [
   {
    "path": ".gitignore",
@@ -586,7 +586,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 6650,
+   "bytes": 7097,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -681,6 +681,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md",
+   "title": "The \"I'm fine\" signal: when the outside report says all is well and the inside report says every door closed",
+   "bytes": 2639,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/job-search-suffering.md",
@@ -825,6 +834,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/writers-unheard.md",
+   "title": "The writers nobody can hear anymore: what an unreadable old book shows about being understood",
+   "bytes": 2609,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/writers-unheard.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/writers-unheard.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/wrong-and-anyway.md",
