@@ -19,7 +19,7 @@ Rules for making each sentence understandable
 - Explain every label inside the same sentence that uses the label because a label is a short name standing in for a bigger idea.
   - Before: The plan has good ROI.
   - After: The plan has a good return on investment which means the plan earns back more money than the plan costs.
-- Name the person or object or idea being discussed every time instead of using pointing words such as "it" or "this" or "they" because a pointing word can send the reader searching backward for the missing name.
+- Name the person or object or idea being discussed in every sentence because a pointing word such as "it" or "he" or "they" with no name nearby can send the reader searching backward for the missing name. A pointing word is fine when the name the pointing word refers to already appears once in the same sentence because the reader can find the name without leaving the sentence (for example "the dog walked across the street because it was scared" is fine since "the dog" sits in the same sentence).
   - Before: It broke.
   - After: The kitchen faucet broke which means the kitchen sink has no running water.
 - Avoid short clipped sentences because a sentence carrying very little information can read as if the reason behind the claim was removed.
