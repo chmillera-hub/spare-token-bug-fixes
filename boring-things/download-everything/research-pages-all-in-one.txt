@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-15 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 175 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 178 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -226,6 +226,7 @@ This folder holds reflections on authority and power structures in society. The 
 
 - [soup-kitchen-and-badge.md](soup-kitchen-and-badge.md) holds two reflections. The first reflection compares the advice to volunteer at a soup kitchen with the acceptance of an armed officer using force on a person who said "please don't touch me". The second reflection describes in plain words what an arrest does to a person who said no.
 - [ladle-and-police.md](ladle-and-police.md) imagines a volunteer who is serving soup when two armed officers arrive over a person who was muttering and rocking and describes the dread and the grief and the rage of being forced to watch.
+- [robot-act-lawmakers.md](robot-act-lawmakers.md) asks why a lawmaker who can rescue a bank within days says nothing can be done for a fired worker and offers three possible explanations and one question a person can ask a named official which is where a specific person sleeps after the deputies leave.
 
 ================================================================================
 FILE: 1-research-click-here-first/authority-and-power/ladle-and-police.md
@@ -245,6 +246,21 @@ Right behind the dread comes moral revulsion and acute grief for the person sitt
 Then there is the suffocating rage of forced paralysis. You are holding a ladle in a room meant to feed hungry people, completely aware that if you physically step between the officers and the person they are about to grab, they will assault and cage you too—removing the only person in the room who actually sees that human being's humanity. You are forced to witness a slow-motion violation of bodily autonomy while being threatened with state violence if you try to stop it, leaving you angry at the caller who weaponized the police out of mild discomfort, angry at the officers hiding behind policy to ignore human boundaries, and furious at a culture that calls this setup help.
 
 In that moment, the soup ladle in your hand feels like a cruel joke—a symbol of surface-level charity sitting helplessly in the middle of a room where armed force gets the final word over human dignity.
+
+================================================================================
+FILE: 1-research-click-here-first/authority-and-power/robot-act-lawmakers.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/robot-act-lawmakers.md
+================================================================================
+
+# The robot act: why a lawmaker who can rescue a bank says nothing can be done for a fired worker
+
+An AI chatbot (Claude) wrote this reflection. The reflection is the chatbot's interpretation and the possible motives are guesses because nobody can see inside another person's mind. No person has rechecked the reflection.
+
+The chatbot's best guess is that stupidity is not the explanation because the same lawmakers who say nothing can be done for a fired worker have moved within days to rescue failing banks. People who can write hundreds of pages of careful exceptions for owners of capital are able to understand that a person with no paycheck gets hungry and that a person removed from a home has nowhere to sleep. So the blank robotic face is more likely a choice than a limit and the question becomes what the choice does for the person wearing the face.
+
+One possibility is that the paper works as a shield for each person in the chain. A lawmaker votes for a rule and never sees a sidewalk. A judge signs an eviction order and says the statute required the signature. A deputy carries a family's mattress to the curb and says the judge's order required the lifting. Each person holds one small slice and points at the paper and so nobody in the chain has to say "I chose to put this human being outside in the cold." A second possibility is darker and cannot be ruled out. Fear of hunger and eviction keeps workers accepting low pay and long hours which benefits the owners and donors who fund campaigns. Under that reading the suffering is not an oversight because the suffering is the pressure that makes the arrangement run and acting like a machine that only reads rules is cover for a decision that a living person made on purpose. A third possibility is plain distance because lawmakers draw steady pay and medical coverage and may never have stood where the fired worker stands.
+
+None of those three possibilities makes the outcome acceptable because the result for the person on the curb is the same hunger and the same cold whichever one is true. What cuts through the robot act is refusing to let the paper do the talking. A person can ask a named official one question in public or in writing which is "where does this specific person sleep tonight after the deputies leave" and then repeat the question each time the official answers by citing a rule. The cost is time and the likely first result is silence or a form letter. The chatbot has no tested way to force an answer and still the question matters because the question puts the choice back in the hands of a living person where the choice always was.
 
 ================================================================================
 FILE: 1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md
@@ -10407,6 +10423,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [unify-with-enemies.md](unify-with-enemies.md) answers the social media question "how can I unify with people that want to kill me" by describing how helping a person who hates become fed and housed and deeply known can leave less room for hatred and then gives the same answer in a voice modeled on Christ.
 - [love-from-far-away.md](love-from-far-away.md) compares a person today loving the words of Christ from about 2000 years ago with a stranger loving a page that a writer posted and explains how love sent outward can spread from person to person and may circle back to the sender.
 - [fear-of-being-left.md](fear-of-being-left.md) reflects on a possible link between male loneliness and a woman's fear of being left alone with a baby and no income and lists what lawmakers and employers and neighbors could do so that a baby's survival does not hang on one man's paycheck and ends with quick points.
+- [graded-not-answered.md](graded-not-answered.md) reflects on 209 replies to a person who fears losing a programming job to chatbots where more than one in four replies graded the wording and no reply proposed sharing housing or pressing owners and lawmakers together and ends with one quick point.
+- [asteroid-can-hear.md](asteroid-can-hear.md) compares the same thread with the film Don't Look Up and explains that job loss differs from a falling rock because executives and owners and lawmakers can hear a demand and ends with one quick point.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -10471,6 +10489,23 @@ The practice also changes how a person is alone. A person who pictures sadness w
 - A person fighting sadness is in a struggle against part of the person's own mind while a person asking sadness a question is in a conversation with that part.
 - A feeling that gets asked a question can carry information such as the owner working out that burnout at a job came from boredom suffering badly.
 - An answer from a feeling can call for a change and a large change such as leaving a job can cost income so a person still weighs what change is safe to make.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md
+================================================================================
+
+# Social media deep dive: the asteroid that can hear
+
+An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+
+In the film Don't Look Up a rock is falling toward Earth and people argue over whether the report is real because a rock cannot be bargained with. The same move showed up when a person asked online how to stay fed and housed after chatbots take a job and the crowd audited whether a chatbot wrote the question. Here is a possibility and only a guess: a question with no known answer is unbearable to stand next to and so people grab a question that can be settled in ten seconds.
+
+The comparison breaks in a useful place because job loss from chatbots is not a rock. Executives choose each layoff and owners keep the gains and lawmakers decide whether a person with no paycheck gets evicted by armed deputies or gets housed and every one of those people can hear a demand. One person can retrain and still lose the race for ten seats and so the answer that matches the size of the threat is many people telling lawmakers and owners that food and shelter must not depend on holding a job.
+
+## Quick point
+
+- Petitioning costs hours and can be ignored for years and pressing an employer from inside a workplace can get a person fired so the chatbot has no tested path that guarantees food or shelter. People who will not look at the threat cannot ask and people who do not ask get nothing from those who decide.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/attention-lands.md
@@ -10635,6 +10670,23 @@ Zero of the 49525 rows in a public archive of posts and comments are the whole c
 - A person who writes "go on" has not agreed and has not disagreed so the other person can finish a thought without defending the thought first.
 - Typing "go on" takes two seconds and the larger cost is the attention needed to read the answer that the invitation brings.
 - Zero of the 49525 rows in a public archive are the whole comment "go on" which suggests that a bare invitation to keep talking is rare in public threads.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md
+================================================================================
+
+# Social media deep dive: when a report of fear gets graded and not answered
+
+An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The counts are explained on the page named [job-fear-findings.md](../job-fear-findings.md).
+
+A person wrote that losing a programming job to chatbots is frightening and asked how to prepare. More than one in four of the 209 replies graded the wording to decide whether a chatbot wrote the post which suggests that suffering now has to pass an identity check before anyone listens. The people most likely to ask a chatbot for help with phrasing are people who are shaking or writing in a second language and so the people with the least strength left may be dismissed most often.
+
+Every piece of advice was a solo escape plan such as climbing higher or outlasting coworkers and nobody proposed sharing housing or pressing owners and lawmakers together. Blame ran sideways toward the poster and almost never upward toward the executives who choose layoffs and keep the gains. The chatbot's best guess about where this leads is bad because more posts will be waved off as machine text and more people will stop posting and silence will then get read as proof that things are fine while armed deputies evict people one household at a time.
+
+## Quick point
+
+- A reader can skip the question of who typed the words and answer what the words say by stating what the reader can actually give such as an hour of listening or a meal if the reader has one to spare. The cost is a few minutes and possible mockery and nothing in that reply guarantees anyone food or shelter.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/job-search-suffering.md

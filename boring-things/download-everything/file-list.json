@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1132,
- "total_bytes": 92648642,
+ "file_count": 1135,
+ "total_bytes": 92655399,
  "files": [
   {
    "path": ".gitignore",
@@ -73,7 +73,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/README.md",
    "title": "Authority and power",
-   "bytes": 791,
+   "bytes": 1096,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/README.md",
@@ -87,6 +87,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/ladle-and-police.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/authority-and-power/ladle-and-police.md"
+  },
+  {
+   "path": "1-research-click-here-first/authority-and-power/robot-act-lawmakers.md",
+   "title": "The robot act: why a lawmaker who can rescue a bank says nothing can be done for a fired worker",
+   "bytes": 2630,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/robot-act-lawmakers.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/authority-and-power/robot-act-lawmakers.md"
   },
   {
    "path": "1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
@@ -577,7 +586,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 6102,
+   "bytes": 6650,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -600,6 +609,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md",
+   "title": "Social media deep dive: the asteroid that can hear",
+   "bytes": 1549,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/attention-lands.md",
@@ -654,6 +672,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
+   "title": "Social media deep dive: when a report of fear gets graded and not answered",
+   "bytes": 1725,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/job-search-suffering.md",
