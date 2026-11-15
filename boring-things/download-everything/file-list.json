@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1137,
- "total_bytes": 92661094,
+ "file_count": 1138,
+ "total_bytes": 92664971,
  "files": [
   {
    "path": ".gitignore",
@@ -586,7 +586,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 7097,
+   "bytes": 7344,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -753,6 +753,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/public-conversation-habits.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/public-conversation-habits.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
+   "title": "A puppy in the rain: showing suffering plainly as a way to ask for shelter and food",
+   "bytes": 3630,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/question-or-verdict.md",
