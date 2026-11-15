@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1145,
- "total_bytes": 92738124,
+ "file_count": 1147,
+ "total_bytes": 92744259,
  "files": [
   {
    "path": ".gitignore",
@@ -1378,11 +1378,20 @@
   {
    "path": "1-research-click-here-first/three-needs/README.md",
    "title": "Three needs",
-   "bytes": 1450,
+   "bytes": 2025,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/free-service-gate.md",
+   "title": "An AI model that can switch on free food or shelter for a person: what the design would need",
+   "bytes": 3530,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/free-service-gate.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/free-service-gate.md"
   },
   {
    "path": "1-research-click-here-first/three-needs/help-without-jobs.md",
@@ -1401,6 +1410,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/replace-force.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/replace-force.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/soup-four-minutes-away.md",
+   "title": "The soup is hot and four minutes away: an unfiltered reflection on the systems page",
+   "bytes": 2030,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/soup-four-minutes-away.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/soup-four-minutes-away.md"
   },
   {
    "path": "1-research-click-here-first/three-needs/systems-ai-would-need.md",

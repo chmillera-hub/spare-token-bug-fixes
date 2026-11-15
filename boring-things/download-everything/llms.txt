@@ -5,8 +5,8 @@
 ## Download everything
 
 - [Zip of the whole repository](https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip): one download that holds every file
-- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 188 pages joined into one plain text file
-- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1145 files
+- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 190 pages joined into one plain text file
+- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1147 files
 - [List of direct download addresses](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.txt): one address per line
 - Any single file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path of the file>
 
@@ -99,8 +99,10 @@
 - [The five-words-or-fewer check](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/short-comment-check.md)
 - [What 364 comments asked a homeowner to do about a houseguest and an AI chatbot](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/wifi-block-thread.md)
 - [Three needs](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md)
+- [An AI model that can switch on free food or shelter for a person: what the design would need](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/free-service-gate.md)
 - [How a social media user can help someone reach food or shelter or deep human connection without the job market](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/help-without-jobs.md)
 - [Nonviolent replacements for six uses of force](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/replace-force.md)
+- [The soup is hot and four minutes away: an unfiltered reflection on the systems page](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/soup-four-minutes-away.md)
 - [Which systems an AI model would need to reach to get one hungry person fed and housed tonight](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/systems-ai-would-need.md)
 - [What blocks dinner and a dry bed for one hungry person when the answer already exists](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/what-blocks-dinner.md)
 - [Unanswered questions](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/unanswered-questions/README.md)
