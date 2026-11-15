@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-14",
- "file_count": 1126,
- "total_bytes": 92600700,
+ "built_on": "2026-11-15",
+ "file_count": 1128,
+ "total_bytes": 92605999,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 4959,
+   "bytes": 5159,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -69,6 +69,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/animated-videos/stomper-words.txt",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/animated-videos/stomper-words.txt"
+  },
+  {
+   "path": "1-research-click-here-first/authority-and-power/README.md",
+   "title": "Authority and power",
+   "bytes": 553,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/authority-and-power/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
+   "title": "Reflections on authority and power structures in society",
+   "bytes": 4546,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md"
   },
   {
    "path": "1-research-click-here-first/bible-quote-builder/README.md",
