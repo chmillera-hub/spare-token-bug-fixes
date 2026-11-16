@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1158,
- "total_bytes": 92810279,
+ "file_count": 1161,
+ "total_bytes": 92845627,
  "files": [
   {
    "path": ".gitignore",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 56601,
+   "bytes": 66790,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -433,7 +433,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 28963,
+   "bytes": 31587,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -442,7 +442,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 54862,
+   "bytes": 64745,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
@@ -465,6 +465,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
+   "title": "Spin rates: how fast a ribbon loop would need to circulate for each mass",
+   "bytes": 9255,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md"
   },
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md",
@@ -9154,7 +9163,7 @@
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/README.md",
    "title": "Calculations behind the Mobius strip document",
-   "bytes": 1428,
+   "bytes": 1786,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/README.md",
@@ -9204,6 +9213,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/knots_from_cutting.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/knots_from_cutting.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/longer_strip_model.py",
+   "title": "longer_strip_model.py",
+   "bytes": 1299,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/longer_strip_model.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/longer_strip_model.py"
   },
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/packing-test/README.md",
@@ -9312,6 +9330,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/smallest_paper_strip.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/smallest_paper_strip.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/spin_rate_for_mass.py",
+   "title": "spin_rate_for_mass.py",
+   "bytes": 1740,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/spin_rate_for_mass.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/spin_rate_for_mass.py"
   },
   {
    "path": "boring-things/research-program-files/page-splitting-scripts/split_test.py",

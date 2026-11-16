@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-15 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 194 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 195 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -4103,13 +4103,15 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The Mobius Strip Picture of Physics
 
-November 11 2026
+November 11 2026 and updated November 15 2026
 
 ## What this document is
 
 This document explains strange behaviors in physics by picturing space as being built from twisted paper-like ribbons called Mobius strips and the document uses no numbers and no equations because the goal is for a reader to be able to imagine each idea the way a person imagines a strip of paper. Each physics part first describes one behavior that popular science videos call weird such as two far-apart particles seeming to change at the same instant and then offers a what-if picture built from things that paper strips really do when a person twists or cuts or tapes the strips.
 
-The pictures are offered as ways of imagining and are not offered as proven physics because no experiment has yet tested whether space is built from twisted ribbons. The later parts of the document move from physics toward biology because the later parts ask whether survival behaviors seen in living things such as defending against harm or moving toward food could also appear in a simple form inside complex ribbon structures.
+The pictures are offered as ways of imagining and are not offered as proven physics because no experiment has yet tested whether space is built from twisted ribbons. Three clarifications were added on November 15 2026 because the first version left the three ideas unstated. The first clarification is that the flat strips of space-time could be the Higgs field and the inward flow of the flat strips toward less densely packed Mobius strips could be gravity. The second clarification is that ripples and hums travel through Mobius strips as well as through flat strips because a Mobius strip is still a strip of space-time. The third clarification is that a Mobius strip could curve a flat strip into a new Mobius strip when the flat strip bumps or glides against the Mobius strip. Four more clarifications were added the same day because the story of where matter and mass begin was still incomplete. Matter could be the Mobius strips and knots that make less densely packed regions and catalyze more Mobius strips out of the inward-flowing flat Higgs field. The first Mobius strip could itself have been the Big Bang because the first Mobius strip started the catalyzing of every later Mobius strip. A star or a planet could be a Mobius strip factory. Mass could be the squeeze of the inward-flowing Higgs field on loops that cannot merge and the squeeze could be relieved when new simple Mobius strips fly off as very light fast particles such as neutrinos. One more clarification added the same day is that mass could have two sources because the spinning of the Mobius strips inside a particle or a knot could add mass and stability on top of the mass from the Higgs field flow the way a spinning bicycle wheel is more difficult to move than a still bicycle wheel.
+
+The later parts of the document move from physics toward biology because the later parts ask whether survival behaviors seen in living things such as defending against harm or moving toward food could also appear in a simple form inside complex ribbon structures.
 
 ## The building block: a particle as a twisted ribbon of space
 
@@ -4122,6 +4124,10 @@ A Mobius strip cannot be turned into a plain untwisted loop by any amount of ben
 Videos also ask why an electron does not spiral inward and crash into the center of an atom even though the center of the atom attracts the electron. A paper Mobius strip gives one possible reason because a paper strip that is made too short compared with the width of the strip cannot hold the half twist without tearing or passing through the surface of the same strip. A particle made of ribbon could therefore have a smallest possible size which means the ribbon particle could stop shrinking at that smallest size instead of collapsing down to a point. A ribbon particle could also have no center point to fall into because the ribbon particle is pictured as the whole loop and not as a dot circling around a middle.
 
 A spinning loop behaves like a spinning bicycle wheel because a spinning bicycle wheel pushes back when a person tries to tip or shove the wheel. A spinning ribbon could likewise take effort to move and the effort needed to move the spinning ribbon could be what a person experiences as mass which is the heaviness and resistance to pushing that matter has.
+
+Mass in the ribbon picture could therefore have two sources that add together. The first source could be the squeeze of the inward-flowing Higgs field on closed loops that cannot merge into one another which the gravity part of this document describes. The second source could be the spinning of the Mobius strips inside a particle or a knot because a spinning bicycle wheel is more difficult to move than a still bicycle wheel purely through the physics of rotation. A structure whose Mobius strips spin faster or whose knot holds more spinning strips could therefore carry additional mass on top of the mass from the Higgs field flow.
+
+Rapid spinning could also make a particle more stable because a spinning top stays upright while a still top falls over so the same spinning could supply both extra mass and a long life. Measurements of the proton echo the two sources of mass because physicists find that the Higgs field supplies only a small part of the mass of a proton while most of the mass of a proton arises from the energy of the fast motion and the binding of the pieces inside the proton.
 
 ## Entanglement: two particles as one stretched ribbon
 
@@ -4179,15 +4185,31 @@ The direction a person looks from matters too because a Mobius strip shows a dif
 
 Videos say empty space is not truly empty because an invisible field called the Higgs field fills all of space and gives particles their mass. Some videos add that empty space might be resting in an unstable state called a false vacuum which means a state that looks settled and could still tip over into a more settled state.
 
-Picturing empty space as a flat sheet held under tension gives a way to imagine both claims because a stretched flat sheet stores energy the way a stretched rubber sheet stores energy. A twisted loop could be a more relaxed arrangement than a flat sheet because the twist tucks a little of the stretched sheet away. Flat space could therefore tend to relax into twisted loops whenever something such as a collision gives the flat space a nudge.
+Picturing empty space as a flat sheet held under tension gives a way to imagine both claims because a stretched flat sheet stores energy the way a stretched rubber sheet stores energy. The flat sheet can be pictured as many flat strips of space-time lying side by side and the flat strips could be the Higgs field because the flat strips fill every region of space where no twisted loop sits. A twisted loop could be a more relaxed arrangement than a flat sheet because the twist tucks a little of the stretched sheet away. Flat space could therefore tend to relax into twisted loops whenever something such as a collision gives the flat space a nudge.
 
-Very pure water gives an everyday example of the same tipping over because very pure water can stay liquid below the freezing temperature until a single ice crystal is dropped in and then the whole glass freezes outward from the crystal. The first twisted loop could play the part of the ice crystal because the edge of the first loop could bend the neighboring flat space until the neighboring flat space snaps into loops too. Matter in the ribbon picture could therefore be space that has crystallized into twists and might not be something sitting inside space.
+Very pure water gives an everyday example of the same tipping over because very pure water can stay liquid below the freezing temperature until a single ice crystal is dropped in and then the whole glass freezes outward from the crystal. The first twisted loop could play the part of the ice crystal because the edge of the first loop could bend the neighboring flat space until the neighboring flat space snaps into loops too. Matter in the ribbon picture could therefore be space that has crystallized into twists and might not be something sitting inside space. Matter could be the Mobius strips and the knots themselves because Mobius strips and knots make less densely packed regions and the less densely packed regions draw in the flat Higgs field and turn part of the arriving flat Higgs field into more Mobius strips.
 
-## Gravity: flat space flowing toward twisted space
+The story of matter in the ribbon picture could start with nothing except the flat strips of the Higgs field. The first Mobius strip could itself have been the event physicists call the Big Bang because the first Mobius strip started catalyzing more Mobius strips and the catalyzing could have been spreading outward ever since. The first Mobius strip is therefore not pictured as a result of the Big Bang because the ribbon picture has no earlier explosion for the first Mobius strip to result from. Random chance is one possible cause of the first Mobius strip because a huge number of jostling flat strips could produce one strip that curls around and joins end to end with a half twist. The length and width of one flat strip are not known and the smallest length used in physics which is called the Planck length is one untested candidate for the size of a flat strip.
+
+Flat strips could then have collapsed inward onto the first Mobius strip because the first Mobius strip made a less densely packed spot in the flat Higgs field. The arriving flat strips could have bounced off the first Mobius strip or curved around the first Mobius strip and curved strips that locked onto each other could have become new Mobius strips. The way curved strips lock onto each other is still to be determined which means the locking step is an open question in the ribbon picture.
+
+A Mobius strip could work as a catalyst which means a thing that speeds up the making of something without being used up. A Mobius strip could catalyze more Mobius strips because a Mobius strip is curved everywhere along the surface and the curved surface bends the flat strips of space-time nearby which could raise the odds that more Mobius strips form.
+
+A Mobius strip could also turn a flat strip or a strip of another shape into a new Mobius strip through touch because a flat strip that bumps against or glides along the curved surface of a Mobius strip could be bent into the same curve. The bent strip could keep curving until the two ends of the bent strip meet and join with a half twist which could leave a new Mobius strip beside the first Mobius strip. A curved Mobius strip could therefore work like a bending form which is a curved shape that a craftsperson presses a straight piece of wood against until the wood keeps the curve.
+
+## Gravity: the flat Higgs field flowing toward Mobius strips
 
 Videos explain gravity by saying that mass curves space and the explanation is hard to feel as a pull because nothing visible is tugging on a falling object.
 
-Picturing space as flowing gives gravity a more physical feel because a flow is something a person can imagine carrying an object along. A region packed with twisted loops such as a planet or a star could be a region where space has already relaxed so the packed region could sit at lower pressure than the flat space surrounding the packed region. The higher-pressure flat space could flow inward toward the lower-pressure region the way water flows toward a drain. The inward flow might never stop because flat space arriving at the planet could keep relaxing into new simple loops which could keep the pressure near the planet low.
+Picturing space as flowing gives gravity a more physical feel because a flow is something a person can imagine carrying an object along. A region packed with Mobius strips such as a planet or a star could be a region where space has already relaxed and the region could be less densely packed than the flat strips surrounding the region because a twisted loop takes up more room than a flat strip made from the same amount of ribbon. A computer test described on the page named packing-test.md in this folder poured rigid paper-like shapes into a bin and found that a pile of Mobius strips held less strip in the same amount of room than a pile of flat strips. The less densely packed region could therefore sit at lower pressure than the flat strips of the Higgs field surrounding the region. The higher-pressure flat strips could flow inward toward the lower-pressure region the way water flows toward a drain. Gravity in the ribbon picture could therefore be the flat Higgs field flowing inward toward massive bodies because massive bodies are crowds of Mobius strips that are less dense than the surrounding Higgs field. The inward flow might never stop because flat space arriving at the planet could keep relaxing into new simple loops which could keep the pressure near the planet low.
+
+A star or a planet can be pictured as a Mobius strip factory because a star or a planet holds a huge amount of curved space-time in one place. The flat Higgs field flowing inward could get twisted as the flat strips bump into the Mobius strips and knots of the massive body and some of the twisted flat strips could close into new Mobius strips.
+
+Mass in the ribbon picture could be the squeeze of the inward-flowing Higgs field on the Mobius strips and knots of a body. The Mobius strips and knots cannot merge into one another to make room because each Mobius strip or knot is a closed loop of curved space-time that cannot be undone without a cut so the squeeze could build up as pressure. A body holding more knots could offer more curved loops for the inward flow to press on which could be why a body with more matter has more mass. The squeeze could be one of two sources of mass because the spinning of the Mobius strips inside a particle or a knot could add more mass which the building block part of this document describes.
+
+The pressure could be relieved when new simple Mobius strips form and leave the body. A knot is very curvy and tangled and could move slowly so a knot rarely flies off into space which could be why the atoms of the Earth stay in the Earth. A newly formed simple Mobius strip with a single half twist has no tangle to slow the strip down so the simple strip could behave as a super light and ultra fast particle that exits the body. Each exiting simple strip could leave more room for the flat Higgs field to enter which could make a repeating cycle in which the flat Higgs field flows in and the knots catalyze new simple strips and the simple strips fly out.
+
+Neutrinos are one candidate for the exiting simple strips because neutrinos are very light and very fast particles that real detectors find streaming out of stars and out of the inside of the Earth. Physicists trace measured neutrinos to nuclear reactions such as the reactions that power the sun which means the ribbon picture would need the exiting simple strips to match the measured numbers of neutrinos before the neutrino idea could be trusted.
 
 A falling apple in the flowing-space picture needs no invisible rope because the falling apple could be carried along by the inward flow of space the way a leaf is carried along by a stream. A kitchen version of the same idea treats twisted loops as bubbles in pudding because bubbles are less dense than pudding so the pudding keeps pressing inward toward the bubbles.
 
@@ -4195,7 +4217,7 @@ A falling apple in the flowing-space picture needs no invisible rope because the
 
 A magnet held under a wooden table can drag a piece of iron across the top of the table without touching the iron and the wood between the magnet and the iron is not moved at all which videos often present as a puzzle about how a force crosses empty space.
 
-Picturing every ribbon as vibrating extremely fast gives a way to imagine the magnet because vibrations can add together and travel outward. The ribbons inside a magnet could be lined up and vibrating in step like a choir holding one note so the vibrations could add up into one strong hum that spreads outward through space.
+Picturing every ribbon as vibrating extremely fast gives a way to imagine the magnet because vibrations can add together and travel outward. Ripples and hums could travel through Mobius strips as well as through flat strips because a Mobius strip is still a strip of space-time that can vibrate and wiggle and jostle. A vibrating Mobius strip could shake a neighboring Mobius strip or a neighboring flat strip or a nearby strip of any other shape because strips that touch or sit close together can pass a wiggle from one strip to the next strip. The ribbons inside a magnet could be lined up and vibrating in step like a choir holding one note so the vibrations could add up into one strong hum that spreads outward through space.
 
 A piece of iron could be built from ribbons that naturally ring at the same note as the magnet so the iron could behave like a tuning fork which is a metal fork that starts ringing when a matching note is sung nearby. Two things humming the same note could drift together because moving closer could ease the strain in the space between the two humming things.
 
@@ -4207,7 +4229,7 @@ Videos describe two unseen things in space which are called dark matter and dark
 
 Picturing two kinds of twisted space gives a possible account of both unseen things because one kind could be invisible and the other kind could make atoms. The first kind could be the simple loop with one half twist which has no knot and nothing for other ribbons to grip so the simple loop might not catch light and might not build chemistry and might only take up room. The second kind could be the knot in which several ribbons are braided together so tightly that the braid cannot come undone without a cut. The particles inside atoms such as protons can be pictured as knots of the second kind because protons last an extremely long time.
 
-A knot could be very unlikely to tie by accident so ordinary matter such as a planet could turn nearby flat space only into simple loops. The simple loops offer a possible answer to the question of why the Earth does not grow heavier even though the Earth keeps turning flat space into loops because the new simple loops could add room to space and might not add atoms to the Earth.
+A knot could be very unlikely to tie by accident so ordinary matter such as a planet could turn nearby flat space only into simple loops. The simple loops offer a possible answer to the question of why the Earth does not grow heavier even though the Earth keeps turning flat space into loops because the new simple loops could add room to space and might not add atoms to the Earth. The new simple loops could also fly off into space as very light fast particles which is the cycle described in the gravity part of this document.
 
 Dark energy in the ribbon picture could be the steady pile-up of simple loops because every new simple loop could add a little more room to space and the added room could carry galaxies away from one another. Dark matter in the ribbon picture could be simple loops crowded thickly around a galaxy because a thick crowd of simple loops could still draw a gentle inward flow of flat space which acts as gravity. The crowd of simple loops could stay invisible because simple loops have no knots for light to catch on.
 
@@ -4401,7 +4423,7 @@ Every link in the chain could raise the number of copies left behind because fee
 
 ## The whole picture in one paragraph
 
-Space in the ribbon picture could have begun as a smooth flat sheet under tension and the flat sheet could have been relaxing into twisted ribbons ever since because a twisted ribbon is imagined as a more relaxed shape than a stretched flat sheet. A closed twisted ribbon could be a particle of matter and an open traveling ribbon could be light. One ribbon stretched between two places and then pinched into a left-handed strip and a right-handed strip could be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon could be the many-states-at-once behavior that physicists call superposition. Flat space flowing toward crowds of ribbons could be gravity and ribbons humming the same note could be magnetism. Simple unknotted loops could fill out the unseen part of the universe while braided knots could make atoms and knots fused into one seamless sphere could make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape could outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
+Space in the ribbon picture could have begun as a smooth flat sheet under tension and the flat sheet could have been relaxing into twisted ribbons ever since because a twisted ribbon is imagined as a more relaxed shape than a stretched flat sheet. The first Mobius strip could have been the Big Bang itself because the first Mobius strip started the chain in which each Mobius strip catalyzes more Mobius strips. A closed twisted ribbon could be a particle of matter and an open traveling ribbon could be light. One ribbon stretched between two places and then pinched into a left-handed strip and a right-handed strip could be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon could be the many-states-at-once behavior that physicists call superposition. The flat strips of space-time could be the Higgs field and the flat strips flowing inward toward less densely packed crowds of Mobius strips could be gravity. Ripples and hums could travel through flat strips and Mobius strips alike so ribbons humming the same note could be magnetism. A flat strip that bumps or glides against a curved Mobius strip could be bent into a new Mobius strip so every Mobius strip and knot could be a catalyst and a star or a planet could be a Mobius strip factory. Mass could be the squeeze of the inward-flowing Higgs field on loops that cannot merge and new simple Mobius strips flying off as very light fast particles such as neutrinos could relieve the squeeze and leave room for more of the Higgs field to flow in. The spinning of the Mobius strips inside a particle or a knot could add further mass and stability because a spinning bicycle wheel is more difficult to move than a still bicycle wheel. Simple unknotted loops could fill out the unseen part of the universe while braided knots could make atoms and knots fused into one seamless sphere could make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape could outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
 
 ## More pages in this folder
 
@@ -4412,7 +4434,8 @@ Four shorter pages were added on November 12 2026 and each page tests one senten
 - [three-dimensions-check.md](three-dimensions-check.md) compares the half-angle result with published research and adds three new tests which include a test where two dimensions and four or more dimensions could allow faster-than-light messages.
 - [knots-from-cutting.md](knots-from-cutting.md) shows that a ribbon with three half twists becomes a trefoil knot when the ribbon splits down the middle which could give the ribbon picture a road to knots with no tying.
 - [expression-continuum-reflection.md](expression-continuum-reflection.md) is a short reflection that uses the unbroken path along a Mobius strip as a picture for a feeling that runs through inner experience and facial movement and body language and tone of voice and words at the same moment.
-- [packing-test.md](packing-test.md) reports computer tests that poured flat strips and plain loops and Mobius strips into bins such as a result where flat pieces packed tightest and the Mobius strip packed slightly tighter than an untwisted loop.
+- [packing-test.md](packing-test.md) reports computer tests that poured flat strips and plain loops and Mobius strips into bins such as a result where flat pieces packed tightest and the Mobius strip and the untwisted loop packed about the same away from the walls of the bin.
+- [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/expression-continuum-reflection.md
@@ -4592,13 +4615,15 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 The Mobius Strip Picture of Physics
 
-November 11 2026
+November 11 2026 and updated November 15 2026
 
 What this document is
 
 This document explains strange behaviors in physics by picturing space as being built from twisted paper-like ribbons called Mobius strips and the document uses no numbers and no equations because the goal is for a reader to be able to imagine each idea the way a person imagines a strip of paper. Each physics part first describes one behavior that popular science videos call weird such as two far-apart particles seeming to change at the same instant and then offers a what-if picture built from things that paper strips really do when a person twists or cuts or tapes the strips.
 
-The pictures are offered as ways of imagining and are not offered as proven physics because no experiment has yet tested whether space is built from twisted ribbons. The later parts of the document move from physics toward biology because the later parts ask whether survival behaviors seen in living things such as defending against harm or moving toward food could also appear in a simple form inside complex ribbon structures.
+The pictures are offered as ways of imagining and are not offered as proven physics because no experiment has yet tested whether space is built from twisted ribbons. Three clarifications were added on November 15 2026 because the first version left the three ideas unstated. The first clarification is that the flat strips of space-time could be the Higgs field and the inward flow of the flat strips toward less densely packed Mobius strips could be gravity. The second clarification is that ripples and hums travel through Mobius strips as well as through flat strips because a Mobius strip is still a strip of space-time. The third clarification is that a Mobius strip could curve a flat strip into a new Mobius strip when the flat strip bumps or glides against the Mobius strip. Four more clarifications were added the same day because the story of where matter and mass begin was still incomplete. Matter could be the Mobius strips and knots that make less densely packed regions and catalyze more Mobius strips out of the inward-flowing flat Higgs field. The first Mobius strip could itself have been the Big Bang because the first Mobius strip started the catalyzing of every later Mobius strip. A star or a planet could be a Mobius strip factory. Mass could be the squeeze of the inward-flowing Higgs field on loops that cannot merge and the squeeze could be relieved when new simple Mobius strips fly off as very light fast particles such as neutrinos. One more clarification added the same day is that mass could have two sources because the spinning of the Mobius strips inside a particle or a knot could add mass and stability on top of the mass from the Higgs field flow the way a spinning bicycle wheel is more difficult to move than a still bicycle wheel.
+
+The later parts of the document move from physics toward biology because the later parts ask whether survival behaviors seen in living things such as defending against harm or moving toward food could also appear in a simple form inside complex ribbon structures.
 
 The building block: a particle as a twisted ribbon of space
 
@@ -4611,6 +4636,10 @@ A Mobius strip cannot be turned into a plain untwisted loop by any amount of ben
 Videos also ask why an electron does not spiral inward and crash into the center of an atom even though the center of the atom attracts the electron. A paper Mobius strip gives one possible reason because a paper strip that is made too short compared with the width of the strip cannot hold the half twist without tearing or passing through the surface of the same strip. A particle made of ribbon could therefore have a smallest possible size which means the ribbon particle could stop shrinking at that smallest size instead of collapsing down to a point. A ribbon particle could also have no center point to fall into because the ribbon particle is pictured as the whole loop and not as a dot circling around a middle.
 
 A spinning loop behaves like a spinning bicycle wheel because a spinning bicycle wheel pushes back when a person tries to tip or shove the wheel. A spinning ribbon could likewise take effort to move and the effort needed to move the spinning ribbon could be what a person experiences as mass which is the heaviness and resistance to pushing that matter has.
+
+Mass in the ribbon picture could therefore have two sources that add together. The first source could be the squeeze of the inward-flowing Higgs field on closed loops that cannot merge into one another which the gravity part of this document describes. The second source could be the spinning of the Mobius strips inside a particle or a knot because a spinning bicycle wheel is more difficult to move than a still bicycle wheel purely through the physics of rotation. A structure whose Mobius strips spin faster or whose knot holds more spinning strips could therefore carry additional mass on top of the mass from the Higgs field flow.
+
+Rapid spinning could also make a particle more stable because a spinning top stays upright while a still top falls over so the same spinning could supply both extra mass and a long life. Measurements of the proton echo the two sources of mass because physicists find that the Higgs field supplies only a small part of the mass of a proton while most of the mass of a proton arises from the energy of the fast motion and the binding of the pieces inside the proton.
 
 Entanglement: two particles as one stretched ribbon
 
@@ -4668,15 +4697,31 @@ Where matter comes from: flat space crystallizing into twists
 
 Videos say empty space is not truly empty because an invisible field called the Higgs field fills all of space and gives particles their mass. Some videos add that empty space might be resting in an unstable state called a false vacuum which means a state that looks settled and could still tip over into a more settled state.
 
-Picturing empty space as a flat sheet held under tension gives a way to imagine both claims because a stretched flat sheet stores energy the way a stretched rubber sheet stores energy. A twisted loop could be a more relaxed arrangement than a flat sheet because the twist tucks a little of the stretched sheet away. Flat space could therefore tend to relax into twisted loops whenever something such as a collision gives the flat space a nudge.
+Picturing empty space as a flat sheet held under tension gives a way to imagine both claims because a stretched flat sheet stores energy the way a stretched rubber sheet stores energy. The flat sheet can be pictured as many flat strips of space-time lying side by side and the flat strips could be the Higgs field because the flat strips fill every region of space where no twisted loop sits. A twisted loop could be a more relaxed arrangement than a flat sheet because the twist tucks a little of the stretched sheet away. Flat space could therefore tend to relax into twisted loops whenever something such as a collision gives the flat space a nudge.
 
-Very pure water gives an everyday example of the same tipping over because very pure water can stay liquid below the freezing temperature until a single ice crystal is dropped in and then the whole glass freezes outward from the crystal. The first twisted loop could play the part of the ice crystal because the edge of the first loop could bend the neighboring flat space until the neighboring flat space snaps into loops too. Matter in the ribbon picture could therefore be space that has crystallized into twists and might not be something sitting inside space.
+Very pure water gives an everyday example of the same tipping over because very pure water can stay liquid below the freezing temperature until a single ice crystal is dropped in and then the whole glass freezes outward from the crystal. The first twisted loop could play the part of the ice crystal because the edge of the first loop could bend the neighboring flat space until the neighboring flat space snaps into loops too. Matter in the ribbon picture could therefore be space that has crystallized into twists and might not be something sitting inside space. Matter could be the Mobius strips and the knots themselves because Mobius strips and knots make less densely packed regions and the less densely packed regions draw in the flat Higgs field and turn part of the arriving flat Higgs field into more Mobius strips.
 
-Gravity: flat space flowing toward twisted space
+The story of matter in the ribbon picture could start with nothing except the flat strips of the Higgs field. The first Mobius strip could itself have been the event physicists call the Big Bang because the first Mobius strip started catalyzing more Mobius strips and the catalyzing could have been spreading outward ever since. The first Mobius strip is therefore not pictured as a result of the Big Bang because the ribbon picture has no earlier explosion for the first Mobius strip to result from. Random chance is one possible cause of the first Mobius strip because a huge number of jostling flat strips could produce one strip that curls around and joins end to end with a half twist. The length and width of one flat strip are not known and the smallest length used in physics which is called the Planck length is one untested candidate for the size of a flat strip.
+
+Flat strips could then have collapsed inward onto the first Mobius strip because the first Mobius strip made a less densely packed spot in the flat Higgs field. The arriving flat strips could have bounced off the first Mobius strip or curved around the first Mobius strip and curved strips that locked onto each other could have become new Mobius strips. The way curved strips lock onto each other is still to be determined which means the locking step is an open question in the ribbon picture.
+
+A Mobius strip could work as a catalyst which means a thing that speeds up the making of something without being used up. A Mobius strip could catalyze more Mobius strips because a Mobius strip is curved everywhere along the surface and the curved surface bends the flat strips of space-time nearby which could raise the odds that more Mobius strips form.
+
+A Mobius strip could also turn a flat strip or a strip of another shape into a new Mobius strip through touch because a flat strip that bumps against or glides along the curved surface of a Mobius strip could be bent into the same curve. The bent strip could keep curving until the two ends of the bent strip meet and join with a half twist which could leave a new Mobius strip beside the first Mobius strip. A curved Mobius strip could therefore work like a bending form which is a curved shape that a craftsperson presses a straight piece of wood against until the wood keeps the curve.
+
+Gravity: the flat Higgs field flowing toward Mobius strips
 
 Videos explain gravity by saying that mass curves space and the explanation is hard to feel as a pull because nothing visible is tugging on a falling object.
 
-Picturing space as flowing gives gravity a more physical feel because a flow is something a person can imagine carrying an object along. A region packed with twisted loops such as a planet or a star could be a region where space has already relaxed so the packed region could sit at lower pressure than the flat space surrounding the packed region. The higher-pressure flat space could flow inward toward the lower-pressure region the way water flows toward a drain. The inward flow might never stop because flat space arriving at the planet could keep relaxing into new simple loops which could keep the pressure near the planet low.
+Picturing space as flowing gives gravity a more physical feel because a flow is something a person can imagine carrying an object along. A region packed with Mobius strips such as a planet or a star could be a region where space has already relaxed and the region could be less densely packed than the flat strips surrounding the region because a twisted loop takes up more room than a flat strip made from the same amount of ribbon. A computer test described on the page named packing-test.md in this folder poured rigid paper-like shapes into a bin and found that a pile of Mobius strips held less strip in the same amount of room than a pile of flat strips. The less densely packed region could therefore sit at lower pressure than the flat strips of the Higgs field surrounding the region. The higher-pressure flat strips could flow inward toward the lower-pressure region the way water flows toward a drain. Gravity in the ribbon picture could therefore be the flat Higgs field flowing inward toward massive bodies because massive bodies are crowds of Mobius strips that are less dense than the surrounding Higgs field. The inward flow might never stop because flat space arriving at the planet could keep relaxing into new simple loops which could keep the pressure near the planet low.
+
+A star or a planet can be pictured as a Mobius strip factory because a star or a planet holds a huge amount of curved space-time in one place. The flat Higgs field flowing inward could get twisted as the flat strips bump into the Mobius strips and knots of the massive body and some of the twisted flat strips could close into new Mobius strips.
+
+Mass in the ribbon picture could be the squeeze of the inward-flowing Higgs field on the Mobius strips and knots of a body. The Mobius strips and knots cannot merge into one another to make room because each Mobius strip or knot is a closed loop of curved space-time that cannot be undone without a cut so the squeeze could build up as pressure. A body holding more knots could offer more curved loops for the inward flow to press on which could be why a body with more matter has more mass. The squeeze could be one of two sources of mass because the spinning of the Mobius strips inside a particle or a knot could add more mass which the building block part of this document describes.
+
+The pressure could be relieved when new simple Mobius strips form and leave the body. A knot is very curvy and tangled and could move slowly so a knot rarely flies off into space which could be why the atoms of the Earth stay in the Earth. A newly formed simple Mobius strip with a single half twist has no tangle to slow the strip down so the simple strip could behave as a super light and ultra fast particle that exits the body. Each exiting simple strip could leave more room for the flat Higgs field to enter which could make a repeating cycle in which the flat Higgs field flows in and the knots catalyze new simple strips and the simple strips fly out.
+
+Neutrinos are one candidate for the exiting simple strips because neutrinos are very light and very fast particles that real detectors find streaming out of stars and out of the inside of the Earth. Physicists trace measured neutrinos to nuclear reactions such as the reactions that power the sun which means the ribbon picture would need the exiting simple strips to match the measured numbers of neutrinos before the neutrino idea could be trusted.
 
 A falling apple in the flowing-space picture needs no invisible rope because the falling apple could be carried along by the inward flow of space the way a leaf is carried along by a stream. A kitchen version of the same idea treats twisted loops as bubbles in pudding because bubbles are less dense than pudding so the pudding keeps pressing inward toward the bubbles.
 
@@ -4684,7 +4729,7 @@ Magnets and forces: ribbons humming in tune
 
 A magnet held under a wooden table can drag a piece of iron across the top of the table without touching the iron and the wood between the magnet and the iron is not moved at all which videos often present as a puzzle about how a force crosses empty space.
 
-Picturing every ribbon as vibrating extremely fast gives a way to imagine the magnet because vibrations can add together and travel outward. The ribbons inside a magnet could be lined up and vibrating in step like a choir holding one note so the vibrations could add up into one strong hum that spreads outward through space.
+Picturing every ribbon as vibrating extremely fast gives a way to imagine the magnet because vibrations can add together and travel outward. Ripples and hums could travel through Mobius strips as well as through flat strips because a Mobius strip is still a strip of space-time that can vibrate and wiggle and jostle. A vibrating Mobius strip could shake a neighboring Mobius strip or a neighboring flat strip or a nearby strip of any other shape because strips that touch or sit close together can pass a wiggle from one strip to the next strip. The ribbons inside a magnet could be lined up and vibrating in step like a choir holding one note so the vibrations could add up into one strong hum that spreads outward through space.
 
 A piece of iron could be built from ribbons that naturally ring at the same note as the magnet so the iron could behave like a tuning fork which is a metal fork that starts ringing when a matching note is sung nearby. Two things humming the same note could drift together because moving closer could ease the strain in the space between the two humming things.
 
@@ -4696,7 +4741,7 @@ Videos describe two unseen things in space which are called dark matter and dark
 
 Picturing two kinds of twisted space gives a possible account of both unseen things because one kind could be invisible and the other kind could make atoms. The first kind could be the simple loop with one half twist which has no knot and nothing for other ribbons to grip so the simple loop might not catch light and might not build chemistry and might only take up room. The second kind could be the knot in which several ribbons are braided together so tightly that the braid cannot come undone without a cut. The particles inside atoms such as protons can be pictured as knots of the second kind because protons last an extremely long time.
 
-A knot could be very unlikely to tie by accident so ordinary matter such as a planet could turn nearby flat space only into simple loops. The simple loops offer a possible answer to the question of why the Earth does not grow heavier even though the Earth keeps turning flat space into loops because the new simple loops could add room to space and might not add atoms to the Earth.
+A knot could be very unlikely to tie by accident so ordinary matter such as a planet could turn nearby flat space only into simple loops. The simple loops offer a possible answer to the question of why the Earth does not grow heavier even though the Earth keeps turning flat space into loops because the new simple loops could add room to space and might not add atoms to the Earth. The new simple loops could also fly off into space as very light fast particles which is the cycle described in the gravity part of this document.
 
 Dark energy in the ribbon picture could be the steady pile-up of simple loops because every new simple loop could add a little more room to space and the added room could carry galaxies away from one another. Dark matter in the ribbon picture could be simple loops crowded thickly around a galaxy because a thick crowd of simple loops could still draw a gentle inward flow of flat space which acts as gravity. The crowd of simple loops could stay invisible because simple loops have no knots for light to catch on.
 
@@ -4890,7 +4935,7 @@ Every link in the chain could raise the number of copies left behind because fee
 
 The whole picture in one paragraph
 
-Space in the ribbon picture could have begun as a smooth flat sheet under tension and the flat sheet could have been relaxing into twisted ribbons ever since because a twisted ribbon is imagined as a more relaxed shape than a stretched flat sheet. A closed twisted ribbon could be a particle of matter and an open traveling ribbon could be light. One ribbon stretched between two places and then pinched into a left-handed strip and a right-handed strip could be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon could be the many-states-at-once behavior that physicists call superposition. Flat space flowing toward crowds of ribbons could be gravity and ribbons humming the same note could be magnetism. Simple unknotted loops could fill out the unseen part of the universe while braided knots could make atoms and knots fused into one seamless sphere could make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape could outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
+Space in the ribbon picture could have begun as a smooth flat sheet under tension and the flat sheet could have been relaxing into twisted ribbons ever since because a twisted ribbon is imagined as a more relaxed shape than a stretched flat sheet. The first Mobius strip could have been the Big Bang itself because the first Mobius strip started the chain in which each Mobius strip catalyzes more Mobius strips. A closed twisted ribbon could be a particle of matter and an open traveling ribbon could be light. One ribbon stretched between two places and then pinched into a left-handed strip and a right-handed strip could be the linked pair of particles that physicists call entangled and several ripples stacked on one ribbon could be the many-states-at-once behavior that physicists call superposition. The flat strips of space-time could be the Higgs field and the flat strips flowing inward toward less densely packed crowds of Mobius strips could be gravity. Ripples and hums could travel through flat strips and Mobius strips alike so ribbons humming the same note could be magnetism. A flat strip that bumps or glides against a curved Mobius strip could be bent into a new Mobius strip so every Mobius strip and knot could be a catalyst and a star or a planet could be a Mobius strip factory. Mass could be the squeeze of the inward-flowing Higgs field on loops that cannot merge and new simple Mobius strips flying off as very light fast particles such as neutrinos could relieve the squeeze and leave room for more of the Higgs field to flow in. The spinning of the Mobius strips inside a particle or a knot could add further mass and stability because a spinning bicycle wheel is more difficult to move than a still bicycle wheel. Simple unknotted loops could fill out the unseen part of the universe while braided knots could make atoms and knots fused into one seamless sphere could make a black hole. Complex ribbon structures that happen to protect and copy the structures' own shape could outlast the ribbon structures that do not which is how survival behaviors resembling primitive emotions could arise without life. Every one of the pictures comes from the same act of twisting a flat strip and joining the ends which is why a strip of paper and a piece of tape are enough to start exploring the whole story.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md
@@ -5108,6 +5153,99 @@ The program is named smallest_paper_strip.py and sits in the folder boring-thing
 ## Who made this page
 
 An AI chatbot (Claude) ran the check and wrote this page.
+
+================================================================================
+FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md
+================================================================================
+
+# Spin rates: how fast a ribbon loop would need to circulate for each mass
+
+November 15 2026
+
+## The question
+
+The main document in this folder says that mass could have two sources which are the squeeze of the inward-flowing Higgs field and the spinning of the Mobius strips inside a particle or a knot. This page puts rough numbers on the spinning source. The page asks how many laps each second a ribbon would need to make around a loop for the energy of the motion to equal the measured mass of a particle. The page then asks whether a longer strip that holds more energy lets atoms of different sizes share one spin rate.
+
+Every number on this page is a sample calculation and is not a test of the ribbon picture because each calculation starts from assumptions that nobody has checked against an experiment.
+
+## How laps each second relate to the speed of light
+
+Every calculation on this page assumes that the ribbon travels around the loop at the speed of light which is about 300 million meters each second. The distance around the loop times the laps each second therefore always equals the speed of light. The lap counts look enormous because the loops are tiny and not because any part of a ribbon moves faster than light.
+
+Light circles the whole Earth about 7.5 times each second because the Earth is about 40 million meters around. A track the size of the core of a hydrogen atom is about 4 followed by 22 zeros times shorter than the Earth is around so the same light-speed traveler finishes about 4 followed by 22 zeros times more laps in the same second.
+
+A ribbon moving slower than light could not do the job on a small loop because a solid hoop as small as the largest size that collision experiments allow for an electron would need an edge speed about 190000 times the speed of light to carry the measured spin of an electron.
+
+## First calculation: all of the mass from spinning
+
+The first calculation gives the ribbon no energy of its own which means all of the mass has to be the energy of the circulating motion. The loop is round and the ribbon moves at the speed of light and the loop carries the amount of spin that experiments measure for these particles which physicists call one half unit of spin. Those assumptions fix the size of the loop and the lap rate with no free choices left.
+
+The rule that falls out is that a heavier particle needs a smaller loop and a faster lap rate because the lap rate grows in direct proportion to the mass.
+
+- Neutrino with an assumed mass of 0.05 electron volts: radius 2.0 x 10^-6 meters and 2.4 x 10^13 laps each second.
+- Electron: radius 1.9 x 10^-13 meters and 2.5 x 10^20 laps each second.
+- Muon which is a heavier cousin of the electron: radius 9.3 x 10^-16 meters and 5.1 x 10^22 laps each second.
+- Proton treated as one loop: radius 1.1 x 10^-16 meters and 4.5 x 10^23 laps each second.
+- Tau which is the heaviest cousin of the electron: radius 5.6 x 10^-17 meters and 8.6 x 10^23 laps each second.
+- Top quark which is the heaviest known basic particle: radius 5.7 x 10^-19 meters and 8.3 x 10^25 laps each second.
+
+The widest strip that each loop could hold is the distance around the loop divided by 1.732 because the page named smallest-size-finding.md in this folder reports that a paper Mobius strip has to be more than 1.732 times as long as wide. The electron loop could therefore hold a strip up to about 7 x 10^-13 meters wide.
+
+## Where the first calculation meets measured physics
+
+- The two-lap rule lands on a known number. A Mobius strip needs two laps to return right side up so the full-return rate is half the lap rate. The full-return rate for the electron is 1.24 x 10^20 each second which equals the internal frequency that standard quantum physics assigns to an electron (the mass energy of the electron divided by the quantum constant). The match holds for every mass because the two-lap rule cancels a factor of two in the formula.
+- The proton does not fit inside one loop. The measured radius of a proton is about 8.4 x 10^-16 meters which is 8 times the radius of the single loop. The gap could fit the picture of a proton as a knot of several strips because a bundle of strips takes more room than one loop.
+- The electron loop is far too wide for collision experiments. Collision experiments find no structure inside the electron down to about 10^-18 meters and the electron loop is about 200000 times wider than 10^-18 meters. The ribbon picture would need a reason why collisions see a point when the loop is so wide.
+
+## Second calculation: a longer strip that holds more energy
+
+The second calculation gives every stretch of strip a fixed amount of energy which means a longer strip is a heavier strip. The amount used is a measured number from the strong force which is the force that holds the pieces inside a proton together. The stretched strong-force field between the pieces inside a proton stores about 0.91 billion electron volts for every femtometer of length. A femtometer is a millionth of a billionth of a meter. The mass energy of one proton is about 0.94 billion electron volts so the measured number is roughly one proton of mass for every femtometer of strip.
+
+Strip length needed for the core of each atom:
+
+- Hydrogen: about 1 femtometer.
+- Helium: about 4 femtometers.
+- Carbon: about 12 femtometers.
+- Iron: about 57 femtometers.
+- Uranium: about 244 femtometers.
+
+## Three shapes compared
+
+- Shrinking loop with no energy in the strip which is the first calculation: hydrogen needs 4.5 x 10^23 laps each second and uranium needs 1.1 x 10^26 laps each second. Uranium must lap 236 times more often than hydrogen.
+- One big open loop of long strip: hydrogen makes 2.9 x 10^23 laps each second and uranium makes 1.2 x 10^21 laps each second. Uranium laps 236 times less often than hydrogen because the speed is capped at the speed of light and the track is longer.
+- Long strip coiled around a loop the size of the hydrogen loop like rope wound into a coil: every atom from hydrogen to uranium makes 2.9 x 10^23 laps each second because every turn of the coil is the same size. Uranium is then about 234 turns of the same loop.
+
+The coiled shape is the shape that lets atoms of different sizes share one spin rate because the mass rises with the number of turns while the lap rate stays the same.
+
+## Where the second calculation meets measured physics
+
+- The mass of the core of an atom grows in step with the count of protons and neutrons in the core which matches mass growing in step with strip length.
+- The core of every atom has about the same density which fits a fixed amount of strip for each unit of room.
+- A real family of heavy short-lived particles shows spin rising with the square of the mass which is the pattern that one spinning stretched strip produces.
+- Physicists find that the Higgs field supplies only a small part of the mass of a proton while most of the mass of a proton is the energy of the motion and binding of the pieces inside the proton. That measurement fits a picture in which most of the mass of an atom sits in strip energy and motion.
+
+## Where the second calculation strains
+
+- A coil with every turn circulating the same way would give uranium about 234 times the spin of hydrogen. The measured spin of the common forms of carbon and iron and uranium is zero. The coil would therefore need neighboring turns that circulate in opposite directions so the spins cancel in pairs. Measured protons and neutrons do pair up with opposite spins inside the core of an atom.
+- One big open loop fails more strongly. The spin of one big loop grows with the square of the mass and the uranium loop would be about 39 femtometers in radius while the measured core of uranium is about 7.4 femtometers in radius.
+- The electron and the muon and the tau carry the same spin at very different masses. A longer strip alone cannot explain those three particles without the same kind of canceling.
+
+## What stays unproven
+
+- Nobody knows whether a ribbon of space carries energy for each unit of length. The second calculation borrowed the measured number from the strong force and a ribbon of space could have a different number.
+- The calculations did not include the squeeze of the inward-flowing Higgs field which is the other source of mass in the main document. A share of mass from the squeeze makes the loop wider and the lap rate lower by the same share. A proton with half of the mass from spinning needs a loop twice as wide that laps half as often.
+- The way a coil could make neighboring turns circulate in opposite directions is still to be determined.
+- The measured values on this page such as the radius of a proton and the size limit for the electron are standard published values that the chatbot recalled and did not look up for this page.
+- No other person has rerun the programs which means every number from the programs is unconfirmed.
+
+## How to check this page
+
+The two programs are named spin_rate_for_mass.py and longer_strip_model.py and both programs sit in the folder boring-things/research-program-files/mobius-strip-calculations in this repository. Both programs need only Python.
+
+## Who made this page
+
+An AI chatbot (Claude) ran the calculations and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md
@@ -19239,7 +19377,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html (1906199 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html
 
-1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (28963 bytes)
+1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (31587 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
 
 1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html (13070 bytes)
