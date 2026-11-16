@@ -2,7 +2,7 @@
 
 An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no numbers and no equations. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
 
-## Where the first Mobius strip could have come from
+## How the first Mobius strip could have started
 
 - A very long strip needs almost no twisting to become a Mobius strip because the half twist is spread along the whole length. An extremely long piece of flat space could therefore have shifted by a tiny amount and locked into the first Mobius strip and a huge Mobius strip could look almost like a plain circle with one twist that is barely noticeable.
 - Paper shows that a Mobius strip can be easier to make than a plain loop. Two ends laid side by side and each turned a quarter turn join smoothly while a plain loop forces one end to sit on top of the other end. Nature could favor shapes that are easier to make.
@@ -101,7 +101,7 @@ An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook 
 ## A balance of opposites
 
 - Each basic property could run between two opposites that add up to nothing. Examples are space shrinking and space stretching and positive charge and negative charge and spin up and spin down and matter and antimatter.
-- Each property could come in smallest steps which could be why quantum physics deals in fixed amounts.
+- Each property could change only in smallest steps which could be why quantum physics deals in fixed amounts.
 - The list of known particles could be the names people gave to the different mixes of those properties.
 - The universe could hold more matter than antimatter because the first Mobius strip happened to twist one way.
 
