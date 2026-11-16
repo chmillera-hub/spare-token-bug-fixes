@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1161,
- "total_bytes": 92845627,
+ "file_count": 1163,
+ "total_bytes": 92863679,
  "files": [
   {
    "path": ".gitignore",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 66790,
+   "bytes": 69342,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -433,7 +433,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 31587,
+   "bytes": 32215,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -442,7 +442,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 64745,
+   "bytes": 66989,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
@@ -469,7 +469,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
    "title": "Spin rates: how fast a ribbon loop would need to circulate for each mass",
-   "bytes": 9255,
+   "bytes": 9430,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
@@ -483,6 +483,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
+   "title": "Joining twists: a left-handed and a right-handed Mobius strip cancel while two left-handed strips add",
+   "bytes": 7036,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md"
   },
   {
    "path": "1-research-click-here-first/scattered-pages-reflection.md",
@@ -9163,7 +9172,7 @@
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/README.md",
    "title": "Calculations behind the Mobius strip document",
-   "bytes": 1786,
+   "bytes": 1981,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/README.md",
@@ -9339,6 +9348,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/spin_rate_for_mass.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/spin_rate_for_mass.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/twist_joining.py",
+   "title": "twist_joining.py",
+   "bytes": 5222,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/twist_joining.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/twist_joining.py"
   },
   {
    "path": "boring-things/research-program-files/page-splitting-scripts/split_test.py",

@@ -35,7 +35,7 @@ The widest strip that each loop could hold is the distance around the loop divid
 
 - The two-lap rule lands on a known number. A Mobius strip needs two laps to return right side up so the full-return rate is half the lap rate. The full-return rate for the electron is 1.24 x 10^20 each second which equals the internal frequency that standard quantum physics assigns to an electron (the mass energy of the electron divided by the quantum constant). The match holds for every mass because the two-lap rule cancels a factor of two in the formula.
 - The proton does not fit inside one loop. The measured radius of a proton is about 8.4 x 10^-16 meters which is 8 times the radius of the single loop. The gap could fit the picture of a proton as a knot of several strips because a bundle of strips takes more room than one loop.
-- The electron loop is far too wide for collision experiments. Collision experiments find no structure inside the electron down to about 10^-18 meters and the electron loop is about 200000 times wider than 10^-18 meters. The ribbon picture would need a reason why collisions see a point when the loop is so wide.
+- The electron loop is far too wide for collision experiments. Collision experiments find no structure inside the electron down to about 10^-18 meters and the electron loop is about 200000 times wider than 10^-18 meters. The ribbon picture would need a reason why collisions see a point when the loop is so wide. The main document now pictures the electron as the half twist and not as the whole loop which could ease the strain because a twist can sit in a short stretch of a wide loop.
 
 ## Second calculation: a longer strip that holds more energy
 

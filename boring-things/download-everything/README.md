@@ -9,7 +9,7 @@ Anyone may use and copy and share the writing in this repository without asking.
 ## The fastest ways to get the files
 
 - **One zip of the whole repository.** This address downloads every file in one zip of about 90 megabytes and the zip always holds the newest version because the hosting service builds the zip at the moment of the download: https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip
-- **Every reading page in one text file.** The file named [research-pages-all-in-one.txt](research-pages-all-in-one.txt) joins 195 reading pages from the research folder into one plain text file of about 1.5 megabytes so a person or an AI agent can read the research with a single download: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt
+- **Every reading page in one text file.** The file named [research-pages-all-in-one.txt](research-pages-all-in-one.txt) joins 196 reading pages from the research folder into one plain text file of about 1.5 megabytes so a person or an AI agent can read the research with a single download: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt
 - **Any single file.** Put the path of a file after this address to download the plain file with no web page around the file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/
 - **A copy with the full history.** A person with the program named git can run the command `git clone https://github.com/chmillera-hub/spare-token-bug-fixes.git` which needs no account and no password.
 
