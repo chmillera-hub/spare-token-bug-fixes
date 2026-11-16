@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
- "file_count": 1163,
- "total_bytes": 92890796,
+ "file_count": 1164,
+ "total_bytes": 92907123,
  "files": [
   {
    "path": ".gitignore",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 81196,
+   "bytes": 81476,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -447,6 +447,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
+   "title": "Physics ideas from the owner's earlier notebook",
+   "bytes": 16047,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md"
   },
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
