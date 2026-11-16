@@ -1,6 +1,6 @@
 # A request to rename a sport read as a loyalty test: two reflections
 
-This page holds two reflections about one social media post. The post said that a president wishes the country's biggest professional football league to change its name so that soccer is the lone sport called football. Nobody checked whether the quote in the post is real. The owner of this repository suggested that the request could be a loyalty test which means a way to see which followers will change something that matters to them. Both reflections treat the loyalty test as one possible reading because nobody can see inside another person's mind and the page takes no side.
+This page holds two reflections about one social media post. The post said that a president wishes the country's biggest professional football league to change its name so that soccer is the lone sport called football. Nobody checked whether the quote in the post is real. The owner of this repository suggested that the request could be a loyalty test which means a way to see which followers will change something that matters to them. The anonymized post and comments sit in the page named league-rename-thread.md one folder up. Both reflections treat the loyalty test as one possible reading because nobody can see inside another person's mind and the page takes no side.
 
 ## Reflection one
 

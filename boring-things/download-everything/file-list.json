@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1148,
- "total_bytes": 92748598,
+ "file_count": 1149,
+ "total_bytes": 92778702,
  "files": [
   {
    "path": ".gitignore",
@@ -469,7 +469,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 8286,
+   "bytes": 8677,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
    "title": "A request to rename a sport read as a loyalty test: two reflections",
-   "bytes": 4082,
+   "bytes": 4176,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
@@ -960,6 +960,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/league-rename-thread.md",
+   "title": "Thread: a president says the football league ought to change its name",
+   "bytes": 29619,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/league-rename-thread.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/league-rename-thread.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html",

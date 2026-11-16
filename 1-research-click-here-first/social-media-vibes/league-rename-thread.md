@@ -1,0 +1,266 @@
+# Thread: a president says the football league ought to change its name
+
+An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 256 comments and the thread held many more that were not captured. Comments marked [incomplete] were cut off in the capture. Square brackets also stand in for pictures and for accusations of crimes and wishes for a person's death and slurs because the page is written for general audiences. The chatbot did not check whether the quote in the post is real and one commenter called the video old. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording. The comments are the commenters' opinions and the page takes no side.
+
+## The post
+
+A post on a sports gossip forum showed a video clip and said: The president has said he wishes the country's biggest professional football league to CHANGE ITS NAME so that soccer is the lone sport called football. "This is football and no question exists. Another name is needed for the league's game."
+
+## The comments
+
+- Roger I forgot. That plus the arch and a reflecting pool and the arts center and a golf course and the wrecked garden and his face on coins and on a large bill and the redone office and a foreign jet and a public square. What am I missing? Pardoning felons. Forgot that one.
+- After the ballroom is finished.
+- [incomplete] Halfway there already. His surname is a term for passing gas in the…
+- [the country's name] Ball (trademark).
+- Right ha. My lone thought on seeing this was 'wow he is truly trying to make every citizen despise him.' Does he not realize how conservatives LOVE that the sport is called football?? They love saying 'this is real football' and silly stuff like that.
+- Yes! The dance that looks like [a crude description involving two giraffes].
+- That was a pretty good running thread in a comedian's sketch about the first president on a late-night show.
+- He is fixated by now on leaving some mark on society and a legacy. He flings anything at the wall hoping something sticks: his name on an arts center and an airport and an arch and a ballroom and a sport and money and passports and a mountain monument and a large island. [a list of accusations follows which includes sexual crimes and deaths abroad and deaths of citizens at home and treason plus mockery of his skin tone and hair] That is the legacy. The worst and least thoughtful people will adore you after you are gone and then those people will pass too and just that record will remain. You did nothing selflessly though you held all the power and ability to and sadly you were an awful human. [an insult about his weight and about lying]
+- As usual taking on the tough matters.
+- I had the [his surname]s after eating fast food tacos.
+- Cowardice.
+- A clear historical explanation exists for this.
+- [a picture with words] Citizens: groceries and rent and healthcare are out of reach and the food supply is tainted. WE NEED HELP! The president: the best I can do is rename stuff.
+- Literally focused on anything but the people of this country.
+- This is oddly not centered on his own country for him. I think he skipped his medication.
+- The league has room for just one team like that.
+- Wrong player for that joke in my opinion and I am certainly no fan of that team.
+- The check from the world soccer body must have cleared.
+- I too have seen this old video. Congratulations on fishing for points.
+- Throwball-Runball-Kickball.
+- National Super Ball League.
+- A sport he could not play either.
+- I ate late-night tacos after a round of pubs and had a screaming case of the [his surname]s next morning.
+- Oh and coat something else in gold.. no money for cancer or healthcare or retirement benefits or hungry families.. thank you Mr. President [a row of angry emoji]
+- My closest friend in middle school had a cousin who drummed for the band. Always been a fan!
+- [the country's name] first [an insult]. Make the others change their name. Oh right the world soccer body gave you a peace prize ha.
+- Just secured another soccer peace prize.
+- If you think about the matter the drivers ought to circle clockwise. Then every turn is a right turn. The left would lose their minds.
+- I wish the [an insult] would do his job. He has no business renaming everything.
+- Did a nasty [his surname] the other night after twenty dollars of fast food tacos.
+- All of that will be removed once he leaves office. These jokers fail to realize that history will treat them like the worst regime of the last century.
+- To be fair the league judged correctly that a man who bankrupts casinos and had a negative net worth had no business owning a franchise.
+- I would be. Most of his followers I have had the displeasure of meeting called soccer a sport for weaklings. I talk sports a lot and soccer is a favorite so the topic arises often when I meet strangers.
+- Yes agreed. I would add that doing so would mean GIVING people something which also runs against his self-centered nature. His one real 'success' is a show where he fires people which means TAKING something AWAY. So millions of lives hang on his rival urges: staying the same [an insult] he has always been or leaving a lasting legacy. Hahaha what a fun time to be alive.
+- In this country the sport is football. No matter what some old duffer says.
+- Heavens no! His silly invented name spoken daily? Shudder!! Wipe his name off everything but history books. Nobody ought to say his name again once he is gone.
+- How is that war going [an insult]?
+- And the arch. The people have begged for an arch for ages.
+- Traitor ball.
+- He did win a three dollar award from the lawsuit though. That plus many wealthy people mocked him for bankrupting an entire league.
+- [a demand with a curse attached to remove him from office at once through the constitutional process for an unfit president]
+- He cannot even manage that really. All the things he pretends to rename… A: nobody uses his invented names. B: once he leaves LITERALLY nobody will use the invented names again. Some websites and government offices use the names now purely because they are forced.
+- Let's call the sport [his surname] ball. The ball is called the [his surname]. That way a bunch of sweaty men get to manhandle the [his surname].
+- The last presidential election was a failed intelligence test. Everybody still has to live beside those voters even after he is gone.
+- Do not forget the whole airplane communication matter.
+- The league owners do not wish him to bankrupt one of their teams next…
+- Fun fact: Britain invented the word 'soccer' (university slang for association football) and used the word into the 1970s and dropped the word once Americans adopted the word. Meanwhile gridiron football began as slow rugby at elite colleges until a school for Native students reinvented the game in the early 1900s. Outsized by the elite teams the school pioneered the forward pass and the overhand spiral and trick plays to win. That legacy shaped the league directly: when one city's team hired a former player from the school as coach and the coach brought fellow Native players along the team took a new name in the 1930s before moving to the capital. Modern football owes its whole makeup to those players. As a lifelong fan I learned this from the team.
+- [a league name built on the name of a convicted sex offender]
+- I like that he said this. Probably irritates nine tenths of his remaining followers.
+- Why has this [an insult] not been removed from office?
+- Could he just quit talking.
+- [a comment calling him a slur for disabled people and accusing him of sexual crimes] so maybe do not act as if everything he says is law.
+- He is proposing: 1. Super Ball. 2. [the country's name] Ball. 3. [a famous typo of his].
+- I had not heard that joke and instantly read the joke in a certain late-night comedian's voice. Very much that comedian's style.
+- [a comment comparing his fixation on renaming things to an accusation of sexual misconduct]
+- There he goes again renaming stuff. WHO CARES. EVERYBODY STILL USES THE OLD NAME OF THAT SOCIAL MEDIA SITE.
+- Official now. He is deliberately trying to alienate and anger his ENTIRE base.
+- [his surname] Ball.
+- So [a curse] dumb.
+- He would have bankrupted the team by now. Everything he touches turns to garbage.
+- People voted for this.
+- I am surprised he has not suggested a certain family name.
+- He could pass universal healthcare with his own name on the program. As much as I detest him I would accept that deal.
+- Nobody can fix foolishness. Foolishness can only be impeached.
+- Common mistake. The room is called a ballroom because the room is filled with [a crude pun].
+- That will help costs for the working class [an eye-roll emoji].
+- [a joke claiming the president is secretly gay]
+- Amusingly his surname is already a polite word for passing gas here in Britain. A slightly juvenile one. I always make the link when his name is mentioned and the link softens things ever so slightly.
+- He is going to try renaming the sport [his surname]ball.
+- His oldest enemy is people with darker skin than his… and his father.
+- The country must. Very pressing. Our number one concern.
+- The word has meant passing gas in British slang for decades.
+- A HUGE tangent: I watched a fascinating video essay on one film director's movies where the main villain is often an older man in authority who is MISERABLE and hates his life and job and family yet is OBSESSED with legacy. Such villains have one foot in the grave and are fixated on being remembered. The essay drew examples of the pattern from other stories too. Rewatching and then seeing the pattern in real life is wild with this president and another billionaire as huge examples. Miserable people with more money than anyone and nothing that brings happiness so they make desperate bids to leave a 'legacy' or change the world. They live like spoiled kings so the bids are 'nobody may alter my golden ballroom' and 'rename the league' and 'put my name on the arts center' and never you know something that benefits humanity. [an insult accusing him of sexual crimes and failing memory]
+- The league ought to have just given him a team. The country would probably not be in this mess if he had one.
+- Gridiron I believe.
+- [a wish for the president's death]
+- [a picture with the words: what you are hired for is to HELP the public and not to wreck the public]
+- Do not be shy. Call the sport [his surname]ball.
+- Just waiting for an executive order. News flash: the league is no government agency so an executive order would carry no legal force.
+- [an old bathroom-wall rhyme reworked around his surname]
+- Oh he will be discussed for generations. Just not for what he wishes to be remembered for.
+- Disrespecting one of the team's best players ever with a 'that team is bad' joke just feels wrong.
+- He is still angry the league did not let him be an owner. Once more evidence of this [an insult]'s loser status.
+- Frankly let's find something about stock car racing that would 'irritate the left' for him to ruin too.
+- THAT IS WHY THE GAME IS CALLED FOOTBALL?!?! I am so excited to learn this. So simple. I just never bothered to look the answer up though I wondered now and then. Thanks!!!
+- Now everybody knows the price of the soccer peace prize.
+- Healthcare and schooling are too difficult. Let's invent some nonsense naming scheme.
+- Once upon a time a rival league was set up to play in spring and summer. The rival league was smaller and cautious and built to avoid competing with the big league while giving a new group of owners franchises. He could not get a big league team so he bought a team in the rival league. The original plan was a financially careful league. He wished to fight the big league and paid huge contracts to keep star players away from the big league which wrecked the new league's pay scale and forced the other owners into a spending race. His aim was to ram the rival league against the big league and force a merger where the best teams got absorbed and the rest were left to rot. He meant to slip into the big league through the back door and pushed the rival league into playing head to head in the same season to build pressure for a deal. Most owners would be burned by that plan but he has never worried about burning people without their consent. The big league was financially very strong and needed to do nothing. The rival league failed spectacularly and went bankrupt within a season of trying and the big league took none of the teams. And that is how he ruined the rival league and why he hates the big league.
+- The picture is plainly fake. The picture shows a player from a certain team holding onto the ball.
+- He could make everybody hate stock car racing more by suggesting that drivers switch to electric cars from one company. Irritate rural fans and the left together.
+- Get his [a political insult] nonsense out of here.
+- Fool.
+- So rugby was first? The league copied rugby? I did not know. Never got into the sport.
+- In that spirit I suggest calling the room the [an insult] room.
+- He is not wrong on that one.
+- Ha I loved that commercial.
+- Do not forget soiling his trousers. He will surely be remembered for that.
+- [a crude nickname for the ballroom that accuses him of a sexual crime]
+- [a crude demand that he stop talking]
+- Ah there the reason is. I figured some petty motive had to exist.
+- Football is the proper term for the sport. The term descends from old English usage that separated ball sports played by common people (on foot) from games played by the rich (on horseback). So football was any sport played on foot with a ball.
+- Well once every other problem in the world is successfully solved then the time arrives to deal with the names of sports.
+- Anything but the library every president gets because nobody wishes to visit a pile of coloring books scribbled outside the lines with ketchup stains.
+- That will make him popular again!
+- Or 'my auntie did one for five minutes.'
+- Just more stuff the public will need to bulldoze when that sweet sweet day arrives.
+- Is the coloring book a churchy one? (a nod to a song by an old punk band) (sarcasm)
+- He said this before the world tournament after he had angered most of the world by refusing entry to a referee from Africa and to most staff of one national squad and after several squads from Africa and the Middle East were subjected to invasive searches probably because the players had posted negative remarks about him or the country.
+- And 'Super Intelligence.'
+- Being the first president to require his own signature on the currency.
+- Let's call the sport soccer.
+- Pretty sure petty things are all he spends time on.
+- He killed the rival spring league back then too. Ha.
+- Lacrosse was played in what is now this country for nearly a thousand years and basketball was invented in a northeastern town.
+- [a comment saying his followers will also be discussed for generations and comparing the followers to a disease that needs treatment once he is gone]
+- His brilliance is impressive. That he thought this through shows why the country is flourishing and why everybody must bow to his family bloodline. He truly is a king of kings. And all this time I believed he was a fool. I think I will join his movement. Does anybody know where to sign up.
+- Yeah glad he is handling that between golf outings and renaming everything after the country and/or his own surname.
+- The league just needs to hand him an invented peace prize and he will go quiet. If the league boss adds a few million dollars he will even demand that soccer be the official worldwide word for football.
+- [incomplete] He has no tie to the league and I am sure that is clawing at…
+- And do not forget how he spoiled one national team's ceremony by insisting on being in the team's pictures. Officials from the world soccer body had to drag him away. Pathetic.
+- He knows his time is running short and this is the pathetic last gasp of a [an armchair diagnosis] terrified of being forgotten. Deep down he knows nobody truly loves him and probably not even his own family. So he frantically plasters his name on everything trying to force a place in history because he knows he will never earn anybody's respect. He does not care whether memory holds admiration or disgust. He just cannot bear a world that moves on without him. What a miserable and pathetic legacy.
+- Hey daddy said so… all his followers must agree!
+- Let me guess. He wishes to call the sport [his surname]ball.
+- That is the first time I have agreed with him.
+- The insult is already in there. Just look at what the initials spell.
+- [incomplete] He will also be remembered for that bizarre dance of…
+- A '[his surname]' will be needed in there somewhere.
+- Frankly he might finally win the big peace prize he craves if he focuses on this matter and quits starting wars.
+- I am glad he is tackling the most important matters gripping the nation.
+- Imagine if the previous president had said this. Protests would fill every state that votes for his party.
+- National [a curse aimed at the president] League.
+- Everything he touches turns to garbage.
+- [a two-word curse telling someone to go away]
+- His fixation on changing names needs to stop.
+- Just one stop on his revenge tour. He has wished to stick it to the league since the owners refused him a team decades ago.
+- [a picture with words] Oh you wish for healthcare and a lower cost of living? Best the government can do is rename stuff.
+- To be fair that player is one of the greats and would never drop the ball.
+- Does he have nothing more important to worry about?
+- [a comment saying the worst act of all in the commenter's opinion was shutting down a foreign aid agency which the commenter says led to a very large number of deaths and saying that belongs on the gravestones of the president and another billionaire]
+- He would just rename the sport [the country's name]ball.
+- Handegg is best. Switch the league's initials to match the hockey league to avoid mixing the sport up with another sport.
+- That is a fact.
+- You would be surprised by some of his followers who love soccer in the southern states.
+- I am living paycheck to paycheck but yeah I am deeply concerned about this matter that affects every citizen.
+- This is already the British way of saying passing gas. As in 'I never did one in front of your mother.'
+- And this is what the [an insult] president is talking about. My goodness.
+- Not going to lie. Gridiron.
+- There the truth is. He wishes to put his name on the sport.
+- What a [an insult].
+- The name dates from the 1800s and earlier when sports were split into two groups: noble sports on horseback and games on foot. Football is a game on foot which means not on horseback.
+- Amazing.
+- If he had spent the last two years doing nothing else the country would be better off.
+- [a wish that nature would end the president's life]
+- Gulf of Football.
+- Focused on things that matter I see.
+- Well I cannot wait until the sport is named [the country's name] handball.
+- I mean this would be pretty funny.
+- That is brilliant! Thank you.
+- But is a room truly a ballroom if the room is not shaped like a ball?
+- Always focused on the most foolish thing imaginable.
+- [incomplete] Watch this be the thing that turns the last of his followers against…
+- That is because they grow rich off the public's suffering.
+- Sounds like somebody is drafting a world class obituary.
+- [a picture with the words: you are really dumb]
+- He never got over the league rejecting his bid to buy a team.
+- Brain-injury ball?
+- Did you know the word football contains a B? Many people do not know that.
+- If he wishes to be known as the best president then all he must do is give everybody public health coverage and forgive student loans (or at least restore the repayment plan) and make everything affordable. Truly that simple.
+- [a made-up league name that repeats the country's name twice]
+- What does [a mocking nickname about his draft deferment] know about football or soccer for that matter. He just takes trophies and medals from real players.
+- Just like basketball and hockey and lacrosse and baseball? Golf too is famously not from this country.
+- [a reply extending that joke with stereotypes about ballrooms and makeup and dancing]
+- Imagine listening to him talk and then voting for him.
+- Bat and ball games began in England and travelled to North America. Bat and ball games were surely played in Canada before baseball was invented but those games were not baseball. Regional versions were played across the northeastern states in the early and middle 1800s. Baseball unified nationally during the civil war when one big city's version spread among soldiers because that city supplied the most soldiers. Today's baseball descends from that version. And as another commenter noted a Canadian invented basketball but did so in the States.
+- Just the most important matters on this man's [an insult] brain.
+- 'Yeah YES!!' says the one guy in the overlap between his followers and soccer fans.
+- You would think he had bigger fish to fry than renaming everything haha. A very immature mindset.
+- I truly could not care less yet the situation is kind of funny: a game that rarely kicks the ball outside special moments and whose foundation is holding and throwing and catching the ball by hand.
+- …he is going to try renaming the sport '[his surname]ball' isn't he…
+- Run-throw-egg ball is catchy.
+- The name has nothing to do with kicking a ball. Soccer and gridiron football and rugby and the Australian and Irish versions all branch from one root and every one but soccer permits some carrying and throwing. Long ago the gentry played outdoor games on horseback. The peasants played on foot and often with a ball (hence football) which could be kicked or carried or bounced or thrown. No rules were fixed and play varied from place to place. Then an English school wrote down rules and rugby football was born. In 1863 association football (soccer for short) split off and the modern game began. Gridiron football started in Canada in 1861 a couple of years earlier and took hold and evolved into the game known today. Soccer did not really settle in North America until about 1920 and by then football was the settled name for the gridiron game. When soccer arrived nobody was going to rename the gridiron game. And people in Britain called the sport soccer until the 1970s and still air a weekly show with soccer in the title. So to sum up: what a petty and silly thing for a president to waste time on when plenty of other matters need attention.
+- Who wishes to bet he puts his surname in? Like [his surname]ball or something similar?
+- No words.. wow.. [the commenter repeats the list of accusations from another comment] WOW!!!
+- Anything but doing something that truly makes life better for citizens. He is such a [an insult] loser.
+- This makes so much sense and I never considered the idea until now. Football is for people on foot. So polo ought to be called something like 'cavalry ball'!
+- Doing the important work for the people or angling for another soccer peace prize.
+- More super intelligence.
+- He still has not gotten over the league snubbing him for a franchise. [an insult calling him whiny]
+- He owned a football team at one point. Things went badly. He broke the entire league.
+- OK now he has gone too far!
+- Is there a link between failing memory and wishing to rename things that already have perfectly good names?
+- Funny because this could truly cost him some support in one southern state.
+- Duh super intelligence… duh [the country's name] ocean… duh catch handball. Please let the next two years pass so everybody can quit pretending he is anything more than a stain on the nation's history and can delete everything bearing his name.
+- Friend you are far too well informed for this site.
+- [a comment calling the president a slur for disabled people]
+- Somebody is still sore that he never got a league franchise.
+- I hope the next president tears the ballroom down and restores the residence to how the residence looked before. I do not care that the job will cost taxpayers millions.
+- His legacy is being the most hated human being who ever lived. [a comparison to a dictator who killed masses of people]
+- 'A little kicking is involved' ha.
+- Friend keep quiet about football starting in Canada. Nobody needs the [a mocking nickname about his skin tone] finding more excuses for more tariffs.
+- With the 'text this number' banner at the bottom the clip resembles those old commercials where a celebrity voice asks for donations for people in need.
+- And the world soccer body is his pal after handing him a 'peace prize.'
+- Solving the problems that matter most to citizens.
+- Do not forget the renamed gulf.
+- Call the sport what the sport is: advertisements with a little eggball in between.
+- Less than a day after his party was thrashed in the midterm elections he was like 'look at the beautiful ballroom!' Pathetic. How his supporters miss his sheer vanity and ego is beyond me.
+- He actively opposes those things. He and most of his party are what blocks improvements to healthcare and schooling and many other things needing reform.
+- How about something like this? [a picture of statues of a traitor from many centuries ago who kneels in disgrace and whom the public has cursed and spat on for centuries]
+- Stable genius.
+- Be quiet and ruin the country because that is your job.
+- A bad clock is right twice a day.
+- Careful he is going to wish to call the sport [his surname] ball.
+- Can you imagine if he had? A team of losers [and an accusation of sexual crimes] forever failing?
+- Pass.
+- '[the country's name]ball'?
+- Actually he is exactly the right amount which is full of nonsense [a laughing emoji].
+- Gridiron football and association football and so on. What is the problem?
+- [a row of laughing emoji]
+- Why not try running the country properly and keep your nose out of where your nose does not belong?
+- Also soiling his trousers without shame.
+- Yes a perfectly good explanation exists for why one is called soccer and one football and the explanation points toward soccer being the one that 'complicated' the naming. I put complicated in quotes because nobody and especially no president needs to waste energy on this.
+- The saying is 'stopped watch.'
+- [a wish that he be buried in a hidden unmarked grave so nobody can idolize him]
+- Boy oh boy! He just keeps concentrating on the very important matters facing this country doesn't he?
+- [a joke picture: 'Really? Right in front of my collection of files that mention him by name?']
+- Two entire tacos! Look at you moneybags.
+- He did not suggest renaming the sport after the country?
+- Not to mention a notorious lifelong cheat at golf.
+- The guy receives a small gift from the world soccer body and now the league must change its name? He is bitter that he never got to buy a team.
+- Ahh see a different way of thinking is needed. Nobody is playing FOOT ball. People are playing BALL on FOOT! So somebody needs to reinvent the horseback version and call that plain BALL. That ought to end the confusion! Solved!
+- The matter is not just that he wishes to leave a legacy (a huge part). He also truly believes he is being clever.
+- My first car was a mid-nineties sports coupe and my older brother would constantly shout the band's line about that car and even gave me his album. My brother is gone now and I still have the album. Rest in peace brother!
+- Who cares what he thinks the sport ought to be called.
+- An award named after the quarterback who knelt in protest.
+- Add the world soccer body to the list of people and organizations that own him.
+- Still nursing that grudge about the rival league forty years later.
+- Gridiron football descends directly from rugby which was called football back then.
+- I am stealing this.
+- Wow I believed I was the lone person quoting that band in this year. I applaud your exquisite taste.
+- Change the name of football? Shoot I would sooner change the president.
+- Ah yes on sports let's trust the guy who was winning badminton trophies while dodging the military draft.
+- [the country's name] rugby.
+- Actually a fine idea. Name passing gas after him. 'Last time I ate at a burger chain I did a [his surname] on the ride home.'
+- [a picture labeling soccer 'football' and the gridiron game 'handegg']
+- [a drawn-out exclamation from an old commercial]
+- Yep. In London rhyming slang his first name stands for a trip to the toilet as in 'my morning coffee has me needing a [his first name].'
+- How about: I just did a [his surname] and wiped with a [the vice president's surname].
+- Lord please… get this guy out of office.
+- [the country's name] Ball on the way.
+- Pettiness in human form. The league rejected him years ago and he will never be grown enough to move past the rejection.
+- The grudge goes back forty-five years. He regards the league as his oldest enemy.
+- Oh no. He is going to be furious that football is Canadian.
+- Important stuff.
+- Do all dictators and would-be dictators follow one identical manual?
+- He also carries a huge grudge against the league for refusing to let him buy a team.
+- Let me guess: [his surname]ball. More unhinged by the minute. Everybody is watching a brain decline in real time.
