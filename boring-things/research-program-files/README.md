@@ -29,3 +29,4 @@ This folder holds only program files and a researcher can rerun the tests with t
 - The file closeness_rerun.js in word-evolution-scripts reruns the closeness reader with ten new starting points (run "node closeness_rerun.js").
 - The files bonus_runs.sh and bonus_runs_read.py in word-evolution-scripts start twenty runs of the many-commands reader under four settings and read the results.
 - The file generic_phrase_filter.py in social-media-vibes-scripts counts how many rows of a public comment archive match the list of 10000 generic phrases (put the phrase list beside the file and the archive tables in data/rd and run "python3 generic_phrase_filter.py").
+- The folder kindness-games-scripts holds six Python files behind the report on "love your enemies" as a game and each file runs with the command "python3" followed by the file name and prints the average points per turn for each type of player.

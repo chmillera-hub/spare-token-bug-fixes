@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
- "file_count": 1150,
- "total_bytes": 92781581,
+ "file_count": 1158,
+ "total_bytes": 92808123,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 5159,
+   "bytes": 5465,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -375,6 +375,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/human-needs-as-research-topics.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/human-needs-as-research-topics.md"
+  },
+  {
+   "path": "1-research-click-here-first/kindness-games/README.md",
+   "title": "Kindness games",
+   "bytes": 595,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/kindness-games/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/kindness-games/love-your-enemies-report.md",
+   "title": "Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives",
+   "bytes": 11346,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md"
   },
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -2242,7 +2260,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 6330,
+   "bytes": 6586,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -9073,11 +9091,65 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 7955,
+   "bytes": 8201,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/README.md"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/1_exit.py",
+   "title": "1_exit.py",
+   "bytes": 1534,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/1_exit.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/1_exit.py"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/2_sample_game.py",
+   "title": "2_sample_game.py",
+   "bytes": 2341,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/2_sample_game.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/2_sample_game.py"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/3_sample_game_heavy_penalty.py",
+   "title": "3_sample_game_heavy_penalty.py",
+   "bytes": 2345,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/3_sample_game_heavy_penalty.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/3_sample_game_heavy_penalty.py"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/4_buffer.py",
+   "title": "4_buffer.py",
+   "bytes": 3215,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/4_buffer.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/4_buffer.py"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/5_record_check.py",
+   "title": "5_record_check.py",
+   "bytes": 2233,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/5_record_check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/5_record_check.py"
+  },
+  {
+   "path": "boring-things/research-program-files/kindness-games-scripts/6_record_check_all_kind_players_check.py",
+   "title": "6_record_check_all_kind_players_check.py",
+   "bytes": 2125,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/kindness-games-scripts/6_record_check_all_kind_players_check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/kindness-games-scripts/6_record_check_all_kind_players_check.py"
   },
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/README.md",
