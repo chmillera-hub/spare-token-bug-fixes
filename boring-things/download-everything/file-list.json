@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
  "file_count": 1165,
- "total_bytes": 92922272,
+ "total_bytes": 92924878,
  "files": [
   {
    "path": ".gitignore",
@@ -631,7 +631,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 9100,
+   "bytes": 9143,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -693,8 +693,8 @@
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
-   "title": "Helping an enemy reach a harmless dream: two reflections",
-   "bytes": 10119,
+   "title": "Helping an enemy reach a harmless dream: three reflections",
+   "bytes": 12682,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
