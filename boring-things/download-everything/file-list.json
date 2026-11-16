@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
  "file_count": 1164,
- "total_bytes": 92909176,
+ "total_bytes": 92911846,
  "files": [
   {
    "path": ".gitignore",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 82289,
+   "bytes": 83452,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -433,7 +433,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 35834,
+   "bytes": 36162,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -442,7 +442,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 79654,
+   "bytes": 80817,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
@@ -478,7 +478,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
    "title": "Spin rates: how fast a ribbon loop would need to circulate for each mass",
-   "bytes": 9602,
+   "bytes": 9624,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
@@ -496,7 +496,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
    "title": "Joining twists: a left-handed and a right-handed Mobius strip cancel while two left-handed strips add",
-   "bytes": 7080,
+   "bytes": 7074,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
