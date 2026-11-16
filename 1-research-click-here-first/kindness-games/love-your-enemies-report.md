@@ -99,6 +99,21 @@ The tests are about points and the reader's life is about three needs which are 
 
 A person short on time and energy could keep offering kindness to everybody and still choose where the limited hours go.
 
+## A reflection: each rule reads like a stage of human trust
+
+The owner of this repository noticed that the findings work almost as direct pictures of how people trust each other at different levels. The chatbot wrote this reflection in reply and the readings are interpretation and not a test result.
+
+- The exit is a person standing up from a table where the insults keep landing because leaving saves the evening for somebody who can receive warmth.
+- The sample game is coffee before sharing an apartment or lending twenty dollars before lending two thousand because a small stake shows how a person treats what was handed over.
+- The buffer is two people saying plans out loud first such as "I want to tell you something painful and I am asking you to listen" because a stated intention gives the listener a chance to say yes or no before anything lands.
+- The visible record is asking a mutual acquaintance "how did that person treat you" because a history tells what one meeting cannot.
+
+The gaps match real people too. The disguised harmer is the charmer who is generous while the stakes are small. The careful harmer is the coworker who is cruel just rarely enough that nobody files a complaint. The hit and run harmer is the person who moves to a new town each time the old town catches on.
+
+One finding stands out which is that surroundings decided the score more than character did because the same kind player finished last in one setting and near the top in another. A worker who cannot quit because a missed paycheck leads to eviction is the always-kind player with the exit removed. A person with no close ties has no one to ask about a stranger's record. So a person who gets drained again and again may be kind in a setting that took the tools away and calling that person naive blames the player for a rule the player never wrote.
+
+The hopeful half is that the tools can be handed back. A friend who says "you can sleep on my couch if the job turns cruel" has just given another person an exit.
+
 ## Limits of the tests
 
 - The points and the player types and the cutoff of one half are choices the chatbot made. Different choices could change which player scores highest.

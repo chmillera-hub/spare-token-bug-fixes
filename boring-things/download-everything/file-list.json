@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-15",
  "file_count": 1158,
- "total_bytes": 92808123,
+ "total_bytes": 92810279,
  "files": [
   {
    "path": ".gitignore",
@@ -379,7 +379,7 @@
   {
    "path": "1-research-click-here-first/kindness-games/README.md",
    "title": "Kindness games",
-   "bytes": 595,
+   "bytes": 736,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/README.md",
@@ -388,7 +388,7 @@
   {
    "path": "1-research-click-here-first/kindness-games/love-your-enemies-report.md",
    "title": "Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives",
-   "bytes": 11346,
+   "bytes": 13361,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md",
