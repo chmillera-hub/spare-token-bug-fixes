@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
- "file_count": 1165,
- "total_bytes": 92924878,
+ "file_count": 1166,
+ "total_bytes": 92930947,
  "files": [
   {
    "path": ".gitignore",
@@ -631,7 +631,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 9143,
+   "bytes": 9485,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -825,6 +825,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
+   "title": "A winning strategy that nobody can weaken: two reflections",
+   "bytes": 5727,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md",
