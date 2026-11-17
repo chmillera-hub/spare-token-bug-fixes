@@ -3,3 +3,4 @@
 This folder holds story ideas and reflections by the owner of this repository in which emotions such as anger and boredom and doubt appear as characters and in which scenes from scripture and films and games are retold to show care for people.
 
 - [01-to-13-stories.md](01-to-13-stories.md) holds the opening note and entries 1 to 13 which include asking an enemy for love and a love audit for conversations and a story idea about a prediction market and a reflection on anger and boredom watching social media for signs of village life.
+- [14-to-25-stories.md](14-to-25-stories.md) holds entries 14 to 25 which include a reply to a lonely commenter and a cartoon scene about pressing a button to improve society and an android who flickers into the shape of Christ and Jesus using a gauntlet to serve dinner and Death arriving at the cross with a work ticket.
