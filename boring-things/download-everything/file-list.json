@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
  "file_count": 1168,
- "total_bytes": 92946568,
+ "total_bytes": 92945896,
  "files": [
   {
    "path": ".gitignore",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
    "title": "Asking an enemy for love: two reflections",
-   "bytes": 10027,
+   "bytes": 9355,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
