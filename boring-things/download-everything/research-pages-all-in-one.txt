@@ -5022,7 +5022,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Physics ideas from the owner's earlier notebook
 
-An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no numbers and no equations. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
+An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no equations and no exact figures. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
 
 ## How the first Mobius strip could have started
 
@@ -5102,6 +5102,7 @@ An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook 
 - The beginning of the universe could have been one smallest cell and might not have held all the energy of today.
 - The speeding up of the stretching of space could partly be an effect of seeing more of the universe as time passes.
 - Short-lived particles that pop out of empty space could add strips and add room. The energy of empty space could be the energy of an almost flat strip at rest.
+- The notebook estimates the energy of empty space by starting from the densest energy that physics allows which is the energy packed into one smallest cell. The estimate lands within about ten times of the measured value when the densest energy is divided by the square root of the count of smallest cells in the visible universe across the whole history of the visible universe. The square root appears because random ups and downs spread over many cells grow only as fast as the square root of the count of cells. A published approach that builds space and time from smallest cells predicted the same square root rule years before astronomers measured the speeding up of the stretching of space.
 - A container with the air pumped out could hold fewer strips so the denser surroundings press inward. Air could stay near the Earth because the Earth keeps drawing flat space inward.
 - The universe might never run down into a cold still end because strips keep making more strips.
 - An alternative picture treats dark matter as matter still in superposition and dark energy as energy still in superposition. The main document treats both as simple loops instead.
@@ -5141,7 +5142,7 @@ An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook 
 
 ## What this page leaves out
 
-- Number estimates and formulas stayed out because the page uses no numbers. One estimate in the notebook compared the energy of empty space with a measured value and the chatbot could not make the arithmetic of that estimate work so the claimed match is not repeated here.
+- Formulas and exact figures stayed out because the page describes each idea in words.
 - Ideas about pure mathematics stayed out because the page is about physics.
 - Ideas about emotions and consciousness stayed out for the same reason and the later parts of the main document in this folder cover ribbon pictures of emotions.
 

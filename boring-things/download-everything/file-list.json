@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
  "file_count": 1169,
- "total_bytes": 92952983,
+ "total_bytes": 92953501,
  "files": [
   {
    "path": ".gitignore",
@@ -451,7 +451,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
    "title": "Physics ideas from the owner's earlier notebook",
-   "bytes": 16050,
+   "bytes": 16568,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
