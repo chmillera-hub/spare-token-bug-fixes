@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-16",
- "file_count": 1168,
- "total_bytes": 92945896,
+ "file_count": 1169,
+ "total_bytes": 92952983,
  "files": [
   {
    "path": ".gitignore",
@@ -631,7 +631,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 10016,
+   "bytes": 10364,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -681,6 +681,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
+   "title": "The checklist before a family: two reflections",
+   "bytes": 6739,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md",
