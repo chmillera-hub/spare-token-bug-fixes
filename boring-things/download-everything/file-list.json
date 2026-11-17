@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1172,
- "total_bytes": 92976110,
+ "file_count": 1173,
+ "total_bytes": 92983114,
  "files": [
   {
    "path": ".gitignore",
@@ -1513,7 +1513,7 @@
   {
    "path": "1-research-click-here-first/three-needs/README.md",
    "title": "Three needs",
-   "bytes": 2025,
+   "bytes": 2389,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md",
@@ -1536,6 +1536,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/help-without-jobs.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/help-without-jobs.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/penny-in-every-pocket.md",
+   "title": "A coin in every pocket every day: a thought experiment about money for everyone",
+   "bytes": 6640,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/penny-in-every-pocket.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/penny-in-every-pocket.md"
   },
   {
    "path": "1-research-click-here-first/three-needs/replace-force.md",
