@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
  "file_count": 1184,
- "total_bytes": 93348292,
+ "total_bytes": 93348275,
  "files": [
   {
    "path": ".gitignore",
@@ -361,7 +361,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/01-to-13-stories.md",
    "title": "Stories and reflections with personified emotions: entries 1 to 13",
-   "bytes": 34238,
+   "bytes": 34235,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/01-to-13-stories.md",
@@ -370,7 +370,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/14-to-25-stories.md",
    "title": "Stories and reflections with personified emotions: entries 14 to 25",
-   "bytes": 47929,
+   "bytes": 47922,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/14-to-25-stories.md",
@@ -379,7 +379,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/26-to-37-stories.md",
    "title": "Stories and reflections with personified emotions: entries 26 to 37",
-   "bytes": 35500,
+   "bytes": 35493,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/26-to-37-stories.md",
