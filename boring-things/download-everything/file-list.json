@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1191,
- "total_bytes": 93711799,
+ "file_count": 1192,
+ "total_bytes": 93752943,
  "files": [
   {
    "path": ".gitignore",
@@ -415,7 +415,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/65-to-69-stories.md",
    "title": "Stories and reflections with personified emotions: entries 65 to 69",
-   "bytes": 43513,
+   "bytes": 44460,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/65-to-69-stories.md",
@@ -449,9 +449,18 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/88-buddha-story.md"
   },
   {
+   "path": "1-research-click-here-first/emotion-stories/89-to-96-stories.md",
+   "title": "Stories and reflections with personified emotions: entries 89 to 96",
+   "bytes": 39668,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/89-to-96-stories.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/89-to-96-stories.md"
+  },
+  {
    "path": "1-research-click-here-first/emotion-stories/README.md",
    "title": "Emotion stories",
-   "bytes": 3863,
+   "bytes": 4392,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/README.md",
