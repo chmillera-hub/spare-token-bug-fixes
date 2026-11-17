@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
  "file_count": 1192,
- "total_bytes": 93752943,
+ "total_bytes": 93753033,
  "files": [
   {
    "path": ".gitignore",
@@ -451,7 +451,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/89-to-96-stories.md",
    "title": "Stories and reflections with personified emotions: entries 89 to 96",
-   "bytes": 39668,
+   "bytes": 39758,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/89-to-96-stories.md",
