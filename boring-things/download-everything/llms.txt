@@ -5,8 +5,8 @@
 ## Download everything
 
 - [Zip of the whole repository](https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip): one download that holds every file
-- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 207 pages joined into one plain text file
-- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1175 files
+- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 210 pages joined into one plain text file
+- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1178 files
 - [List of direct download addresses](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.txt): one address per line
 - Any single file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path of the file>
 
@@ -27,6 +27,9 @@
 - [Old](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/old/README.md)
 - [The current rules of the Bible quote builder](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/rules.md)
 - [Three Bible selections fed to the same word evolution experiment](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/single-word-stage.md)
+- [Book of Mormon readings](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/README.md)
+- [Mosiah chapter 3 in modern English](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md)
+- [Mosiah chapter 3 in the original wording](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md)
 - [Record of the chat behind the research pages](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/chat-record.md)
 - [Christ voice](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/README.md)
 - [Christ talks with Vegeta in the shape that hits hard](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/hits-hard-vegeta.md)

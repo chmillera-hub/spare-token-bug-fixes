@@ -28,6 +28,9 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/prompt-for-new-chat.txt
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/rules.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/single-word-stage.md
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/README.md
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/chat-record.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/README.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/hits-hard-vegeta.md

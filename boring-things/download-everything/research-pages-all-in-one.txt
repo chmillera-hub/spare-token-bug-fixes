@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-17 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 207 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 210 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -19,6 +19,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [voynich-manuscript](voynich-manuscript) holds three pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made and a second run of the spelling-pattern tests.
 - [writing-rules](writing-rules) holds a set of writing rules for clear chatbot replies with before and after examples and a plain text copy of the same rules.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
+- [book-of-mormon-readings](book-of-mormon-readings) holds chapters of the Book of Mormon in the original wording and in modern English starting with chapter 3 of the Book of Mosiah.
 - [christ-voice](christ-voice) holds short scripts where Christ talks with the warrior prince Vegeta (four scripts in word patterns counted from the red-letter words of the World English Bible and three interactions in a two-part shape counted from passages rated as hitting hard).
 - [unanswered-questions](unanswered-questions) holds experiments where the chatbot hunted for public questions that nobody had answered and then tried to answer the questions (a mistake found in a published number list and a partial answer about an old Turkish coin and sixty-four more).
 - [authority-and-power](authority-and-power) holds reflections on authority and power structures in society which argue from the principle that touching a person without consent is wrong from anyone.
@@ -3083,6 +3084,144 @@ What the fourth rule changed:
 - Open this address in a web browser to run the program with a button for each of the three selections: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/old/program-2-single-words.html
 - The address above depends on a free outside service named htmlpreview and nobody has tested the address yet which means the address might fail.
 - The second way is to download the program file from this address and open the downloaded file in any web browser: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/old/program-2-single-words.html
+
+================================================================================
+FILE: 1-research-click-here-first/book-of-mormon-readings/README.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/README.md
+================================================================================
+
+# Book of Mormon readings
+
+This folder holds chapters of the Book of Mormon in the original wording and in modern English.
+
+- [mosiah-3.md](mosiah-3.md) holds chapter 3 of the Book of Mosiah in the original wording where a king tells his people what an angel said about a savior who will heal the sick and suffer hunger and thirst and exhaustion.
+- [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter reworded into modern English one verse at a time with every detail kept.
+
+================================================================================
+FILE: 1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md
+================================================================================
+
+# Mosiah chapter 3 in modern English
+
+An AI chatbot (Claude) wrote this page on 17 November 2026 by rewording chapter 3 of the Book of Mosiah from the Book of Mormon into modern English one verse at a time. Every detail of each verse was kept and no other person has rechecked the rewording. The page named [mosiah-3.md](mosiah-3.md) holds the same chapter in the original wording. A king is speaking to his people and from verse 3 onward the king repeats what an angel told him.
+
+1 And again my brothers I ask for your attention because I have more to say to you. I have things to tell you about what lies ahead.
+
+2 The things I will tell you were made known to me by an angel from God. The angel said to me: Awake. I awoke and saw the angel standing in front of me.
+
+3 The angel said to me: Awake and hear the words I will tell you because I am here to declare to you glad news of great joy.
+
+4 The Lord has heard your prayers and has judged your righteousness and has sent me to declare to you that you may rejoice. You may also declare the news to your people so that your people too may be filled with joy.
+
+5 The time is near and not far away when the Lord Omnipotent will descend from heaven with power to live among humankind. The Lord Omnipotent reigns and was and is from all eternity to all eternity. He will live in a body of clay and will go out among people working mighty miracles such as healing the sick and raising the dead and causing the lame to walk and the blind to receive their sight and the deaf to hear and curing every kind of disease.
+
+6 He will cast out devils which are the evil spirits that live in the hearts of humankind.
+
+7 Look and see that he will suffer temptations and bodily pain and hunger and thirst and exhaustion. He will suffer more of each one than a human being can endure without dying. Blood will seep out of every pore of his skin because his anguish over the wickedness and the vile deeds of his people will be so great.
+
+8 He will be called Jesus Christ and the Son of God and the Father of heaven and earth and the Creator of all things from the beginning. His mother will be called Mary.
+
+9 He arrives among his own people so that salvation might reach humankind through faith in his name. Even after all of this his own people will consider him only a man and will say that he has a devil and will whip him and will crucify him.
+
+10 He will rise from the dead on the third day and he stands to judge the world. All these things are done so that a righteous judgment might be given to humankind.
+
+11 His blood also atones for the sins of those who have fallen through the transgression of Adam and who died without knowing the will of God for them or who sinned in ignorance.
+
+12 But sorrow and more sorrow to the person who knows that he is rebelling against God! Salvation reaches no such person except through repentance and faith in the Lord Jesus Christ.
+
+13 The Lord God has sent his holy prophets among all of humankind to declare these things to every family and nation and language. Whoever believes that Christ will arrive can then receive forgiveness of sins and rejoice with very great joy as though Christ had already arrived among them.
+
+14 Yet the Lord God saw that his people were a stubborn people and he gave them a law which is the law of Moses.
+
+15 He showed his people many signs and wonders and symbols and foreshadowings about his arrival and holy prophets also spoke to his people about his arrival. Yet his people closed their hearts and did not understand that the law of Moses accomplishes nothing except through the atonement of his blood.
+
+16 Even if little ones were able to sin the little ones could not be saved. But I tell you that little ones are blessed because just as little ones fall through Adam or through nature so the blood of Christ atones for their sins.
+
+17 Moreover I tell you that no other name will be given and no other way or means by which salvation can reach humankind. Salvation is found only in and through the name of Christ the Lord Omnipotent.
+
+18 He judges and his judgment is just. The baby who dies in infancy does not perish. But people drink damnation to their own souls unless they humble themselves and become like little ones and believe that salvation was and is and will be in and through the atoning blood of Christ the Lord Omnipotent.
+
+19 The natural man is an enemy to God and has been since the fall of Adam and will be forever and ever unless he yields to the invitations of the Holy Spirit and puts off the natural man and becomes a saint through the atonement of Christ the Lord. Such a person becomes like a little one who is submissive and meek and humble and patient and full of love and willing to submit to all things that the Lord sees fit to lay upon that person just as a little one submits to a father.
+
+20 Moreover I tell you that the time will arrive when the knowledge of a Savior will spread through every nation and family and language and people.
+
+21 When that time arrives nobody will be found blameless before God except little ones. Everyone else is found blameless only through repentance and faith in the name of the Lord God Omnipotent.
+
+22 Even at this time when you have taught your people the things that the Lord your God has commanded you your people are no longer found blameless in the sight of God except according to the words I have spoken to you.
+
+23 And now I have spoken the words that the Lord God commanded me.
+
+24 And the Lord says this: These words will stand as a bright testimony against this people on the judgment day. Every person will be judged by these words according to that person's works whether the works are good or whether the works are evil.
+
+25 If the works are evil then the people are left to an awful view of their own guilt and vile deeds. That view causes the people to shrink from the presence of the Lord into a state of misery and endless torment from which they can never return. So they have drunk damnation to their own souls.
+
+26 They have drunk from the cup of the wrath of God. Justice could no more withhold that cup from them than justice could deny that Adam would fall because Adam ate the forbidden fruit. So mercy could have no claim on them ever again.
+
+27 Their torment is like a lake of fire and brimstone whose flames cannot be put out and whose smoke rises forever and ever. This is what the Lord has commanded me. Amen.
+
+================================================================================
+FILE: 1-research-click-here-first/book-of-mormon-readings/mosiah-3.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md
+================================================================================
+
+# Mosiah chapter 3 in the original wording
+
+The owner of this repository supplied this text on 17 November 2026 as a screen recording and an AI chatbot (Claude) converted the recording into this page. The text is chapter 3 of the Book of Mosiah from the Book of Mormon in the original wording. The page named [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter in modern English.
+
+1 And again my brethren, I would call your attention, for I have somewhat more to speak unto you; for behold, I have things to tell you concerning that which is to come.
+
+2 And the things which I shall tell you are made known unto me by an angel from God. And he said unto me: Awake; and I awoke, and behold he stood before me.
+
+3 And he said unto me: Awake, and hear the words which I shall tell thee; for behold, I am come to declare unto you the glad tidings of great joy.
+
+4 For the Lord hath heard thy prayers, and hath judged of thy righteousness, and hath sent me to declare unto thee that thou mayest rejoice; and that thou mayest declare unto thy people, that they may also be filled with joy.
+
+5 For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent who reigneth, who was, and is from all eternity to all eternity, shall come down from heaven among the children of men, and shall dwell in a tabernacle of clay, and shall go forth amongst men, working mighty miracles, such as healing the sick, raising the dead, causing the lame to walk, the blind to receive their sight, and the deaf to hear, and curing all manner of diseases.
+
+6 And he shall cast out devils, or the evil spirits which dwell in the hearts of the children of men.
+
+7 And lo, he shall suffer temptations, and pain of body, hunger, thirst, and fatigue, even more than man can suffer, except it be unto death; for behold, blood cometh from every pore, so great shall be his anguish for the wickedness and the abominations of his people.
+
+8 And he shall be called Jesus Christ, the Son of God, the Father of heaven and earth, the Creator of all things from the beginning; and his mother shall be called Mary.
+
+9 And lo, he cometh unto his own, that salvation might come unto the children of men even through faith on his name; and even after all this they shall consider him a man, and say that he hath a devil, and shall scourge him, and shall crucify him.
+
+10 And he shall rise the third day from the dead; and behold, he standeth to judge the world; and behold, all these things are done that a righteous judgment might come upon the children of men.
+
+11 For behold, and also his blood atoneth for the sins of those who have fallen by the transgression of Adam, who have died not knowing the will of God concerning them, or who have ignorantly sinned.
+
+12 But wo, wo unto him who knoweth that he rebelleth against God! For salvation cometh to none such except it be through repentance and faith on the Lord Jesus Christ.
+
+13 And the Lord God hath sent his holy prophets among all the children of men, to declare these things to every kindred, nation, and tongue, that thereby whosoever should believe that Christ should come, the same might receive remission of their sins, and rejoice with exceedingly great joy, even as though he had already come among them.
+
+14 Yet the Lord God saw that his people were a stiffnecked people, and he appointed unto them a law, even the law of Moses.
+
+15 And many signs, and wonders, and types, and shadows showed he unto them, concerning his coming; and also holy prophets spake unto them concerning his coming; and yet they hardened their hearts, and understood not that the law of Moses availeth nothing except it were through the atonement of his blood.
+
+16 And even if it were possible that little children could sin they could not be saved; but I say unto you they are blessed; for behold, as in Adam, or by nature, they fall, even so the blood of Christ atoneth for their sins.
+
+17 And moreover, I say unto you, that there shall be no other name given nor any other way nor means whereby salvation can come unto the children of men, only in and through the name of Christ, the Lord Omnipotent.
+
+18 For behold he judgeth, and his judgment is just; and the infant perisheth not that dieth in his infancy; but men drink damnation to their own souls except they humble themselves and become as little children, and believe that salvation was, and is, and is to come, in and through the atoning blood of Christ, the Lord Omnipotent.
+
+19 For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.
+
+20 And moreover, I say unto you, that the time shall come when the knowledge of a Savior shall spread throughout every nation, kindred, tongue, and people.
+
+21 And behold, when that time cometh, none shall be found blameless before God, except it be little children, only through repentance and faith on the name of the Lord God Omnipotent.
+
+22 And even at this time, when thou shalt have taught thy people the things which the Lord thy God hath commanded thee, even then are they found no more blameless in the sight of God, only according to the words which I have spoken unto thee.
+
+23 And now I have spoken the words which the Lord God hath commanded me.
+
+24 And thus saith the Lord: They shall stand as a bright testimony against this people, at the judgment day; whereof they shall be judged, every man according to his works, whether they be good, or whether they be evil.
+
+25 And if they be evil they are consigned to an awful view of their own guilt and abominations, which doth cause them to shrink from the presence of the Lord into a state of misery and endless torment, from whence they can no more return; therefore they have drunk damnation to their own souls.
+
+26 Therefore, they have drunk out of the cup of the wrath of God, which justice could no more deny unto them than it could deny that Adam should fall because of his partaking of the forbidden fruit; therefore, mercy could have claim on them no more forever.
+
+27 And their torment is as a lake of fire and brimstone, whose flames are unquenchable, and whose smoke ascendeth up forever and ever. Thus hath the Lord commanded me. Amen.
 
 ================================================================================
 FILE: 1-research-click-here-first/chat-record.md

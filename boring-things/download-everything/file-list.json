@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1175,
- "total_bytes": 93062702,
+ "file_count": 1178,
+ "total_bytes": 93076507,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 5883,
+   "bytes": 6066,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -276,6 +276,33 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/single-word-stage.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/bible-quote-builder/single-word-stage.md"
+  },
+  {
+   "path": "1-research-click-here-first/book-of-mormon-readings/README.md",
+   "title": "Book of Mormon readings",
+   "bytes": 486,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/book-of-mormon-readings/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md",
+   "title": "Mosiah chapter 3 in modern English",
+   "bytes": 6428,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md"
+  },
+  {
+   "path": "1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
+   "title": "Mosiah chapter 3 in the original wording",
+   "bytes": 6542,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md"
   },
   {
    "path": "1-research-click-here-first/chat-record.md",
@@ -2386,7 +2413,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 6879,
+   "bytes": 7045,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
