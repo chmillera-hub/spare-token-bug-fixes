@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1193,
- "total_bytes": 93790490,
+ "file_count": 1195,
+ "total_bytes": 93862469,
  "files": [
   {
    "path": ".gitignore",
@@ -368,6 +368,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/01-to-13-stories.md"
   },
   {
+   "path": "1-research-click-here-first/emotion-stories/101-to-103-stories.md",
+   "title": "Stories and reflections with personified emotions: entries 101 to 103",
+   "bytes": 29890,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/101-to-103-stories.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/101-to-103-stories.md"
+  },
+  {
    "path": "1-research-click-here-first/emotion-stories/14-to-25-stories.md",
    "title": "Stories and reflections with personified emotions: entries 14 to 25",
    "bytes": 47912,
@@ -431,6 +440,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/70-to-80-stories.md"
   },
   {
+   "path": "1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
+   "title": "Stories and reflections with personified emotions: entry 81",
+   "bytes": 41527,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/emotion-stories/81-president-and-chatbot.md"
+  },
+  {
    "path": "1-research-click-here-first/emotion-stories/82-to-87-stories.md",
    "title": "Stories and reflections with personified emotions: entries 82 to 87",
    "bytes": 34210,
@@ -469,7 +487,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/README.md",
    "title": "Emotion stories",
-   "bytes": 4802,
+   "bytes": 5364,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/README.md",
