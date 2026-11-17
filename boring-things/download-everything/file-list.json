@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1170,
- "total_bytes": 92960213,
+ "file_count": 1171,
+ "total_bytes": 92966719,
  "files": [
   {
    "path": ".gitignore",
@@ -631,7 +631,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 10692,
+   "bytes": 11014,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -645,6 +645,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
+   "title": "Advice that punishes questions: two reflections",
+   "bytes": 6184,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
