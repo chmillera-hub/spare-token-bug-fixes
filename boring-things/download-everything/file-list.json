@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-17",
- "file_count": 1173,
- "total_bytes": 92983114,
+ "file_count": 1175,
+ "total_bytes": 93062702,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 5465,
+   "bytes": 5883,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -1511,6 +1511,24 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/wifi-block-thread.md"
   },
   {
+   "path": "1-research-click-here-first/squad-rush-game/README.md",
+   "title": "Squad Rush game",
+   "bytes": 2180,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/squad-rush-game/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/squad-rush-game/play.html",
+   "title": "play.html",
+   "bytes": 76697,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/play.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/squad-rush-game/play.html"
+  },
+  {
    "path": "1-research-click-here-first/three-needs/README.md",
    "title": "Three needs",
    "bytes": 2389,
@@ -2368,7 +2386,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 6586,
+   "bytes": 6879,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",

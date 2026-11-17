@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-17 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 206 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 207 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -27,6 +27,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
 - [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (one thread is about blocking an AI chatbot on home wifi and a second thread is about a famous executive who lost his job).
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
+- [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 
 ## Single pages (each page is its own project)
 
@@ -37,6 +38,8 @@ Every item in this folder is written for a person to read and the items are grou
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 371 free bug fixes for public software projects.
 
 ## Something to play with
+
+A phone game named Squad Rush runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
 
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 
@@ -15783,6 +15786,41 @@ The site section where the thread sits asks commenters to judge the poster.
 - No other person has rechecked the counts which means every count here is unconfirmed.
 
 ================================================================================
+FILE: 1-research-click-here-first/squad-rush-game/README.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/README.md
+================================================================================
+
+# Squad Rush game
+
+Squad Rush is a free phone game that runs in a web browser and an AI chatbot (Claude Fable 5.2) wrote the whole game from prompts in a chat.
+
+## Play the game
+
+Tap this address on a phone or a computer to play because the game needs no download and no account: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
+
+A second copy of the game lives on claude.ai at this address: https://claude.ai/artifact/TTDq6L9H1QE9Wsm1AsecaW
+
+The claude.ai address opens for other people only after the owner shares that copy which means the first address is the safer one to try.
+
+## How the game works
+
+A squad of blue soldiers runs up a road and shoots without any button while a thumb drags the squad left and right. The game copies the style of the lane shooter commercials that show up between mobile games.
+
+- Blue number gates add soldiers and red enemies remove a soldier with each touch.
+- Each row of bonus gates gives the squad one pick so the player chooses between more soldiers or a multiplier or faster firing or more damage or blast rounds or an ally.
+- Enemies never walk on a conveyor belt so a squad that camps on the belt shoots at nothing and gets swarmed from the side.
+- Yellow cages hold special units: a Laser Gunner and a Flamethrower and a Blade Thrower whose blade bounces off the road walls and a Rocketeer and a Frost Mage who slows enemies.
+- Ten stages each add one trick such as barrels with prizes and gates that rise when shot and saws and giants and turrets and a boss with 50000 HP.
+
+## What was tested and what was not
+
+A scripted player ran every stage 8 times and won between 5 and 8 runs per stage while a squad that never moved lost every stage. The chatbot also looked at screenshots in a phone-sized browser window. The chatbot could not hear the music or the sound effects and could not hold a real phone so the sound balance and the frame rate on a real phone are untested.
+
+## Files
+
+- [play.html](play.html) is the whole game in one file (drawing code and music code and all ten stages) so anyone may download the file and open the file in a browser or change the stages.
+
+================================================================================
 FILE: 1-research-click-here-first/three-needs/README.md
 DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md
 ================================================================================
@@ -20312,6 +20350,9 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 
 1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html (4684 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html
+
+1-research-click-here-first/squad-rush-game/play.html (76697 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/play.html
 
 1-research-click-here-first/unanswered-questions/arc-pygame-ce.png (1743 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/unanswered-questions/arc-pygame-ce.png

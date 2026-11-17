@@ -17,6 +17,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
 - [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (one thread is about blocking an AI chatbot on home wifi and a second thread is about a famous executive who lost his job).
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
+- [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 
 ## Single pages (each page is its own project)
 
@@ -27,6 +28,8 @@ Every item in this folder is written for a person to read and the items are grou
 - [free-bug-fixes-video.md](free-bug-fixes-video.md) points to a short video of 371 free bug fixes for public software projects.
 
 ## Something to play with
+
+A phone game named Squad Rush runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
 
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 
