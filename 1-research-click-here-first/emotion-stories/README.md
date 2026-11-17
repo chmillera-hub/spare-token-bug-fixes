@@ -1,0 +1,5 @@
+# Emotion stories
+
+This folder holds story ideas and reflections by the owner of this repository in which emotions such as anger and boredom and doubt appear as characters and in which scenes from scripture and films and games are retold to show care for people.
+
+- [01-to-13-stories.md](01-to-13-stories.md) holds the opening note and entries 1 to 13 which include asking an enemy for love and a love audit for conversations and a story idea about a prediction market and a reflection on anger and boredom watching social media for signs of village life.

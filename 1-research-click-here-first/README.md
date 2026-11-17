@@ -18,6 +18,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
 - [social-media-vibes](social-media-vibes) holds counts of what behaviors the commenters in a social media thread ask other people to carry out (one thread is about blocking an AI chatbot on home wifi and a second thread is about a famous executive who lost his job).
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
+- [emotion-stories](emotion-stories) holds story ideas and reflections by the owner of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the owner of this repository in the wording of the World English Bible together with the owner's reflections on the passages.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 
