@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-18",
- "file_count": 1198,
- "total_bytes": 93981316,
+ "file_count": 1199,
+ "total_bytes": 93990643,
  "files": [
   {
    "path": ".gitignore",
@@ -811,7 +811,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 11354,
+   "bytes": 11669,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1140,6 +1140,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
+   "title": "A stone for bread: two reflections on empty advice for loneliness",
+   "bytes": 9012,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
