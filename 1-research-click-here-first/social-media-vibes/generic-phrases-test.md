@@ -1,6 +1,6 @@
 # A test of 10000 generic phrases against a public archive of forum comments
 
-An AI chatbot (Claude) wrote this page on 12 November 2026.
+> **About this page:** An AI chatbot (Claude) wrote this page on 12 November 2026.
 
 ## What the phrase list is
 

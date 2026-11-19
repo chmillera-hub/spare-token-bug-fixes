@@ -1,6 +1,6 @@
 # Why money is not the number being raised here
 
-An AI chatbot (Claude) wrote this reflection after the owner of this repository asked why the work in this folder is not aimed at making money. Each point is the chatbot's interpretation of what the owner has said and done and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection after the owner of this repository asked why the work in this folder is not aimed at making money. Each point is the chatbot's interpretation of what the owner has said and done and no person has rechecked the reflection.
 
 ## Why money is not the number the owner is trying to raise
 

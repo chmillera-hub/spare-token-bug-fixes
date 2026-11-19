@@ -1,6 +1,6 @@
 # Three sentences from people looking for work
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 "Either I get hired or I kill myself" reads to me as a signal that a person sees two doors left and one of the doors is death because wages are how most people get food and housing and so months without a job offer can feel like a threat to staying alive. The fear underneath has a basis that is grounded in reality because a person without wages can lose housing through eviction carried out by armed deputies and can go hungry. The two-door picture is a signal of potentially unmet needs and is a map of how the person is currently seeing the world. The person can explore other doors that already exist such as a relative with a spare room or a neighbor who might be able to share food. The person can also tell other people about the fear of starvation or homelessness through social media or in the local community and telling other people might make new doors appear because people cannot offer help for a need they have not heard about.
 

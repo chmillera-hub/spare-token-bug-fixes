@@ -1,6 +1,6 @@
 # When a crowd is asked for advice many voices choose removal
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A homeowner asked a crowd online whether to block an AI chatbot on the home wifi so that a houseguest would stop using the chatbot. The crowd wrote 364 comments. About 37 percent of the comments asked for a person to be controlled or removed or punished. 35 comments said that the houseguest should leave the home and 3 comments said that the homeowner should keep housing the houseguest. About 17 percent of the comments sent someone to a paid professional. About 10 percent of the comments asked for care to be added.
 

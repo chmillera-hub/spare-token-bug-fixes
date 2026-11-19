@@ -86,4 +86,4 @@ The programs are named second_pass.py and paragraph_ends.py and sit in the folde
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.

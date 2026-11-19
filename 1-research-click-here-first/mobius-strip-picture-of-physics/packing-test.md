@@ -1,6 +1,6 @@
 # Packing test: how much room do Mobius strips need compared with flat strips and plain loops?
 
-An AI chatbot (Claude) ran these computer tests and wrote this page on 14 November 2026. No other person has rerun the tests which means every number on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran these computer tests and wrote this page on 14 November 2026. No other person has rerun the tests which means every number on this page is unconfirmed.
 
 ## The prediction being tested
 

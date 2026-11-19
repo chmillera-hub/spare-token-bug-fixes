@@ -73,4 +73,4 @@ The program is named knots_from_cutting.py and sits in the folder boring-things/
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the check and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the check and wrote this page.

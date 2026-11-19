@@ -86,7 +86,7 @@ If your heart is meaningless to you then you are not being a human being and you
 
 ## What the chosen lines share
 
-An AI chatbot (Claude) compared the 18 chosen lines and the notes below are the chatbot's reading and not the owner's words.
+> **Who wrote this:** An AI chatbot (Claude) compared the 18 chosen lines and the notes below are the chatbot's reading and not the owner's words.
 
 - 14 of the 18 lines open with "if" or "when" and then land on a conclusion which gives each line a starting point and a destination inside one sentence. Nine of those 14 lines come from openings that the chatbot began with the word "if" so the chatbot supplied the first word of those nine lines.
 - 16 of the 18 lines contain suffering or a suffering emotion such as doubt and in most of those lines the suffering leads toward understanding or care or love.

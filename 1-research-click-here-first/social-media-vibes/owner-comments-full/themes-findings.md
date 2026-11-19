@@ -1,6 +1,6 @@
 # Themes in the owner's 6020 comments
 
-An AI chatbot (Claude) ran two small studies on the 6020 comments in this folder with a counting program. No person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran two small studies on the 6020 comments in this folder with a counting program. No person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## Study 1: how the themes move from the first comment to the last comment
 

@@ -1,6 +1,6 @@
 # The robot act: why a lawmaker who can rescue a bank says nothing can be done for a fired worker
 
-An AI chatbot (Claude) wrote this reflection. The reflection is the chatbot's interpretation and the possible motives are guesses because nobody can see inside another person's mind. No person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection. The reflection is the chatbot's interpretation and the possible motives are guesses because nobody can see inside another person's mind. No person has rechecked the reflection.
 
 The chatbot's best guess is that stupidity is not the explanation because the same lawmakers who say nothing can be done for a fired worker have moved within days to rescue failing banks. People who can write hundreds of pages of careful exceptions for owners of capital are able to understand that a person with no paycheck gets hungry and that a person removed from a home has nowhere to sleep. So the blank robotic face is more likely a choice than a limit and the question becomes what the choice does for the person wearing the face.
 

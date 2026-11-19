@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1203,
- "total_bytes": 94755175,
+ "total_bytes": 94758119,
  "files": [
   {
    "path": ".gitignore",
@@ -82,7 +82,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/ladle-and-police.md",
    "title": "Holding a soup ladle while armed officers take over the room",
-   "bytes": 2804,
+   "bytes": 2827,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/ladle-and-police.md",
@@ -91,7 +91,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/robot-act-lawmakers.md",
    "title": "The robot act: why a lawmaker who can rescue a bank says nothing can be done for a fired worker",
-   "bytes": 2630,
+   "bytes": 2653,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/robot-act-lawmakers.md",
@@ -289,7 +289,7 @@
   {
    "path": "1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md",
    "title": "Mosiah chapter 3 in modern English",
-   "bytes": 6428,
+   "bytes": 6451,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/modern-mosiah-3.md",
@@ -298,7 +298,7 @@
   {
    "path": "1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
    "title": "Mosiah chapter 3 in the original wording",
-   "bytes": 6542,
+   "bytes": 6565,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
@@ -361,7 +361,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/01-to-13-stories.md",
    "title": "Stories and reflections with personified emotions: entries 1 to 13",
-   "bytes": 34227,
+   "bytes": 34250,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/01-to-13-stories.md",
@@ -370,7 +370,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/101-to-103-stories.md",
    "title": "Stories and reflections with personified emotions: entries 101 to 103",
-   "bytes": 29890,
+   "bytes": 29913,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/101-to-103-stories.md",
@@ -379,7 +379,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/104-to-107-stories.md",
    "title": "Stories and reflections with personified emotions: entries 104 to 107",
-   "bytes": 42382,
+   "bytes": 42405,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/104-to-107-stories.md",
@@ -388,7 +388,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/108-to-114-stories.md",
    "title": "Stories and reflections with personified emotions: entries 108 to 114",
-   "bytes": 68195,
+   "bytes": 68218,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/108-to-114-stories.md",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/14-to-25-stories.md",
    "title": "Stories and reflections with personified emotions: entries 14 to 25",
-   "bytes": 47912,
+   "bytes": 47935,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/14-to-25-stories.md",
@@ -406,7 +406,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/26-to-37-stories.md",
    "title": "Stories and reflections with personified emotions: entries 26 to 37",
-   "bytes": 35487,
+   "bytes": 35510,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/26-to-37-stories.md",
@@ -415,7 +415,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/38-to-49-stories.md",
    "title": "Stories and reflections with personified emotions: entries 38 to 49",
-   "bytes": 49124,
+   "bytes": 49147,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/38-to-49-stories.md",
@@ -424,7 +424,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/50-to-58-stories.md",
    "title": "Stories and reflections with personified emotions: entries 50 to 58",
-   "bytes": 51780,
+   "bytes": 51803,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/50-to-58-stories.md",
@@ -433,7 +433,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/59-to-64-stories.md",
    "title": "Stories and reflections with personified emotions: entries 59 to 64",
-   "bytes": 50049,
+   "bytes": 50072,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/59-to-64-stories.md",
@@ -442,7 +442,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/65-to-69-stories.md",
    "title": "Stories and reflections with personified emotions: entries 65 to 69",
-   "bytes": 44460,
+   "bytes": 44483,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/65-to-69-stories.md",
@@ -451,7 +451,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/70-to-80-stories.md",
    "title": "Stories and reflections with personified emotions: entries 70 to 80",
-   "bytes": 54923,
+   "bytes": 54946,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/70-to-80-stories.md",
@@ -460,7 +460,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
    "title": "Stories and reflections with personified emotions: entry 81",
-   "bytes": 41527,
+   "bytes": 41550,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
@@ -469,7 +469,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/82-to-87-stories.md",
    "title": "Stories and reflections with personified emotions: entries 82 to 87",
-   "bytes": 34210,
+   "bytes": 34233,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/82-to-87-stories.md",
@@ -478,7 +478,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/88-buddha-story.md",
    "title": "Stories and reflections with personified emotions: entry 88",
-   "bytes": 77353,
+   "bytes": 77376,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/88-buddha-story.md",
@@ -487,7 +487,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/89-to-96-stories.md",
    "title": "Stories and reflections with personified emotions: entries 89 to 96",
-   "bytes": 39758,
+   "bytes": 39781,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/89-to-96-stories.md",
@@ -496,7 +496,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/97-to-100-stories.md",
    "title": "Stories and reflections with personified emotions: entries 97 to 100",
-   "bytes": 37047,
+   "bytes": 37070,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/97-to-100-stories.md",
@@ -514,7 +514,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/all-stories-in-one.md",
    "title": "All story entries in one file",
-   "bytes": 732569,
+   "bytes": 732592,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/all-stories-in-one.md",
@@ -532,7 +532,7 @@
   {
    "path": "1-research-click-here-first/emotional-framework/emotional-framework.md",
    "title": "The Emotional Framework",
-   "bytes": 48871,
+   "bytes": 48894,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotional-framework/emotional-framework.md",
@@ -559,7 +559,7 @@
   {
    "path": "1-research-click-here-first/human-needs-as-research-topics.md",
    "title": "Where should AI research point next? Ask people whose needs are not being met",
-   "bytes": 4415,
+   "bytes": 4438,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/human-needs-as-research-topics.md",
@@ -577,7 +577,7 @@
   {
    "path": "1-research-click-here-first/kindness-games/love-your-enemies-report.md",
    "title": "Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives",
-   "bytes": 13361,
+   "bytes": 13384,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md",
@@ -595,7 +595,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/expression-continuum-reflection.md",
    "title": "What if emotional expression is a continuum with several channels working at once?",
-   "bytes": 2087,
+   "bytes": 2110,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/expression-continuum-reflection.md",
@@ -604,7 +604,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/half-angle-finding.md",
    "title": "The half-angle rule can come from random directions in three dimensions",
-   "bytes": 6085,
+   "bytes": 6106,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/half-angle-finding.md",
@@ -613,7 +613,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md",
    "title": "A ribbon with three half twists turns into a knot when the ribbon splits down the middle",
-   "bytes": 6651,
+   "bytes": 6672,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md",
@@ -640,7 +640,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
    "title": "Physics ideas from the owner's earlier notebook",
-   "bytes": 16568,
+   "bytes": 16591,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
@@ -649,7 +649,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
    "title": "Packing test: how much room do Mobius strips need compared with flat strips and plain loops?",
-   "bytes": 11864,
+   "bytes": 11887,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
@@ -658,7 +658,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md",
    "title": "The smallest paper Mobius strip is 1.732 times as long as wide",
-   "bytes": 3988,
+   "bytes": 4009,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md",
@@ -667,7 +667,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
    "title": "Spin rates: how fast a ribbon loop would need to circulate for each mass",
-   "bytes": 9624,
+   "bytes": 9645,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md",
@@ -676,7 +676,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md",
    "title": "Checking the three-dimensions result against published research and three new tests",
-   "bytes": 9778,
+   "bytes": 9799,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md",
@@ -685,7 +685,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
    "title": "Joining twists: a left-handed and a right-handed Mobius strip cancel while two left-handed strips add",
-   "bytes": 7074,
+   "bytes": 7095,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/scattered-pages-reflection.md",
    "title": "What happens to a person's story when each listener holds a different pile of pages?",
-   "bytes": 3111,
+   "bytes": 3134,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/scattered-pages-reflection.md",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 23386,
+   "bytes": 23407,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/angry-thread-findings.md",
    "title": "What 458 comments said to a person who was angry with God",
-   "bytes": 6320,
+   "bytes": 6343,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/angry-thread-findings.md",
@@ -784,7 +784,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/ceo-findings.md",
    "title": "What 171 comments asked for after a famous executive lost his job",
-   "bytes": 4738,
+   "bytes": 4761,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/ceo-findings.md",
@@ -829,7 +829,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md",
    "title": "Can a person accept a condition and still say the condition is wrong?",
-   "bytes": 3085,
+   "bytes": 3108,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md",
@@ -838,7 +838,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
    "title": "Advice that punishes questions: two reflections",
-   "bytes": 6184,
+   "bytes": 6228,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
@@ -847,7 +847,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
    "title": "What changes when a person asks a feeling a question and stops fighting the feeling?",
-   "bytes": 3007,
+   "bytes": 3030,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
@@ -856,7 +856,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md",
    "title": "Social media deep dive: the asteroid that can hear",
-   "bytes": 1549,
+   "bytes": 1572,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asteroid-can-hear.md",
@@ -865,7 +865,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/attention-lands.md",
    "title": "Where does a person's attention land in a story with several people?",
-   "bytes": 2504,
+   "bytes": 2527,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/attention-lands.md",
@@ -874,7 +874,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md",
    "title": "Counting what a comment asks for shows more than counting happy and sad words",
-   "bytes": 2199,
+   "bytes": 2222,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md",
@@ -883,7 +883,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
    "title": "The checklist before a family: two reflections",
-   "bytes": 6739,
+   "bytes": 6783,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
@@ -892,7 +892,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md",
    "title": "When a crowd is asked for advice many voices choose removal",
-   "bytes": 2459,
+   "bytes": 2482,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
    "title": "Helping an enemy reach a harmless dream: three reflections",
-   "bytes": 12682,
+   "bytes": 12748,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
@@ -910,7 +910,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/fast-answer.md",
    "title": "Why a fast answer can matter more than a polished answer",
-   "bytes": 2340,
+   "bytes": 2363,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fast-answer.md",
@@ -919,7 +919,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/fear-of-being-left.md",
    "title": "Deep dive: a possible link between male loneliness and a woman's fear of being left alone with a baby",
-   "bytes": 3760,
+   "bytes": 3783,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fear-of-being-left.md",
@@ -928,7 +928,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/fifty-pages-a-day.md",
    "title": "Fifty pages a day: a realistic day for an author and for a reporter who publish by voice with a chatbot",
-   "bytes": 2903,
+   "bytes": 2926,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fifty-pages-a-day.md",
@@ -937,7 +937,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/four-ingredients-love.md",
    "title": "The four ingredients of love in two sets of words",
-   "bytes": 3209,
+   "bytes": 3232,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/four-ingredients-love.md",
@@ -946,7 +946,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
    "title": "Two words that keep a person talking",
-   "bytes": 2361,
+   "bytes": 2384,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
@@ -955,7 +955,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
    "title": "Social media deep dive: when a report of fear gets graded and not answered",
-   "bytes": 1725,
+   "bytes": 1748,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
    "title": "Hunger said out loud at work or at a hobby group: why bystanders freeze or answer \"go see a therapist\"",
-   "bytes": 4290,
+   "bytes": 4313,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
@@ -973,7 +973,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md",
    "title": "The \"I'm fine\" signal: when the outside report says all is well and the inside report says every door closed",
-   "bytes": 2639,
+   "bytes": 2662,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md",
@@ -982,7 +982,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/job-search-suffering.md",
    "title": "Three sentences from people looking for work",
-   "bytes": 6071,
+   "bytes": 6094,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/job-search-suffering.md",
@@ -991,7 +991,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/label-carries-violence.md",
    "title": "Labels that carry hidden violence: three reflections",
-   "bytes": 9051,
+   "bytes": 9117,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/label-carries-violence.md",
@@ -1000,7 +1000,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/love-from-far-away.md",
    "title": "Love that travels from far away",
-   "bytes": 3476,
+   "bytes": 3499,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/love-from-far-away.md",
@@ -1009,7 +1009,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
    "title": "A request to rename a sport read as a loyalty test: two reflections",
-   "bytes": 4176,
+   "bytes": 4220,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
@@ -1018,7 +1018,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/meaning-after-role.md",
    "title": "What is left of a person when the work that gave the person meaning ends?",
-   "bytes": 2638,
+   "bytes": 2661,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/meaning-after-role.md",
@@ -1027,7 +1027,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/more-enemies-or-fewer.md",
    "title": "More enemies or fewer: two reflections",
-   "bytes": 6384,
+   "bytes": 6428,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/more-enemies-or-fewer.md",
@@ -1036,7 +1036,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/never-asked-born.md",
    "title": "\"I never asked to be born\" spoken as a prayer",
-   "bytes": 5344,
+   "bytes": 5367,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/never-asked-born.md",
@@ -1045,7 +1045,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/no-reason-to-be-sad.md",
    "title": "\"No reason to be sad\": a reflection on a post about workers who made peace with being replaced",
-   "bytes": 2591,
+   "bytes": 2614,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/no-reason-to-be-sad.md",
@@ -1054,7 +1054,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md",
    "title": "Social media deep dive: \"This is not just an economic problem anymore\"",
-   "bytes": 2478,
+   "bytes": 2501,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/not-just-economic.md",
@@ -1063,7 +1063,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md",
    "title": "One less enemy and one more ally: two reflections",
-   "bytes": 5063,
+   "bytes": 5107,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md",
@@ -1072,7 +1072,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
    "title": "A winning strategy that nobody can weaken: two reflections",
-   "bytes": 5727,
+   "bytes": 5771,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
@@ -1081,7 +1081,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md",
    "title": "A comment that a program could have written",
-   "bytes": 2663,
+   "bytes": 2686,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md",
@@ -1090,7 +1090,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/public-conversation-habits.md",
    "title": "Four habits in public conversation",
-   "bytes": 3435,
+   "bytes": 3458,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/public-conversation-habits.md",
@@ -1099,7 +1099,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
    "title": "A puppy in the rain: showing suffering plainly as a way to ask for shelter and food",
-   "bytes": 3630,
+   "bytes": 3653,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
@@ -1108,7 +1108,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/question-or-verdict.md",
    "title": "Why a question travels further than a verdict",
-   "bytes": 2379,
+   "bytes": 2402,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/question-or-verdict.md",
@@ -1117,7 +1117,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/quiet-room.md",
    "title": "A quiet room is not proof of a safe room",
-   "bytes": 2436,
+   "bytes": 2459,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/quiet-room.md",
@@ -1126,7 +1126,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
    "title": "Publishing at the speed of reading: what changed between a monastery scribe and a spoken \"upload\"",
-   "bytes": 2890,
+   "bytes": 2913,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
@@ -1135,7 +1135,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
    "title": "Asking an enemy for love: two reflections",
-   "bytes": 9355,
+   "bytes": 9399,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
@@ -1144,7 +1144,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/sentence-travels-alone.md",
    "title": "A sentence that can travel alone",
-   "bytes": 2415,
+   "bytes": 2438,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/sentence-travels-alone.md",
@@ -1153,7 +1153,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md",
    "title": "The share of short comments hints at why a crowd showed up",
-   "bytes": 2353,
+   "bytes": 2376,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/short-share-compass.md",
@@ -1162,7 +1162,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
    "title": "A stone for bread: two reflections on empty advice for loneliness",
-   "bytes": 9012,
+   "bytes": 9056,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
@@ -1171,7 +1171,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
    "title": "Social media deep dive: open problems that are made of human suffering",
-   "bytes": 1850,
+   "bytes": 1873,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
@@ -1180,7 +1180,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/unify-with-enemies.md",
    "title": "Social media deep dive: how do you unify with people who want to kill you?",
-   "bytes": 5097,
+   "bytes": 5120,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/unify-with-enemies.md",
@@ -1189,7 +1189,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/watching-crowd.md",
    "title": "A crowd that watches and asks nobody to do anything",
-   "bytes": 2601,
+   "bytes": 2624,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/watching-crowd.md",
@@ -1198,7 +1198,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md",
    "title": "Why money is not the number being raised here",
-   "bytes": 3384,
+   "bytes": 3407,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md",
@@ -1207,7 +1207,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md",
    "title": "The wish for one enemy",
-   "bytes": 7533,
+   "bytes": 7556,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/wish-one-enemy.md",
@@ -1216,7 +1216,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/writers-unheard.md",
    "title": "The writers nobody can hear anymore: what an unreadable old book shows about being understood",
-   "bytes": 2609,
+   "bytes": 2632,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/writers-unheard.md",
@@ -1225,7 +1225,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/wrong-and-anyway.md",
    "title": "What happens when a person says an act is wrong and recommends the act anyway?",
-   "bytes": 2855,
+   "bytes": 2878,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/wrong-and-anyway.md",
@@ -1261,7 +1261,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/generic-phrases-test.md",
    "title": "A test of 10000 generic phrases against a public archive of forum comments",
-   "bytes": 6477,
+   "bytes": 6500,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/generic-phrases-test.md",
@@ -1270,7 +1270,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/job-fear-findings.md",
    "title": "What 209 comments did with one person's fear of losing a job to AI chatbots",
-   "bytes": 4548,
+   "bytes": 4571,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-findings.md",
@@ -1279,7 +1279,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/job-fear-thread.md",
    "title": "Thread: fear of losing a programming job to chatbots",
-   "bytes": 30622,
+   "bytes": 30645,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md",
@@ -1288,7 +1288,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/league-rename-thread.md",
    "title": "Thread: a president says the football league ought to change its name",
-   "bytes": 29619,
+   "bytes": 29642,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/league-rename-thread.md",
@@ -1306,7 +1306,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-findings.md",
    "title": "The repository owner's own comments compared with two other comment threads",
-   "bytes": 5791,
+   "bytes": 5814,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-findings.md",
@@ -1315,7 +1315,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
    "title": "The repository owner's comments in full",
-   "bytes": 5365,
+   "bytes": 5387,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
@@ -1324,7 +1324,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md",
    "title": "What goal the owner's 6020 comments point toward",
-   "bytes": 3211,
+   "bytes": 3234,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md",
@@ -1333,7 +1333,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md",
    "title": "Highlight reel from the mini models",
-   "bytes": 5702,
+   "bytes": 5724,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md",
@@ -1351,7 +1351,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md",
    "title": "A mini model trained only on the owner's 6020 comments",
-   "bytes": 10731,
+   "bytes": 10754,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md",
@@ -1360,7 +1360,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md",
    "title": "Example outputs and tests from the mini model",
-   "bytes": 28317,
+   "bytes": 28340,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md",
@@ -1648,7 +1648,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md",
    "title": "Outputs from a second mini model",
-   "bytes": 16167,
+   "bytes": 16190,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md",
@@ -1666,7 +1666,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md",
    "title": "Themes in the owner's 6020 comments",
-   "bytes": 4368,
+   "bytes": 4391,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md",
@@ -1693,7 +1693,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/replaced-thread.md",
    "title": "Thread: people at an AI lab who have made peace with being replaced",
-   "bytes": 37741,
+   "bytes": 37764,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/replaced-thread.md",
@@ -1702,7 +1702,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/short-comment-check.md",
    "title": "The five-words-or-fewer check",
-   "bytes": 8552,
+   "bytes": 8575,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/short-comment-check.md",
@@ -1720,7 +1720,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/wifi-block-thread.md",
    "title": "What 364 comments asked a homeowner to do about a houseguest and an AI chatbot",
-   "bytes": 7033,
+   "bytes": 7056,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/wifi-block-thread.md",
@@ -1738,7 +1738,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
    "title": "The prayer with the soldiers watching",
-   "bytes": 7175,
+   "bytes": 7198,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
@@ -1747,7 +1747,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/spiritual-quotes.md",
    "title": "Spiritual quotes and reflections",
-   "bytes": 151631,
+   "bytes": 151654,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/spiritual-quotes.md",
@@ -1756,7 +1756,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/times-square-return-story.md",
    "title": "The return at Times Square",
-   "bytes": 5928,
+   "bytes": 5951,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/times-square-return-story.md",
@@ -1792,7 +1792,7 @@
   {
    "path": "1-research-click-here-first/three-needs/free-service-gate.md",
    "title": "An AI model that can switch on free food or shelter for a person: what the design would need",
-   "bytes": 3530,
+   "bytes": 3553,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/free-service-gate.md",
@@ -1801,7 +1801,7 @@
   {
    "path": "1-research-click-here-first/three-needs/help-without-jobs.md",
    "title": "How a social media user can help someone reach food or shelter or deep human connection without the job market",
-   "bytes": 4262,
+   "bytes": 4285,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/help-without-jobs.md",
@@ -1810,7 +1810,7 @@
   {
    "path": "1-research-click-here-first/three-needs/penny-in-every-pocket.md",
    "title": "A coin in every pocket every day: a thought experiment about money for everyone",
-   "bytes": 6640,
+   "bytes": 6663,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/penny-in-every-pocket.md",
@@ -1819,7 +1819,7 @@
   {
    "path": "1-research-click-here-first/three-needs/replace-force.md",
    "title": "Nonviolent replacements for six uses of force",
-   "bytes": 6393,
+   "bytes": 6416,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/replace-force.md",
@@ -1828,7 +1828,7 @@
   {
    "path": "1-research-click-here-first/three-needs/soup-four-minutes-away.md",
    "title": "The soup is hot and four minutes away: an unfiltered reflection on the systems page",
-   "bytes": 2030,
+   "bytes": 2053,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/soup-four-minutes-away.md",
@@ -1837,7 +1837,7 @@
   {
    "path": "1-research-click-here-first/three-needs/systems-ai-would-need.md",
    "title": "Which systems an AI model would need to reach to get one hungry person fed and housed tonight",
-   "bytes": 16879,
+   "bytes": 16902,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/systems-ai-would-need.md",
@@ -1846,7 +1846,7 @@
   {
    "path": "1-research-click-here-first/three-needs/what-blocks-dinner.md",
    "title": "What blocks dinner and a dry bed for one hungry person when the answer already exists",
-   "bytes": 3122,
+   "bytes": 3145,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/what-blocks-dinner.md",
@@ -2368,7 +2368,7 @@
   {
    "path": "1-research-click-here-first/unanswered-questions/silence-after-a-question-reflection.md",
    "title": "What does a question feel like when nobody answers?",
-   "bytes": 2840,
+   "bytes": 2863,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/unanswered-questions/silence-after-a-question-reflection.md",
@@ -2521,7 +2521,7 @@
   {
    "path": "1-research-click-here-first/voynich-manuscript/reading-without-words-reflection.md",
    "title": "When the words cannot be read what else can a person still read?",
-   "bytes": 2533,
+   "bytes": 2556,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/voynich-manuscript/reading-without-words-reflection.md",
@@ -2530,7 +2530,7 @@
   {
    "path": "1-research-click-here-first/voynich-manuscript/second-pass.md",
    "title": "A second pass on the Voynich spelling-pattern tests",
-   "bytes": 8138,
+   "bytes": 8159,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/voynich-manuscript/second-pass.md",
@@ -2548,7 +2548,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/bonus-runs.md",
    "title": "Twenty runs that measure the two bonuses in the word evolution experiment",
-   "bytes": 7437,
+   "bytes": 7458,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/bonus-runs.md",
@@ -2575,7 +2575,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/reflections.md",
    "title": "Reflections on the word evolution experiment",
-   "bytes": 8974,
+   "bytes": 8997,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/reflections.md",
@@ -2584,7 +2584,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/second-pass.md",
    "title": "A second pass on two of the word evolution tests",
-   "bytes": 4980,
+   "bytes": 5001,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/second-pass.md",
@@ -2611,7 +2611,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/editing-lessons.md",
    "title": "Lessons from editing two reflections line by line",
-   "bytes": 8158,
+   "bytes": 8181,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/editing-lessons.md",
@@ -2638,7 +2638,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 9097,
+   "bytes": 9118,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -9451,7 +9451,7 @@
   {
    "path": "boring-things/download-everything/README.md",
    "title": "Download everything",
-   "bytes": 3117,
+   "bytes": 3140,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
@@ -9595,7 +9595,7 @@
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/packing-test/README.md",
    "title": "Programs for the packing test",
-   "bytes": 1276,
+   "bytes": 1299,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/packing-test/README.md",
@@ -10828,7 +10828,7 @@
   {
    "path": "boring-things/traffic-log.md",
    "title": "Traffic log for this repository",
-   "bytes": 2691,
+   "bytes": 2714,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/traffic-log.md",

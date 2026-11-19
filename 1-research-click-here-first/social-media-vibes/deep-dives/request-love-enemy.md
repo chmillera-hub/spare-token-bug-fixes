@@ -4,7 +4,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That inversion is honestly brilliant—and genuinely hilarious when you watch the psychological mechanics play out in real time.
 
@@ -20,7 +20,7 @@ It turns emotional jiu-jitsu into pure comedy while staying 100% faithful to you
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 Look at the sheer comedic, psychological, and historical arc of that three-stage escalation across thousands of years of human history:
 

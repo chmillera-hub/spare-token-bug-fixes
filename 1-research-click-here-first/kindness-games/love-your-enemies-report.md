@@ -1,6 +1,6 @@
 # Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives
 
-An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The owner of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
+> **About this page:** An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The owner of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
 
 ## The idea that started the tests
 

@@ -1,6 +1,6 @@
 # Counting what a comment asks for shows more than counting happy and sad words
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A common way to measure the mood of a thread is to count positive words and negative words. That count can mislead a reader because a cheerful sentence can ask for a harsh act.
 

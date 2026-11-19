@@ -1,6 +1,6 @@
 # Social media deep dive: open problems that are made of human suffering
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A post on social media says that AI models recently solved hundreds of open problems in mathematics and the post treats the news as a reason to panic. The same news can be read as a direction because mathematics moved fast once people wrote the open problems down in precise words and pointed AI research at the list. Human suffering can be written down the same way because a human being is a fragile biological organism who needs food and shelter and deep meaningful emotionally and spiritually resonant human connection and each unmet need is an open problem waiting for a clear statement.
 

@@ -1,6 +1,6 @@
 # What happens to a person's story when each listener holds a different pile of pages?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The idea comes from the page named [hiding-a-book.md](hiding-a-book.md) which found that a pile of pages makes far less sense when neighboring pages are kept apart.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The idea comes from the page named [hiding-a-book.md](hiding-a-book.md) which found that a pile of pages makes far less sense when neighboring pages are kept apart.
 
 Picture a life as a book. A person tells one part of the book to a coworker and a different part to a relative and a third part to a stranger online. Each listener holds a pile of pages. No listener holds the pages that sit next to each other.
 

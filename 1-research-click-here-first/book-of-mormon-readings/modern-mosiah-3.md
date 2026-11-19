@@ -1,6 +1,6 @@
 # Mosiah chapter 3 in modern English
 
-An AI chatbot (Claude) wrote this page on 17 November 2026 by rewording chapter 3 of the Book of Mosiah from the Book of Mormon into modern English one verse at a time. Every detail of each verse was kept and no other person has rechecked the rewording. The page named [mosiah-3.md](mosiah-3.md) holds the same chapter in the original wording. A king is speaking to his people and from verse 3 onward the king repeats what an angel told him.
+> **About this page:** An AI chatbot (Claude) wrote this page on 17 November 2026 by rewording chapter 3 of the Book of Mosiah from the Book of Mormon into modern English one verse at a time. Every detail of each verse was kept and no other person has rechecked the rewording. The page named [mosiah-3.md](mosiah-3.md) holds the same chapter in the original wording. A king is speaking to his people and from verse 3 onward the king repeats what an angel told him.
 
 1 And again my brothers I ask for your attention because I have more to say to you. I have things to tell you about what lies ahead.
 

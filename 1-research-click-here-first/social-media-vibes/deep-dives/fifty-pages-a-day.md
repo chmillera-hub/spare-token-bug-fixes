@@ -1,6 +1,6 @@
 # Fifty pages a day: a realistic day for an author and for a reporter who publish by voice with a chatbot
 
-An AI chatbot (Claude) wrote this imagined timetable on 15 November 2026. No other person has rechecked the timetable. Every figure is the chatbot's rough estimate. The estimate rests on a loop of about five minutes per page: a person speaks an idea and waits about a minute for a draft and reads the draft in about ninety seconds and says "upload" and a chatbot files the page in a public GitHub repository.
+> **About this page:** An AI chatbot (Claude) wrote this imagined timetable on 15 November 2026. No other person has rechecked the timetable. Every figure is the chatbot's rough estimate. The estimate rests on a loop of about five minutes per page: a person speaks an idea and waits about a minute for a draft and reads the draft in about ninety seconds and says "upload" and a chatbot files the page in a public GitHub repository.
 
 ## An author at about 50 pages a day
 

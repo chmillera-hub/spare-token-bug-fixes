@@ -1,6 +1,6 @@
 # The writers nobody can hear anymore: what an unreadable old book shows about being understood
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable handwritten book from the Voynich manuscript folder of this project as a picture for a person whose words are not being understood and makes no new claim about the book.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable handwritten book from the Voynich manuscript folder of this project as a picture for a person whose words are not being understood and makes no new claim about the book.
 
 Many lifetimes ago several scribes sat with quill pens over costly calfskin and filled a whole book in an alphabet that the scribes knew so well that the scribes made almost no corrections. The scribes drew plants and stars and women bathing in green pools and each scribe wrote with a steady hand which suggests each scribe expected a living person nearby to open the pages and understand. Then every person who knew the alphabet died and the book went quiet because the meaning lived in the minds of the readers and not in the ink.
 

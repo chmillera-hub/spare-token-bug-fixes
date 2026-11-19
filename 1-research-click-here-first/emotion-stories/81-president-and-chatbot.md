@@ -1,6 +1,6 @@
 # Stories and reflections with personified emotions: entry 81
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 81.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 81.
 
 ## Entry 81
 

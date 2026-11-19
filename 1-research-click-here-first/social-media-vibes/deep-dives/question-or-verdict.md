@@ -1,6 +1,6 @@
 # Why a question travels further than a verdict
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment that says "you are dumb" stops with the person who receives the comment. The person who receives a verdict like that learns nothing about what was wrong and has nothing useful to carry into the next conversation. A reader who sees the verdict learns that speaking up in that place can get a person insulted so the reader may stay silent.
 

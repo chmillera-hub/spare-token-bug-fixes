@@ -1,6 +1,6 @@
 # A quiet room is not proof of a safe room
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A smoke detector with the battery pulled out makes a room quiet. The quiet in that room comes from the missing battery and says nothing about whether wires are burning inside the wall.
 

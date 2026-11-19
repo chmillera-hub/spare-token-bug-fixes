@@ -1,6 +1,6 @@
 # What does a question feel like when nobody answers?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 This folder holds questions that people posted in public places and that sat with no reply. Some of those questions sat for a long time. Each one was typed by a living person who wanted to know something and who checked back and found an empty space under the question.
 

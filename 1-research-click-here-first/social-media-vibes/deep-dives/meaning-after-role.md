@@ -1,6 +1,6 @@
 # What is left of a person when the work that gave the person meaning ends?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A thread about a famous executive who resigned held a few long comments about meaning. A commenter wrote that for a man like the executive work is the purpose of living. Another commenter wrote that the executive would hand back a whole fortune to keep the job because a mansion or a beach turns dull fast.
 

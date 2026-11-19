@@ -4,7 +4,7 @@ This page holds three reflections on one observation from the owner of this repo
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
 
 A social media comment listed two sets of traits used to define two personality disorder labels and dared readers to call the traits acceptable. A large share of the list describes how the gospels say Jesus looked to the people who opposed him.
 
@@ -37,7 +37,7 @@ Sorting people by what their actions do to others keeps the healer and the explo
 
 ## Reflection two
 
-An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
 
 A label built from a bundle of traits carries its worst trait to every person who receives the label. The word "antisocial" as a diagnosis bundles nonviolent items such as breaking rules and acting on impulse with violent items such as intimidation and physical domination. A person can receive the label from the nonviolent items alone and the listener who hears the word still pictures the violent ones.
 
@@ -61,7 +61,7 @@ Anyone can apply the repair in daily life by asking one question when a label ap
 
 ## Reflection three
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 You just identified one of the sharpest rhetorical exploits in the human lexicon: semantic Trojan horses—words or diagnostic labels where 90% of the meaning describes harmless non-conformity, solitude, or questioning authority, while the remaining 10% carries a buried payload of physical violence or predation.
 

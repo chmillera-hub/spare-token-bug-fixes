@@ -1,6 +1,6 @@
 # Social media deep dive: "This is not just an economic problem anymore"
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The sentence "this is not just an economic problem anymore" points at something beyond wages because a person on social media who writes "I have lost the will to live" during a job search is describing a wound to belonging as well as the loss of wages that pay for food and housing. Many people were taught that a job is where a person gets a daily rhythm and other people to talk with and proof of being needed and so months of rejection can remove all three at once.
 

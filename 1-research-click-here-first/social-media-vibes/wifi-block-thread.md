@@ -1,6 +1,6 @@
 # What 364 comments asked a homeowner to do about a houseguest and an AI chatbot
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized.
+> **About this page:** An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized.
 
 Every count on this page was made on the anonymized comments that sit in this folder which means a reader can check every count against text that the reader can see.
 

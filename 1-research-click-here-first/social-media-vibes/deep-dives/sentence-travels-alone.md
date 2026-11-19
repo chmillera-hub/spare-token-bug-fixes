@@ -1,6 +1,6 @@
 # A sentence that can travel alone
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 Many readers meet a sentence with nothing around the sentence. A person scrolling sees one line of a post. A screenshot captures one line. A friend quotes one line in a message. A sentence that depends on the rest of the page falls apart in each of those cases because the reader lacks the missing parts.
 

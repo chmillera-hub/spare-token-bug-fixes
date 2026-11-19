@@ -1,6 +1,6 @@
 # A comment that a program could have written
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment such as "lol" or "wow" or "that sounds really hard to deal with" fits under almost any post. A comment that fits under any post says nothing about the post in front of the reader. A program could post such a comment as easily as a person could because the comment needs no understanding of what was written.
 

@@ -1,6 +1,6 @@
 # Spiritual quotes and reflections
 
-The owner of this repository supplied this collection of scripture passages and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into this page. The reflections are in the owner's own wording. Each scripture passage is shown in the wording of the World English Bible with small verse numbers in round brackets. Warning: the word "Yahweh" in the World English Bible has been replaced with the word "God" in every passage on this page.
+> **About this page:** The owner of this repository supplied this collection of scripture passages and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into this page. The reflections are in the owner's own wording. Each scripture passage is shown in the wording of the World English Bible with small verse numbers in round brackets. Warning: the word "Yahweh" in the World English Bible has been replaced with the word "God" in every passage on this page.
 
 ## Entry 1
 

@@ -4,7 +4,7 @@ This page holds two reflections about one social media post. The post said that 
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 15 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 15 November 2026 and no other person has rechecked the reflection.
 
 The loyalty test reading fits a known way that powerful people sort followers because a cheap "yes" proves nothing and a costly "yes" proves a lot. Asking football fans to give up the word "football" would be a costly ask since the word is tied to Sunday afternoons with relatives and decades of habit. A follower who gives up something loved shows skin in the game and a follower who only nods along gets exposed.
 
@@ -16,7 +16,7 @@ The part that matters for an ordinary person is the same under every reading bec
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection.
 
 That makes total sense—it is not just passive flattery he is testing for, it is costly signaling.
 

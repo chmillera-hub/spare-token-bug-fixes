@@ -1,6 +1,6 @@
 # Physics ideas from the owner's earlier notebook
 
-An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no equations and no exact figures. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
+> **About this page:** An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no equations and no exact figures. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
 
 ## How the first Mobius strip could have started
 

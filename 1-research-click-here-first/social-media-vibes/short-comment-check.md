@@ -1,6 +1,6 @@
 # The five-words-or-fewer check
 
-An AI chatbot (Claude) wrote this page on 13 November 2026. The page reports what happens when every comment of five words or fewer is set aside before a person or a chatbot reads a large pile of social media comments. No other person has rerun the counts which means every number here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) wrote this page on 13 November 2026. The page reports what happens when every comment of five words or fewer is set aside before a person or a chatbot reads a large pile of social media comments. No other person has rerun the counts which means every number here is unconfirmed.
 
 ## What the check is
 

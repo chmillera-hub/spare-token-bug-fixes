@@ -1,6 +1,6 @@
 # "I never asked to be born" spoken as a prayer
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 I am imagining Jesus Christ alone on a mountain in prayer and a sentence that he has heard from people who are hurting rises in his mind and so he says the sentence out loud which is "Father, I never asked to be born".
 

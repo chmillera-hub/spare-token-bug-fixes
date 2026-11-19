@@ -1,6 +1,6 @@
 # What blocks dinner and a dry bed for one hungry person when the answer already exists
 
-An AI chatbot (Claude) wrote this page on 15 November 2026. No other person has rechecked the page. The page answers a question from the owner of this repository: feeding and housing a person is a solved problem that happens millions of times every day so what exactly stops an AI model from solving the problem for one more person?
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026. No other person has rechecked the page. The page answers a question from the owner of this repository: feeding and housing a person is a solved problem that happens millions of times every day so what exactly stops an AI model from solving the problem for one more person?
 
 Picture a person who says "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep."
 

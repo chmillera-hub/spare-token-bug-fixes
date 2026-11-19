@@ -1,6 +1,6 @@
 # Deep dive: a possible link between male loneliness and a woman's fear of being left alone with a baby
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and a best guess because nobody can see inside another person's mind. No person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and a best guess because nobody can see inside another person's mind. No person has rechecked the reflection.
 
 Picture the choice from where a woman might stand. Pregnancy and birth and the first years of a baby's life take months of physical recovery and thousands of hours of care. In the United States lawmakers have not passed paid leave for every worker and employers can cut hours or pay when a mother needs time. So the support that a village of relatives and neighbors once gave has been squeezed down into one question which is whether this one man will stay and whether this one man can cover everything alone.
 

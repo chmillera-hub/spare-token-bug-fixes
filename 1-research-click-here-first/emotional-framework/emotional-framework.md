@@ -1,6 +1,6 @@
 # The Emotional Framework
 
-The owner of this repository wrote this document. An AI chatbot (Claude) put the document into this page format on 14 November 2026.
+> **About this page:** The owner of this repository wrote this document. An AI chatbot (Claude) put the document into this page format on 14 November 2026.
 
 > “Emotions aren’t spam emails, they’re an email marked urgent from ‘Reality Itself’™ titled ‘We Need To Talk’... so don’t let those emails pile up lest you get one titled ‘hey you, yeah you. I know you got that last email I’m you after all… 😒’” - HR Universe
 

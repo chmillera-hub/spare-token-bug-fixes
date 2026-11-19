@@ -1,6 +1,6 @@
 # What 209 comments did with one person's fear of losing a job to AI chatbots
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 15 November 2026. The post and the comments are anonymized. The counts were made by the chatbot on the anonymized comments and no person has rechecked the counts.
+> **About this page:** An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 15 November 2026. The post and the comments are anonymized. The counts were made by the chatbot on the anonymized comments and no person has rechecked the counts.
 
 - [job-fear-thread.md](job-fear-thread.md) holds the anonymized post and all 209 anonymized comments so a reader can check every claim on this page against text that the reader can see.
 

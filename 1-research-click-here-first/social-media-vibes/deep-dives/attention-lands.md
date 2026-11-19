@@ -1,6 +1,6 @@
 # Where does a person's attention land in a story with several people?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A news article reported that a famous technology executive resigned after reports about affairs. The people in the thread mostly wrote about the executive. No comment in the thread was about caring for the executive's wife or family or for the women named in the news reports.
 

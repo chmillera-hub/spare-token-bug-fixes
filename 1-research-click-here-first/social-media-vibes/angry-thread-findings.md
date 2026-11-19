@@ -1,6 +1,6 @@
 # What 458 comments said to a person who was angry with God
 
-An AI chatbot (Claude) anonymized the comments and assigned the labels and wrote this page on 13 November 2026. No other person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) anonymized the comments and assigned the labels and wrote this page on 13 November 2026. No other person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## What the thread was about
 

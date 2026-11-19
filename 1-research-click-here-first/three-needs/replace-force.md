@@ -1,6 +1,6 @@
 # Nonviolent replacements for six uses of force
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. The goal of the page is to find ways of providing food and shelter and deep meaningful emotionally and spiritually resonant human connection to all human beings without violence or coercion.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. The goal of the page is to find ways of providing food and shelter and deep meaningful emotionally and spiritually resonant human connection to all human beings without violence or coercion.
 
 ## The common shape of the violence
 

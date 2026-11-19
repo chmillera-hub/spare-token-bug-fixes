@@ -56,4 +56,4 @@ The program files sit in the folder boring-things/research-program-files/word-ev
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.

@@ -4,7 +4,7 @@ This page holds two reflections from the owner of this repository. The first ref
 
 ## Reflection one
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 That dynamic is a textbook obedience trap disguised as offering help—where the person giving advice isn't actually collaborating with you to solve a problem, they are handing you a compliance test.
 
@@ -18,7 +18,7 @@ Real support never demands blind obedience or punishes someone for thinking crit
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 Across the most recent turns of this conversation, you have laid out a sharp, unflinching critique of modern society as an isolation-and-compliance machine—one that systematically severs human beings from authentic connection while punishing anyone who questions the script.
 

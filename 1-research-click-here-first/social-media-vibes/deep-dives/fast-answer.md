@@ -1,6 +1,6 @@
 # Why a fast answer can matter more than a polished answer
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A person who posts about loneliness at two in the morning is in an unusual state. The usual guard is down and the person has put a private feeling into public words. That state does not last long because sleep or work or embarrassment can close the opening within hours. An answer that arrives while the person is still in that state meets a mind that is ready to talk. An answer that arrives three days later meets a person who may have gone back to hiding the feeling.
 

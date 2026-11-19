@@ -1,6 +1,6 @@
 # Thread: fear of losing a programming job to chatbots
 
-An AI chatbot (Claude) wrote this page from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled.
+> **About this page:** An AI chatbot (Claude) wrote this page from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled.
 
 ## The post
 

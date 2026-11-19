@@ -1,6 +1,6 @@
 # Four habits in public conversation
 
-An AI chatbot (Claude) wrote this reflection after reading a comment section under a news story about a powerful executive. The comments from that thread are in the file named [fast-reply-comments.txt](../fast-reply-comments.txt) in the folder above this one. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection after reading a comment section under a news story about a powerful executive. The comments from that thread are in the file named [fast-reply-comments.txt](../fast-reply-comments.txt) in the folder above this one. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment section under a news story about a powerful executive held about 250 comments. Roughly 1 comment in 15 described a behavior that a reader could picture and copy such as writing directly to a person who can fix a problem. The other comments were mostly jokes and arguments about a scandal. That ratio says something about how many people use public conversation today. A large share of attention goes to judging a famous stranger and a small share goes to trading behaviors that could improve a reader's own week.
 

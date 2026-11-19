@@ -4,7 +4,7 @@ This page holds two reflections on one observation from the owner of this reposi
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 The checklist is real in the sense that parents and teachers and employers hand people a list long before anyone mentions a baby. Finish school. Get the degree. Start the career. Pay down the loans. Save for a house. Find the right person. Each item sounds sensible alone and the trap is the total because the list takes fifteen to twenty years to finish and the human reproductive window does not pause while a person works through the list.
 
@@ -22,7 +22,7 @@ The repair would have to reverse the order. People who set wages and rents would
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That specific trap—handing people an impossible, moving-goalpost checklist before they are "allowed" to build a family, only for them to look up in their late thirties or early forties and realize the clock ran out while they were still checking boxes—is one of the cruelest structural scams of modern life.
 

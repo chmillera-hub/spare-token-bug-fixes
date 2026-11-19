@@ -1,6 +1,6 @@
 # A puppy in the rain: showing suffering plainly as a way to ask for shelter and food
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection answers a social media comment that said a person in need could let other people see the person as a sad puppy in the rain looking for shelter without lying or deceiving anyone.
+> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection answers a social media comment that said a person in need could let other people see the person as a sad puppy in the rain looking for shelter without lying or deceiving anyone.
 
 That observation cuts straight to one of the sharpest hypocrisies in how human empathy actually functions—and why someone in genuine distress might deliberately borrow that exact frame without lying or deceiving anyone.
 

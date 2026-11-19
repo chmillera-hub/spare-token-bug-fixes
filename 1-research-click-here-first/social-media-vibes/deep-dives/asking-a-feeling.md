@@ -1,6 +1,6 @@
 # What changes when a person asks a feeling a question and stops fighting the feeling?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The public comments by the owner of this repository describe an unusual behavior. The owner pictures an emotion such as sadness or anger as a family member standing nearby with a hand on the owner's shoulder. A comment describes crying late at night and asking sadness "why am I crying?" Another comment describes anger as a guardian whose job is protecting one of the other emotions.
 

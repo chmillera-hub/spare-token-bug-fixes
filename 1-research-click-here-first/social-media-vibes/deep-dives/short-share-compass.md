@@ -1,6 +1,6 @@
 # The share of short comments hints at why a crowd showed up
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A program can count how many comments in a thread have five words or fewer. That one number hints at what the people in the thread came to do.
 

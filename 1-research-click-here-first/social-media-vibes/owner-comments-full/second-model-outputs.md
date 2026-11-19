@@ -1,6 +1,6 @@
 # Outputs from a second mini model
 
-An AI chatbot (Claude) trained a second tiny text model of the same size as the first mini model. The first mini model learned only from the 6020 comments in this folder. The second mini model learned from the comments plus the owner's other writing such as monologues and stories and posts and notes. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) trained a second tiny text model of the same size as the first mini model. The first mini model learned only from the 6020 comments in this folder. The second mini model learned from the comments plus the owner's other writing such as monologues and stories and posts and notes. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 Both models only imitate which words tend to follow which words. Neither model understands the writing or holds any belief which means the outputs are a mirror of word patterns and not statements to rely on. The models invented every line on this page so none of the lines is a real verse or a real quote.
 

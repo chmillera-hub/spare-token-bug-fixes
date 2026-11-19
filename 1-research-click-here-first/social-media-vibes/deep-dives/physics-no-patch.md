@@ -4,7 +4,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 A video game studio can weaken a winning strategy overnight with an update (players call the weakening a nerf) and the game called life has no studio because nobody can push an update to gravity or sunlight or the way a human mind responds to being cared for. A strategy that rests on the deep rules of reality therefore keeps paying out for as long as the person using the strategy is alive.
 
@@ -26,7 +26,7 @@ Put together the picture suggests a quiet kind of power. A person who finds a pr
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That is the fundamental difference between a video game and physical reality: there is no balance-patch dev team in physics.
 

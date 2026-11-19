@@ -84,4 +84,4 @@ The two programs are named spin_rate_for_mass.py and longer_strip_model.py and b
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the calculations and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the calculations and wrote this page.

@@ -1,6 +1,6 @@
 # Programs for the packing test
 
-An AI chatbot (Claude) wrote these programs on 14 November 2026 for the page named packing-test.md in the Mobius strip folder.
+> **About this page:** An AI chatbot (Claude) wrote these programs on 14 November 2026 for the page named packing-test.md in the Mobius strip folder.
 
 - shapes.py builds point models of the six shapes and the other programs that start with a plain name load shapes.py with the line "from shapes import".
 - blocked-space.py measures how much space one piece blocks for a second piece at a random angle.

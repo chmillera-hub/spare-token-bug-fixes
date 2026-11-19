@@ -60,4 +60,4 @@ Anyone may use and copy and share the writing in this repository without asking 
 
 ## Who made the pages
 
-An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.
+> **Who wrote this:** An AI chatbot (Claude) wrote the pages and the bug fixes and no other person has rerun the research tests or reviewed the bug fixes which means every result here is unconfirmed.

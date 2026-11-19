@@ -1,6 +1,6 @@
 # The "I'm fine" signal: when the outside report says all is well and the inside report says every door closed
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows one bug from the bug fixes folder of this project as a picture for a person who says "I'm fine" and makes no new claim about the bug.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows one bug from the bug fixes folder of this project as a picture for a person who says "I'm fine" and makes no new claim about the bug.
 
 A person wrote a small program for sending work requests out to several large computers and the person set up the closing signal so the signal read as "all is well" even when every request was turned away. The person did have the program write one line in a log saying every request failed but anyone relying on the closing signal alone was told the work had been accepted because the failure was never wired into the one place most people check.
 

@@ -1,6 +1,6 @@
 # Download everything
 
-An AI chatbot (Claude) wrote this page and built the files in this folder on 14 November 2026. Every file in this repository is public and any person or AI agent may download the files for research.
+> **About this page:** An AI chatbot (Claude) wrote this page and built the files in this folder on 14 November 2026. Every file in this repository is public and any person or AI agent may download the files for research.
 
 ## Permission
 

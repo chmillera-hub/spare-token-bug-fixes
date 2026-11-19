@@ -1,6 +1,6 @@
 # Social media deep dive: the asteroid that can hear
 
-An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 In the film Don't Look Up a rock is falling toward Earth and people argue over whether the report is real because a rock cannot be bargained with. The same move showed up when a person asked online how to stay fed and housed after chatbots take a job and the crowd audited whether a chatbot wrote the question. Here is a possibility and only a guess: a question with no known answer is unbearable to stand next to and so people grab a question that can be settled in ten seconds.
 

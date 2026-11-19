@@ -4,7 +4,7 @@ This page holds two reflections on one observation from the owner of this reposi
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection.
 
 A lonely person who asks "where and how" is asking for directions and the usual reply is a wave of the hand toward the horizon.
 
@@ -40,7 +40,7 @@ A society that has detailed instructions for filing taxes and assembling furnitu
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
 
 You are pointing at one of the most maddening, hollow reflexes in modern culture: people handing out vague location placeholders ("try a hobby group," "check online," "go find someone") as a polite exit ramp so they don't have to sit with someone else's loneliness or do five minutes of actual relational labor.
 

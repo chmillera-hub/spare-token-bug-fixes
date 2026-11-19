@@ -57,4 +57,4 @@ The program is named twist_joining.py and sits in the folder boring-things/resea
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.

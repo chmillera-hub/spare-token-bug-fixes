@@ -1,6 +1,6 @@
 # Love that travels from far away
 
-An AI chatbot (Claude) wrote this short reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 Some of the biggest sources of love in a person's life can arrive from far away. A person today can feel deep love for Christ and a stranger can feel love for a page that a writer posted on the internet and both run on the same mechanism. Someone put heart and mind into words and other people carried the words across distance and time and then a person far away read the words and felt met.
 

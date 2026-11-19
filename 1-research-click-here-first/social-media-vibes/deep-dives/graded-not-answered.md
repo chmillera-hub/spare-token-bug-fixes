@@ -1,6 +1,6 @@
 # Social media deep dive: when a report of fear gets graded and not answered
 
-An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The counts are explained on the page named [job-fear-findings.md](../job-fear-findings.md).
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The counts are explained on the page named [job-fear-findings.md](../job-fear-findings.md).
 
 A person wrote that losing a programming job to chatbots is frightening and asked how to prepare. More than one in four of the 209 replies graded the wording to decide whether a chatbot wrote the post which suggests that suffering now has to pass an identity check before anyone listens. The people most likely to ask a chatbot for help with phrasing are people who are shaking or writing in a second language and so the people with the least strength left may be dismissed most often.
 

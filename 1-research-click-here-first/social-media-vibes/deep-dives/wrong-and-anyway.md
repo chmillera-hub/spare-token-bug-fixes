@@ -1,6 +1,6 @@
 # What happens when a person says an act is wrong and recommends the act anyway?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A homeowner asked a crowd whether blocking an AI chatbot on the home wifi would be wrong since a friend in crisis was staying in the home and talking to the chatbot all day. Several commenters gave the same two-part answer. Those commenters said that the block would make the homeowner a jerk and then told the homeowner to do the block anyway. A commenter wrote that being a bit of a jerk is sometimes worth the price.
 

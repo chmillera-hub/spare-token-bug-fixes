@@ -4,7 +4,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 The arithmetic of the idea is striking because every other way of dealing with an enemy leaves the enemy count the same or higher. To keep the people clear I will call the person who has an enemy "the helper" and I will call the enemy "the enemy".
 
@@ -27,7 +27,7 @@ An old proverb says "living well is the best revenge" which means a person answe
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That closes the loop completely. If your adversary ends up genuinely thriving—and their worldview expands into real care for all of humanity—you don't just get a temporary ceasefire or a reluctant truce; because you are one of the humans inside that circle, their flourishing literally converts an active threat into a natural ally looking out for your well-being too.
 

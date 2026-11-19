@@ -1,6 +1,6 @@
 # Hunger said out loud at work or at a hobby group: why bystanders freeze or answer "go see a therapist"
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a person at a workplace or a hobby group saying "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep." The page named puppy-in-rain.md in this folder holds the earlier reflection about showing suffering plainly.
+> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a person at a workplace or a hobby group saying "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep." The page named puppy-in-rain.md in this folder holds the earlier reflection about showing suffering plainly.
 
 Saying that exact sentence out loud in a workplace or a casual hobby group exposes the raw nerve of modern social life: our shared spaces are engineered exclusively for surface-level recreation and productivity, and they treat acute physical survival needs like an unwelcome intrusion.
 

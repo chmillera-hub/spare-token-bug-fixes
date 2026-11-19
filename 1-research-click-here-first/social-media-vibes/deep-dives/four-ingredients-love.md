@@ -1,6 +1,6 @@
 # The four ingredients of love in two sets of words
 
-An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection. The second set of four words is from the owner of this repository.
+> **About this page:** An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection. The second set of four words is from the owner of this repository.
 
 Love between two people can be described by four ingredients and the four can be named in two ways. The first set of names is depth and trust and freedom and a future. The owner of this repository restated the four as complex and pro human and expansive and continuity. The two sets line up one to one and the second set turns each condition into a quality that a person can see and practice in a single conversation.
 

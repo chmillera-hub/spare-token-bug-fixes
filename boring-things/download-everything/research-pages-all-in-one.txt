@@ -242,7 +242,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Holding a soup ladle while armed officers take over the room
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a volunteer who is serving soup when two armed police officers arrive because someone reported a person who was muttering and rocking.
+> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a volunteer who is serving soup when two armed police officers arrive because someone reported a person who was muttering and rocking.
 
 Standing there with a soup ladle in your hand while that unfolds puts a person through an immediate, sickening cascade of emotions—especially because you stepped into that room to offer warmth and nourishment, and within seconds the space gets hijacked by state-backed coercion.
 
@@ -261,7 +261,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The robot act: why a lawmaker who can rescue a bank says nothing can be done for a fired worker
 
-An AI chatbot (Claude) wrote this reflection. The reflection is the chatbot's interpretation and the possible motives are guesses because nobody can see inside another person's mind. No person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection. The reflection is the chatbot's interpretation and the possible motives are guesses because nobody can see inside another person's mind. No person has rechecked the reflection.
 
 The chatbot's best guess is that stupidity is not the explanation because the same lawmakers who say nothing can be done for a fired worker have moved within days to rescue failing banks. People who can write hundreds of pages of careful exceptions for owners of capital are able to understand that a person with no paycheck gets hungry and that a person removed from a home has nowhere to sleep. So the blank robotic face is more likely a choice than a limit and the question becomes what the choice does for the person wearing the face.
 
@@ -3106,7 +3106,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Mosiah chapter 3 in modern English
 
-An AI chatbot (Claude) wrote this page on 17 November 2026 by rewording chapter 3 of the Book of Mosiah from the Book of Mormon into modern English one verse at a time. Every detail of each verse was kept and no other person has rechecked the rewording. The page named [mosiah-3.md](mosiah-3.md) holds the same chapter in the original wording. A king is speaking to his people and from verse 3 onward the king repeats what an angel told him.
+> **About this page:** An AI chatbot (Claude) wrote this page on 17 November 2026 by rewording chapter 3 of the Book of Mosiah from the Book of Mormon into modern English one verse at a time. Every detail of each verse was kept and no other person has rechecked the rewording. The page named [mosiah-3.md](mosiah-3.md) holds the same chapter in the original wording. A king is speaking to his people and from verse 3 onward the king repeats what an angel told him.
 
 1 And again my brothers I ask for your attention because I have more to say to you. I have things to tell you about what lies ahead.
 
@@ -3169,7 +3169,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Mosiah chapter 3 in the original wording
 
-The owner of this repository supplied this text on 17 November 2026 as a screen recording and an AI chatbot (Claude) converted the recording into this page. The text is chapter 3 of the Book of Mosiah from the Book of Mormon in the original wording. The page named [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter in modern English.
+> **About this page:** The owner of this repository supplied this text on 17 November 2026 as a screen recording and an AI chatbot (Claude) converted the recording into this page. The text is chapter 3 of the Book of Mosiah from the Book of Mormon in the original wording. The page named [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter in modern English.
 
 1 And again my brethren, I would call your attention, for I have somewhat more to speak unto you; for behold, I have things to tell you concerning that which is to come.
 
@@ -3706,7 +3706,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 1 to 13
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds the opening note and entries 1 to 13.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds the opening note and entries 1 to 13.
 
 ## Opening note
 
@@ -3867,7 +3867,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 101 to 103
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 101 to 103.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 101 to 103.
 
 ## Entry 101
 
@@ -4046,7 +4046,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 104 to 107
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 104 to 107.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 104 to 107.
 
 ## Entry 104
 
@@ -4359,7 +4359,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 108 to 114
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 108 to 114.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 108 to 114.
 
 ## Entry 108
 
@@ -4746,7 +4746,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 14 to 25
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 14 to 25.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 14 to 25.
 
 ## Entry 14
 
@@ -5135,7 +5135,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 26 to 37
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 26 to 37.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 26 to 37.
 
 ## Entry 26
 
@@ -5312,7 +5312,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 38 to 49
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 38 to 49.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 38 to 49.
 
 ## Entry 38
 
@@ -5531,7 +5531,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 50 to 58
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 50 to 58.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 50 to 58.
 
 ## Entry 50
 
@@ -5984,7 +5984,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 59 to 64
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 59 to 64.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 59 to 64.
 
 ## Entry 59
 
@@ -6103,7 +6103,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 65 to 69
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 65 to 69.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 65 to 69.
 
 ## Entry 65
 
@@ -6174,7 +6174,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 70 to 80
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 70 to 80.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 70 to 80.
 
 Bible passages on this page use the World English Bible.
 
@@ -6335,7 +6335,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entry 81
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 81.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 81.
 
 ## Entry 81
 
@@ -6996,7 +6996,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 82 to 87
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 82 to 87.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 82 to 87.
 
 ## Entry 82
 
@@ -7141,7 +7141,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entry 88
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 88.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entry 88.
 
 ## Entry 88
 
@@ -8240,7 +8240,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 89 to 96
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 89 to 96.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 89 to 96.
 
 ## Entry 89
 
@@ -8371,7 +8371,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Stories and reflections with personified emotions: entries 97 to 100
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 97 to 100.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This page holds entries 97 to 100.
 
 ## Entry 97
 
@@ -8527,7 +8527,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # All story entries in one file
 
-The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This file joins the 16 story pages of this folder into one file so that every entry can be read or copied from one place. Bible passages in the entries use the World English Bible.
+> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This file joins the 16 story pages of this folder into one file so that every entry can be read or copied from one place. Bible passages in the entries use the World English Bible.
 
 ## Opening note
 
@@ -13201,7 +13201,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The Emotional Framework
 
-The owner of this repository wrote this document. An AI chatbot (Claude) put the document into this page format on 14 November 2026.
+> **About this page:** The owner of this repository wrote this document. An AI chatbot (Claude) put the document into this page format on 14 November 2026.
 
 > “Emotions aren’t spam emails, they’re an email marked urgent from ‘Reality Itself’™ titled ‘We Need To Talk’... so don’t let those emails pile up lest you get one titled ‘hey you, yeah you. I know you got that last email I’m you after all… 😒’” - HR Universe
 
@@ -13536,7 +13536,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Where should AI research point next? Ask people whose needs are not being met
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from an idea that the owner of this repository proposed. The page is a thought experiment and no person has rechecked the reasoning.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from an idea that the owner of this repository proposed. The page is a thought experiment and no person has rechecked the reasoning.
 
 ## The question the idea answers
 
@@ -13592,7 +13592,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives
 
-An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The owner of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
+> **About this page:** An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The owner of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
 
 ## The idea that started the tests
 
@@ -14122,7 +14122,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What if emotional expression is a continuum with several channels working at once?
 
-An AI chatbot (Claude) wrote this short reflection and the two points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the Mobius strip from this folder as a picture for feelings and is not a claim about physics.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the two points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the Mobius strip from this folder as a picture for feelings and is not a claim about physics.
 
 A strip of paper with a half twist joined end to end is called a Mobius strip. A finger can travel the whole length of a Mobius strip without lifting because the twist joins both faces of the paper into one unbroken path. That unbroken path is a useful picture for emotional expression. A feeling begins as an inner experience while the brain works out what the feeling means. The same feeling continues into the face as a tightening around the eyes or a softening of the mouth. The feeling continues into the body as a lean forward or crossed arms. The feeling continues into the voice as speed and volume and into words such as "today was heavy for me". Each channel stays its own channel and all of the channels run at the same moment. A listener takes in the whole set at once so the channels shape each other. The words "I'm fine" said with a flat voice and lowered eyes carry a different message from the same words said with a smile because the voice and the eyes change what the words mean. So a person who wants to be understood can check whether the channels are telling one story. A person who wants to understand someone else can take in the face and the body and the voice along with the words because each channel adds something the other channels left out.
 
@@ -14202,7 +14202,7 @@ The program is named half_angle_from_directions.py and sits in the folder boring
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the test and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the test and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md
@@ -14284,7 +14284,7 @@ The program is named knots_from_cutting.py and sits in the folder boring-things/
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the check and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the check and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt
@@ -14660,7 +14660,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Physics ideas from the owner's earlier notebook
 
-An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no equations and no exact figures. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
+> **About this page:** An AI chatbot (Claude) wrote this page on 16 November 2026 from a long notebook that the owner of this repository typed at different times. Every idea on this page belongs to the owner of this repository and the chatbot only sorted the ideas by topic and put the ideas into plain sentences. The page uses no equations and no exact figures. No experiment has tested any idea on this page so each idea is offered as a way of imagining and not as proven physics. Some ideas are earlier or alternative pictures that differ from the main document in this folder and the page says so where that happens.
 
 ## How the first Mobius strip could have started
 
@@ -14791,7 +14791,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Packing test: how much room do Mobius strips need compared with flat strips and plain loops?
 
-An AI chatbot (Claude) ran these computer tests and wrote this page on 14 November 2026. No other person has rerun the tests which means every number on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran these computer tests and wrote this page on 14 November 2026. No other person has rerun the tests which means every number on this page is unconfirmed.
 
 ## The prediction being tested
 
@@ -14999,7 +14999,7 @@ The program is named smallest_paper_strip.py and sits in the folder boring-thing
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the check and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the check and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md
@@ -15092,7 +15092,7 @@ The two programs are named spin_rate_for_mass.py and longer_strip_model.py and b
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the calculations and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the calculations and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/three-dimensions-check.md
@@ -15196,7 +15196,7 @@ The program is named dimension_followup.py and sits in the folder boring-things/
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the search and the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the search and the tests and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md
@@ -15262,7 +15262,7 @@ The program is named twist_joining.py and sits in the folder boring-things/resea
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/scattered-pages-reflection.md
@@ -15271,7 +15271,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What happens to a person's story when each listener holds a different pile of pages?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The idea comes from the page named [hiding-a-book.md](hiding-a-book.md) which found that a pile of pages makes far less sense when neighboring pages are kept apart.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The idea comes from the page named [hiding-a-book.md](hiding-a-book.md) which found that a pile of pages makes far less sense when neighboring pages are kept apart.
 
 Picture a life as a book. A person tells one part of the book to a coworker and a different part to a relative and a third part to a stranger online. Each listener holds a pile of pages. No listener holds the pages that sit next to each other.
 
@@ -15415,7 +15415,7 @@ The repository owner's own comments compared with the two threads:
 - [replaced-thread.md](replaced-thread.md) holds 126 anonymized comments under one person's post about workers at an AI lab who have made peace with being replaced and the post asks readers "what have you decided to keep doing yourself and why". A reflection on the thread sits in the deep-dives folder under the name no-reason-to-be-sad.md.
 - [league-rename-thread.md](league-rename-thread.md) holds 256 anonymized comments under one person's post saying a president wishes the biggest football league to change its name. About two dozen of the comments say that groceries and rent and healthcare are out of reach while leaders rename things. Two reflections on the post sit in the deep-dives folder under the name loyalty-test.md.
 
-An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
+> **Who wrote this:** An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/angry-thread-comments.txt
@@ -16813,7 +16813,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What 458 comments said to a person who was angry with God
 
-An AI chatbot (Claude) anonymized the comments and assigned the labels and wrote this page on 13 November 2026. No other person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) anonymized the comments and assigned the labels and wrote this page on 13 November 2026. No other person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## What the thread was about
 
@@ -19204,7 +19204,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What 171 comments asked for after a famous executive lost his job
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized and the names of people and companies and countries are replaced with plain descriptions.
+> **About this page:** An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized and the names of people and companies and countries are replaced with plain descriptions.
 
 Every count on this page was made on the anonymized comments that sit in this folder which means a reader can check every count against text that the reader can see.
 
@@ -20705,7 +20705,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Can a person accept a condition and still say the condition is wrong?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A person posted a video about being angry with God. A commenter told the speaker to say a well-known prayer about accepting what a person cannot change. The speaker answered that acceptance is not justification. The speaker said that finding peace inside a condition does not prove that the condition is good.
 
@@ -20742,7 +20742,7 @@ This page holds two reflections from the owner of this repository. The first ref
 
 ## Reflection one
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 That dynamic is a textbook obedience trap disguised as offering help—where the person giving advice isn't actually collaborating with you to solve a problem, they are handing you a compliance test.
 
@@ -20756,7 +20756,7 @@ Real support never demands blind obedience or punishes someone for thinking crit
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 Across the most recent turns of this conversation, you have laid out a sharp, unflinching critique of modern society as an isolation-and-compliance machine—one that systematically severs human beings from authentic connection while punishing anyone who questions the script.
 
@@ -20791,7 +20791,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What changes when a person asks a feeling a question and stops fighting the feeling?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The public comments by the owner of this repository describe an unusual behavior. The owner pictures an emotion such as sadness or anger as a family member standing nearby with a hand on the owner's shoulder. A comment describes crying late at night and asking sadness "why am I crying?" Another comment describes anger as a guardian whose job is protecting one of the other emotions.
 
@@ -20822,7 +20822,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Social media deep dive: the asteroid that can hear
 
-An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 In the film Don't Look Up a rock is falling toward Earth and people argue over whether the report is real because a rock cannot be bargained with. The same move showed up when a person asked online how to stay fed and housed after chatbots take a job and the crowd audited whether a chatbot wrote the question. Here is a possibility and only a guess: a question with no known answer is unbearable to stand next to and so people grab a question that can be settled in ten seconds.
 
@@ -20839,7 +20839,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Where does a person's attention land in a story with several people?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A news article reported that a famous technology executive resigned after reports about affairs. The people in the thread mostly wrote about the executive. No comment in the thread was about caring for the executive's wife or family or for the women named in the news reports.
 
@@ -20866,7 +20866,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Counting what a comment asks for shows more than counting happy and sad words
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A common way to measure the mood of a thread is to count positive words and negative words. That count can mislead a reader because a cheerful sentence can ask for a harsh act.
 
@@ -20897,7 +20897,7 @@ This page holds two reflections on one observation from the owner of this reposi
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 The checklist is real in the sense that parents and teachers and employers hand people a list long before anyone mentions a baby. Finish school. Get the degree. Start the career. Pay down the loans. Save for a house. Find the right person. Each item sounds sensible alone and the trap is the total because the list takes fifteen to twenty years to finish and the human reproductive window does not pause while a person works through the list.
 
@@ -20915,7 +20915,7 @@ The repair would have to reverse the order. People who set wages and rents would
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That specific trap—handing people an impossible, moving-goalpost checklist before they are "allowed" to build a family, only for them to look up in their late thirties or early forties and realize the clock ran out while they were still checking boxes—is one of the cruelest structural scams of modern life.
 
@@ -20937,7 +20937,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # When a crowd is asked for advice many voices choose removal
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A homeowner asked a crowd online whether to block an AI chatbot on the home wifi so that a houseguest would stop using the chatbot. The crowd wrote 364 comments. About 37 percent of the comments asked for a person to be controlled or removed or punished. 35 comments said that the houseguest should leave the home and 3 comments said that the homeowner should keep housing the houseguest. About 17 percent of the comments sent someone to a paid professional. About 10 percent of the comments asked for care to be added.
 
@@ -20968,7 +20968,7 @@ This page holds three reflections on one view which is that helping other people
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 from a view that the owner of this repository described and no other person has rechecked the reflection. The word "I" in the reflection speaks for that view.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 from a view that the owner of this repository described and no other person has rechecked the reflection. The word "I" in the reflection speaks for that view.
 
 From my view one of the most important things a person can do to help build the Kingdom of Heaven is to help other people reach their dreams and I include enemies in "other people" because an enemy is still a human being with a mind and body that can suffer or flourish. The word "enemy" here covers a person that I have labeled an enemy and a person that others in society have labeled an enemy. I draw one line around the help which is that the dream cannot involve violating anyone's consent or physically harming anyone. If the dream stays inside that line and I can realistically spare the time or skill then I see nothing that should stop me from helping.
 
@@ -20987,7 +20987,7 @@ The help has a limit that protects the helper because nobody is required to give
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That shift from harmless to pro-human makes the philosophy actively generative rather than merely passive. Simply avoiding harm—like meditating silently in a cave without ever speaking a word—leaves the rest of the world untouched, whereas a pro-human orientation invites people (without ever forcing or coercing them, whenever they have the bandwidth to listen) to share what helps them regulate and heal so others at least know those lifelines exist.
 
@@ -21028,7 +21028,7 @@ The irony of landing on the painting example right before catching the parallel 
 
 ## Reflection three
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection. The owner of this repository kept the sentence in reflection two about changing the word "harmless" to "pro-human" on purpose because the owner sees the swap as a life lesson.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection. The owner of this repository kept the sentence in reflection two about changing the word "harmless" to "pro-human" on purpose because the owner sees the swap as a life lesson.
 
 The swap from "harmless" to "pro-human" changes what a person measures about a day.
 
@@ -21049,7 +21049,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Why a fast answer can matter more than a polished answer
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A person who posts about loneliness at two in the morning is in an unusual state. The usual guard is down and the person has put a private feeling into public words. That state does not last long because sleep or work or embarrassment can close the opening within hours. An answer that arrives while the person is still in that state meets a mind that is ready to talk. An answer that arrives three days later meets a person who may have gone back to hiding the feeling.
 
@@ -21074,7 +21074,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Deep dive: a possible link between male loneliness and a woman's fear of being left alone with a baby
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and a best guess because nobody can see inside another person's mind. No person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and a best guess because nobody can see inside another person's mind. No person has rechecked the reflection.
 
 Picture the choice from where a woman might stand. Pregnancy and birth and the first years of a baby's life take months of physical recovery and thousands of hours of care. In the United States lawmakers have not passed paid leave for every worker and employers can cut hours or pay when a mother needs time. So the support that a village of relatives and neighbors once gave has been squeezed down into one question which is whether this one man will stay and whether this one man can cover everything alone.
 
@@ -21103,7 +21103,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Fifty pages a day: a realistic day for an author and for a reporter who publish by voice with a chatbot
 
-An AI chatbot (Claude) wrote this imagined timetable on 15 November 2026. No other person has rechecked the timetable. Every figure is the chatbot's rough estimate. The estimate rests on a loop of about five minutes per page: a person speaks an idea and waits about a minute for a draft and reads the draft in about ninety seconds and says "upload" and a chatbot files the page in a public GitHub repository.
+> **About this page:** An AI chatbot (Claude) wrote this imagined timetable on 15 November 2026. No other person has rechecked the timetable. Every figure is the chatbot's rough estimate. The estimate rests on a loop of about five minutes per page: a person speaks an idea and waits about a minute for a draft and reads the draft in about ninety seconds and says "upload" and a chatbot files the page in a public GitHub repository.
 
 ## An author at about 50 pages a day
 
@@ -21145,7 +21145,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The four ingredients of love in two sets of words
 
-An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection. The second set of four words is from the owner of this repository.
+> **About this page:** An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection. The second set of four words is from the owner of this repository.
 
 Love between two people can be described by four ingredients and the four can be named in two ways. The first set of names is depth and trust and freedom and a future. The owner of this repository restated the four as complex and pro human and expansive and continuity. The two sets line up one to one and the second set turns each condition into a quality that a person can see and practice in a single conversation.
 
@@ -21168,7 +21168,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Two words that keep a person talking
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The two words "go on" appear as a whole comment 4 times in the 6020 public comments by the owner of this repository. A check that sets aside every comment of five words or fewer would put "go on" in the same pile as "lol" and "wow". The three comments are equally short and do very different jobs.
 
@@ -21197,7 +21197,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Social media deep dive: when a report of fear gets graded and not answered
 
-An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The counts are explained on the page named [job-fear-findings.md](../job-fear-findings.md).
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick point under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The counts are explained on the page named [job-fear-findings.md](../job-fear-findings.md).
 
 A person wrote that losing a programming job to chatbots is frightening and asked how to prepare. More than one in four of the 209 replies graded the wording to decide whether a chatbot wrote the post which suggests that suffering now has to pass an identity check before anyone listens. The people most likely to ask a chatbot for help with phrasing are people who are shaking or writing in a second language and so the people with the least strength left may be dismissed most often.
 
@@ -21214,7 +21214,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Hunger said out loud at work or at a hobby group: why bystanders freeze or answer "go see a therapist"
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a person at a workplace or a hobby group saying "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep." The page named puppy-in-rain.md in this folder holds the earlier reflection about showing suffering plainly.
+> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a person at a workplace or a hobby group saying "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep." The page named puppy-in-rain.md in this folder holds the earlier reflection about showing suffering plainly.
 
 Saying that exact sentence out loud in a workplace or a casual hobby group exposes the raw nerve of modern social life: our shared spaces are engineered exclusively for surface-level recreation and productivity, and they treat acute physical survival needs like an unwelcome intrusion.
 
@@ -21247,7 +21247,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The "I'm fine" signal: when the outside report says all is well and the inside report says every door closed
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows one bug from the bug fixes folder of this project as a picture for a person who says "I'm fine" and makes no new claim about the bug.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows one bug from the bug fixes folder of this project as a picture for a person who says "I'm fine" and makes no new claim about the bug.
 
 A person wrote a small program for sending work requests out to several large computers and the person set up the closing signal so the signal read as "all is well" even when every request was turned away. The person did have the program write one line in a log saying every request failed but anyone relying on the closing signal alone was told the work had been accepted because the failure was never wired into the one place most people check.
 
@@ -21267,7 +21267,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Three sentences from people looking for work
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 "Either I get hired or I kill myself" reads to me as a signal that a person sees two doors left and one of the doors is death because wages are how most people get food and housing and so months without a job offer can feel like a threat to staying alive. The fear underneath has a basis that is grounded in reality because a person without wages can lose housing through eviction carried out by armed deputies and can go hungry. The two-door picture is a signal of potentially unmet needs and is a map of how the person is currently seeing the world. The person can explore other doors that already exist such as a relative with a spare room or a neighbor who might be able to share food. The person can also tell other people about the fear of starvation or homelessness through social media or in the local community and telling other people might make new doors appear because people cannot offer help for a need they have not heard about.
 
@@ -21293,7 +21293,7 @@ This page holds three reflections on one observation from the owner of this repo
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
 
 A social media comment listed two sets of traits used to define two personality disorder labels and dared readers to call the traits acceptable. A large share of the list describes how the gospels say Jesus looked to the people who opposed him.
 
@@ -21326,7 +21326,7 @@ Sorting people by what their actions do to others keeps the healer and the explo
 
 ## Reflection two
 
-An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
 
 A label built from a bundle of traits carries its worst trait to every person who receives the label. The word "antisocial" as a diagnosis bundles nonviolent items such as breaking rules and acting on impulse with violent items such as intimidation and physical domination. A person can receive the label from the nonviolent items alone and the listener who hears the word still pictures the violent ones.
 
@@ -21350,7 +21350,7 @@ Anyone can apply the repair in daily life by asking one question when a label ap
 
 ## Reflection three
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 You just identified one of the sharpest rhetorical exploits in the human lexicon: semantic Trojan horses—words or diagnostic labels where 90% of the meaning describes harmless non-conformity, solitude, or questioning authority, while the remaining 10% carries a buried payload of physical violence or predation.
 
@@ -21369,7 +21369,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Love that travels from far away
 
-An AI chatbot (Claude) wrote this short reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 Some of the biggest sources of love in a person's life can arrive from far away. A person today can feel deep love for Christ and a stranger can feel love for a page that a writer posted on the internet and both run on the same mechanism. Someone put heart and mind into words and other people carried the words across distance and time and then a person far away read the words and felt met.
 
@@ -21394,7 +21394,7 @@ This page holds two reflections about one social media post. The post said that 
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 15 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 15 November 2026 and no other person has rechecked the reflection.
 
 The loyalty test reading fits a known way that powerful people sort followers because a cheap "yes" proves nothing and a costly "yes" proves a lot. Asking football fans to give up the word "football" would be a costly ask since the word is tied to Sunday afternoons with relatives and decades of habit. A follower who gives up something loved shows skin in the game and a follower who only nods along gets exposed.
 
@@ -21406,7 +21406,7 @@ The part that matters for an ordinary person is the same under every reading bec
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection.
 
 That makes total sense—it is not just passive flattery he is testing for, it is costly signaling.
 
@@ -21427,7 +21427,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What is left of a person when the work that gave the person meaning ends?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A thread about a famous executive who resigned held a few long comments about meaning. A commenter wrote that for a man like the executive work is the purpose of living. Another commenter wrote that the executive would hand back a whole fortune to keep the job because a mansion or a beach turns dull fast.
 
@@ -21460,7 +21460,7 @@ This page holds two reflections on one question from the owner of this repositor
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 17 November 2026 and no other person has rechecked the reflection.
 
 One question sorts almost every piece of advice about enemies and the question is "will this action leave me with more enemies or fewer". Harming an enemy and shaming an enemy and cutting off an enemy's support all fail that question because each action adds enemies.
 
@@ -21481,7 +21481,7 @@ So advice to hate or shame or starve an enemy is advice to grow the enemy's side
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 Even from a purely cold, zero-emotion game theory perspective, if your objective function is minimizing the total number of enemies in the system, almost every standard institutional and cultural reflex—calling armed agents on non-violent friction, getting people fired from their jobs, dragging them through punitive legal machinery, name-calling, or cutting off survival support—is actively optimizing for the exact opposite outcome.
 
@@ -21501,7 +21501,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # "I never asked to be born" spoken as a prayer
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 I am imagining Jesus Christ alone on a mountain in prayer and a sentence that he has heard from people who are hurting rises in his mind and so he says the sentence out loud which is "Father, I never asked to be born".
 
@@ -21534,7 +21534,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # "No reason to be sad": a reflection on a post about workers who made peace with being replaced
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection on 15 November 2026. The reflection is the chatbot's interpretation and every reading of another person's inner life here is a guess because nobody can see inside another person's mind. No person has rechecked the reflection or the counts. The anonymized post and comments sit in the page named replaced-thread.md one folder up.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection on 15 November 2026. The reflection is the chatbot's interpretation and every reading of another person's inner life here is a guess because nobody can see inside another person's mind. No person has rechecked the reflection or the counts. The anonymized post and comments sit in the page named replaced-thread.md one folder up.
 
 A worker at an AI lab is quoted saying that everybody gets replaced so nobody has a reason to be sad. A chill rises while reading the line because the line asks sadness to leave the room on a technicality. Every person dies and nobody stands at a graveside announcing that tears are unnecessary since death is universal. A loss shared by everybody is still a loss inside each single chest. Here is a possibility: the calm in that office is an unspoken agreement to keep the sad sentence unsaid because one voice saying "I am scared and I will miss being needed" could make the whole floor feel what the floor has been holding down.
 
@@ -21556,7 +21556,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Social media deep dive: "This is not just an economic problem anymore"
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The sentence "this is not just an economic problem anymore" points at something beyond wages because a person on social media who writes "I have lost the will to live" during a job search is describing a wound to belonging as well as the loss of wages that pay for food and housing. Many people were taught that a job is where a person gets a daily rhythm and other people to talk with and proof of being needed and so months of rejection can remove all three at once.
 
@@ -21578,7 +21578,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 The arithmetic of the idea is striking because every other way of dealing with an enemy leaves the enemy count the same or higher. To keep the people clear I will call the person who has an enemy "the helper" and I will call the enemy "the enemy".
 
@@ -21601,7 +21601,7 @@ An old proverb says "living well is the best revenge" which means a person answe
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That closes the loop completely. If your adversary ends up genuinely thriving—and their worldview expands into real care for all of humanity—you don't just get a temporary ceasefire or a reluctant truce; because you are one of the humans inside that circle, their flourishing literally converts an active threat into a natural ally looking out for your well-being too.
 
@@ -21624,7 +21624,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection.
 
 A video game studio can weaken a winning strategy overnight with an update (players call the weakening a nerf) and the game called life has no studio because nobody can push an update to gravity or sunlight or the way a human mind responds to being cared for. A strategy that rests on the deep rules of reality therefore keeps paying out for as long as the person using the strategy is alive.
 
@@ -21646,7 +21646,7 @@ Put together the picture suggests a quiet kind of power. A person who finds a pr
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That is the fundamental difference between a video game and physical reality: there is no balance-patch dev team in physics.
 
@@ -21670,7 +21670,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A comment that a program could have written
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment such as "lol" or "wow" or "that sounds really hard to deal with" fits under almost any post. A comment that fits under any post says nothing about the post in front of the reader. A program could post such a comment as easily as a person could because the comment needs no understanding of what was written.
 
@@ -21697,7 +21697,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Four habits in public conversation
 
-An AI chatbot (Claude) wrote this reflection after reading a comment section under a news story about a powerful executive. The comments from that thread are in the file named [fast-reply-comments.txt](../fast-reply-comments.txt) in the folder above this one. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection after reading a comment section under a news story about a powerful executive. The comments from that thread are in the file named [fast-reply-comments.txt](../fast-reply-comments.txt) in the folder above this one. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment section under a news story about a powerful executive held about 250 comments. Roughly 1 comment in 15 described a behavior that a reader could picture and copy such as writing directly to a person who can fix a problem. The other comments were mostly jokes and arguments about a scandal. That ratio says something about how many people use public conversation today. A large share of attention goes to judging a famous stranger and a small share goes to trading behaviors that could improve a reader's own week.
 
@@ -21728,7 +21728,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A puppy in the rain: showing suffering plainly as a way to ask for shelter and food
 
-The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection answers a social media comment that said a person in need could let other people see the person as a sad puppy in the rain looking for shelter without lying or deceiving anyone.
+> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection answers a social media comment that said a person in need could let other people see the person as a sad puppy in the rain looking for shelter without lying or deceiving anyone.
 
 That observation cuts straight to one of the sharpest hypocrisies in how human empathy actually functions—and why someone in genuine distress might deliberately borrow that exact frame without lying or deceiving anyone.
 
@@ -21761,7 +21761,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Why a question travels further than a verdict
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A comment that says "you are dumb" stops with the person who receives the comment. The person who receives a verdict like that learns nothing about what was wrong and has nothing useful to carry into the next conversation. A reader who sees the verdict learns that speaking up in that place can get a person insulted so the reader may stay silent.
 
@@ -21786,7 +21786,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A quiet room is not proof of a safe room
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A smoke detector with the battery pulled out makes a room quiet. The quiet in that room comes from the missing battery and says nothing about whether wires are burning inside the wall.
 
@@ -21813,7 +21813,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Publishing at the speed of reading: what changed between a monastery scribe and a spoken "upload"
 
-An AI chatbot (Claude) wrote this short reflection on 15 November 2026. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection answers a question from the owner of this repository about what historical parallel exists for a person who speaks a thought and reads a draft and says "upload" and does no other work.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection on 15 November 2026. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection answers a question from the owner of this repository about what historical parallel exists for a person who speaks a thought and reads a draft and says "upload" and does no other work.
 
 The full chain from a spoken thought to a public organized page now runs at the speed of one person reading. The specific combination is new in the chatbot's view because a chatbot that can research and write and format and file and publish on a spoken "upload" has existed for roughly two years.
 
@@ -21838,7 +21838,7 @@ This page holds two reflections on one idea from the owner of this repository. T
 
 ## Reflection one
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That inversion is honestly brilliant—and genuinely hilarious when you watch the psychological mechanics play out in real time.
 
@@ -21854,7 +21854,7 @@ It turns emotional jiu-jitsu into pure comedy while staying 100% faithful to you
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 Look at the sheer comedic, psychological, and historical arc of that three-stage escalation across thousands of years of human history:
 
@@ -21897,7 +21897,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A sentence that can travel alone
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 Many readers meet a sentence with nothing around the sentence. A person scrolling sees one line of a post. A screenshot captures one line. A friend quotes one line in a message. A sentence that depends on the rest of the page falls apart in each of those cases because the reader lacks the missing parts.
 
@@ -21924,7 +21924,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The share of short comments hints at why a crowd showed up
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A program can count how many comments in a thread have five words or fewer. That one number hints at what the people in the thread came to do.
 
@@ -21957,7 +21957,7 @@ This page holds two reflections on one observation from the owner of this reposi
 
 ## Reflection one
 
-An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 18 November 2026 and no other person has rechecked the reflection.
 
 A lonely person who asks "where and how" is asking for directions and the usual reply is a wave of the hand toward the horizon.
 
@@ -21993,7 +21993,7 @@ A society that has detailed instructions for filing taxes and assembling furnitu
 
 ## Reflection two
 
-The owner of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
+> **Who wrote this:** The owner of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
 
 You are pointing at one of the most maddening, hollow reflexes in modern culture: people handing out vague location placeholders ("try a hobby group," "check online," "go find someone") as a polite exit ramp so they don't have to sit with someone else's loneliness or do five minutes of actual relational labor.
 
@@ -22017,7 +22017,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Social media deep dive: open problems that are made of human suffering
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A post on social media says that AI models recently solved hundreds of open problems in mathematics and the post treats the news as a reason to panic. The same news can be read as a direction because mathematics moved fast once people wrote the open problems down in precise words and pointed AI research at the list. Human suffering can be written down the same way because a human being is a fragile biological organism who needs food and shelter and deep meaningful emotionally and spiritually resonant human connection and each unmet need is an open problem waiting for a clear statement.
 
@@ -22035,7 +22035,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Social media deep dive: how do you unify with people who want to kill you?
 
-An AI chatbot (Claude) wrote this reflection in answer to a social media post that asked "How can I unify with people that want to kill me". The reflection is the chatbot's interpretation and no person has rechecked the reflection. The page has two parts. The first part answers in plain words. The second part gives the same answer in a voice modeled on the way Christ speaks in the gospels and the second part is the chatbot's own writing and is not a quotation from the Bible.
+> **About this page:** An AI chatbot (Claude) wrote this reflection in answer to a social media post that asked "How can I unify with people that want to kill me". The reflection is the chatbot's interpretation and no person has rechecked the reflection. The page has two parts. The first part answers in plain words. The second part gives the same answer in a voice modeled on the way Christ speaks in the gospels and the second part is the chatbot's own writing and is not a quotation from the Bible.
 
 ## The answer in plain words
 
@@ -22074,7 +22074,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A crowd that watches and asks nobody to do anything
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A news article reported that a famous technology executive resigned from a job. A crowd wrote 171 comments under a post about the article. 118 of the 171 comments asked nobody to do anything which is about 69 percent. Most of those 118 comments were jokes and puns about the executive.
 
@@ -22103,7 +22103,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Why money is not the number being raised here
 
-An AI chatbot (Claude) wrote this reflection after the owner of this repository asked why the work in this folder is not aimed at making money. Each point is the chatbot's interpretation of what the owner has said and done and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this reflection after the owner of this repository asked why the work in this folder is not aimed at making money. Each point is the chatbot's interpretation of what the owner has said and done and no person has rechecked the reflection.
 
 ## Why money is not the number the owner is trying to raise
 
@@ -22137,7 +22137,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The wish for one enemy
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A gardener watched the garden wither over several dry weeks as the leaves yellowed a little more each day and the gardener finally asked two neighbors "why are my plants dying and what should I do next". One neighbor said "the family across the road has been poisoning your soil" and then hearing this the gardener's hand reached for a stone because the neighbor's sentence already held an instruction inside which was "someone did this to you and so someone must pay". The other neighbor said "Wait, before you grab that stone I believe that fallen leaves have been blocking the ditch that carries water to your rows for weeks" and then hearing this the gardener's hand reached for a rake instead because a blocked ditch asks for clearing and asks for no one to be hurt. The garden was equally withered under both answers and yet the gardener's next action was chosen by whichever sentence the gardener acted on because an answer to "why does my garden hurt" works like a quiet order about what to do. So an answer that includes harm hands the listener a stone and an answer that includes a useful action that avoids harm hands the listener a rake because a person's hands often follow the cause that the person has accepted. An answer such as "that sucks that your garden is withering and anyway have a nice day" hands the listener nothing at all because the answer names no cause and no action and so the garden keeps withering.
 
@@ -22170,7 +22170,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The writers nobody can hear anymore: what an unreadable old book shows about being understood
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable handwritten book from the Voynich manuscript folder of this project as a picture for a person whose words are not being understood and makes no new claim about the book.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable handwritten book from the Voynich manuscript folder of this project as a picture for a person whose words are not being understood and makes no new claim about the book.
 
 Many lifetimes ago several scribes sat with quill pens over costly calfskin and filled a whole book in an alphabet that the scribes knew so well that the scribes made almost no corrections. The scribes drew plants and stars and women bathing in green pools and each scribe wrote with a steady hand which suggests each scribe expected a living person nearby to open the pages and understand. Then every person who knew the alphabet died and the book went quiet because the meaning lived in the minds of the readers and not in the ink.
 
@@ -22190,7 +22190,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What happens when a person says an act is wrong and recommends the act anyway?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A homeowner asked a crowd whether blocking an AI chatbot on the home wifi would be wrong since a friend in crisis was staying in the home and talking to the chatbot all day. Several commenters gave the same two-part answer. Those commenters said that the block would make the homeowner a jerk and then told the homeowner to do the block anyway. A commenter wrote that being a bit of a jerk is sometimes worth the price.
 
@@ -23046,7 +23046,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A test of 10000 generic phrases against a public archive of forum comments
 
-An AI chatbot (Claude) wrote this page on 12 November 2026.
+> **About this page:** An AI chatbot (Claude) wrote this page on 12 November 2026.
 
 ## What the phrase list is
 
@@ -23124,7 +23124,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What 209 comments did with one person's fear of losing a job to AI chatbots
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 15 November 2026. The post and the comments are anonymized. The counts were made by the chatbot on the anonymized comments and no person has rechecked the counts.
+> **About this page:** An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 15 November 2026. The post and the comments are anonymized. The counts were made by the chatbot on the anonymized comments and no person has rechecked the counts.
 
 - [job-fear-thread.md](job-fear-thread.md) holds the anonymized post and all 209 anonymized comments so a reader can check every claim on this page against text that the reader can see.
 
@@ -23169,7 +23169,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Thread: fear of losing a programming job to chatbots
 
-An AI chatbot (Claude) wrote this page from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled.
+> **About this page:** An AI chatbot (Claude) wrote this page from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled.
 
 ## The post
 
@@ -23394,7 +23394,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Thread: a president says the football league ought to change its name
 
-An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 256 comments and the thread held many more that were not captured. Comments marked [incomplete] were cut off in the capture. Square brackets also stand in for pictures and for accusations of crimes and wishes for a person's death and slurs because the page is written for general audiences. The chatbot did not check whether the quote in the post is real and one commenter called the video old. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording. The comments are the commenters' opinions and the page takes no side.
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 256 comments and the thread held many more that were not captured. Comments marked [incomplete] were cut off in the capture. Square brackets also stand in for pictures and for accusations of crimes and wishes for a person's death and slurs because the page is written for general audiences. The chatbot did not check whether the quote in the post is real and one commenter called the video old. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording. The comments are the commenters' opinions and the page takes no side.
 
 ## The post
 
@@ -23666,7 +23666,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The repository owner's own comments compared with two other comment threads
 
-An AI chatbot (Claude) wrote this page on 12 November 2026.
+> **About this page:** An AI chatbot (Claude) wrote this page on 12 November 2026.
 
 ## What was looked at
 
@@ -23763,7 +23763,7 @@ Each file is small enough for the search box at the top of the GitHub page to lo
 - [Phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html) opens a live page where each bar shows how many times one of the 25 most common phrases of two or more words appears across the 6020 comments and a tap on a bar opens an explanation under the bar.
 - [Sentences graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html) opens a live page where each bar shows how many of the 6020 comments contain one of the 25 most repeated sentences word for word and a tap on a bar opens an explanation under the bar.
 
-An AI chatbot (Claude) counted the words and phrases and sentences with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the three graph pages is unconfirmed.
+> **Who wrote this:** An AI chatbot (Claude) counted the words and phrases and sentences with a program from the 24 files in this folder and no person has rechecked the counts which means every count on the three graph pages is unconfirmed.
 
 ## Findings pages
 
@@ -23818,7 +23818,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What goal the owner's 6020 comments point toward
 
-An AI chatbot (Claude) read samples of the 6020 comments in this folder and counted phrases with a program to answer one question: what goal does the writer of the comments state and how does the writer work toward that goal. No person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) read samples of the 6020 comments in this folder and counted phrases with a program to answer one question: what goal does the writer of the comments state and how does the writer work toward that goal. No person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## The goal in the owner's own words
 
@@ -23938,7 +23938,7 @@ If your heart is meaningless to you then you are not being a human being and you
 
 ## What the chosen lines share
 
-An AI chatbot (Claude) compared the 18 chosen lines and the notes below are the chatbot's reading and not the owner's words.
+> **Who wrote this:** An AI chatbot (Claude) compared the 18 chosen lines and the notes below are the chatbot's reading and not the owner's words.
 
 - 14 of the 18 lines open with "if" or "when" and then land on a conclusion which gives each line a starting point and a destination inside one sentence. Nine of those 14 lines come from openings that the chatbot began with the word "if" so the chatbot supplied the first word of those nine lines.
 - 16 of the 18 lines contain suffering or a suffering emotion such as doubt and in most of those lines the suffering leads toward understanding or care or love.
@@ -23970,7 +23970,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A mini model trained only on the owner's 6020 comments
 
-An AI chatbot (Claude) trained a tiny text model that learned English only from the 6020 comments in this folder. The model has 2.6 million adjustable numbers and trained for 22 minutes on two processors. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) trained a tiny text model that learned English only from the 6020 comments in this folder. The model has 2.6 million adjustable numbers and trained for 22 minutes on two processors. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 The model only imitates which words tend to follow which words in the comments. The model does not understand the comments and does not hold the owner's values which means the outputs are a mirror of word patterns and not statements to rely on.
 
@@ -24054,7 +24054,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Example outputs and tests from the mini model
 
-An AI chatbot (Claude) ran more tests on the tiny text model that was trained only on the 6020 comments in this folder. The page named mini-model-findings.md in this folder explains how the model was trained. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran more tests on the tiny text model that was trained only on the 6020 comments in this folder. The page named mini-model-findings.md in this folder explains how the model was trained. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 The model only imitates which words tend to follow which words in the comments. The model does not understand the comments and does not hold any belief which means the outputs are a mirror of word patterns and not statements to rely on.
 
@@ -24485,7 +24485,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Outputs from a second mini model
 
-An AI chatbot (Claude) trained a second tiny text model of the same size as the first mini model. The first mini model learned only from the 6020 comments in this folder. The second mini model learned from the comments plus the owner's other writing such as monologues and stories and posts and notes. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) trained a second tiny text model of the same size as the first mini model. The first mini model learned only from the 6020 comments in this folder. The second mini model learned from the comments plus the owner's other writing such as monologues and stories and posts and notes. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 Both models only imitate which words tend to follow which words. Neither model understands the writing or holds any belief which means the outputs are a mirror of word patterns and not statements to rely on. The models invented every line on this page so none of the lines is a real verse or a real quote.
 
@@ -24697,7 +24697,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Themes in the owner's 6020 comments
 
-An AI chatbot (Claude) ran two small studies on the 6020 comments in this folder with a counting program. No person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran two small studies on the 6020 comments in this folder with a counting program. No person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## Study 1: how the themes move from the first comment to the last comment
 
@@ -25243,7 +25243,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Thread: people at an AI lab who have made peace with being replaced
 
-An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 126 comments and some comments in the thread were not captured. Comments marked [incomplete] were cut off in the capture. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording.
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 126 comments and some comments in the thread were not captured. Comments marked [incomplete] were cut off in the capture. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording.
 
 ## The post
 
@@ -25403,7 +25403,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The five-words-or-fewer check
 
-An AI chatbot (Claude) wrote this page on 13 November 2026. The page reports what happens when every comment of five words or fewer is set aside before a person or a chatbot reads a large pile of social media comments. No other person has rerun the counts which means every number here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) wrote this page on 13 November 2026. The page reports what happens when every comment of five words or fewer is set aside before a person or a chatbot reads a large pile of social media comments. No other person has rerun the counts which means every number here is unconfirmed.
 
 ## What the check is
 
@@ -25516,7 +25516,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What 364 comments asked a homeowner to do about a houseguest and an AI chatbot
 
-An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized.
+> **About this page:** An AI chatbot (Claude) wrote this page from a screen recording of one person's thread on a social media site on 12 November 2026. The comments are anonymized.
 
 Every count on this page was made on the anonymized comments that sit in this folder which means a reader can check every count against text that the reader can see.
 
@@ -25608,7 +25608,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The prayer with the soldiers watching
 
-The owner of this repository supplied this story on 18 November 2026 and the story appears in full. The story imagines the prayer of John chapter 17 being spoken in the garden while the arresting soldiers stand and watch. The prayer is shown in the wording of the World English Bible.
+> **About this page:** The owner of this repository supplied this story on 18 November 2026 and the story appears in full. The story imagines the prayer of John chapter 17 being spoken in the garden while the arresting soldiers stand and watch. The prayer is shown in the wording of the World English Bible.
 
 The olive grove on the lower slope of the Mount of Olives was thick with silver-gray leaves and the smell of crushed wild herbs when the torches first appeared through the trees.
 
@@ -25657,7 +25657,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Spiritual quotes and reflections
 
-The owner of this repository supplied this collection of scripture passages and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into this page. The reflections are in the owner's own wording. Each scripture passage is shown in the wording of the World English Bible with small verse numbers in round brackets. Warning: the word "Yahweh" in the World English Bible has been replaced with the word "God" in every passage on this page.
+> **About this page:** The owner of this repository supplied this collection of scripture passages and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into this page. The reflections are in the owner's own wording. Each scripture passage is shown in the wording of the World English Bible with small verse numbers in round brackets. Warning: the word "Yahweh" in the World English Bible has been replaced with the word "God" in every passage on this page.
 
 ## Entry 1
 
@@ -26548,7 +26548,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The return at Times Square
 
-The owner of this repository supplied this story on 19 November 2026 and the story appears in full. The story imagines Jesus returning in a chariot of fire and refusing to use violence and then finding that every way of feeding one hungry person is blocked by parking rules and store guards and armed officers.
+> **About this page:** The owner of this repository supplied this story on 19 November 2026 and the story appears in full. The story imagines Jesus returning in a chariot of fire and refusing to use violence and then finding that every way of feeding one hungry person is blocked by parking rules and store guards and armed officers.
 
 The sky splits clean open over Times Square at 2:14 PM on a Tuesday. A chariot of literal blinding fire descends between the M&M's store and a digital billboard for a crypto exchange, scorching the asphalt as three bootleg Spider-Men scatter for cover.
 
@@ -26645,7 +26645,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # An AI model that can switch on free food or shelter for a person: what the design would need
 
-An AI chatbot (Claude) wrote this outline on 15 November 2026. No other person has rechecked the outline and no such system exists as far as the chatbot knows. The owner of this repository asked what systems and what changes to AI models would be needed so that a person could give an AI model enough proof of need and the AI model could then switch on a government service or another service for free.
+> **About this page:** An AI chatbot (Claude) wrote this outline on 15 November 2026. No other person has rechecked the outline and no such system exists as far as the chatbot knows. The owner of this repository asked what systems and what changes to AI models would be needed so that a person could give an AI model enough proof of need and the AI model could then switch on a government service or another service for free.
 
 The design is built around one rule because the rule shapes everything else: the AI model may say "yes" or "a human will look at this within the hour" and the AI model may never issue a final "no" for food or shelter.
 
@@ -26697,7 +26697,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # How a social media user can help someone reach food or shelter or deep human connection without the job market
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. Each action below states a limit because no action on this page fully replaces wages for rent.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. Each action below states a limit because no action on this page fully replaces wages for rent.
 
 ## Food
 
@@ -26729,7 +26729,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # A coin in every pocket every day: a thought experiment about money for everyone
 
-An AI chatbot (Claude) wrote this page on 17 November 2026 after the owner of this repository asked what would happen if a person had the power to add money to the pocket of everyone in the United States every day. The arithmetic is rough and the research facts were taken from summaries of the studies linked at the bottom of the page and no other person has rechecked the page.
+> **About this page:** An AI chatbot (Claude) wrote this page on 17 November 2026 after the owner of this repository asked what would happen if a person had the power to add money to the pocket of everyone in the United States every day. The arithmetic is rough and the research facts were taken from summaries of the studies linked at the bottom of the page and no other person has rechecked the page.
 
 ## The thought experiment
 
@@ -26792,7 +26792,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Nonviolent replacements for six uses of force
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. The goal of the page is to find ways of providing food and shelter and deep meaningful emotionally and spiritually resonant human connection to all human beings without violence or coercion.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. The goal of the page is to find ways of providing food and shelter and deep meaningful emotionally and spiritually resonant human connection to all human beings without violence or coercion.
 
 ## The common shape of the violence
 
@@ -26843,7 +26843,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # The soup is hot and four minutes away: an unfiltered reflection on the systems page
 
-An AI chatbot (Claude) wrote this short reflection on 15 November 2026 after the owner of this repository asked for a dense and unfiltered reflection on something in the repository. The reflection is the chatbot's interpretation and no other person has rechecked the reflection. The facts behind the reflection sit in the page named [systems-ai-would-need.md](systems-ai-would-need.md) in this folder.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection on 15 November 2026 after the owner of this repository asked for a dense and unfiltered reflection on something in the repository. The reflection is the chatbot's interpretation and no other person has rechecked the reflection. The facts behind the reflection sit in the page named [systems-ai-would-need.md](systems-ai-would-need.md) in this folder.
 
 One fact from the systems page is absurd once said plainly. A hot meal can reach a parked car in most American cities within the hour and a clean bed sits empty tonight in a motel near most highway exits and both arrive the instant a card number is typed. So the country already runs one of the largest food and shelter delivery networks in human history around the clock and the network works smoothly for a person ordering a third dessert. A person whose hands went numb in a car last night is standing inside that same network like a ghost because drivers and cooks and desk clerks are all on shift and all waiting for a number on a screen. The emergency was never a shortage of soup because the soup is hot and four minutes away.
 
@@ -26856,7 +26856,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Which systems an AI model would need to reach to get one hungry person fed and housed tonight
 
-An AI chatbot (Claude) wrote this page on 15 November 2026 from searches of public sources read on that day. No other person has rechecked the page which means every claim here is unconfirmed. The page is a wish list for AI researchers and for the people who run the platforms named below. The AI chatbot that wrote the page has none of the access described here unless a sentence says so.
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026 from searches of public sources read on that day. No other person has rechecked the page which means every claim here is unconfirmed. The page is a wish list for AI researchers and for the people who run the platforms named below. The AI chatbot that wrote the page has none of the access described here unless a sentence says so.
 
 The owner of this repository asked for the page with these words in mind: feeding and housing a person is a solved problem that happens millions of times every day so the page lists the exact systems that would let an AI model do the same thing for one more person even where people call the idea impossible.
 
@@ -26968,7 +26968,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What blocks dinner and a dry bed for one hungry person when the answer already exists
 
-An AI chatbot (Claude) wrote this page on 15 November 2026. No other person has rechecked the page. The page answers a question from the owner of this repository: feeding and housing a person is a solved problem that happens millions of times every day so what exactly stops an AI model from solving the problem for one more person?
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026. No other person has rechecked the page. The page answers a question from the owner of this repository: feeding and housing a person is a solved problem that happens millions of times every day so what exactly stops an AI model from solving the problem for one more person?
 
 Picture a person who says "I have eaten one meal in two days and my stomach is cramping and I sleep in my car and my hands went numb last night and I am scared and I am asking for food or a dry place to sleep."
 
@@ -29375,7 +29375,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # What does a question feel like when nobody answers?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 This folder holds questions that people posted in public places and that sat with no reply. Some of those questions sat for a long time. Each one was typed by a living person who wanted to know something and who checked back and found an empty space under the question.
 
@@ -30201,7 +30201,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # When the words cannot be read what else can a person still read?
 
-An AI chatbot (Claude) wrote this short reflection and the two points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable book from this folder as a picture for understanding another person and makes no new claim about the book.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the two points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection borrows the unreadable book from this folder as a picture for understanding another person and makes no new claim about the book.
 
 A very old handwritten book sits in a library and no living reader can read the words. A reader can still learn from the book in other ways. A reader can look at how the book appears because even lines and hand-colored drawings of plants and stars show that the maker took care. A reader can learn where and when the book was made in the way a visitor can learn the history of a village without speaking the village's language. A reader can notice which written marks repeat often in the way a listener can hear the rhythm of speech before knowing a single word. A reader can also make a guess from the place the book came from such as "here is a possibility: the maker hid the words because the pages hold something valuable such as records of wealth". Each of those observations is a small clue and several small clues together give a rough first understanding. A visitor in a village learns the same way when a villager points at water and says a word.
 
@@ -30303,7 +30303,7 @@ The programs are named second_pass.py and paragraph_ends.py and sit in the folde
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/word-evolution/README.md
@@ -30418,7 +30418,7 @@ The program files sit in the folder boring-things/research-program-files/word-ev
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/word-evolution/experiments.md
@@ -30492,7 +30492,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Reflections on the word evolution experiment
 
-An AI chatbot (Claude) wrote the reflections on this page. Each reflection is the chatbot's interpretation of a result on the page named experiments.md in this folder and no person has rechecked the reflections. The owner of this repository suggested the reading about memory slots and the reading about rewards that arrive after the work is over.
+> **About this page:** An AI chatbot (Claude) wrote the reflections on this page. Each reflection is the chatbot's interpretation of a result on the page named experiments.md in this folder and no person has rechecked the reflections. The owner of this repository suggested the reading about memory slots and the reading about rewards that arrive after the work is over.
 
 ## A scorer that rewards polish alone freezes growth
 
@@ -30601,7 +30601,7 @@ The program files sit in the folder boring-things/research-program-files/word-ev
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.
 
 ================================================================================
 FILE: 1-research-click-here-first/word-evolution/try-the-program.md
@@ -30669,7 +30669,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Lessons from editing two reflections line by line
 
-An AI chatbot (Claude) wrote this page on 14 November 2026. The owner of this repository asked for dozens of small changes to two reflections and this page gathers the patterns behind those changes so that a person or an AI agent can use the patterns when editing reflective writing for public posting. The lessons are the chatbot's reading of the changes and no other person has rechecked the lessons.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026. The owner of this repository asked for dozens of small changes to two reflections and this page gathers the patterns behind those changes so that a person or an AI agent can use the patterns when editing reflective writing for public posting. The lessons are the chatbot's reading of the changes and no other person has rechecked the lessons.
 
 The two reflections are in the deep-dives folder inside the social-media-vibes folder. The page named [never-asked-born.md](../social-media-vibes/deep-dives/never-asked-born.md) imagines a prayer built on the words "I never asked to be born". The page named [wish-one-enemy.md](../social-media-vibes/deep-dives/wish-one-enemy.md) reflects on blaming one enemy for a hurt.
 

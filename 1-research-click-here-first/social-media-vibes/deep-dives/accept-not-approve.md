@@ -1,6 +1,6 @@
 # Can a person accept a condition and still say the condition is wrong?
 
-An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A person posted a video about being angry with God. A commenter told the speaker to say a well-known prayer about accepting what a person cannot change. The speaker answered that acceptance is not justification. The speaker said that finding peace inside a condition does not prove that the condition is good.
 

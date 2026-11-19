@@ -1,6 +1,6 @@
 # Where should AI research point next? Ask people whose needs are not being met
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from an idea that the owner of this repository proposed. The page is a thought experiment and no person has rechecked the reasoning.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from an idea that the owner of this repository proposed. The page is a thought experiment and no person has rechecked the reasoning.
 
 ## The question the idea answers
 

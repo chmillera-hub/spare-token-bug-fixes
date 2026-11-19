@@ -1,6 +1,6 @@
 # Two words that keep a person talking
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 The two words "go on" appear as a whole comment 4 times in the 6020 public comments by the owner of this repository. A check that sets aside every comment of five words or fewer would put "go on" in the same pile as "lol" and "wow". The three comments are equally short and do very different jobs.
 

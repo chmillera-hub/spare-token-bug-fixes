@@ -95,4 +95,4 @@ The program is named dimension_followup.py and sits in the folder boring-things/
 
 ## Who made this page
 
-An AI chatbot (Claude) ran the search and the tests and wrote this page.
+> **Who wrote this:** An AI chatbot (Claude) ran the search and the tests and wrote this page.

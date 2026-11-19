@@ -1,6 +1,6 @@
 # What goal the owner's 6020 comments point toward
 
-An AI chatbot (Claude) read samples of the 6020 comments in this folder and counted phrases with a program to answer one question: what goal does the writer of the comments state and how does the writer work toward that goal. No person has rechecked the counts which means every count on this page is unconfirmed.
+> **About this page:** An AI chatbot (Claude) read samples of the 6020 comments in this folder and counted phrases with a program to answer one question: what goal does the writer of the comments state and how does the writer work toward that goal. No person has rechecked the counts which means every count on this page is unconfirmed.
 
 ## The goal in the owner's own words
 

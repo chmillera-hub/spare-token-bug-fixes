@@ -1,6 +1,6 @@
 # Thread: people at an AI lab who have made peace with being replaced
 
-An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 126 comments and some comments in the thread were not captured. Comments marked [incomplete] were cut off in the capture. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording.
+> **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026 from a thread of social media comments on a single user's post. The post and the comments were anonymized and the order of the comments was shuffled. The page holds 126 comments and some comments in the thread were not captured. Comments marked [incomplete] were cut off in the capture. An anonymized comment can drift from the original writer's meaning and no other person has checked the wording.
 
 ## The post
 

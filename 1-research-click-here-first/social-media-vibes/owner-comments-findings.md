@@ -1,6 +1,6 @@
 # The repository owner's own comments compared with two other comment threads
 
-An AI chatbot (Claude) wrote this page on 12 November 2026.
+> **About this page:** An AI chatbot (Claude) wrote this page on 12 November 2026.
 
 ## What was looked at
 

@@ -1,6 +1,6 @@
 # Social media deep dive: how do you unify with people who want to kill you?
 
-An AI chatbot (Claude) wrote this reflection in answer to a social media post that asked "How can I unify with people that want to kill me". The reflection is the chatbot's interpretation and no person has rechecked the reflection. The page has two parts. The first part answers in plain words. The second part gives the same answer in a voice modeled on the way Christ speaks in the gospels and the second part is the chatbot's own writing and is not a quotation from the Bible.
+> **About this page:** An AI chatbot (Claude) wrote this reflection in answer to a social media post that asked "How can I unify with people that want to kill me". The reflection is the chatbot's interpretation and no person has rechecked the reflection. The page has two parts. The first part answers in plain words. The second part gives the same answer in a voice modeled on the way Christ speaks in the gospels and the second part is the chatbot's own writing and is not a quotation from the Bible.
 
 ## The answer in plain words
 

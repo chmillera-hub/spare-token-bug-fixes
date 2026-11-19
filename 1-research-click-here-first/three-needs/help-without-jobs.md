@@ -1,6 +1,6 @@
 # How a social media user can help someone reach food or shelter or deep human connection without the job market
 
-An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. Each action below states a limit because no action on this page fully replaces wages for rent.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026 from searches of public sources. No other person has rechecked the page which means every claim here is unconfirmed. Each action below states a limit because no action on this page fully replaces wages for rent.
 
 ## Food
 

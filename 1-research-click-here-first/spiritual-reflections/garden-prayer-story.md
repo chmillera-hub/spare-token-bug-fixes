@@ -1,6 +1,6 @@
 # The prayer with the soldiers watching
 
-The owner of this repository supplied this story on 18 November 2026 and the story appears in full. The story imagines the prayer of John chapter 17 being spoken in the garden while the arresting soldiers stand and watch. The prayer is shown in the wording of the World English Bible.
+> **About this page:** The owner of this repository supplied this story on 18 November 2026 and the story appears in full. The story imagines the prayer of John chapter 17 being spoken in the garden while the arresting soldiers stand and watch. The prayer is shown in the wording of the World English Bible.
 
 The olive grove on the lower slope of the Mount of Olives was thick with silver-gray leaves and the smell of crushed wild herbs when the torches first appeared through the trees.
 

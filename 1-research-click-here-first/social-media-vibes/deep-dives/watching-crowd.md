@@ -1,6 +1,6 @@
 # A crowd that watches and asks nobody to do anything
 
-An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection and the five quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
 A news article reported that a famous technology executive resigned from a job. A crowd wrote 171 comments under a post about the article. 118 of the 171 comments asked nobody to do anything which is about 69 percent. Most of those 118 comments were jokes and puns about the executive.
 

@@ -1,6 +1,6 @@
 # Example outputs and tests from the mini model
 
-An AI chatbot (Claude) ran more tests on the tiny text model that was trained only on the 6020 comments in this folder. The page named mini-model-findings.md in this folder explains how the model was trained. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) ran more tests on the tiny text model that was trained only on the 6020 comments in this folder. The page named mini-model-findings.md in this folder explains how the model was trained. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 The model only imitates which words tend to follow which words in the comments. The model does not understand the comments and does not hold any belief which means the outputs are a mirror of word patterns and not statements to rely on.
 

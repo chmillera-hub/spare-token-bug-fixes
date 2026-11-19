@@ -1,6 +1,6 @@
 # A mini model trained only on the owner's 6020 comments
 
-An AI chatbot (Claude) trained a tiny text model that learned English only from the 6020 comments in this folder. The model has 2.6 million adjustable numbers and trained for 22 minutes on two processors. No person has rechecked the results on this page which means every result here is unconfirmed.
+> **About this page:** An AI chatbot (Claude) trained a tiny text model that learned English only from the 6020 comments in this folder. The model has 2.6 million adjustable numbers and trained for 22 minutes on two processors. No person has rechecked the results on this page which means every result here is unconfirmed.
 
 The model only imitates which words tend to follow which words in the comments. The model does not understand the comments and does not hold the owner's values which means the outputs are a mirror of word patterns and not statements to rely on.
 

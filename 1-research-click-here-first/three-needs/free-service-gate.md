@@ -1,6 +1,6 @@
 # An AI model that can switch on free food or shelter for a person: what the design would need
 
-An AI chatbot (Claude) wrote this outline on 15 November 2026. No other person has rechecked the outline and no such system exists as far as the chatbot knows. The owner of this repository asked what systems and what changes to AI models would be needed so that a person could give an AI model enough proof of need and the AI model could then switch on a government service or another service for free.
+> **About this page:** An AI chatbot (Claude) wrote this outline on 15 November 2026. No other person has rechecked the outline and no such system exists as far as the chatbot knows. The owner of this repository asked what systems and what changes to AI models would be needed so that a person could give an AI model enough proof of need and the AI model could then switch on a government service or another service for free.
 
 The design is built around one rule because the rule shapes everything else: the AI model may say "yes" or "a human will look at this within the hour" and the AI model may never issue a final "no" for food or shelter.
 
