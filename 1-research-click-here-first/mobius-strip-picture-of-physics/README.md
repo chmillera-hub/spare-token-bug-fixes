@@ -2,6 +2,22 @@
 
 November 11 2026 and updated November 15 2026 and November 16 2026
 
+## Pages in this folder
+
+This page is the main document and the folder also holds nine shorter pages and two copies of the main document for downloading.
+
+- [half-angle-finding.md](half-angle-finding.md) shows that the half-angle rate for entangled pairs comes out of evenly random directions in three dimensions and fails in two dimensions and overshoots in four or more dimensions.
+- [smallest-size-finding.md](smallest-size-finding.md) puts a number on the smallest paper Mobius strip which has to be more than 1.732 times as long as wide and folds down toward a flat triangle.
+- [three-dimensions-check.md](three-dimensions-check.md) compares the half-angle result with published research and adds three new tests which include a test where two dimensions and four or more dimensions could allow faster-than-light messages.
+- [knots-from-cutting.md](knots-from-cutting.md) shows that a ribbon with three half twists becomes a trefoil knot when the ribbon splits down the middle which could give the ribbon picture a road to knots with no tying.
+- [expression-continuum-reflection.md](expression-continuum-reflection.md) is a short reflection that uses the unbroken path along a Mobius strip as a picture for a feeling that runs through inner experience and facial movement and body language and tone of voice and words at the same moment.
+- [packing-test.md](packing-test.md) reports computer tests that poured flat strips and plain loops and Mobius strips into bins such as a result where flat pieces packed tightest and the Mobius strip and the untwisted loop packed about the same away from the walls of the bin.
+- [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
+- [twist-joining-finding.md](twist-joining-finding.md) reports a computer test that joined Mobius strips end to end and found that a left-handed strip and a right-handed strip cancel into a plain loop while two left-handed strips add into one locked full twist which matches the way electric charge adds.
+- [notebook-physics-ideas.md](notebook-physics-ideas.md) gathers physics ideas from an earlier notebook such as time as the equal sign between two snapshots of the universe and forces as density of context and black holes that throw out simple strips from the top and the bottom.
+- [mobius-physics.txt](mobius-physics.txt) is a plain text copy of this document for copying into another program.
+- [mobius-physics.docx](mobius-physics.docx) is a word processor copy of this document.
+
 ## What this document is
 
 This document explains strange behaviors in physics by picturing space as being built from twisted paper-like ribbons called Mobius strips and the document uses no numbers and no equations because the goal is for a reader to be able to imagine each idea the way a person imagines a strip of paper. Each physics part first describes one behavior that popular science videos call weird such as two far-apart particles seeming to change at the same instant and then offers a what-if picture built from things that paper strips really do when a person twists or cuts or tapes the strips.

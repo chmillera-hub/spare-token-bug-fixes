@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1203,
- "total_bytes": 94750663,
+ "total_bytes": 94755102,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 6420,
+   "bytes": 6528,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -586,7 +586,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 83452,
+   "bytes": 86138,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -2638,7 +2638,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 7452,
+   "bytes": 9097,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
