@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
- "file_count": 1204,
- "total_bytes": 94763140,
+ "file_count": 1205,
+ "total_bytes": 94774435,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 6528,
+   "bytes": 6620,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -1738,7 +1738,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 947,
+   "bytes": 1235,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -1752,6 +1752,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
+   "title": "A request for small groups: a text message exchange",
+   "bytes": 10823,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md"
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/spiritual-quotes.md",
@@ -2647,7 +2656,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 9118,
+   "bytes": 9210,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",

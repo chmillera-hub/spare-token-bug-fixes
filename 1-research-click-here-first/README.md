@@ -19,7 +19,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [social-media-vibes](social-media-vibes) holds 46 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the owner of this repository in which emotions such as anger and boredom appear as characters.
-- [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the owner of this repository in the wording of the World English Bible together with the owner's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square).
+- [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the owner of this repository in the wording of the World English Bible together with the owner's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the owner asks church service workers for small groups.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 
 ## Single pages (each page is its own project)
