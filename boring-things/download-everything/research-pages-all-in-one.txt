@@ -327,7 +327,7 @@ Warning about changed wording in the joined Bible passages: the passages that th
 
 ## Start here
 
-- [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named best-outputs-spaced.txt holds every one of the same paragraphs without italics for copying and puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
+- [best-outputs.md](best-outputs.md) holds only the finished paragraphs with no commentary and the file named [best-outputs-spaced.txt](best-outputs-spaced.txt) holds every one of the same paragraphs without italics for copying and puts an invisible blank character on its own line between paragraphs for apps that drop empty lines when text is pasted.
 - [rules.md](rules.md) lists all fifty-four rules now in force with the reason for each rule.
 - [prompt-for-new-chat.txt](prompt-for-new-chat.txt) is a ready-made prompt that a person can paste into a new chat with an AI model so that the AI model can make outputs from any input sentence.
 - The public link to the chat on 11 November 2026 where a new chat used the ready-made prompt to make three outputs about Gen Z and work is https://claude.ai/share/e599b4d3-3058-46f9-b138-9f3dd71d925c and those three outputs are copied in full into the three best-outputs files.
@@ -3430,9 +3430,9 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 This folder holds writing where Christ speaks in word patterns and grammar patterns counted from the red-letter words of the World English Bible.
 
 - [vegeta-scripts.md](vegeta-scripts.md) holds four short scripts where Christ talks with the warrior prince Vegeta about pride and tiredness and past harm and sitting at the family table.
-- The file named plain-vegeta-scripts.txt holds the same four scripts with no bold marks for easy copying.
+- [plain-vegeta-scripts.txt](plain-vegeta-scripts.txt) holds the same four scripts with no bold marks for easy copying.
 - [hits-hard-vegeta.md](hits-hard-vegeta.md) holds three short interactions where Vegeta speaks about a painful memory (hands that shook and tears in the dust and an open hand held out by a rival) and Jesus answers with a short saying and then a reflection that opens with the words "This is the".
-- The file named plain-hits-hard-vegeta.txt holds the same three interactions with no bold marks for easy copying.
+- [plain-hits-hard-vegeta.txt](plain-hits-hard-vegeta.txt) holds the same three interactions with no bold marks for easy copying.
 
 ================================================================================
 FILE: 1-research-click-here-first/christ-voice/hits-hard-vegeta.md
@@ -30316,7 +30316,7 @@ This folder holds an experiment where text is copied with small mistakes over an
 
 - [experiments.md](experiments.md) reports what happened in the experiments.
 - [try-the-program.md](try-the-program.md) explains two ways to run the live program with sliders and ten separate agents.
-- The file named live-program.html is the program itself and runs in a web browser after downloading.
+- [live-program.html](live-program.html) is the program itself and runs in a web browser after downloading.
 - [second-pass.md](second-pass.md) reports a second run of two of the tests on 12 November 2026 with fourteen new starting points where the main results came out again and one time range came out wider.
 - [bonus-runs.md](bonus-runs.md) reports twenty runs that measure the story bonus and the fresh-words bonus with five starting points each where the story bonus cut scenes and commands in every run and the fresh-words bonus cut repeats in every run.
 - [reflections.md](reflections.md) holds reflections by an AI chatbot that connect results of the experiment to people such as why an added letter has to pay for a memory slot and why a reward that arrives after the work is over cannot guide the work.
@@ -30659,7 +30659,7 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 This folder holds a set of writing rules for clear chatbot replies.
 
 - [writing-rules.md](writing-rules.md) is the set of rules with before and after examples.
-- The file named writing-rules-plain.txt holds the same rules for easy copying into a chat.
+- [writing-rules-plain.txt](writing-rules-plain.txt) holds the same rules for easy copying into a chat.
 - [editing-lessons.md](editing-lessons.md) gathers sixteen lessons from editing two reflections line by line such as swapping out a word that has a second meaning and each lesson shows wording before and after the change.
 
 ================================================================================

@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1203,
- "total_bytes": 94755102,
+ "total_bytes": 94755175,
  "files": [
   {
    "path": ".gitignore",
@@ -109,7 +109,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/README.md",
    "title": "Bible quote builder",
-   "bytes": 6018,
+   "bytes": 6045,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/README.md",
@@ -316,7 +316,7 @@
   {
    "path": "1-research-click-here-first/christ-voice/README.md",
    "title": "Christ voice",
-   "bytes": 872,
+   "bytes": 900,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/README.md",
@@ -2539,7 +2539,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/README.md",
    "title": "Word evolution",
-   "bytes": 1156,
+   "bytes": 1162,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/README.md",
@@ -2602,7 +2602,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/README.md",
    "title": "Writing rules",
-   "bytes": 491,
+   "bytes": 503,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/README.md",
