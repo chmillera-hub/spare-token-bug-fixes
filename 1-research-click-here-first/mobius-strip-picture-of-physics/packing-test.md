@@ -4,7 +4,7 @@
 
 ## The prediction being tested
 
-The owner of this repository predicted that Mobius strips are fluffy which means that a pile of Mobius strips needs more room than a pile of flat strips. The reason offered was that the half twist makes a Mobius strip bump into neighbors more readily. The prediction matters for the ribbon picture in this folder because flat pieces of space turning into twisted loops could then need more room.
+The author of this repository predicted that Mobius strips are fluffy which means that a pile of Mobius strips needs more room than a pile of flat strips. The reason offered was that the half twist makes a Mobius strip bump into neighbors more readily. The prediction matters for the ribbon picture in this folder because flat pieces of space turning into twisted loops could then need more room.
 
 ## The six shapes
 
@@ -21,7 +21,7 @@ The strip was about 6.3 units long and 0.5 units wide. The loops were about 2.5 
 
 ## Main test: pour and shake in a big bin
 
-The owner of this repository pointed out that the first bins were so small that pieces kept getting stuck on the walls. So the test was rerun in a bin 11 units wide which has four times the room of the largest earlier bin. Each run held roughly 850 to 1250 pieces. The packing was measured in the middle of the pile away from the walls and the floor and the top. The numbers are strips per unit of space so a larger number means tighter packing.
+The author of this repository pointed out that the first bins were so small that pieces kept getting stuck on the walls. So the test was rerun in a bin 11 units wide which has four times the room of the largest earlier bin. Each run held roughly 850 to 1250 pieces. The packing was measured in the middle of the pile away from the walls and the floor and the top. The numbers are strips per unit of space so a larger number means tighter packing.
 
 - Straight flat strip: 1.59. A time limit stopped the run before the pile was jostled so the true number could be a little higher.
 - Untwisted loop like an open-ended cylinder: 0.945

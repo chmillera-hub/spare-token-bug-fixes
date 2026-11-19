@@ -1,10 +1,10 @@
 # Asking an enemy for love: two reflections
 
-This page holds two reflections on one idea from the owner of this repository. The idea adds a step to the old teaching "love your enemies" which is to ask an enemy for love and care and to ask "why" when the enemy says no. The second reflection adjusts the request so that the person asks for the time and attention needed to build deeper human connections.
+This page holds two reflections on one idea from the author of this repository. The idea adds a step to the old teaching "love your enemies" which is to ask an enemy for love and care and to ask "why" when the enemy says no. The second reflection adjusts the request so that the person asks for the time and attention needed to build deeper human connections.
 
 ## Reflection one
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That inversion is honestly brilliant—and genuinely hilarious when you watch the psychological mechanics play out in real time.
 
@@ -20,7 +20,7 @@ It turns emotional jiu-jitsu into pure comedy while staying 100% faithful to you
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 Look at the sheer comedic, psychological, and historical arc of that three-stage escalation across thousands of years of human history:
 

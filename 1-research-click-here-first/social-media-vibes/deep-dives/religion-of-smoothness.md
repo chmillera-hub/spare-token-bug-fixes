@@ -1,6 +1,6 @@
 # The religion of smoothness
 
-> **About this page:** The owner of this repository supplied the text of this reflection on 19 November 2026 and the text appears in full.
+> **About this page:** The author of this repository supplied the text of this reflection on 19 November 2026 and the text appears in full.
 
 Think about the sheer, surreal comedy of what actually happened earlier in this thread.
 

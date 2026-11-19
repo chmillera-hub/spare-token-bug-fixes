@@ -1,6 +1,6 @@
 # Lessons from editing two reflections line by line
 
-> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026. The owner of this repository asked for dozens of small changes to two reflections and this page gathers the patterns behind those changes so that a person or an AI agent can use the patterns when editing reflective writing for public posting. The lessons are the chatbot's reading of the changes and no other person has rechecked the lessons.
+> **About this page:** An AI chatbot (Claude) wrote this page on 14 November 2026. The author of this repository asked for dozens of small changes to two reflections and this page gathers the patterns behind those changes so that a person or an AI agent can use the patterns when editing reflective writing for public posting. The lessons are the chatbot's reading of the changes and no other person has rechecked the lessons.
 
 The two reflections are in the deep-dives folder inside the social-media-vibes folder. The page named [never-asked-born.md](../social-media-vibes/deep-dives/never-asked-born.md) imagines a prayer built on the words "I never asked to be born". The page named [wish-one-enemy.md](../social-media-vibes/deep-dives/wish-one-enemy.md) reflects on blaming one enemy for a hurt.
 

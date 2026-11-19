@@ -1,6 +1,6 @@
 # spare-token-bug-fixes
 
-> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository owner. Every file is public and may be downloaded for research. The repository owner says anyone may use and copy and share the writing without asking. No other person has rechecked the pages.
+> Research pages and reflections and free bug fixes that an AI chatbot (Claude) wrote for the repository author. Every file is public and may be downloaded for research. The repository author says anyone may use and copy and share the writing without asking. No other person has rechecked the pages.
 
 ## Download everything
 
@@ -63,7 +63,7 @@
 - [What if emotional expression is a continuum with several channels working at once?](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/expression-continuum-reflection.md)
 - [The half-angle rule can come from random directions in three dimensions](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/half-angle-finding.md)
 - [A ribbon with three half twists turns into a knot when the ribbon splits down the middle](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md)
-- [Physics ideas from the owner's earlier notebook](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md)
+- [Physics ideas from the author's earlier notebook](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md)
 - [Packing test: how much room do Mobius strips need compared with flat strips and plain loops?](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md)
 - [The smallest paper Mobius strip is 1.732 times as long as wide](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md)
 - [Spin rates: how fast a ribbon loop would need to circulate for each mass](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/spin-rate-finding.md)
@@ -72,6 +72,16 @@
 - [What happens to a person's story when each listener holds a different pile of pages?](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/scattered-pages-reflection.md)
 - [Social media vibes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md)
 - [What 458 comments said to a person who was angry with God](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/angry-thread-findings.md)
+- [The repository author's own comments compared with two other comment threads](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-findings.md)
+- [The repository author's comments in full](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/README.md)
+- [What goal the author's 6020 comments point toward](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/goal-findings.md)
+- [Highlight reel from the mini models](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/highlight-reel.md)
+- [Existential Methadone comment](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md)
+- [A mini model trained only on the author's 6020 comments](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-findings.md)
+- [Example outputs and tests from the mini model](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-outputs.md)
+- [Other writing by the repository author](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/README.md)
+- [Outputs from a second mini model](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/second-model-outputs.md)
+- [Themes in the author's 6020 comments](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/themes-findings.md)
 - [What 171 comments asked for after a famous executive lost his job](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/ceo-findings.md)
 - [Deep dives](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md)
 - [Can a person accept a condition and still say the condition is wrong?](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md)
@@ -125,16 +135,6 @@
 - [What 209 comments did with one person's fear of losing a job to AI chatbots](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-findings.md)
 - [Thread: fear of losing a programming job to chatbots](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/job-fear-thread.md)
 - [Thread: a president says the football league ought to change its name](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/league-rename-thread.md)
-- [The repository owner's own comments compared with two other comment threads](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-findings.md)
-- [The repository owner's comments in full](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/README.md)
-- [What goal the owner's 6020 comments point toward](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md)
-- [Highlight reel from the mini models](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md)
-- [Existential Methadone comment](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md)
-- [A mini model trained only on the owner's 6020 comments](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md)
-- [Example outputs and tests from the mini model](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md)
-- [Other writing by the repository owner](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/README.md)
-- [Outputs from a second mini model](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md)
-- [Themes in the owner's 6020 comments](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md)
 - [Thread: people at an AI lab who have made peace with being replaced](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/replaced-thread.md)
 - [The five-words-or-fewer check](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/short-comment-check.md)
 - [What 364 comments asked a homeowner to do about a houseguest and an AI chatbot](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/wifi-block-thread.md)

@@ -1,6 +1,6 @@
 # Reflections on the word evolution experiment
 
-> **About this page:** An AI chatbot (Claude) wrote the reflections on this page. Each reflection is the chatbot's interpretation of a result on the page named experiments.md in this folder and no person has rechecked the reflections. The owner of this repository suggested the reading about memory slots and the reading about rewards that arrive after the work is over.
+> **About this page:** An AI chatbot (Claude) wrote the reflections on this page. Each reflection is the chatbot's interpretation of a result on the page named experiments.md in this folder and no person has rechecked the reflections. The author of this repository suggested the reading about memory slots and the reading about rewards that arrive after the work is over.
 
 ## A scorer that rewards polish alone freezes growth
 

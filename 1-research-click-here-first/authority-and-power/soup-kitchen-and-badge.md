@@ -1,6 +1,6 @@
 # Reflections on authority and power structures in society
 
-This page holds two reflections that argue from one principle which is that touching a person without consent is wrong from anyone. The owner of this repository supplied the text of the first reflection. An AI chatbot (Claude) wrote the second reflection. No other person has rechecked either reflection.
+This page holds two reflections that argue from one principle which is that touching a person without consent is wrong from anyone. The author of this repository supplied the text of the first reflection. An AI chatbot (Claude) wrote the second reflection. No other person has rechecked either reflection.
 
 ## The soup kitchen and the badge
 

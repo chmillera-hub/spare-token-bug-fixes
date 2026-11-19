@@ -16,7 +16,7 @@ An AI model (Claude) ran the test on 11 November 2026 and no other person has re
 - Claude selection: 1837 quotes from 41 well-known passages of about 10000 words such as Genesis 1 and Psalm 23 and the Sermon on the Mount and the love chapter in First Corinthians.
 - personal selection: 38236 quotes from ten whole books which are Psalms and Proverbs and Ecclesiastes and Isaiah and Jeremiah and Matthew and Mark and Luke and John and Romans.
 - Words of Jesus: 6198 quotes cut only from the words that red-letter Bibles print in red (about 38500 words) in Matthew and Mark and Luke and John.
-- An earlier run used thirteen books for the personal selection and included the words of Jesus from Acts and Revelation and the repository owner asked for Genesis and Galatians and Hebrews and those two extra sources to be removed.
+- An earlier run used thirteen books for the personal selection and included the words of Jesus from Acts and Revelation and the repository author asked for Genesis and Galatians and Hebrews and those two extra sources to be removed.
 
 ## What the agents built after 2000 minutes of experiment time
 
@@ -72,7 +72,7 @@ What the connecting words changed:
 
 ## A second pass that also allows reference words already used in the string
 
-The repository owner then widened the rule so that the AI model could add connecting words plus reference words such as "you" or "he" or "him" or "this" as long as the exact reference word already appears somewhere in the same string which means no new person or thing enters the string.
+The repository author then widened the rule so that the AI model could add connecting words plus reference words such as "you" or "he" or "him" or "this" as long as the exact reference word already appears somewhere in the same string which means no new person or thing enters the string.
 
 Claude selection:
 
@@ -123,7 +123,7 @@ What repeated across all three runs:
 
 ## A third pass on the second run that also allows a pronoun for any named person or thing
 
-The repository owner widened the rule once more so that the AI model could add connecting words plus reference words already in the string plus a pronoun such as "he" or "they" or "it" that stands for a person or thing the string already names such as "god" or "the father" or "the earth" even when that pronoun appears nowhere in the string.
+The repository author widened the rule once more so that the AI model could add connecting words plus reference words already in the string plus a pronoun such as "he" or "they" or "it" that stands for a person or thing the string already names such as "god" or "the father" or "the earth" even when that pronoun appears nowhere in the string.
 The AI model applied all three rules to the six strings of the second run and every added word is marked with stars.
 
 Claude selection:
@@ -149,7 +149,7 @@ What the third rule changed:
 
 ## A fourth pass that allows any of the most generic words
 
-The repository owner widened the rule a last time so that the AI model could add any of the most generic words such as "you" and "them" and "those" and "others" and pointing phrases such as "over there" and "here" even when no such word appears in the string.
+The repository author widened the rule a last time so that the AI model could add any of the most generic words such as "you" and "them" and "those" and "others" and pointing phrases such as "over there" and "here" even when no such word appears in the string.
 The AI model read the rule as covering connecting words and reference words and pointing words and left out action words and thing words which means every added word still names nothing new.
 
 Claude selection:

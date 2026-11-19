@@ -1,10 +1,10 @@
 # Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives
 
-> **About this page:** An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The owner of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
+> **About this page:** An AI chatbot (Claude) wrote this report on 15 November 2026 from small computer tournaments that the chatbot ran the same day. No other person has rechecked the report. The author of this repository proposed every idea that was tested which means the megaphone argument and the exit and the sample game and the preview buffer and the visible record. The tournaments are toys with numbers the chatbot chose so the results show a direction and prove nothing about real people.
 
 ## The idea that started the tests
 
-The owner of this repository pointed out a property of the instructions "love your enemies and bless those who curse you and forgive those who wrong you." Most battle plans fail the moment the other side reads the plan. A person can shout "love your enemies" through a megaphone because an enemy who steals those orders and obeys the orders has stopped being an enemy. So the plan needs no secrecy.
+The author of this repository pointed out a property of the instructions "love your enemies and bless those who curse you and forgive those who wrong you." Most battle plans fail the moment the other side reads the plan. A person can shout "love your enemies" through a megaphone because an enemy who steals those orders and obeys the orders has stopped being an enemy. So the plan needs no secrecy.
 
 The question for the tests was what kind of surroundings let a player who follows that plan do well and not get drained.
 
@@ -65,7 +65,7 @@ So a truthful preview was the strongest tool tested because harm became impossib
 
 Every player carried a visible record of the player's last twenty moves. A checking player declined any partner whose record showed harm on more than half of those moves.
 
-- The owner of this repository predicted that an always-kind player would do well by seeing that the next partner harms most of the time and declining the match. The prediction held. The always-kind player who never leaves rose from 2.17 to 2.62 with half the crowd made of harmers and from 1.75 to 2.41 with eight in ten made of harmers. The player's moves never changed.
+- The author of this repository predicted that an always-kind player would do well by seeing that the next partner harms most of the time and declining the match. The prediction held. The always-kind player who never leaves rose from 2.17 to 2.62 with half the crowd made of harmers and from 1.75 to 2.41 with eight in ten made of harmers. The player's moves never changed.
 - Checking the record and also keeping the exit scored best among kind players at 2.76 because the exit covers partners whose record is too short to judge.
 - Open harmers still scored highest in the mixed crowd at 3.27. All of that income came from kind players who skipped the record check. A kind player who never checks and never leaves hands a harmer twenty paid turns in a row.
 - When every kind player checked records and harmers were one in ten the open harmer fell to last place at 2.03.
@@ -101,7 +101,7 @@ A person short on time and energy could keep offering kindness to everybody and 
 
 ## A reflection: each rule reads like a stage of human trust
 
-The owner of this repository noticed that the findings work almost as direct pictures of how people trust each other at different levels. The chatbot wrote this reflection in reply and the readings are interpretation and not a test result.
+The author of this repository noticed that the findings work almost as direct pictures of how people trust each other at different levels. The chatbot wrote this reflection in reply and the readings are interpretation and not a test result.
 
 - The exit is a person standing up from a table where the insults keep landing because leaving saves the evening for somebody who can receive warmth.
 - The sample game is coffee before sharing an apartment or lending twenty dollars before lending two thousand because a small stake shows how a person treats what was handed over.

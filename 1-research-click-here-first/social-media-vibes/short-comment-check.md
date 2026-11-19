@@ -39,7 +39,7 @@ The share of short rows differs by the kind of forum:
 - The thread about a famous executive who lost his job: 18 of 171 comments have five words or fewer which is 10.5 percent. The middle comment runs 14 words. The short comments are quick reactions such as "Poor man." and "Doormat energy." and "Put him behind bars."
 - The thread about blocking a chatbot on home wifi: 9 of 364 comments have five words or fewer which is 2.5 percent. The middle comment runs 33 words. The short comments are blunt commands and verdicts such as "Do it." and "Nope." and "Mate just send her packing."
 - The thread about an executive who answered messages within minutes: 13 of 247 comments have five words or fewer which is 5.3 percent. The middle comment runs 20 words. The short comments are verdicts and dismissals such as "Are you dumb?" and "You should delete your account."
-- The owner's 6020 public comments: 67 comments have five words or fewer which is 1.1 percent.
+- The author's 6020 public comments: 67 comments have five words or fewer which is 1.1 percent.
 
 The three threads hold 40 short comments in total. None of the 40 short comments describes a behavior together with a reason for the behavior. So in these three threads the check would have set aside 40 comments and would have lost zero comments that teach a reader what to do and why.
 
@@ -47,7 +47,7 @@ The share of short comments also says something about the kind of thread. A thre
 
 ## What the check can lose
 
-- A short comment can be a real invitation. The owner of this repository posted the two words "go on" as a whole comment to ask another person to continue. That whole comment appears 4 times in the 6020 public comments in this folder once question marks and emoji are ignored. The check would set those invitations aside.
+- A short comment can be a real invitation. The author of this repository posted the two words "go on" as a whole comment to ask another person to continue. That whole comment appears 4 times in the 6020 public comments in this folder once question marks and emoji are ignored. The check would set those invitations aside.
 - A short comment can be a real question. About 4.6 percent of the short rows in the archive begin with a question word such as "why" or "what" or "who". One short comment in the executive thread asks "Which one?"
 - So the safer use is to set short comments aside in a separate pile and to keep the short questions for a second look. Deleting the short comments would throw away the invitations and the questions.
 
@@ -60,11 +60,11 @@ The file named [short-comments-to-keep.txt](short-comments-to-keep.txt) lists sh
 - A comment matches when the words left after removing punctuation and emoji are the same as the entry from the first word to the last word. So "go on lmao" and "hi yes go on" do not match.
 - Short questions such as "proof?" and "got link?" are not on the list because the step that keeps short questions already catches comments ending in a question mark.
 - Phrases such as "tell me more" and "say more" were considered and left off because no counted whole comment in this folder uses those phrases. So there is no evidence here for how people use those phrases.
-- "more" and "continue" joined the list on 14 November 2026 because the owner of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. Zero whole comments in this folder are the single word "more" or the single word "continue" so the two entries rest on the owner's judgment and not on a count. The count of "more" and of "continue" as whole rows in the public archive has not been run yet.
+- "more" and "continue" joined the list on 14 November 2026 because the author of this repository judges that a reply of "more" or a reply of "continue" asks another person to keep expressing which makes each reply pro-communication and pro-expression. Zero whole comments in this folder are the single word "more" or the single word "continue" so the two entries rest on the author's judgment and not on a count. The count of "more" and of "continue" as whole rows in the public archive has not been run yet.
 - A comment matches "more" or "continue" only when the single word is the whole comment. So "more of the same" and "no more" and "continue to cope" do not match.
-- "go on please" and "more please" and "continue please" joined the list on 14 November 2026 because the owner of this repository judges that adding "please" at the end keeps each reply an invitation to keep expressing. These three entries also rest on the owner's judgment and not on a count.
-- "keep going" joined the list on 14 November 2026 because the owner of this repository judges that a reply of "keep going" asks another person to keep expressing. The entry rests on the owner's judgment and not on a count.
-- A phrase can join the list in two ways. The owner of this repository can add a phrase by judgment as with "more" and "continue". Or a phrase joins when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
+- "go on please" and "more please" and "continue please" joined the list on 14 November 2026 because the author of this repository judges that adding "please" at the end keeps each reply an invitation to keep expressing. These three entries also rest on the author's judgment and not on a count.
+- "keep going" joined the list on 14 November 2026 because the author of this repository judges that a reply of "keep going" asks another person to keep expressing. The entry rests on the author's judgment and not on a count.
+- A phrase can join the list in two ways. The author of this repository can add a phrase by judgment as with "more" and "continue". Or a phrase joins when a count shows the phrase working as an invitation in every whole comment found. One mocking or dismissive use is enough to leave a phrase off.
 
 ## What the check cannot do
 

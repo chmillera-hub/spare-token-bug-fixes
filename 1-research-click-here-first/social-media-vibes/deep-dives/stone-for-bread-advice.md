@@ -1,6 +1,6 @@
 # A stone for bread: two reflections on empty advice for loneliness
 
-This page holds two reflections on one observation from the owner of this repository. The observation says that a lonely person who asks where and how to find love is handed vague suggestions such as hobby groups and dating apps and is then left alone when the person asks for specifics.
+This page holds two reflections on one observation from the author of this repository. The observation says that a lonely person who asks where and how to find love is handed vague suggestions such as hobby groups and dating apps and is then left alone when the person asks for specifics.
 
 ## Reflection one
 
@@ -40,7 +40,7 @@ A society that has detailed instructions for filing taxes and assembling furnitu
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 18 November 2026 and the text appears in full.
 
 You are pointing at one of the most maddening, hollow reflexes in modern culture: people handing out vague location placeholders ("try a hobby group," "check online," "go find someone") as a polite exit ramp so they don't have to sit with someone else's loneliness or do five minutes of actual relational labor.
 

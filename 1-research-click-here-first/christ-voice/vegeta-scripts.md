@@ -3,7 +3,7 @@
 This page holds four short scripts where Christ talks with Vegeta who is a warrior prince full of pride from the Dragon Ball stories.
 An AI chatbot (Claude) wrote every line on 12 November 2026 and no line is copied from the Dragon Ball shows or books because the lines for Vegeta were written fresh in the manner of Vegeta who speaks with pride.
 The lines of Christ follow word patterns and grammar patterns that the chatbot counted in the red-letter words of Matthew and Mark and Luke and John in the World English Bible (for example Christ says "you" in half of all sentences and opens many sentences with "But" or "If" or "Whoever").
-Rules mode means the lines of Christ also keep a reason inside each sentence and give no order to Vegeta because those are writing rules that the repository owner set.
+Rules mode means the lines of Christ also keep a reason inside each sentence and give no order to Vegeta because those are writing rules that the repository author set.
 Closest mode means the lines of Christ follow only the counted patterns which allows short sentences.
 The style score says what share of real passages of Christ the lines of Christ beat on a program that compares small word rates and sentence shapes and no human reader has checked the score.
 The file named plain-vegeta-scripts.txt holds the same four scripts with no bold marks for easy copying.

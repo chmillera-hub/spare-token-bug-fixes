@@ -1,6 +1,6 @@
 # Mosiah chapter 3 in the original wording
 
-> **About this page:** The owner of this repository supplied this text on 17 November 2026 as a screen recording and an AI chatbot (Claude) converted the recording into this page. The text is chapter 3 of the Book of Mosiah from the Book of Mormon in the original wording. The page named [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter in modern English.
+> **About this page:** The author of this repository supplied this text on 17 November 2026 as a screen recording and an AI chatbot (Claude) converted the recording into this page. The text is chapter 3 of the Book of Mosiah from the Book of Mormon in the original wording. The page named [modern-mosiah-3.md](modern-mosiah-3.md) holds the same chapter in modern English.
 
 1 And again my brethren, I would call your attention, for I have somewhat more to speak unto you; for behold, I have things to tell you concerning that which is to come.
 

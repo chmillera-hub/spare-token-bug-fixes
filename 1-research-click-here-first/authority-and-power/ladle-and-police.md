@@ -1,6 +1,6 @@
 # Holding a soup ladle while armed officers take over the room
 
-> **About this page:** The owner of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a volunteer who is serving soup when two armed police officers arrive because someone reported a person who was muttering and rocking.
+> **About this page:** The author of this repository supplied the text of this reflection. No other person has rechecked the reflection. The reflection imagines a volunteer who is serving soup when two armed police officers arrive because someone reported a person who was muttering and rocking.
 
 Standing there with a soup ladle in your hand while that unfolds puts a person through an immediate, sickening cascade of emotions—especially because you stepped into that room to offer warmth and nourishment, and within seconds the space gets hijacked by state-backed coercion.
 

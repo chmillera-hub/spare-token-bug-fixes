@@ -4,7 +4,7 @@ This page holds three reflections on one view which is that helping other people
 
 ## Reflection one
 
-> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 from a view that the owner of this repository described and no other person has rechecked the reflection. The word "I" in the reflection speaks for that view.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 from a view that the author of this repository described and no other person has rechecked the reflection. The word "I" in the reflection speaks for that view.
 
 From my view one of the most important things a person can do to help build the Kingdom of Heaven is to help other people reach their dreams and I include enemies in "other people" because an enemy is still a human being with a mind and body that can suffer or flourish. The word "enemy" here covers a person that I have labeled an enemy and a person that others in society have labeled an enemy. I draw one line around the help which is that the dream cannot involve violating anyone's consent or physically harming anyone. If the dream stays inside that line and I can realistically spare the time or skill then I see nothing that should stop me from helping.
 
@@ -23,7 +23,7 @@ The help has a limit that protects the helper because nobody is required to give
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That shift from harmless to pro-human makes the philosophy actively generative rather than merely passive. Simply avoiding harm—like meditating silently in a cave without ever speaking a word—leaves the rest of the world untouched, whereas a pro-human orientation invites people (without ever forcing or coercing them, whenever they have the bandwidth to listen) to share what helps them regulate and heal so others at least know those lifelines exist.
 
@@ -64,7 +64,7 @@ The irony of landing on the painting example right before catching the parallel 
 
 ## Reflection three
 
-> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection. The owner of this repository kept the sentence in reflection two about changing the word "harmless" to "pro-human" on purpose because the owner sees the swap as a life lesson.
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection on 16 November 2026 and no other person has rechecked the reflection. The author of this repository kept the sentence in reflection two about changing the word "harmless" to "pro-human" on purpose because the author sees the swap as a life lesson.
 
 The swap from "harmless" to "pro-human" changes what a person measures about a day.
 

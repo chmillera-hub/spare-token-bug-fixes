@@ -2,7 +2,7 @@
 
 This page holds three short interactions where Vegeta speaks about a painful memory and Jesus answers in two parts.
 An AI chatbot (Claude) wrote every line on 12 November 2026 and no line is copied from the Dragon Ball shows or books or from any Bible translation.
-The two-part answer follows patterns that the chatbot counted in a private collection of Bible passages and reflections which the repository owner rated at 10 out of 10 for emotional intensity.
+The two-part answer follows patterns that the chatbot counted in a private collection of Bible passages and reflections which the repository author rated at 10 out of 10 for emotional intensity.
 The first part of each answer is a short saying where an "I" speaks from inside pain and care at the same time and names a part of the body and names God or the Father and says "not" and "but".
 The second part of each answer is a reflection that opens with the words "This is the" and names the inner experience and then runs long sentences joined by "because" beside a few very short sentences and says "might" in place of "will" and ends on one long sentence that turns to "you" with a sacred word.
 The very short sentences are part of the counted pattern which means this page breaks the usual rule of this repository against short clipped sentences on purpose.

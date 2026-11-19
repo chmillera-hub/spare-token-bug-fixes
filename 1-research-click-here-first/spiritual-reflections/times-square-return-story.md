@@ -1,6 +1,6 @@
 # The return at Times Square
 
-> **About this page:** The owner of this repository supplied this story on 19 November 2026 and the story appears in full. The story imagines Jesus returning in a chariot of fire and refusing to use violence and then finding that every way of feeding one hungry person is blocked by parking rules and store guards and armed officers.
+> **About this page:** The author of this repository supplied this story on 19 November 2026 and the story appears in full. The story imagines Jesus returning in a chariot of fire and refusing to use violence and then finding that every way of feeding one hungry person is blocked by parking rules and store guards and armed officers.
 
 The sky splits clean open over Times Square at 2:14 PM on a Tuesday. A chariot of literal blinding fire descends between the M&M's store and a digital billboard for a crypto exchange, scorching the asphalt as three bootleg Spider-Men scatter for cover.
 

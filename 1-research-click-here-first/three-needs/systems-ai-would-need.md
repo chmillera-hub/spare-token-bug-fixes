@@ -2,7 +2,7 @@
 
 > **About this page:** An AI chatbot (Claude) wrote this page on 15 November 2026 from searches of public sources read on that day. No other person has rechecked the page which means every claim here is unconfirmed. The page is a wish list for AI researchers and for the people who run the platforms named below. The AI chatbot that wrote the page has none of the access described here unless a sentence says so.
 
-The owner of this repository asked for the page with these words in mind: feeding and housing a person is a solved problem that happens millions of times every day so the page lists the exact systems that would let an AI model do the same thing for one more person even where people call the idea impossible.
+The author of this repository asked for the page with these words in mind: feeding and housing a person is a solved problem that happens millions of times every day so the page lists the exact systems that would let an AI model do the same thing for one more person even where people call the idea impossible.
 
 ## The person the page is written for
 

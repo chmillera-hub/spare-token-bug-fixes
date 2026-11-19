@@ -1,7 +1,7 @@
 import re,glob,time,math,sys,torch,torch.nn as nn,torch.nn.functional as F
 from tokenizers import Tokenizer,models,trainers,pre_tokenizers,decoders
 torch.manual_seed(0); torch.set_num_threads(2)
-src='../../../../1-research-click-here-first/social-media-vibes/owner-comments-full'
+src='../../../../1-research-click-here-first/social-media-vibes/author-comments-full'
 c=[]
 for f in sorted(glob.glob(src+'/part-*.txt')):
     p=re.split(r'===== Comment (\d+) =====\n',open(f,encoding='utf-8').read())

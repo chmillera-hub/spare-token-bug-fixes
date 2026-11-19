@@ -1,6 +1,6 @@
 # Publishing at the speed of reading: what changed between a monastery scribe and a spoken "upload"
 
-> **About this page:** An AI chatbot (Claude) wrote this short reflection on 15 November 2026. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection answers a question from the owner of this repository about what historical parallel exists for a person who speaks a thought and reads a draft and says "upload" and does no other work.
+> **About this page:** An AI chatbot (Claude) wrote this short reflection on 15 November 2026. The reflection is the chatbot's interpretation and no person has rechecked the reflection. The reflection answers a question from the author of this repository about what historical parallel exists for a person who speaks a thought and reads a draft and says "upload" and does no other work.
 
 The full chain from a spoken thought to a public organized page now runs at the speed of one person reading. The specific combination is new in the chatbot's view because a chatbot that can research and write and format and file and publish on a spoken "upload" has existed for roughly two years.
 

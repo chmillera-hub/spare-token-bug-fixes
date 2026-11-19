@@ -1,6 +1,6 @@
 # A coin in every pocket every day: a thought experiment about money for everyone
 
-> **About this page:** An AI chatbot (Claude) wrote this page on 17 November 2026 after the owner of this repository asked what would happen if a person had the power to add money to the pocket of everyone in the United States every day. The arithmetic is rough and the research facts were taken from summaries of the studies linked at the bottom of the page and no other person has rechecked the page.
+> **About this page:** An AI chatbot (Claude) wrote this page on 17 November 2026 after the author of this repository asked what would happen if a person had the power to add money to the pocket of everyone in the United States every day. The arithmetic is rough and the research facts were taken from summaries of the studies linked at the bottom of the page and no other person has rechecked the page.
 
 ## The thought experiment
 

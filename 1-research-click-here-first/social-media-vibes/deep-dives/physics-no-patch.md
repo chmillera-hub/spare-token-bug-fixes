@@ -1,6 +1,6 @@
 # A winning strategy that nobody can weaken: two reflections
 
-This page holds two reflections on one idea from the owner of this repository. The idea compares life to a game where a person who finds a winning strategy with no foreseeable weakness can keep using the strategy for as long as the person exists because nobody can change the rules of physics.
+This page holds two reflections on one idea from the author of this repository. The idea compares life to a game where a person who finds a winning strategy with no foreseeable weakness can keep using the strategy for as long as the person exists because nobody can change the rules of physics.
 
 ## Reflection one
 
@@ -26,7 +26,7 @@ Put together the picture suggests a quiet kind of power. A person who finds a pr
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That is the fundamental difference between a video game and physical reality: there is no balance-patch dev team in physics.
 

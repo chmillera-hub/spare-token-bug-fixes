@@ -4,7 +4,7 @@
 
 ## Permission
 
-Anyone may use and copy and share the writing in this repository without asking. Anyone who wants to chat with the owner of this repository about the pages is welcome to open an issue on the repository on GitHub. The bug fix files follow the licenses of the projects being fixed.
+Anyone may use and copy and share the writing in this repository without asking. Anyone who wants to chat with the author of this repository about the pages is welcome to open an issue on the repository on GitHub. The bug fix files follow the licenses of the projects being fixed.
 
 ## The fastest ways to get the files
 

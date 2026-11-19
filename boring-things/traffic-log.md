@@ -1,8 +1,8 @@
 # Traffic log for this repository
 
-> **About this page:** An AI chatbot (Claude) wrote this log from screen recordings of GitHub's traffic page that the owner of this repository shared. No other person has rechecked the numbers. GitHub erases traffic numbers older than fourteen days so this page keeps a dated record. Each entry covers the fourteen days before the date of the entry. The newest entry sits first. The repository was created on 10 November 2026.
+> **About this page:** An AI chatbot (Claude) wrote this log from screen recordings of GitHub's traffic page that the author of this repository shared. No other person has rechecked the numbers. GitHub erases traffic numbers older than fourteen days so this page keeps a dated record. Each entry covers the fourteen days before the date of the entry. The newest entry sits first. The repository was created on 10 November 2026.
 
-How to read the numbers: a view is one page opened in a browser. A unique visitor is one person or device and the owner's own visits are counted. A clone is one full copy of the repository pulled by a program. A unique cloner is one machine and not one person because every automatic rebuild of the website and every chatbot session pulls a copy from a different machine.
+How to read the numbers: a view is one page opened in a browser. A unique visitor is one person or device and the author's own visits are counted. A clone is one full copy of the repository pulled by a program. A unique cloner is one machine and not one person because every automatic rebuild of the website and every chatbot session pulls a copy from a different machine.
 
 ## 15 November 2026 (evening)
 

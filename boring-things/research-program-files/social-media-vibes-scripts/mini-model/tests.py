@@ -22,7 +22,7 @@ for name,o in (('neutral openings',on),('theme openings',oq)):
 for p,x in on[::5][:8]: print('>>',x); print()
 print('=== D copy check')
 c=[]
-for f in sorted(glob.glob('../../../../1-research-click-here-first/social-media-vibes/owner-comments-full/part-*.txt')):
+for f in sorted(glob.glob('../../../../1-research-click-here-first/social-media-vibes/author-comments-full/part-*.txt')):
     pp=re.split(r'===== Comment (\d+) =====\n',open(f,encoding='utf-8').read())
     c+=[pp[i+1].lower().replace('’',"'") for i in range(1,len(pp)-1,2)]
 W=lambda s: re.findall(r"[a-z0-9'\-]+",s)

@@ -1,6 +1,6 @@
 # More enemies or fewer: two reflections
 
-This page holds two reflections on one question from the owner of this repository. The question asks whether a person wants more enemies or fewer and observes that harming an enemy or shaming an enemy or cutting off an enemy's support tends to create more enemies.
+This page holds two reflections on one question from the author of this repository. The question asks whether a person wants more enemies or fewer and observes that harming an enemy or shaming an enemy or cutting off an enemy's support tends to create more enemies.
 
 ## Reflection one
 
@@ -25,7 +25,7 @@ So advice to hate or shame or starve an enemy is advice to grow the enemy's side
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 Even from a purely cold, zero-emotion game theory perspective, if your objective function is minimizing the total number of enemies in the system, almost every standard institutional and cultural reflex—calling armed agents on non-violent friction, getting people fired from their jobs, dragging them through punitive legal machinery, name-calling, or cutting off survival support—is actively optimizing for the exact opposite outcome.
 

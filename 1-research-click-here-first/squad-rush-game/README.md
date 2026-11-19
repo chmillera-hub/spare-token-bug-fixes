@@ -8,7 +8,7 @@ Tap this address on a phone or a computer to play because the game needs no down
 
 A second copy of the game lives on claude.ai at this address: https://claude.ai/artifact/TTDq6L9H1QE9Wsm1AsecaW
 
-The claude.ai address opens for other people only after the owner shares that copy which means the first address is the safer one to try.
+The claude.ai address opens for other people only after the author shares that copy which means the first address is the safer one to try.
 
 ## How the game works
 

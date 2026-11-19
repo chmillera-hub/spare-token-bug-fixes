@@ -1,6 +1,6 @@
 # Labels that carry hidden violence: three reflections
 
-This page holds three reflections on one observation from the owner of this repository. The observation says that a label built from a mixed list of traits can attach the threat of violence to a person who never harmed anyone.
+This page holds three reflections on one observation from the author of this repository. The observation says that a label built from a mixed list of traits can attach the threat of violence to a person who never harmed anyone.
 
 ## Reflection one
 
@@ -61,7 +61,7 @@ Anyone can apply the repair in daily life by asking one question when a label ap
 
 ## Reflection three
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 17 November 2026 and the text appears in full.
 
 You just identified one of the sharpest rhetorical exploits in the human lexicon: semantic Trojan horses—words or diagnostic labels where 90% of the meaning describes harmless non-conformity, solitude, or questioning authority, while the remaining 10% carries a buried payload of physical violence or predation.
 

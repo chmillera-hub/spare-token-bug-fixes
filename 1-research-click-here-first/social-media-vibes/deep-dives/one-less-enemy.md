@@ -1,6 +1,6 @@
 # One less enemy and one more ally: two reflections
 
-This page holds two reflections on one idea from the owner of this repository. The idea says that giving an enemy an amazing life where the enemy cares about all of humanity could be the best outcome for a person because that person then has one less enemy and has probably gained an ally since a person who cares about all humans cares about that person too.
+This page holds two reflections on one idea from the author of this repository. The idea says that giving an enemy an amazing life where the enemy cares about all of humanity could be the best outcome for a person because that person then has one less enemy and has probably gained an ally since a person who cares about all humans cares about that person too.
 
 ## Reflection one
 
@@ -27,7 +27,7 @@ An old proverb says "living well is the best revenge" which means a person answe
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That closes the loop completely. If your adversary ends up genuinely thriving—and their worldview expands into real care for all of humanity—you don't just get a temporary ceasefire or a reluctant truce; because you are one of the humans inside that circle, their flourishing literally converts an active threat into a natural ally looking out for your well-being too.
 

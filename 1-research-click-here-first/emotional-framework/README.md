@@ -1,6 +1,6 @@
 # Emotional framework
 
-This folder holds a document named The Emotional Framework that the owner of this repository wrote. The document treats each emotion as a member of an inner family and gives each emotion a purpose and a need so that a person can work out a plan that cares for the emotion. An AI chatbot (Claude) put the document into page format on 14 November 2026 and wrote this short guide to the folder.
+This folder holds a document named The Emotional Framework that the author of this repository wrote. The document treats each emotion as a member of an inner family and gives each emotion a purpose and a need so that a person can work out a plan that cares for the emotion. An AI chatbot (Claude) put the document into page format on 14 November 2026 and wrote this short guide to the folder.
 
 - [emotional-framework.md](emotional-framework.md) is the full document which holds the method for talking with an emotion and a list of 19 emotions with the purpose and need of each one and example monologues and personal reflections.
 

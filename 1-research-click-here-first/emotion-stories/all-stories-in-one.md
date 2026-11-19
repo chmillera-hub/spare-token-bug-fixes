@@ -1,6 +1,6 @@
 # All story entries in one file
 
-> **About this page:** The owner of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the owner's own wording and some entries include replies from a chatbot that the owner saved. This file joins the 16 story pages of this folder into one file so that every entry can be read or copied from one place. Bible passages in the entries use the World English Bible.
+> **About this page:** The author of this repository supplied this collection of story ideas and reflections on 17 November 2026 and an AI chatbot (Claude) converted the collection into pages. The entries are in the author's own wording and some entries include replies from a chatbot that the author saved. This file joins the 16 story pages of this folder into one file so that every entry can be read or copied from one place. Bible passages in the entries use the World English Bible.
 
 ## Opening note
 

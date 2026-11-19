@@ -1,6 +1,6 @@
 # Mini model files
 
-This folder holds a tiny text model that an AI chatbot (Claude) trained only on the 6020 comments in the owner-comments-full folder of this repository. The page named mini-model-findings.md in that folder explains what the model learned and shows sample outputs.
+This folder holds a tiny text model that an AI chatbot (Claude) trained only on the 6020 comments in the author-comments-full folder of this repository. The page named mini-model-findings.md in that folder explains what the model learned and shows sample outputs.
 
 - model.pt holds the 2.6 million trained numbers of the model.
 - word-pieces.json holds the 4096 word pieces that the model reads and writes.

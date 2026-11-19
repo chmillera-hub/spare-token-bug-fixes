@@ -1,6 +1,6 @@
 # Bible quote builder: corrections
 
-This page lists lines that an AI model (Claude) wrote for the Bible quote builder and that the repository owner flagged as wrong on 11 November 2026 and 12 November 2026. Each entry shows the line before the fix and the line after the fix and the reason for the fix. The page exists because two lines that both sound caring can differ in whether the line helps or hurts a reader and a matched pair shows where the edge is.
+This page lists lines that an AI model (Claude) wrote for the Bible quote builder and that the repository author flagged as wrong on 11 November 2026 and 12 November 2026. Each entry shows the line before the fix and the line after the fix and the reason for the fix. The page exists because two lines that both sound caring can differ in whether the line helps or hurts a reader and a matched pair shows where the edge is.
 
 The quoted lines keep their own punctuation. The numbers in brackets point to the rule on the page named rules.md in this folder.
 
@@ -124,7 +124,7 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 **After:** many workers earn rent only  
 **Why:** the word "young" adds nothing to the meaning and splits adults into groups and hints that other adults are left out of the care.
 
-## Hopes name what other people do and never promise anything for the repository owner [rules 43 and 48]
+## Hopes name what other people do and never promise anything for the repository author [rules 43 and 48]
 
 **Before:** I hope things get better  
 **After:** I hope employers offer wages big enough for homes.  
@@ -132,11 +132,11 @@ The quoted lines keep their own punctuation. The numbers in brackets point to th
 
 **Before:** I will keep asking builders to choose that.  
 **After:** I hope builders choose that.  
-**Why:** the first line commits the repository owner to a task that the repository owner never took on.
+**Why:** the first line commits the repository author to a task that the repository author never took on.
 
 **Before:** I hope to carry what you wrote to other people so that weight gets heard.  
 **After:** I hope someone who sees your words answers you.  
-**Why:** the first line still says what the repository owner will do later and the second line names what another person could do.
+**Why:** the first line still says what the repository author will do later and the second line names what another person could do.
 
 ## No cliffhangers [rule 47]
 

@@ -1,6 +1,6 @@
 # The checklist before a family: two reflections
 
-This page holds two reflections on one observation from the owner of this repository. The observation says that people are handed a checklist of things to finish before continuing the human species and that many people then reach the late thirties or early forties and realize the family may never happen.
+This page holds two reflections on one observation from the author of this repository. The observation says that people are handed a checklist of things to finish before continuing the human species and that many people then reach the late thirties or early forties and realize the family may never happen.
 
 ## Reflection one
 
@@ -22,7 +22,7 @@ The repair would have to reverse the order. People who set wages and rents would
 
 ## Reflection two
 
-> **Who wrote this:** The owner of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
+> **Who wrote this:** The author of this repository supplied the text of this reflection on 16 November 2026 and the text appears in full.
 
 That specific trap—handing people an impossible, moving-goalpost checklist before they are "allowed" to build a family, only for them to look up in their late thirties or early forties and realize the clock ran out while they were still checking boxes—is one of the cruelest structural scams of modern life.
 

@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1205,
- "total_bytes": 94778887,
+ "total_bytes": 94779534,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 6620,
+   "bytes": 6626,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -46,7 +46,7 @@
   {
    "path": "1-research-click-here-first/animated-videos/love-enemies-words.txt",
    "title": "love-enemies-words.txt",
-   "bytes": 2607,
+   "bytes": 2608,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/animated-videos/love-enemies-words.txt",
@@ -82,7 +82,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/ladle-and-police.md",
    "title": "Holding a soup ladle while armed officers take over the room",
-   "bytes": 2827,
+   "bytes": 2828,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/ladle-and-police.md",
@@ -100,7 +100,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
    "title": "Reflections on authority and power structures in society",
-   "bytes": 4546,
+   "bytes": 4547,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
@@ -109,7 +109,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/README.md",
    "title": "Bible quote builder",
-   "bytes": 6045,
+   "bytes": 6055,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/README.md",
@@ -118,7 +118,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/best-outputs-spaced.txt",
    "title": "best-outputs-spaced.txt",
-   "bytes": 19163,
+   "bytes": 19165,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/best-outputs-spaced.txt",
@@ -127,7 +127,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/best-outputs.md",
    "title": "Bible quote builder: best outputs",
-   "bytes": 19852,
+   "bytes": 19854,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/best-outputs.md",
@@ -181,7 +181,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/corrections.md",
    "title": "Bible quote builder: corrections",
-   "bytes": 12258,
+   "bytes": 12263,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/corrections.md",
@@ -190,7 +190,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/full-record.md",
    "title": "Agents that rebuild the Bible out of chopped key phrases",
-   "bytes": 156156,
+   "bytes": 156216,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/full-record.md",
@@ -199,7 +199,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/how-outputs-evolved.md",
    "title": "How the outputs of the Bible quote builder evolved step by step",
-   "bytes": 13948,
+   "bytes": 13949,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/how-outputs-evolved.md",
@@ -208,7 +208,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/john-10-remixes.md",
    "title": "Three remixes of John chapter 10 made by dealing the chapter into four random piles",
-   "bytes": 22641,
+   "bytes": 22642,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/john-10-remixes.md",
@@ -217,7 +217,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/old/README.md",
    "title": "Old",
-   "bytes": 523,
+   "bytes": 524,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/old/README.md",
@@ -226,7 +226,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/old/program-1-letters.html",
    "title": "program-1-letters.html",
-   "bytes": 121031,
+   "bytes": 121033,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/old/program-1-letters.html",
@@ -235,7 +235,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/old/program-2-single-words.html",
    "title": "program-2-single-words.html",
-   "bytes": 1599076,
+   "bytes": 1599078,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/old/program-2-single-words.html",
@@ -244,7 +244,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html",
    "title": "program-3-key-phrases.html",
-   "bytes": 1906199,
+   "bytes": 1906201,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html",
@@ -262,7 +262,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/rules.md",
    "title": "The current rules of the Bible quote builder",
-   "bytes": 50649,
+   "bytes": 50684,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/rules.md",
@@ -271,7 +271,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/single-word-stage.md",
    "title": "Three Bible selections fed to the same word evolution experiment",
-   "bytes": 19071,
+   "bytes": 19075,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/single-word-stage.md",
@@ -298,7 +298,7 @@
   {
    "path": "1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
    "title": "Mosiah chapter 3 in the original wording",
-   "bytes": 6565,
+   "bytes": 6566,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/book-of-mormon-readings/mosiah-3.md",
@@ -307,7 +307,7 @@
   {
    "path": "1-research-click-here-first/chat-record.md",
    "title": "Record of the chat behind the research pages",
-   "bytes": 23556,
+   "bytes": 23613,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/chat-record.md",
@@ -325,7 +325,7 @@
   {
    "path": "1-research-click-here-first/christ-voice/hits-hard-vegeta.md",
    "title": "Christ talks with Vegeta in the shape that hits hard",
-   "bytes": 6075,
+   "bytes": 6076,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/hits-hard-vegeta.md",
@@ -352,7 +352,7 @@
   {
    "path": "1-research-click-here-first/christ-voice/vegeta-scripts.md",
    "title": "Christ talks with Vegeta",
-   "bytes": 9074,
+   "bytes": 9075,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/vegeta-scripts.md",
@@ -361,7 +361,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/01-to-13-stories.md",
    "title": "Stories and reflections with personified emotions: entries 1 to 13",
-   "bytes": 34250,
+   "bytes": 34253,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/01-to-13-stories.md",
@@ -370,7 +370,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/101-to-103-stories.md",
    "title": "Stories and reflections with personified emotions: entries 101 to 103",
-   "bytes": 29913,
+   "bytes": 29916,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/101-to-103-stories.md",
@@ -379,7 +379,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/104-to-107-stories.md",
    "title": "Stories and reflections with personified emotions: entries 104 to 107",
-   "bytes": 42405,
+   "bytes": 42408,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/104-to-107-stories.md",
@@ -388,7 +388,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/108-to-114-stories.md",
    "title": "Stories and reflections with personified emotions: entries 108 to 114",
-   "bytes": 68218,
+   "bytes": 68221,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/108-to-114-stories.md",
@@ -397,7 +397,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/14-to-25-stories.md",
    "title": "Stories and reflections with personified emotions: entries 14 to 25",
-   "bytes": 47935,
+   "bytes": 47938,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/14-to-25-stories.md",
@@ -406,7 +406,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/26-to-37-stories.md",
    "title": "Stories and reflections with personified emotions: entries 26 to 37",
-   "bytes": 35510,
+   "bytes": 35513,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/26-to-37-stories.md",
@@ -415,7 +415,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/38-to-49-stories.md",
    "title": "Stories and reflections with personified emotions: entries 38 to 49",
-   "bytes": 49147,
+   "bytes": 49150,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/38-to-49-stories.md",
@@ -424,7 +424,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/50-to-58-stories.md",
    "title": "Stories and reflections with personified emotions: entries 50 to 58",
-   "bytes": 51803,
+   "bytes": 51806,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/50-to-58-stories.md",
@@ -433,7 +433,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/59-to-64-stories.md",
    "title": "Stories and reflections with personified emotions: entries 59 to 64",
-   "bytes": 50072,
+   "bytes": 50075,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/59-to-64-stories.md",
@@ -442,7 +442,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/65-to-69-stories.md",
    "title": "Stories and reflections with personified emotions: entries 65 to 69",
-   "bytes": 44483,
+   "bytes": 44486,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/65-to-69-stories.md",
@@ -451,7 +451,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/70-to-80-stories.md",
    "title": "Stories and reflections with personified emotions: entries 70 to 80",
-   "bytes": 54946,
+   "bytes": 54949,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/70-to-80-stories.md",
@@ -460,7 +460,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
    "title": "Stories and reflections with personified emotions: entry 81",
-   "bytes": 41550,
+   "bytes": 41553,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/81-president-and-chatbot.md",
@@ -469,7 +469,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/82-to-87-stories.md",
    "title": "Stories and reflections with personified emotions: entries 82 to 87",
-   "bytes": 34233,
+   "bytes": 34236,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/82-to-87-stories.md",
@@ -478,7 +478,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/88-buddha-story.md",
    "title": "Stories and reflections with personified emotions: entry 88",
-   "bytes": 77376,
+   "bytes": 77379,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/88-buddha-story.md",
@@ -487,7 +487,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/89-to-96-stories.md",
    "title": "Stories and reflections with personified emotions: entries 89 to 96",
-   "bytes": 39781,
+   "bytes": 39784,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/89-to-96-stories.md",
@@ -496,7 +496,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/97-to-100-stories.md",
    "title": "Stories and reflections with personified emotions: entries 97 to 100",
-   "bytes": 37070,
+   "bytes": 37073,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/97-to-100-stories.md",
@@ -505,7 +505,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/README.md",
    "title": "Emotion stories",
-   "bytes": 6376,
+   "bytes": 6377,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/README.md",
@@ -514,7 +514,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/all-stories-in-one.md",
    "title": "All story entries in one file",
-   "bytes": 732592,
+   "bytes": 732595,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/all-stories-in-one.md",
@@ -523,7 +523,7 @@
   {
    "path": "1-research-click-here-first/emotional-framework/README.md",
    "title": "Emotional framework",
-   "bytes": 1479,
+   "bytes": 1480,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotional-framework/README.md",
@@ -532,7 +532,7 @@
   {
    "path": "1-research-click-here-first/emotional-framework/emotional-framework.md",
    "title": "The Emotional Framework",
-   "bytes": 48894,
+   "bytes": 48895,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotional-framework/emotional-framework.md",
@@ -559,7 +559,7 @@
   {
    "path": "1-research-click-here-first/human-needs-as-research-topics.md",
    "title": "Where should AI research point next? Ask people whose needs are not being met",
-   "bytes": 4438,
+   "bytes": 4439,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/human-needs-as-research-topics.md",
@@ -577,7 +577,7 @@
   {
    "path": "1-research-click-here-first/kindness-games/love-your-enemies-report.md",
    "title": "Love your enemies as a game: how exits and sample games and previews and visible records change whether kindness survives",
-   "bytes": 13384,
+   "bytes": 13388,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md",
@@ -639,8 +639,8 @@
   },
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
-   "title": "Physics ideas from the owner's earlier notebook",
-   "bytes": 16591,
+   "title": "Physics ideas from the author's earlier notebook",
+   "bytes": 16594,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/notebook-physics-ideas.md",
@@ -649,7 +649,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
    "title": "Packing test: how much room do Mobius strips need compared with flat strips and plain loops?",
-   "bytes": 11887,
+   "bytes": 11889,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 23767,
+   "bytes": 23801,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -753,6 +753,402 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/angry-thread-word-graphs.html",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/angry-thread-word-graphs.html"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-bar-graph.html",
+   "title": "author-comments-bar-graph.html",
+   "bytes": 6497,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-bar-graph.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-bar-graph.html"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-findings.md",
+   "title": "The repository author's own comments compared with two other comment threads",
+   "bytes": 5841,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/README.md",
+   "title": "The repository author's comments in full",
+   "bytes": 5401,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/goal-findings.md",
+   "title": "What goal the author's 6020 comments point toward",
+   "bytes": 3247,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/goal-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/goal-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/highlight-reel.md",
+   "title": "Highlight reel from the mini models",
+   "bytes": 5732,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/highlight-reel.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/highlight-reel.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md",
+   "title": "Existential Methadone comment",
+   "bytes": 2587,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-findings.md",
+   "title": "A mini model trained only on the author's 6020 comments",
+   "bytes": 10758,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-outputs.md",
+   "title": "Example outputs and tests from the mini model",
+   "bytes": 28341,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-outputs.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-outputs.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/README.md",
+   "title": "Other writing by the repository author",
+   "bytes": 1584,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
+   "title": "part-01.txt",
+   "bytes": 327038,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-02.txt",
+   "title": "part-02.txt",
+   "bytes": 322669,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-02.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-02.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-03.txt",
+   "title": "part-03.txt",
+   "bytes": 326689,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-03.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-03.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-04.txt",
+   "title": "part-04.txt",
+   "bytes": 329427,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-04.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-04.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-05.txt",
+   "title": "part-05.txt",
+   "bytes": 304018,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-05.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-05.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-01.txt",
+   "title": "part-01.txt",
+   "bytes": 328791,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-01.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-01.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
+   "title": "part-02.txt",
+   "bytes": 329906,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-03.txt",
+   "title": "part-03.txt",
+   "bytes": 329760,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-03.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-03.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
+   "title": "part-04.txt",
+   "bytes": 329342,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-05.txt",
+   "title": "part-05.txt",
+   "bytes": 327415,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-05.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-05.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
+   "title": "part-06.txt",
+   "bytes": 330093,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-07.txt",
+   "title": "part-07.txt",
+   "bytes": 329833,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-07.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-07.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
+   "title": "part-08.txt",
+   "bytes": 330110,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-09.txt",
+   "title": "part-09.txt",
+   "bytes": 327855,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-09.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-09.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-10.txt",
+   "title": "part-10.txt",
+   "bytes": 330070,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-10.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-10.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
+   "title": "part-11.txt",
+   "bytes": 329459,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-12.txt",
+   "title": "part-12.txt",
+   "bytes": 327682,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-12.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-12.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
+   "title": "part-13.txt",
+   "bytes": 327728,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
+   "title": "part-14.txt",
+   "bytes": 324877,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-15.txt",
+   "title": "part-15.txt",
+   "bytes": 329768,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-15.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-15.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
+   "title": "part-16.txt",
+   "bytes": 329946,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-17.txt",
+   "title": "part-17.txt",
+   "bytes": 328440,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-17.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-17.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-18.txt",
+   "title": "part-18.txt",
+   "bytes": 327091,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-18.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-18.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-19.txt",
+   "title": "part-19.txt",
+   "bytes": 328494,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-19.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-19.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-20.txt",
+   "title": "part-20.txt",
+   "bytes": 326874,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-20.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-20.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-21.txt",
+   "title": "part-21.txt",
+   "bytes": 330029,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-21.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-21.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-22.txt",
+   "title": "part-22.txt",
+   "bytes": 327192,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-22.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-22.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-23.txt",
+   "title": "part-23.txt",
+   "bytes": 328401,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-23.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-23.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-24.txt",
+   "title": "part-24.txt",
+   "bytes": 107145,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-24.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-24.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/phrases-graph.html",
+   "title": "phrases-graph.html",
+   "bytes": 5108,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/phrases-graph.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/phrases-graph.html"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/second-model-outputs.md",
+   "title": "Outputs from a second mini model",
+   "bytes": 16192,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/second-model-outputs.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/second-model-outputs.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/sentences-graph.html",
+   "title": "sentences-graph.html",
+   "bytes": 7498,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/sentences-graph.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/sentences-graph.html"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/themes-findings.md",
+   "title": "Themes in the author's 6020 comments",
+   "bytes": 4396,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/themes-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/themes-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/words-graph.html",
+   "title": "words-graph.html",
+   "bytes": 4686,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/words-graph.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/words-graph.html"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-sample.txt",
+   "title": "author-comments-sample.txt",
+   "bytes": 38359,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-sample.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-sample.txt"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/bar-graph.html",
@@ -820,7 +1216,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 12344,
+   "bytes": 12346,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -838,7 +1234,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
    "title": "Advice that punishes questions: two reflections",
-   "bytes": 6228,
+   "bytes": 6231,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/advice-obedience-trap.md",
@@ -847,7 +1243,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
    "title": "What changes when a person asks a feeling a question and stops fighting the feeling?",
-   "bytes": 3030,
+   "bytes": 3039,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md",
@@ -883,7 +1279,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
    "title": "The checklist before a family: two reflections",
-   "bytes": 6783,
+   "bytes": 6785,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
@@ -901,7 +1297,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
    "title": "Helping an enemy reach a harmless dream: three reflections",
-   "bytes": 12748,
+   "bytes": 12752,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md",
@@ -937,7 +1333,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/four-ingredients-love.md",
    "title": "The four ingredients of love in two sets of words",
-   "bytes": 3232,
+   "bytes": 3234,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/four-ingredients-love.md",
@@ -946,7 +1342,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
    "title": "Two words that keep a person talking",
-   "bytes": 2384,
+   "bytes": 2386,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/go-on-two-words.md",
@@ -964,7 +1360,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
    "title": "Hunger said out loud at work or at a hobby group: why bystanders freeze or answer \"go see a therapist\"",
-   "bytes": 4313,
+   "bytes": 4314,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
@@ -991,7 +1387,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/label-carries-violence.md",
    "title": "Labels that carry hidden violence: three reflections",
-   "bytes": 9117,
+   "bytes": 9119,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/label-carries-violence.md",
@@ -1009,7 +1405,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
    "title": "A request to rename a sport read as a loyalty test: two reflections",
-   "bytes": 4220,
+   "bytes": 4222,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/loyalty-test.md",
@@ -1027,7 +1423,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/more-enemies-or-fewer.md",
    "title": "More enemies or fewer: two reflections",
-   "bytes": 6428,
+   "bytes": 6430,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/more-enemies-or-fewer.md",
@@ -1063,7 +1459,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md",
    "title": "One less enemy and one more ally: two reflections",
-   "bytes": 5107,
+   "bytes": 5109,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md",
@@ -1072,7 +1468,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
    "title": "A winning strategy that nobody can weaken: two reflections",
-   "bytes": 5771,
+   "bytes": 5773,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
@@ -1099,7 +1495,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
    "title": "A puppy in the rain: showing suffering plainly as a way to ask for shelter and food",
-   "bytes": 3653,
+   "bytes": 3654,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/puppy-in-rain.md",
@@ -1126,7 +1522,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
    "title": "Publishing at the speed of reading: what changed between a monastery scribe and a spoken \"upload\"",
-   "bytes": 2913,
+   "bytes": 2914,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/reading-speed-publishing.md",
@@ -1135,7 +1531,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/religion-of-smoothness.md",
    "title": "The religion of smoothness",
-   "bytes": 4313,
+   "bytes": 4314,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/religion-of-smoothness.md",
@@ -1144,7 +1540,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
    "title": "Asking an enemy for love: two reflections",
-   "bytes": 9399,
+   "bytes": 9402,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/request-love-enemy.md",
@@ -1171,7 +1567,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
    "title": "A stone for bread: two reflections on empty advice for loneliness",
-   "bytes": 9056,
+   "bytes": 9058,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/stone-for-bread-advice.md",
@@ -1207,7 +1603,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md",
    "title": "Why money is not the number being raised here",
-   "bytes": 3407,
+   "bytes": 3429,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md",
@@ -1304,402 +1700,6 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/league-rename-thread.md"
   },
   {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html",
-   "title": "owner-comments-bar-graph.html",
-   "bytes": 6489,
-   "type": "html",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-bar-graph.html"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-findings.md",
-   "title": "The repository owner's own comments compared with two other comment threads",
-   "bytes": 5814,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-findings.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-findings.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
-   "title": "The repository owner's comments in full",
-   "bytes": 5387,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/README.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md",
-   "title": "What goal the owner's 6020 comments point toward",
-   "bytes": 3234,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/goal-findings.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md",
-   "title": "Highlight reel from the mini models",
-   "bytes": 5724,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md",
-   "title": "Existential Methadone comment",
-   "bytes": 2584,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md",
-   "title": "A mini model trained only on the owner's 6020 comments",
-   "bytes": 10754,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md",
-   "title": "Example outputs and tests from the mini model",
-   "bytes": 28340,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-outputs.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/README.md",
-   "title": "Other writing by the repository owner",
-   "bytes": 1579,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/README.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/README.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-01.txt",
-   "title": "part-01.txt",
-   "bytes": 327038,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-01.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-01.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-02.txt",
-   "title": "part-02.txt",
-   "bytes": 322669,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-02.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-02.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-03.txt",
-   "title": "part-03.txt",
-   "bytes": 326689,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-03.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-03.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-04.txt",
-   "title": "part-04.txt",
-   "bytes": 329427,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-04.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-04.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-05.txt",
-   "title": "part-05.txt",
-   "bytes": 304018,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-05.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/other-writing/part-05.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-01.txt",
-   "title": "part-01.txt",
-   "bytes": 328788,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-01.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-01.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-02.txt",
-   "title": "part-02.txt",
-   "bytes": 329903,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-02.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-02.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-03.txt",
-   "title": "part-03.txt",
-   "bytes": 329757,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-03.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-03.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-04.txt",
-   "title": "part-04.txt",
-   "bytes": 329339,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-04.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-04.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-05.txt",
-   "title": "part-05.txt",
-   "bytes": 327412,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-05.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-05.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-06.txt",
-   "title": "part-06.txt",
-   "bytes": 330090,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-06.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-06.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-07.txt",
-   "title": "part-07.txt",
-   "bytes": 329830,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-07.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-07.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-08.txt",
-   "title": "part-08.txt",
-   "bytes": 330107,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-08.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-08.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-09.txt",
-   "title": "part-09.txt",
-   "bytes": 327852,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-09.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-09.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-10.txt",
-   "title": "part-10.txt",
-   "bytes": 330067,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-10.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-10.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-11.txt",
-   "title": "part-11.txt",
-   "bytes": 329456,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-11.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-11.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-12.txt",
-   "title": "part-12.txt",
-   "bytes": 327679,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-12.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-12.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-13.txt",
-   "title": "part-13.txt",
-   "bytes": 327725,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-13.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-13.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-14.txt",
-   "title": "part-14.txt",
-   "bytes": 324874,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-14.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-14.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-15.txt",
-   "title": "part-15.txt",
-   "bytes": 329765,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-15.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-15.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-16.txt",
-   "title": "part-16.txt",
-   "bytes": 329943,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-16.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-16.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-17.txt",
-   "title": "part-17.txt",
-   "bytes": 328437,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-17.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-17.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-18.txt",
-   "title": "part-18.txt",
-   "bytes": 327088,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-18.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-18.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-19.txt",
-   "title": "part-19.txt",
-   "bytes": 328491,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-19.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-19.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-20.txt",
-   "title": "part-20.txt",
-   "bytes": 326871,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-20.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-20.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-21.txt",
-   "title": "part-21.txt",
-   "bytes": 330026,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-21.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-21.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-22.txt",
-   "title": "part-22.txt",
-   "bytes": 327189,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-22.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-22.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-23.txt",
-   "title": "part-23.txt",
-   "bytes": 328398,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-23.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-23.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/part-24.txt",
-   "title": "part-24.txt",
-   "bytes": 107142,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-24.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/part-24.txt"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html",
-   "title": "phrases-graph.html",
-   "bytes": 5106,
-   "type": "html",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/phrases-graph.html"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md",
-   "title": "Outputs from a second mini model",
-   "bytes": 16190,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/second-model-outputs.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html",
-   "title": "sentences-graph.html",
-   "bytes": 7496,
-   "type": "html",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/sentences-graph.html"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md",
-   "title": "Themes in the owner's 6020 comments",
-   "bytes": 4391,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/themes-findings.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html",
-   "title": "words-graph.html",
-   "bytes": 4684,
-   "type": "html",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/words-graph.html"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/owner-comments-sample.txt",
-   "title": "owner-comments-sample.txt",
-   "bytes": 38355,
-   "type": "txt",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-sample.txt",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-sample.txt"
-  },
-  {
    "path": "1-research-click-here-first/social-media-vibes/replaced-thread.md",
    "title": "Thread: people at an AI lab who have made peace with being replaced",
    "bytes": 37764,
@@ -1711,7 +1711,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/short-comment-check.md",
    "title": "The five-words-or-fewer check",
-   "bytes": 8575,
+   "bytes": 8584,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/short-comment-check.md",
@@ -1720,7 +1720,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/short-comments-to-keep.txt",
    "title": "short-comments-to-keep.txt",
-   "bytes": 1847,
+   "bytes": 1850,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/short-comments-to-keep.txt",
@@ -1738,7 +1738,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 1332,
+   "bytes": 1337,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -1747,7 +1747,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
    "title": "The prayer with the soldiers watching",
-   "bytes": 7198,
+   "bytes": 7199,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
@@ -1756,7 +1756,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
    "title": "A request for small groups: a text message exchange",
-   "bytes": 15178,
+   "bytes": 15214,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
@@ -1765,7 +1765,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/spiritual-quotes.md",
    "title": "Spiritual quotes and reflections",
-   "bytes": 151654,
+   "bytes": 151656,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/spiritual-quotes.md",
@@ -1774,7 +1774,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/times-square-return-story.md",
    "title": "The return at Times Square",
-   "bytes": 5951,
+   "bytes": 5952,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/times-square-return-story.md",
@@ -1783,7 +1783,7 @@
   {
    "path": "1-research-click-here-first/squad-rush-game/README.md",
    "title": "Squad Rush game",
-   "bytes": 2180,
+   "bytes": 2181,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/README.md",
@@ -1810,7 +1810,7 @@
   {
    "path": "1-research-click-here-first/three-needs/free-service-gate.md",
    "title": "An AI model that can switch on free food or shelter for a person: what the design would need",
-   "bytes": 3553,
+   "bytes": 3554,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/free-service-gate.md",
@@ -1828,7 +1828,7 @@
   {
    "path": "1-research-click-here-first/three-needs/penny-in-every-pocket.md",
    "title": "A coin in every pocket every day: a thought experiment about money for everyone",
-   "bytes": 6663,
+   "bytes": 6664,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/penny-in-every-pocket.md",
@@ -1846,7 +1846,7 @@
   {
    "path": "1-research-click-here-first/three-needs/soup-four-minutes-away.md",
    "title": "The soup is hot and four minutes away: an unfiltered reflection on the systems page",
-   "bytes": 2053,
+   "bytes": 2054,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/soup-four-minutes-away.md",
@@ -1855,7 +1855,7 @@
   {
    "path": "1-research-click-here-first/three-needs/systems-ai-would-need.md",
    "title": "Which systems an AI model would need to reach to get one hungry person fed and housed tonight",
-   "bytes": 16902,
+   "bytes": 16903,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/systems-ai-would-need.md",
@@ -1864,7 +1864,7 @@
   {
    "path": "1-research-click-here-first/three-needs/what-blocks-dinner.md",
    "title": "What blocks dinner and a dry bed for one hungry person when the answer already exists",
-   "bytes": 3145,
+   "bytes": 3146,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/what-blocks-dinner.md",
@@ -2593,7 +2593,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/reflections.md",
    "title": "Reflections on the word evolution experiment",
-   "bytes": 8997,
+   "bytes": 8998,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/reflections.md",
@@ -2611,7 +2611,7 @@
   {
    "path": "1-research-click-here-first/word-evolution/try-the-program.md",
    "title": "Try the word evolution program",
-   "bytes": 4931,
+   "bytes": 4933,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/word-evolution/try-the-program.md",
@@ -2629,7 +2629,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/editing-lessons.md",
    "title": "Lessons from editing two reflections line by line",
-   "bytes": 8181,
+   "bytes": 8182,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/editing-lessons.md",
@@ -2656,7 +2656,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 9210,
+   "bytes": 9218,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -2683,7 +2683,7 @@
   {
    "path": "boring-things/bug-fixes/HANDOFF.md",
    "title": "Handoff notes for the next working session",
-   "bytes": 45875,
+   "bytes": 45903,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/HANDOFF.md",
@@ -2692,7 +2692,7 @@
   {
    "path": "boring-things/bug-fixes/README.md",
    "title": "Spare token bug fixes: a public shelf",
-   "bytes": 118832,
+   "bytes": 118833,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/README.md",
@@ -9406,7 +9406,7 @@
   {
    "path": "boring-things/bug-fixes/tools/build_shelf.py",
    "title": "build_shelf.py",
-   "bytes": 12774,
+   "bytes": 12775,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/bug-fixes/tools/build_shelf.py",
@@ -9469,7 +9469,7 @@
   {
    "path": "boring-things/download-everything/README.md",
    "title": "Download everything",
-   "bytes": 3140,
+   "bytes": 3141,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
@@ -9478,7 +9478,7 @@
   {
    "path": "boring-things/download-everything/build-download-files.py",
    "title": "build-download-files.py",
-   "bytes": 5417,
+   "bytes": 5419,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/build-download-files.py",
@@ -9793,7 +9793,7 @@
   {
    "path": "boring-things/research-program-files/social-media-vibes-scripts/mini-model/README.md",
    "title": "Mini model files",
-   "bytes": 1158,
+   "bytes": 1159,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/social-media-vibes-scripts/mini-model/README.md",
@@ -9811,7 +9811,7 @@
   {
    "path": "boring-things/research-program-files/social-media-vibes-scripts/mini-model/tests.py",
    "title": "tests.py",
-   "bytes": 2933,
+   "bytes": 2934,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/social-media-vibes-scripts/mini-model/tests.py",
@@ -9820,7 +9820,7 @@
   {
    "path": "boring-things/research-program-files/social-media-vibes-scripts/mini-model/train.py",
    "title": "train.py",
-   "bytes": 2950,
+   "bytes": 2951,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/social-media-vibes-scripts/mini-model/train.py",
@@ -10612,7 +10612,7 @@
   {
    "path": "boring-things/research-program-files/word-evolution-scripts/claude_selection_second_version_builder.py",
    "title": "claude_selection_second_version_builder.py",
-   "bytes": 1625,
+   "bytes": 1626,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/word-evolution-scripts/claude_selection_second_version_builder.py",
@@ -10621,7 +10621,7 @@
   {
    "path": "boring-things/research-program-files/word-evolution-scripts/claude_selection_third_version_builder.py",
    "title": "claude_selection_third_version_builder.py",
-   "bytes": 1648,
+   "bytes": 1649,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/word-evolution-scripts/claude_selection_third_version_builder.py",
@@ -10756,7 +10756,7 @@
   {
    "path": "boring-things/research-program-files/word-evolution-scripts/one_word_for_god_rule.py",
    "title": "one_word_for_god_rule.py",
-   "bytes": 588,
+   "bytes": 589,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/word-evolution-scripts/one_word_for_god_rule.py",
@@ -10846,7 +10846,7 @@
   {
    "path": "boring-things/traffic-log.md",
    "title": "Traffic log for this repository",
-   "bytes": 2714,
+   "bytes": 2716,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/traffic-log.md",
