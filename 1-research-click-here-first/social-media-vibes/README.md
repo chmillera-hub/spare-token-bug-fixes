@@ -1,6 +1,6 @@
 # Social media vibes
 
-This folder holds counts of what behaviors the commenters in a social media thread are asking other people to carry out because a count of requested behaviors shows the mood of a thread more clearly than a count of positive and negative words.
+This folder holds written reflections on subjects such as loneliness and empty advice and loving an enemy and the folder also holds counts of what behaviors the commenters in a social media thread are asking other people to carry out because a count of requested behaviors shows the mood of a thread more clearly than a count of positive and negative words.
 
 ## Reflections to read
 
