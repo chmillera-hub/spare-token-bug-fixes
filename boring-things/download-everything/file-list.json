@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
- "file_count": 1202,
- "total_bytes": 94733101,
+ "file_count": 1203,
+ "total_bytes": 94735974,
  "files": [
   {
    "path": ".gitignore",
@@ -1315,7 +1315,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
    "title": "The repository owner's comments in full",
-   "bytes": 5076,
+   "bytes": 5365,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/README.md",
@@ -1338,6 +1338,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/highlight-reel.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md",
+   "title": "Existential Methadone comment",
+   "bytes": 2584,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md",

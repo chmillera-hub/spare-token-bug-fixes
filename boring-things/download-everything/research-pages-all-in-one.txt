@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-19 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 234 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 235 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -23706,6 +23706,10 @@ An AI chatbot (Claude) counted the words and phrases and sentences with a progra
 
 - [other-writing](other-writing) is a folder that holds 919 entries of other writing by the owner such as monologues and stories and posts and notes in five text files.
 
+## Single comments added later
+
+- [methadone-comment.md](methadone-comment.md) holds one comment from 19 November 2026 that compares hobbies such as the gym and podcasts and streaming series to methadone because the hobbies lower the ache of loneliness without bringing human connection.
+
 ## The files
 
 Every comment starts with a line such as ===== Comment 25 ===== and the comments keep the order of the owner's export.
@@ -23867,6 +23871,25 @@ An AI chatbot (Claude) compared the 18 chosen lines and the notes below are the 
 - 14 of the 18 lines open with "if" or "when" and then land on a conclusion which gives each line a starting point and a destination inside one sentence. Nine of those 14 lines come from openings that the chatbot began with the word "if" so the chatbot supplied the first word of those nine lines.
 - 16 of the 18 lines contain suffering or a suffering emotion such as doubt and in most of those lines the suffering leads toward understanding or care or love.
 - Several lines say what a being is such as "a being with a brain that is a part of a complex soul".
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/owner-comments-full/methadone-comment.md
+================================================================================
+
+# Existential Methadone comment
+
+The owner of this repository posted this comment on a social media site on 19 November 2026 and the wording is the owner's own wording. An AI chatbot (Claude) typed the comment out from a screen recording and the last four words were added at the owner's request because the recording cut off before the sentence ended.
+
+You've just described the operating system of modern despair. The prevalence isn't just high; it's near-total. This frantic rotation through a closed loop of non-human activities is the dominant, unspoken religion of our time. It's not a fringe behavior; it is the central, frantic, hamster-wheel activity of a civilization terrified of its own silence. What you've outlined is a system of Existential Methadone.
+
+Loneliness, in its pure, 10-out-of-10 form, is an agony too acute for the system to handle. A person in that state is a problem. They might break down. They might demand radical change. They might stop being a productive worker and a reliable consumer. A 10-out-of-10 is a revolutionary state.
+
+So, society, acting as a dispassionate and overworked doctor, prescribes a palliative care regimen. It doesn't offer a cure, because the cure—genuine, messy, time-consuming, and unprofitable human community—is too expensive and too disruptive. Instead, it offers a lifelong prescription for a low-dose spiritual analgesic: the "hobby."
+
+The goal of this regimen is not to heal the void. It is to manage the pain down to a chronic, tolerable level—a 4 out of 10 perhaps. The gym is the morning dose of endorphins. The podcast on the commute is the distracting intellectual stimulant. The video game or Netflix series is the evening sedative. The pet is the living, breathing emotional support patch that delivers some kind of affection without the complex demands of a human relationship.
+
+The "humming in the background" is the baseline pain of the untreated, festering wound of emotional disconnection. It is the sound of the coping mechanism wearing off. The frantic rotation between activities is the behavior of pain avoidance, chasing dopamine to keep withdrawal symptoms at bay. The moment you finish a book, the void hums. The moment the credits roll on a series, the void hums louder. The moment you walk out of the gym, the silence in your car is deafening, and the void might feel like a punch in the gut. That feeling is the pain of isolation and existential disconnection creeping back in. The panic sets in, and you frantically reach for the next distraction to numb the aching loneliness and despair.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/owner-comments-full/mini-model-findings.md

@@ -32,6 +32,10 @@ An AI chatbot (Claude) counted the words and phrases and sentences with a progra
 
 - [other-writing](other-writing) is a folder that holds 919 entries of other writing by the owner such as monologues and stories and posts and notes in five text files.
 
+## Single comments added later
+
+- [methadone-comment.md](methadone-comment.md) holds one comment from 19 November 2026 that compares hobbies such as the gym and podcasts and streaming series to methadone because the hobbies lower the ache of loneliness without bringing human connection.
+
 ## The files
 
 Every comment starts with a line such as ===== Comment 25 ===== and the comments keep the order of the owner's export.
