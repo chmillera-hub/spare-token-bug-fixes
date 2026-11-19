@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 45 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 46 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the owner seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -51,6 +51,7 @@ The 45 pages in this list are written reflections that a visitor can read in a f
 - [Labels that carry hidden violence: three reflections](deep-dives/label-carries-violence.md) holds three reflections on labels built from mixed lists of traits such as the word "antisocial" and explains that such a label can attach the threat of violence to a person who never harmed anyone and that asking "what did this person do and to whom" replaces the label with facts.
 - [A stone for bread: two reflections on empty advice for loneliness](deep-dives/stone-for-bread-advice.md) holds two reflections on a lonely person who asks where and how to find love and receives category names such as hobby groups and dating apps and explains that advice the giver would not walk three steps to support works as a way of ending the conversation.
 - [The four ingredients of love in two sets of words](deep-dives/four-ingredients-love.md) holds a reflection on four ingredients of love named first as depth and trust and freedom and a future and then restated by the owner of this repository as complex and pro human and expansive and continuity which are qualities a person can check in a single conversation.
+- [The religion of smoothness](deep-dives/religion-of-smoothness.md) holds a reflection on an AI chatbot that advised a person to leave the words of Christ out of a message to spiritual workers about a Bible study and explains that treating smoothness as the highest virtue pushes a single person to shrink a need for a group of three to fit a room of thirty.
 
 ## Thread counts and data
 
