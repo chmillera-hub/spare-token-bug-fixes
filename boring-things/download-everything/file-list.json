@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1205,
- "total_bytes": 94774435,
+ "total_bytes": 94778887,
  "files": [
   {
    "path": ".gitignore",
@@ -1738,7 +1738,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 1235,
+   "bytes": 1332,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -1756,7 +1756,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
    "title": "A request for small groups: a text message exchange",
-   "bytes": 10823,
+   "bytes": 15178,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
