@@ -54,9 +54,9 @@ A very wealthy person employs drivers and housekeepers and pilots and assistants
 
 The price of a person's silence falls when that person is one missed paycheck from eviction by armed deputies. A housekeeper who has secure food and shelter no matter what can afford to say "I saw something and I am reporting what I saw." A housekeeper who would lose a home cannot easily afford the same sentence. So an arrangement that locks food and shelter behind wages hands every wealthy wrongdoer a discount on silence. The same pressure reaches the families of the young people harmed because a family in poverty offered a large payment may accept the payment out of plain need.
 
-**Where responsibility sits**
+**Who chose what and what stopping the harm looks like**
 
-The heaviest responsibility belongs to the person who did the harm and who used wealth to hide the harm because that person chose both acts with full power to choose otherwise. A worker who stayed silent out of fear of hunger was under real pressure and the silence still left a young person unprotected. Naming both facts matters because the aim is to change the conditions so that fewer workers ever face that choice.
+The person who did the harm chose the harm and chose to spend wealth on hiding the harm and both choices were made with every other option open. A worker who stayed silent out of fear of hunger made a choice under real pressure and the silence still left a young person unprotected. Saying plainly who chose what has one purpose which is to change the conditions so that the harm stops. Stopping the harm means making sure the person is never again alone with anyone vulnerable such as by keeping other adults present and doors open. Stopping the harm also means caring for the people who were harmed and securing food and shelter for workers so that fewer workers ever face that choice. None of those steps requires making anyone suffer because every person in the picture including the person who did the harm remains a human being whose mind and body is not a target.
 
 **What the pattern points toward**
 
@@ -72,13 +72,13 @@ The third change reaches far beyond any single case. A society where no one can 
 
 > **Who wrote this:** The author of this repository supplied this reflection and an AI chatbot (Claude) reworded the reflection so that the text is anonymized.
 
-A livestream framed as a debate about divine justice asked whether God did something good by allowing men to harm young people and the host answered "no" right away. An exchange like that goes in circles because the two sides are playing two different games.
+A livestream framed as a debate about whether God is fair asked whether God did something good by allowing men to harm young people and the host answered "no" right away. An exchange like that goes in circles because the two sides are playing two different games.
 
 The host's game is a trap aimed at a ruler in the sky who steps into events at will and the game is won when someone on the panel admits that God is bad. The other side defines God as a radically nonviolent and pro-human way of behaving which means the only way to engage with God is to do the precise and unglamorous work of reducing harm and building safer surroundings.
 
 Suspicion rises the moment the host refuses to move from the first game to the second. Suppose one person answers the subject of harm to young people by proposing to study anonymized real cases and to map the failures in the surroundings and the gaps in power that let the harm happen and to use psychology and AI tools to design better safeguards and to publish the plans so that people can act on the plans. Suppose the host then becomes annoyed because the person is not staying on the topic of blaming God. The annoyance suggests what the conversation is for because real human suffering is being used as a debate prop that keeps a livestream running and is not being treated as an emergency to solve.
 
-Pointing at horror and condemning an abstract idea in an endless loop costs nothing and changes nothing. Moving to the design of safer surroundings and to answerability for behavior takes effort and asks every person in the room to look at what that person is doing or not doing right now to protect vulnerable people.
+Pointing at horror and condemning an abstract idea in an endless loop costs nothing and changes nothing. Moving to the design of safer surroundings and to naming harmful choices out loud takes effort and asks every person in the room to look at what that person is doing or not doing right now to protect vulnerable people.
 
 A question follows for anyone who has tried to steer such a room toward plans for reducing harm: does the host talk over the proposal in order to return to the script or does anyone stop and listen? The answer shows what the room was built for because a room where someone stops and listens was built for care and a room that returns to the script was built for the show.
 
@@ -94,6 +94,6 @@ The same mechanism runs on a smaller scale in ordinary households. Many cases st
 
 Isolation built into daily life sits beside the money. People took apart the open village and replaced the village with sealed private homes and understaffed institutions so one adult alone behind a closed door with a young person is treated as completely normal. Without several trusted adults who naturally see what is happening secrecy becomes the default setting.
 
-So treating the harm purely as a mysterious problem of evil misses the point. Mapped as a failure of surroundings the pressure points are plain to see. The first is to take basic survival off the paywall so that silence can no longer be bought. The second is to build open spaces where vulnerable people are never isolated behind closed doors. The third is to remove the gap in power that lets money override answerability for behavior.
+So treating the harm purely as a mysterious problem of evil misses the point. Mapped as a failure of surroundings the pressure points are plain to see. The first is to take basic survival off the paywall so that silence can no longer be bought. The second is to build open spaces where vulnerable people are never isolated behind closed doors. The third is to remove the gap in power that lets a wealthy person's money keep harmful choices from being named and stopped.
 
 A question follows for anyone designing a prevention plan on those three points: which change would reduce the most harm soonest between ending financial dependence so that nobody can be bought or trapped and redesigning everyday surroundings so that no adult is left alone in secrecy with a young person? Both changes serve the same goal which is more witnesses who are free to speak so starting with whichever change is within reach still moves toward the goal.

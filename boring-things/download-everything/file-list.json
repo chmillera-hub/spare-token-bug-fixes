@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
  "file_count": 1211,
- "total_bytes": 94852429,
+ "total_bytes": 94852950,
  "files": [
   {
    "path": ".gitignore",
@@ -1531,7 +1531,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/protecting-the-young.md",
    "title": "Protecting the young: from asking who is to blame to building safer surroundings",
-   "bytes": 13307,
+   "bytes": 13828,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/protecting-the-young.md",
