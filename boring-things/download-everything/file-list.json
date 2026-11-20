@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
- "file_count": 1209,
- "total_bytes": 94818075,
+ "file_count": 1210,
+ "total_bytes": 94832706,
  "files": [
   {
    "path": ".gitignore",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 25758,
+   "bytes": 26290,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1212,6 +1212,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/comments-with-labels.txt",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/comments-with-labels.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/debt-thread-pathway.md",
+   "title": "A father and a debt: what 50 comments asked for and a pathway that puts food and shelter first",
+   "bytes": 14099,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/debt-thread-pathway.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/debt-thread-pathway.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
