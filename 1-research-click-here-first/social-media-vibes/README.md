@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 49 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 50 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -55,6 +55,7 @@ The 49 pages in this list are written reflections that a visitor can read in a f
 - [Care instead of punishment: why causing suffering does not make the world better](deep-dives/care-not-punishment.md) holds two reflections on the belief that hurting bad people makes the world better and explains that the rule never fixes who counts as bad so the target widens from a person who killed to a stranger with an unpopular comment and that people copy on a small scale the caging and killing that people with power praise which leaves ordinary people afraid to speak openly.
 - [The treadmill and the missing village: three reflections on work and retirement and community](deep-dives/treadmill-missing-village.md) holds three reflections on why life can feel empty both with a job and without a job and explains that a job works like a treadmill that keeps a person too tired to notice that no village waits outside of work and that gathering places charge admission and that most people's community has shrunk to a partner and one or two friends.
 - [The obedient life: following every rule and ending up known by no one](deep-dives/obedient-life-no-connection.md) holds two reflections on a person who follows every unwritten rule of polite society such as saying yes to every work request and never asking for help and explains that the rules move labor and rent and money out of the person while building no bond with anyone so the person can reach the end of life with the bills paid and nobody who knows the person's heart and mind.
+- [Help behind a cashier: when asking for help means buying a service](deep-dives/help-behind-cashier.md) holds two reflections on the advice to try therapy or see a doctor given to a person who says "I am struggling" and explains that the advice costs the adviser nothing while the person can end up owing thousands and losing a home and that the person was often asking for a human being who would listen for an hour and still be around next week.
 
 ## Thread counts and data
 
