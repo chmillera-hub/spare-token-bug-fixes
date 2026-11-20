@@ -1,4 +1,4 @@
-# Hurt the bad people: a rule with a blank in the middle
+# Care instead of punishment: why causing suffering does not make the world better
 
 > **About this page:** This page holds two reflections on the belief that hurting bad people makes the world better. An AI chatbot (Claude) wrote the first reflection on 19 November 2026 and no other person has rechecked the reflection. The author of this repository supplied the second reflection and the text appears in full.
 

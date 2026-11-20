@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-19",
  "file_count": 1206,
- "total_bytes": 94787814,
+ "total_bytes": 94787866,
  "files": [
   {
    "path": ".gitignore",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 24265,
+   "bytes": 24291,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1277,6 +1277,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md"
   },
   {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/care-not-punishment.md",
+   "title": "Care instead of punishment: why causing suffering does not make the world better",
+   "bytes": 7421,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/care-not-punishment.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/care-not-punishment.md"
+  },
+  {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
    "title": "The checklist before a family: two reflections",
    "bytes": 6785,
@@ -1365,15 +1374,6 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/deep-dives/hurt-the-bad-people.md",
-   "title": "Hurt the bad people: a rule with a blank in the middle",
-   "bytes": 7395,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hurt-the-bad-people.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/hurt-the-bad-people.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md",
