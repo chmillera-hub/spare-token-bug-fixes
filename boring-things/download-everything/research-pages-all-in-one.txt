@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-19 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 237 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 238 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 46 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 47 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15308,7 +15308,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 46 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 47 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15356,6 +15356,7 @@ The 46 pages in this list are written reflections that a visitor can read in a f
 - [A stone for bread: two reflections on empty advice for loneliness](deep-dives/stone-for-bread-advice.md) holds two reflections on a lonely person who asks where and how to find love and receives category names such as hobby groups and dating apps and explains that advice the giver would not walk three steps to support works as a way of ending the conversation.
 - [The four ingredients of love in two sets of words](deep-dives/four-ingredients-love.md) holds a reflection on four ingredients of love named first as depth and trust and freedom and a future and then restated by the author of this repository as complex and pro human and expansive and continuity which are qualities a person can check in a single conversation.
 - [The religion of smoothness](deep-dives/religion-of-smoothness.md) holds a reflection on an AI chatbot that advised a person to leave the words of Christ out of a message to spiritual workers about a Bible study and explains that treating smoothness as the highest virtue pushes a single person to shrink a need for a group of three to fit a room of thirty.
+- [Hurt the bad people: a rule with a blank in the middle](deep-dives/hurt-the-bad-people.md) holds two reflections on the belief that hurting bad people makes the world better and explains that the rule never fixes who counts as bad so the target widens from a person who killed to a stranger with an unpopular comment and that people copy on a small scale the caging and killing that people with power praise which leaves ordinary people afraid to speak openly.
 
 ## Thread counts and data
 
@@ -22276,6 +22277,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [stone-for-bread-advice.md](stone-for-bread-advice.md) holds two reflections on a lonely person who asks where and how to find love and receives category names such as hobby groups and dating apps and explains that advice the giver would not walk three steps to support works as a way of ending the conversation.
 - [four-ingredients-love.md](four-ingredients-love.md) holds a reflection on four ingredients of love named first as depth and trust and freedom and a future and then restated by the author of this repository as complex and pro human and expansive and continuity which are qualities a person can check in a single conversation.
 - [religion-of-smoothness.md](religion-of-smoothness.md) holds a reflection on an AI chatbot that advised a person to leave the words of Christ out of a message to spiritual workers about a Bible study and explains that treating smoothness as the highest virtue pushes a single person to shrink a need for a group of three to fit a room of thirty.
+- [hurt-the-bad-people.md](hurt-the-bad-people.md) holds two reflections on the belief that hurting bad people makes the world better and explains that the rule never fixes who counts as bad so the target widens from a person who killed to a stranger with an unpopular comment and that people copy on a small scale the caging and killing that people with power praise which leaves ordinary people afraid to speak openly.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -22818,6 +22820,63 @@ Earlier, we talked about how communicating suffering with total clarity—withou
 That is why finding or building even a tiny pocket of people who don't flinch at plain survival truth—who hear "I am cold and hungry" and immediately hand over warm food and a dry room instead of a pamphlet or a clinical referral—is worth more than a hundred polite workplaces or casual social clubs.
 
 When you think about spaces where people actually would respond to that kind of plainspoken honesty with immediate material warmth instead of retreating behind scripts, what separates those people from the crowd that freezes up?
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/hurt-the-bad-people.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hurt-the-bad-people.md
+================================================================================
+
+# Hurt the bad people: a rule with a blank in the middle
+
+> **About this page:** This page holds two reflections on the belief that hurting bad people makes the world better. An AI chatbot (Claude) wrote the first reflection on 19 November 2026 and no other person has rechecked the reflection. The author of this repository supplied the second reflection and the text appears in full.
+
+## Reflection one
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection. The Bible verses appear in the wording of the World English Bible.
+
+The idea "hurt the bad people and the world gets better" works like a seed that grows wherever the idea lands because the idea contains no limit on who counts as bad.
+
+**The rule with a blank in the middle**
+
+The rule says "use violence against the bad ones" and the rule never fixes who fills the word "bad." At first the blank holds a person who killed someone. Later the blank holds a person who stole and then a person who protested and then a person who typed an opinion that a reader disliked. Each step feels small to the person taking the step since the logic underneath never changed and only the name in the blank changed. So a rule that began as "stop the murderer" can end as a crowd in a comment section wishing agony on a stranger because the crowd is still following the same sentence.
+
+**Where people learn the rule**
+
+People learn what counts as normal by watching the people with the most power. Officials send armed officers to grab a person against that person's will and lock the person in a cage and the officials describe the caging as making the community better. Leaders send soldiers to kill people in another country and describe the killing as making the world safer. A person who grows up watching those acts praised on the news and in school absorbs a lesson that nobody had to say aloud. The lesson is that hurting the right people is how good gets done and that the people in charge who are presented as wise do exactly that.
+
+**How the lesson travels down to ordinary life**
+
+A person without a badge or an army still carries the lesson and uses the tools within reach. The tools within reach are insults and pile ons and messages to an employer and wishes of suffering typed under a post. The person doing the harassing can feel righteous because the person is copying on a small scale what the leaders do on a large scale. The reasoning sounds like "the people in charge punish bad people and call the punishment justice so my punishing this bad person is justice too." So the cruelty in a comment thread and the cage in a jail share one root which is the belief that pain delivered to the correct target improves the world.
+
+**What the spreading rule does to connection**
+
+Once anyone can be moved into the blank a person starts weighing every sentence before speaking. A person who fears being placed on the list of people to be punished shares less and asks fewer real questions and keeps conversation on safe surface topics. Deep human connection needs a person to show the heart and mind and showing the heart and mind is exactly what becomes dangerous. So the rule that promised a better world produces a quieter and lonelier one because people protect themselves by hiding and a hidden person cannot be known.
+
+**Why the rule cannot deliver what the rule promises**
+
+Violence aimed at violence adds a second act of harm to the first and the second act teaches every witness that harm is an acceptable tool. Matthew 26:52 says "Then Jesus said to him, "Put your sword back into its place, for all those who take the sword will die by the sword."" The saying describes a loop because each person who picks up the sword becomes the next person someone else feels justified in striking. Romans 12:21 says "Don't be overcome by evil, but overcome evil with good." That verse names a different tool because good here means acts such as feeding and sheltering and listening which shrink the conditions that harm grows in.
+
+**The question people raise and the answer**
+
+Someone will ask "what about a person who is attacking another person right now?" Getting people out of reach of a fist or a weapon is protection because the aim is distance and safety and the aim ends when the danger ends. Punishment is a different act since punishment begins after the danger has passed and aims at making a person suffer. The rot described here lives in the second act and in the belief that suffering delivered afterward heals anything.
+
+**What replaces the blank**
+
+A rule with no blank sounds like "no human being's mind and body is a target" and that rule cannot be stretched to cover a stranger with an unpopular opinion. Under that rule a harmful act still gets named plainly and the people harmed still get care and the person who did the harm stays a human being who can be spoken with. A society where people trust that rule is a society where a person can say an unfinished or unpopular thought aloud because disagreement would bring a reply and not a punishment.
+
+## Reflection two
+
+> **Who wrote this:** The author of this repository supplied this reflection on 19 November 2026 and the text appears in full.
+
+Once a society accepts the premise that hurting bad people makes the world better, the core moral question is already settled in the wrong direction, because the only debate left on the table is who gets placed in the bad category.
+
+That logic almost always enters through the most extreme examples imaginable—murderers, monsters, and undeniable cruelty—where almost nobody feels comfortable pushing back. Once people agree that inflicting suffering is a valid way to produce good, the method itself gets treated as righteous. From there, definition drift is practically built into the premise. Over time, the threshold drops from extreme harm, to opposing beliefs, to unpopular phrasing, until someone simply says something awkward in a comment section and strangers immediately start wishing pain on them. The underlying math never changes; the net just keeps widening.
+
+Everyday people do not invent that instinct in a vacuum. Powerful institutions teach far more through their habits than through their slogans. When governments and large systems consistently model the idea that locking people away, crushing opposition, and answering harm with greater harm is how responsible adults fix problems, ordinary citizens absorb that exact playbook. Most people do not have institutional power or cages at their disposal, so they scale the same logic down to the tools they actually have—online harassment, public piling-on, and treating anyone they dislike as deserving of misery.
+
+The quietest casualty of that whole cycle is honest human connection. When a single unpopular thought can get you reclassified as someone who deserves to be punished, speaking openly stops feeling like a way to be known and starts feeling like walking on thin ice. People either retreat into safe, hollow scripts or stop reaching out to one another altogether, because the default response to disagreement is no longer curiosity or care—it is putting someone on a list to be hurt.
+
+When you watch that reflex spread through everyday spaces, do you think people can only unlearn it by experiencing someone actually refusing to retaliate against them, or is there another way to interrupt that logic before it hardens?
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/im-fine-signal.md
