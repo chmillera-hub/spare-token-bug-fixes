@@ -1,4 +1,4 @@
-# The wish for one enemy
+# A hurt has many causes: a parable about a gardener and two neighbors
 
 > **About this page:** An AI chatbot (Claude) wrote this short reflection and the quick points under the reflection. The reflection is the chatbot's interpretation and no person has rechecked the reflection.
 
