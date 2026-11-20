@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
  "file_count": 1207,
- "total_bytes": 94803012,
+ "total_bytes": 94803027,
  "files": [
   {
    "path": ".gitignore",
@@ -1603,7 +1603,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/treadmill-missing-village.md",
    "title": "The treadmill and the missing village: three reflections on work and retirement and community",
-   "bytes": 14144,
+   "bytes": 14159,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/treadmill-missing-village.md",
