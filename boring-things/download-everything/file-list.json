@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
  "file_count": 1211,
- "total_bytes": 94853391,
+ "total_bytes": 94857725,
  "files": [
   {
    "path": ".gitignore",
@@ -1837,7 +1837,7 @@
   {
    "path": "1-research-click-here-first/squad-rush-game/README.md",
    "title": "Squad Rush game",
-   "bytes": 2181,
+   "bytes": 2930,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/README.md",
@@ -1846,7 +1846,7 @@
   {
    "path": "1-research-click-here-first/squad-rush-game/play.html",
    "title": "play.html",
-   "bytes": 76697,
+   "bytes": 80282,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/play.html",

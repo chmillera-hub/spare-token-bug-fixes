@@ -56,13 +56,14 @@ function LevelBuilder() {
   L.grunt = (x, z, hp = 3) => add({ t: 'e', kind: 'grunt', x, z, hp, max: hp, r: 0.24, hw: 0.36, spd: 3.5, dmg: 1, off: rnd(-1.8, 1.8) });
   L.horde = (z0, z1, n, x0 = -4.6, x1 = 4.6, hp = 3) => { for (let i = 0; i < n; i++) L.grunt(rnd(x0, x1), rnd(z0, z1), hp); };
   L.giant = (x, z, hp = 140) => add({ t: 'e', kind: 'giant', x, z, hp, max: hp, r: 0.75, hw: 0.85, spd: 2.4, dmg: 15, off: 0 });
-  L.shooter = (x, z, hp = 30) => add({ t: 'e', kind: 'shooter', x, z, hp, max: hp, r: 0.5, hw: 0.6, spd: 0, dmg: 3, off: 0, cd: rnd(0.3, 1.2) });
+  L.shooter = (x, z, hp = 30, mode = 'line', dmg = 2) => add({ t: 'e', kind: 'shooter', mode, x, z, hp, max: hp, r: 0.5, hw: 0.6, spd: 0, dmg, off: 0, cd: rnd(0.3, 1.2) });
   L.boss = (z, hp) => add({ t: 'e', kind: 'boss', x: 0, z, hp, max: hp, r: 1.7, hw: 1.8, spd: 1.5, dmg: 99999, off: 0, cd: 2 });
   L.gate = (z, x, hw, op, val, o = {}) => add(Object.assign({ t: 'gate', x, x0: x, z, hw, op, val }, o));
-  L.pair = (z, a, b) => { L.gate(z, -2.5, 2.3, a[0], a[1], { row: z }); L.gate(z, 2.5, 2.3, b[0], b[1], { row: z }); };
-  L.tri = (z, a, b, c) => { L.gate(z, -3.3, 1.5, a[0], a[1], { row: z }); L.gate(z, 0, 1.5, b[0], b[1], { row: z }); L.gate(z, 3.3, 1.5, c[0], c[1], { row: z }); };
+  L.pair = (z, a, b, mv) => { const o = mv ? { row: z, amp: 1.6, w: mv.w, ph: mv.ph || 0 } : { row: z }, x = mv ? 1.6 : 2.5, hw = mv ? 1.5 : 2.3; L.gate(z, -x, hw, a[0], a[1], o); L.gate(z, x, hw, b[0], b[1], o); };
+  L.tri = (z, a, b, c, mv) => { const o = mv ? { row: z, amp: 1.5, w: mv.w, ph: mv.ph || 0 } : { row: z }, x = mv ? 2.2 : 3.3, hw = mv ? 1.0 : 1.5; L.gate(z, -x, hw, a[0], a[1], o); L.gate(z, 0, hw, b[0], b[1], o); L.gate(z, x, hw, c[0], c[1], o); };
+  L.mgate = (z, op, val, w, ph = 0, x = 0, amp = 3) => L.gate(z, x, 1.6, op, val, { amp, w, ph });
   L.shootGate = (z, x, hw, val, step) => add({ t: 'gate', x, x0: x, z, hw, op: 'shoot', val, step, acc: 0 });
-  L.barrel = (z, x, hp, rw) => add({ t: 'barrel', x, z, hp, max: hp, hw: 0.75, rw });
+  L.barrel = (z, x, hp, rw, mv) => add(Object.assign({ t: 'barrel', x, x0: x, z, hp, max: hp, hw: 0.75, rw }, mv || {}));
   L.cage = (z, x, hp, hero = 'laser') => add({ t: 'cage', x, z, hp, max: hp, hw: 0.9, hero });
   L.saw = (z, x, amp, w, ph = 0) => add({ t: 'saw', x, x0: x, z, amp, w, ph, hw: 0.95 });
   L.spike = (z, x, hw) => add({ t: 'spike', x, z, hw });
@@ -71,126 +72,172 @@ function LevelBuilder() {
 }
 
 const LEVELS = [
-  { name: 'Conveyor Belt', hint: 'The blue belt adds soldiers but the red horde never walks on the belt. Step off the belt to shoot. The x2 gate sits on the far side.', build(L) {
+  { name: 'Conveyor Belt', hint: 'The blue belt adds soldiers but the red horde never walks on the belt. Spikes sit on the belt so hop off and hop back on. The x2 gate slides side to side on the far side.', build(L) {
       L.start = 3; L.speed = 4; L.end = 120; L.par = 60;
       L.conveyor(3.9, 0, 120);
-      L.gate(52, -3.2, 1.7, 'mul', 2);
+      L.spike(34, -3.4, 1.2);
+      L.mgate(52, 'mul', 2, 1.2, 0, -1.6, 2.2);
+      L.spike(62, 3.9, 0.9);
+      L.shooter(-1.5, 70, 40, 'line', 1);
+      L.spike(102, 3.9, 0.9);
       L.horde(75, 150, 170, -4.7, 2.6, 5);
   } },
-  { name: 'Rescue the Hero', hint: 'Each cage holds a special unit. Shoot the cage open to free a Laser Gunner. Then three gates stand side by side and the squad can walk through just one.', build(L) {
+  { name: 'Rescue the Hero', hint: 'Each cage holds a special unit. Shoot the cage open to free a Laser Gunner. A turret fires orange shells down the road and the three bonus gates slide side to side.', build(L) {
       L.start = 6; L.speed = 5; L.end = 170; L.par = 70;
       L.conveyor(-3.9, 0, 60);
+      L.shooter(0.5, 42, 40, 'line', 2);
       L.cage(62, 3.6, 90, 'laser');
-      L.tri(84, ['mul', 2], ['expl', 1], ['ally', 1]);
+      L.tri(84, ['mul', 2], ['expl', 1], ['ally', 1], { w: 1.3 });
+      L.spike(100, 0, 1.5);
       L.horde(110, 150, 150, -4.7, 4.7, 7);
       L.conveyor(3.9, 90, 150, 0.5);
-      L.gate(150, -3.2, 1.7, 'rate', 0.5);
+      L.shooter(-3, 128, 50); L.shooter(1.5, 142, 50, 'aim');
+      L.mgate(152, 'rate', 0.5, 1.6, 0, -1.6, 2.2);
+      L.saw(166, 0, 3.4, 1.6);
       L.horde(185, 230, 230, -4.7, 4.7, 10);
   } },
-  { name: 'Gate Math', hint: 'Every row offers different bonuses and the squad gets one per row. More soldiers or stronger bullets or blast rounds.', build(L) {
+  { name: 'Gate Math', hint: 'Every row offers different bonuses and the squad gets one per row. Later rows slide side to side so line the squad up with the gate you want.', build(L) {
       L.start = 5; L.speed = 8; L.end = 300; L.par = 200;
       L.tri(30, ['add', 10], ['mul', 2], ['rate', 0.5]);
       L.horde(55, 80, 30, -4.6, 4.6, 3);
-      L.pair(95, ['sub', 6], ['add', 12]);
-      L.tri(125, ['mul', 3], ['add', 20], ['expl', 1]);
+      L.spike(72, -3.5, 1.3); L.spike(72, 3.5, 1.3);
+      L.pair(95, ['sub', 6], ['add', 12], { w: 1.5 });
+      L.shooter(0, 112, 50, 'fan');
+      L.tri(125, ['mul', 3], ['add', 20], ['expl', 1], { w: 1.7 });
       L.horde(150, 185, 150, -4.7, 4.7, 5);
-      L.pair(205, ['div', 2], ['mul', 2]);
-      L.tri(235, ['add', 40], ['atk', 1], ['mul', 2]);
+      L.saw(196, 0, 3.4, 2);
+      L.pair(207, ['div', 2], ['mul', 2], { w: 2.2 });
+      L.shooter(-3.6, 224, 60); L.shooter(3.6, 224, 60);
+      L.tri(237, ['add', 40], ['atk', 1], ['mul', 2], { w: 2, ph: 1.5 });
+      L.spike(252, 0, 1.6);
       L.horde(260, 330, 420, -4.7, 4.7, 8);
   } },
-  { name: 'Barrel Busters', hint: 'Each barrel shows HP and a prize. The squad has time to break just some barrels so pick soldiers or an ally or blast rounds.', build(L) {
+  { name: 'Barrel Busters', hint: 'Each barrel shows HP and a prize. Later barrels roll side to side so follow a barrel to keep shooting the barrel. Turrets guard the prizes.', build(L) {
       L.start = 8; L.speed = 7; L.end = 290; L.par = 120;
       L.barrel(35, -3, 40, { add: 12 }); L.barrel(35, 0, 90, { ally: 1 }); L.barrel(35, 3, 70, { add: 25 });
+      L.spike(52, 0, 1.6);
       L.horde(62, 90, 30, -4.6, 4.6, 3);
-      L.barrel(105, 0, 170, { expl: 1 }); L.barrel(105, -3.4, 120, { rate: 0.5 }); L.barrel(105, 3.4, 80, { add: 20 });
+      L.shooter(-4.3, 118, 50, 'line', 1);
+      L.barrel(105, 0, 170, { expl: 1 }, { amp: 0.7, w: 1.3 }); L.barrel(105, -3.2, 120, { rate: 0.5 }, { amp: 0.7, w: 1.3 }); L.barrel(105, 3.2, 80, { add: 20 }, { amp: 0.7, w: 1.3 });
       L.horde(130, 165, 130, -4.7, 4.7, 5);
       L.cage(178, -3.6, 160, 'rocket');
-      L.barrel(200, -1, 450, { add: 90 }); L.barrel(200, 1.6, 350, { atk: 1 }); L.barrel(200, 4, 350, { ally: 2 });
+      L.barrel(200, -3, 450, { add: 90 }, { amp: 0.9, w: 1.6 }); L.barrel(200, 0, 350, { atk: 1 }, { amp: 0.9, w: 1.6 }); L.barrel(200, 3, 350, { ally: 2 }, { amp: 0.9, w: 1.6 });
       L.horde(215, 235, 90, -4.7, 4.7, 7);
+      L.shooter(0, 242, 80, 'fan', 1);
+      L.spike(250, -3.9, 0.9); L.spike(250, 3.9, 0.9);
       L.horde(255, 320, 380, -4.7, 4.7, 8);
   } },
-  { name: 'Shoot the Gates', hint: 'Red gates start negative and every bullet raises the number. A belt runs beside the gates so choose between belt soldiers and a bigger gate number.', build(L) {
+  { name: 'Shoot the Gates', hint: 'Red gates start negative and every bullet raises the number. Spikes and turrets sit near the belts and one bonus gate slides side to side.', build(L) {
       L.start = 10; L.speed = 6.5; L.end = 300; L.par = 220;
       L.conveyor(3.9, 0, 40, 0.35);
+      L.spike(28, 3.9, 0.9);
+      L.shooter(-3.8, 40, 50);
       L.shootGate(48, -2.8, 2.0, -10, 5);
       L.cage(60, 3.6, 110, 'flame');
       L.horde(70, 95, 40, -4.6, 4.6, 3);
       L.conveyor(-3.9, 80, 125, 0.35);
-      L.shootGate(128, 2.6, 2.2, -20, 5); L.gate(128, -1.4, 1.5, 'expl', 1);
+      L.spike(106, 0.5, 1.3); L.spike(150, -3.9, 0.9);
+      L.shootGate(128, 2.6, 2.2, -20, 5); L.gate(128, -1.4, 1.2, 'expl', 1, { amp: 1.2, w: 2 });
       L.horde(150, 180, 150, -4.7, 4.7, 7);
+      L.shooter(-2, 172, 60, 'aim');
+      L.saw(200, 0, 3.4, 2);
       L.shootGate(222, 0, 1.5, -60, 5); L.gate(222, -3.4, 1.5, 'ally', 1); L.gate(222, 3.4, 1.5, 'rate', 0.5);
+      L.shooter(2, 237, 60, 'fan');
       L.horde(250, 330, 420, -4.7, 4.7, 10);
   } },
-  { name: 'Saw Alley', hint: 'Saws and spikes shred soldiers. Some bonuses sit behind danger so decide which bonus is worth the squeeze.', build(L) {
+  { name: 'Saw Alley', hint: 'Saws and spikes shred soldiers and turrets fire through the gaps. The bonus rows slide side to side so time the squeeze.', build(L) {
       L.start = 12; L.speed = 8; L.end = 330; L.par = 130;
       L.conveyor(3.9, 0, 45, 0.3);
       L.spike(30, -2.6, 2.4);
+      L.shooter(3, 50, 50, 'line', 1);
       L.saw(60, 0, 3.6, 1.6);
       L.cage(72, -3.6, 110, 'blade');
-      L.tri(88, ['mul', 2], ['ally', 1], ['add', 15]);
+      L.tri(88, ['mul', 2], ['ally', 1], ['add', 15], { w: 1.6 });
       L.spike(110, 2.6, 2.4); L.saw(125, 0, 3.6, 2.0, 1);
       L.horde(140, 170, 130, -4.7, 4.7, 6);
+      L.shooter(-3, 152, 60, 'aim');
       L.spike(190, -3.4, 1.6); L.spike(190, 3.4, 1.6);
-      L.tri(205, ['expl', 1], ['mul', 2], ['atk', 1]);
+      L.tri(205, ['expl', 1], ['mul', 2], ['atk', 1], { w: 2 });
       L.saw(225, -2.4, 2.2, 2.4); L.saw(240, 2.4, 2.2, 2.4, 2);
-      L.pair(262, ['add', 30], ['sub', 20]);
+      L.pair(262, ['add', 30], ['sub', 20], { w: 1.4 });
+      L.shooter(0, 277, 80, 'line', 2);
       L.horde(285, 360, 420, -4.7, 4.7, 10);
   } },
-  { name: 'Giants and Powder Kegs', hint: 'Giants crush 15 soldiers each. Shoot a red powder keg to blow up everything near the keg. Blast rounds and allies both help against giants.', build(L) {
+  { name: 'Giants and Powder Kegs', hint: 'Giants crush 15 soldiers each. Shoot a red powder keg to blow up everything near the keg. Turrets and spikes and sliding bonus rows fill the gaps between the giants.', build(L) {
       L.start = 15; L.speed = 7; L.end = 320; L.par = 120;
       L.conveyor(-3.9, 0, 50, 0.3);
+      L.spike(30, -3.9, 0.9);
       L.cage(44, 3.6, 110, 'rocket');
       L.horde(60, 85, 70, -4.6, 4.6, 3); L.barrel(68, 0, 30, { boom: 1 });
+      L.shooter(4, 90, 60, 'line', 1);
       L.giant(-2, 100, 160); L.giant(2, 100, 160);
-      L.tri(118, ['mul', 2], ['ally', 1], ['add', 25]);
+      L.tri(118, ['mul', 2], ['ally', 1], ['add', 25], { w: 1.6 });
       L.horde(140, 170, 190, -4.7, 4.7, 6); L.barrel(150, -2.5, 40, { boom: 1 }); L.barrel(160, 2.5, 40, { boom: 1 });
       L.giant(0, 185, 300); L.giant(-3, 190, 300); L.giant(3, 190, 300);
-      L.tri(215, ['add', 50], ['atk', 1], ['mul', 2]);
+      L.saw(202, 0, 3.4, 2);
+      L.tri(215, ['add', 50], ['atk', 1], ['mul', 2], { w: 2.1 });
+      L.shooter(0, 232, 80, 'fan');
+      L.spike(240, -3.3, 1.5); L.spike(240, 3.3, 1.5);
       L.horde(245, 330, 430, -4.7, 4.7, 9);
       L.barrel(262, 0, 50, { boom: 1 }); L.barrel(285, -3, 50, { boom: 1 }); L.barrel(285, 3, 50, { boom: 1 });
       L.giant(-2.5, 335, 700); L.giant(0, 340, 700); L.giant(2.5, 335, 700);
   } },
-  { name: 'Arsenal Run', hint: 'Soldiers or weapons. One gate per row. Two cages stand on opposite sides so free the Frost Mage or the Flamethrower.', build(L) {
+  { name: 'Arsenal Run', hint: 'Soldiers or weapons. One gate per row and the rows slide side to side. Two cages stand on opposite sides so free the Frost Mage or the Flamethrower while turrets fire.', build(L) {
       L.start = 12; L.speed = 8; L.end = 330; L.par = 130;
       L.conveyor(3.9, 0, 26, 0.25);
       L.tri(34, ['rate', 0.5], ['add', 15], ['expl', 1]);
       L.horde(55, 85, 40, -4.7, 4.7, 4);
-      L.tri(105, ['add', 20], ['atk', 0.5], ['ally', 1]);
+      L.shooter(-3, 72, 50, 'line', 1);
+      L.spike(92, 0, 1.6);
+      L.tri(105, ['add', 20], ['atk', 0.5], ['ally', 1], { w: 1.7 });
+      L.shooter(0, 122, 60, 'aim');
       L.cage(132, -3.6, 220, 'frost'); L.cage(132, 3.6, 220, 'flame');
       L.horde(150, 185, 120, -4.7, 4.7, 6);
-      L.tri(210, ['atk', 1], ['mul', 2], ['expl', 1]);
-      L.tri(240, ['mul', 2], ['rate', 0.5], ['ally', 2]);
+      L.shooter(0, 196, 80, 'fan');
+      L.tri(210, ['atk', 1], ['mul', 2], ['expl', 1], { w: 2 });
+      L.saw(225, 0, 3.4, 2.2);
+      L.tri(240, ['mul', 2], ['rate', 0.5], ['ally', 2], { w: 2.3, ph: 2 });
+      L.spike(255, -3.5, 1.3); L.spike(255, 3.5, 1.3);
       L.giant(0, 265, 1000);
       L.horde(270, 350, 450, -4.7, 4.7, 12);
   } },
-  { name: 'Crossfire', hint: 'Turrets shoot orange shells straight down the road. Belts and sliding gates pull the squad into the line of fire.', build(L) {
+  { name: 'Crossfire', hint: 'Turrets fire straight shells and fans of three shells and aimed shells. Belts and sliding gates pull the squad into the line of fire.', build(L) {
       L.start = 14; L.speed = 7.5; L.end = 340; L.par = 150;
       L.conveyor(3.9, 0, 40, 0.3);
       L.cage(42, -3.6, 130, 'blade');
-      L.shooter(-3, 60, 50); L.shooter(3, 75, 50);
-      L.gate(95, 0, 1.6, 'mul', 2, { amp: 3, w: 1.5 });
+      L.shooter(-3, 60, 50, 'line', 1); L.shooter(3, 75, 50, 'line', 1);
+      L.spike(86, -3.6, 1.2); L.spike(86, 3.6, 1.2);
+      L.mgate(95, 'mul', 2, 1.5);
       L.horde(110, 135, 110, -4.7, 4.7, 6);
-      L.shooter(0, 150, 100); L.shooter(-3.5, 160, 50); L.shooter(3.5, 160, 50);
+      L.shooter(0, 150, 100, 'fan'); L.shooter(-3.5, 160, 50); L.shooter(3.5, 160, 50);
       L.saw(175, 0, 3.6, 1.8);
       L.cage(186, 3.6, 300, 'frost'); L.cage(186, -3.6, 300, 'rocket');
-      L.tri(200, ['expl', 1], ['add', 40], ['rate', 0.5]);
+      L.tri(200, ['expl', 1], ['add', 40], ['rate', 0.5], { w: 2 });
       L.horde(215, 245, 170, -4.7, 4.7, 8);
-      L.shooter(-2, 255, 100); L.shooter(2, 255, 100);
-      L.gate(275, 0, 1.6, 'mul', 2, { amp: 3, w: 2.6, ph: 2 });
+      L.shooter(-2, 255, 100, 'aim'); L.shooter(2, 255, 100, 'aim');
+      L.spike(266, 0, 1.4);
+      L.mgate(275, 'mul', 2, 2.6, 2);
+      L.shooter(-3.8, 286, 60); L.shooter(3.8, 286, 60);
       L.horde(295, 370, 430, -4.7, 4.7, 10);
       L.giant(-2, 372, 600); L.giant(2, 372, 600);
   } },
-  { name: 'The Boss', hint: 'The boss crushes the whole squad with one slam. Every bonus row matters so build the squad that melts the boss HP before the boss arrives.', build(L) {
+  { name: 'The Boss', hint: 'The boss crushes the whole squad with one slam. Bonus rows and barrels slide side to side while turrets fire so build the squad that melts the boss HP before the boss arrives.', build(L) {
       L.start = 10; L.speed = 7; L.end = 230; L.par = 200;
       L.conveyor(3.9, 0, 60, 0.3);
+      L.shooter(0, 42, 50, 'aim', 1);
       L.cage(55, -3.6, 110, 'laser');
+      L.spike(72, 3.9, 0.9);
       L.horde(85, 115, 80, -4.7, 4.7, 5);
-      L.tri(128, ['mul', 2], ['expl', 1], ['ally', 2]);
-      L.barrel(152, -3, 400, { rate: 0.5 }); L.barrel(152, 0, 400, { atk: 1 }); L.barrel(152, 3, 300, { add: 60 });
+      L.shooter(-3, 102, 60, 'line', 1);
+      L.spike(120, -3.5, 1.3); L.spike(120, 3.5, 1.3);
+      L.tri(128, ['mul', 2], ['expl', 1], ['ally', 2], { w: 1.8 });
+      L.shooter(3.6, 141, 60, 'fan');
+      L.barrel(152, -3, 400, { rate: 0.5 }, { amp: 0.8, w: 1.5 }); L.barrel(152, 0, 400, { atk: 1 }, { amp: 0.8, w: 1.5 }); L.barrel(152, 3, 300, { add: 60 }, { amp: 0.8, w: 1.5 });
       L.saw(170, 0, 3.6, 2);
       L.cage(176, -3.6, 500, 'flame'); L.cage(176, 3.6, 500, 'blade');
       L.horde(182, 215, 200, -4.7, 4.7, 10);
-      L.tri(222, ['add', 60], ['atk', 1], ['mul', 2]);
+      L.shooter(0, 207, 80, 'aim');
+      L.tri(222, ['add', 60], ['atk', 1], ['mul', 2], { w: 2.3 });
       L.conveyor(3.9, 225, 231, 0.22, 1, true);
       L.boss(292, 50000);
   } },
@@ -339,7 +386,7 @@ function step(G, dt, targetX) {
           }
           e.x += clamp(tx - e.x, -m, m);
         }
-        if (e.kind === 'shooter' && d > 4 && d < 60) { e.cd -= dt; if (e.cd <= 0) { e.cd = 1.7; G.eb.push({ x: e.x, z: e.z - 0.6 }); } }
+        if (e.kind === 'shooter' && d > 4 && d < 60) { e.cd -= dt; if (e.cd <= 0) { const tt = d / (17 + G.L.speed); if (e.mode === 'fan') { e.cd = 2.7; for (const vx of [-3.2, 0, 3.2]) G.eb.push({ x: e.x, z: e.z - 0.6, vx, dmg: e.dmg }); } else if (e.mode === 'aim') { e.cd = 2.3; G.eb.push({ x: e.x, z: e.z - 0.6, vx: clamp((sx - e.x) / tt, -5, 5), dmg: e.dmg }); } else { e.cd = 2.0; G.eb.push({ x: e.x, z: e.z - 0.6, vx: 0, dmg: e.dmg }); } G.ev.push('tshot'); } }
         if (e.kind === 'boss') { e.cd -= dt; if (e.cd <= 0 && d < 60) { e.cd = 3; for (let i = 0; i < 9; i++) G.ents.push({ t: 'e', kind: 'grunt', x: clamp(e.x + rnd(-3, 3), -4.7, 4.7), z: e.z - rnd(1, 3), hp: 8, max: 8, r: 0.24, hw: 0.36, spd: 4.5, dmg: 1, off: rnd(-1.8, 1.8), active: true }); } }
       }
       if (Math.abs(e.z - cam) < R * 0.75 + e.r && Math.abs(e.x - sx) < R + e.r) {
@@ -355,11 +402,11 @@ function step(G, dt, targetX) {
     } else if (e.t === 'barrel') {
       if (Math.abs(d) < 0.9 && Math.abs(e.x - sx) < R * 0.8 + 0.6) { e.dead = true; if (e.rw && e.rw.boom) { e.rw = { boom: 1 }; reward(G, e); } else { lose(G, 3, e.x); puff(G, e.x, e.z, '#b9772f', 10); } }
     } else if (e.t === 'saw' || e.t === 'spike') {
-      if (Math.abs(d) < R * 0.6 + 0.5) { const ov = Math.min(sx + R, e.x + e.hw) - Math.max(sx - R, e.x - e.hw); if (ov > 0) { e.bite = (e.bite || 0) + dt * 14 * (ov / (2 * R)) * Math.max(1, Math.sqrt(G.n) / 3); const k = e.bite | 0; if (k) { e.bite -= k; lose(G, k, clamp(e.x, sx - R, sx + R)); } } }
+      if (Math.abs(d) < R * 0.6 + 0.5) { const ov = Math.min(sx + R, e.x + e.hw) - Math.max(sx - R, e.x - e.hw); if (ov > 0) { e.bite = (e.bite || 0) + dt * 10 * (ov / (2 * R)) * Math.max(1, Math.sqrt(G.n) / 3); const k = e.bite | 0; if (k) { e.bite -= k; lose(G, k, clamp(e.x, sx - R, sx + R)); } } }
     }
   }
   // enemy shells
-  for (const b of G.eb) { b.z -= 17 * dt; const d = b.z - cam; if (Math.abs(d) < R * 0.7 + 0.3 && Math.abs(b.x - sx) < R + 0.25) { b.dead = true; lose(G, 3, b.x); } if (d < -4) b.dead = true; }
+  for (const b of G.eb) { b.z -= 17 * dt; b.x += b.vx * dt; const d = b.z - cam; if (Math.abs(d) < R * 0.7 + 0.3 && Math.abs(b.x - sx) < R + 0.25) { b.dead = true; lose(G, b.dmg, b.x); } if (d < -4 || Math.abs(b.x) > RW + 0.3) b.dead = true; }
   G.eb = G.eb.filter(b => !b.dead);
   if (G.ents.length > 900 || (G.t * 10 | 0) % 10 === 0) G.ents = G.ents.filter(e => !e.dead);
   // fx
@@ -480,6 +527,7 @@ function step(G, dt, targetX) {
   function tint(img, col, a) { return mk(img.width, img.height, c => { c.drawImage(img, 0, 0); c.globalCompositeOperation = 'source-atop'; c.globalAlpha = a; c.fillStyle = col; c.fillRect(0, 0, img.width, img.height); }); }
   for (const n of ['grunt', 'giant']) SPR[n + '_f'] = tint(SPR[n][0], '#fff', 0.8);
   for (const n of ['boss', 'barrel', 'keg', 'turret']) SPR[n + '_f'] = tint(SPR[n], '#fff', 0.7);
+  SPR.turret_fan = tint(SPR.turret, '#a03cf0', 0.45); SPR.turret_aim = tint(SPR.turret, '#ff1f1f', 0.45);
   SPR.soldier_h = SPR.soldier.map(i => tint(i, '#ff3a3a', 0.55));
 
   /* ---------- themes ---------- */
@@ -549,7 +597,7 @@ function step(G, dt, targetX) {
       if (G.heroes.frost && e.z - camZ < 34) { ctx.fillStyle = 'rgba(150,230,255,.55)'; ctx.beginPath(); ctx.ellipse(p.x, p.y, (e.r + 0.25) * u, (e.r + 0.25) * u * 0.4, 0, 0, 7); ctx.fill(); }
       if (e.kind === 'grunt') stamp(fl ? SPR.grunt_f : SPR.grunt[((G.t * 7 + e.off * 3) | 0) & 1], p, 1.3);
       else if (e.kind === 'giant') { stamp(fl ? SPR.giant_f : SPR.giant[((G.t * 4) | 0) & 1], p, 3.6); hpbar(p.x, p.y - u * 3.7, u * 1.8, e.hp / e.max, Math.ceil(e.hp) + ''); }
-      else if (e.kind === 'shooter') { stamp(fl ? SPR.turret_f : SPR.turret, p, 1.9); hpbar(p.x, p.y - u * 2.1, u * 1.2, e.hp / e.max); }
+      else if (e.kind === 'shooter') { stamp(fl ? SPR.turret_f : e.mode === 'fan' ? SPR.turret_fan : e.mode === 'aim' ? SPR.turret_aim : SPR.turret, p, 1.9); hpbar(p.x, p.y - u * 2.1, u * 1.2, e.hp / e.max); if (e.mode !== 'line' && p.s > 0.3) label(e.mode === 'fan' ? 'x3' : 'AIM', p.x, p.y - u * 2.55, u * 0.42, '#fff', '#3a0a10'); }
       else { stamp(fl ? SPR.boss_f : SPR.boss, { x: p.x, y: p.y + Math.sin(G.t * 5) * u * 0.08, s: p.s }, 6.4); }
     } else if (e.t === 'gate') drawGate(e, p, u);
     else if (e.t === 'barrel') { const boom = e.rw && e.rw.boom, R = 0.62 * u; stamp(fl ? (boom ? SPR.keg_f : SPR.barrel_f) : (boom ? SPR.keg : SPR.barrel), p, 1.75);
@@ -617,13 +665,14 @@ function step(G, dt, targetX) {
 
   /* ---------- sound effects ---------- */
   let ac = null, mGain = null, sGain = null, noiseBuf = null; const lastS = {};
-  const GAP = { laser: 0.14, shot: 0.075, ashot: 0.11, pop: 0.05, gain: 0.05, flame: 0.1 };
+  const GAP = { tshot: 0.1, laser: 0.14, shot: 0.075, ashot: 0.11, pop: 0.05, gain: 0.05, flame: 0.1 };
   function tone(f, d, type, v, f2, t0 = 0) { const now = ac.currentTime + t0, o = ac.createOscillator(), g = ac.createGain(); o.type = type; o.frequency.setValueAtTime(f, now); if (f2) o.frequency.exponentialRampToValueAtTime(f2, now + d); g.gain.setValueAtTime(v, now); g.gain.exponentialRampToValueAtTime(0.001, now + d); o.connect(g).connect(sGain); o.start(now); o.stop(now + d + 0.02); }
   function noise(d, v, type, freq, t0 = 0) { const now = ac.currentTime + t0, n = ac.createBufferSource(), g = ac.createGain(), fl = ac.createBiquadFilter(); n.buffer = noiseBuf; n.loop = true; fl.type = type; fl.frequency.value = freq; g.gain.setValueAtTime(v, now); g.gain.exponentialRampToValueAtTime(0.001, now + d); n.connect(fl).connect(g).connect(sGain); n.start(now, Math.random() * 0.05); n.stop(now + d + 0.02); }
   function snd(n) { if (muted || !ac || ac.state !== 'running') return; const now = ac.currentTime; if (lastS[n] && now - lastS[n] < (GAP[n] || 0.06)) return; lastS[n] = now;
     if (n === 'shot') { const big = G.n > 40; tone(900 + Math.random() * 200, 0.07, 'square', 0.035, 180); noise(0.05, big ? 0.09 : 0.06, 'bandpass', G.expl ? 900 : 2200); if (G.expl) tone(160, 0.09, 'sine', 0.08, 60); }
     else if (n === 'ashot') { tone(420, 0.1, 'sawtooth', 0.05, 110); noise(0.07, 0.07, 'lowpass', 1200); }
     else if (n === 'laser') { tone(1700, 0.16, 'sawtooth', 0.03, 1300); tone(1712, 0.16, 'sawtooth', 0.03, 1310); }
+    else if (n === 'tshot') { tone(260, 0.16, 'square', 0.05, 90); noise(0.08, 0.06, 'lowpass', 900); }
     else if (n === 'flame') noise(0.22, 0.07, 'bandpass', 700 + Math.random() * 500);
     else if (n === 'blade') { tone(300, 0.25, 'triangle', 0.07, 1400); noise(0.2, 0.05, 'highpass', 3000); }
     else if (n === 'gain') tone(880, 0.09, 'triangle', 0.09, 1320);
