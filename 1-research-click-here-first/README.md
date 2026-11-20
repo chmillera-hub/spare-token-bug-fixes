@@ -21,7 +21,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
-- [zeta-sums](zeta-sums) holds computer search results about the numbers zeta(3) and zeta(5) and zeta(7) and zeta(9) which include two formulas that write zeta(3) purely as sums over powers of the golden ratio and a formula for zeta(5) with no extra pieces in a base near 0.7549 and four long formulas with every whole-number coefficient written out.
+- [zeta-sums](zeta-sums) holds computer search results about the numbers zeta(3) and zeta(5) and zeta(7) and zeta(9) which include two formulas that write zeta(3) purely as sums over powers of the golden ratio and a formula for zeta(5) with no extra pieces in a base near 0.7549 and formulas with no extra pieces for zeta(7) through zeta(15) in other bases and four long formulas with every whole-number coefficient written out.
 
 ## Single pages (each page is its own project)
 
