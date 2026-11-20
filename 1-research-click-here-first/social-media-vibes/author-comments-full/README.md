@@ -34,7 +34,7 @@ Each file is small enough for the search box at the top of the GitHub page to lo
 
 ## Single comments added later
 
-- [methadone-comment.md](methadone-comment.md) holds one comment from 19 November 2026 that compares hobbies such as the gym and podcasts and streaming series to methadone because the hobbies lower the ache of loneliness without bringing human connection.
+- [numbing-substitute-comment.md](numbing-substitute-comment.md) holds one comment from 19 November 2026 that compares hobbies such as the gym and podcasts and streaming series to a numbing substitute because the hobbies lower the ache of loneliness without bringing human connection.
 
 ## The files
 

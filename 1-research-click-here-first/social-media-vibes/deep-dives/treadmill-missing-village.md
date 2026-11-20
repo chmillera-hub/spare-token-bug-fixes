@@ -40,7 +40,7 @@ A treadmill inside a locked cell is a fitting picture of the job because exhaust
 
 **What the treadmill does**
 
-A person who works forty to sixty hours a week arrives home with just enough energy to eat and sleep and scroll. Tiredness works as a kind of anesthetic because a mind that is worn out does not have the strength to ask "who do I belong to?" The weekend fills with errands and recovery and then the belt starts again. So the job does two things at once which are paying for food and shelter and keeping a person too busy to notice that the hours outside of work lead nowhere.
+A person who works forty to sixty hours a week arrives home with just enough energy to eat and sleep and scroll. Tiredness works as a kind of numbing agent because a mind that is worn out does not have the strength to ask "who do I belong to?" The weekend fills with errands and recovery and then the belt starts again. So the job does two things at once which are paying for food and shelter and keeping a person too busy to notice that the hours outside of work lead nowhere.
 
 **The cage with no walls**
 

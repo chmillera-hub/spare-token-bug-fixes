@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
  "file_count": 1211,
- "total_bytes": 94857725,
+ "total_bytes": 94857917,
  "files": [
   {
    "path": ".gitignore",
@@ -100,7 +100,7 @@
   {
    "path": "1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
    "title": "Reflections on authority and power structures in society",
-   "bytes": 4547,
+   "bytes": 4554,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/authority-and-power/soup-kitchen-and-badge.md",
@@ -775,7 +775,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/README.md",
    "title": "The repository author's comments in full",
-   "bytes": 5401,
+   "bytes": 5430,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/README.md",
@@ -800,15 +800,6 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/highlight-reel.md"
   },
   {
-   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md",
-   "title": "Existential Methadone comment",
-   "bytes": 2587,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/methadone-comment.md"
-  },
-  {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-findings.md",
    "title": "A mini model trained only on the author's 6020 comments",
    "bytes": 10758,
@@ -827,6 +818,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/mini-model-outputs.md"
   },
   {
+   "path": "1-research-click-here-first/social-media-vibes/author-comments-full/numbing-substitute-comment.md",
+   "title": "Existential Numbing comment",
+   "bytes": 2584,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/numbing-substitute-comment.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/author-comments-full/numbing-substitute-comment.md"
+  },
+  {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/README.md",
    "title": "Other writing by the repository author",
    "bytes": 1584,
@@ -838,7 +838,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
    "title": "part-01.txt",
-   "bytes": 327038,
+   "bytes": 327046,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
@@ -865,7 +865,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-04.txt",
    "title": "part-04.txt",
-   "bytes": 329427,
+   "bytes": 329432,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-04.txt",
@@ -892,7 +892,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
    "title": "part-02.txt",
-   "bytes": 329906,
+   "bytes": 329924,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
@@ -910,7 +910,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
    "title": "part-04.txt",
-   "bytes": 329342,
+   "bytes": 329346,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
@@ -928,7 +928,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
    "title": "part-06.txt",
-   "bytes": 330093,
+   "bytes": 330112,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
@@ -946,7 +946,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
    "title": "part-08.txt",
-   "bytes": 330110,
+   "bytes": 330119,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-10.txt",
    "title": "part-10.txt",
-   "bytes": 330070,
+   "bytes": 330075,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-10.txt",
@@ -973,7 +973,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
    "title": "part-11.txt",
-   "bytes": 329459,
+   "bytes": 329461,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
@@ -982,7 +982,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-12.txt",
    "title": "part-12.txt",
-   "bytes": 327682,
+   "bytes": 327687,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-12.txt",
@@ -991,7 +991,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
    "title": "part-13.txt",
-   "bytes": 327728,
+   "bytes": 327730,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
@@ -1000,7 +1000,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
    "title": "part-14.txt",
-   "bytes": 324877,
+   "bytes": 324891,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
@@ -1009,7 +1009,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-15.txt",
    "title": "part-15.txt",
-   "bytes": 329768,
+   "bytes": 329801,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-15.txt",
@@ -1018,7 +1018,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
    "title": "part-16.txt",
-   "bytes": 329946,
+   "bytes": 329952,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
@@ -1036,7 +1036,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-18.txt",
    "title": "part-18.txt",
-   "bytes": 327091,
+   "bytes": 327101,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-18.txt",
@@ -1045,7 +1045,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-19.txt",
    "title": "part-19.txt",
-   "bytes": 328494,
+   "bytes": 328500,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-19.txt",
@@ -1081,7 +1081,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-23.txt",
    "title": "part-23.txt",
-   "bytes": 328401,
+   "bytes": 328411,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-23.txt",
@@ -1639,7 +1639,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/treadmill-missing-village.md",
    "title": "The treadmill and the missing village: three reflections on work and retirement and community",
-   "bytes": 14159,
+   "bytes": 14162,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/treadmill-missing-village.md",

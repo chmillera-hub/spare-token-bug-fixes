@@ -10,7 +10,7 @@ When you place those two scenes side by side, the hypocrisy of selective compass
 
 ### 1. Charity Used as Moral Cover for Coercion
 
-Volunteering at a soup kitchen gets celebrated as the gold standard of being a good citizen, yet it never challenges the machinery that keeps people hungry or leaves them at the mercy of armed enforcement in the first place. When a culture applauds polite, temporary relief—handing out a bowl of soup while leaving the underlying threats of eviction, caging, and non-consensual physical force completely intact—charity turns into a sedative. It lets bystanders feel virtuous while standing three feet away from state-sanctioned assault without saying a word.
+Volunteering at a soup kitchen gets celebrated as the gold standard of being a good citizen, yet it never challenges the machinery that keeps people hungry or leaves them at the mercy of armed enforcement in the first place. When a culture applauds polite, temporary relief—handing out a bowl of soup while leaving the underlying threats of eviction, caging, and non-consensual physical force completely intact—charity turns into a numbing comfort. It lets bystanders feel virtuous while standing three feet away from state-sanctioned assault without saying a word.
 
 ### 2. Criminalizing Basic Bodily Autonomy
 
