@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
- "file_count": 1217,
- "total_bytes": 94881258,
+ "file_count": 1221,
+ "total_bytes": 94902413,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 6908,
+   "bytes": 6977,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -2710,7 +2710,7 @@
   {
    "path": "1-research-click-here-first/zeta-sums/README.md",
    "title": "Zeta sums",
-   "bytes": 902,
+   "bytes": 1201,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/zeta-sums/README.md",
@@ -2719,11 +2719,20 @@
   {
    "path": "1-research-click-here-first/zeta-sums/long-formulas.md",
    "title": "Written-out sum formulas for zeta(5) and zeta(7) and zeta(9) plus the search records",
-   "bytes": 6729,
+   "bytes": 6954,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/zeta-sums/long-formulas.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/zeta-sums/long-formulas.md"
+  },
+  {
+   "path": "1-research-click-here-first/zeta-sums/other-bases.md",
+   "title": "Sum formulas for zeta(3) and zeta(5) and zeta(7) and zeta(9) in 23 different bases",
+   "bytes": 12321,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/zeta-sums/other-bases.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/zeta-sums/other-bases.md"
   },
   {
    "path": "1-research-click-here-first/zeta-sums/zeta3-golden.md",
@@ -2737,7 +2746,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 9528,
+   "bytes": 9597,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -9568,7 +9577,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 8553,
+   "bytes": 8836,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10923,6 +10932,33 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/word-evolution-scripts/words_of_jesus_builder.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/word-evolution-scripts/words_of_jesus_builder.py"
+  },
+  {
+   "path": "boring-things/research-program-files/zeta-sums-scripts/bases.py",
+   "title": "bases.py",
+   "bytes": 3527,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/zeta-sums-scripts/bases.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/zeta-sums-scripts/bases.py"
+  },
+  {
+   "path": "boring-things/research-program-files/zeta-sums-scripts/check-bases.py",
+   "title": "check-bases.py",
+   "bytes": 3367,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/zeta-sums-scripts/check-bases.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/zeta-sums-scripts/check-bases.py"
+  },
+  {
+   "path": "boring-things/research-program-files/zeta-sums-scripts/plastic-zeta7.py",
+   "title": "plastic-zeta7.py",
+   "bytes": 995,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/zeta-sums-scripts/plastic-zeta7.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/zeta-sums-scripts/plastic-zeta7.py"
   },
   {
    "path": "boring-things/research-program-files/zeta-sums-scripts/search.py",

@@ -42,6 +42,8 @@ The sign × means multiplication.
 
 403 × zeta(5) = 576 × F(1/2) - 162 × F(1/4) - 16 × F(1/8) + F(1/64) + (8/3) × pi^4 × ln(2) - 4 × pi^2 × ln(2)^3 + 6 × ln(2)^5
 
+A 2016 paper prints Formula 4 in an equivalent shape (each side divided by 4 and the last two sums folded into one sum at -1/8) which means Formula 4 is already in a free source: https://arxiv.org/abs/1603.05810
+
 The same powers-of-one-half search found no formula for zeta(7) so the golden ratio family reached further than the one-half family in these runs.
 
 ## How well the four formulas were checked
@@ -96,4 +98,4 @@ A 1998 paper builds ladders of this kind from powers of one half and reaches zet
 
 A 2000 paper describes a golden ratio ladder that reaches zeta(9): https://arxiv.org/abs/hep-th/0004153
 
-A reading of both papers on 20 November 2026 did not find the exact coefficients of the four formulas above printed in either paper. That reading was done by an automated summary of long documents which could have missed a formula.
+A reading of both papers on 20 November 2026 did not find the exact coefficients of Formula 1 or Formula 2 or Formula 3 printed in either paper. That reading was done by an automated summary of long documents which could have missed a formula.
