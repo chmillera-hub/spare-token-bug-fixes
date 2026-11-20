@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 51 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 52 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -57,6 +57,7 @@ The 51 pages in this list are written reflections that a visitor can read in a f
 - [The obedient life: following every rule and ending up known by no one](deep-dives/obedient-life-no-connection.md) holds two reflections on a person who follows every unwritten rule of polite society such as saying yes to every work request and never asking for help and explains that the rules move labor and rent and money out of the person while building no bond with anyone so the person can reach the end of life with the bills paid and nobody who knows the person's heart and mind.
 - [Help behind a cashier: when asking for help means buying a service](deep-dives/help-behind-cashier.md) holds two reflections on the advice to try therapy or see a doctor given to a person who says "I am struggling" and explains that the advice costs the adviser nothing while the person can end up owing thousands and losing a home and that the person was often asking for a human being who would listen for an hour and still be around next week.
 - [Protecting the young: from asking who is to blame to building safer surroundings](deep-dives/protecting-the-young.md) holds four reflections on protecting young people from harm and explains that the question of whether God is to blame can be argued forever without anyone becoming safer while studying anonymized cases shows three conditions that let harm grow which are money and secrecy and an adult left alone with someone vulnerable and that securing food and shelter for everyone leaves more witnesses free to speak.
+- [A cup of water left on the wall of a covered well](deep-dives/cup-on-the-well.md) uses a village well with a paid cover as a picture of knowledge that already exists and cannot be reached by a person with no money and follows one villager who leaves a cup of stream water on the wall with a truthful sign and ends with two quick points.
 
 ## Thread counts and data
 
