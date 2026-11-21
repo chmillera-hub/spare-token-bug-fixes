@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 260 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 262 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 57 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 58 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15309,7 +15309,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 57 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 58 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15368,6 +15368,7 @@ The 57 pages in this list are written reflections that a visitor can read in a f
 - [In the Psalms the friends who left are not shown returning](deep-dives/who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
 - [What the people nearby do when someone weeps in the stories of the Bible](deep-dives/weeping-responses.md) asks what the people nearby do when someone weeps in the stories of the Bible and reports a reading of 61 scenes in the World English Bible in which the largest group has no recorded response and 12 scenes show someone weeping along and 10 show the person told to stop and 6 show the person asked what the trouble is and the page ends with two things a person can do.
 - [What happens to a worn-out person in the stories of the Bible](deep-dives/worn-out-responses.md) asks what the people nearby do when someone is worn out in the stories of the Bible and reports a reading of 33 scenes in the World English Bible in which 15 show bread or water or rest or a shared load given and 9 show a tired person refused or harmed and the page ends with two things a person can do.
+- [What the dead ask of the living in a book of old gravestone verses](deep-dives/epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
 
 ## Thread counts and data
 
@@ -22458,6 +22459,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [weeping-responses-list.txt](weeping-responses-list.txt) is a plain text list of the 61 scenes behind the page weeping-responses.md sorted into eight groups so that a reader can check the sorting.
 - [worn-out-responses.md](worn-out-responses.md) asks what the people nearby do when someone is worn out in the stories of the Bible and reports a reading of 33 scenes in the World English Bible in which 15 show bread or water or rest or a shared load given and 9 show a tired person refused or harmed and the page ends with two things a person can do.
 - [worn-out-responses-list.txt](worn-out-responses-list.txt) is a plain text list of the 33 scenes behind the page worn-out-responses.md sorted into six groups so that a reader can check the sorting.
+- [epitaph-requests.md](epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
+- [epitaph-requests-list.txt](epitaph-requests-list.txt) is a plain text list of a few words from each of the 81 verses behind the page epitaph-requests.md sorted into eleven groups so that a reader can check the sorting.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -22885,6 +22888,190 @@ Here is a possibility about why harmlessness became the resting place for many p
 The sentence in reflection two works as a small demonstration for the same reason. A reader watches the word "harmless" get replaced and can try the same replacement on a personal sentence such as changing "I did not hurt anyone today" into "I shared one thing today that might help someone eat or rest or feel known".
 
 The upgrade carries a limit that keeps the idea from turning into pressure because pro-human expression is an invitation for whenever a person has the energy to spare. A person who is worn out and has nothing to give today is not failing since rest protects the person's own mind and body.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/epitaph-requests-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/epitaph-requests-list.txt
+================================================================================
+
+Verses in an 1861 book of gravestone inscriptions that make a request of the living sorted by what the verse asks
+
+An AI model (Claude) chose and sorted the 81 verses on 20 November 2026. Each line gives a few words from the verse so that a reader can find the verse by searching the free text of the book (Project Gutenberg ebook number 34273). The sorting involved judgment calls and no other person has rechecked the sorting.
+
+The living are told to get ready for their own death (19 verses)
+All you that read those lines
+Who by my grave do pass
+Mark thou that readest
+in health and strength do not confide
+stop and view this stone
+In health and strength from home I went
+and sinne forsake
+Trvst not the world remember deth
+Therefore prepare to follow me
+Stop ringers all and cast an eye
+A loving husband lieth here
+Though we did live so many years
+Remember well that here lies I
+Prepare yourself to Follow me
+Look down upon this stone
+A moment pause and think
+be mindful of the prophetic post of Death
+Think nothing strange
+Think of your soules
+
+The living are told how to live (15 verses)
+Reader take care
+by her Example learn to live
+peruse this stone
+Learn to live by faith
+I died of eating too much mellon
+Here sleeps in peace a Hampshire grenadier
+And look at home
+how you spend your days
+Beware of drinking brandy
+Live well then
+A lesson of humility
+Live well—die never
+Reflect on the lesson
+Riches and wealth I now despise
+think man this truth upon
+
+The living are asked to stop and read or look (12 verses)
+Stay and reade on
+Stay thou
+take notice
+ere thou pass
+why dost thou go so fast?
+until my life you read
+view the Lord Bishop’s palace
+this stone below
+behold a wonder rarely wrought
+Remark that near this monument doth lie
+Here in this Grave there lies a Cave
+A wonder to behold
+
+The living are told not to grieve (10 verses)
+Abate your grief
+At first I had a watery grave
+Rather be you glad
+Let friend forbear to mourn and weep
+the LORD’S will be done
+With patience wait
+Mourn for yourselves
+Reserve your grief
+Forbear to mourn
+I pray no sorrow for me take
+
+The living are asked to step gently or leave the grave undisturbed (6 verses)
+this urn forbear
+Should the rude Sexton
+I pray you tread most neatly
+Pray let him not be trod upon
+Reader tread lightly on the sod
+Tread gently
+
+The living are asked to grieve (5 verses)
+If nature move thee
+all your late support
+Weep and Exclaim
+shed a grateful tear
+Each marine hero for him shed a tear
+
+The living are asked to pray for the dead person (5 verses)
+Then pray for me
+And remember that in Cryst we be bretherne
+’tis all one
+You may if you please
+heartily pray he
+
+The living are asked to give the dead person something (4 verses)
+When he was alive he was always dry
+When he was living
+sprinkle my grave with wine
+pray sound his knell
+
+The living are asked to remember the dead person (2 verses)
+Speak of me as you have found
+Or lest I should be forgotten
+
+The living are told to pass on and not ask who the dead person was (2 verses)
+what are they to thee?
+ne’er waste your time
+
+The living are asked to care for the family left behind (1 verses)
+I hope you’ll live in peace and love
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/epitaph-requests.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/epitaph-requests.md
+================================================================================
+
+# What the dead ask of the living in a book of old gravestone verses
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the verses and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+Many old gravestones speak straight to whoever walks past. When a gravestone verse makes a request of the living what does the verse ask for and which request shows up most often?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the book the chatbot knew the famous verse that tells the passer-by to get ready for death and guessed that request would be the most common. The chatbot also guessed that "do not weep" would be second and that requests for prayer and requests to be remembered would be rare. The chatbot had no count behind the guess and could not name the other kinds of request which is why the reading was done.
+
+## What a web search turned up
+
+A web search on 20 November 2026 turned up many pages about the verse that says to prepare to follow the dead person and several pages that list famous or funny epitaphs. The search did not turn up a tally of everything that gravestone verses ask of the living. The search used wording such as "what do gravestone epitaphs ask the reader or passer-by to do".
+
+## How the reading was done
+
+The source was a book printed in London in 1861 that gathers gravestone inscriptions from England and Wales and Scotland. The book is free to read because the copyright ran out long ago and Project Gutenberg hosts the text as ebook number 34273 at https://www.gutenberg.org/ebooks/34273 and the chatbot read a copy of the same text kept on GitHub.
+
+The book holds more than a thousand inscriptions and fragments. A search for words such as reader and stranger and stop and weep and prepare and remember and pray pulled out 145 passages and each passage was read. A verse was kept when the verse asks living people to do something or to stop doing something. The count was 81 verses and the file named epitaph-requests-list.txt in this folder lists a few words from each verse in eleven groups so that any reader can check the sorting.
+
+Two limits matter. The editor of the book chose inscriptions that struck him as curious so the book leans toward odd and funny stones and is not a fair sample of every graveyard. The word search could have missed a request that uses none of the search words.
+
+## The count
+
+- In 19 verses the living are told to get ready for their own death.
+- In 15 verses the living are told how to live.
+- In 12 verses the living are asked to stop and read or look.
+- In 10 verses the living are told not to grieve.
+- In 6 verses the living are asked to step gently or leave the grave undisturbed.
+- In 5 verses the living are asked to grieve.
+- In 5 verses the living are asked to pray for the dead person.
+- In 4 verses the living are asked to give the dead person something such as a drink or the sound of a bell.
+- In 2 verses the living are asked to remember the dead person.
+- In 2 verses the living are told to pass on and not ask who the dead person was.
+- In 1 verse the living are asked to care for the family left behind.
+
+The guess made beforehand had the top request right and had the rest of the order wrong. Advice on how to live and a plain request to stop and read both outnumber "do not weep". The request to be remembered sits near the bottom with 2 verses out of 81.
+
+## What the verses sound like
+
+The verses about getting ready are blunt because the speaker has no time left to soften the words. One says "And you are on the brink." and another says "The grave next opened may be thine." One husband left orders for the well-known verse that ends "Therefore prepare to follow me." and the book says that his widow had two lines of her own cut underneath which read "To follow you I am not content" and "Until I know which way you went."
+
+The verses about how to live often point at ordinary kindness. One man asks the reader to learn to give "as I did at my door" and to lend to people short of money as he did. One stone for a woman who sold shellfish in the street tells people with money to give gladly to those in want. One speaker says that the faults a reader saw in him are faults to avoid and then adds "look at home". Another says that what matters is "how you spend your days".
+
+The twelve verses that ask a stranger to stop and read ask for very little. One says "why dost thou go so fast?" and another asks the passer-by to wait "until my life you read" which means the request is for a minute of attention from a person the speaker will never meet.
+
+The verses about grief pull in two directions. Ten verses tell the family to stop weeping with words such as "Abate your grief" and "Let friend forbear to mourn and weep". Five verses ask for tears with words such as "shed a grateful tear". A reader who is grieving does not have to obey a stone in one direction or the other because sorrow that is spoken and seen is a road to being comforted.
+
+The five verses that ask for prayer include two that shrug at the request. One asks for prayer and then says that if nobody prays "’tis all one" and another says "You may if you please".
+
+The two verses that ask to be remembered are short and plain. One says "Speak of me as you have found." and the other asks to be remembered "Or lest I should be forgotten."
+
+## What the finding could mean
+
+The largest share of these voices from the grave do not ask the living to keep the dead in mind. Nineteen verses point at the reader's own death and fifteen point at the reader's own life which means 34 of the 81 verses turn the reader's attention back onto the reader. Here is a possibility and not a fact: many of the people behind these verses had made peace with being forgotten and chose to spend their last words on the stranger.
+
+Being known by another heart is one of the three basic human needs beside food and shelter. The twelve verses that ask a stranger to stop and read show that need reaching past death in the smallest form which is a request to be read once. The verses on how to live touch the other two needs because the acts held up as a life well spent are giving food at the door and lending to people in need.
+
+The record offers two things a person can do. A person who walks past a grave or reads an old page can do what twelve of these verses ask and stop and read the name and the lines because reading is the whole of the request and costs a minute. A person who is alive can take the fifteen verses on how to live as a list written by people who had run out of days and the list says to give at the door if there is food to spare and to mend one's own faults before judging another person's faults and to mind how the days are spent. No verse in the book can show that following the advice changes how a life ends and the verses do not claim to.
+
+## Two quick points
+
+- In 81 gravestone verses that make a request of the living the most common request is to get ready for death and the request to be remembered appears in 2 verses.
+- Twelve verses ask a stranger for a minute of reading and fifteen give advice on how to live so a person today can answer the first request by stopping to read and can weigh the second as counsel from people who had no days left.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/fast-answer.md

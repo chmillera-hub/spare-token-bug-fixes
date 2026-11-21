@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 57 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 58 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -63,6 +63,7 @@ The 57 pages in this list are written reflections that a visitor can read in a f
 - [In the Psalms the friends who left are not shown returning](deep-dives/who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
 - [What the people nearby do when someone weeps in the stories of the Bible](deep-dives/weeping-responses.md) asks what the people nearby do when someone weeps in the stories of the Bible and reports a reading of 61 scenes in the World English Bible in which the largest group has no recorded response and 12 scenes show someone weeping along and 10 show the person told to stop and 6 show the person asked what the trouble is and the page ends with two things a person can do.
 - [What happens to a worn-out person in the stories of the Bible](deep-dives/worn-out-responses.md) asks what the people nearby do when someone is worn out in the stories of the Bible and reports a reading of 33 scenes in the World English Bible in which 15 show bread or water or rest or a shared load given and 9 show a tired person refused or harmed and the page ends with two things a person can do.
+- [What the dead ask of the living in a book of old gravestone verses](deep-dives/epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
 
 ## Thread counts and data
 
