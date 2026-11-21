@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-21",
  "file_count": 1291,
- "total_bytes": 95837771,
+ "total_bytes": 95837730,
  "files": [
   {
    "path": ".gitignore",
@@ -190,7 +190,7 @@
   {
    "path": "1-research-click-here-first/bible-quote-builder/full-record.md",
    "title": "Agents that rebuild the Bible out of chopped key phrases",
-   "bytes": 156216,
+   "bytes": 156217,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/full-record.md",
@@ -370,7 +370,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/101-to-103-stories.md",
    "title": "Stories and reflections with personified emotions: entries 101 to 103",
-   "bytes": 29916,
+   "bytes": 29910,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/101-to-103-stories.md",
@@ -478,7 +478,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/88-buddha-story.md",
    "title": "Stories and reflections with personified emotions: entry 88",
-   "bytes": 77379,
+   "bytes": 77375,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/88-buddha-story.md",
@@ -514,7 +514,7 @@
   {
    "path": "1-research-click-here-first/emotion-stories/all-stories-in-one.md",
    "title": "All story entries in one file",
-   "bytes": 732595,
+   "bytes": 732585,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/emotion-stories/all-stories-in-one.md",
@@ -919,7 +919,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
    "title": "part-01.txt",
-   "bytes": 327046,
+   "bytes": 327041,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/other-writing/part-01.txt",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-01.txt",
    "title": "part-01.txt",
-   "bytes": 328791,
+   "bytes": 328811,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-01.txt",
@@ -973,7 +973,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
    "title": "part-02.txt",
-   "bytes": 329924,
+   "bytes": 329913,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-02.txt",
@@ -982,7 +982,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-03.txt",
    "title": "part-03.txt",
-   "bytes": 329760,
+   "bytes": 329742,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-03.txt",
@@ -991,7 +991,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
    "title": "part-04.txt",
-   "bytes": 329346,
+   "bytes": 329347,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-04.txt",
@@ -1000,7 +1000,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-05.txt",
    "title": "part-05.txt",
-   "bytes": 327415,
+   "bytes": 327409,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-05.txt",
@@ -1009,7 +1009,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
    "title": "part-06.txt",
-   "bytes": 330112,
+   "bytes": 330092,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-06.txt",
@@ -1027,7 +1027,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
    "title": "part-08.txt",
-   "bytes": 330119,
+   "bytes": 330117,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-08.txt",
@@ -1054,7 +1054,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
    "title": "part-11.txt",
-   "bytes": 329461,
+   "bytes": 329466,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-11.txt",
@@ -1072,7 +1072,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
    "title": "part-13.txt",
-   "bytes": 327730,
+   "bytes": 327731,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-13.txt",
@@ -1081,7 +1081,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
    "title": "part-14.txt",
-   "bytes": 324897,
+   "bytes": 324899,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-14.txt",
@@ -1099,7 +1099,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
    "title": "part-16.txt",
-   "bytes": 329952,
+   "bytes": 329957,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/author-comments-full/part-16.txt",
@@ -2080,7 +2080,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md",
    "title": "The page that prays to its reader: ten reflections on a text as a packet of information",
-   "bytes": 37927,
+   "bytes": 37933,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md",

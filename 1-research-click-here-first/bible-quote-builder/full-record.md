@@ -1065,7 +1065,7 @@ What the pro-human expression pass changed:
 - A program check confirmed that no word repeats inside any passage body or inside any closing explanation.
 - The pass makes every passage lean one way on purpose which means the passages are encouragement written by the AI model around Bible phrases and are not neutral summaries of what the Bible phrases say.
 
-## Three words of Jesus passages for a playful input quote
+## Three words of Jesus passages for an excited input quote
 
 The input quote was "I'VE SEEN YOU BEFORE JESUS!!!" (sent with three laughing faces) and all twenty-one rules applied with added or changed words in stars.
 

@@ -172,11 +172,11 @@ A writer who wants a text to live can ask one question which is "what will a rea
 
 > **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
 
-A scrap of paper that says "burn me" can end up framed on a wall because a playful reader may keep the scrap for the joke.
+A scrap of paper that says "burn me" can end up framed on a wall because a contrarian reader may keep the scrap for the joke.
 
 **Why the joke saves the scrap**
 
-A piece of paper giving an order to a human being is absurd on its face. The paper has no hands and no authority and still writes "burn me" as though the paper were in charge. A reader with a playful streak sees the nerve of the thing and grins and says "nobody tells me what to do and certainly not a scrap." So the reader keeps the scrap out of pure mischief. The scrap asked for the fire and received a longer life than the sensible notes that went out with the trash.
+A piece of paper giving an order to a human being is absurd on its face. The paper has no hands and no authority and still writes "burn me" as though the paper were in charge. A reader with a contrarian streak sees the nerve of the thing and grins and says "nobody tells me what to do and certainly not a scrap." So the reader keeps the scrap out of pure mischief. The scrap asked for the fire and received a longer life than the sensible notes that went out with the trash.
 
 **What the reader thinks happened and what actually happened**
 
