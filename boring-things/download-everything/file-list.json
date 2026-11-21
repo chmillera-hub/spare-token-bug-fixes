@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-21",
- "file_count": 1291,
- "total_bytes": 95839030,
+ "file_count": 1295,
+ "total_bytes": 95908801,
  "files": [
   {
    "path": ".gitignore",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 2708,
+   "bytes": 2798,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/grouped-list.md",
    "title": "Prime percentages grouped by type of equation",
-   "bytes": 129624,
+   "bytes": 143135,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/grouped-list.md",
@@ -739,7 +739,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/large-number-test.md",
    "title": "Do prime-rich equations stay prime-rich at hundreds of digits",
-   "bytes": 6581,
+   "bytes": 6490,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/large-number-test.md",
@@ -748,7 +748,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/later-findings.md",
    "title": "Later prime richness findings",
-   "bytes": 14467,
+   "bytes": 19248,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/later-findings.md",
@@ -765,8 +765,8 @@
   },
   {
    "path": "1-research-click-here-first/prime-richness/ranked-list.md",
-   "title": "Master list of 529 equations and sums ranked by prime percentage",
-   "bytes": 123382,
+   "title": "Master list of 587 equations and sums ranked by prime percentage",
+   "bytes": 135920,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/ranked-list.md",
@@ -9874,7 +9874,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 11285,
+   "bytes": 11556,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10178,6 +10178,24 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/champions.py"
   },
   {
+   "path": "boring-things/research-program-files/prime-richness-scripts/dead_bump.py",
+   "title": "dead_bump.py",
+   "bytes": 3405,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/dead_bump.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/dead_bump.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/dead_bump_results.json",
+   "title": "dead_bump_results.json",
+   "bytes": 6583,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/dead_bump_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/dead_bump_results.json"
+  },
+  {
    "path": "boring-things/research-program-files/prime-richness-scripts/divide_table.py",
    "title": "divide_table.py",
    "bytes": 748,
@@ -10261,7 +10279,7 @@
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/master_list_data.json",
    "title": "master_list_data.json",
-   "bytes": 112121,
+   "bytes": 124233,
    "type": "json",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/master_list_data.json",
@@ -10279,7 +10297,7 @@
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/master_list_indicators.py",
    "title": "master_list_indicators.py",
-   "bytes": 6386,
+   "bytes": 7747,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/master_list_indicators.py",
@@ -10320,6 +10338,24 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/more_sums_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/more_sums_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/no_numbers.py",
+   "title": "no_numbers.py",
+   "bytes": 5770,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/no_numbers.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/no_numbers.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/no_numbers_results.json",
+   "title": "no_numbers_results.json",
+   "bytes": 9440,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/no_numbers_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/no_numbers_results.json"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/primorial_line.py",

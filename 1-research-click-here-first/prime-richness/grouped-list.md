@@ -4,7 +4,7 @@
 
 ## What the list shows
 
-The list sorts 529 equations and running sums into 30 groups by type and ranks the recipes inside each group from the most primes to the fewest primes. Each percentage compares the recipe with plain counting numbers of the same size so +859% means 859% more primes than the number line and −100% means no primes.
+The list sorts 587 equations and running sums into 33 groups by type and ranks the recipes inside each group from the most primes to the fewest primes. Each percentage compares the recipe with plain counting numbers of the same size so +859% means 859% more primes than the number line and −100% means no primes.
 
 The page [ranked-list.md](ranked-list.md) holds the same lines in one ranking from the highest percentage to the lowest percentage.
 
@@ -24,42 +24,45 @@ Each line carries three numbers that show how much testing stands behind the per
 
 "Tested" is the count of outputs the computer checked and "found" is the count of different primes among those outputs and "chance predicts" is the count of primes that ordinary numbers of the same sizes would give. The two shares in brackets give the absolute picture: the share of the outputs that were prime and the share that chance predicts. A line can have a high percentage and a low share when the outputs are long because primes are rare among long numbers.
 
-"Luck odds" works like the p-value from science. The luck odds say how often plain luck would produce a gap this large if the equation really had the same prime rate as the number line. Luck odds of 1 in 50000 mean the gap is almost surely real. Luck odds of about 10 in 100 or more mean the gap could be luck and the line says so. 81 of the 529 lines carry that warning.
+"Luck odds" works like the p-value from science. The luck odds say how often plain luck would produce a gap this large if the equation really had the same prime rate as the number line. Luck odds of 1 in 50000 mean the gap is almost surely real. Luck odds of about 10 in 100 or more mean the gap could be luck and the line says so. 87 of the 587 lines carry that warning.
 
 ## The groups compared
 
 Each line gives the highest and the lowest percentage inside one group and the groups run from the group with the highest top percentage to the group with the lowest top percentage.
 
 - Sums and running totals (128 lines): highest +1307% and lowest −100%
-- Straight-line equations (a number times n) (23 lines): highest +1108% and lowest −100%
-- Equations that start with n² (38 lines): highest +972% and lowest −100%
+- Straight-line equations (a number times n) (24 lines): highest +1108% and lowest −100%
+- Equations that start with n² (39 lines): highest +972% and lowest −100%
 - Mixed operations (9 lines): highest +796% and lowest +26%
 - Equations famous for a long unbroken run of primes (10 lines): highest +747% and lowest +615%
 - Equations from published richness record lists (4 lines): highest +701% and lowest +648%
-- Recipes that start from the list of primes (22 lines): highest +579% and lowest −100%
-- Well-known number lists (17 lines): highest +536% and lowest −100%
+- One variable where every coefficient is 1 (6 lines): highest +637% and lowest +545%
+- Recipes that start from the list of primes (23 lines): highest +579% and lowest −100%
+- Well-known number lists (19 lines): highest +536% and lowest −100%
 - Powers of n plus 1 and related equations (6 lines): highest +363% and lowest +110%
 - Factorials and Fibonacci numbers (4 lines): highest +360% and lowest +44%
 - Equations with n in the exponent (28 lines): highest +337% and lowest −89%
-- Geometry (4 lines): highest +315% and lowest −100%
+- Geometry (5 lines): highest +315% and lowest −100%
 - Cubes and higher powers (20 lines): highest +262% and lowest −100%
 - Digits taken from the zeta sum (12 lines): highest +247% and lowest −75%
 - Counting functions (4 lines): highest +213% and lowest −36%
 - Square roots and decimal powers (13 lines): highest +213% and lowest −100%
-- A square divided by a whole number (60 lines): highest +180% and lowest −100%
+- Two variables and no numbers (28 lines): highest +196% and lowest −100%
+- A square divided by a whole number (63 lines): highest +180% and lowest −100%
 - Equations and digits built from e (6 lines): highest +175% and lowest −2%
-- Other division equations (32 lines): highest +158% and lowest −100%
+- Other division equations (33 lines): highest +158% and lowest −100%
+- Equations famous for very few primes (5 lines): highest +155% and lowest −100%
 - Equations and digits built from π (11 lines): highest +153% and lowest −2%
 - Logarithms (15 lines): highest +152% and lowest −92%
 - Equations and digits built from φ (the golden ratio) (8 lines): highest +151% and lowest 0%
-- Digit tricks (14 lines): highest +150% and lowest −100%
-- Modulus (the remainder after division) (7 lines): highest +109% and lowest −100%
+- Bit tricks (6 lines): highest +150% and lowest −100%
+- Digit tricks (17 lines): highest +150% and lowest −100%
+- Modulus (the remainder after division) (8 lines): highest +109% and lowest −100%
 - Trig functions (sine and cosine and tangent) (12 lines): highest +108% and lowest −100%
 - Calculus (slopes and areas) (6 lines): highest +100% and lowest −100%
 - Step-by-step rules (5 lines): highest +100% and lowest −87%
 - Best fractions (3 lines): highest +88% and lowest +39%
-- Bit tricks (5 lines): highest 0% and lowest −100%
-- Equations famous for very few primes (3 lines): highest −97% and lowest −100%
+- Three variables and no numbers (7 lines): highest +50% and lowest −48%
 
 ## Sums and running totals
 
@@ -205,22 +208,23 @@ Straight-line equations gain primes when the multiplier contains many small prim
 5. 51051 × n + 1 then bump the last digit (51051 is 3 × 7 × 11 × 13 × 17): +400% (give or take 2 points). Tested 300000 outputs and found 63523 primes (21% of the outputs) where chance predicts 12706 (4.2%). Luck odds: under 1 in a billion.
 6. 210n + 1: +335% (give or take 2 points). Tested 300000 outputs and found 49050 primes (16% of the outputs) where chance predicts 11284 (3.8%). Luck odds: under 1 in a billion.
 7. 210n + 1 then bump the last digit: +335% (give or take 2 points). Tested 300000 outputs and found 49050 primes (16% of the outputs) where chance predicts 11284 (3.8%). Luck odds: under 1 in a billion.
-8. 30n + 1: +276% (give or take 2 points). Tested 300000 outputs and found 42449 primes (14% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-9. 30n + 1 then bump the last digit: +276% (give or take 2 points). Tested 300000 outputs and found 42449 primes (14% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-10. 6n + 1: +200% (give or take 2 points). Tested 300000 outputs and found 33894 primes (11% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-11. 6n + 1 then bump the last digit: +200% (give or take 2 points). Tested 300000 outputs and found 33894 primes (11% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-12. 4n + 3 then bump the last digit: +153% (give or take 1 point). Tested 300000 outputs and found 28501 primes (9.5% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-13. 2n + 1 then bump the last digit: +152% (give or take 1 point). Tested 300000 outputs and found 28468 primes (9.5% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-14. 10n + 1: +149% (give or take 1 point). Tested 300000 outputs and found 28119 primes (9.4% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-15. 10n + 1 then bump the last digit: +149% (give or take 1 point). Tested 300000 outputs and found 28119 primes (9.4% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-16. n then bump the last digit: +149% (give or take 1 point). Tested 300000 outputs and found 28088 primes (9.4% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
-17. 2n then bump the last digit: +148% (give or take 1 point). Tested 300000 outputs and found 27930 primes (9.3% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
-18. 4n + 3: +102% (give or take 1 point). Tested 300000 outputs and found 22799 primes (7.6% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-19. 2n + 1: +101% (give or take 1 point). Tested 300000 outputs and found 22670 primes (7.6% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
-20. n: −1% (give or take 1 point). Tested 300000 outputs and found 11116 primes (3.7% of the outputs) where chance predicts 11282 (3.8%). Luck odds: about 6 in 100.
-21. 6n + 3 then bump the last digit: −25% (give or take 1 point). Tested 300000 outputs and found 8510 primes (2.8% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
-22. 2n: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
-23. 6n + 3: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
+8. the whole numbers written side by side then bump the last digit: +280% (give or take 144 points). Tested 136 outputs and found 7 primes (5.1% of the outputs) where chance predicts 1.8 (1.4%). Luck odds: 1 in 300. Note: outputs up to 300 digits.
+9. 30n + 1: +276% (give or take 2 points). Tested 300000 outputs and found 42449 primes (14% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+10. 30n + 1 then bump the last digit: +276% (give or take 2 points). Tested 300000 outputs and found 42449 primes (14% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+11. 6n + 1: +200% (give or take 2 points). Tested 300000 outputs and found 33894 primes (11% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+12. 6n + 1 then bump the last digit: +200% (give or take 2 points). Tested 300000 outputs and found 33894 primes (11% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+13. 4n + 3 then bump the last digit: +153% (give or take 1 point). Tested 300000 outputs and found 28501 primes (9.5% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+14. 2n + 1 then bump the last digit: +152% (give or take 1 point). Tested 300000 outputs and found 28468 primes (9.5% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+15. 10n + 1: +149% (give or take 1 point). Tested 300000 outputs and found 28119 primes (9.4% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+16. 10n + 1 then bump the last digit: +149% (give or take 1 point). Tested 300000 outputs and found 28119 primes (9.4% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+17. n then bump the last digit: +149% (give or take 1 point). Tested 300000 outputs and found 28088 primes (9.4% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
+18. 2n then bump the last digit: +148% (give or take 1 point). Tested 300000 outputs and found 27930 primes (9.3% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
+19. 4n + 3: +102% (give or take 1 point). Tested 300000 outputs and found 22799 primes (7.6% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+20. 2n + 1: +101% (give or take 1 point). Tested 300000 outputs and found 22670 primes (7.6% of the outputs) where chance predicts 11283 (3.8%). Luck odds: under 1 in a billion.
+21. n: −1% (give or take 1 point). Tested 300000 outputs and found 11116 primes (3.7% of the outputs) where chance predicts 11282 (3.8%). Luck odds: about 6 in 100.
+22. 6n + 3 then bump the last digit: −25% (give or take 1 point). Tested 300000 outputs and found 8510 primes (2.8% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
+23. 2n: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
+24. 6n + 3: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11282 (3.8%). Luck odds: under 1 in a billion.
 
 ## Equations that start with n²
 
@@ -257,13 +261,14 @@ Squared equations hold the highest percentages under 1 trillion because the adde
 29. n² + 5n + 6 then bump the last digit: +124% (give or take 1 point). Tested 300000 outputs and found 26395 primes (8.8% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
 30. n² + n + 1: +121% (give or take 1 point). Tested 300000 outputs and found 26026 primes (8.7% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
 31. n² + n + 1 then bump the last digit: +121% (give or take 1 point). Tested 300000 outputs and found 26026 primes (8.7% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
-32. n² − 2: +87% (give or take 1 point). Tested 300000 outputs and found 22001 primes (7.3% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-33. n² + 1: +36% (give or take 1 point). Tested 300000 outputs and found 16062 primes (5.4% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-34. n² + 3: +12% (give or take 1 point). Tested 300000 outputs and found 13217 primes (4.4% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-35. n² − 1 then bump the last digit: +5% (give or take 1 point). Tested 300000 outputs and found 12439 primes (4.1% of the outputs) where chance predicts 11793 (3.9%). Luck odds: 1 in 500000000.
-36. n² + 5n + 6: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-37. n² + n + 2: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-38. n² − 1: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+32. 3n² then bump the last digit: +105% (give or take 1 point). Tested 300000 outputs and found 25481 primes (8.5% of the outputs) where chance predicts 12442 (4.1%). Luck odds: under 1 in a billion.
+33. n² − 2: +87% (give or take 1 point). Tested 300000 outputs and found 22001 primes (7.3% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+34. n² + 1: +36% (give or take 1 point). Tested 300000 outputs and found 16062 primes (5.4% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+35. n² + 3: +12% (give or take 1 point). Tested 300000 outputs and found 13217 primes (4.4% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+36. n² − 1 then bump the last digit: +5% (give or take 1 point). Tested 300000 outputs and found 12439 primes (4.1% of the outputs) where chance predicts 11793 (3.9%). Luck odds: 1 in 500000000.
+37. n² + 5n + 6: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+38. n² + n + 2: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+39. n² − 1: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
 
 ## Mixed operations
 
@@ -303,6 +308,17 @@ These equations sit on published record lists for richness and the measured perc
 3. 452042n² − 1: +687% (give or take 3 points). Tested 300000 outputs and found 65376 primes (22% of the outputs) where chance predicts 8306 (2.8%). Luck odds: under 1 in a billion.
 4. n² + 2751n + 1: +648% (give or take 2 points). Tested 300000 outputs and found 97110 primes (32% of the outputs) where chance predicts 12991 (4.3%). Luck odds: under 1 in a billion.
 
+## One variable where every coefficient is 1
+
+Each equation adds up powers of x and ends in a lone + 1. A complete search of all 65535 such equations up to the 16th power picked the equations on this list. The pattern of which powers are present decides which small primes can divide the outputs.
+
+1. x¹⁴ + x¹³ + x¹² + x¹⁰ + x⁹ + x⁷ + x⁵ + x⁴ + x² + x + 1: +637% (give or take 6 points). Tested 300000 outputs and found 13742 primes (4.6% of the outputs) where chance predicts 1864 (0.62%). Luck odds: under 1 in a billion.
+2. x¹⁶ + x¹⁵ + x¹³ + x¹¹ + x¹⁰ + x⁸ + x⁶ + x⁵ + x³ + x + 1: +603% (give or take 7 points). Tested 300000 outputs and found 11463 primes (3.8% of the outputs) where chance predicts 1631 (0.54%). Luck odds: under 1 in a billion.
+3. x¹⁵ + x¹¹ + x¹⁰ + x⁹ + x⁸ + x⁷ + x⁵ + x⁴ + x² + x + 1: +563% (give or take 6 points). Tested 300000 outputs and found 11527 primes (3.8% of the outputs) where chance predicts 1740 (0.58%). Luck odds: under 1 in a billion.
+4. x¹⁵ + x¹⁴ + x¹³ + x¹² + x¹¹ + x¹⁰ + x⁹ + x⁷ + x⁵ + x⁴ + x² + x + 1: +562% (give or take 6 points). Tested 300000 outputs and found 11513 primes (3.8% of the outputs) where chance predicts 1739 (0.58%). Luck odds: under 1 in a billion.
+5. x¹⁵ + x¹⁴ + x¹³ + x¹¹ + x¹⁰ + x⁸ + x⁶ + x⁵ + x⁴ + x³ + x² + x + 1: +555% (give or take 6 points). Tested 300000 outputs and found 11391 primes (3.8% of the outputs) where chance predicts 1739 (0.58%). Luck odds: under 1 in a billion.
+6. x¹⁶ + x¹⁴ + x¹³ + x¹¹ + x⁷ + x⁶ + x⁵ + x⁴ + x³ + x² + 1: +545% (give or take 6 points). Tested 300000 outputs and found 10526 primes (3.5% of the outputs) where chance predicts 1631 (0.54%). Luck odds: under 1 in a billion.
+
 ## Recipes that start from the list of primes
 
 Every recipe in this group needs the list of primes before the recipe can run. Adding a number built from many small primes to the nth prime gives a high percentage because a prime is never a multiple of 3 or 5 or 7 and the added number keeps that protection.
@@ -315,20 +331,21 @@ Every recipe in this group needs the list of primes before the recipe can run. A
 6. (the nth prime)² − 2: +239% (give or take 2 points). Tested 300000 outputs and found 36088 primes (12% of the outputs) where chance predicts 10659 (3.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
 7. the nth prime + 6: +163% (give or take 1 point). Tested 300000 outputs and found 56140 primes (19% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
 8. three neighboring primes added up: +162% (give or take 1 point). Tested 300000 outputs and found 51700 primes (17% of the outputs) where chance predicts 19759 (6.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-9. the nth prime + the next prime + 1: +147% (give or take 1 point). Tested 300000 outputs and found 50077 primes (17% of the outputs) where chance predicts 20306 (6.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-10. the nth prime written backward: +132% (give or take 1 point). Tested 300000 outputs and found 48180 primes (16% of the outputs) where chance predicts 20790 (6.9%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-11. (the nth prime)² + 4: +121% (give or take 1 point). Tested 300000 outputs and found 23541 primes (7.8% of the outputs) where chance predicts 10658 (3.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-12. n × the count of primes up to n + 1: +94% (give or take 1 point). Tested 300000 outputs and found 28216 primes (9.4% of the outputs) where chance predicts 14529 (4.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-13. the nth prime × the next prime + 2: +38% (give or take 1 point). Tested 300000 outputs and found 14733 primes (4.9% of the outputs) where chance predicts 10658 (3.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-14. the nth prime + 2: +33% (give or take 1 point). Tested 300000 outputs and found 28349 primes (9.4% of the outputs) where chance predicts 21316 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-15. the nth prime + 4: +32% (give or take 1 point). Tested 300000 outputs and found 28120 primes (9.4% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-16. 2 × the nth prime + 1: +31% (give or take 1 point). Tested 300000 outputs and found 26694 primes (8.9% of the outputs) where chance predicts 20306 (6.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
-17. the nth prime + n: +1% (give or take 1 point). Tested 300000 outputs and found 21347 primes (7.1% of the outputs) where chance predicts 21200 (7.1%). Luck odds: about 16 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
-18. n + the count of primes up to n: 0% (give or take 1 point). Tested 300000 outputs and found 25818 primes (8.6% of the outputs) where chance predicts 25869 (8.6%). Luck odds: about 38 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
-19. the nth prime − n: 0% (give or take 1 point). Tested 300000 outputs and found 21398 primes (7.1% of the outputs) where chance predicts 21443 (7.1%). Luck odds: about 38 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
-20. n × the nth prime + 1: −1% (give or take 1 point). Tested 300000 outputs and found 11579 primes (3.9% of the outputs) where chance predicts 11731 (3.9%). Luck odds: about 8 in 100. Note: the recipe needs the list of primes.
-21. the nth prime × the next prime − 2: −2% (give or take 1 point). Tested 300000 outputs and found 10429 primes (3.5% of the outputs) where chance predicts 10658 (3.6%). Luck odds: about 1 in 100. Note: the recipe needs the list of primes.
-22. the halfway point between the nth prime and the next prime: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+9. the halfway point between the nth prime and the next prime then bump the last digit: +154% (give or take 1 point). Tested 300000 outputs and found 54120 primes (18% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion.
+10. the nth prime + the next prime + 1: +147% (give or take 1 point). Tested 300000 outputs and found 50077 primes (17% of the outputs) where chance predicts 20306 (6.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+11. the nth prime written backward: +132% (give or take 1 point). Tested 300000 outputs and found 48180 primes (16% of the outputs) where chance predicts 20790 (6.9%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+12. (the nth prime)² + 4: +121% (give or take 1 point). Tested 300000 outputs and found 23541 primes (7.8% of the outputs) where chance predicts 10658 (3.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+13. n × the count of primes up to n + 1: +94% (give or take 1 point). Tested 300000 outputs and found 28216 primes (9.4% of the outputs) where chance predicts 14529 (4.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+14. the nth prime × the next prime + 2: +38% (give or take 1 point). Tested 300000 outputs and found 14733 primes (4.9% of the outputs) where chance predicts 10658 (3.6%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+15. the nth prime + 2: +33% (give or take 1 point). Tested 300000 outputs and found 28349 primes (9.4% of the outputs) where chance predicts 21316 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+16. the nth prime + 4: +32% (give or take 1 point). Tested 300000 outputs and found 28120 primes (9.4% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+17. 2 × the nth prime + 1: +31% (give or take 1 point). Tested 300000 outputs and found 26694 primes (8.9% of the outputs) where chance predicts 20306 (6.8%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
+18. the nth prime + n: +1% (give or take 1 point). Tested 300000 outputs and found 21347 primes (7.1% of the outputs) where chance predicts 21200 (7.1%). Luck odds: about 16 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
+19. n + the count of primes up to n: 0% (give or take 1 point). Tested 300000 outputs and found 25818 primes (8.6% of the outputs) where chance predicts 25869 (8.6%). Luck odds: about 38 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
+20. the nth prime − n: 0% (give or take 1 point). Tested 300000 outputs and found 21398 primes (7.1% of the outputs) where chance predicts 21443 (7.1%). Luck odds: about 38 in 100 which means the gap could be luck. Note: the recipe needs the list of primes.
+21. n × the nth prime + 1: −1% (give or take 1 point). Tested 300000 outputs and found 11579 primes (3.9% of the outputs) where chance predicts 11731 (3.9%). Luck odds: about 8 in 100. Note: the recipe needs the list of primes.
+22. the nth prime × the next prime − 2: −2% (give or take 1 point). Tested 300000 outputs and found 10429 primes (3.5% of the outputs) where chance predicts 10658 (3.6%). Luck odds: about 1 in 100. Note: the recipe needs the list of primes.
+23. the halfway point between the nth prime and the next prime: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 21315 (7.1%). Luck odds: under 1 in a billion. Note: the recipe needs the list of primes.
 
 ## Well-known number lists
 
@@ -344,13 +361,15 @@ These number lists grow fast so most lines rest on a small count of primes and t
 8. the list 2 then 1 then 3 then 4 then 7 where each number is the two before added up: +85% (give or take 35 points). Tested 1436 outputs and found 28 primes (1.9% of the outputs) where chance predicts 15.1 (1.1%). Luck odds: 1 in 500. Note: outputs up to 300 digits.
 9. the count of ways to sort n objects into groups: +37% (give or take 56 points). Tested 215 outputs and found 6 primes (2.8% of the outputs) where chance predicts 4.4 (2.0%). Luck odds: about 28 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
 10. the primes written side by side (2 then 23 then 235 then 2357 and so on): +24% (give or take 72 points). Tested 109 outputs and found 3 primes (2.8% of the outputs) where chance predicts 2.4 (2.2%). Luck odds: about 43 in 100 which means the gap could be luck. Note: outputs up to 300 digits and the recipe needs the list of primes.
-11. n to the power π with decimals dropped: −1% (give or take 2 points). Tested 60000 outputs and found 1925 primes (3.2% of the outputs) where chance predicts 1936 (3.2%). Luck odds: about 41 in 100 which means the gap could be luck. Note: fewer inputs fit the precision used.
-12. the list 3 then 0 then 2 then 3 then 2 then 5 where each number is the second and third numbers before added up: −16% (give or take 18 points). Tested 2457 outputs and found 22 primes (0.90% of the outputs) where chance predicts 26.2 (1.1%). Luck odds: about 24 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
-13. the partition numbers (the count of ways to split n into a sum): −34% (give or take 7 points). Tested 20000 outputs and found 82 primes (0.41% of the outputs) where chance predicts 124 (0.62%). Luck odds: 1 in 20000. Note: outputs up to 152 digits.
-14. the count of ways to pair up n sets of brackets: −67% (give or take 23 points). Tested 506 outputs and found 2 primes (0.40% of the outputs) where chance predicts 6.1 (1.2%). Luck odds: about 6 in 100. Note: outputs up to 300 digits.
-15. 509203 × 2ⁿ − 1: −100% (give or take 18 points). Tested 977 outputs and found 0 primes (0.000% of the outputs) where chance predicts 5.7 (0.58%). Luck odds: 1 in 300. Note: outputs up to 300 digits.
-16. 78557 × 2ⁿ + 1: −100% (give or take 17 points). Tested 980 outputs and found 0 primes (0.000% of the outputs) where chance predicts 5.9 (0.60%). Luck odds: 1 in 400. Note: outputs up to 300 digits.
-17. the whole numbers written side by side (1 then 12 then 123 and so on): −100% (give or take 54 points). Tested 136 outputs and found 0 primes (0.000% of the outputs) where chance predicts 1.9 (1.4%). Luck odds: about 16 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
+11. 78557 × 2ⁿ + 1 then bump the last digit: +2% (give or take 42 points). Tested 980 outputs and found 6 primes (0.61% of the outputs) where chance predicts 5.9 (0.60%). Luck odds: about 54 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
+12. n to the power π with decimals dropped: −1% (give or take 2 points). Tested 60000 outputs and found 1925 primes (3.2% of the outputs) where chance predicts 1936 (3.2%). Luck odds: about 41 in 100 which means the gap could be luck. Note: fewer inputs fit the precision used.
+13. the list 3 then 0 then 2 then 3 then 2 then 5 where each number is the second and third numbers before added up: −16% (give or take 18 points). Tested 2457 outputs and found 22 primes (0.90% of the outputs) where chance predicts 26.2 (1.1%). Luck odds: about 24 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
+14. the partition numbers (the count of ways to split n into a sum): −34% (give or take 7 points). Tested 20000 outputs and found 82 primes (0.41% of the outputs) where chance predicts 124 (0.62%). Luck odds: 1 in 20000. Note: outputs up to 152 digits.
+15. the count of ways to pair up n sets of brackets: −67% (give or take 23 points). Tested 506 outputs and found 2 primes (0.40% of the outputs) where chance predicts 6.1 (1.2%). Luck odds: about 6 in 100. Note: outputs up to 300 digits.
+16. 509203 × 2ⁿ − 1: −100% (give or take 18 points). Tested 977 outputs and found 0 primes (0.000% of the outputs) where chance predicts 5.7 (0.58%). Luck odds: 1 in 300. Note: outputs up to 300 digits.
+17. 509203 × 2ⁿ − 1 then bump the last digit: −100% (give or take 18 points). Tested 977 outputs and found 0 primes (0.000% of the outputs) where chance predicts 5.7 (0.58%). Luck odds: 1 in 300. Note: outputs up to 300 digits.
+18. 78557 × 2ⁿ + 1: −100% (give or take 17 points). Tested 980 outputs and found 0 primes (0.000% of the outputs) where chance predicts 5.9 (0.60%). Luck odds: 1 in 400. Note: outputs up to 300 digits.
+19. the whole numbers written side by side (1 then 12 then 123 and so on): −100% (give or take 54 points). Tested 136 outputs and found 0 primes (0.000% of the outputs) where chance predicts 1.9 (1.4%). Luck odds: about 16 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
 
 ## Powers of n plus 1 and related equations
 
@@ -410,9 +429,10 @@ Every line in this group is rough because the outputs grow so fast that fewer th
 These recipes count things in shapes such as grid points inside a circle or pieces of a cut pizza.
 
 1. the star numbers 6 × n × (n − 1) + 1: +315% (give or take 2 points). Tested 300000 outputs and found 50145 primes (17% of the outputs) where chance predicts 12090 (4.0%). Luck odds: under 1 in a billion.
-2. the count of grid points inside a circle of radius n: +102% (give or take 4 points). Tested 20000 outputs and found 2167 primes (11% of the outputs) where chance predicts 1072 (5.4%). Luck odds: under 1 in a billion. Note: the count takes long to compute.
-3. the most pieces from n straight cuts of a pizza: +97% (give or take 1 point). Tested 300000 outputs and found 26500 primes (8.8% of the outputs) where chance predicts 13455 (4.5%). Luck odds: under 1 in a billion.
-4. the most pieces from n flat cuts of a cake: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 9181 (3.1%). Luck odds: under 1 in a billion.
+2. the most pieces from n flat cuts of a cake then bump the last digit: +182% (give or take 2 points). Tested 300000 outputs and found 25868 primes (8.6% of the outputs) where chance predicts 9180 (3.1%). Luck odds: under 1 in a billion.
+3. the count of grid points inside a circle of radius n: +102% (give or take 4 points). Tested 20000 outputs and found 2167 primes (11% of the outputs) where chance predicts 1072 (5.4%). Luck odds: under 1 in a billion. Note: the count takes long to compute.
+4. the most pieces from n straight cuts of a pizza: +97% (give or take 1 point). Tested 300000 outputs and found 26500 primes (8.8% of the outputs) where chance predicts 13455 (4.5%). Luck odds: under 1 in a billion.
+5. the most pieces from n flat cuts of a cake: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 9181 (3.1%). Luck odds: under 1 in a billion.
 
 ## Cubes and higher powers
 
@@ -483,70 +503,106 @@ Square roots scramble the outputs so the percentages sit near 0% and the bump ad
 12. the leading digits of √2 (first 1 digit then first 2 digits and so on): −7% (give or take 54 points). Tested 1200 outputs and found 3 primes (0.25% of the outputs) where chance predicts 3.2 (0.27%). Luck odds: about 60 in 100 which means the gap could be luck. Note: 1200 numbers tested.
 13. √n: −100% (give or take 1 point). Tested 300000 outputs and found 101 primes (0.034% of the outputs) where chance predicts 52191 (17%). Luck odds: under 1 in a billion. Note: inputs 2 to 300001 in order with repeated primes counted once.
 
+## Two variables and no numbers
+
+These recipes use two inputs x and y and no numbers at all and each test picks x and y at random. A recipe with two free inputs tends to sit near the number line unless the recipe has special structure such as x¹⁶ + y¹⁶.
+
+1. x¹⁶ + y¹⁶: +196% (give or take 4 points). Tested 300000 outputs and found 5042 primes (1.7% of the outputs) where chance predicts 1706 (0.57%). Luck odds: under 1 in a billion.
+2. x × y then bump the last digit: +143% (give or take 1 point). Tested 300000 outputs and found 28572 primes (9.5% of the outputs) where chance predicts 11743 (3.9%). Luck odds: under 1 in a billion.
+3. x³ + x² × y + y³: +115% (give or take 1 point). Tested 300000 outputs and found 24344 primes (8.1% of the outputs) where chance predicts 11328 (3.8%). Luck odds: under 1 in a billion.
+4. x³ + x × y + y³: +109% (give or take 1 point). Tested 300000 outputs and found 23868 primes (8.0% of the outputs) where chance predicts 11436 (3.8%). Luck odds: under 1 in a billion.
+5. x² + y² + x + y then bump the last digit: +105% (give or take 1 point). Tested 300000 outputs and found 22937 primes (7.6% of the outputs) where chance predicts 11172 (3.7%). Luck odds: under 1 in a billion.
+6. x × y + x + y: +94% (give or take 1 point). Tested 300000 outputs and found 22781 primes (7.6% of the outputs) where chance predicts 11743 (3.9%). Luck odds: under 1 in a billion.
+7. x⁸ + y⁸: +80% (give or take 2 points). Tested 300000 outputs and found 6137 primes (2.0% of the outputs) where chance predicts 3409 (1.1%). Luck odds: under 1 in a billion.
+8. x² − x × y + y²: +67% (give or take 1 point). Tested 300000 outputs and found 18923 primes (6.3% of the outputs) where chance predicts 11362 (3.8%). Luck odds: under 1 in a billion.
+9. x⁴ + y⁴: +67% (give or take 1 point). Tested 300000 outputs and found 19559 primes (6.5% of the outputs) where chance predicts 11718 (3.9%). Luck odds: under 1 in a billion. Note: the inputs go up to 1000 so many pairs repeat.
+10. x² + x × y + y²: +66% (give or take 1 point). Tested 300000 outputs and found 18336 primes (6.1% of the outputs) where chance predicts 11051 (3.7%). Luck odds: under 1 in a billion.
+11. x³ + y³ then bump the last digit: +65% (give or take 1 point). Tested 300000 outputs and found 18846 primes (6.3% of the outputs) where chance predicts 11435 (3.8%). Luck odds: under 1 in a billion.
+12. x to the power y − y to the power x: +41% (give or take 18 points). Tested 5549 outputs and found 60 primes (1.1% of the outputs) where chance predicts 42.5 (0.77%). Luck odds: 1 in 200. Note: outputs up to 150 digits.
+13. x to the power x + y to the power y: +35% (give or take 20 points). Tested 9453 outputs and found 45 primes (0.48% of the outputs) where chance predicts 33.3 (0.35%). Luck odds: about 3 in 100. Note: outputs up to 300 digits.
+14. x² + y²: +28% (give or take 1 point). Tested 300000 outputs and found 14267 primes (4.8% of the outputs) where chance predicts 11172 (3.7%). Luck odds: under 1 in a billion.
+15. x⁴ + y²: +28% (give or take 1 point). Tested 300000 outputs and found 14501 primes (4.8% of the outputs) where chance predicts 11356 (3.8%). Luck odds: under 1 in a billion.
+16. x³ + y²: 0% (give or take 1 point). Tested 300000 outputs and found 11280 primes (3.8% of the outputs) where chance predicts 11281 (3.8%). Luck odds: about 50 in 100 which means the gap could be luck.
+17. x to the power y + x + y: −2% (give or take 6 points). Tested 23098 outputs and found 266 primes (1.2% of the outputs) where chance predicts 273 (1.2%). Luck odds: about 36 in 100 which means the gap could be luck. Note: x from 2 to 300 and outputs up to 150 digits.
+18. x + y: −9% (give or take 1 point). Tested 300000 outputs and found 19937 primes (6.6% of the outputs) where chance predicts 21935 (7.3%). Luck odds: under 1 in a billion.
+19. x⁴ + x² × y² + y⁴ then bump the last digit: −16% (give or take 1 point). Tested 300000 outputs and found 9754 primes (3.3% of the outputs) where chance predicts 11622 (3.9%). Luck odds: under 1 in a billion.
+20. x to the power x + y: −23% (give or take 1 point). Tested 295000 outputs and found 5365 primes (1.8% of the outputs) where chance predicts 6975 (2.4%). Luck odds: under 1 in a billion. Note: x up to 60 and y up to 5000.
+21. x to the power y + y: −26% (give or take 5 points). Tested 23098 outputs and found 201 primes (0.87% of the outputs) where chance predicts 273 (1.2%). Luck odds: 1 in 300000. Note: x from 2 to 300 and outputs up to 150 digits.
+22. x² + y² + x × y + x + y: −52% (give or take 1 point). Tested 300000 outputs and found 5283 primes (1.8% of the outputs) where chance predicts 11053 (3.7%). Luck odds: under 1 in a billion.
+23. x to the power y + y to the power x: −65% (give or take 9 points). Tested 5548 outputs and found 15 primes (0.27% of the outputs) where chance predicts 42.4 (0.76%). Luck odds: 1 in 900000. Note: outputs up to 150 digits.
+24. x to the power y + x × y: −100% (give or take 1 point). Tested 23098 outputs and found 0 primes (0.000% of the outputs) where chance predicts 272 (1.2%). Luck odds: under 1 in a billion. Note: x from 2 to 300 and outputs up to 150 digits.
+25. x × y: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11747 (3.9%). Luck odds: under 1 in a billion.
+26. x² + y² + x + y: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11172 (3.7%). Luck odds: under 1 in a billion.
+27. x³ + y³: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11435 (3.8%). Luck odds: under 1 in a billion.
+28. x⁴ + x² × y² + y⁴: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11619 (3.9%). Luck odds: under 1 in a billion.
+
 ## A square divided by a whole number
 
 Dividing a square gives a wide spread of percentages because the rounding rule decides whether each output splits into two factors.
 
 1. n² ÷ 10 then bump the last digit: +180% (give or take 2 points). Tested 300000 outputs and found 33035 primes (11% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-2. n² ÷ 7 then bump the last digit: +136% (give or take 1 point). Tested 300000 outputs and found 27782 primes (9.3% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-3. n² ÷ 2 then bump the last digit: +135% (give or take 1 point). Tested 300000 outputs and found 27669 primes (9.2% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-4. n² ÷ 5 then bump the last digit: +120% (give or take 1 point). Tested 300000 outputs and found 26007 primes (8.7% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-5. n² ÷ 4 then bump the last digit: +108% (give or take 1 point). Tested 300000 outputs and found 24490 primes (8.2% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-6. n² ÷ 3 then bump the last digit: +101% (give or take 1 point). Tested 300000 outputs and found 23688 primes (7.9% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
-7. (n² + 1) ÷ 3 then bump the last digit: +99% (give or take 1 point). Tested 299999 outputs and found 23524 primes (7.8% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-8. n² ÷ 10 with any decimals go up: +73% (give or take 1 point). Tested 300000 outputs and found 20372 primes (6.8% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
-9. n² ÷ 12 with any decimals go up: +72% (give or take 1 point). Tested 300000 outputs and found 20265 primes (6.8% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
-10. n² ÷ 8 with any decimals go up: +66% (give or take 1 point). Tested 300000 outputs and found 19620 primes (6.5% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-11. n² ÷ 6 with any decimals go up: +65% (give or take 1 point). Tested 300000 outputs and found 19511 primes (6.5% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-12. n² ÷ 5 with any decimals go up: +45% (give or take 1 point). Tested 300000 outputs and found 17147 primes (5.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-13. n² ÷ 2 with decimals of 0.3 or more go up: +37% (give or take 1 point). Tested 300000 outputs and found 16198 primes (5.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-14. n² ÷ 2 with decimals of 0.5 or more go up: +37% (give or take 1 point). Tested 300000 outputs and found 16199 primes (5.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-15. n² ÷ 2 with any decimals go up: +36% (give or take 1 point). Tested 300000 outputs and found 16098 primes (5.4% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-16. n² ÷ 10 with decimals of 0.3 or more go up: +25% (give or take 1 point). Tested 300000 outputs and found 14730 primes (4.9% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-17. n² ÷ 14: +15% (give or take 1 point). Tested 300000 outputs and found 13558 primes (4.5% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-18. n² ÷ 4 with any decimals go up: +13% (give or take 1 point). Tested 300000 outputs and found 13334 primes (4.4% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
-19. n² ÷ 11 with any decimals go up: +6% (give or take 1 point). Tested 300000 outputs and found 12511 primes (4.2% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-20. n² ÷ 12 with decimals of 0.3 or more go up: +2% (give or take 1 point). Tested 300000 outputs and found 12026 primes (4.0% of the outputs) where chance predicts 11793 (3.9%). Luck odds: about 2 in 100.
-21. n² ÷ 7 with decimals of 0.3 or more go up: +1% (give or take 1 point). Tested 300000 outputs and found 11923 primes (4.0% of the outputs) where chance predicts 11791 (3.9%). Luck odds: about 11 in 100 which means the gap could be luck.
-22. n² ÷ 7 with decimals of 0.5 or more go up: +1% (give or take 1 point). Tested 300000 outputs and found 11962 primes (4.0% of the outputs) where chance predicts 11794 (3.9%). Luck odds: about 6 in 100.
-23. n² ÷ 11 with decimals of 0.3 or more go up: −4% (give or take 1 point). Tested 300000 outputs and found 11335 primes (3.8% of the outputs) where chance predicts 11793 (3.9%). Luck odds: 1 in 90000.
-24. n² ÷ 3 with any decimals go up: −6% (give or take 1 point). Tested 300000 outputs and found 11055 primes (3.7% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-25. n² ÷ 3 with decimals of 0.3 or more go up: −6% (give or take 1 point). Tested 300000 outputs and found 11138 primes (3.7% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
-26. n² ÷ 6 with decimals of 0.3 or more go up: −6% (give or take 1 point). Tested 300000 outputs and found 11035 primes (3.7% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-27. n² ÷ 6 with decimals of 0.5 or more go up: −7% (give or take 1 point). Tested 300000 outputs and found 10929 primes (3.6% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-28. n² ÷ 9 with any decimals go up: −13% (give or take 1 point). Tested 300000 outputs and found 10276 primes (3.4% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-29. n² ÷ 10 with decimals of 0.5 or more go up: −14% (give or take 1 point). Tested 300000 outputs and found 10196 primes (3.4% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-30. n² ÷ 19: −19% (give or take 1 point). Tested 300000 outputs and found 9539 primes (3.2% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-31. n² ÷ 7 with any decimals go up: −19% (give or take 1 point). Tested 300000 outputs and found 9538 primes (3.2% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-32. n² ÷ 11 with decimals of 0.5 or more go up: −21% (give or take 1 point). Tested 300000 outputs and found 9275 primes (3.1% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-33. n² ÷ 5 with decimals of 0.5 or more go up: −27% (give or take 1 point). Tested 300000 outputs and found 8618 primes (2.9% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-34. n² ÷ 5 with decimals of 0.3 or more go up: −28% (give or take 1 point). Tested 300000 outputs and found 8490 primes (2.8% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-35. n² ÷ 8 with decimals of 0.5 or more go up: −31% (give or take 1 point). Tested 300000 outputs and found 8186 primes (2.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-36. n² ÷ 17: −32% (give or take 1 point). Tested 300000 outputs and found 7977 primes (2.7% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-37. n² ÷ 6: −32% (give or take 1 point). Tested 300000 outputs and found 7969 primes (2.7% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
-38. n² ÷ 8 with decimals of 0.3 or more go up: −32% (give or take 1 point). Tested 300000 outputs and found 8024 primes (2.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-39. n² ÷ 11: −36% (give or take 1 point). Tested 300000 outputs and found 7581 primes (2.5% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-40. n² ÷ 7: −36% (give or take 1 point). Tested 300000 outputs and found 7508 primes (2.5% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-41. n² ÷ 18: −38% (give or take 1 point). Tested 300000 outputs and found 7266 primes (2.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-42. n² ÷ 13: −42% (give or take 1 point). Tested 300000 outputs and found 6870 primes (2.3% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-43. n² ÷ 12 with decimals of 0.5 or more go up: −43% (give or take 1 point). Tested 300000 outputs and found 6717 primes (2.2% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
-44. n² ÷ 9 with decimals of 0.3 or more go up: −44% (give or take 1 point). Tested 300000 outputs and found 6617 primes (2.2% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
-45. n² ÷ 10: −45% (give or take 1 point). Tested 300000 outputs and found 6463 primes (2.2% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-46. n² ÷ 15: −51% (give or take 1 point). Tested 300000 outputs and found 5829 primes (1.9% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-47. n² ÷ 20: −56% (give or take 1 point). Tested 300000 outputs and found 5234 primes (1.7% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-48. n² ÷ 9: −66% (give or take 1 point). Tested 300000 outputs and found 3971 primes (1.3% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-49. n² ÷ 9 with decimals of 0.5 or more go up: −69% (give or take 1 point). Tested 300000 outputs and found 3704 primes (1.2% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-50. (n² + 1) ÷ 3: −100% (give or take 1 point). Tested 299999 outputs and found 1 prime (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-51. n² ÷ 12: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-52. n² ÷ 16: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-53. n² ÷ 2: −100% (give or take 1 point). Tested 299998 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
-54. n² ÷ 3: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
-55. n² ÷ 3 with decimals of 0.5 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
-56. n² ÷ 4: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
-57. n² ÷ 4 with decimals of 0.3 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
-58. n² ÷ 4 with decimals of 0.5 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-59. n² ÷ 5: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-60. n² ÷ 8: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+2. n² ÷ 12 then bump the last digit: +154% (give or take 1 point). Tested 300000 outputs and found 37217 primes (12% of the outputs) where chance predicts 14651 (4.9%). Luck odds: under 1 in a billion.
+3. n² ÷ 8 then bump the last digit: +147% (give or take 1 point). Tested 300000 outputs and found 35403 primes (12% of the outputs) where chance predicts 14362 (4.8%). Luck odds: under 1 in a billion.
+4. n² ÷ 7 then bump the last digit: +136% (give or take 1 point). Tested 300000 outputs and found 27782 primes (9.3% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+5. n² ÷ 2 then bump the last digit: +135% (give or take 1 point). Tested 300000 outputs and found 27669 primes (9.2% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+6. n² ÷ 5 then bump the last digit: +120% (give or take 1 point). Tested 300000 outputs and found 26007 primes (8.7% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+7. n² ÷ 16 then bump the last digit: +119% (give or take 1 point). Tested 300000 outputs and found 32551 primes (11% of the outputs) where chance predicts 14864 (5.0%). Luck odds: under 1 in a billion.
+8. n² ÷ 4 then bump the last digit: +108% (give or take 1 point). Tested 300000 outputs and found 24490 primes (8.2% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+9. n² ÷ 3 then bump the last digit: +101% (give or take 1 point). Tested 300000 outputs and found 23688 primes (7.9% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
+10. (n² + 1) ÷ 3 then bump the last digit: +99% (give or take 1 point). Tested 299999 outputs and found 23524 primes (7.8% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+11. n² ÷ 10 with any decimals go up: +73% (give or take 1 point). Tested 300000 outputs and found 20372 primes (6.8% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
+12. n² ÷ 12 with any decimals go up: +72% (give or take 1 point). Tested 300000 outputs and found 20265 primes (6.8% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
+13. n² ÷ 8 with any decimals go up: +66% (give or take 1 point). Tested 300000 outputs and found 19620 primes (6.5% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+14. n² ÷ 6 with any decimals go up: +65% (give or take 1 point). Tested 300000 outputs and found 19511 primes (6.5% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+15. n² ÷ 5 with any decimals go up: +45% (give or take 1 point). Tested 300000 outputs and found 17147 primes (5.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+16. n² ÷ 2 with decimals of 0.3 or more go up: +37% (give or take 1 point). Tested 300000 outputs and found 16198 primes (5.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+17. n² ÷ 2 with decimals of 0.5 or more go up: +37% (give or take 1 point). Tested 300000 outputs and found 16199 primes (5.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+18. n² ÷ 2 with any decimals go up: +36% (give or take 1 point). Tested 300000 outputs and found 16098 primes (5.4% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+19. n² ÷ 10 with decimals of 0.3 or more go up: +25% (give or take 1 point). Tested 300000 outputs and found 14730 primes (4.9% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+20. n² ÷ 14: +15% (give or take 1 point). Tested 300000 outputs and found 13558 primes (4.5% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+21. n² ÷ 4 with any decimals go up: +13% (give or take 1 point). Tested 300000 outputs and found 13334 primes (4.4% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
+22. n² ÷ 11 with any decimals go up: +6% (give or take 1 point). Tested 300000 outputs and found 12511 primes (4.2% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+23. n² ÷ 12 with decimals of 0.3 or more go up: +2% (give or take 1 point). Tested 300000 outputs and found 12026 primes (4.0% of the outputs) where chance predicts 11793 (3.9%). Luck odds: about 2 in 100.
+24. n² ÷ 7 with decimals of 0.3 or more go up: +1% (give or take 1 point). Tested 300000 outputs and found 11923 primes (4.0% of the outputs) where chance predicts 11791 (3.9%). Luck odds: about 11 in 100 which means the gap could be luck.
+25. n² ÷ 7 with decimals of 0.5 or more go up: +1% (give or take 1 point). Tested 300000 outputs and found 11962 primes (4.0% of the outputs) where chance predicts 11794 (3.9%). Luck odds: about 6 in 100.
+26. n² ÷ 11 with decimals of 0.3 or more go up: −4% (give or take 1 point). Tested 300000 outputs and found 11335 primes (3.8% of the outputs) where chance predicts 11793 (3.9%). Luck odds: 1 in 90000.
+27. n² ÷ 3 with any decimals go up: −6% (give or take 1 point). Tested 300000 outputs and found 11055 primes (3.7% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+28. n² ÷ 3 with decimals of 0.3 or more go up: −6% (give or take 1 point). Tested 300000 outputs and found 11138 primes (3.7% of the outputs) where chance predicts 11790 (3.9%). Luck odds: under 1 in a billion.
+29. n² ÷ 6 with decimals of 0.3 or more go up: −6% (give or take 1 point). Tested 300000 outputs and found 11035 primes (3.7% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+30. n² ÷ 6 with decimals of 0.5 or more go up: −7% (give or take 1 point). Tested 300000 outputs and found 10929 primes (3.6% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+31. n² ÷ 9 with any decimals go up: −13% (give or take 1 point). Tested 300000 outputs and found 10276 primes (3.4% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+32. n² ÷ 10 with decimals of 0.5 or more go up: −14% (give or take 1 point). Tested 300000 outputs and found 10196 primes (3.4% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+33. n² ÷ 19: −19% (give or take 1 point). Tested 300000 outputs and found 9539 primes (3.2% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+34. n² ÷ 7 with any decimals go up: −19% (give or take 1 point). Tested 300000 outputs and found 9538 primes (3.2% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+35. n² ÷ 11 with decimals of 0.5 or more go up: −21% (give or take 1 point). Tested 300000 outputs and found 9275 primes (3.1% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+36. n² ÷ 5 with decimals of 0.5 or more go up: −27% (give or take 1 point). Tested 300000 outputs and found 8618 primes (2.9% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+37. n² ÷ 5 with decimals of 0.3 or more go up: −28% (give or take 1 point). Tested 300000 outputs and found 8490 primes (2.8% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+38. n² ÷ 8 with decimals of 0.5 or more go up: −31% (give or take 1 point). Tested 300000 outputs and found 8186 primes (2.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+39. n² ÷ 17: −32% (give or take 1 point). Tested 300000 outputs and found 7977 primes (2.7% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+40. n² ÷ 6: −32% (give or take 1 point). Tested 300000 outputs and found 7969 primes (2.7% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
+41. n² ÷ 8 with decimals of 0.3 or more go up: −32% (give or take 1 point). Tested 300000 outputs and found 8024 primes (2.7% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+42. n² ÷ 11: −36% (give or take 1 point). Tested 300000 outputs and found 7581 primes (2.5% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+43. n² ÷ 7: −36% (give or take 1 point). Tested 300000 outputs and found 7508 primes (2.5% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+44. n² ÷ 18: −38% (give or take 1 point). Tested 300000 outputs and found 7266 primes (2.4% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+45. n² ÷ 13: −42% (give or take 1 point). Tested 300000 outputs and found 6870 primes (2.3% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+46. n² ÷ 12 with decimals of 0.5 or more go up: −43% (give or take 1 point). Tested 300000 outputs and found 6717 primes (2.2% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
+47. n² ÷ 9 with decimals of 0.3 or more go up: −44% (give or take 1 point). Tested 300000 outputs and found 6617 primes (2.2% of the outputs) where chance predicts 11797 (3.9%). Luck odds: under 1 in a billion.
+48. n² ÷ 10: −45% (give or take 1 point). Tested 300000 outputs and found 6463 primes (2.2% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+49. n² ÷ 15: −51% (give or take 1 point). Tested 300000 outputs and found 5829 primes (1.9% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+50. n² ÷ 20: −56% (give or take 1 point). Tested 300000 outputs and found 5234 primes (1.7% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+51. n² ÷ 9: −66% (give or take 1 point). Tested 300000 outputs and found 3971 primes (1.3% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+52. n² ÷ 9 with decimals of 0.5 or more go up: −69% (give or take 1 point). Tested 300000 outputs and found 3704 primes (1.2% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+53. (n² + 1) ÷ 3: −100% (give or take 1 point). Tested 299999 outputs and found 1 prime (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+54. n² ÷ 12: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+55. n² ÷ 16: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+56. n² ÷ 2: −100% (give or take 1 point). Tested 299998 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
+57. n² ÷ 3: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11791 (3.9%). Luck odds: under 1 in a billion.
+58. n² ÷ 3 with decimals of 0.5 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11793 (3.9%). Luck odds: under 1 in a billion.
+59. n² ÷ 4: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11798 (3.9%). Luck odds: under 1 in a billion.
+60. n² ÷ 4 with decimals of 0.3 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11796 (3.9%). Luck odds: under 1 in a billion.
+61. n² ÷ 4 with decimals of 0.5 or more go up: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+62. n² ÷ 5: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+63. n² ÷ 8: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11794 (3.9%). Luck odds: under 1 in a billion.
 
 ## Equations and digits built from e
 
@@ -572,29 +628,40 @@ Dividing a cube or dividing by an expression with n often turns the output into 
 7. n³ ÷ 7 then bump the last digit: +69% (give or take 5 points). Tested 19127 outputs and found 1346 primes (7.0% of the outputs) where chance predicts 795 (4.2%). Luck odds: under 1 in a billion.
 8. n³ ÷ 12: +30% (give or take 4 points). Tested 22891 outputs and found 1239 primes (5.4% of the outputs) where chance predicts 951 (4.2%). Luck odds: under 1 in a billion.
 9. n³ ÷ 6: +29% (give or take 4 points). Tested 18168 outputs and found 973 primes (5.4% of the outputs) where chance predicts 755 (4.2%). Luck odds: under 1 in a billion.
-10. n³ ÷ 15: +14% (give or take 3 points). Tested 24659 outputs and found 1166 primes (4.7% of the outputs) where chance predicts 1024 (4.2%). Luck odds: 1 in 100000.
-11. n³ ÷ 20: +8% (give or take 3 points). Tested 27141 outputs and found 1220 primes (4.5% of the outputs) where chance predicts 1128 (4.2%). Luck odds: 1 in 300.
-12. n³ ÷ 18: +4% (give or take 3 points). Tested 26204 outputs and found 1137 primes (4.3% of the outputs) where chance predicts 1089 (4.2%). Luck odds: about 8 in 100.
-13. n⁴ ÷ (n² + 1) then bump the last digit: +4% (give or take 1 point). Tested 300000 outputs and found 12273 primes (4.1% of the outputs) where chance predicts 11795 (3.9%). Luck odds: 1 in 200000.
-14. n² ÷ (n + 1): −1% (give or take 1 point). Tested 300000 outputs and found 11179 primes (3.7% of the outputs) where chance predicts 11284 (3.8%). Luck odds: about 16 in 100 which means the gap could be luck.
-15. n³ ÷ 14: −5% (give or take 3 points). Tested 24098 outputs and found 953 primes (4.0% of the outputs) where chance predicts 1001 (4.2%). Luck odds: about 7 in 100.
-16. n³ ÷ 17: −5% (give or take 3 points). Tested 25710 outputs and found 1011 primes (3.9% of the outputs) where chance predicts 1068 (4.2%). Luck odds: about 4 in 100.
-17. n³ ÷ 10: −8% (give or take 3 points). Tested 21541 outputs and found 819 primes (3.8% of the outputs) where chance predicts 895 (4.2%). Luck odds: 1 in 200.
-18. n³ ÷ 11: −11% (give or take 3 points). Tested 22237 outputs and found 820 primes (3.7% of the outputs) where chance predicts 924 (4.2%). Luck odds: 1 in 4000.
-19. n³ ÷ 19: −22% (give or take 3 points). Tested 26681 outputs and found 860 primes (3.2% of the outputs) where chance predicts 1109 (4.2%). Luck odds: under 1 in a billion.
-20. n³ ÷ 5: −23% (give or take 3 points). Tested 17097 outputs and found 546 primes (3.2% of the outputs) where chance predicts 710 (4.2%). Luck odds: under 1 in a billion.
-21. n³ ÷ 3: −33% (give or take 3 points). Tested 14419 outputs and found 401 primes (2.8% of the outputs) where chance predicts 599 (4.2%). Luck odds: under 1 in a billion.
-22. n³ ÷ 13: −44% (give or take 2 points). Tested 23510 outputs and found 545 primes (2.3% of the outputs) where chance predicts 977 (4.2%). Luck odds: under 1 in a billion.
-23. n³ ÷ 7: −48% (give or take 3 points). Tested 19127 outputs and found 412 primes (2.2% of the outputs) where chance predicts 795 (4.2%). Luck odds: under 1 in a billion.
-24. n ÷ 2: −50% (give or take 1 point). Tested 300000 outputs and found 13848 primes (4.6% of the outputs) where chance predicts 27785 (9.3%). Luck odds: under 1 in a billion. Note: inputs 2 to 300001 in order with repeated primes counted once.
-25. n³ ÷ 16: −52% (give or take 2 points). Tested 25195 outputs and found 503 primes (2.0% of the outputs) where chance predicts 1047 (4.2%). Luck odds: under 1 in a billion.
-26. n³ ÷ 8: −52% (give or take 2 points). Tested 19997 outputs and found 398 primes (2.0% of the outputs) where chance predicts 831 (4.2%). Luck odds: under 1 in a billion.
-27. n³ ÷ 4: −67% (give or take 2 points). Tested 15871 outputs and found 218 primes (1.4% of the outputs) where chance predicts 659 (4.2%). Luck odds: under 1 in a billion.
-28. n × (n + 1) ÷ 2: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
-29. n³ ÷ (n + 1): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
-30. n³ ÷ 2: −100% (give or take 1 point). Tested 12598 outputs and found 1 prime (0.008% of the outputs) where chance predicts 524 (4.2%). Luck odds: under 1 in a billion.
-31. n³ ÷ 9: −100% (give or take 1 point). Tested 20798 outputs and found 3 primes (0.014% of the outputs) where chance predicts 865 (4.2%). Luck odds: under 1 in a billion.
-32. n⁴ ÷ (n² + 1): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+10. n³ ÷ 9 then bump the last digit: +26% (give or take 1 point). Tested 300000 outputs and found 11729 primes (3.9% of the outputs) where chance predicts 9297 (3.1%). Luck odds: under 1 in a billion.
+11. n³ ÷ 15: +14% (give or take 3 points). Tested 24659 outputs and found 1166 primes (4.7% of the outputs) where chance predicts 1024 (4.2%). Luck odds: 1 in 100000.
+12. n³ ÷ 20: +8% (give or take 3 points). Tested 27141 outputs and found 1220 primes (4.5% of the outputs) where chance predicts 1128 (4.2%). Luck odds: 1 in 300.
+13. n³ ÷ 18: +4% (give or take 3 points). Tested 26204 outputs and found 1137 primes (4.3% of the outputs) where chance predicts 1089 (4.2%). Luck odds: about 8 in 100.
+14. n⁴ ÷ (n² + 1) then bump the last digit: +4% (give or take 1 point). Tested 300000 outputs and found 12273 primes (4.1% of the outputs) where chance predicts 11795 (3.9%). Luck odds: 1 in 200000.
+15. n² ÷ (n + 1): −1% (give or take 1 point). Tested 300000 outputs and found 11179 primes (3.7% of the outputs) where chance predicts 11284 (3.8%). Luck odds: about 16 in 100 which means the gap could be luck.
+16. n³ ÷ 14: −5% (give or take 3 points). Tested 24098 outputs and found 953 primes (4.0% of the outputs) where chance predicts 1001 (4.2%). Luck odds: about 7 in 100.
+17. n³ ÷ 17: −5% (give or take 3 points). Tested 25710 outputs and found 1011 primes (3.9% of the outputs) where chance predicts 1068 (4.2%). Luck odds: about 4 in 100.
+18. n³ ÷ 10: −8% (give or take 3 points). Tested 21541 outputs and found 819 primes (3.8% of the outputs) where chance predicts 895 (4.2%). Luck odds: 1 in 200.
+19. n³ ÷ 11: −11% (give or take 3 points). Tested 22237 outputs and found 820 primes (3.7% of the outputs) where chance predicts 924 (4.2%). Luck odds: 1 in 4000.
+20. n³ ÷ 19: −22% (give or take 3 points). Tested 26681 outputs and found 860 primes (3.2% of the outputs) where chance predicts 1109 (4.2%). Luck odds: under 1 in a billion.
+21. n³ ÷ 5: −23% (give or take 3 points). Tested 17097 outputs and found 546 primes (3.2% of the outputs) where chance predicts 710 (4.2%). Luck odds: under 1 in a billion.
+22. n³ ÷ 3: −33% (give or take 3 points). Tested 14419 outputs and found 401 primes (2.8% of the outputs) where chance predicts 599 (4.2%). Luck odds: under 1 in a billion.
+23. n³ ÷ 13: −44% (give or take 2 points). Tested 23510 outputs and found 545 primes (2.3% of the outputs) where chance predicts 977 (4.2%). Luck odds: under 1 in a billion.
+24. n³ ÷ 7: −48% (give or take 3 points). Tested 19127 outputs and found 412 primes (2.2% of the outputs) where chance predicts 795 (4.2%). Luck odds: under 1 in a billion.
+25. n ÷ 2: −50% (give or take 1 point). Tested 300000 outputs and found 13848 primes (4.6% of the outputs) where chance predicts 27785 (9.3%). Luck odds: under 1 in a billion. Note: inputs 2 to 300001 in order with repeated primes counted once.
+26. n³ ÷ 16: −52% (give or take 2 points). Tested 25195 outputs and found 503 primes (2.0% of the outputs) where chance predicts 1047 (4.2%). Luck odds: under 1 in a billion.
+27. n³ ÷ 8: −52% (give or take 2 points). Tested 19997 outputs and found 398 primes (2.0% of the outputs) where chance predicts 831 (4.2%). Luck odds: under 1 in a billion.
+28. n³ ÷ 4: −67% (give or take 2 points). Tested 15871 outputs and found 218 primes (1.4% of the outputs) where chance predicts 659 (4.2%). Luck odds: under 1 in a billion.
+29. n × (n + 1) ÷ 2: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+30. n³ ÷ (n + 1): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+31. n³ ÷ 2: −100% (give or take 1 point). Tested 12598 outputs and found 1 prime (0.008% of the outputs) where chance predicts 524 (4.2%). Luck odds: under 1 in a billion.
+32. n³ ÷ 9: −100% (give or take 1 point). Tested 20798 outputs and found 3 primes (0.014% of the outputs) where chance predicts 865 (4.2%). Luck odds: under 1 in a billion.
+33. n⁴ ÷ (n² + 1): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11795 (3.9%). Luck odds: under 1 in a billion.
+
+## Equations famous for very few primes
+
+These equations do not split into factors and still almost never give a prime because many small primes divide the outputs far more often than usual.
+
+1. n¹² + 488669 then bump the last digit: +155% (give or take 3 points). Tested 300000 outputs and found 5551 primes (1.9% of the outputs) where chance predicts 2174 (0.72%). Luck odds: under 1 in a billion.
+2. n⁶ + 1091 then bump the last digit: +121% (give or take 2 points). Tested 300000 outputs and found 9623 primes (3.2% of the outputs) where chance predicts 4348 (1.4%). Luck odds: under 1 in a billion.
+3. n⁶ + 1091: −97% (give or take 1 point). Tested 300000 outputs and found 132 primes (0.044% of the outputs) where chance predicts 4348 (1.4%). Luck odds: under 1 in a billion.
+4. n⁶ + 29450922301244534: −99% (give or take 1 point). Tested 300000 outputs and found 26 primes (0.009% of the outputs) where chance predicts 4344 (1.4%). Luck odds: under 1 in a billion.
+5. n¹² + 488669: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 2174 (0.72%). Luck odds: under 1 in a billion.
 
 ## Equations and digits built from π
 
@@ -645,6 +712,17 @@ Recipes built from the golden ratio behave like the plain number line once decim
 7. n × φ (the golden ratio): +1% (give or take 1 point). Tested 300000 outputs and found 11418 primes (3.8% of the outputs) where chance predicts 11282 (3.8%). Luck odds: about 10 in 100 which means the gap could be luck.
 8. n² × φ (the golden ratio): 0% (give or take 1 point). Tested 300000 outputs and found 11748 primes (3.9% of the outputs) where chance predicts 11789 (3.9%). Luck odds: about 35 in 100 which means the gap could be luck.
 
+## Bit tricks
+
+Bit tricks work on the base 2 form of a number. A trick that keeps every output even lands at −100%.
+
+1. n² combined with n by the exclusive-or rule then bump the last digit: +150% (give or take 1 point). Tested 300000 outputs and found 32643 primes (11% of the outputs) where chance predicts 13043 (4.3%). Luck odds: under 1 in a billion.
+2. n combined with half of n by the exclusive-or rule: 0% (give or take 1 point). Tested 300000 outputs and found 25916 primes (8.6% of the outputs) where chance predicts 25995 (8.7%). Luck odds: about 31 in 100 which means the gap could be luck.
+3. the binary digits of n written backward: −7% (give or take 1 point). Tested 300000 outputs and found 25956 primes (8.7% of the outputs) where chance predicts 28024 (9.3%). Luck odds: under 1 in a billion.
+4. n² + (2ⁿ mod n): −33% (give or take 1 point). Tested 300000 outputs and found 8688 primes (2.9% of the outputs) where chance predicts 13043 (4.3%). Luck odds: under 1 in a billion.
+5. n + (2ⁿ mod n): −41% (give or take 1 point). Tested 300000 outputs and found 15075 primes (5.0% of the outputs) where chance predicts 25479 (8.5%). Luck odds: under 1 in a billion.
+6. n² combined with n by the exclusive-or rule: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 13043 (4.3%). Luck odds: under 1 in a billion.
+
 ## Digit tricks
 
 Digit tricks often force a factor. A number written twice side by side is a multiple of a number such as 1001 and a number followed by its own mirror image is a multiple of 11.
@@ -652,29 +730,33 @@ Digit tricks often force a factor. A number written twice side by side is a mult
 1. the digit 1 then n then the digit 1: +150% (give or take 1 point). Tested 300000 outputs and found 48580 primes (16% of the outputs) where chance predicts 19454 (6.5%). Luck odds: under 1 in a billion.
 2. n × (the digit total of n) + 1: +127% (give or take 1 point). Tested 300000 outputs and found 46575 primes (16% of the outputs) where chance predicts 20524 (6.8%). Luck odds: under 1 in a billion.
 3. n × (n written backward) + 1: +63% (give or take 1 point). Tested 300000 outputs and found 21049 primes (7.0% of the outputs) where chance predicts 12900 (4.3%). Luck odds: under 1 in a billion.
-4. n followed by n written backward with the middle digit shared: +24% (give or take 1 point). Tested 300000 outputs and found 16876 primes (5.6% of the outputs) where chance predicts 13649 (4.5%). Luck odds: under 1 in a billion.
-5. n written in base 2 and then read as a base 10 number: +15% (give or take 1 point). Tested 300000 outputs and found 9332 primes (3.1% of the outputs) where chance predicts 8093 (2.7%). Luck odds: under 1 in a billion.
-6. n followed by n + 1: +4% (give or take 1 point). Tested 300000 outputs and found 12852 primes (4.3% of the outputs) where chance predicts 12334 (4.1%). Luck odds: 1 in 500000.
-7. n² + (the digit total of n)²: −1% (give or take 1 point). Tested 300000 outputs and found 12882 primes (4.3% of the outputs) where chance predicts 13044 (4.3%). Luck odds: about 8 in 100.
-8. the digits of n read as a base 11 number: −1% (give or take 1 point). Tested 300000 outputs and found 24841 primes (8.3% of the outputs) where chance predicts 25179 (8.4%). Luck odds: about 2 in 100.
-9. n followed by the digit total of n: −3% (give or take 1 point). Tested 300000 outputs and found 18112 primes (6.0% of the outputs) where chance predicts 18636 (6.2%). Luck odds: 1 in 20000.
-10. n² written backward: −3% (give or take 1 point). Tested 300000 outputs and found 12906 primes (4.3% of the outputs) where chance predicts 13340 (4.4%). Luck odds: 1 in 10000.
-11. n written in base 3 and then read as a base 10 number: −20% (give or take 1 point). Tested 300000 outputs and found 10282 primes (3.4% of the outputs) where chance predicts 12873 (4.3%). Luck odds: under 1 in a billion.
-12. n + (n written backward): −99% (give or take 1 point). Tested 300000 outputs and found 331 primes (0.11% of the outputs) where chance predicts 23999 (8.0%). Luck odds: under 1 in a billion.
-13. n followed by n written backward: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
-14. n written twice side by side: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
+4. n written twice side by side then bump the last digit: +56% (give or take 1 point). Tested 300000 outputs and found 19245 primes (6.4% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
+5. n followed by n written backward then bump the last digit: +44% (give or take 1 point). Tested 300000 outputs and found 17705 primes (5.9% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
+6. n followed by n written backward with the middle digit shared: +24% (give or take 1 point). Tested 300000 outputs and found 16876 primes (5.6% of the outputs) where chance predicts 13649 (4.5%). Luck odds: under 1 in a billion.
+7. n written in base 2 and then read as a base 10 number: +15% (give or take 1 point). Tested 300000 outputs and found 9332 primes (3.1% of the outputs) where chance predicts 8093 (2.7%). Luck odds: under 1 in a billion.
+8. n followed by n + 1: +4% (give or take 1 point). Tested 300000 outputs and found 12852 primes (4.3% of the outputs) where chance predicts 12334 (4.1%). Luck odds: 1 in 500000.
+9. n² + (the digit total of n)²: −1% (give or take 1 point). Tested 300000 outputs and found 12882 primes (4.3% of the outputs) where chance predicts 13044 (4.3%). Luck odds: about 8 in 100.
+10. the digits of n read as a base 11 number: −1% (give or take 1 point). Tested 300000 outputs and found 24841 primes (8.3% of the outputs) where chance predicts 25179 (8.4%). Luck odds: about 2 in 100.
+11. n followed by the digit total of n: −3% (give or take 1 point). Tested 300000 outputs and found 18112 primes (6.0% of the outputs) where chance predicts 18636 (6.2%). Luck odds: 1 in 20000.
+12. n² written backward: −3% (give or take 1 point). Tested 300000 outputs and found 12906 primes (4.3% of the outputs) where chance predicts 13340 (4.4%). Luck odds: 1 in 10000.
+13. n written in base 3 and then read as a base 10 number: −20% (give or take 1 point). Tested 300000 outputs and found 10282 primes (3.4% of the outputs) where chance predicts 12873 (4.3%). Luck odds: under 1 in a billion.
+14. n + (n written backward) then bump the last digit: −94% (give or take 1 point). Tested 300000 outputs and found 1327 primes (0.44% of the outputs) where chance predicts 23999 (8.0%). Luck odds: under 1 in a billion.
+15. n + (n written backward): −99% (give or take 1 point). Tested 300000 outputs and found 331 primes (0.11% of the outputs) where chance predicts 23999 (8.0%). Luck odds: under 1 in a billion.
+16. n followed by n written backward: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
+17. n written twice side by side: −100% (give or take 1 point). Tested 300000 outputs and found 1 prime (0.000% of the outputs) where chance predicts 12334 (4.1%). Luck odds: under 1 in a billion.
 
 ## Modulus (the remainder after division)
 
 Modulus recipes mostly sit below 0% because the outputs stay small and repeat and a repeated prime counts once.
 
 1. n × (n mod 7) + 1: +109% (give or take 1 point). Tested 300000 outputs and found 21168 primes (7.1% of the outputs) where chance predicts 10138 (3.4%). Luck odds: under 1 in a billion.
-2. n² + n + 41 mod 1000000007: 0% (give or take 1 point). Tested 300000 outputs and found 15295 primes (5.1% of the outputs) where chance predicts 15254 (5.1%). Luck odds: about 37 in 100 which means the gap could be luck. Note: repeated primes counted once.
-3. n² mod 1000003: −25% (give or take 1 point). Tested 300000 outputs and found 17667 primes (5.9% of the outputs) where chance predicts 23587 (7.9%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
-4. 3 to the power n mod (2n + 1): −49% (give or take 1 point). Tested 300000 outputs and found 7975 primes (2.7% of the outputs) where chance predicts 15753 (5.3%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
-5. 2 to the power n mod n: −79% (give or take 1 point). Tested 300000 outputs and found 6658 primes (2.2% of the outputs) where chance predicts 31021 (10%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
-6. 2 + (2 × n!) mod (n + 1): −91% (give or take 1 point). Tested 300000 outputs and found 25997 primes (8.7% of the outputs) where chance predicts 276294 (92%). Luck odds: under 1 in a billion. Note: a known formula whose output is 2 for most inputs and repeated primes counted once.
-7. n² + (n mod 6): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
+2. n² + (n mod 6) then bump the last digit: +97% (give or take 1 point). Tested 300000 outputs and found 25696 primes (8.6% of the outputs) where chance predicts 13044 (4.3%). Luck odds: under 1 in a billion.
+3. n² + n + 41 mod 1000000007: 0% (give or take 1 point). Tested 300000 outputs and found 15295 primes (5.1% of the outputs) where chance predicts 15254 (5.1%). Luck odds: about 37 in 100 which means the gap could be luck. Note: repeated primes counted once.
+4. n² mod 1000003: −25% (give or take 1 point). Tested 300000 outputs and found 17667 primes (5.9% of the outputs) where chance predicts 23587 (7.9%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
+5. 3 to the power n mod (2n + 1): −49% (give or take 1 point). Tested 300000 outputs and found 7975 primes (2.7% of the outputs) where chance predicts 15753 (5.3%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
+6. 2 to the power n mod n: −79% (give or take 1 point). Tested 300000 outputs and found 6658 primes (2.2% of the outputs) where chance predicts 31021 (10%). Luck odds: under 1 in a billion. Note: repeated primes counted once.
+7. 2 + (2 × n!) mod (n + 1): −91% (give or take 1 point). Tested 300000 outputs and found 25997 primes (8.7% of the outputs) where chance predicts 276294 (92%). Luck odds: under 1 in a billion. Note: a known formula whose output is 2 for most inputs and repeated primes counted once.
+8. n² + (n mod 6): −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 11792 (3.9%). Luck odds: under 1 in a billion.
 
 ## Trig functions (sine and cosine and tangent)
 
@@ -722,23 +804,17 @@ The best fractions for π are 3 and 22/7 and 333/106 and 355/113 and so on and t
 2. the top numbers of the best fractions for π (3 then 22 then 333 then 355 and so on): +51% (give or take 53 points). Tested 561 outputs and found 8 primes (1.4% of the outputs) where chance predicts 5.3 (0.95%). Luck odds: about 17 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
 3. the top numbers of the best fractions for e: +39% (give or take 44 points). Tested 392 outputs and found 10 primes (2.6% of the outputs) where chance predicts 7.2 (1.8%). Luck odds: about 19 in 100 which means the gap could be luck. Note: outputs up to 300 digits.
 
-## Bit tricks
+## Three variables and no numbers
 
-Bit tricks work on the base 2 form of a number. A trick that keeps every output even lands at −100%.
+These recipes use three inputs and no numbers at all and each test picks the three inputs at random. Most of the recipes sit near the number line because three free inputs leave little structure for small primes to miss.
 
-1. n combined with half of n by the exclusive-or rule: 0% (give or take 1 point). Tested 300000 outputs and found 25916 primes (8.6% of the outputs) where chance predicts 25995 (8.7%). Luck odds: about 31 in 100 which means the gap could be luck.
-2. the binary digits of n written backward: −7% (give or take 1 point). Tested 300000 outputs and found 25956 primes (8.7% of the outputs) where chance predicts 28024 (9.3%). Luck odds: under 1 in a billion.
-3. n² + (2ⁿ mod n): −33% (give or take 1 point). Tested 300000 outputs and found 8688 primes (2.9% of the outputs) where chance predicts 13043 (4.3%). Luck odds: under 1 in a billion.
-4. n + (2ⁿ mod n): −41% (give or take 1 point). Tested 300000 outputs and found 15075 primes (5.0% of the outputs) where chance predicts 25479 (8.5%). Luck odds: under 1 in a billion.
-5. n² combined with n by the exclusive-or rule: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 13043 (4.3%). Luck odds: under 1 in a billion.
-
-## Equations famous for very few primes
-
-These equations do not split into factors and still almost never give a prime because many small primes divide the outputs far more often than usual.
-
-1. n⁶ + 1091: −97% (give or take 1 point). Tested 300000 outputs and found 132 primes (0.044% of the outputs) where chance predicts 4348 (1.4%). Luck odds: under 1 in a billion.
-2. n⁶ + 29450922301244534: −99% (give or take 1 point). Tested 300000 outputs and found 26 primes (0.009% of the outputs) where chance predicts 4344 (1.4%). Luck odds: under 1 in a billion.
-3. n¹² + 488669: −100% (give or take 1 point). Tested 300000 outputs and found 0 primes (0.000% of the outputs) where chance predicts 2174 (0.72%). Luck odds: under 1 in a billion.
+1. x² + y² + z² + x × y + y × z + z × x: +50% (give or take 1 point). Tested 300000 outputs and found 16081 primes (5.4% of the outputs) where chance predicts 10734 (3.6%). Luck odds: under 1 in a billion.
+2. x⁴ + y⁴ + z⁴: +18% (give or take 1 point). Tested 300000 outputs and found 13370 primes (4.5% of the outputs) where chance predicts 11309 (3.8%). Luck odds: under 1 in a billion.
+3. x × y + y × z + z × x: +1% (give or take 1 point). Tested 300000 outputs and found 11184 primes (3.7% of the outputs) where chance predicts 11111 (3.7%). Luck odds: about 25 in 100 which means the gap could be luck.
+4. x × y + z: 0% (give or take 1 point). Tested 300000 outputs and found 11784 primes (3.9% of the outputs) where chance predicts 11745 (3.9%). Luck odds: about 36 in 100 which means the gap could be luck.
+5. x² + y² + z²: 0% (give or take 1 point). Tested 300000 outputs and found 10949 primes (3.6% of the outputs) where chance predicts 10939 (3.6%). Luck odds: about 46 in 100 which means the gap could be luck.
+6. x³ + y³ + z³: −2% (give or take 1 point). Tested 300000 outputs and found 10898 primes (3.6% of the outputs) where chance predicts 11126 (3.7%). Luck odds: about 2 in 100.
+7. x × y × z + x + y + z: −48% (give or take 1 point). Tested 300000 outputs and found 6308 primes (2.1% of the outputs) where chance predicts 12245 (4.1%). Luck odds: under 1 in a billion.
 
 ## Program files
 

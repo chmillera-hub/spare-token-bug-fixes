@@ -1,0 +1,425 @@
+[
+ {
+  "group": "Two variables and no numbers",
+  "label": "x + y",
+  "tested": 300000,
+  "primes": 19937,
+  "expected": 21934.612325907765,
+  "pct": -9,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x × y",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 11746.690437817893,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x × y + x + y",
+  "tested": 300000,
+  "primes": 22781,
+  "expected": 11743.335707587568,
+  "pct": 94,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x² + y²",
+  "tested": 300000,
+  "primes": 14267,
+  "expected": 11171.51637640801,
+  "pct": 28,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x² + x × y + y²",
+  "tested": 300000,
+  "primes": 18336,
+  "expected": 11051.343111016296,
+  "pct": 66,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x² − x × y + y²",
+  "tested": 300000,
+  "primes": 18923,
+  "expected": 11362.2148083847,
+  "pct": 67,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x² + y² + x × y + x + y",
+  "tested": 300000,
+  "primes": 5283,
+  "expected": 11053.257828176742,
+  "pct": -52,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x² + y² + x + y",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 11171.620006143374,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x³ + y²",
+  "tested": 300000,
+  "primes": 11280,
+  "expected": 11280.933272843648,
+  "pct": 0,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x³ + y³",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 11435.495420455984,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x³ + x × y + y³",
+  "tested": 300000,
+  "primes": 23868,
+  "expected": 11435.7955922674,
+  "pct": 109,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x³ + x² × y + y³",
+  "tested": 300000,
+  "primes": 24344,
+  "expected": 11328.305580169837,
+  "pct": 115,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x⁴ + y²",
+  "tested": 300000,
+  "primes": 14501,
+  "expected": 11355.73100631049,
+  "pct": 28,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x⁴ + y⁴",
+  "tested": 300000,
+  "primes": 19559,
+  "expected": 11717.569549298889,
+  "pct": 67,
+  "note": "the inputs go up to 1000 so many pairs repeat"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x⁴ + x² × y² + y⁴",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 11618.569433655983,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x⁸ + y⁸",
+  "tested": 300000,
+  "primes": 6137,
+  "expected": 3409.058276526422,
+  "pct": 80,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x¹⁶ + y¹⁶",
+  "tested": 300000,
+  "primes": 5042,
+  "expected": 1705.93786508621,
+  "pct": 196,
+  "note": ""
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power y + y to the power x",
+  "tested": 5548,
+  "primes": 15,
+  "expected": 42.40435821757489,
+  "pct": -65,
+  "note": "outputs up to 150 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power y − y to the power x",
+  "tested": 5549,
+  "primes": 60,
+  "expected": 42.48297142859351,
+  "pct": 41,
+  "note": "outputs up to 150 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power y + y",
+  "tested": 23098,
+  "primes": 201,
+  "expected": 272.964200393712,
+  "pct": -26,
+  "note": "x from 2 to 300 and outputs up to 150 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power y + x + y",
+  "tested": 23098,
+  "primes": 266,
+  "expected": 272.65287412520985,
+  "pct": -2,
+  "note": "x from 2 to 300 and outputs up to 150 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power y + x × y",
+  "tested": 23098,
+  "primes": 0,
+  "expected": 272.49648444258156,
+  "pct": -100,
+  "note": "x from 2 to 300 and outputs up to 150 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power x + y to the power y",
+  "tested": 9453,
+  "primes": 45,
+  "expected": 33.34629475459588,
+  "pct": 35,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Two variables and no numbers",
+  "label": "x to the power x + y",
+  "tested": 295000,
+  "primes": 5365,
+  "expected": 6974.836254649638,
+  "pct": -23,
+  "note": "x up to 60 and y up to 5000"
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x² + y² + z²",
+  "tested": 300000,
+  "primes": 10949,
+  "expected": 10939.066148445938,
+  "pct": 0,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x × y + y × z + z × x",
+  "tested": 300000,
+  "primes": 11184,
+  "expected": 11111.272961751794,
+  "pct": 1,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x × y × z + x + y + z",
+  "tested": 300000,
+  "primes": 6308,
+  "expected": 12244.622267645498,
+  "pct": -48,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x² + y² + z² + x × y + y × z + z × x",
+  "tested": 300000,
+  "primes": 16081,
+  "expected": 10734.140956960158,
+  "pct": 50,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x³ + y³ + z³",
+  "tested": 300000,
+  "primes": 10898,
+  "expected": 11125.851953189309,
+  "pct": -2,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x⁴ + y⁴ + z⁴",
+  "tested": 300000,
+  "primes": 13370,
+  "expected": 11309.123499786658,
+  "pct": 18,
+  "note": ""
+ },
+ {
+  "group": "Three variables and no numbers",
+  "label": "x × y + z",
+  "tested": 300000,
+  "primes": 11784,
+  "expected": 11744.980097397709,
+  "pct": 0,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁴ + x¹³ + x¹² + x¹⁰ + x⁹ + x⁷ + x⁵ + x⁴ + x² + x + 1",
+  "tested": 300000,
+  "primes": 13742,
+  "expected": 1863.7261188771492,
+  "pct": 637,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁶ + x¹⁵ + x¹³ + x¹¹ + x¹⁰ + x⁸ + x⁶ + x⁵ + x³ + x + 1",
+  "tested": 300000,
+  "primes": 11463,
+  "expected": 1630.8148491164914,
+  "pct": 603,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁶ + x¹⁴ + x¹³ + x¹¹ + x⁷ + x⁶ + x⁵ + x⁴ + x³ + x² + 1",
+  "tested": 300000,
+  "primes": 10526,
+  "expected": 1630.8190397858384,
+  "pct": 545,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁵ + x¹¹ + x¹⁰ + x⁹ + x⁸ + x⁷ + x⁵ + x⁴ + x² + x + 1",
+  "tested": 300000,
+  "primes": 11527,
+  "expected": 1739.515127652788,
+  "pct": 563,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁵ + x¹⁴ + x¹³ + x¹¹ + x¹⁰ + x⁸ + x⁶ + x⁵ + x⁴ + x³ + x² + x + 1",
+  "tested": 300000,
+  "primes": 11391,
+  "expected": 1739.4790420444244,
+  "pct": 555,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁵ + x¹⁴ + x¹³ + x¹² + x¹¹ + x¹⁰ + x⁹ + x⁷ + x⁵ + x⁴ + x² + x + 1",
+  "tested": 300000,
+  "primes": 11513,
+  "expected": 1739.4783264911255,
+  "pct": 562,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x + 1",
+  "tested": 300000,
+  "primes": 25997,
+  "expected": 26086.125197401714,
+  "pct": 0,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x² + 1",
+  "tested": 300000,
+  "primes": 17924,
+  "expected": 13044.104037336407,
+  "pct": 37,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x² + x + 1",
+  "tested": 300000,
+  "primes": 29139,
+  "expected": 13043.702136606085,
+  "pct": 123,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x³ + x + 1",
+  "tested": 300000,
+  "primes": 26763,
+  "expected": 8696.320154109304,
+  "pct": 208,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x³ + x² + 1",
+  "tested": 300000,
+  "primes": 26778,
+  "expected": 8696.21378699359,
+  "pct": 208,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x⁴ + x + 1",
+  "tested": 300000,
+  "primes": 16591,
+  "expected": 6522.507748865074,
+  "pct": 154,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x⁴ + x³ + x² + x + 1",
+  "tested": 300000,
+  "primes": 19203,
+  "expected": 6522.1084396589695,
+  "pct": 194,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x⁶ + x⁵ + x⁴ + x³ + x² + x + 1",
+  "tested": 300000,
+  "primes": 19372,
+  "expected": 4348.198371250484,
+  "pct": 346,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x¹⁶ + 1",
+  "tested": 300000,
+  "primes": 5952,
+  "expected": 1631.405537375362,
+  "pct": 265,
+  "note": ""
+ },
+ {
+  "group": "One variable with every coefficient equal to 1",
+  "label": "x⁸ + 1",
+  "tested": 300000,
+  "primes": 6866,
+  "expected": 3261.810946182431,
+  "pct": 110,
+  "note": ""
+ }
+]

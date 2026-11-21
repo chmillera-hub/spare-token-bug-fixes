@@ -46,6 +46,24 @@ for fn in ('meaty_results.json','weird_results.json'):
         if fn.startswith('meaty') and lab in ('the nth prime + 2',): pass
         add(lab,r['pct'],r['tested'],r['primes'],r['expected'],r.get('note',''))
         E[-1]['g']=GM[r['group']]
+labels={e['label'] for e in E}
+SKIP1={'x + 1','x² + 1','x² + x + 1','x³ + x + 1','x³ + x² + 1','x⁴ + x + 1','x⁴ + x³ + x² + x + 1','x⁶ + x⁵ + x⁴ + x³ + x² + x + 1','x¹⁶ + 1','x⁸ + 1'}
+GN={'Two variables and no numbers':'nv2','Three variables and no numbers':'nv3','One variable with every coefficient equal to 1':'ones'}
+for r in json.load(open('no_numbers_results.json')):
+    if r['label'] in SKIP1 or r['label'] in labels: continue
+    add(r['label'],r['pct'],r['tested'],r['primes'],r['expected'],r.get('note','')); E[-1]['g']=GN[r['group']]; labels.add(r['label'])
+gof={e['label']:e.get('g') for e in E}
+for r in json.load(open('dead_bump_results.json')):
+    base=r['label'].replace(' with decimals dropped','') if r['label'].startswith(('n² ÷','n³ ÷')) else r['label']
+    base={'n × (n + 1) ÷ 2 (the totals of 1 + 2 + 3)':'n × (n + 1) ÷ 2'}.get(base,base)
+    if base.startswith('the totals of'): continue
+    lab=base+' then bump the last digit'
+    if lab in labels: continue
+    add(lab,r['bump'],r['tested'],r['primes_bump'],r['chance'],r.get('note','')); labels.add(lab)
+    g=gof.get(base) or gof.get(base+' with decimals dropped')
+    if base in ('2ⁿ ÷ 3','78557 × 2ⁿ + 1','509203 × 2ⁿ − 1','the whole numbers written side by side'): g=gof.get(base,g)
+    if base=='3n²': g=None
+    if g: E[-1]['g']=g
 def sh(x):
     x*=100
     return ('%.0f'%x if x>=10 else '%.1f'%x if x>=1 else '%.2f'%x if x>=0.1 else '%.3f'%x)+'%'

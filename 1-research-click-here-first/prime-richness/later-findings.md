@@ -160,10 +160,67 @@ About 55 recipes were made up for the test so no search would hold their results
 
 A known rule starts at 7 and at step n adds the largest number that divides both n and the running value. In 3 million steps the jump was 1 for all but 81 steps. Each of the 81 other jumps was prime and the 81 jumps held 31 different primes. So the rule never jumps by a non-prime above 1 and still finds far fewer primes than counting 1 2 3 4 5 does.
 
+## Equations with no numbers in them
+
+A one-variable equation with no numbers at all is a multiple of x for every input so such an equation has no primes. For example x³ + x² + x equals x × (x² + x + 1).
+
+With two or three variables and no numbers each recipe got 300000 random inputs. The highest were x¹⁶ + y¹⁶ at +196% and x³ + x² × y + y³ at +115% and x³ + x × y + y³ at +109% and x × y + x + y at +94% and x² + x × y + y² at +66% and x² + y² at +28%. Recipes such as x³ + y² and x² + y² + z² and x³ + y³ + z³ landed within 2 points of 0%. Recipes such as x³ + y³ and x⁴ + x² × y² + y⁴ and x² + y² + x + y landed at −100% because the first two split into factors and the third is even for every input.
+
+With one variable and every coefficient equal to 1 and a lone + 1 at the end a complete search scored all 65535 equations up to the 16th power by which small primes can divide the outputs. The best ones were then counted on inputs 1 to 300000.
+
+- x¹⁴ + x¹³ + x¹² + x¹⁰ + x⁹ + x⁷ + x⁵ + x⁴ + x² + x + 1: +637% (13742 primes where chance predicts 1864)
+- x¹⁶ + x¹⁵ + x¹³ + x¹¹ + x¹⁰ + x⁸ + x⁶ + x⁵ + x³ + x + 1: +603%
+- x¹⁵ + x¹¹ + x¹⁰ + x⁹ + x⁸ + x⁷ + x⁵ + x⁴ + x² + x + 1: +563%
+- x⁶ + x⁵ + x⁴ + x³ + x² + x + 1: +346% and x¹⁶ + 1: +265% and x² + x + 1: +123% and x² + 1: +37% (simple members of the same family for comparison)
+
+So an equation with no large number anywhere can still reach +637% because the choice of which powers are present blocks small primes the way a hand-picked large number does. The best equations sit near the top of the searched range so a search past the 16th power would probably find higher percentages.
+
+## Bumping recipes that give no primes
+
+The bump was applied to recipes that sit at or near −100%. Each line gives the percentage before the bump and after the bump (300000 inputs each).
+
+- the most pieces from n flat cuts of a cake: −100% plain and +182% bumped
+- n × (n + 1) ÷ 2 (the totals of 1 + 2 + 3): −100% plain and +159% bumped
+- n¹² + 488669: −100% plain and +155% bumped
+- n² ÷ 12 with decimals dropped: −100% plain and +154% bumped
+- the halfway point between the nth prime and the next prime: −100% plain and +154% bumped
+- n² combined with n by the exclusive-or rule: −100% plain and +150% bumped
+- n² ÷ 8 with decimals dropped: −100% plain and +147% bumped
+- x × y: −100% plain and +143% bumped
+- n² ÷ 2 with decimals dropped: −100% plain and +134% bumped
+- n² + n + 2: −100% plain and +127% bumped
+- n⁶ + 1091: −97% plain and +121% bumped
+- n² ÷ 5 with decimals dropped: −100% plain and +121% bumped
+- n² ÷ 16 with decimals dropped: −100% plain and +119% bumped
+- n² ÷ 4 with decimals dropped: −100% plain and +110% bumped
+- 3n²: −100% plain and +105% bumped
+- x² + y² + x + y: −100% plain and +105% bumped
+- 2n: −100% plain and +100% bumped
+- n² ÷ 3 with decimals dropped: −100% plain and +99% bumped
+- n² + (n mod 6): −100% plain and +97% bumped
+- n⁴ + 4: −100% plain and +81% bumped
+- n⁶ + 1: −100% plain and +71% bumped
+- x³ + y³: −100% plain and +65% bumped
+- n written twice side by side: −100% plain and +56% bumped
+- n followed by n written backward: −100% plain and +44% bumped
+- the totals of 1² + 2² + 3²: −100% plain and +35% bumped
+- n³ ÷ 9 with decimals dropped: −100% plain and +26% bumped
+- n² − 1: −100% plain and +5% bumped
+- x⁴ + x² × y² + y⁴: −100% plain and −16% bumped
+- 6n + 3: −100% plain and −25% bumped
+- n + (n written backward): −99% plain and −94% bumped
+- n⁴ + n² + 1: −100% plain and −100% bumped
+
+A recipe sits at −100% because one reason covers every output such as "even for every input" or "splits into two factors". The bump nudges an output up by 1 or 2 or 3 and the nudged number no longer equals the factored form. A recipe whose structure is fully broken lands near +150% because a bumped number ends in 1 or 3 or 7 or 9.
+
+n⁴ + n² + 1 stays at −100% because every output already ends in 1 or 3 or 7 or 9 so the bump changes nothing. n² − 1 reaches just +5% because the bump often adds exactly 1 and n² − 1 plus 1 is a perfect square. 2n reaches +100% because the endings 4 and 6 are both bumped to the same number ending in 7 and a repeated prime counts once.
+
+n¹² + 488669 gave 0 primes in 300000 inputs before the bump and 5551 primes after the bump. So the lack of primes in that equation rests on an exact pattern of which small primes divide the outputs and the pattern does not survive a shift of 1 to 3 in the last digit.
+
 ## The sample-size numbers on the master lists
 
 Each line of the master lists carries the count of outputs tested and the count of primes found and the count chance predicts plus two guards against small samples. "Give or take" is 100 times the square root of the count of primes found divided by the count chance predicts. "Luck odds" is the chance that a count at least that far from the predicted count shows up when the true rate equals the number line rate and the odds are worked out with the standard formula for counts of rare events. A line is marked "the gap could be luck" when the luck odds are about 10 in 100 or more.
 
 ## Program files
 
-The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and master_list_indicators.py (the sample-size numbers).
+The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).

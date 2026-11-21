@@ -1,0 +1,352 @@
+[
+ {
+  "label": "2n",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 100,
+  "primes_plain": 1,
+  "primes_bump": 49096,
+  "chance": 24585.730780690625,
+  "note": ""
+ },
+ {
+  "label": "6n + 3",
+  "tested": 300000,
+  "plain": -100,
+  "bump": -25,
+  "primes_plain": 0,
+  "primes_bump": 16911,
+  "chance": 22536.082013757557,
+  "note": ""
+ },
+ {
+  "label": "3n²",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 105,
+  "primes_plain": 1,
+  "primes_bump": 25481,
+  "chance": 12441.96364961908,
+  "note": ""
+ },
+ {
+  "label": "n² − 1",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 5,
+  "primes_plain": 1,
+  "primes_bump": 13723,
+  "chance": 13043.41722270402,
+  "note": ""
+ },
+ {
+  "label": "n² + n + 2",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 127,
+  "primes_plain": 0,
+  "primes_bump": 29593,
+  "chance": 13043.175647747437,
+  "note": ""
+ },
+ {
+  "label": "n⁴ + 4",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 81,
+  "primes_plain": 1,
+  "primes_bump": 11806,
+  "chance": 6522.099243567257,
+  "note": ""
+ },
+ {
+  "label": "n⁴ + n² + 1",
+  "tested": 300000,
+  "plain": -100,
+  "bump": -100,
+  "primes_plain": 1,
+  "primes_bump": 1,
+  "chance": 6522.489231333945,
+  "note": ""
+ },
+ {
+  "label": "n⁶ + 1",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 71,
+  "primes_plain": 1,
+  "primes_bump": 7441,
+  "chance": 4348.655651211246,
+  "note": ""
+ },
+ {
+  "label": "n¹² + 488669",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 155,
+  "primes_plain": 0,
+  "primes_bump": 5551,
+  "chance": 2173.9027705085973,
+  "note": ""
+ },
+ {
+  "label": "n⁶ + 1091",
+  "tested": 300000,
+  "plain": -97,
+  "bump": 121,
+  "primes_plain": 132,
+  "primes_bump": 9623,
+  "chance": 4347.7694903142865,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 2 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 134,
+  "primes_plain": 1,
+  "primes_bump": 31527,
+  "chance": 13454.744456075266,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 3 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 99,
+  "primes_plain": 2,
+  "primes_bump": 27325,
+  "chance": 13707.414673829724,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 4 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 110,
+  "primes_plain": 1,
+  "primes_bump": 29130,
+  "chance": 13893.037522438424,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 5 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 121,
+  "primes_plain": 3,
+  "primes_bump": 30976,
+  "chance": 14040.127609358213,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 8 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 147,
+  "primes_plain": 2,
+  "primes_bump": 35403,
+  "chance": 14361.999677400947,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 12 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 154,
+  "primes_plain": 3,
+  "primes_bump": 37217,
+  "chance": 14651.305796695233,
+  "note": ""
+ },
+ {
+  "label": "n² ÷ 16 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 119,
+  "primes_plain": 4,
+  "primes_bump": 32551,
+  "chance": 14863.86488901056,
+  "note": ""
+ },
+ {
+  "label": "n³ ÷ 9 with decimals dropped",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 26,
+  "primes_plain": 3,
+  "primes_bump": 11729,
+  "chance": 9296.935469586133,
+  "note": ""
+ },
+ {
+  "label": "n × (n + 1) ÷ 2 (the totals of 1 + 2 + 3)",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 159,
+  "primes_plain": 1,
+  "primes_bump": 34905,
+  "chance": 13454.526358938088,
+  "note": ""
+ },
+ {
+  "label": "the totals of 1² + 2² + 3²",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 35,
+  "primes_plain": 1,
+  "primes_bump": 12173,
+  "chance": 8985.688822321936,
+  "note": ""
+ },
+ {
+  "label": "the most pieces from n flat cuts of a cake",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 182,
+  "primes_plain": 1,
+  "primes_bump": 25868,
+  "chance": 9180.393195506527,
+  "note": ""
+ },
+ {
+  "label": "n written twice side by side",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 56,
+  "primes_plain": 1,
+  "primes_bump": 19245,
+  "chance": 12334.356973367967,
+  "note": ""
+ },
+ {
+  "label": "n followed by n written backward",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 44,
+  "primes_plain": 1,
+  "primes_bump": 17705,
+  "chance": 12334.349898969132,
+  "note": ""
+ },
+ {
+  "label": "n + (n written backward)",
+  "tested": 300000,
+  "plain": -99,
+  "bump": -94,
+  "primes_plain": 331,
+  "primes_bump": 1327,
+  "chance": 23998.727369921515,
+  "note": ""
+ },
+ {
+  "label": "n² combined with n by the exclusive-or rule",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 150,
+  "primes_plain": 0,
+  "primes_bump": 32643,
+  "chance": 13042.90184581344,
+  "note": ""
+ },
+ {
+  "label": "n² + (n mod 6)",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 97,
+  "primes_plain": 1,
+  "primes_bump": 25696,
+  "chance": 13043.805899531599,
+  "note": ""
+ },
+ {
+  "label": "the halfway point between the nth prime and the next prime",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 154,
+  "primes_plain": 0,
+  "primes_bump": 54120,
+  "chance": 21314.89296379199,
+  "note": ""
+ },
+ {
+  "label": "x × y",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 143,
+  "primes_plain": 0,
+  "primes_bump": 28572,
+  "chance": 11742.87253527653,
+  "note": ""
+ },
+ {
+  "label": "x³ + y³",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 65,
+  "primes_plain": 0,
+  "primes_bump": 18846,
+  "chance": 11435.050808607906,
+  "note": ""
+ },
+ {
+  "label": "x⁴ + x² × y² + y⁴",
+  "tested": 300000,
+  "plain": -100,
+  "bump": -16,
+  "primes_plain": 1,
+  "primes_bump": 9754,
+  "chance": 11622.242904121536,
+  "note": ""
+ },
+ {
+  "label": "x² + y² + x + y",
+  "tested": 300000,
+  "plain": -100,
+  "bump": 105,
+  "primes_plain": 0,
+  "primes_bump": 22937,
+  "chance": 11171.565353293456,
+  "note": ""
+ },
+ {
+  "label": "78557 × 2ⁿ + 1",
+  "tested": 980,
+  "plain": -100,
+  "bump": 2,
+  "primes_plain": 0,
+  "primes_bump": 6,
+  "chance": 5.893815277575561,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "label": "509203 × 2ⁿ − 1",
+  "tested": 977,
+  "plain": -100,
+  "bump": -100,
+  "primes_plain": 0,
+  "primes_bump": 0,
+  "chance": 5.678223646449913,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "label": "2ⁿ ÷ 3 with decimals dropped",
+  "tested": 998,
+  "plain": -80,
+  "bump": 165,
+  "primes_plain": 2,
+  "primes_bump": 26,
+  "chance": 9.829674773605793,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "label": "the whole numbers written side by side",
+  "tested": 136,
+  "plain": -100,
+  "bump": 280,
+  "primes_plain": 0,
+  "primes_bump": 7,
+  "chance": 1.8410716564340854,
+  "note": "outputs up to 300 digits"
+ }
+]

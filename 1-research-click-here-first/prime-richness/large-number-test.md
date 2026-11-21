@@ -19,7 +19,7 @@ Each equation was fed random inputs sized so the outputs have about 100 digits (
 - −66n³ + 3845n² − 60897n + 251831: +769% at about 100 digits (1512 primes in 40000 tests which is a share of 3.78%) and +794% at about 300 digits (258 primes in 20000 tests which is a share of 1.29%)
 - n⁶ + 1091: −94% at about 100 digits (12 primes in 40000 tests which is a share of 0.03%) and −100% at about 300 digits (0 primes in 20000 tests which is a share of 0.00%)
 
-The wobble from luck is about 25 points at 100 digits for the top equations and about 55 points at 300 digits so the small shifts between the two sizes are inside the wobble. The plain number line itself measured +10% at both sizes which shows how far luck alone can move a line. The single test at 1000 digits found 13 primes where chance predicts 1.1 which is rough and fits the +800% to +860% measured at the smaller sizes.
+The wobble from luck is about 3 points per 100 at 100 digits for the top equations and about 6 points per 100 at 300 digits so the small shifts between the two sizes are inside the wobble. The single test at 1000 digits found 13 primes where chance predicts 1.1 which is rough and fits the +800% to +860% measured at the smaller sizes.
 
 ## The match between small outputs and 100-digit outputs for 37 equations
 
