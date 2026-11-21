@@ -1153,6 +1153,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/borin
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/more_sums_results.json
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/no_numbers.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/no_numbers_results.json
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/primorial_form.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/primorial_line.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/primorial_lists.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py

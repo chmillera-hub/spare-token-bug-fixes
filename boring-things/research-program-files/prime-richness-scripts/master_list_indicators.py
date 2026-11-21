@@ -75,6 +75,8 @@ for r in json.load(open('famous_boost_results.json')):
         if t['confirm_chance']<=0: continue
         note='the rule was picked on an earlier stretch of the list and confirmed on these outputs'+(' which have 150 to 450 digits' if fast else '')
         add(r['name']+' then '+t['rule'],t['confirm_pct'],r['confirm_terms'],t['confirm_primes'],t['confirm_chance'],note); E[-1]['g']='fb'
+add('(the product of the first n primes) × 30030 − 1 for every case up to 1200 digits',929,407,14,1.36,'a fuller count of the form that the rule hunt picked'); E[-1]['g']='fb'
+add('(the product of the first n primes) × 30030 + 1 for every case up to 1200 digits',855,407,13,1.36,'a fuller count of the form that the rule hunt picked'); E[-1]['g']='fb'
 def outof(s):
     if s<=0: return 'none'
     if s>0.995: return 'every output'
@@ -91,7 +93,7 @@ def sh(x):
 def luck(k,lam):
     if lam<=0: return None
     z=(k-lam)/math.sqrt(lam)
-    if abs(z)>7: return 0.0
+    if lam>200 and abs(z)>7: return 0.0
     if k>=lam: return float(mp.gammainc(k,0,lam,regularized=True)) if k>0 else 1.0   # chance of k or more
     return float(mp.gammainc(k+1,lam,mp.inf,regularized=True))                      # chance of k or fewer
 def odds(p):
