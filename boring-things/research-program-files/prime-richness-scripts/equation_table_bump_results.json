@@ -1,0 +1,862 @@
+[
+ {
+  "group": "Straight-line equations",
+  "label": "n",
+  "note": "the plain number line used as the baseline",
+  "tested": 300000,
+  "primes": 28088,
+  "expected": 11282.121268593894,
+  "score": 2.4896027379344634,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "2n",
+  "note": "every output is even",
+  "tested": 300000,
+  "primes": 27930,
+  "expected": 11282.134955967711,
+  "score": 2.475595275983325,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "2n + 1",
+  "note": "every output is odd so the prime 2 never divides an output",
+  "tested": 300000,
+  "primes": 28468,
+  "expected": 11282.79059871807,
+  "score": 2.5231346581256666,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "4n + 3",
+  "note": "every output is odd so the prime 2 never divides an output",
+  "tested": 300000,
+  "primes": 28501,
+  "expected": 11283.405235997301,
+  "score": 2.52592186524274,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "6n + 1",
+  "note": "the primes 2 and 3 never divide an output",
+  "tested": 300000,
+  "primes": 33894,
+  "expected": 11282.585158082788,
+  "score": 3.004098752644336,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "6n + 3",
+  "note": "every output is a multiple of 3",
+  "tested": 300000,
+  "primes": 8510,
+  "expected": 11281.745861986066,
+  "score": 0.7543158748748732,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "10n + 1",
+  "note": "the primes 2 and 5 never divide an output",
+  "tested": 300000,
+  "primes": 28119,
+  "expected": 11283.16036126416,
+  "score": 2.492120921770677,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "30n + 1",
+  "note": "the primes 2 and 3 and 5 never divide an output",
+  "tested": 300000,
+  "primes": 42449,
+  "expected": 11283.287129954679,
+  "score": 3.762112894150067,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Straight-line equations",
+  "label": "210n + 1",
+  "note": "the primes 2 and 3 and 5 and 7 never divide an output",
+  "tested": 300000,
+  "primes": 49050,
+  "expected": 11283.717191012942,
+  "score": 4.346971762024175,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + 1",
+  "note": "2 divides every second output and 5 divides two of every five outputs",
+  "tested": 300000,
+  "primes": 29573,
+  "expected": 11794.884647890749,
+  "score": 2.507273354749465,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + n + 1",
+  "note": "every output is odd",
+  "tested": 300000,
+  "primes": 26026,
+  "expected": 11790.441973685736,
+  "score": 2.2073812040367624,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² − n − 1",
+  "note": "the golden ratio equation where 2 and every prime ending in 3 or 7 never divide an output",
+  "tested": 300000,
+  "primes": 46939,
+  "expected": 11793.646973371535,
+  "score": 3.980024169451734,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² − 2",
+  "note": "",
+  "tested": 300000,
+  "primes": 32890,
+  "expected": 11792.66244461527,
+  "score": 2.7890224242802892,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + 3",
+  "note": "",
+  "tested": 300000,
+  "primes": 35271,
+  "expected": 11795.844321428085,
+  "score": 2.9901208458581836,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "2n² − 1",
+  "note": "every output is odd",
+  "tested": 300000,
+  "primes": 43336,
+  "expected": 11793.51380845565,
+  "score": 3.6745621961225154,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "4n² + 1",
+  "note": "every output is odd and 3 never divides an output",
+  "tested": 300000,
+  "primes": 43124,
+  "expected": 11792.40988595735,
+  "score": 3.6569285173298605,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "3n² + 3n + 1",
+  "note": "the gap between two neighboring cubes where 2 and 3 and 5 never divide an output",
+  "tested": 300000,
+  "primes": 39763,
+  "expected": 11793.17097824128,
+  "score": 3.371697067172503,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + n + 17",
+  "note": "no prime below 17 ever divides an output",
+  "tested": 300000,
+  "primes": 49315,
+  "expected": 11793.411791592387,
+  "score": 4.181571954873741,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "2n² + 29",
+  "note": "no prime below 29 ever divides an output",
+  "tested": 300000,
+  "primes": 69693,
+  "expected": 11793.191629254583,
+  "score": 5.909596162850201,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + n + 41",
+  "note": "no prime below 41 ever divides an output",
+  "tested": 300000,
+  "primes": 78263,
+  "expected": 11795.343441389878,
+  "score": 6.635075984763192,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² − 79n + 1601",
+  "note": "the same outputs as n² + n + 41 with the inputs shifted by 40",
+  "tested": 300000,
+  "primes": 78597,
+  "expected": 11794.328833665506,
+  "score": 6.663965462422434,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² − 1",
+  "note": "the equation splits into (n − 1) × (n + 1)",
+  "tested": 300000,
+  "primes": 12439,
+  "expected": 11792.660071177106,
+  "score": 1.054808662754779,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + n + 2",
+  "note": "every output is even",
+  "tested": 300000,
+  "primes": 26603,
+  "expected": 11795.596663721954,
+  "score": 2.255333134763677,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Squared equations",
+  "label": "n² + 5n + 6",
+  "note": "the equation splits into (n + 2) × (n + 3)",
+  "tested": 300000,
+  "primes": 26395,
+  "expected": 11794.364049907,
+  "score": 2.2379332949459134,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n³ + 2",
+  "note": "",
+  "tested": 9998,
+  "primes": 1368,
+  "expected": 415.204928465116,
+  "score": 3.294758578750672,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n³ + n + 1",
+  "note": "every output is odd",
+  "tested": 9998,
+  "primes": 1254,
+  "expected": 415.1936118756493,
+  "score": 3.0202776828261357,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n³ + n² + 1",
+  "note": "every output is odd",
+  "tested": 9998,
+  "primes": 1280,
+  "expected": 415.09049812299907,
+  "score": 3.0836649014806214,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n³ − n + 1",
+  "note": "2 and 3 never divide an output",
+  "tested": 9999,
+  "primes": 1493,
+  "expected": 415.35636957409196,
+  "score": 3.594503682538751,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁴ + 1",
+  "note": "",
+  "tested": 998,
+  "primes": 149,
+  "expected": 44.3142898910876,
+  "score": 3.362346556070316,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁴ + n + 1",
+  "note": "every output is odd",
+  "tested": 998,
+  "primes": 117,
+  "expected": 44.2976883916186,
+  "score": 2.641221342424205,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁵ + 2",
+  "note": "",
+  "tested": 250,
+  "primes": 43,
+  "expected": 11.879184820753302,
+  "score": 3.61977700059668,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁴ + 4",
+  "note": "the equation secretly splits into (n² + 2n + 2) × (n² − 2n + 2)",
+  "tested": 998,
+  "primes": 78,
+  "expected": 44.2867040987195,
+  "score": 1.761250957536379,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁴ + n² + 1",
+  "note": "the equation secretly splits into (n² + n + 1) × (n² − n + 1)",
+  "tested": 998,
+  "primes": 0,
+  "expected": 44.28035201881578,
+  "score": 0.0,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Cubes and higher powers",
+  "label": "n⁶ + 1",
+  "note": "the equation secretly splits into (n² + 1) × (n⁴ − n² + 1)",
+  "tested": 98,
+  "primes": 8,
+  "expected": 4.959693707279264,
+  "score": 1.6130028328681922,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n ÷ 2",
+  "note": "each whole number shows up twice in a row so the outputs are the plain number line repeated",
+  "tested": 300000,
+  "primes": 28241,
+  "expected": 11282.433855512738,
+  "score": 2.5030946657135593,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 2",
+  "note": "",
+  "tested": 300000,
+  "primes": 27669,
+  "expected": 11796.198599041001,
+  "score": 2.345586145205237,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 3",
+  "note": "",
+  "tested": 300000,
+  "primes": 23688,
+  "expected": 11791.010305558926,
+  "score": 2.008988151662643,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 4",
+  "note": "for even n the output is a perfect square and for odd n the output is two neighboring numbers multiplied",
+  "tested": 300000,
+  "primes": 24490,
+  "expected": 11797.793231168514,
+  "score": 2.0758119353456737,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 5",
+  "note": "",
+  "tested": 300000,
+  "primes": 26007,
+  "expected": 11795.080739271396,
+  "score": 2.2049022448324926,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 7",
+  "note": "",
+  "tested": 300000,
+  "primes": 27782,
+  "expected": 11795.29784241865,
+  "score": 2.3553453563579745,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ 10",
+  "note": "",
+  "tested": 300000,
+  "primes": 33035,
+  "expected": 11791.996832582117,
+  "score": 2.8014763291592795,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "(n² + 1) ÷ 3",
+  "note": "",
+  "tested": 299999,
+  "primes": 23524,
+  "expected": 11794.764380109553,
+  "score": 1.9944442501683532,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n³ ÷ 2",
+  "note": "",
+  "tested": 12598,
+  "primes": 932,
+  "expected": 523.4308259599326,
+  "score": 1.7805600162940012,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n³ ÷ 7",
+  "note": "",
+  "tested": 19127,
+  "primes": 1346,
+  "expected": 795.0068546627982,
+  "score": 1.693067163013211,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n × (n + 1) ÷ 2",
+  "note": "the division is always exact and the output is two numbers multiplied",
+  "tested": 300000,
+  "primes": 30380,
+  "expected": 11791.940488126285,
+  "score": 2.5763359330545024,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n² ÷ (n + 1)",
+  "note": "dropping the decimals always leaves n − 1 so the outputs are the plain number line",
+  "tested": 300000,
+  "primes": 28080,
+  "expected": 11283.705666268816,
+  "score": 2.4885441742726013,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n³ ÷ (n + 1)",
+  "note": "dropping the decimals always leaves n² − n which is always even",
+  "tested": 300000,
+  "primes": 26490,
+  "expected": 11795.02097401182,
+  "score": 2.2458628991305645,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "(n³ + 5) ÷ (n + 1)",
+  "note": "",
+  "tested": 300000,
+  "primes": 26332,
+  "expected": 11793.523796668345,
+  "score": 2.2327508261304185,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Division with the decimal places dropped",
+  "label": "n⁴ ÷ (n² + 1)",
+  "note": "dropping the decimals always leaves n² − 1 which splits into (n − 1) × (n + 1)",
+  "tested": 300000,
+  "primes": 12273,
+  "expected": 11794.786138558586,
+  "score": 1.0405445131283961,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n × √2",
+  "note": "",
+  "tested": 300000,
+  "primes": 27912,
+  "expected": 11282.521915419708,
+  "score": 2.4739149818847643,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n × φ (the golden ratio)",
+  "note": "",
+  "tested": 300000,
+  "primes": 28340,
+  "expected": 11281.760270963565,
+  "score": 2.5120193408948857,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n × π",
+  "note": "",
+  "tested": 300000,
+  "primes": 28289,
+  "expected": 11281.304830755973,
+  "score": 2.5076000005669843,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n × e",
+  "note": "",
+  "tested": 300000,
+  "primes": 28106,
+  "expected": 11283.986783922064,
+  "score": 2.4907863274039546,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n² × √2",
+  "note": "",
+  "tested": 300000,
+  "primes": 29098,
+  "expected": 11792.846492205366,
+  "score": 2.4674280309874885,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n² × φ (the golden ratio)",
+  "note": "",
+  "tested": 300000,
+  "primes": 29380,
+  "expected": 11789.409022724216,
+  "score": 2.492067239619028,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n² × π",
+  "note": "",
+  "tested": 300000,
+  "primes": 29797,
+  "expected": 11795.507586891532,
+  "score": 2.526131222459109,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n to the power 1.5",
+  "note": "",
+  "tested": 300000,
+  "primes": 28776,
+  "expected": 11523.829231502626,
+  "score": 2.4970866386439683,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "n to the power 2.5",
+  "note": "",
+  "tested": 63094,
+  "primes": 6282,
+  "expected": 2545.2465504248403,
+  "score": 2.4681302481095355,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Square roots and special multipliers with the decimal places dropped",
+  "label": "√n",
+  "note": "each whole number repeats many times in a row so the outputs are the plain number line repeated",
+  "tested": 300000,
+  "primes": 27328,
+  "expected": 11061.596148306791,
+  "score": 2.4705295360275037,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n × ln(n)",
+  "note": "the output is close to the size of the nth prime number",
+  "tested": 300000,
+  "primes": 28428,
+  "expected": 11302.997339133519,
+  "score": 2.515085082925382,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n × log₂(n)",
+  "note": "",
+  "tested": 300000,
+  "primes": 28335,
+  "expected": 11302.945917549168,
+  "score": 2.5068685815798286,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n × log₁₀(n)",
+  "note": "",
+  "tested": 300000,
+  "primes": 28121,
+  "expected": 11302.659223799696,
+  "score": 2.4879985712376773,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n × ln(n) × ln(n)",
+  "note": "",
+  "tested": 300000,
+  "primes": 28409,
+  "expected": 11327.209564089237,
+  "score": 2.5080316417968755,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n² × ln(n)",
+  "note": "",
+  "tested": 282270,
+  "primes": 28143,
+  "expected": 11147.070033312842,
+  "score": 2.524699308059884,
+  "how": "every input whose output stays under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n² ÷ ln(n)",
+  "note": "",
+  "tested": 300000,
+  "primes": 29504,
+  "expected": 11752.761754647821,
+  "score": 2.5103886742477495,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Logarithms with the decimal places dropped",
+  "label": "n ÷ ln(n)",
+  "note": "the output is close to the count of primes below n",
+  "tested": 300000,
+  "primes": 28521,
+  "expected": 11266.039480462605,
+  "score": 2.531590631247182,
+  "how": "300000 random inputs whose outputs stay under 1 trillion"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ − 1",
+  "note": "the output can be prime only when n is prime",
+  "tested": 995,
+  "primes": 17,
+  "expected": 9.568817746522358,
+  "score": 1.776604012149609,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ + 1",
+  "note": "the output can be prime only when n is a power of 2 and the known primes stop at n = 16",
+  "tested": 996,
+  "primes": 9,
+  "expected": 10.014328222649956,
+  "score": 0.8987123049995711,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ + 3",
+  "note": "",
+  "tested": 996,
+  "primes": 23,
+  "expected": 9.556374608568756,
+  "score": 2.406770448217567,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ − 3",
+  "note": "",
+  "tested": 994,
+  "primes": 33,
+  "expected": 8.703826945698275,
+  "score": 3.7914356760401486,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ + n",
+  "note": "",
+  "tested": 996,
+  "primes": 20,
+  "expected": 9.93493893505992,
+  "score": 2.013097426237917,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "3ⁿ − 2",
+  "note": "",
+  "tested": 627,
+  "primes": 15,
+  "expected": 5.540566065036859,
+  "score": 2.7073046009966153,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "3ⁿ + 2",
+  "note": "",
+  "tested": 628,
+  "primes": 26,
+  "expected": 5.947634166404118,
+  "score": 4.37148608548655,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "10ⁿ + 1",
+  "note": "",
+  "tested": 299,
+  "primes": 2,
+  "expected": 2.7093261372936603,
+  "score": 0.7381909370267972,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "10ⁿ + 7",
+  "note": "",
+  "tested": 299,
+  "primes": 10,
+  "expected": 2.6424412829613004,
+  "score": 3.784379264917219,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "n × 2ⁿ + 1",
+  "note": "",
+  "tested": 986,
+  "primes": 5,
+  "expected": 8.775780873083741,
+  "score": 0.5697498686795536,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "n! + 1 (1 × 2 × 3 up to n then add 1)",
+  "note": "no prime up to n divides the output",
+  "tested": 166,
+  "primes": 11,
+  "expected": 4.414778763012533,
+  "score": 2.491631085154056,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "n! − 1",
+  "note": "no prime up to n divides the output",
+  "tested": 164,
+  "primes": 12,
+  "expected": 2.61061352645109,
+  "score": 4.5966206328184445,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "nⁿ + 1",
+  "note": "",
+  "tested": 139,
+  "primes": 5,
+  "expected": 3.087867026445016,
+  "score": 1.619240711202637,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "the nth Fibonacci number",
+  "note": "the output can be prime only when n is prime or n = 4",
+  "tested": 1435,
+  "primes": 27,
+  "expected": 14.610883834859179,
+  "score": 1.847937489967747,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "1.5ⁿ with decimals dropped",
+  "note": "",
+  "tested": 1702,
+  "primes": 33,
+  "expected": 16.991852569520283,
+  "score": 1.9421072461042228,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "φⁿ with decimals dropped",
+  "note": "",
+  "tested": 1434,
+  "primes": 34,
+  "expected": 13.921826999724848,
+  "score": 2.4422081958547524,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "eⁿ with decimals dropped",
+  "note": "",
+  "tested": 690,
+  "primes": 16,
+  "expected": 7.03109680889817,
+  "score": 2.27560513457179,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "πⁿ with decimals dropped",
+  "note": "",
+  "tested": 603,
+  "primes": 9,
+  "expected": 6.15260576187784,
+  "score": 1.4627948463340361,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ ÷ n with decimals dropped",
+  "note": "",
+  "tested": 1006,
+  "primes": 34,
+  "expected": 12.641727045881968,
+  "score": 2.6895059414429827,
+  "how": "every input whose output has 300 digits or fewer"
+ },
+ {
+  "group": "Fast-growing equations (tested on outputs up to 300 digits)",
+  "label": "2ⁿ ÷ 3 with decimals dropped",
+  "note": "for odd n the output is even and for even n the output splits into two factors",
+  "tested": 996,
+  "primes": 26,
+  "expected": 9.829674773605793,
+  "score": 2.645051906479556,
+  "how": "every input whose output has 300 digits or fewer"
+ }
+]

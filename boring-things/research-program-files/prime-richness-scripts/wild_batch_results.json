@@ -1,0 +1,722 @@
+[
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n × |sin(n)|",
+  "tested": 300000,
+  "primes": 11405,
+  "repeats": 0,
+  "expected": 11602.106777814764,
+  "pct": -2
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n² × |sin(n)|",
+  "tested": 300000,
+  "primes": 12103,
+  "repeats": 0,
+  "expected": 12148.60255184767,
+  "pct": 0
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n × (2 + sin(n))",
+  "tested": 300000,
+  "primes": 11444,
+  "repeats": 0,
+  "expected": 11537.097379433557,
+  "pct": -1
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n + 1000 × sin(n)",
+  "tested": 300000,
+  "primes": 11322,
+  "repeats": 0,
+  "expected": 11281.290402603505,
+  "pct": 0
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n × cos(n)²",
+  "tested": 300000,
+  "primes": 12018,
+  "repeats": 0,
+  "expected": 11982.809176055522,
+  "pct": 0
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n × |tan(n)|",
+  "tested": 300000,
+  "primes": 13849,
+  "repeats": 0,
+  "expected": 13721.49614765136,
+  "pct": 1
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n ÷ |sin(n)|",
+  "tested": 300000,
+  "primes": 13216,
+  "repeats": 0,
+  "expected": 13252.476137988951,
+  "pct": 0
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n² × sin(1 ÷ n)",
+  "tested": 300000,
+  "primes": 19960,
+  "repeats": 0,
+  "expected": 19953.44103967394,
+  "pct": 0
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "1000000 × |sin(n)|",
+  "tested": 300000,
+  "primes": 18328,
+  "repeats": 4288,
+  "expected": 22996.51570904595,
+  "pct": -20
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "sin(e to the n) ÷ ln(n)",
+  "tested": 700,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 0.0,
+  "pct": -100
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n² + n + 41 + 10 × sin(n)",
+  "tested": 300000,
+  "primes": 12774,
+  "repeats": 0,
+  "expected": 11795.096942149728,
+  "pct": 8
+ },
+ {
+  "group": "Trig functions with decimals dropped",
+  "label": "n² + n + 41 + 2 × the whole part of 5 × sin(n)",
+  "tested": 300000,
+  "primes": 24489,
+  "repeats": 0,
+  "expected": 11792.591444696822,
+  "pct": 108
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 2 with decimals dropped",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11794.517660703934,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 2 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 16198,
+  "repeats": 0,
+  "expected": 11792.269677619392,
+  "pct": 37
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 2 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 16199,
+  "repeats": 0,
+  "expected": 11792.108070777653,
+  "pct": 37
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 2 with any decimals go up",
+  "tested": 300000,
+  "primes": 16098,
+  "repeats": 0,
+  "expected": 11795.178262777092,
+  "pct": 36
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 3 with decimals dropped",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11796.068839279751,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 3 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 11138,
+  "repeats": 0,
+  "expected": 11789.800579705061,
+  "pct": -6
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 3 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11793.090046735802,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 3 with any decimals go up",
+  "tested": 300000,
+  "primes": 11055,
+  "repeats": 0,
+  "expected": 11792.438041604562,
+  "pct": -6
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 4 with decimals dropped",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11795.827476342107,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 4 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11796.436196938297,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 4 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11792.476640329754,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 4 with any decimals go up",
+  "tested": 300000,
+  "primes": 13334,
+  "repeats": 0,
+  "expected": 11789.70494504796,
+  "pct": 13
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 5 with decimals dropped",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11795.109100587744,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 5 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 8490,
+  "repeats": 0,
+  "expected": 11798.186037036783,
+  "pct": -28
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 5 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 8618,
+  "repeats": 0,
+  "expected": 11794.439535176161,
+  "pct": -27
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 5 with any decimals go up",
+  "tested": 300000,
+  "primes": 17147,
+  "repeats": 0,
+  "expected": 11792.980325778055,
+  "pct": 45
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 6 with decimals dropped",
+  "tested": 300000,
+  "primes": 8220,
+  "repeats": 0,
+  "expected": 11794.52510850616,
+  "pct": -30
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 6 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 11035,
+  "repeats": 0,
+  "expected": 11796.432688380211,
+  "pct": -6
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 6 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 10929,
+  "repeats": 0,
+  "expected": 11794.490640099075,
+  "pct": -7
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 6 with any decimals go up",
+  "tested": 300000,
+  "primes": 19511,
+  "repeats": 0,
+  "expected": 11795.35009162271,
+  "pct": 65
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 7 with decimals dropped",
+  "tested": 300000,
+  "primes": 7442,
+  "repeats": 0,
+  "expected": 11789.57619538388,
+  "pct": -37
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 7 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 11923,
+  "repeats": 0,
+  "expected": 11791.411213221085,
+  "pct": 1
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 7 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 11962,
+  "repeats": 0,
+  "expected": 11793.787355287575,
+  "pct": 1
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 7 with any decimals go up",
+  "tested": 300000,
+  "primes": 9538,
+  "repeats": 0,
+  "expected": 11794.840368276882,
+  "pct": -19
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 8 with decimals dropped",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11795.974582025676,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 8 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 8024,
+  "repeats": 0,
+  "expected": 11792.981542658423,
+  "pct": -32
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 8 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 8186,
+  "repeats": 0,
+  "expected": 11793.273495863656,
+  "pct": -31
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 8 with any decimals go up",
+  "tested": 300000,
+  "primes": 19620,
+  "repeats": 0,
+  "expected": 11798.17322792588,
+  "pct": 66
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 9 with decimals dropped",
+  "tested": 300000,
+  "primes": 3943,
+  "repeats": 0,
+  "expected": 11792.605585262281,
+  "pct": -67
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 9 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 6617,
+  "repeats": 0,
+  "expected": 11796.602792438793,
+  "pct": -44
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 9 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 3704,
+  "repeats": 0,
+  "expected": 11792.107680012161,
+  "pct": -69
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 9 with any decimals go up",
+  "tested": 300000,
+  "primes": 10276,
+  "repeats": 0,
+  "expected": 11797.904025958149,
+  "pct": -13
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 10 with decimals dropped",
+  "tested": 300000,
+  "primes": 6595,
+  "repeats": 0,
+  "expected": 11790.083706853147,
+  "pct": -44
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 10 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 14730,
+  "repeats": 0,
+  "expected": 11795.772411840224,
+  "pct": 25
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 10 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 10196,
+  "repeats": 0,
+  "expected": 11792.838271812041,
+  "pct": -14
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 10 with any decimals go up",
+  "tested": 300000,
+  "primes": 20372,
+  "repeats": 0,
+  "expected": 11790.515844421016,
+  "pct": 73
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 11 with decimals dropped",
+  "tested": 300000,
+  "primes": 7451,
+  "repeats": 0,
+  "expected": 11794.767621020965,
+  "pct": -37
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 11 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 11335,
+  "repeats": 0,
+  "expected": 11793.079382047825,
+  "pct": -4
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 11 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 9275,
+  "repeats": 0,
+  "expected": 11794.592801173789,
+  "pct": -21
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 11 with any decimals go up",
+  "tested": 300000,
+  "primes": 12511,
+  "repeats": 0,
+  "expected": 11794.935721405947,
+  "pct": 6
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 12 with decimals dropped",
+  "tested": 300000,
+  "primes": 1,
+  "repeats": 0,
+  "expected": 11792.521443065314,
+  "pct": -100
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 12 with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 12026,
+  "repeats": 0,
+  "expected": 11792.706241956097,
+  "pct": 2
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 12 with decimals of 0.5 or more go up",
+  "tested": 300000,
+  "primes": 6717,
+  "repeats": 0,
+  "expected": 11797.297623841861,
+  "pct": -43
+ },
+ {
+  "group": "Rounding rules on n² ÷ k",
+  "label": "n² ÷ 12 with any decimals go up",
+  "tested": 300000,
+  "primes": 20265,
+  "repeats": 0,
+  "expected": 11796.989825773453,
+  "pct": 72
+ },
+ {
+  "group": "Rounding rules on a scrambled recipe",
+  "label": "n × π with decimals dropped",
+  "tested": 300000,
+  "primes": 11281,
+  "repeats": 0,
+  "expected": 11309.21617870745,
+  "pct": 0
+ },
+ {
+  "group": "Rounding rules on a scrambled recipe",
+  "label": "n × π with decimals of 0.3 or more go up",
+  "tested": 300000,
+  "primes": 11352,
+  "repeats": 0,
+  "expected": 11306.733302188171,
+  "pct": 0
+ },
+ {
+  "group": "Rounding rules on a scrambled recipe",
+  "label": "n × π with any decimals go up",
+  "tested": 300000,
+  "primes": 11347,
+  "repeats": 0,
+  "expected": 11307.173703760252,
+  "pct": 0
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "2 to the power n mod n",
+  "tested": 300000,
+  "primes": 6658,
+  "repeats": 11347,
+  "expected": 31020.90479212612,
+  "pct": -79
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "3 to the power n mod (2n + 1)",
+  "tested": 300000,
+  "primes": 7975,
+  "repeats": 3982,
+  "expected": 15753.313373427005,
+  "pct": -49
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "n² mod 1000003",
+  "tested": 300000,
+  "primes": 17667,
+  "repeats": 5765,
+  "expected": 23587.051783370924,
+  "pct": -25
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "n² + (n mod 6)",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11792.129922206352,
+  "pct": -100
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "n × (n mod 7) + 1",
+  "tested": 300000,
+  "primes": 21168,
+  "repeats": 0,
+  "expected": 10138.424526199364,
+  "pct": 109
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "2 + (2 × n!) mod (n + 1)",
+  "tested": 300000,
+  "primes": 25997,
+  "repeats": 274003,
+  "expected": 276294.4716584974,
+  "pct": -91
+ },
+ {
+  "group": "Modulus (the remainder after division)",
+  "label": "n² + n + 41 mod 1000000007",
+  "tested": 300000,
+  "primes": 15295,
+  "repeats": 3,
+  "expected": 15254.328275259208,
+  "pct": 0
+ },
+ {
+  "group": "Sums",
+  "label": "the first n primes added up",
+  "tested": 300000,
+  "primes": 12012,
+  "repeats": 0,
+  "expected": 12083.636659001362,
+  "pct": -1
+ },
+ {
+  "group": "Sums",
+  "label": "the first n primes added up then plus 1 for even totals",
+  "tested": 300000,
+  "primes": 23995,
+  "repeats": 0,
+  "expected": 12083.524229502584,
+  "pct": 99
+ },
+ {
+  "group": "Sums",
+  "label": "1 + 2 + 3 up to n",
+  "tested": 300000,
+  "primes": 0,
+  "repeats": 0,
+  "expected": 11794.880023711492,
+  "pct": -100
+ },
+ {
+  "group": "Sums",
+  "label": "1² + 2² + 3² up to n²",
+  "tested": 14421,
+  "primes": 1,
+  "repeats": 0,
+  "expected": 599.1246863951052,
+  "pct": -100
+ },
+ {
+  "group": "Sums",
+  "label": "1² + 2² + 3² up to n² then plus 1",
+  "tested": 14421,
+  "primes": 2,
+  "repeats": 0,
+  "expected": 600.0464681552255,
+  "pct": -100
+ },
+ {
+  "group": "Sums",
+  "label": "n÷1 + n÷2 + n÷3 up to n÷n with decimals dropped in each piece",
+  "tested": 300000,
+  "primes": 21800,
+  "repeats": 0,
+  "expected": 21481.938971914013,
+  "pct": 1
+ },
+ {
+  "group": "Sums",
+  "label": "n × (1 + 1/2 + 1/3 up to 1/n) with decimals dropped",
+  "tested": 300000,
+  "primes": 21340,
+  "repeats": 0,
+  "expected": 21425.389879670063,
+  "pct": 0
+ },
+ {
+  "group": "Sums",
+  "label": "√1 + √2 + √3 up to √n with decimals dropped in each piece",
+  "tested": 300000,
+  "primes": 16,
+  "repeats": 0,
+  "expected": 17820.05227407511,
+  "pct": -100
+ },
+ {
+  "group": "Calculus",
+  "label": "slope of n² + n + 41 which is 2n + 1",
+  "tested": 300000,
+  "primes": 22543,
+  "repeats": 0,
+  "expected": 11281.417349430783,
+  "pct": 100
+ },
+ {
+  "group": "Calculus",
+  "label": "slope of n³ + 2 which is 3n²",
+  "tested": 300000,
+  "primes": 1,
+  "repeats": 0,
+  "expected": 11795.397936158703,
+  "pct": -100
+ },
+ {
+  "group": "Calculus",
+  "label": "area under x² + x + 41 from 0 to n with decimals dropped",
+  "tested": 14421,
+  "primes": 636,
+  "repeats": 0,
+  "expected": 598.3616061287718,
+  "pct": 6
+ },
+ {
+  "group": "Calculus",
+  "label": "area under ln(x) from 1 to n with decimals dropped",
+  "tested": 300000,
+  "primes": 11520,
+  "repeats": 0,
+  "expected": 11462.420229194682,
+  "pct": 1
+ },
+ {
+  "group": "Calculus",
+  "label": "area under x × sin(x)² from 0 to n with decimals dropped",
+  "tested": 300000,
+  "primes": 12516,
+  "repeats": 0,
+  "expected": 12482.009200443317,
+  "pct": 0
+ },
+ {
+  "group": "Calculus",
+  "label": "area under 1 ÷ ln(x) from 2 to n with decimals dropped",
+  "tested": 20000,
+  "primes": 1594,
+  "repeats": 23,
+  "expected": 1613.528014865725,
+  "pct": -1
+ }
+]
