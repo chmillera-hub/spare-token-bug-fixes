@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 54 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 55 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -60,6 +60,7 @@ The 54 pages in this list are written reflections that a visitor can read in a f
 - [A cup of water left on the wall of a covered well](deep-dives/cup-on-the-well.md) uses a village well with a paid cover as a picture of knowledge that already exists and cannot be reached by a person with no money and follows one villager who leaves a cup of stream water on the wall with a truthful sign and ends with two quick points.
 - [Who asked Jesus how his own heart was](deep-dives/who-asked-jesus.md) asks whether anyone in the four Gospel accounts asks Jesus how his own heart is doing and reports a reading of 127 questions put to Jesus in the World English Bible that found none about his feelings and lists seven moments where the question was close and ends with two things a person can do.
 - [The question "How long?" travels in both directions in the Bible](deep-dives/how-long-both-ways.md) asks who puts the question "How long?" to whom across the Bible and reports that the words go toward God in 16 verses and toward people from the divine side in 16 verses and that no psalm that prays the question receives a length of time and ends with two things a person can do.
+- [In the Psalms the friends who left are not shown returning](deep-dives/who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
 
 ## Thread counts and data
 

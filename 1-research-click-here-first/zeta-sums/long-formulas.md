@@ -12,6 +12,10 @@ The formulas below are not new theorems because formulas of this ladder shape be
 
 The page named zeta3-golden.md in this folder holds a follow-up search that found shorter formulas for zeta(5) and zeta(7) and two formulas for zeta(3).
 
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew that ladder formulas of this kind exist and had a vague memory that a zeta(5) formula in powers of one half was in print. The chatbot did not know the coefficients of the three golden ratio formulas on this page.
+
 ## Notation
 
 zeta(5) means 1/1^5 + 1/2^5 + 1/3^5 and so on forever and zeta(7) and zeta(9) use the powers 7 and 9 in the same way.

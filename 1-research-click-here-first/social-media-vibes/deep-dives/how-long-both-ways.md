@@ -6,6 +6,10 @@
 
 A person who is waiting for relief often asks "How long?" and the Bible is full of people who ask God the same thing. Who asks "How long?" of whom across the whole Bible and does anyone who asks ever receive a length of time as the answer?
 
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot knew that people ask God "How long?" in the Psalms and that God asks people the same question in a few well-known verses. The chatbot could not say from memory how the two directions compare in number or whether any psalm receives a length of time which is why the reading was done.
+
 ## What a web search turned up
 
 A web search on 20 November 2026 turned up many pages about people asking God "How long?" in the Psalms and in the prophets. The search did not turn up a tally of who asks whom or a check of which askers receive a length of time which is why the reading below was done from the text itself.

@@ -10,6 +10,10 @@ A 2025 paper at that link asks whether formulas built purely from sums over powe
 
 This page reports two pure formulas for zeta(3) that a computer search found on 20 November 2026 so any reader is free to carry the formulas over to people who work on that question.
 
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew the classic golden ratio formula for zeta(3) with two leftover terms and knew that a family of related formulas exists. The chatbot did not know that formulas with no leftover terms exist and did not know any of the coefficients on this page.
+
 ## Notation
 
 zeta(3) means 1/1^3 + 1/2^3 + 1/3^3 and so on forever which is a number near 1.2020569.

@@ -10,6 +10,10 @@ The answer from the search is yes. A base near 0.7136 gives formulas with no lef
 
 Each base on this page is 1 divided by a Salem number. A Salem number is a number bigger than 1 that solves an equation with whole-number coefficients that reads the same forwards and backwards and whose other solutions (apart from 1 divided by the number) all sit at distance exactly 1 from zero in the plane of complex numbers. Ladders of sums in the two bases near 0.8221 and 0.8501 are described in a free 1999 paper (https://arxiv.org/abs/math/9906134) and that paper works with formulas that keep leftover terms. A free web search on 20 November 2026 did not turn up formulas with no leftover terms written out for zeta(7) or zeta(9) or zeta(11) or zeta(13) or zeta(15).
 
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew that ladders in the base near 0.8501 reach very high zeta numbers with leftover terms. The chatbot did not know that formulas with no leftover terms reach zeta(15) and did not know any of the counts or coefficients on this page.
+
 ## Notation
 
 zeta(7) means 1/1^7 + 1/2^7 + 1/3^7 and so on forever and the other zeta numbers use their own power in the same way.

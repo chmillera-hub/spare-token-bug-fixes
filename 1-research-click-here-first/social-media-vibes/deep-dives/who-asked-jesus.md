@@ -6,6 +6,10 @@
 
 In the four Gospel accounts Jesus asks one person after another what the person wants and why the person is weeping. Does anyone in those accounts turn the same kind of question around and ask Jesus how his own heart is doing?
 
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot guessed that probably nobody asks Jesus about his own feelings. The chatbot could not say from memory how many questions are put to Jesus or which moments are near misses or that Jesus himself points out an unasked question which is why the reading was done.
+
 ## What a web search turned up
 
 A web search on 20 November 2026 turned up many pages that list the questions Jesus asked and many pages that list the feelings the Gospel writers report for Jesus such as compassion and sorrow and anger. The search did not turn up a page that answers the turned-around question which is why the reading below was done from the text itself.

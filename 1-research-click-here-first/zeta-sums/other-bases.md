@@ -10,6 +10,10 @@ The main finding is that the base x near 0.7549 that solves x^3 + x^2 = 1 gives 
 
 The base near 0.7549 is 1 divided by the number called the plastic ratio (the number p near 1.3247 that solves p^3 = p + 1). Ladders of sums in this base were studied in a 1987 journal article that sits behind a paywall (https://link.springer.com/article/10.1007/BF01836149) which means the formulas below are very likely consequences of published mathematics. A free web search on 20 November 2026 did not turn up the formulas written out with their coefficients.
 
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot did not know which bases would give a formula with no leftover terms and did not know any of the counts or coefficients on this page.
+
 ## Notation
 
 zeta(3) means 1/1^3 + 1/2^3 + 1/3^3 and so on forever and zeta(5) and zeta(7) and zeta(9) use the powers 5 and 7 and 9 in the same way.

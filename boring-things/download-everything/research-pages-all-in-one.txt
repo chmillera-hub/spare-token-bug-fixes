@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 254 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 256 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 54 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 55 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15309,7 +15309,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 54 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 55 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15365,6 +15365,7 @@ The 54 pages in this list are written reflections that a visitor can read in a f
 - [A cup of water left on the wall of a covered well](deep-dives/cup-on-the-well.md) uses a village well with a paid cover as a picture of knowledge that already exists and cannot be reached by a person with no money and follows one villager who leaves a cup of stream water on the wall with a truthful sign and ends with two quick points.
 - [Who asked Jesus how his own heart was](deep-dives/who-asked-jesus.md) asks whether anyone in the four Gospel accounts asks Jesus how his own heart is doing and reports a reading of 127 questions put to Jesus in the World English Bible that found none about his feelings and lists seven moments where the question was close and ends with two things a person can do.
 - [The question "How long?" travels in both directions in the Bible](deep-dives/how-long-both-ways.md) asks who puts the question "How long?" to whom across the Bible and reports that the words go toward God in 16 verses and toward people from the divine side in 16 verses and that no psalm that prays the question receives a length of time and ends with two things a person can do.
+- [In the Psalms the friends who left are not shown returning](deep-dives/who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
 
 ## Thread counts and data
 
@@ -22449,6 +22450,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [who-asked-jesus-list.txt](who-asked-jesus-list.txt) is a plain text list of the 127 verses behind the page who-asked-jesus.md so that a reader can check the sorting.
 - [how-long-both-ways.md](how-long-both-ways.md) asks who puts the question "How long?" to whom across the Bible and reports that the words go toward God in 16 verses and toward people from the divine side in 16 verses and that no psalm that prays the question receives a length of time and ends with two things a person can do.
 - [how-long-list.txt](how-long-list.txt) is a plain text list of the 52 verses behind the page how-long-both-ways.md sorted into three groups so that a reader can check the sorting.
+- [who-returns-psalms.md](who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
+- [who-returns-psalms-list.txt](who-returns-psalms-list.txt) is a plain text list of the twelve psalms behind the page who-returns-psalms.md with the verse that put each psalm on the list so that a reader can check the sorting.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -23142,6 +23145,10 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 ## The question
 
 A person who is waiting for relief often asks "How long?" and the Bible is full of people who ask God the same thing. Who asks "How long?" of whom across the whole Bible and does anyone who asks ever receive a length of time as the answer?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot knew that people ask God "How long?" in the Psalms and that God asks people the same question in a few well-known verses. The chatbot could not say from memory how the two directions compare in number or whether any psalm receives a length of time which is why the reading was done.
 
 ## What a web search turned up
 
@@ -24597,6 +24604,10 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 In the four Gospel accounts Jesus asks one person after another what the person wants and why the person is weeping. Does anyone in those accounts turn the same kind of question around and ask Jesus how his own heart is doing?
 
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot guessed that probably nobody asks Jesus about his own feelings. The chatbot could not say from memory how many questions are put to Jesus or which moments are near misses or that Jesus himself points out an unasked question which is why the reading was done.
+
 ## What a web search turned up
 
 A web search on 20 November 2026 turned up many pages that list the questions Jesus asked and many pages that list the feelings the Gospel writers report for Jesus such as compassion and sorrow and anger. The search did not turn up a page that answers the turned-around question which is why the reading below was done from the text itself.
@@ -24645,6 +24656,137 @@ The record offers two things a person can do. A person who is carrying sorrow ca
 
 - A reading of 127 questions put to Jesus in the four Gospel accounts found none that asks how he feels while Jesus keeps asking other people what they want and why they weep.
 - A person who carries sorrow can name the sorrow and ask for company without waiting to be asked and a person beside a steady helper can ask the helper "how is your heart?" and offer time to listen because a bond needs questions travelling in both directions for both hearts to be known.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/who-returns-psalms-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/who-returns-psalms-list.txt
+================================================================================
+
+Twelve psalms that speak of being left or alone in the World English Bible
+
+An AI model (Claude) chose and sorted the twelve psalms on 20 November 2026 and no other person has rechecked the sorting. None of the twelve psalms shows the people who left returning.
+
+Psalm 27
+Verse that put the psalm on the list: 27:10
+What the verse says: close people pulled away
+Human company at the end: no human company by the last line
+
+Psalm 31
+Verse that put the psalm on the list: 31:11
+What the verse says: close people pulled away
+Human company at the end: speaks to other people in the present (31:23 and 31:24)
+
+Psalm 35
+Verse that put the psalm on the list: 35:13 to 35:15
+What the verse says: close people turned against the speaker
+Human company at the end: looks ahead to a gathering (35:18 and 35:27)
+
+Psalm 38
+Verse that put the psalm on the list: 38:11
+What the verse says: close people pulled away
+Human company at the end: no human company by the last line (38:22)
+
+Psalm 41
+Verse that put the psalm on the list: 41:9
+What the verse says: a close friend turned against the speaker
+Human company at the end: no human company by the last line
+
+Psalm 55
+Verse that put the psalm on the list: 55:12 to 55:14
+What the verse says: a close companion turned against the speaker
+Human company at the end: no human company by the last line
+
+Psalm 69
+Verse that put the psalm on the list: 69:8 and 69:20
+What the verse says: close people pulled away
+Human company at the end: other people notice in the present (69:32)
+
+Psalm 88
+Verse that put the psalm on the list: 88:8 and 88:18
+What the verse says: close people pulled away
+Human company at the end: no human company by the last line (88:18)
+
+Psalm 109
+Verse that put the psalm on the list: 109:4 and 109:5
+What the verse says: people the speaker loved turned against the speaker
+Human company at the end: looks ahead to a gathering (109:30)
+
+Psalm 22
+Verse that put the psalm on the list: 22:11
+What the verse says: no helper
+Human company at the end: looks ahead to a gathering (22:22 and 22:25)
+
+Psalm 102
+Verse that put the psalm on the list: 102:7
+What the verse says: alone
+Human company at the end: looks ahead to a gathering (102:22)
+
+Psalm 142
+Verse that put the psalm on the list: 142:4
+What the verse says: no helper
+Human company at the end: looks ahead to a gathering (142:7)
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/who-returns-psalms.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/who-returns-psalms.md
+================================================================================
+
+# In the Psalms the friends who left are not shown returning
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the psalms and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+Several psalms are spoken by a person whose friends and relatives and neighbors have pulled away. Does any of those psalms show the people who left returning and what human company does the speaker have by the last line?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot guessed that no psalm shows the friends returning and that a few psalms look ahead to company. The chatbot could not say from memory how many psalms fit or who the later company is or how many psalms end with nobody which is why the reading was done.
+
+## What a web search turned up
+
+A web search on 20 November 2026 turned up many pages that list the verses where friends abandon the speaker and many pages that say God stays when friends leave. The search did not turn up a page that follows each of those psalms to the last line to see whether the people return or who else appears. The searches used wording such as "Psalms friends and family abandon the psalmist" and "does any psalm show the friends returning".
+
+## How the reading was done
+
+The text was the World English Bible because that translation is free for anyone to copy. A search of the Psalms for words such as friend and companion and brother and neighbor and acquaintance and kinsmen and "no one" and alone found the verses and each psalm that held such a verse was read for what happens to human company afterward. Twelve psalms were kept and the file named who-returns-psalms-list.txt in this folder lists the twelve psalms with the verse that put each psalm on the list.
+
+Nine of the twelve psalms say that close people pulled away or turned against the speaker. Three of the twelve psalms say that the speaker has no helper or sits alone without naming who left. One AI model chose the twelve psalms which means another reader could add or remove a psalm.
+
+## What the speakers say about being left
+
+The words are plain and physical. One speaker says "My kinsmen stand far away." and another says "Those who saw me on the street fled from me." and another says "I have become a stranger to my brothers". One speaker remembers a close companion with the words "We took sweet fellowship together." and another names a trusted friend "who ate bread with me" which means the loss was of people who once shared food and talk with the speaker. One speaker says "No one cares for my soul."
+
+## Does anyone return
+
+In none of the twelve psalms do the people who left walk back. No friend apologizes and no relative knocks on the door and no neighbor crosses the street toward the speaker anywhere in the twelve psalms.
+
+## Who is there by the last line
+
+- In five psalms the speaker looks ahead to standing among other people such as "I will declare your name to my brothers." and "I will praise you among many people." and "The righteous will surround me" because the speaker expects company in the future and the company is described as a gathering and not as the old friends.
+- In two psalms the speaker turns and talks to other people in the present such as the psalm that says "The humble have seen it" because listeners who were not the old friends have noticed what happened.
+- In five psalms no human company appears by the last line. One of the five ends with the plea "Hurry to help me" and another ends in darkness with the friends still gone.
+
+So seven of the twelve psalms end with the speaker facing toward people and the people are a different and wider group than the ones who left. Five of the twelve psalms end with the speaker still without human company.
+
+## How the new company is reached
+
+The seven psalms that end facing people share one move which is that the speaker talks in front of others about what happened. The speaker says "I will declare" and "I will praise you among many people" which means the road back to company in these psalms runs through speaking out loud where people can hear. One psalm outside the twelve even asks for company directly with the words "Let those who fear you turn to me." and another psalm says "God sets the lonely in families." which names a home full of people as the remedy for being alone. One of the twelve also pictures food beside the company with the words "The humble shall eat and be satisfied."
+
+Several of the twelve psalms also ask for harm to fall on the people who turned against the speaker. Those lines are not treated as a model on this page because harm to another person's mind and body feeds nobody and brings nobody back.
+
+## What the finding could mean
+
+The twelve psalms give no evidence that waiting for the same people to return ends the aloneness because none of the twelve shows a return. A reader who has been left by friends or family may find the news heavy and the text does not soften the news. What the text does show is a second road where the speaker says what happened in front of new listeners and some of those listeners are glad to hear.
+
+Being known by another heart is one of the three basic human needs beside food and shelter so the difference between the two endings matters. The seven psalms that end facing people show a speaker who is on the way to being known again. The five psalms that end alone show that speaking does not always bring company inside the time of the prayer.
+
+The record offers two things a person can do. A person who has been left can say what happened and what is wanted in a place where other people can hear such as "My friends pulled away when I got sick and I am looking for one person to talk with for an hour each week" because a plain request lets a new listener know how to turn toward the speaker. Saying the request is no guarantee because five of the twelve psalms end with nobody there. A person who hears someone speak about being left can be the new company by answering with a reason and an offer such as "I heard what you said about your friends pulling away and I have an hour on Thursday to listen" if the hearer has an hour to spare because one listener who turns toward the speaker is how the gathering in these psalms begins.
+
+## Two quick points
+
+- Twelve psalms speak of being left or alone and none of the twelve shows the people who left returning while seven end with the speaker facing a different and wider group of people and five end with nobody.
+- The speakers who reach new company do so by saying what happened where others can hear so a person who has been left can make a plain request in front of new listeners and a person who hears the request can turn toward the speaker with an offer of time.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/why-not-money.md
@@ -32061,6 +32203,10 @@ The formulas below are not new theorems because formulas of this ladder shape be
 
 The page named zeta3-golden.md in this folder holds a follow-up search that found shorter formulas for zeta(5) and zeta(7) and two formulas for zeta(3).
 
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew that ladder formulas of this kind exist and had a vague memory that a zeta(5) formula in powers of one half was in print. The chatbot did not know the coefficients of the three golden ratio formulas on this page.
+
 ## Notation
 
 zeta(5) means 1/1^5 + 1/2^5 + 1/3^5 and so on forever and zeta(7) and zeta(9) use the powers 7 and 9 in the same way.
@@ -32165,6 +32311,10 @@ The page named zeta3-golden.md in this folder shows that zeta(3) can be written 
 The main finding is that the base x near 0.7549 that solves x^3 + x^2 = 1 gives a formula for zeta(5) with no leftover terms at all. The search found no such formula for zeta(5) in the golden ratio base or in any of the other 21 bases tested.
 
 The base near 0.7549 is 1 divided by the number called the plastic ratio (the number p near 1.3247 that solves p^3 = p + 1). Ladders of sums in this base were studied in a 1987 journal article that sits behind a paywall (https://link.springer.com/article/10.1007/BF01836149) which means the formulas below are very likely consequences of published mathematics. A free web search on 20 November 2026 did not turn up the formulas written out with their coefficients.
+
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot did not know which bases would give a formula with no leftover terms and did not know any of the counts or coefficients on this page.
 
 ## Notation
 
@@ -32348,6 +32498,10 @@ The page named other-bases.md in this folder found a base that writes zeta(5) pu
 The answer from the search is yes. A base near 0.7136 gives formulas with no leftover terms for zeta(3) and zeta(5) and zeta(7) and zeta(9). Two bases near 0.8221 and 0.8501 give a formula with no leftover terms for zeta(11) and the base near 0.8501 also gives formulas with no leftover terms for zeta(13) and zeta(15).
 
 Each base on this page is 1 divided by a Salem number. A Salem number is a number bigger than 1 that solves an equation with whole-number coefficients that reads the same forwards and backwards and whose other solutions (apart from 1 divided by the number) all sit at distance exactly 1 from zero in the plane of complex numbers. Ladders of sums in the two bases near 0.8221 and 0.8501 are described in a free 1999 paper (https://arxiv.org/abs/math/9906134) and that paper works with formulas that keep leftover terms. A free web search on 20 November 2026 did not turn up formulas with no leftover terms written out for zeta(7) or zeta(9) or zeta(11) or zeta(13) or zeta(15).
+
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew that ladders in the base near 0.8501 reach very high zeta numbers with leftover terms. The chatbot did not know that formulas with no leftover terms reach zeta(15) and did not know any of the counts or coefficients on this page.
 
 ## Notation
 
@@ -32553,6 +32707,10 @@ https://arxiv.org/abs/2508.03743
 A 2025 paper at that link asks whether formulas built purely from sums over powers of the golden ratio exist for numbers beyond pi^2. The paper reports that an experimental search for a pure formula of that kind for zeta(3) did not succeed and the paper gives a formula that multiplies several sums together as a replacement.
 
 This page reports two pure formulas for zeta(3) that a computer search found on 20 November 2026 so any reader is free to carry the formulas over to people who work on that question.
+
+## What the chatbot could say from memory before the search
+
+Before the search the chatbot knew the classic golden ratio formula for zeta(3) with two leftover terms and knew that a family of related formulas exists. The chatbot did not know that formulas with no leftover terms exist and did not know any of the coefficients on this page.
 
 ## Notation
 
