@@ -1,0 +1,138 @@
+[
+ {
+  "label": "n",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 191,
+  "chance": 174.28274161836185,
+  "pct": 10
+ },
+ {
+  "label": "2n + 1",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 361,
+  "chance": 173.75598876020635,
+  "pct": 108
+ },
+ {
+  "label": "510510 × n + 1",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 934,
+  "chance": 164.8456528681847,
+  "pct": 467
+ },
+ {
+  "label": "n² + n + 41",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 1212,
+  "chance": 174.85070531910083,
+  "pct": 593
+ },
+ {
+  "label": "36n² − 810n + 2753",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 1342,
+  "chance": 172.157639797972,
+  "pct": 680
+ },
+ {
+  "label": "n² + n + 26853927251",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 1625,
+  "chance": 174.85696899489795,
+  "pct": 829
+ },
+ {
+  "label": "−66n³ + 3845n² − 60897n + 251831",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 1512,
+  "chance": 173.98916961791232,
+  "pct": 769
+ },
+ {
+  "label": "n⁶ + 1091",
+  "digits": 100,
+  "samples": 40000,
+  "primes": 12,
+  "chance": 184.76665108656968,
+  "pct": -94
+ },
+ {
+  "label": "n",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 32,
+  "chance": 28.98408354218183,
+  "pct": 10
+ },
+ {
+  "label": "2n + 1",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 59,
+  "chance": 28.955235315911192,
+  "pct": 104
+ },
+ {
+  "label": "510510 × n + 1",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 152,
+  "chance": 28.442573406202573,
+  "pct": 434
+ },
+ {
+  "label": "n² + n + 41",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 185,
+  "chance": 29.01542345390307,
+  "pct": 538
+ },
+ {
+  "label": "36n² − 810n + 2753",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 224,
+  "chance": 28.865126506982087,
+  "pct": 676
+ },
+ {
+  "label": "n² + n + 26853927251",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 261,
+  "chance": 29.015297800598713,
+  "pct": 800
+ },
+ {
+  "label": "−66n³ + 3845n² − 60897n + 251831",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 258,
+  "chance": 28.871634325984054,
+  "pct": 794
+ },
+ {
+  "label": "n⁶ + 1091",
+  "digits": 300,
+  "samples": 20000,
+  "primes": 0,
+  "chance": 29.142179832640576,
+  "pct": -100
+ },
+ {
+  "label": "n² + n + 26853927251",
+  "digits": 1000,
+  "samples": 2500,
+  "primes": 13,
+  "chance": 1.086438296225676,
+  "pct": 1097
+ }
+]

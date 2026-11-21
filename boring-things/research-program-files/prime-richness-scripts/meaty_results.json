@@ -1,0 +1,479 @@
+[
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "36n² − 810n + 2753",
+  "tested": 300000,
+  "primes": 88236,
+  "expected": 11269.426525069857,
+  "pct": 683,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "47n² − 1701n + 10181",
+  "tested": 300000,
+  "primes": 84092,
+  "expected": 11157.049025672879,
+  "pct": 654,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "103n² − 4707n + 50383",
+  "tested": 300000,
+  "primes": 87135,
+  "expected": 10838.55008848333,
+  "pct": 704,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "8n² − 488n + 7243",
+  "tested": 300000,
+  "primes": 87768,
+  "expected": 11953.4497244365,
+  "pct": 634,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "43n² − 537n + 2971",
+  "tested": 300000,
+  "primes": 85512,
+  "expected": 11193.144462409411,
+  "pct": 664,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "2n² − 108n + 1259",
+  "tested": 300000,
+  "primes": 92666,
+  "expected": 12660.180748122677,
+  "pct": 632,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "3n³ − 183n² + 3318n − 18757",
+  "tested": 300000,
+  "primes": 60222,
+  "expected": 8426.125415640494,
+  "pct": 615,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "−66n³ + 3845n² − 60897n + 251831",
+  "tested": 300000,
+  "primes": 65636,
+  "expected": 7745.4832377006405,
+  "pct": 747,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "45n⁴ − 3416n³ + 96738n² − 1212769n + 5692031",
+  "tested": 300000,
+  "primes": 49750,
+  "expected": 6018.8997752407195,
+  "pct": 727,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for a long unbroken run of primes",
+  "label": "6n⁴ − 558n³ + 19354n² − 296370n + 1688311",
+  "tested": 300000,
+  "primes": 50588,
+  "expected": 6276.224512319287,
+  "pct": 706,
+  "note": ""
+ },
+ {
+  "group": "Equations from the published richness record lists",
+  "label": "249582n² + 1",
+  "tested": 300000,
+  "primes": 66924,
+  "expected": 8445.49097611353,
+  "pct": 692,
+  "note": ""
+ },
+ {
+  "group": "Equations from the published richness record lists",
+  "label": "452042n² − 1",
+  "tested": 300000,
+  "primes": 65376,
+  "expected": 8306.021927490774,
+  "pct": 687,
+  "note": ""
+ },
+ {
+  "group": "Equations from the published richness record lists",
+  "label": "n² + 2751n + 1",
+  "tested": 300000,
+  "primes": 97110,
+  "expected": 12990.864110364213,
+  "pct": 648,
+  "note": ""
+ },
+ {
+  "group": "Equations from the published richness record lists",
+  "label": "n² + n − 501229",
+  "tested": 300000,
+  "primes": 104402,
+  "expected": 13038.287080176293,
+  "pct": 701,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for very few primes",
+  "label": "n⁶ + 1091",
+  "tested": 300000,
+  "primes": 132,
+  "expected": 4347.769554305915,
+  "pct": -97,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for very few primes",
+  "label": "n¹² + 488669",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 2173.902770549719,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Equations famous for very few primes",
+  "label": "n⁶ + 29450922301244534",
+  "tested": 300000,
+  "primes": 26,
+  "expected": 4343.878393894701,
+  "pct": -99,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n⁸ + 1",
+  "tested": 300000,
+  "primes": 6866,
+  "expected": 3261.810946182431,
+  "pct": 110,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n¹⁶ + 1",
+  "tested": 300000,
+  "primes": 5952,
+  "expected": 1631.405537375362,
+  "pct": 265,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n³² + 1",
+  "tested": 300000,
+  "primes": 2992,
+  "expected": 816.2027687497474,
+  "pct": 267,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n⁴ + n³ + n² + n + 1",
+  "tested": 300000,
+  "primes": 19203,
+  "expected": 6522.1084396589695,
+  "pct": 194,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n⁶ + n⁵ + n⁴ + n³ + n² + n + 1",
+  "tested": 300000,
+  "primes": 19372,
+  "expected": 4348.198371250484,
+  "pct": 346,
+  "note": ""
+ },
+ {
+  "group": "Powers of n plus 1 and related equations",
+  "label": "n⁴ − n² + 1",
+  "tested": 300000,
+  "primes": 30212,
+  "expected": 6521.661801727347,
+  "pct": 363,
+  "note": ""
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 2",
+  "tested": 300000,
+  "primes": 28349,
+  "expected": 21315.762000360657,
+  "pct": 33,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 4",
+  "tested": 300000,
+  "primes": 28120,
+  "expected": 21315.25072681757,
+  "pct": 32,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 6",
+  "tested": 300000,
+  "primes": 56140,
+  "expected": 21314.919363458805,
+  "pct": 163,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 30",
+  "tested": 300000,
+  "primes": 75046,
+  "expected": 21313.21641357705,
+  "pct": 252,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 210",
+  "tested": 300000,
+  "primes": 89972,
+  "expected": 21308.918556375866,
+  "pct": 322,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 2310",
+  "tested": 300000,
+  "primes": 99980,
+  "expected": 21290.09204778373,
+  "pct": 370,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime + 30030",
+  "tested": 300000,
+  "primes": 108401,
+  "expected": 21189.203607260835,
+  "pct": 412,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "2 × the nth prime + 1",
+  "tested": 300000,
+  "primes": 26694,
+  "expected": 20306.25069086478,
+  "pct": 31,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "(the nth prime)² − 2",
+  "tested": 300000,
+  "primes": 36088,
+  "expected": 10658.900798062206,
+  "pct": 239,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "(the nth prime)² + 4",
+  "tested": 300000,
+  "primes": 23541,
+  "expected": 10658.222162198825,
+  "pct": 121,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime × the next prime + 2",
+  "tested": 300000,
+  "primes": 14733,
+  "expected": 10658.055162698283,
+  "pct": 38,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes that start from the nth prime",
+  "label": "the nth prime × the next prime − 2",
+  "tested": 300000,
+  "primes": 10429,
+  "expected": 10658.34734718833,
+  "pct": -2,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the Lucas numbers (2 then 1 then 3 then 4 then 7 and so on)",
+  "tested": 1436,
+  "primes": 28,
+  "expected": 15.122938079603985,
+  "pct": 85,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the Pell numbers (1 then 2 then 5 then 12 then 29 and so on)",
+  "tested": 784,
+  "primes": 16,
+  "expected": 8.218347717299643,
+  "pct": 95,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the Perrin numbers (3 then 0 then 2 then 3 then 2 then 5 and so on)",
+  "tested": 2457,
+  "primes": 22,
+  "expected": 26.16532696584226,
+  "pct": -16,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the partition numbers (the count of ways to split n into a sum)",
+  "tested": 20000,
+  "primes": 82,
+  "expected": 123.80284990509334,
+  "pct": -34,
+  "note": "outputs up to 152 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the Catalan numbers",
+  "tested": 506,
+  "primes": 2,
+  "expected": 6.110873296796884,
+  "pct": -67,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the Bell numbers",
+  "tested": 215,
+  "primes": 6,
+  "expected": 4.394979852262956,
+  "pct": 37,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "(2ⁿ − 1)² − 2",
+  "tested": 498,
+  "primes": 24,
+  "expected": 4.354976028818987,
+  "pct": 451,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "(2ⁿ + 1)² − 2",
+  "tested": 498,
+  "primes": 21,
+  "expected": 4.630733430269889,
+  "pct": 353,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "2 to the power of the nth prime then minus 1",
+  "tested": 167,
+  "primes": 14,
+  "expected": 3.394615297478391,
+  "pct": 312,
+  "note": "outputs up to 300 digits and the recipe needs the list of primes"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "(2 to the power of the nth prime then plus 1) ÷ 3",
+  "tested": 167,
+  "primes": 20,
+  "expected": 3.1447991805672313,
+  "pct": 536,
+  "note": "outputs up to 300 digits and the recipe needs the list of primes"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "78557 × 2ⁿ + 1",
+  "tested": 980,
+  "primes": 0,
+  "expected": 5.8938153703296035,
+  "pct": -100,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "509203 × 2ⁿ − 1",
+  "tested": 977,
+  "primes": 0,
+  "expected": 5.678223657178386,
+  "pct": -100,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "3 × 2ⁿ + 1",
+  "tested": 994,
+  "primes": 19,
+  "expected": 8.82383915955484,
+  "pct": 115,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the whole numbers written side by side (1 then 12 then 123 and so on)",
+  "tested": 136,
+  "primes": 0,
+  "expected": 1.8536798084731385,
+  "pct": -100,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the primes written side by side (2 then 23 then 235 then 2357 and so on)",
+  "tested": 109,
+  "primes": 3,
+  "expected": 2.4099966313132266,
+  "pct": 24,
+  "note": "outputs up to 300 digits and the recipe needs the list of primes"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "the gap from (the product of the first n primes) to the next prime after that product plus 1",
+  "tested": 150,
+  "primes": 113,
+  "expected": 27.41621269350339,
+  "pct": 312,
+  "note": "150 outputs tested"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "e to the power (π × √n) with decimals dropped",
+  "tested": 3000,
+  "primes": 22,
+  "expected": 34.40794381973537,
+  "pct": -36,
+  "note": "3000 outputs tested"
+ },
+ {
+  "group": "Famous number lists",
+  "label": "n to the power π with decimals dropped",
+  "tested": 60000,
+  "primes": 1925,
+  "expected": 1936.1914739053666,
+  "pct": -1,
+  "note": "60000 outputs tested"
+ }
+]

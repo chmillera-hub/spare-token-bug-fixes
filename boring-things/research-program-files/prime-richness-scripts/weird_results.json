@@ -1,0 +1,488 @@
+[
+ {
+  "group": "Digit tricks",
+  "label": "n + (n written backward)",
+  "tested": 300000,
+  "primes": 331,
+  "expected": 23999.26922877657,
+  "pct": -99,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n × (n written backward) + 1",
+  "tested": 300000,
+  "primes": 21049,
+  "expected": 12900.27550504428,
+  "pct": 63,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n written twice side by side",
+  "tested": 300000,
+  "primes": 1,
+  "expected": 12334.370052879065,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n followed by n written backward",
+  "tested": 300000,
+  "primes": 1,
+  "expected": 12334.362889200384,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n followed by n written backward with the middle digit shared",
+  "tested": 300000,
+  "primes": 16876,
+  "expected": 13648.50254664033,
+  "pct": 24,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n² written backward",
+  "tested": 300000,
+  "primes": 12906,
+  "expected": 13340.043840609016,
+  "pct": -3,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n written in base 2 and then read as a base 10 number",
+  "tested": 300000,
+  "primes": 9332,
+  "expected": 8092.943518707244,
+  "pct": 15,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n written in base 3 and then read as a base 10 number",
+  "tested": 300000,
+  "primes": 10282,
+  "expected": 12872.660113281227,
+  "pct": -20,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "the digits of n read as a base 11 number",
+  "tested": 300000,
+  "primes": 24841,
+  "expected": 25179.236196804,
+  "pct": -1,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n × (the digit total of n) + 1",
+  "tested": 300000,
+  "primes": 46575,
+  "expected": 20524.058163435657,
+  "pct": 127,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n followed by n + 1",
+  "tested": 300000,
+  "primes": 12852,
+  "expected": 12334.230468377837,
+  "pct": 4,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "the digit 1 then n then the digit 1",
+  "tested": 300000,
+  "primes": 48580,
+  "expected": 19453.764605043805,
+  "pct": 150,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n followed by the digit total of n",
+  "tested": 300000,
+  "primes": 18112,
+  "expected": 18636.278067741943,
+  "pct": -3,
+  "note": ""
+ },
+ {
+  "group": "Digit tricks",
+  "label": "n² + (the digit total of n)²",
+  "tested": 300000,
+  "primes": 12882,
+  "expected": 13043.517573107814,
+  "pct": -1,
+  "note": ""
+ },
+ {
+  "group": "Bit tricks",
+  "label": "n combined with half of n by the exclusive-or rule (Gray code)",
+  "tested": 300000,
+  "primes": 25916,
+  "expected": 25995.43964044707,
+  "pct": 0,
+  "note": ""
+ },
+ {
+  "group": "Bit tricks",
+  "label": "the binary digits of n written backward",
+  "tested": 300000,
+  "primes": 25956,
+  "expected": 28024.075226515284,
+  "pct": -7,
+  "note": ""
+ },
+ {
+  "group": "Bit tricks",
+  "label": "n² combined with n by the exclusive-or rule",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 13042.987593315771,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Bit tricks",
+  "label": "n + (2ⁿ mod n)",
+  "tested": 300000,
+  "primes": 15075,
+  "expected": 25479.065144398293,
+  "pct": -41,
+  "note": ""
+ },
+ {
+  "group": "Bit tricks",
+  "label": "n² + (2ⁿ mod n)",
+  "tested": 300000,
+  "primes": 8688,
+  "expected": 13043.156186579738,
+  "pct": -33,
+  "note": ""
+ },
+ {
+  "group": "Mixed operations",
+  "label": "(n × π with decimals dropped) × (n × e with decimals dropped) + 1",
+  "tested": 300000,
+  "primes": 23297,
+  "expected": 11918.756060485526,
+  "pct": 95,
+  "note": ""
+ },
+ {
+  "group": "Mixed operations",
+  "label": "(n × √2 with decimals dropped)² + (n × √3 with decimals dropped)²",
+  "tested": 300000,
+  "primes": 15391,
+  "expected": 12181.166334400901,
+  "pct": 26,
+  "note": ""
+ },
+ {
+  "group": "Mixed operations",
+  "label": "n² + n + 41 fed back into itself",
+  "tested": 300000,
+  "primes": 43624,
+  "expected": 6521.155574818143,
+  "pct": 569,
+  "note": ""
+ },
+ {
+  "group": "Mixed operations",
+  "label": "n² + 1 with every factor of 2 and 5 divided out",
+  "tested": 300000,
+  "primes": 63095,
+  "expected": 13787.267581050677,
+  "pct": 358,
+  "note": ""
+ },
+ {
+  "group": "Mixed operations",
+  "label": "the largest prime that divides n² + 1",
+  "tested": 100000,
+  "primes": 70780,
+  "expected": 7896.856533823381,
+  "pct": 796,
+  "note": "100000 inputs and the recipe needs factoring"
+ },
+ {
+  "group": "Mixed operations",
+  "label": "(2n choose n) + 1",
+  "tested": 500,
+  "primes": 19,
+  "expected": 5.619999815889635,
+  "pct": 238,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Mixed operations",
+  "label": "(2n choose n) − 1",
+  "tested": 500,
+  "primes": 17,
+  "expected": 4.83026181965223,
+  "pct": 252,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Mixed operations",
+  "label": "the top number of the fraction 1 + 1/2 + 1/3 up to 1/n",
+  "tested": 682,
+  "primes": 30,
+  "expected": 6.931287070799806,
+  "pct": 333,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Mixed operations",
+  "label": "the top number of the fraction 1 + 1/4 + 1/9 up to 1/n²",
+  "tested": 348,
+  "primes": 7,
+  "expected": 3.435475813240907,
+  "pct": 104,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "the halfway point between the nth prime and the next prime",
+  "tested": 300000,
+  "primes": 0,
+  "expected": 21315.229663814567,
+  "pct": -100,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "the nth prime + the next prime + 1",
+  "tested": 300000,
+  "primes": 50077,
+  "expected": 20305.93950372928,
+  "pct": 147,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "three neighboring primes added up",
+  "tested": 300000,
+  "primes": 51700,
+  "expected": 19758.800171775205,
+  "pct": 162,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "n × the nth prime + 1",
+  "tested": 300000,
+  "primes": 11579,
+  "expected": 11730.832810063292,
+  "pct": -1,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "the nth prime + n",
+  "tested": 300000,
+  "primes": 21347,
+  "expected": 21200.302123312358,
+  "pct": 1,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "the nth prime − n",
+  "tested": 300000,
+  "primes": 21398,
+  "expected": 21442.977705162553,
+  "pct": 0,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "(the nth prime)² + the nth prime + 41",
+  "tested": 300000,
+  "primes": 72357,
+  "expected": 10657.718291741545,
+  "pct": 579,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "the nth prime written backward",
+  "tested": 300000,
+  "primes": 48180,
+  "expected": 20790.495319270976,
+  "pct": 132,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "n + the count of primes up to n",
+  "tested": 300000,
+  "primes": 25818,
+  "expected": 25869.318502905888,
+  "pct": 0,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Recipes built from the list of primes",
+  "label": "n × the count of primes up to n + 1",
+  "tested": 300000,
+  "primes": 28216,
+  "expected": 14528.578553191024,
+  "pct": 94,
+  "note": "the recipe needs the list of primes"
+ },
+ {
+  "group": "Counting functions",
+  "label": "n + the count of numbers below n that share no factor with n",
+  "tested": 300000,
+  "primes": 16201,
+  "expected": 25067.05297650469,
+  "pct": -35,
+  "note": ""
+ },
+ {
+  "group": "Counting functions",
+  "label": "n × the count of numbers below n that share no factor with n + 1",
+  "tested": 300000,
+  "primes": 41868,
+  "expected": 13391.596683134952,
+  "pct": 213,
+  "note": ""
+ },
+ {
+  "group": "Counting functions",
+  "label": "the total of the divisors of n then plus 1",
+  "tested": 300000,
+  "primes": 15988,
+  "expected": 25119.55036382125,
+  "pct": -36,
+  "note": ""
+ },
+ {
+  "group": "Counting functions",
+  "label": "the total of the divisors of n then plus n",
+  "tested": 300000,
+  "primes": 18143,
+  "expected": 24075.129990171637,
+  "pct": -25,
+  "note": ""
+ },
+ {
+  "group": "Geometry",
+  "label": "the count of grid points inside a circle of radius n",
+  "tested": 20000,
+  "primes": 2167,
+  "expected": 1072.391911094775,
+  "pct": 102,
+  "note": "20000 inputs tested"
+ },
+ {
+  "group": "Geometry",
+  "label": "the most pieces from n straight cuts of a pizza",
+  "tested": 300000,
+  "primes": 26500,
+  "expected": 13455.341909900115,
+  "pct": 97,
+  "note": ""
+ },
+ {
+  "group": "Geometry",
+  "label": "the most pieces from n flat cuts of a cake",
+  "tested": 300000,
+  "primes": 1,
+  "expected": 9180.741409091745,
+  "pct": -100,
+  "note": ""
+ },
+ {
+  "group": "Geometry",
+  "label": "the star numbers 6 × n × (n − 1) + 1",
+  "tested": 300000,
+  "primes": 50145,
+  "expected": 12089.750705088723,
+  "pct": 315,
+  "note": ""
+ },
+ {
+  "group": "Step-by-step rules",
+  "label": "start at 1 and keep adding the digit total of the current number",
+  "tested": 300000,
+  "primes": 29945,
+  "expected": 20279.35000352023,
+  "pct": 48,
+  "note": ""
+ },
+ {
+  "group": "Step-by-step rules",
+  "label": "start at 1 and keep adding the largest digit of the current number",
+  "tested": 300000,
+  "primes": 16498,
+  "expected": 22164.58434469491,
+  "pct": -26,
+  "note": ""
+ },
+ {
+  "group": "Step-by-step rules",
+  "label": "start at 1 and keep adding the smallest prime that does not divide the current number",
+  "tested": 300000,
+  "primes": 49097,
+  "expected": 24585.90488540166,
+  "pct": 100,
+  "note": ""
+ },
+ {
+  "group": "Step-by-step rules",
+  "label": "start at 1 and keep adding the count of 1s in the binary form of the current number",
+  "tested": 300000,
+  "primes": 20816,
+  "expected": 21816.11126291643,
+  "pct": -5,
+  "note": ""
+ },
+ {
+  "group": "Step-by-step rules",
+  "label": "start at 1 and keep adding the current number written backward",
+  "tested": 703,
+  "primes": 1,
+  "expected": 7.913523109652403,
+  "pct": -87,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Best fractions",
+  "label": "the top numbers of the best fractions for π (3 then 22 then 333 then 355 and so on)",
+  "tested": 561,
+  "primes": 8,
+  "expected": 5.307859699157535,
+  "pct": 51,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Best fractions",
+  "label": "the top numbers of the best fractions for e",
+  "tested": 392,
+  "primes": 10,
+  "expected": 7.212868704038155,
+  "pct": 39,
+  "note": "outputs up to 300 digits"
+ },
+ {
+  "group": "Best fractions",
+  "label": "the top numbers of the best fractions for √2 (1 then 3 then 7 then 17 and so on)",
+  "tested": 561,
+  "primes": 14,
+  "expected": 7.46621741951861,
+  "pct": 88,
+  "note": "outputs up to 300 digits"
+ }
+]

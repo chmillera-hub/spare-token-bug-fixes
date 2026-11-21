@@ -32,6 +32,23 @@ for s,kind,p0,c0,p1,c1 in Z:
     else: lab='the first n digits of the zeta running total 1/1%s + 1/2%s + 1/3%s up to 1/n%s'%(sup[s],sup[s],sup[s],sup[s])
     add(lab,round((p0/c0-1)*100),2000,p0,c0,'positions 1 to 2000')
     add(lab+' then bump the last digit',round((p1/c1-1)*100),2000,p1,c1,'positions 1 to 2000')
+REL={'the Lucas numbers (2 then 1 then 3 then 4 then 7 and so on)':'the list 2 then 1 then 3 then 4 then 7 where each number is the two before added up',
+ 'the Pell numbers (1 then 2 then 5 then 12 then 29 and so on)':'the list 1 then 2 then 5 then 12 then 29 where each number is twice the one before plus the one before that',
+ 'the Perrin numbers (3 then 0 then 2 then 3 then 2 then 5 and so on)':'the list 3 then 0 then 2 then 3 then 2 then 5 where each number is the second and third numbers before added up',
+ 'the Catalan numbers':'the count of ways to pair up n sets of brackets',
+ 'the Bell numbers':'the count of ways to sort n objects into groups',
+ 'n combined with half of n by the exclusive-or rule (Gray code)':'n combined with half of n by the exclusive-or rule'}
+GM={'Equations famous for a long unbroken run of primes':'run','Equations from the published richness record lists':'rich','Equations famous for very few primes':'poor','Powers of n plus 1 and related equations':'pow','Recipes that start from the nth prime':'pr','Famous number lists':'lists','Digit tricks':'dig','Bit tricks':'bit','Mixed operations':'mix','Recipes built from the list of primes':'pr','Counting functions':'cnt','Geometry':'geo','Step-by-step rules':'step','Best fractions':'frac'}
+for fn in ('meaty_results.json','weird_results.json'):
+    for r in json.load(open(fn)):
+        if r['label'].startswith('e to the power'): continue
+        lab=REL.get(r['label'],r['label'])
+        if fn.startswith('meaty') and lab in ('the nth prime + 2',): pass
+        add(lab,r['pct'],r['tested'],r['primes'],r['expected'],r.get('note',''))
+        E[-1]['g']=GM[r['group']]
+def sh(x):
+    x*=100
+    return ('%.0f'%x if x>=10 else '%.1f'%x if x>=1 else '%.2f'%x if x>=0.1 else '%.3f'%x)+'%'
 def luck(k,lam):
     if lam<=0: return None
     z=(k-lam)/math.sqrt(lam)
@@ -52,8 +69,8 @@ for e in E:
     err=100*math.sqrt(max(k,1))/lam if lam>0 else None
     e['err']=err
     n_=max(1,round(err)) if err is not None else 0; wob=('give or take %d point%s'%(n_,'' if n_==1 else 's')) if err is not None else ''
-    s='%s: %s (%s). Tested %d outputs and found %d %s where chance predicts %s. Luck odds: %s.'%(e['label'],pc(e['pct']),wob,e['tested'],k,'prime' if k==1 else 'primes',('%.0f'%lam if lam>=100 else '%.1f'%lam),odds(p))
-    if e['note']: s+=' Note: '+e['note']+'.'
+    s='%s: %s (%s). Tested %d outputs and found %d %s (%s of the outputs) where chance predicts %s (%s). Luck odds: %s.'%(e['label'],pc(e['pct']),wob,e['tested'],k,'prime' if k==1 else 'primes',sh(k/e['tested']),('%.0f'%lam if lam>=100 else '%.1f'%lam),sh(lam/e['tested']),odds(p))
+    if e['note']: s+=' Note: '+e['note'].replace('100000 inputs and the recipe needs factoring','the recipe needs a factoring step').replace('150 outputs tested','the recipe needs a search for the next prime').replace('20000 inputs tested','the count takes long to compute').replace('60000 outputs tested','fewer inputs fit the precision used')+'.'
     e['line']=s
 E.sort(key=lambda e:(-e['pct'],e['label']))
 json.dump(E,open('master.json','w'),ensure_ascii=False,indent=0)
