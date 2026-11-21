@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
  "file_count": 1240,
- "total_bytes": 95068165,
+ "total_bytes": 95069229,
  "files": [
   {
    "path": ".gitignore",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 30192,
+   "bytes": 30658,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1225,7 +1225,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 18714,
+   "bytes": 19312,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
