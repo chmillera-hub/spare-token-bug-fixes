@@ -226,10 +226,43 @@ n² + n + 26853927251 blocks every prime below 97 by the choice of the added num
 
 The measured +1167% matched the predicted +1161%. About 1 of every 53 outputs was prime where ordinary numbers of about 292 digits give about 1 of every 670. The stacked recipe beat the +1108% of (the product of every prime up to 1009) × n + 1 while using shorter outputs.
 
+## Changing the last digit to one fixed digit
+
+The rule replaces the last digit of every output with one fixed digit. Each line gives the percentage for the plain outputs and for the usual bump (the last digit moves up to the nearest of 1 or 3 or 7 or 9) and then for the last digit changed to 1 and to 3 and to 7 and to 9. Each recipe ran on inputs 1 to 300000 in order.
+
+- n: 0% plain and 0% with the usual bump and −75% to 1 and −75% to 3 and −75% to 7 and −75% to 9
+- 10n: −100% plain and +150% with the usual bump and +150% to 1 and +150% to 3 and +150% to 7 and +150% to 9
+- 2n: −100% plain and +100% with the usual bump and −50% to 1 and −50% to 3 and −50% to 7 and −50% to 9
+- 6n: −100% plain and +200% with the usual bump and +50% to 1 and +50% to 3 and +50% to 7 and +50% to 9
+- 30n: −100% plain and +275% with the usual bump and +275% to 1 and −100% to 3 and +275% to 7 and −100% to 9
+- 210n: −100% plain and +338% with the usual bump and +338% to 1 and −100% to 3 and −100% to 7 and −100% to 9
+- n²: −100% plain and +96% with the usual bump and +165% to 1 and +113% to 3 and +210% to 7 and +76% to 9
+- n² − 1: −100% plain and +5% with the usual bump and +118% to 1 and +106% to 3 and +199% to 7 and +46% to 9
+- n² + 1: +37% plain and +153% with the usual bump and +119% to 1 and +134% to 3 and +165% to 7 and +131% to 9
+- n² + n: −100% plain and +123% with the usual bump and +228% to 1 and +91% to 3 and +159% to 7 and +70% to 9
+- n² + n + 41: +564% plain and +564% with the usual bump and +272% to 1 and +302% to 3 and +222% to 7 and +145% to 9
+- n² ÷ 2 with decimals dropped: −100% plain and +134% with the usual bump and +213% to 1 and +113% to 3 and +150% to 7 and +92% to 9
+- n × (n + 1) ÷ 2: −100% plain and +159% with the usual bump and +229% to 1 and +148% to 3 and +173% to 7 and +157% to 9
+- n³: −100% plain and −33% with the usual bump and +78% to 1 and +114% to 3 and +110% to 7 and +111% to 9
+- n⁴ + 4: −100% plain and +81% with the usual bump and +7% to 1 and +211% to 3 and +107% to 7 and +99% to 9
+- n × π with decimals dropped: 0% plain and +129% with the usual bump and −22% to 1 and −21% to 3 and −22% to 7 and −22% to 9
+- n² × π with decimals dropped: −2% plain and +149% with the usual bump and +149% to 1 and +148% to 3 and +152% to 7 and +151% to 9
+- 2ⁿ mod n then plus n²: −33% plain and +133% with the usual bump and +121% to 1 and +163% to 3 and +130% to 7 and +147% to 9
+
+No digit wins for every equation. The digit 7 was the best fixed digit for n² (+210%) and n² − 1 (+199%) and n² + 1 (+165%). The digit 1 was the best for n² + n (+228%) and n × (n + 1) ÷ 2 (+229%) and n² ÷ 2 (+213%). The digit 3 was the best for n⁴ + 4 (+211%).
+
+The main cause is the prime 3. For n² the changed numbers are multiples of 3 for 20% of the inputs when the digit is 1 or 7 and for 43% of the inputs when the digit is 3 or 9 where ordinary numbers are multiples of 3 for 33%. So the best digit for an equation is a digit that makes multiples of 3 rare for that equation.
+
+Three more patterns show in the lines. For 30n the digits 1 and 7 give +275% and the digits 3 and 9 give −100% because 30n + 3 and 30n + 9 are multiples of 3. For 210n the digit 1 gives +338% and the digit 7 gives −100% because 210n + 7 is a multiple of 7. A fixed digit lowers n² + n + 41 from +564% to between +145% and +302% because changing the last digit breaks the blocking of small primes that the equation has.
+
+A recipe whose outputs rise slowly does badly under a fixed digit because ten inputs in a row give the same changed number and a repeated prime counts once. The plain number line falls to −75% under any fixed digit while the usual bump keeps the plain number line at 0%.
+
+The primes themselves show almost no preference for a last digit. Below 100 million there are 1440298 primes ending in 1 and 1440474 ending in 3 and 1440495 ending in 7 and 1440186 ending in 9. The digit 7 leads by about 2 primes in every 10000 and a proven theorem says the four shares become equal in the long run.
+
 ## The sample-size numbers on the master lists
 
 Each line of the master lists carries the count of outputs tested and the count of primes found and the count chance predicts plus two guards against small samples. "Give or take" is 100 times the square root of the count of primes found divided by the count chance predicts. "Luck odds" is the chance that a count at least that far from the predicted count shows up when the true rate equals the number line rate and the odds are worked out with the standard formula for counts of rare events. A line is marked "the gap could be luck" when the luck odds are about 10 in 100 or more.
 
 ## Program files
 
-The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and hybrid.py (the stacked recipe) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).
+The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and hybrid.py (the stacked recipe) and lastdigit.py (the last digit changed to one fixed digit) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).
