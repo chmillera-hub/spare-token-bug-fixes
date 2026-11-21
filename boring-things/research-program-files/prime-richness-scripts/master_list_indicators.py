@@ -66,6 +66,9 @@ for r in json.load(open('dead_bump_results.json')):
     if g: E[-1]['g']=g
 add('n² + n + 26853927251 fed inputs that are multiples of the 11 primes up to 300 that can divide an output',992,100000,7770,711.4,'outputs have about 62 digits'); E[-1]['g']='sq'
 add('n² + n + 26853927251 fed inputs that are multiples of the 52 primes up to 1000 that can divide an output',1167,100000,1900,149.9,'outputs have about 292 digits'); E[-1]['g']='sq'
+for r in json.load(open('lastdigit_results.json')):
+    for d in ('1','3','7','9'):
+        x=r[d]; add(r['label']+' with the last digit changed to '+d,x['pct'],x['tested'],x['primes'],x['chance'],'inputs 1 to 300000 in order'); E[-1]['g']='ld'
 def outof(s):
     if s<=0: return 'none'
     if s>0.995: return 'every output'

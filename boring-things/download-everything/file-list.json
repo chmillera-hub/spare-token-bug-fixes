@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-21",
  "file_count": 1298,
- "total_bytes": 96061725,
+ "total_bytes": 96061970,
  "files": [
   {
    "path": ".gitignore",
@@ -10324,7 +10324,7 @@
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/master_list_indicators.py",
    "title": "master_list_indicators.py",
-   "bytes": 8570,
+   "bytes": 8815,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/master_list_indicators.py",
