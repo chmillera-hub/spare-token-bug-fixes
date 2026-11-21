@@ -64,6 +64,18 @@ for r in json.load(open('dead_bump_results.json')):
     if base in ('2ⁿ ÷ 3','78557 × 2ⁿ + 1','509203 × 2ⁿ − 1','the whole numbers written side by side'): g=gof.get(base,g)
     if base=='3n²': g=None
     if g: E[-1]['g']=g
+add('n² + n + 26853927251 fed inputs that are multiples of the 11 primes up to 300 that can divide an output',992,100000,7770,711.4,'outputs have about 62 digits'); E[-1]['g']='sq'
+add('n² + n + 26853927251 fed inputs that are multiples of the 52 primes up to 1000 that can divide an output',1167,100000,1900,149.9,'outputs have about 292 digits'); E[-1]['g']='sq'
+def outof(s):
+    if s<=0: return 'none'
+    if s>0.995: return 'every output'
+    if s>=0.095:
+        best=min(((abs(a/b-s),b,a) for b in range(2,11) for a in range(1,b)),key=lambda t:(round(t[0],4),t[1]))
+        return 'about %d of every %d'%(best[2],best[1])
+    n=1/s
+    if n>=100:
+        mag=10**(len(str(int(n)))-2); n=round(n/mag)*mag
+    return 'about 1 of every %d'%round(n)
 def sh(x):
     x*=100
     return ('%.0f'%x if x>=10 else '%.1f'%x if x>=1 else '%.2f'%x if x>=0.1 else '%.3f'%x)+'%'
@@ -87,7 +99,7 @@ for e in E:
     err=100*math.sqrt(max(k,1))/lam if lam>0 else None
     e['err']=err
     n_=max(1,round(err)) if err is not None else 0; wob=('give or take %d point%s'%(n_,'' if n_==1 else 's')) if err is not None else ''
-    s='%s: %s (%s). Tested %d outputs and found %d %s (%s of the outputs) where chance predicts %s (%s). Luck odds: %s.'%(e['label'],pc(e['pct']),wob,e['tested'],k,'prime' if k==1 else 'primes',sh(k/e['tested']),('%.0f'%lam if lam>=100 else '%.1f'%lam),sh(lam/e['tested']),odds(p))
+    s='%s: %s (%s). Tested %d outputs and found %d %s (%s of the outputs which is %s) where chance predicts %s (%s which is %s). Luck odds: %s.'%(e['label'],pc(e['pct']),wob,e['tested'],k,'prime' if k==1 else 'primes',sh(k/e['tested']),outof(k/e['tested']),('%.0f'%lam if lam>=100 else '%.1f'%lam),sh(lam/e['tested']),outof(lam/e['tested']),odds(p))
     if e['note']: s+=' Note: '+e['note'].replace('100000 inputs and the recipe needs factoring','the recipe needs a factoring step').replace('150 outputs tested','the recipe needs a search for the next prime').replace('20000 inputs tested','the count takes long to compute').replace('60000 outputs tested','fewer inputs fit the precision used')+'.'
     e['line']=s
 E.sort(key=lambda e:(-e['pct'],e['label']))

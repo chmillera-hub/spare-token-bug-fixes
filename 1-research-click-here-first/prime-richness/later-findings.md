@@ -217,10 +217,19 @@ n⁴ + n² + 1 stays at −100% because every output already ends in 1 or 3 or 7
 
 n¹² + 488669 gave 0 primes in 300000 inputs before the bump and 5551 primes after the bump. So the lack of primes in that equation rests on an exact pattern of which small primes divide the outputs and the pattern does not survive a shift of 1 to 3 in the last digit.
 
+## Stacking two ways of blocking small primes
+
+n² + n + 26853927251 blocks every prime below 97 by the choice of the added number. Feeding the equation inputs that are multiples of the primes that can still divide an output blocks those primes as well because the output then leaves the same remainder as 26853927251 when divided by any of those primes.
+
+- With the 11 such primes up to 300 folded into the input: +992% (7770 primes in 100000 tests where chance predicts 711 and outputs of about 62 digits)
+- With the 52 such primes up to 1000 folded into the input: +1167% (1900 primes in 100000 tests where chance predicts 150 and outputs of about 292 digits)
+
+The measured +1167% matched the predicted +1161%. About 1 of every 53 outputs was prime where ordinary numbers of about 292 digits give about 1 of every 670. The stacked recipe beat the +1108% of (the product of every prime up to 1009) × n + 1 while using shorter outputs.
+
 ## The sample-size numbers on the master lists
 
 Each line of the master lists carries the count of outputs tested and the count of primes found and the count chance predicts plus two guards against small samples. "Give or take" is 100 times the square root of the count of primes found divided by the count chance predicts. "Luck odds" is the chance that a count at least that far from the predicted count shows up when the true rate equals the number line rate and the odds are worked out with the standard formula for counts of rare events. A line is marked "the gap could be luck" when the luck odds are about 10 in 100 or more.
 
 ## Program files
 
-The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).
+The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and hybrid.py (the stacked recipe) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).

@@ -1136,6 +1136,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/borin
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/equation_table_bump_results.json
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/equation_table_results.json
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/hybrid.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/low_high.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/low_high_results.json
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/master_list_builder.py
