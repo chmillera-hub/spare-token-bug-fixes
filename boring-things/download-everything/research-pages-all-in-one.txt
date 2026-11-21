@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 262 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 264 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 58 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 59 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15309,7 +15309,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 58 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 59 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15369,6 +15369,7 @@ The 58 pages in this list are written reflections that a visitor can read in a f
 - [What the people nearby do when someone weeps in the stories of the Bible](deep-dives/weeping-responses.md) asks what the people nearby do when someone weeps in the stories of the Bible and reports a reading of 61 scenes in the World English Bible in which the largest group has no recorded response and 12 scenes show someone weeping along and 10 show the person told to stop and 6 show the person asked what the trouble is and the page ends with two things a person can do.
 - [What happens to a worn-out person in the stories of the Bible](deep-dives/worn-out-responses.md) asks what the people nearby do when someone is worn out in the stories of the Bible and reports a reading of 33 scenes in the World English Bible in which 15 show bread or water or rest or a shared load given and 9 show a tired person refused or harmed and the page ends with two things a person can do.
 - [What the dead ask of the living in a book of old gravestone verses](deep-dives/epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
+- [What old proverbs in seven languages say about being alone and having company](deep-dives/alone-proverbs.md) asks whether old proverbs favor being alone or having company and reports a reading of 54 proverbs from a free 1857 book of proverbs in seven languages in which 24 favor company and 12 favor being alone and none praises being alone for its own sake and the page ends with two things a person can do.
 
 ## Thread counts and data
 
@@ -22461,6 +22462,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [worn-out-responses-list.txt](worn-out-responses-list.txt) is a plain text list of the 33 scenes behind the page worn-out-responses.md sorted into six groups so that a reader can check the sorting.
 - [epitaph-requests.md](epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
 - [epitaph-requests-list.txt](epitaph-requests-list.txt) is a plain text list of a few words from each of the 81 verses behind the page epitaph-requests.md sorted into eleven groups so that a reader can check the sorting.
+- [alone-proverbs.md](alone-proverbs.md) asks whether old proverbs favor being alone or having company and reports a reading of 54 proverbs from a free 1857 book of proverbs in seven languages in which 24 favor company and 12 favor being alone and none praises being alone for its own sake and the page ends with two things a person can do.
+- [alone-proverbs-list.txt](alone-proverbs-list.txt) is a plain text list of the 54 proverbs behind the page alone-proverbs.md sorted into five groups so that a reader can check the sorting.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -22547,6 +22550,149 @@ Millions of people live inside hermetically sealed, screen-mediated loops where 
 Society relies on counterproductive game theory: responding to non-violent friction with ruinous, punitive force—getting people fired, siccing armed agents on them, or stripping away support—which only radicalizes bystanders and multiplies enemies. At the same time, unrecorded voice-based communication creates an accountability blind spot where threats, gaslighting, and coercion can hide without leaving written proof.
 
 Taken together, the recent conversation paints society not as a living village built to nurture human flourishing, but as an automated sorting and compliance system—one that demands silence, obedience, and financial proof of worth before granting basic human warmth, making unmasked honesty and direct requests for real time and attention feel revolutionary.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/alone-proverbs-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/alone-proverbs-list.txt
+================================================================================
+
+Proverbs about being alone and having company in an 1857 book of proverbs from seven languages sorted by what the proverb says
+
+An AI model (Claude) chose and sorted the 54 proverbs on 20 November 2026 from the English translations printed in the book (Project Gutenberg ebook number 51090). The sorting involved judgment calls and no other person has rechecked the sorting.
+
+Company makes life better or being alone makes life worse (24 proverbs)
+French: A pleasant companion on a journey is as good as a postchaise.
+French: Better be mad with all the world than wise alone.
+French: Company in distress makes trouble less.
+Italian: You will not be loved if you think of yourself alone.
+Italian: One would not be alone in Paradise.
+Italian: A wise man and a fool together, know more than a wise man alone.
+Italian: The pope and a peasant know more than the pope alone.
+German: When Christ was alone, the devil tempted him.
+German: One log does not burn long by itself.
+German: A doctor and a boor know more than a doctor alone.
+German: Cheerful company shortens the miles.
+German: The later the evening, the fairer the company.
+German: He who sleeps alone keeps long cold, two soon warm each other.
+Spanish: For a good companion good company.
+Spanish: He that eats his fowl alone may saddle his horse alone.
+Portuguese: Keep good company and you shall be of the number.
+Portuguese: I renounce the friend who eats what is mine with me, and what is his own by himself.
+Portuguese: One grain does not fill the granary, but it helps its companion.
+Portuguese: He is no friend that eats his own by himself, and mine with me.
+Portuguese: There’s no living without friends.
+Portuguese: Who eats his fowl alone, must saddle his horse alone.
+Dutch: The third person makes good company.
+Dutch: Good company makes short miles.
+Danish: Alone in counsel, alone in sorrow.
+
+Being alone is better than bad company or a companion has a cost (12 proverbs)
+Italian: Better alone than in bad company.
+German: Better alone than in bad company.
+Spanish: Better be alone than in bad company.
+Portuguese: Better alone than in bad company.
+Dutch: Better alone than in bad company.
+French: He who has a companion has a master.
+Italian: He who is embarked with the devil must make the passage in his company.
+Italian: Who makes the wolf his companion should carry a dog under his cloak.
+German: Everybody’s companion is nobody’s friend.
+German: He who follows the crowd has many companions.
+Spanish: The rotten apple spoils its companion.
+Dutch: ”Bad company,” said the thief, as he went to the gallows between the hangman and a monk.
+
+Company leaves when the food or the good fortune is gone (9 proverbs)
+French: The best company must part, as King Dagobert said to his hounds.
+French: Night has no friend.
+Spanish: The dead and the absent have no friends.
+Spanish: The bread eaten, the company departed.
+Spanish: A north wind has no corn, and a poor man no friend.
+Portuguese: The dead and the absent have no friends.
+Portuguese: A morsel eaten gains no friend.
+Portuguese: The bread eaten, the company departs.
+Dutch: A dog with a bone knows no friend.
+
+A person is known by the company the person keeps (6 proverbs)
+French: Tell me the company you keep, and I will tell you who you are.
+Italian: Tell me the company you keep, and I’ll tell you what you are.
+Spanish: Tell me what company you keep, and I will tell you who you are.
+Dutch: Tell me the company you keep, and I’ll tell you what you are.
+Dutch: Birds of a feather flock together.
+German: Birds of a feather flock together.
+
+A mixed or joking verdict on the person who lives alone (3 proverbs)
+Italian: A solitary man is either a brute or an angel.
+French: When the devil grows old he turns hermit.
+Italian: When the devil is old he turns hermit.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/alone-proverbs.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/alone-proverbs.md
+================================================================================
+
+# What old proverbs in seven languages say about being alone and having company
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the proverbs and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+Proverbs are the short sayings that ordinary people repeated for centuries. When old proverbs speak about being alone and about having company which side do the proverbs favor and does any proverb praise being alone for its own sake?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the book the chatbot knew the saying "Better alone than in bad company" and two or three other sayings. The chatbot guessed that proverbs in favor of being alone would outnumber proverbs in favor of company. The chatbot had no count behind the guess which is why the reading was done.
+
+## What a web search turned up
+
+A web search on 20 November 2026 turned up the saying "Better alone than in bad company" on page after page and turned up long lists of modern quotes about solitude. The search did not turn up a tally of what a large collection of old proverbs says on each side. The search used wording such as "proverbs about being alone versus company across languages".
+
+## How the reading was done
+
+The source was a book printed in London in 1857 that gathers proverbs in French and Italian and German and Spanish and Portuguese and Dutch and Danish with an English translation beside each proverb. The book is free to read because the copyright ran out long ago and Project Gutenberg hosts the text as ebook number 51090 at https://www.gutenberg.org/ebooks/51090 and the chatbot read a copy of the same text kept on GitHub.
+
+The book holds 7924 proverbs by the chatbot's count. A search of the English translations for words such as alone and solitary and hermit and company and companion and "no friend" pulled out about 100 proverbs and each one was read. A proverb was kept when the proverb says something about a person being alone or being with others. The count was 54 proverbs and the file named alone-proverbs-list.txt in this folder lists the 54 proverbs in five groups so that any reader can check the sorting.
+
+Three limits matter. The reading used the English translations and not the original languages. The same saying often appears in several languages and each appearance was counted. The book also holds 149 proverbs with the word friend and the reading did not sort those unless one of the search words was present.
+
+## The count
+
+- In 24 proverbs company makes life better or being alone makes life worse.
+- In 12 proverbs being alone is better than bad company or a companion has a cost.
+- In 9 proverbs company leaves when the food or the good fortune is gone.
+- In 6 proverbs a person is known by the company the person keeps.
+- In 3 proverbs the verdict on a person who lives alone is mixed or a joke.
+
+The guess made beforehand was wrong because proverbs in favor of company outnumber proverbs in favor of being alone by 24 to 12. The reading also found something the guess did not reach for. Not one of the 54 proverbs praises being alone for its own sake. The proverbs that favor being alone compare being alone with something worse such as bad company or a companion who gives orders.
+
+## What the proverbs on the side of company say
+
+Many of the 24 proverbs are about plain bodily comfort. One says "One log does not burn long by itself." and another says "He who sleeps alone keeps long cold" and adds "two soon warm each other". Two say that good company shortens the miles of a journey. One says "Company in distress makes trouble less."
+
+Several are about thinking. One says "A doctor and a boor know more than a doctor alone." and another says "The pope and a peasant know more than the pope alone." which means the proverbs hold that the most learned person still knows less alone than together with an ordinary person. One Danish proverb pairs the words "Alone in counsel" with the words "alone in sorrow" which means a person who decides everything alone also suffers the results alone.
+
+The strongest lines are the shortest. One says "There’s no living without friends." and one says "One would not be alone in Paradise."
+
+## What the proverbs on the side of being alone say
+
+The saying "Better alone than in bad company." appears in five of the seven languages and is the only form in which the book favors being alone. One French proverb gives a reason to be wary of company with the words "He who has a companion has a master." One German proverb warns about the opposite mistake with the words "Everybody’s companion is nobody’s friend." The lone proverb that looks straight at a person living alone says "A solitary man is either a brute or an angel." which treats a life alone as something outside the ordinary range of human lives.
+
+## Food runs through the proverbs about company
+
+Bread and meat appear again and again in these proverbs. A Spanish proverb says "He that eats his fowl alone may saddle his horse alone." which means a person who keeps food to himself can expect no help with work later. Two Portuguese proverbs refuse the name of friend to a person who eats from a shared plate and then eats his own food in private. One says "A morsel eaten gains no friend." because food that was shared could have made a friend and food eaten alone cannot.
+
+The same link shows a bitter side in the nine proverbs about company that leaves. Two proverbs say that once the bread is eaten the company departs. One says "A dog with a bone knows no friend." One says "The dead and the absent have no friends." and one says that a person without money has no friend. Those proverbs do not praise the leaving. Those proverbs record that people saw friends vanish when the food ran out and said so in a line short enough to remember.
+
+## What the finding could mean
+
+Food and shelter and being known by another heart are three basic human needs and the proverbs tie the three together more tightly than the chatbot expected. Warmth in bed and a fire that keeps burning and a shorter road and a shared meal are the pictures the proverbs use for company. The people who made these sayings did not treat company as a pleasant extra. The sayings treat company as part of how a person stays warm and fed.
+
+The proverbs also keep both warnings in view. Bad company is worse than none and company that stays only for the bread is not the company a person needs. The book gives no proverb that says how to tell the two apart ahead of time which is a real gap in the old advice.
+
+The record offers two things a person can do. A person with food to spare can share a meal because the proverbs name the shared meal as the place where help and friendship begin and name the meal eaten alone as the start of working alone. A person who has been left alone can hold on to the one comparison the proverbs make without taking the comparison as praise because the proverbs say that being alone beats bad company and do not say that being alone is good. No proverb in the book promises that a shared meal will bring a lasting friend and nine proverbs record company that left.
+
+## Two quick points
+
+- In 54 old proverbs about being alone and having company from seven languages 24 favor company and 12 favor being alone and none praises being alone for its own sake.
+- The proverbs picture company as warmth and a fire and a shared meal so a person with food to spare can share a meal and a person left alone can read "Better alone than in bad company." as a comparison and not as praise of being alone.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/asking-a-feeling.md
