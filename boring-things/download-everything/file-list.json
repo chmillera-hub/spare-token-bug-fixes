@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-20",
- "file_count": 1228,
- "total_bytes": 95004547,
+ "file_count": 1230,
+ "total_bytes": 95012814,
  "files": [
   {
    "path": ".gitignore",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 27633,
+   "bytes": 28016,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1225,7 +1225,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 15278,
+   "bytes": 15789,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1401,6 +1401,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/help-behind-cashier.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/help-behind-cashier.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/how-long-both-ways.md",
+   "title": "The question \"How long?\" travels in both directions in the Bible",
+   "bytes": 6185,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/how-long-both-ways.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/how-long-both-ways.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/how-long-list.txt",
+   "title": "how-long-list.txt",
+   "bytes": 1188,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/how-long-list.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/how-long-list.txt"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/hunger-said-out-loud.md",
