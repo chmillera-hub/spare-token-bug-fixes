@@ -98,6 +98,12 @@ Rules for what a reflection or a piece of research is for
   - Before: A person who is lonely could join a game night to be around people.
   - After: A person who is lonely needs someone who wants to know that person's heart and mind and so the person can say out loud "I am looking for deep conversation about what I feel and what I believe".
 
+Rules for describing serious work
+
+- Describe careful thinking about emotions or spirituality with words such as "inventive" or "searching" or "witty" and leave out the word "playful" because many readers link the word "playful" with games and pastimes and may decide that the writing is a joke and stop reading.
+  - Before: The reflection takes a playful look at loneliness.
+  - After: The reflection takes an inventive and searching look at loneliness.
+
 Rules for writing about emotions
 
 - Look up the nearest emotion in the document named The Emotional Framework before writing a sentence that names an emotion and use the purpose and the need listed there because the purpose says what the emotion is signaling and the need says what kind of plan would care for the emotion. The document is in the folder named emotional-framework inside the research folder.
@@ -109,3 +115,5 @@ A caring question that hides the reason for asking can lead the other person to 
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.
 
 A text that names no path toward food or shelter or deep meaningful emotionally and spiritually resonant human connection can leave a suffering reader with nothing to act on and the reader then stays hungry or unhoused or alone.
+
+A text about emotional or spiritual growth that is described as playful can lead a reader to treat the text as a pastime and the reader may then leave before reaching the part that could help.
