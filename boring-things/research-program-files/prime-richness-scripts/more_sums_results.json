@@ -1,0 +1,291 @@
+[
+ {
+  "label": "start at 2 then add the gaps between neighboring primes",
+  "steps": 300000,
+  "plain": 1307,
+  "bump": 1307,
+  "carry": 76,
+  "primes": [
+   300000,
+   299999,
+   37465
+  ],
+  "chance": [
+   21315.7,
+   21315.6,
+   21315.1
+  ]
+ },
+ {
+  "label": "the gaps between neighboring primes added up",
+  "steps": 300000,
+  "plain": 33,
+  "bump": 341,
+  "carry": 1307,
+  "primes": [
+   28349,
+   93921,
+   299999
+  ],
+  "chance": [
+   21315.4,
+   21315.3,
+   21315.1
+  ]
+ },
+ {
+  "label": "4 + 9 + 25 + 49 and so on (squares of primes)",
+  "steps": 300000,
+  "plain": -1,
+  "bump": 152,
+  "carry": 151,
+  "primes": [
+   7749,
+   19635,
+   19553
+  ],
+  "chance": [
+   7796.9,
+   7796.7,
+   7796.7
+  ]
+ },
+ {
+  "label": "2 + 5 + 11 + 17 and so on (every second prime)",
+  "steps": 300000,
+  "plain": 1,
+  "bump": 151,
+  "carry": 151,
+  "primes": [
+   11845,
+   29409,
+   29383
+  ],
+  "chance": [
+   11723.2,
+   11723.1,
+   11723.0
+  ]
+ },
+ {
+  "label": "1 × 2 + 2 × 3 + 3 × 5 + 4 × 7 and so on (n times the nth prime)",
+  "steps": 300000,
+  "plain": 0,
+  "bump": 152,
+  "carry": 150,
+  "primes": [
+   8367,
+   21007,
+   20849
+  ],
+  "chance": [
+   8349.7,
+   8349.6,
+   8349.6
+  ]
+ },
+ {
+  "label": "1 + 16 + 81 + 256 and so on (fourth powers)",
+  "steps": 300000,
+  "plain": -100,
+  "bump": -34,
+  "carry": 150,
+  "primes": [
+   1,
+   3526,
+   13409
+  ],
+  "chance": [
+   5369.8,
+   5369.8,
+   5369.8
+  ]
+ },
+ {
+  "label": "2 + 6 + 12 + 20 and so on (n times n + 1)",
+  "steps": 300000,
+  "plain": -100,
+  "bump": 216,
+  "carry": 216,
+  "primes": [
+   1,
+   28438,
+   28438
+  ],
+  "chance": [
+   8986.5,
+   8986.4,
+   8986.4
+  ]
+ },
+ {
+  "label": "1 + 9 + 25 + 49 and so on (odd squares)",
+  "steps": 300000,
+  "plain": -100,
+  "bump": 38,
+  "carry": 194,
+  "primes": [
+   0,
+   11857,
+   25380
+  ],
+  "chance": [
+   8622.6,
+   8622.5,
+   8622.5
+  ]
+ },
+ {
+  "label": "start at 1 then add 4 + 8 + 12 + 16 and so on",
+  "steps": 300000,
+  "plain": 173,
+  "bump": 226,
+  "carry": 158,
+  "primes": [
+   34603,
+   41304,
+   32609
+  ],
+  "chance": [
+   12656.9,
+   12656.8,
+   12656.7
+  ]
+ },
+ {
+  "label": "start at 29 then add 2 + 6 + 10 + 14 and so on",
+  "steps": 300000,
+  "plain": 492,
+  "bump": 492,
+  "carry": 492,
+  "primes": [
+   74919,
+   74919,
+   74919
+  ],
+  "chance": [
+   12656.4,
+   12656.4,
+   12656.4
+  ]
+ },
+ {
+  "label": "start at 1 then add 6 + 12 + 18 + 24 and so on",
+  "steps": 300000,
+  "plain": 236,
+  "bump": 236,
+  "carry": 236,
+  "primes": [
+   41823,
+   41823,
+   41823
+  ],
+  "chance": [
+   12441.4,
+   12441.4,
+   12441.4
+  ]
+ },
+ {
+  "label": "start at 5660169547 then add 30 + 60 + 90 and so on",
+  "steps": 300000,
+  "plain": 865,
+  "bump": 865,
+  "carry": 865,
+  "primes": [
+   111218,
+   111218,
+   111218
+  ],
+  "chance": [
+   11521.2,
+   11521.2,
+   11521.2
+  ]
+ },
+ {
+  "label": "start at 29717281333 then add 6 + 12 + 18 and so on",
+  "steps": 300000,
+  "plain": 854,
+  "bump": 854,
+  "carry": 854,
+  "primes": [
+   113475,
+   113475,
+   113475
+  ],
+  "chance": [
+   11888.6,
+   11888.6,
+   11888.6
+  ]
+ },
+ {
+  "label": "start at 100800448037 then add 210 + 420 + 630 and so on",
+  "steps": 300000,
+  "plain": 857,
+  "bump": 857,
+  "carry": 857,
+  "primes": [
+   102125,
+   102125,
+   102125
+  ],
+  "chance": [
+   10666.3,
+   10666.3,
+   10666.3
+  ]
+ },
+ {
+  "label": "the digit totals of 1 and 2 and 3 and so on added up",
+  "steps": 300000,
+  "plain": -60,
+  "bump": 154,
+  "carry": 150,
+  "primes": [
+   8181,
+   52249,
+   51241
+  ],
+  "chance": [
+   20584.5,
+   20584.4,
+   20530.1
+  ]
+ },
+ {
+  "label": "1 + 11 + 111 + 1111 and so on",
+  "steps": 300,
+  "plain": -100,
+  "bump": 126,
+  "carry": 163,
+  "primes": [
+   0,
+   6,
+   7
+  ],
+  "chance": [
+   2.7,
+   2.7,
+   2.7
+  ]
+ },
+ {
+  "label": "start at 28 then add 1 + 2 + 3 + 4 and so on",
+  "steps": 300000,
+  "plain": 56,
+  "bump": 212,
+  "carry": 322,
+  "primes": [
+   21051,
+   41933,
+   56776
+  ],
+  "chance": [
+   13453.4,
+   13453.4,
+   13453.3
+  ]
+ }
+]
