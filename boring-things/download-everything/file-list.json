@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-21",
  "file_count": 1303,
- "total_bytes": 96180054,
+ "total_bytes": 96180052,
  "files": [
   {
    "path": ".gitignore",
@@ -1504,7 +1504,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/fewer-babies-numbers.md",
    "title": "Fewer babies each year: what the numbers say and what the numbers are made of",
-   "bytes": 11337,
+   "bytes": 11335,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/fewer-babies-numbers.md",
