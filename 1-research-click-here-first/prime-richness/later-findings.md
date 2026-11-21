@@ -259,10 +259,44 @@ A recipe whose outputs rise slowly does badly under a fixed digit because ten in
 
 The primes themselves show almost no preference for a last digit. Below 100 million there are 1440298 primes ending in 1 and 1440474 ending in 3 and 1440495 ending in 7 and 1440186 ending in 9. The digit 7 leads by about 2 primes in every 10000 and a proven theorem says the four shares become equal in the long run.
 
+## The best rule for each well-known number list
+
+For each of 20 well-known number lists the computer tried 124 rules: adding or subtracting a number up to 50 and the bump and a fixed last digit and a stronger bump (move up to the nearest number that shares no factor with 30 or 210 or 2310 or 30030) and multiplying by 2 or 6 or 30 or 210 or 2310 or 30030 before adding or subtracting 1. The best rules were picked on one stretch of each list and then counted on a fresh later stretch which guards against a rule that won by luck.
+
+Lists confirmed on 300000 fresh terms (each list gives no primes with no rule):
+
+- the triangle numbers n × (n + 1) ÷ 2: multiply by 2310 then subtract 1 gave +446% (52500 primes where chance predicts 9616)
+- the squares n²: multiply by 30030 then subtract 1 gave +528% (54689 primes where chance predicts 8706)
+- the cubes n³: multiply by 30030 then subtract 1 gave +385% (31294 primes where chance predicts 6448)
+- the fourth powers n⁴: multiply by 30030 then subtract 1 gave +596% (35644 primes where chance predicts 5120)
+- the pentagon numbers n × (3n − 1) ÷ 2: multiply by 2310 then add 1 gave +549% (60289 primes where chance predicts 9289)
+- n × (n + 1): add 41 gave +566% (82745 primes where chance predicts 12430)
+- the pyramid numbers n × (n + 1) × (n + 2) ÷ 6: multiply by 30030 then add 1 gave +549% (43509 primes where chance predicts 6706)
+- the totals of 1² + 2² + 3² up to n²: multiply by 30030 then add 1 gave +474% (37937 primes where chance predicts 6604)
+
+Fast-growing lists confirmed on terms of 150 to 450 digits and the partition numbers confirmed on terms 5001 to 20000 (each line names the rule that scored best on the earlier stretch and most of these lines rest on a small count of primes):
+
+- the Fibonacci numbers: multiply by 2310 then add 1 gave +877% (22 primes where chance predicts 2.3)
+- the list 2 then 1 then 3 then 4 then 7 where each number is the two before added up: multiply by 30030 then add 1 gave +658% (17 primes where chance predicts 2.2)
+- the list 1 then 2 then 5 then 12 then 29 where each number is twice the one before plus the one before that: multiply by 2310 then subtract 1 gave +389% (6 primes where chance predicts 1.2)
+- the powers of 2: multiply by 2310 then add 1 gave +284% (6 primes where chance predicts 1.6)
+- the powers of 3: multiply by 30030 then add 1 gave +613% (7 primes where chance predicts 1.0)
+- the powers of 10: multiply by 30030 then add 1 gave +326% (2 primes where chance predicts 0.5)
+- the factorials 1 × 2 × 3 up to n: multiply by 2310 then add 1 gave +1289% (3 primes where chance predicts 0.2)
+- the products of the first n primes: multiply by 30030 then subtract 1 gave +2870% (5 primes where chance predicts 0.2)
+- the count of ways to pair up n sets of brackets: multiply by 210 then subtract 1 gave +789% (7 primes where chance predicts 0.8)
+- the numbers 1 then 11 then 111 then 1111: multiply by 30 then add 1 gave +321% (2 primes where chance predicts 0.5)
+- n to the power n: multiply by 30030 then subtract 1 gave −100% (0 primes where chance predicts 0.2)
+- the partition numbers: move up to the nearest number that shares no factor with 30030 gave +449% (316 primes where chance predicts 57.6)
+
+The rule "multiply by a product of small primes then add or subtract 1" won for most of the lists because every output then dodges the primes 2 through 13 which is worth +421% on a list with no structure. Fourth powers reached +596% because many primes above 13 can never divide 30030 × n⁴ − 1. For n × (n + 1) the winning rule out of 124 was "add 41" which is the equation n² + n + 41. The bump and the fixed last digit did not win for any list because both dodge the primes 2 and 5 alone.
+
+The confirming stretch matters for short lists. For the Fibonacci numbers the three best rules were picked at +453% and +404% and +388% and the same three rules measured +877% and +342% and +212% on the fresh stretch which shows how far luck moves a percentage that rests on about 2 predicted primes.
+
 ## The sample-size numbers on the master lists
 
 Each line of the master lists carries the count of outputs tested and the count of primes found and the count chance predicts plus two guards against small samples. "Give or take" is 100 times the square root of the count of primes found divided by the count chance predicts. "Luck odds" is the chance that a count at least that far from the predicted count shows up when the true rate equals the number line rate and the odds are worked out with the standard formula for counts of rare events. A line is marked "the gap could be luck" when the luck odds are about 10 in 100 or more.
 
 ## Program files
 
-The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and hybrid.py (the stacked recipe) and lastdigit.py (the last digit changed to one fixed digit) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).
+The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind this page: quad_search.py and sum_search.py (the two searches) and equation_table_bump.py and running_sums.py and more_sums.py (the bump and the running sums) and wild_batch.py (rounding rules and trig and modulus and the digits of constants) and zeta_digits.py and meaty.py (equations known for other records and number lists) and weird.py (the invented recipes) and hybrid.py (the stacked recipe) and lastdigit.py (the last digit changed to one fixed digit) and famous_boost.py (the best rule for each well-known list) and no_numbers.py (equations with no numbers) and dead_bump.py (the bump on recipes with no primes) and master_list_indicators.py (the sample-size numbers).

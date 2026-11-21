@@ -1,0 +1,722 @@
+[
+ {
+  "name": "the triangle numbers n × (n + 1) ÷ 2",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 449,
+    "screen_primes": 10350,
+    "confirm_primes": 52500,
+    "confirm_chance": 9616.211743404527,
+    "confirm_pct": 446
+   },
+   {
+    "rule": "move up to the nearest number that shares no factor with 30030",
+    "screen_pct": 417,
+    "screen_primes": 13861,
+    "confirm_primes": 66253,
+    "confirm_chance": 12798.342961555982,
+    "confirm_pct": 418
+   },
+   {
+    "rule": "move up to the nearest number that shares no factor with 2310",
+    "screen_pct": 401,
+    "screen_primes": 13424,
+    "confirm_primes": 64224,
+    "confirm_chance": 12798.342961566326,
+    "confirm_pct": 402
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 12798.342961743614,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the squares n²",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 527,
+    "screen_primes": 10525,
+    "confirm_primes": 54689,
+    "confirm_chance": 8706.063247101052,
+    "confirm_pct": 528
+   },
+   {
+    "rule": "multiply by 210 then add 1",
+    "screen_pct": 408,
+    "screen_primes": 10255,
+    "confirm_primes": 52323,
+    "confirm_chance": 10172.762718246042,
+    "confirm_pct": 414
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 359,
+    "screen_primes": 8433,
+    "confirm_primes": 42819,
+    "confirm_chance": 9406.976293719043,
+    "confirm_pct": 355
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 12430.056571403326,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the cubes n³",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 385,
+    "screen_primes": 6136,
+    "confirm_primes": 31294,
+    "confirm_chance": 6447.754281245368,
+    "confirm_pct": 385
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 380,
+    "screen_primes": 6071,
+    "confirm_primes": 31262,
+    "confirm_chance": 6447.754281245368,
+    "confirm_pct": 385
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 361,
+    "screen_primes": 6240,
+    "confirm_primes": 31370,
+    "confirm_chance": 6824.423171277697,
+    "confirm_pct": 360
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 8286.70438093522,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the fourth powers n⁴",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 609,
+    "screen_primes": 7210,
+    "confirm_primes": 35644,
+    "confirm_chance": 5119.779580560946,
+    "confirm_pct": 596
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 560,
+    "screen_primes": 7078,
+    "confirm_primes": 36034,
+    "confirm_chance": 5354.479007629301,
+    "confirm_pct": 573
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 393,
+    "screen_primes": 5012,
+    "confirm_primes": 25679,
+    "confirm_chance": 5119.779580560946,
+    "confirm_pct": 402
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 6215.028285701663,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the pentagon numbers n × (3n − 1) ÷ 2",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 553,
+    "screen_primes": 11829,
+    "confirm_primes": 60289,
+    "confirm_chance": 9288.753346863381,
+    "confirm_pct": 549
+   },
+   {
+    "rule": "multiply by 210 then add 1",
+    "screen_pct": 429,
+    "screen_primes": 10493,
+    "confirm_primes": 52439,
+    "confirm_chance": 10034.624320023508,
+    "confirm_pct": 423
+   },
+   {
+    "rule": "move up to the nearest number that shares no factor with 30030",
+    "screen_pct": 421,
+    "screen_primes": 13181,
+    "confirm_primes": 63702,
+    "confirm_chance": 12224.303525653575,
+    "confirm_pct": 421
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 12224.303525712196,
+   "pct": -100
+  }
+ },
+ {
+  "name": "n × (n + 1)",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "add 41",
+    "screen_pct": 561,
+    "screen_primes": 17071,
+    "confirm_primes": 82745,
+    "confirm_chance": 12430.053048014672,
+    "confirm_pct": 566
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 466,
+    "screen_primes": 10402,
+    "confirm_primes": 53271,
+    "confirm_chance": 9406.974303673087,
+    "confirm_pct": 466
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 464,
+    "screen_primes": 9461,
+    "confirm_primes": 49269,
+    "confirm_chance": 8706.061547800407,
+    "confirm_pct": 466
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 12430.053049352138,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the pyramid numbers n × (n + 1) × (n + 2) ÷ 6",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 551,
+    "screen_primes": 8636,
+    "confirm_primes": 43465,
+    "confirm_chance": 6706.316147679428,
+    "confirm_pct": 548
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 548,
+    "screen_primes": 8595,
+    "confirm_primes": 43509,
+    "confirm_chance": 6706.316147679428,
+    "confirm_pct": 549
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 532,
+    "screen_primes": 9003,
+    "confirm_primes": 44608,
+    "confirm_chance": 7114.802778942028,
+    "confirm_pct": 527
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 8719.10418762765,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the totals of 1² + 2² + 3² up to n²",
+  "screen_terms": 50000,
+  "confirm_terms": 300000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 475,
+    "screen_primes": 7492,
+    "confirm_primes": 37656,
+    "confirm_chance": 6603.866274615866,
+    "confirm_pct": 470
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 473,
+    "screen_primes": 7462,
+    "confirm_primes": 37937,
+    "confirm_chance": 6603.866274615866,
+    "confirm_pct": 474
+   },
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 465,
+    "screen_primes": 7890,
+    "confirm_primes": 39423,
+    "confirm_chance": 6999.581705366166,
+    "confirm_pct": 463
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 8546.57271875655,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the Fibonacci numbers",
+  "screen_terms": 718,
+  "confirm_terms": 1435,
+  "top": [
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 453,
+    "screen_primes": 44,
+    "confirm_primes": 22,
+    "confirm_chance": 2.2517781265939822,
+    "confirm_pct": 877
+   },
+   {
+    "rule": "multiply by 210 then add 1",
+    "screen_pct": 404,
+    "screen_primes": 44,
+    "confirm_primes": 10,
+    "confirm_chance": 2.261155768609731,
+    "confirm_pct": 342
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 388,
+    "screen_primes": 36,
+    "confirm_primes": 7,
+    "confirm_chance": 2.2418410414529446,
+    "confirm_pct": 212
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 2.2823790829255572,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the list 2 then 1 then 3 then 4 then 7 where each number is the two before added up",
+  "screen_terms": 718,
+  "confirm_terms": 1436,
+  "top": [
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 656,
+    "screen_primes": 56,
+    "confirm_primes": 17,
+    "confirm_chance": 2.2434049412917316,
+    "confirm_pct": 658
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 602,
+    "screen_primes": 52,
+    "confirm_primes": 15,
+    "confirm_chance": 2.2434049412917316,
+    "confirm_pct": 569
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 475,
+    "screen_primes": 46,
+    "confirm_primes": 13,
+    "confirm_chance": 2.2533502986808562,
+    "confirm_pct": 477
+   }
+  ],
+  "plain_confirm": {
+   "primes": 3,
+   "chance": 2.2839768843425428,
+   "pct": 31
+  }
+ },
+ {
+  "name": "the list 1 then 2 then 5 then 12 then 29 where each number is twice the one before plus the one before that",
+  "screen_terms": 393,
+  "confirm_terms": 783,
+  "top": [
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 804,
+    "screen_primes": 40,
+    "confirm_primes": 6,
+    "confirm_chance": 1.2282129688422598,
+    "confirm_pct": 389
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 561,
+    "screen_primes": 27,
+    "confirm_primes": 4,
+    "confirm_chance": 1.2227958963882233,
+    "confirm_pct": 227
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 510,
+    "screen_primes": 27,
+    "confirm_primes": 6,
+    "confirm_chance": 1.2282129688422598,
+    "confirm_pct": 389
+   }
+  ],
+  "plain_confirm": {
+   "primes": 2,
+   "chance": 1.244894439897147,
+   "pct": 61
+  }
+ },
+ {
+  "name": "the powers of 2",
+  "screen_terms": 498,
+  "confirm_terms": 996,
+  "top": [
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 396,
+    "screen_primes": 27,
+    "confirm_primes": 6,
+    "confirm_chance": 1.562763175291788,
+    "confirm_pct": 284
+   },
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 396,
+    "screen_primes": 27,
+    "confirm_primes": 5,
+    "confirm_chance": 1.562763175291788,
+    "confirm_pct": 220
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 374,
+    "screen_primes": 24,
+    "confirm_primes": 6,
+    "confirm_chance": 1.5558677726347516,
+    "confirm_pct": 286
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 1.5839972722952587,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the powers of 3",
+  "screen_terms": 314,
+  "confirm_terms": 629,
+  "top": [
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 593,
+    "screen_primes": 22,
+    "confirm_primes": 7,
+    "confirm_chance": 0.9822449125295775,
+    "confirm_pct": 613
+   },
+   {
+    "rule": "multiply by 210 then add 1",
+    "screen_pct": 572,
+    "screen_primes": 25,
+    "confirm_primes": 6,
+    "confirm_chance": 0.990704355056544,
+    "confirm_pct": 506
+   },
+   {
+    "rule": "multiply by 30 then subtract 1",
+    "screen_pct": 513,
+    "screen_primes": 25,
+    "confirm_primes": 6,
+    "confirm_chance": 0.9940650619267221,
+    "confirm_pct": 504
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.9999996591607274,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the powers of 10",
+  "screen_terms": 149,
+  "confirm_terms": 300,
+  "top": [
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 773,
+    "screen_primes": 13,
+    "confirm_primes": 2,
+    "confirm_chance": 0.4695762862749665,
+    "confirm_pct": 326
+   },
+   {
+    "rule": "multiply by 6 then subtract 1",
+    "screen_pct": 579,
+    "screen_primes": 14,
+    "confirm_primes": 1,
+    "confirm_chance": 0.47658431862570666,
+    "confirm_pct": 110
+   },
+   {
+    "rule": "add 49",
+    "screen_pct": 531,
+    "screen_primes": 14,
+    "confirm_primes": 2,
+    "confirm_chance": 0.4780877833373478,
+    "confirm_pct": 318
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.4780877833373478,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the factorials 1 × 2 × 3 up to n",
+  "screen_terms": 96,
+  "confirm_terms": 136,
+  "top": [
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 652,
+    "screen_primes": 12,
+    "confirm_primes": 3,
+    "confirm_chance": 0.21592700535881315,
+    "confirm_pct": 1289
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 606,
+    "screen_primes": 10,
+    "confirm_primes": 4,
+    "confirm_chance": 0.21496372815899623,
+    "confirm_pct": 1761
+   },
+   {
+    "rule": "multiply by 30 then subtract 1",
+    "screen_pct": 570,
+    "screen_primes": 15,
+    "confirm_primes": 1,
+    "confirm_chance": 0.21758006394090812,
+    "confirm_pct": 360
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.2188938895523186,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the products of the first n primes",
+  "screen_terms": 73,
+  "confirm_terms": 106,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 747,
+    "screen_primes": 9,
+    "confirm_primes": 5,
+    "confirm_chance": 0.16832866014041245,
+    "confirm_pct": 2870
+   },
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 741,
+    "screen_primes": 10,
+    "confirm_primes": 1,
+    "confirm_chance": 0.16908766989582424,
+    "confirm_pct": 491
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 653,
+    "screen_primes": 8,
+    "confirm_primes": 3,
+    "confirm_chance": 0.16832866014041245,
+    "confirm_pct": 1682
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.17142577131524073,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the count of ways to pair up n sets of brackets",
+  "screen_terms": 256,
+  "confirm_terms": 500,
+  "top": [
+   {
+    "rule": "multiply by 210 then subtract 1",
+    "screen_pct": 699,
+    "screen_primes": 29,
+    "confirm_primes": 7,
+    "confirm_chance": 0.7877741339717846,
+    "confirm_pct": 789
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 620,
+    "screen_primes": 21,
+    "confirm_primes": 5,
+    "confirm_chance": 0.7810442700175317,
+    "confirm_pct": 540
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 586,
+    "screen_primes": 20,
+    "confirm_primes": 8,
+    "confirm_chance": 0.7810442700175317,
+    "confirm_pct": 924
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.7951690506735449,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the numbers 1 then 11 then 111 then 1111",
+  "screen_terms": 150,
+  "confirm_terms": 300,
+  "top": [
+   {
+    "rule": "multiply by 30 then add 1",
+    "screen_pct": 548,
+    "screen_primes": 14,
+    "confirm_primes": 2,
+    "confirm_chance": 0.47515512380166464,
+    "confirm_pct": 321
+   },
+   {
+    "rule": "multiply by 2310 then add 1",
+    "screen_pct": 539,
+    "screen_primes": 11,
+    "confirm_primes": 5,
+    "confirm_chance": 0.47157652196457844,
+    "confirm_pct": 960
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 532,
+    "screen_primes": 10,
+    "confirm_primes": 7,
+    "confirm_chance": 0.4694910180274531,
+    "confirm_pct": 1391
+   }
+  ],
+  "plain_confirm": {
+   "primes": 1,
+   "chance": 0.47799908693936405,
+   "pct": 109
+  }
+ },
+ {
+  "name": "n to the power n",
+  "screen_terms": 79,
+  "confirm_terms": 117,
+  "top": [
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 626,
+    "screen_primes": 8,
+    "confirm_primes": 0,
+    "confirm_chance": 0.1846019980319501,
+    "confirm_pct": -100
+   },
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 535,
+    "screen_primes": 7,
+    "confirm_primes": 0,
+    "confirm_chance": 0.1846019980319501,
+    "confirm_pct": -100
+   },
+   {
+    "rule": "multiply by 2310 then subtract 1",
+    "screen_pct": 467,
+    "screen_primes": 7,
+    "confirm_primes": 1,
+    "confirm_chance": 0.18542761336215022,
+    "confirm_pct": 439
+   }
+  ],
+  "plain_confirm": {
+   "primes": 0,
+   "chance": 0.18797040415104183,
+   "pct": -100
+  }
+ },
+ {
+  "name": "the partition numbers",
+  "screen_terms": 5000,
+  "confirm_terms": 15000,
+  "top": [
+   {
+    "rule": "multiply by 30030 then add 1",
+    "screen_pct": 501,
+    "screen_primes": 308,
+    "confirm_primes": 294,
+    "confirm_chance": 55.30922236936652,
+    "confirm_pct": 432
+   },
+   {
+    "rule": "multiply by 30030 then subtract 1",
+    "screen_pct": 400,
+    "screen_primes": 256,
+    "confirm_primes": 290,
+    "confirm_chance": 55.30922236936652,
+    "confirm_pct": 424
+   },
+   {
+    "rule": "move up to the nearest number that shares no factor with 30030",
+    "screen_pct": 390,
+    "screen_primes": 316,
+    "confirm_primes": 316,
+    "confirm_chance": 57.5883794500573,
+    "confirm_pct": 449
+   }
+  ],
+  "plain_confirm": {
+   "primes": 24,
+   "chance": 57.5883794500573,
+   "pct": -58
+  }
+ }
+]

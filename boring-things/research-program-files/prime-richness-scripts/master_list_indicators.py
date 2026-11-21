@@ -69,6 +69,12 @@ add('n² + n + 26853927251 fed inputs that are multiples of the 52 primes up to 
 for r in json.load(open('lastdigit_results.json')):
     for d in ('1','3','7','9'):
         x=r[d]; add(r['label']+' with the last digit changed to '+d,x['pct'],x['tested'],x['primes'],x['chance'],'inputs 1 to 300000 in order'); E[-1]['g']='ld'
+for r in json.load(open('famous_boost_results.json')):
+    fast=r['screen_terms']<5000
+    for t in r['top']:
+        if t['confirm_chance']<=0: continue
+        note='the rule was picked on an earlier stretch of the list and confirmed on these outputs'+(' which have 150 to 450 digits' if fast else '')
+        add(r['name']+' then '+t['rule'],t['confirm_pct'],r['confirm_terms'],t['confirm_primes'],t['confirm_chance'],note); E[-1]['g']='fb'
 def outof(s):
     if s<=0: return 'none'
     if s>0.995: return 'every output'
