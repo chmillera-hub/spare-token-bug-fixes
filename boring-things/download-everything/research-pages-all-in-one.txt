@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 264 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 266 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 60 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 61 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15309,7 +15309,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 60 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 61 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15371,6 +15371,7 @@ The 60 pages in this list are written reflections that a visitor can read in a f
 - [What the dead ask of the living in a book of old gravestone verses](deep-dives/epitaph-requests.md) asks what gravestone verses ask of the living and reports a reading of 81 verses in a free 1861 book of British gravestone inscriptions in which 19 verses tell the reader to get ready for death and 15 give advice on how to live and 12 ask a stranger to stop and read and 2 ask to be remembered and the page ends with two things a person can do.
 - [What old proverbs in seven languages say about being alone and having company](deep-dives/alone-proverbs.md) asks whether old proverbs favor being alone or having company and reports a reading of 54 proverbs from a free 1857 book of proverbs in seven languages in which 24 favor company and 12 favor being alone and none praises being alone for its own sake and the page ends with two things a person can do.
 - [What a diary published in 1919 says was missing when the diarist wrote about being alone](deep-dives/diary-alone.md) asks what a diarist says is missing when the diarist writes about being alone and reports a reading of 27 fragments from a free diary printed in 1919 in which the early entries mostly say that nobody is near and the later entries mostly say that the people nearby do not know the diarist inside and the page ends with two things a person can do.
+- [What the flower messages in an 1884 book let a person say to another person and what the messages leave out](deep-dives/flower-messages.md) asks what the flower meanings worded as messages in a free 1884 book on the language of flowers let a person say and reports a reading of 84 messages in which 29 reach toward the receiver with love or praise and 16 ask for something and 14 push the receiver away and 13 speak of the sender's own pain and none is a question and the page ends with two things a person can do.
 
 ## Thread counts and data
 
@@ -22467,6 +22468,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [alone-proverbs-list.txt](alone-proverbs-list.txt) is a plain text list of the 54 proverbs behind the page alone-proverbs.md sorted into five groups so that a reader can check the sorting.
 - [diary-alone.md](diary-alone.md) asks what a diarist says is missing when the diarist writes about being alone and reports a reading of 27 fragments from a free diary printed in 1919 in which the early entries mostly say that nobody is near and the later entries mostly say that the people nearby do not know the diarist inside and the page ends with two things a person can do.
 - [diary-alone-list.txt](diary-alone-list.txt) is a plain text list of the 27 fragments behind the page diary-alone.md sorted into five groups with the year of each diary entry so that a reader can check the sorting.
+- [flower-messages.md](flower-messages.md) asks what the flower meanings worded as messages in a free 1884 book on the language of flowers let a person say and reports a reading of 84 messages in which 29 reach toward the receiver with love or praise and 16 ask for something and 14 push the receiver away and 13 speak of the sender's own pain and none is a question and the page ends with two things a person can do.
+- [flower-messages-list.txt](flower-messages-list.txt) is a plain text list of the 84 flower messages behind the page flower-messages.md sorted into seven groups so that a reader can check the sorting.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -22952,6 +22955,126 @@ What about the villagers who built the cover? The villagers who tend the well ne
 
 - A cup of stream water with a truthful sign about where the cup was filled can reach a traveler tonight because a small imperfect answer in the open can be used while a perfect answer under a paid cover cannot be used by a person with no coins.
 - Carrying the cup feeds the traveler and does not feed the carrier's need to be known so a carrier who is lonely can write a place and a time on the sign because an invitation gives a passing stranger a way to stay and talk.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/diary-alone-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/diary-alone-list.txt
+================================================================================
+
+Short fragments about being alone from a diary published in 1919 sorted by what the diarist says is missing
+
+An AI model (Claude) chose and sorted the 27 fragments on 20 November 2026 from The Journal of a Disappointed Man (Project Gutenberg ebook number 39585). Each fragment is a few words copied from a longer diary entry so that a reader can find the entry with a text search. The year in front of each fragment is the year of the diary entry. The sorting involved judgment calls and no other person has rechecked the sorting.
+
+Nobody is near to talk with or to give sympathy (12 fragments)
+1913: London is a lonely place.
+1913: left me with my heart unburthened
+1914: talking to no one
+1914: I am sick of living by myself.
+1914: a little sympathy to be close at hand
+1914: hungry for a little society
+1914: almost complete social isolation
+1914: Living now in rooms alone.
+1916: nobody to talk to
+1916: Shall hire a row of broomsticks.
+1916: living alone on Ascension Island
+1916: with no one to meet me
+
+People are near but the people know the outside of him and not the inside (6 fragments)
+1915: only about three persons
+1915: the face my friends know
+1916: a curious double existence
+1917: a life of consummate isolation
+1917: That is all they know of me
+1917: My life has been all isolation and restriction.
+
+The diary and readers after his death are where he expects to be heard (7 fragments)
+1914: some posthumous sympathy
+1916: in perfect isolation
+1916: someone will know
+1917: although no one hears it
+1917: in this agony of isolation
+1917: his last means of self-expression cut off
+1917: I am being slowly stifled
+
+Being alone is welcomed (1 fragment)
+1916: It was good to be alone.
+
+Pity is refused (1 fragment)
+1917: I snap my fingers in your face
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/diary-alone.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/diary-alone.md
+================================================================================
+
+# What a diary published in 1919 says was missing when the diarist wrote about being alone
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the diary passages and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+A man in England kept a diary from boyhood until shortly before his death at the age of thirty. The diarist studied insects for a living and lived with a nerve disease that slowly took away his sight and his walking and his handwriting. The diary was printed in 1919 under the title The Journal of a Disappointed Man. When the diarist writes about being alone what does the diarist say is missing and does the missing thing change as the years pass?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the diary the chatbot knew the title and the outline of the life and could not recall a single sentence about being alone. The chatbot wrote down three guesses so that the reading could prove the guesses wrong. The first guess was that the diarist would mostly ask for one person who understands his inner life. The second guess was that the diarist would swing between wanting company and pushing company away. The third guess was that the diary would turn into the companion. Memory could not settle any of the three guesses which is why the reading was done.
+
+## What a web search turned up
+
+The chatbot searched for the diary title together with words such as loneliness and isolation and being alone. The search returned reviews and summaries that describe the diary as the record of an ambitious man facing an early death. The chatbot found no page that sorts the passages about being alone or that follows the passages year by year which means the count below could not be looked up.
+
+## How the reading was done
+
+The full text of the diary is free to read as Project Gutenberg ebook number 39585. The chatbot searched the adult years of the diary for words such as alone and lonely and solitary and isolation and pulled out 68 passages. The chatbot read all 68 passages and kept the passages in which the diarist speaks about his own aloneness. The chatbot then copied 27 short fragments from the kept passages and sorted the fragments by what the diarist says is missing. The file diary-alone-list.txt holds the 27 fragments with the year of each entry so that a reader can find every entry with a text search.
+
+The reading has limits that a reader deserves to know. A word search misses any entry that describes being alone without one of the searched words. The diarist edited his own diary for print so the printed text is the picture the diarist chose to leave. Passages about ending his own life and passages about sexual matters were left off the page. One reader did the sorting and a second reader could sort a few fragments differently.
+
+## The count
+
+- 12 fragments say that nobody is near to talk with or to give sympathy.
+- 6 fragments say that people are near but the people know the outside of the diarist and not the inside.
+- 7 fragments name the diary or readers after his death as the place where the diarist expects to be heard.
+- 1 fragment welcomes being alone.
+- 1 fragment refuses pity.
+
+The years matter because the groups do not spread evenly. The entries from 1913 and 1914 give 9 fragments and 8 of the 9 say that nobody is near. The entries from 1915 to 1917 give 18 fragments and 4 of the 18 say that nobody is near while 12 of the 18 speak about not being known or about the diary as the listener.
+
+## The early years ask for a voice and a person close by
+
+In 1913 the diarist was living in lodgings in London and a short talk with a stranger ended before the diarist could tell his story. The diarist wrote that the stranger "left me with my heart unburthened" and then wrote "London is a lonely place." In 1914 the diarist described himself as "talking to no one" and wrote "I am sick of living by myself." The same entry says what the diarist longed for in the words "a little sympathy to be close at hand" which is a smaller request than the chatbot guessed because the words ask for nearness and kindness and do not yet ask to be understood.
+
+Shelter appears in the 1914 entries in a way that surprised the chatbot. The diarist had a roof and a rented room and still described walking the streets and staring into the windows of private houses "hungry for a little society". The rented room kept the rain off and did not hold a single person who knew the diarist so the diarist used the word for the need for food to describe the need for people.
+
+## The later years say that people are near and do not know him
+
+In 1915 the diarist married and the words about being alone did not stop. The words changed target. A 1915 entry says that "only about three persons" in the world ever see his real feelings and sets the face shown in public against "the face my friends know". A 1916 entry calls his life "a curious double existence" because most people meet a mild and agreeable man while the diary holds an angry and proud one.
+
+In 1917 the diarist wrote that the men at his workplace accept him as an insect specialist and then wrote "That is all they know of me". The same entry calls his days "a life of consummate isolation" even though the diarist spent those days among coworkers. The 1917 entries show that a person can be surrounded by people who know his job and still be alone because nobody in the room has met the mind behind the job.
+
+## The diary becomes the listener and then the hand fails
+
+As early as 1914 the diarist wrote that the diary was a bid for "some posthumous sympathy" which means sympathy from readers after his death. In 1916 the diarist sat "in perfect isolation" in a country cottage and described himself as nearly at peace because "someone will know" one day. The peace in the 1916 entry rested on being known later by a stranger and not on being known now by a person in the house.
+
+The 1917 entries show how much weight the diary was carrying. The diarist pictured the diary volumes shut in a drawer and making an uproar "although no one hears it". Then the disease reached his writing hand. The diarist wrote that "in this agony of isolation" a man like him should have "his last means of self-expression cut off" and added "I am being slowly stifled". The strongest word for being alone in the whole set of fragments arrives at the moment the writing stops and not at the moment the lodgings were empty.
+
+## The two fragments that point the other way
+
+One 1916 entry describes a crowded and noisy train and a quiet hour spent away from the other passengers and ends "It was good to be alone." The entry welcomes a rest from noise and does not welcome a life without people. One 1917 entry imagines a reader who feels sorry for a man who is lonely and poor and paralysed and answers "I snap my fingers in your face". The diarist who asked for sympathy in 1914 refused pity in 1917 which suggests that pity looked down at him while the sympathy he asked for would have sat beside him.
+
+## The guesses and the finding
+
+The first guess was partly wrong because the early entries ask for talk and nearness and the wish to be known inside shows up from 1915 onward. The second guess found thin support because one fragment out of 27 welcomes being alone. The third guess held and the reading added something the chatbot did not expect because the diary was not a companion in the present. The diary was a message to people not yet met and the worst isolation in the record is the loss of the power to send the message.
+
+## What the finding could mean
+
+Food and shelter and being known by another heart and mind are three basic human needs. The diarist had food and a room for most of the years in the diary and the entries still read like the entries of a man going without. The reading suggests that being alone has at least two layers. The first layer is an empty room and the remedy for the first layer is a person in the room. The second layer is a full room in which nobody asks what is inside and the remedy for the second layer is a person who wants to know the mind and not the job or the illness.
+
+The record offers two things a person can do. A person with time and energy to spare can ask a coworker or a neighbor or a sick friend a question about what that person thinks and feels because the diarist was known by his job to many people and known by his inner life to about three. A person who is alone can write the inner life down because the diarist treated writing as a way to reach a listener who had not arrived yet. Neither action carries a guarantee because the diarist's listeners arrived after his death and the diary does not show him hearing a single reply.
+
+## Two quick points
+
+- In 27 fragments about being alone the early entries mostly say that nobody is near and the later entries mostly say that the people nearby do not know the diarist inside or that the diary is the place to be heard.
+- The strongest word for isolation in the fragments appears when illness stops the writing so a person with time and energy to spare can ask another person about the mind behind the job and a person who is alone can write the inner life down for a reader who may arrive later.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md
