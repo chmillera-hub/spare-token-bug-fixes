@@ -18,7 +18,7 @@ The shares of women who have not had a baby are from the Current Population Surv
 
 **The overall rate**
 
-Lifetime births per woman sank to 1.57 in 2025 which is the lowest ever recorded and far under the 2.1 needed to hold a population steady. About 3.6 million babies arrived in 2025 which is one percent fewer than the year before. Since 2007 the yearly rate of births per thousand women of childbearing age has dropped almost 23 percent. At 1.57 each generation is about three quarters the size of the one before unless people move in from elsewhere.
+Lifetime births per woman sank to 1.57 in 2025 which is the lowest ever recorded and far under the 2.1 needed to hold a population steady. About 3.6 million babies arrived in 2025 which is one percent fewer than the year before. Since 2007 the yearly rate of births per thousand women aged 15 to 44 has dropped almost 23 percent. At 1.57 each generation is about three quarters the size of the one before unless people move in from elsewhere.
 
 **Where the drop is happening**
 
@@ -26,7 +26,7 @@ In a single year the birth rate for women aged 25 to 29 slid about 4.4 percent w
 
 **The one number that has not moved yet**
 
-Among women aged 45 to 50 the share with no baby went down from 16.7 percent to 14.9 percent over the decade. One researcher quoted in the news coverage says the delay has so far not produced a notable rise in women finishing the childbearing years without a baby. That number offers little comfort. The women who are 45 to 50 today were in their twenties two decades ago when housing cost less and far fewer were without a baby at 28. Nobody has ever watched a group that was 63 percent without a baby at 25 to 29 and 40 percent without a baby at 30 to 34 reach the end of the window. Catching up from that far behind would require a surge of births in the late thirties that has never happened at that scale. A best guess is that the late life figure starts climbing within ten years.
+Among women aged 45 to 50 the share with no baby went down from 16.7 percent to 14.9 percent over the decade. One researcher quoted in the news coverage says the delay has so far not produced a notable rise in women finishing the usual years for having a baby without one. That number offers little comfort. The women who are 45 to 50 today were in their twenties two decades ago when housing cost less and far fewer were without a baby at 28. Nobody has ever watched a group that was 63 percent without a baby at 25 to 29 and 40 percent without a baby at 30 to 34 reach the end of the window. Catching up from that far behind would require a surge of births in the late thirties that has never happened at that scale. A best guess is that the late life figure starts climbing within ten years.
 
 **What is driving the numbers**
 
