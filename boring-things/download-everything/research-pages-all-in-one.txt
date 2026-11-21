@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 256 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 258 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 55 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 56 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
@@ -15309,7 +15309,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 55 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 56 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -15366,6 +15366,7 @@ The 55 pages in this list are written reflections that a visitor can read in a f
 - [Who asked Jesus how his own heart was](deep-dives/who-asked-jesus.md) asks whether anyone in the four Gospel accounts asks Jesus how his own heart is doing and reports a reading of 127 questions put to Jesus in the World English Bible that found none about his feelings and lists seven moments where the question was close and ends with two things a person can do.
 - [The question "How long?" travels in both directions in the Bible](deep-dives/how-long-both-ways.md) asks who puts the question "How long?" to whom across the Bible and reports that the words go toward God in 16 verses and toward people from the divine side in 16 verses and that no psalm that prays the question receives a length of time and ends with two things a person can do.
 - [In the Psalms the friends who left are not shown returning](deep-dives/who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
+- [What the people nearby do when someone weeps in the stories of the Bible](deep-dives/weeping-responses.md) asks what the people nearby do when someone weeps in the stories of the Bible and reports a reading of 61 scenes in the World English Bible in which the largest group has no recorded response and 12 scenes show someone weeping along and 10 show the person told to stop and 6 show the person asked what the trouble is and the page ends with two things a person can do.
 
 ## Thread counts and data
 
@@ -22452,6 +22453,8 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [how-long-list.txt](how-long-list.txt) is a plain text list of the 52 verses behind the page how-long-both-ways.md sorted into three groups so that a reader can check the sorting.
 - [who-returns-psalms.md](who-returns-psalms.md) asks whether any psalm shows the friends and relatives who left the speaker returning and reports a reading of twelve psalms in the World English Bible in which nobody returns while seven psalms end with the speaker facing a different and wider group of people and five end with nobody and the page ends with two things a person can do.
 - [who-returns-psalms-list.txt](who-returns-psalms-list.txt) is a plain text list of the twelve psalms behind the page who-returns-psalms.md with the verse that put each psalm on the list so that a reader can check the sorting.
+- [weeping-responses.md](weeping-responses.md) asks what the people nearby do when someone weeps in the stories of the Bible and reports a reading of 61 scenes in the World English Bible in which the largest group has no recorded response and 12 scenes show someone weeping along and 10 show the person told to stop and 6 show the person asked what the trouble is and the page ends with two things a person can do.
+- [weeping-responses-list.txt](weeping-responses-list.txt) is a plain text list of the 61 scenes behind the page weeping-responses.md sorted into eight groups so that a reader can check the sorting.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -24453,6 +24456,155 @@ A different comment was possible under the same article. A commenter could have 
 - A famous executive is unlikely to read a comment in a stranger's thread so a joke aimed at the executive is aimed at the one person in the story who is unlikely to answer.
 - Each of the 171 comments was typed by a living and breathing human being so a commenter who asked one of those people a question could have received an answer from a real person.
 - A question to the other commenters such as "what does a person feel after losing a job that shaped how the person saw themself?" turns a news story into a conversation between real people.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/weeping-responses-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/weeping-responses-list.txt
+================================================================================
+
+Scenes in the stories of the World English Bible where a person or a group weeps sorted by what the people nearby do next
+
+An AI model (Claude) chose and sorted the 61 scenes on 20 November 2026. Each line gives one verse that marks the scene and the response often sits in the verses that follow. The sorting involved judgment calls and no other person has rechecked the sorting.
+
+No response is recorded or the person weeps alone or hides the tears (13 scenes)
+Genesis 23:2
+Genesis 42:24
+Genesis 43:30
+Genesis 45:2
+Genesis 50:1
+Numbers 25:6
+Judges 2:4
+Judges 21:2
+1 Samuel 24:16
+Ezra 3:12
+Nehemiah 1:4
+Matthew 26:75
+Luke 19:41
+
+Another person weeps along or embraces the person (12 scenes)
+Genesis 33:4
+Genesis 45:14
+Genesis 46:29
+Ruth 1:9
+1 Samuel 20:41
+2 Samuel 3:32
+2 Samuel 13:36
+2 Samuel 15:30
+Ezra 10:1
+Job 2:12
+John 11:33
+Acts 20:37
+
+The person is told to stop or is sent away or is scolded or is met with anger or suspicion (10 scenes)
+Numbers 11:10
+1 Samuel 1:14
+2 Samuel 3:16
+2 Samuel 19:5
+Nehemiah 8:9
+Luke 7:13
+Luke 8:52
+Luke 23:28
+Acts 9:39
+Acts 21:13
+
+What the person asked for is granted or help is given with no question recorded (7 scenes)
+Genesis 27:38
+Judges 14:16
+Judges 20:23
+2 Kings 20:3
+2 Kings 22:19
+Esther 8:3
+Luke 7:38
+
+The person is asked why or asked what the trouble is (6 scenes)
+Genesis 21:16
+1 Samuel 1:8
+1 Samuel 11:4
+2 Kings 8:11
+Esther 4:1
+John 20:11
+
+A whole group weeps together and nobody outside the group responds (6 scenes)
+Genesis 50:3
+Numbers 14:1
+Numbers 20:29
+Deuteronomy 34:8
+1 Samuel 30:4
+2 Samuel 1:12
+
+Comfort is offered in words or by staying near without weeping along (2 scenes)
+Genesis 37:35
+2 Samuel 12:21
+
+Something else happens (5 scenes)
+Genesis 29:11
+Genesis 50:17
+2 Kings 13:14
+Mark 9:24
+Mark 16:10
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/weeping-responses.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/weeping-responses.md
+================================================================================
+
+# What the people nearby do when someone weeps in the stories of the Bible
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the scenes and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+The stories of the Bible show many people in tears. When a person weeps in those stories what do the people nearby do next and which response shows up most often?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the text the chatbot guessed that the most common outcome would be no response at all and that weeping along would be more common than telling the person to stop and that the question "why are you weeping?" would be rare. The chatbot had no count behind any part of the guess which is why the reading was done.
+
+## What a web search turned up
+
+A web search on 20 November 2026 turned up many pages that list who weeps in the Bible and many pages on the instruction to weep with those who weep. The search did not turn up a tally of what the people nearby do in each scene. The search used wording such as "when someone weeps in the Bible how do the people nearby respond".
+
+## How the reading was done
+
+The text was the World English Bible because that translation is free for anyone to copy. A search of the 66 books for the words wept and weep and weeping and tears found 188 verses. The reading kept the scenes inside stories where a person or a group is shown in tears and left out poems and prophecies and teaching because a poem has no bystander whose response can be read. The verses after each scene were read to see what the people nearby do. The count was 61 scenes and the file named weeping-responses-list.txt in this folder lists the 61 scenes in eight groups so that any reader can check the sorting.
+
+Each scene was put in one group by the first clear response. One AI model did the sorting which means another reader could move some scenes between groups and the counts below could shift by a few.
+
+## The count
+
+- In 13 scenes no response is recorded or the person weeps alone or hides the tears.
+- In 12 scenes another person weeps along or embraces the person.
+- In 10 scenes the person is told to stop or is sent away or is scolded or is met with anger or suspicion.
+- In 7 scenes what the person asked for is granted or help is given with no question recorded.
+- In 6 scenes the person is asked why or asked what the trouble is.
+- In 6 scenes a whole group weeps together and nobody outside the group responds.
+- In 2 scenes comfort is offered in words or by staying near without weeping along.
+- In 5 scenes something else happens.
+
+The guess made beforehand had the order right and missed two things. Being told to stop is almost as common as having someone weep along. Being asked what the trouble is turns out to be one of the rarest responses in the whole record at 6 scenes out of 61.
+
+## What happens after each kind of response
+
+The six scenes with a question show what a question can open. A woman weeping alone in a wilderness is asked "What troubles you" and is then shown a well of water. A man who hears a town weeping asks what is wrong and then acts on the answer. A woman weeping at a tomb is asked "why are you weeping?" twice and answers both times and is then called by her own name. In five of the six scenes the person in tears gets to answer. In the sixth scene a husband asks his wife why she weeps and then supplies his own answer before she can speak.
+
+The twelve scenes of shared weeping are mostly reunions and partings and burials. One man hides his tears from his brothers twice and then weeps aloud so that the whole house hears and after that the brothers weep on one another and the text says "his brothers talked with him". Three friends see a suffering man and weep and then sit on the ground with him for seven days while "no one spoke a word to him".
+
+The ten scenes where the person is told to stop are not all alike. In three of the ten scenes the speaker says "Don't weep" or sends the mourners out and then removes the cause of the tears by raising the dead. In one scene the leaders tell a weeping crowd to go and eat and to "send portions to him for whom nothing is prepared" which means the tears are answered with shared food. In the other six scenes the person in tears is hurried along or suspected or scolded. A woman who is "weeping bitterly" in prayer is accused of being drunk. A husband who follows his wife "weeping as he went" is told "Go! Return!" by an officer. A king who weeps for a dead son is told to get up and face his men or else lose the men by nightfall.
+
+The woman who was accused of being drunk gives the clearest picture of what being heard does. She answers "I poured out my soul" and the priest changes his tone and wishes her peace and the text says that she "went her way and ate" and that her face was no longer sad.
+
+## What the finding could mean
+
+One line in the book of Ecclesiastes looks at the tears of people under oppression and says "they had no comforter". The count on this page fits that line because the largest single group of scenes is the group where tears get no recorded response.
+
+Sadness that is seen and asked about is a road to being known and being known by another heart is one of the three basic human needs beside food and shelter. The record shows the question about the trouble only six times and in most of those six scenes the question leads straight to help such as water or a rescue or a name spoken aloud.
+
+The record offers two things a person can do. A person who is near someone in tears can use the rare response and ask "What troubles you?" and then wait for the answer because five of the six people who were asked in these stories got to say what was wrong. The question lands best with a reason and an offer such as "I saw that you were crying and I have half an hour to listen" and with water or food beside the question if the asker has some to spare. A person who is in tears can let the tears be seen and say what the tears are about because the man who hid his tears twice was answered after he wept aloud. Showing the tears is no guarantee because ten of the 61 scenes end with the person told to stop and thirteen end with no response at all.
+
+## Two quick points
+
+- In 61 scenes of weeping in the stories of the World English Bible the largest group has no recorded response and being asked what the trouble is happens in 6 scenes out of 61.
+- A person near someone in tears can ask "What troubles you?" and wait for the answer and a person in tears can say aloud what the tears are about because the scenes where tears are seen and asked about are the scenes that lead to help.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/who-asked-jesus-list.txt
