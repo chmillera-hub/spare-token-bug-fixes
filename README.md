@@ -28,6 +28,7 @@ Each link in the first list opens a whole folder and the folder page lists every
 - [Voynich manuscript](1-research-click-here-first/voynich-manuscript) holds three pages about an unreadable book from the early 1400s which cover who probably made the book and where the book was probably made and a second run of the spelling-pattern tests.
 - [Squad Rush game](1-research-click-here-first/squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [Zeta sums](1-research-click-here-first/zeta-sums) holds computer search results about the numbers zeta(3) and zeta(5) and zeta(7) and zeta(9) which include two formulas that write zeta(3) purely as sums over powers of the golden ratio and a formula for zeta(5) with no extra pieces in a base near 0.7549 and formulas with no extra pieces for zeta(7) through zeta(15) in other bases and four long formulas with every whole-number coefficient written out.
+- [Prime richness](1-research-click-here-first/prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line which means 86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime plus a page that checks any typed equation.
 
 Each link in the second list opens a single page because the page is a whole project with no other pages beside the page.
 

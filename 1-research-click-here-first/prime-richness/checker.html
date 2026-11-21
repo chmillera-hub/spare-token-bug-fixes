@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prime Richness Checker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: one narrow column of stacked panels. The score sits at the top of the results as the single large figure. */
+:root{
+  --paper:#f1f4f2;
+  --panel:#ffffff;
+  --ink:#14211d;
+  --muted:#52635d;
+  --line:#d3dcd8;
+  --accent:#0a6b58;
+  --accent-ink:#ffffff;
+  --rich:#0a7a4b;
+  --rich-bg:#dff3e8;
+  --poor:#a63a1e;
+  --poor-bg:#fbe6de;
+  --mid:#6a5a12;
+  --mid-bg:#f5eecb;
+  --bar-base:#9fb1ab;
+  --display:"Bricolage Grotesque","Trebuchet MS",sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0f1614;
+    --panel:#17211e;
+    --ink:#e7efec;
+    --muted:#9db0a9;
+    --line:#2c3a36;
+    --accent:#3fc7a6;
+    --accent-ink:#06211b;
+    --rich:#5fd79a;
+    --rich-bg:#143326;
+    --poor:#ff9b7d;
+    --poor-bg:#3b1d14;
+    --mid:#e6cf6a;
+    --mid-bg:#332d10;
+    --bar-base:#51645e;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0f1614;
+  --panel:#17211e;
+  --ink:#e7efec;
+  --muted:#9db0a9;
+  --line:#2c3a36;
+  --accent:#3fc7a6;
+  --accent-ink:#06211b;
+  --rich:#5fd79a;
+  --rich-bg:#143326;
+  --poor:#ff9b7d;
+  --poor-bg:#3b1d14;
+  --mid:#e6cf6a;
+  --mid-bg:#332d10;
+  --bar-base:#51645e;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;-webkit-text-size-adjust:100%}
+main{max-width:640px;margin:0 auto;padding:22px 16px 48px;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:800;font-size:30px;line-height:1.1;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:20px;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+p{margin:0}
+.lede{color:var(--muted)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px}
+label{font-weight:600;font-size:15px;display:block;margin-bottom:4px}
+.hint{font-size:14px;color:var(--muted)}
+input[type=text],select{width:100%;font-family:var(--mono);font-size:18px;padding:11px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink)}
+input[type=text]:focus,select:focus,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-family:var(--mono);font-size:15px;padding:7px 11px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+.go{font-family:var(--body);font-weight:600;font-size:18px;padding:13px 16px;border-radius:10px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer;width:100%}
+.err{color:var(--poor);background:var(--poor-bg);border-radius:10px;padding:10px 12px;font-size:16px}
+.err:empty{display:none}
+.scoreRow{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 14px}
+.score{font-family:var(--display);font-weight:800;font-size:56px;line-height:1;font-variant-numeric:tabular-nums}
+.pill{font-weight:600;font-size:14px;padding:5px 11px;border-radius:999px}
+.pill.rich{color:var(--rich);background:var(--rich-bg)}
+.pill.poor{color:var(--poor);background:var(--poor-bg)}
+.pill.mid{color:var(--mid);background:var(--mid-bg)}
+.eq{font-family:var(--mono);font-weight:600;overflow-wrap:anywhere}
+.bars{display:flex;flex-direction:column;gap:10px;margin-top:4px}
+.barLabel{display:flex;justify-content:space-between;gap:10px;font-size:15px}
+.barLabel span:first-child{overflow-wrap:anywhere}
+.barLabel span:last-child{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.track{height:14px;border-radius:7px;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.fill{height:100%;border-radius:7px;background:var(--bar-base);min-width:2px}
+.fill.main{background:var(--accent)}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{background:var(--paper);border-radius:10px;padding:10px 12px}
+.fact b{display:block;font-family:var(--mono);font-size:19px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.fact span{font-size:14px;color:var(--muted)}
+.pgrid{display:flex;flex-wrap:wrap;gap:8px}
+.pc{font-size:14px;padding:6px 10px;border-radius:9px;border:1px solid var(--line);background:var(--paper)}
+.pc b{font-family:var(--mono)}
+.pc.never{color:var(--rich);background:var(--rich-bg);border-color:transparent}
+.pc.always{color:var(--poor);background:var(--poor-bg);border-color:transparent}
+.status{font-size:15px;color:var(--muted)}
+@media (max-width:400px){.score{font-size:46px}.facts{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.fill{transition:width .4s ease}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Prime Richness Checker</h1>
+    <p class="lede">Type an equation and the checker reports how many primes the outputs contain compared with plain counting numbers of the same size.</p>
+  </header>
+
+  <form class="panel" id="form">
+    <div>
+      <label for="eq">Equation to check (n is the input number)</label>
+      <input type="text" id="eq" value="n^2 + n + 41" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <p class="hint">Write powers with ^ such as n^2 and multiply with parentheses such as (n+2)(n+3).</p>
+    </div>
+    <div class="chips" id="examples" aria-label="Example equations"></div>
+    <div>
+      <label for="cmp">Second equation to compare against</label>
+      <input type="text" id="cmp" value="n^2 + n + 1" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+    </div>
+    <div>
+      <label for="size">Test outputs up to this size</label>
+      <select id="size">
+        <option value="6">10^6 (one million)</option>
+        <option value="9">10^9 (one billion)</option>
+        <option value="12" selected>10^12 (one trillion)</option>
+        <option value="18">10^18</option>
+        <option value="30">10^30</option>
+        <option value="50">10^50</option>
+        <option value="100">10^100</option>
+        <option value="200">10^200</option>
+        <option value="300">10^300</option>
+      </select>
+      <p class="hint">Larger sizes take longer per test so the checker tests fewer outputs and the measured percentage gets rougher.</p>
+    </div>
+    <button class="go" type="submit" id="go">Check equation</button>
+    <div class="err" id="err" role="alert"></div>
+  </form>
+
+  <section class="panel" id="result" aria-live="polite">
+    <h2>Predicted difference from the number line</h2>
+    <div class="scoreRow"><span class="score" id="score">…</span><span class="pill mid" id="pill">working</span></div>
+    <p id="headline"></p>
+    <div class="bars" id="bars"></div>
+    <p class="hint" id="cmpLine"></p>
+    <p class="hint">The predicted percentage applies at every size including 10^1000 because the percentage is built from which small primes can divide the outputs and that dividing pattern repeats forever. The prediction is unproven although computer counts have matched the prediction wherever people have checked.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Computer check</h2>
+    <p class="status" id="status">Starting the test.</p>
+    <div class="facts" id="facts"></div>
+    <p class="hint">The measured percentage compares the count of primes found with the count that chance predicts for ordinary numbers of the same sizes. A measured percentage close to the predicted percentage means the prediction held for the tested outputs.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Which small primes can divide the outputs</h2>
+    <div class="pgrid" id="pgrid"></div>
+    <p class="hint">An equation whose outputs dodge many small primes lands above 0% because fewer outputs get knocked out. An equation whose outputs get divided by small primes more often than ordinary numbers lands below 0%. For ordinary numbers each prime p divides 1 of every p numbers.</p>
+  </section>
+
+  <section class="panel">
+    <h2>How to read the percentage</h2>
+    <p>0% means the same rate of primes as counting 1 2 3 4 5. +100% means twice as many primes and +500% means six times as many primes. −50% means half as many primes. −100% means the outputs stop being prime after at most a few early inputs.</p>
+    <p class="hint">An AI model (Claude) wrote this page on 21 November 2026 and the page runs every count inside the web browser of the visitor.</p>
+  </section>
+</main>
+
+<script>
+/*CORE-START*/
+const SUPS={'⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9'};
+function normalize(s){
+  s=s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]+/g,m=>'^'+[...m].map(c=>SUPS[c]).join(''));
+  s=s.replace(/[−–—]/g,'-').replace(/[×·]/g,'*').replace(/\*\*/g,'^').replace(/\s+/g,'');
+  return s.toLowerCase().replace(/x/g,'n');
+}
+function trimP(a){a=a.slice();while(a.length>1&&a[a.length-1]===0n)a.pop();return a;}
+function addP(a,b){const r=[];for(let i=0;i<Math.max(a.length,b.length);i++)r.push((a[i]||0n)+(b[i]||0n));return trimP(r);}
+function negP(a){return a.map(v=>-v);}
+function mulP(a,b){const r=new Array(a.length+b.length-1).fill(0n);for(let i=0;i<a.length;i++)for(let j=0;j<b.length;j++)r[i+j]+=a[i]*b[j];return trimP(r);}
+function powP(a,e){let r=[1n];for(let i=0;i<e;i++){r=mulP(r,a);if(r.length>14)throw new Error('The highest power is above 12 and the checker stops at 12 because larger powers make the test too slow.');}return r;}
+function parsePoly(src){
+  const s=normalize(src);let i=0;
+  if(!s)throw new Error('The equation box is empty so type an equation such as n^2 + n + 41.');
+  const peek=()=>s[i];
+  const isD=c=>c!==undefined&&c>='0'&&c<='9';
+  function expr(){let a=term();while(peek()==='+'||peek()==='-'){const op=s[i++];const b=term();a=op==='+'?addP(a,b):addP(a,negP(b));}return a;}
+  function term(){let a=unary();for(;;){const c=peek();if(c==='*'){i++;a=mulP(a,unary());}else if(isD(c)||c==='n'||c==='('){a=mulP(a,power());}else break;}return a;}
+  function unary(){if(peek()==='-'){i++;return negP(unary());}if(peek()==='+'){i++;return unary();}return power();}
+  function power(){let a=atom();if(peek()==='^'){i++;const st=i;while(isD(peek()))i++;if(st===i)throw new Error('A whole number is missing after the ^ sign so write a power such as n^2.');const e=parseInt(s.slice(st,i),10);if(e>12)throw new Error('The power '+e+' is above 12 and the checker stops at 12 because larger powers make the test too slow.');a=powP(a,e);}return a;}
+  function atom(){const c=peek();if(c==='n'){i++;return [0n,1n];}if(c==='('){i++;const a=expr();if(peek()!==')')throw new Error('A closing parenthesis is missing so add a ) to match each (.');i++;return a;}if(isD(c)){const st=i;while(isD(peek()))i++;return [BigInt(s.slice(st,i))];}
+    if(c===undefined)throw new Error('The equation ends too early so finish the equation such as n^2 + n + 41.');
+    throw new Error('The checker does not understand the character "'+c+'" because the checker reads whole numbers and n and + and - and * and ^ and parentheses.');}
+  const p=trimP(expr());
+  if(i<s.length)throw new Error('The checker does not understand the character "'+s[i]+'" because the checker reads whole numbers and n and + and - and * and ^ and parentheses.');
+  if(p.length<2)throw new Error('The equation needs the letter n because the checker plugs counting numbers into n.');
+  if(p.length>13)throw new Error('The highest power is above 12 and the checker stops at 12 because larger powers make the test too slow.');
+  if(p[p.length-1]<0n)throw new Error('The highest power of n needs a positive number in front because the outputs must grow upward to be tested for primes.');
+  return p;
+}
+const SUPD='⁰¹²³⁴⁵⁶⁷⁸⁹';
+function pretty(c){
+  let out='';
+  for(let k=c.length-1;k>=0;k--){
+    const v=c[k];if(v===0n)continue;
+    const a=v<0n?-v:v;
+    let t='';
+    if(k===0)t=a.toString();
+    else{t=(a===1n?'':a.toString())+'n'+(k>1?[...String(k)].map(d=>SUPD[+d]).join(''):'');}
+    if(out==='')out=(v<0n?'−':'')+t;else out+=(v<0n?' − ':' + ')+t;
+  }
+  return out;
+}
+function evalBig(c,n){let r=0n;for(let k=c.length-1;k>=0;k--)r=r*n+c[k];return r;}
+function sieve(N){const s=new Uint8Array(N+1);const out=[];for(let i=2;i<=N;i++){if(!s[i]){out.push(i);for(let j=i*i;j<=N;j+=i)s[j]=1;}}return out;}
+const PRIMES=sieve(10000);
+function gcdB(a,b){a=a<0n?-a:a;b=b<0n?-b:b;while(b){[a,b]=[b,a%b];}return a;}
+function predict(c){
+  let g=0n;for(const v of c)g=gcdB(g,v);
+  let score=1,sumW=0,fixed=null;const table=[];
+  for(const p of PRIMES){
+    const cm=c.map(v=>Number(((v%BigInt(p))+BigInt(p))%BigInt(p)));
+    let w=0;
+    for(let x=0;x<p;x++){let r=0;for(let k=cm.length-1;k>=0;k--)r=(r*x+cm[k])%p;if(r===0)w++;}
+    sumW+=w;
+    if(w===p&&fixed===null)fixed=p;
+    score*=(1-w/p)/(1-1/p);
+    if(p<=47)table.push({p,w});
+  }
+  const meanW=sumW/PRIMES.length;
+  let zero=null;
+  if(g>1n)zero='every output is a multiple of '+g.toString();
+  else if(fixed!==null)zero='every output is a multiple of '+fixed;
+  else if(c.length>2&&meanW>1.5)zero='the equation splits into smaller equations multiplied together';
+  return {score:zero?0:score,zero,table};
+}
+const M1=223092870n,M2=58642669n;
+const P1=[2,3,5,7,11,13,17,19,23],P2=[29,31,37,41,43];
+function modpow(b,e,m){let r=1n;b%=m;while(e>0n){if(e&1n)r=r*b%m;b=b*b%m;e>>=1n;}return r;}
+const B7=[2n,3n,5n,7n,11n,13n,17n],B12=[2n,3n,5n,7n,11n,13n,17n,19n,23n,29n,31n,37n],B8=[2n,3n,5n,7n,11n,13n,17n,19n];
+function isPrime(v){
+  if(v<2n)return false;
+  const r1=Number(v%M1);for(const p of P1)if(r1%p===0)return v===BigInt(p);
+  const r2=Number(v%M2);for(const p of P2)if(r2%p===0)return v===BigInt(p);
+  if(v<2209n)return true;
+  let d=v-1n,s=0;while((d&1n)===0n){d>>=1n;s++;}
+  const bases=v<341550071728321n?B7:(v<3317044064679887385961981n?B12:B8);
+  const v1=v-1n;
+  outer:for(const a of bases){
+    let x=modpow(a,d,v);
+    if(x===1n||x===v1)continue;
+    for(let i=1;i<s;i++){x=x*x%v;if(x===v1)continue outer;}
+    return false;
+  }
+  return true;
+}
+function lnBig(v){const s=v.toString();if(s.length<=15)return Math.log(Number(v));return Math.log(Number(s.slice(0,15)))+(s.length-15)*Math.LN10;}
+function randBelow(m){const d=m.toString().length+3;let s='';while(s.length<d)s+=Math.floor(Math.random()*1e15).toString().padStart(15,'0');return BigInt(s.slice(0,d))%m;}
+function inputLimit(c,k){
+  const B=10n**BigInt(k);
+  let hi=1n;while(evalBig(c,hi)<=B)hi*=2n;
+  let lo=hi/2n;
+  while(hi-lo>1n){const mid=(lo+hi)/2n;if(evalBig(c,mid)<=B)lo=mid;else hi=mid;}
+  return lo;
+}
+/*CORE-END*/
+
+const $=id=>document.getElementById(id);
+const EXAMPLES=['n^2 + n + 41','n^2 - n - 1','6n + 1','n^2 + 1','n^3 + 2','2n^2 + 29','n^2 - 1','n'];
+EXAMPLES.forEach(e=>{const b=document.createElement('button');b.type='button';b.className='chip';b.textContent=e;b.addEventListener('click',()=>{$('eq').value=e;run();});$('examples').appendChild(b);});
+
+let runId=0;
+const now=()=>(window.performance&&performance.now)?performance.now():Date.now();
+const pause=()=>new Promise(r=>setTimeout(r,0));
+function fmt(x){return x>=100?x.toFixed(0):x>=10?x.toFixed(1):x.toFixed(2);}
+function pct(s){const d=Math.round((s-1)*100);return d===0?'0%':(d>0?'+':'−')+Math.abs(d)+'%';}
+function setText(id,t){$(id).textContent=t;}
+function bar(label,value,max,main){
+  const row=document.createElement('div');
+  const l=document.createElement('div');l.className='barLabel';
+  const a=document.createElement('span');a.textContent=label;const b=document.createElement('span');b.textContent=pct(value);
+  l.append(a,b);
+  const t=document.createElement('div');t.className='track';
+  const f=document.createElement('div');f.className='fill'+(main?' main':'');f.style.width=Math.max(0,Math.min(100,100*value/max))+'%';
+  t.appendChild(f);row.append(l,t);return row;
+}
+function fact(big,small){const d=document.createElement('div');d.className='fact';const b=document.createElement('b');b.textContent=big;const s=document.createElement('span');s.textContent=small;d.append(b,s);return d;}
+
+async function run(){
+  const id=++runId;
+  $('err').textContent='';
+  let c;
+  try{c=parsePoly($('eq').value);}catch(e){$('err').textContent=e.message;return;}
+  const name=pretty(c);
+  const k=parseInt($('size').value,10);
+  setText('score','…');$('pill').className='pill mid';setText('pill','working');
+  setText('headline','');$('bars').replaceChildren();setText('cmpLine','');$('facts').replaceChildren();$('pgrid').replaceChildren();
+  setText('status','Working out which small primes divide the outputs of '+name+'.');
+  await pause();if(id!==runId)return;
+
+  const pr=predict(c);
+  const s=pr.score;
+  setText('score',pct(s));
+  const pill=$('pill');
+  if(pr.zero){pill.className='pill poor';pill.textContent='no primes';}
+  else if(s>=1.05){pill.className='pill rich';pill.textContent='prime-rich';}
+  else if(s<=0.95){pill.className='pill poor';pill.textContent='prime-poor';}
+  else{pill.className='pill mid';pill.textContent='about average';}
+  const h=$('headline');h.replaceChildren();
+  const eqSpan=document.createElement('span');eqSpan.className='eq';eqSpan.textContent=name;
+  h.append(eqSpan);
+  if(pr.zero)h.append(' has 100% fewer primes than plain counting numbers which means no primes past at most a few early inputs because '+pr.zero+'.');
+  else if(s>=1.05)h.append(' is predicted to have '+((s-1)*100).toFixed(0)+'% more primes than plain counting numbers of the same size which means '+fmt(s)+' times as many primes.');
+  else if(s<=0.95)h.append(' is predicted to have '+((1-s)*100).toFixed(0)+'% fewer primes than plain counting numbers of the same size which means '+fmt(s)+' times as many primes.');
+  else h.append(' is predicted to have about the same rate of primes as plain counting numbers of the same size because the predicted difference is '+pct(s)+'.');
+
+  let cs=null,cname='';
+  const cmpSrc=$('cmp').value.trim();
+  if(cmpSrc){
+    try{const cc=parsePoly(cmpSrc);cname=pretty(cc);cs=predict(cc).score;}
+    catch(e){setText('cmpLine','The second equation could not be read: '+e.message);}
+  }
+  const max=Math.max(1,s,cs||0)*1.02;
+  const bars=$('bars');
+  bars.append(bar(name,s,max,true));
+  if(cs!==null)bars.append(bar(cname,cs,max,false));
+  bars.append(bar('Plain counting numbers',1,max,false));
+  if(cs!==null){
+    if(cs===0)setText('cmpLine','No ratio exists against '+cname+' because '+cname+' produces no primes.');
+    else if(s===0)setText('cmpLine',name+' produces no primes while '+cname+' sits at '+pct(cs)+' against plain counting numbers.');
+    else{const r=s/cs;const d=Math.round((r-1)*100);setText('cmpLine','At equal output sizes '+name+' is predicted to have '+(d===0?'about the same rate of primes as ':Math.abs(d)+'% '+(d>0?'more':'fewer')+' primes than ')+cname+' because '+name+' produces '+fmt(s)+' times the primes of plain counting numbers and '+cname+' produces '+fmt(cs)+' times.');}
+  }
+
+  const pg=$('pgrid');
+  pr.table.forEach(({p,w})=>{
+    const d=document.createElement('div');
+    const b=document.createElement('b');b.textContent=p;
+    d.append(b);
+    if(w===0){d.className='pc never';d.append(' never divides an output');}
+    else if(w===p){d.className='pc always';d.append(' divides every output');}
+    else{d.className='pc';d.append(' divides '+w+' of every '+p+' outputs');}
+    pg.appendChild(d);
+  });
+
+  setText('status','Testing outputs of '+name+' up to 10^'+k+' for primes.');
+  await pause();if(id!==runId)return;
+  const nmax=inputLimit(c,k);
+  if(nmax<30n){setText('status','Fewer than 30 inputs give outputs under 10^'+k+' so the test has too little to count. Pick a larger size from the list above.');return;}
+  const full=nmax<=300000n;
+  const budget=4500,start=now();
+  let tested=0,primes=0,expected=0,n=0n,done=false;
+  const cap=full?Number(nmax):400000;
+  while(!done){
+    for(let j=0;j<256;j++){
+      if(tested>=cap){done=true;break;}
+      if(full)n+=1n;else n=randBelow(nmax)+1n;
+      const v=evalBig(c,n);
+      tested++;
+      if(v<3n){if(v===2n)primes++;continue;}
+      expected+=1/lnBig(v);
+      if(isPrime(v))primes++;
+    }
+    if(now()-start>budget)done=true;
+    else if(!done&&(tested&4095)===0){setText('status','Testing outputs of '+name+' up to 10^'+k+' for primes. Tested '+tested+' so far.');await pause();if(id!==runId)return;}
+  }
+  const how=full?(tested>=Number(nmax)?'Tested every input from 1 to '+nmax.toString()+' which covers every output under 10^'+k+'.':'Tested inputs 1 to '+tested+' before the time limit ran out.'):'Tested '+tested+' random inputs chosen from 1 up to the largest input whose output stays under 10^'+k+'.';
+  setText('status',how);
+  const f=$('facts');
+  f.append(fact(String(primes),'primes found'));
+  f.append(fact(expected.toFixed(1),'primes that chance predicts'));
+  if(expected>0){
+    const ms=primes/expected;
+    f.append(fact(pct(ms),'measured difference from plain counting numbers'));
+    f.append(fact(primes>0?'± '+Math.max(1,Math.round(100*ms/Math.sqrt(primes)))+' points':'none','rough wobble from chance in the measured percentage'));
+  }
+  f.append(fact(pct(s),'predicted difference for comparison'));
+}
+$('form').addEventListener('submit',e=>{e.preventDefault();run();});
+run();
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
-Built on 2026-11-20 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 268 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+Built on 2026-11-21 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
+This file holds 274 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -32,6 +32,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [zeta-sums](zeta-sums) holds computer search results about the numbers zeta(3) and zeta(5) and zeta(7) and zeta(9) which include two formulas that write zeta(3) purely as sums over powers of the golden ratio and a formula for zeta(5) with no extra pieces in a base near 0.7549 and formulas with no extra pieces for zeta(7) through zeta(15) in other bases and four long formulas with every whole-number coefficient written out.
+- [prime-richness](prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line (86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime) plus a page that checks any typed equation.
 
 ## Single pages (each page is its own project)
 
@@ -44,6 +45,8 @@ Every item in this folder is written for a person to read and the items are grou
 ## Something to play with
 
 A phone game named Squad Rush runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
+
+A prime richness checker runs in a web browser at this address and reports how many primes the outputs of a typed equation contain compared with the number line: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
 
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 
@@ -15266,6 +15269,1025 @@ The program is named twist_joining.py and sits in the folder boring-things/resea
 > **Who wrote this:** An AI chatbot (Claude) ran the tests and wrote this page.
 
 ================================================================================
+FILE: 1-research-click-here-first/prime-richness/README.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md
+================================================================================
+
+# Prime richness
+
+This folder holds computer counts of how often prime numbers show up in the outputs of different recipes compared with plain counting numbers of the same size. An AI model (Claude) ran the counts and wrote the pages on 21 November 2026 and no other person has rechecked the pages. Each result is written as a percentage against the number line such as +564% for an equation with many primes or −100% for an equation with no primes.
+
+- [new-findings.md](new-findings.md) keeps the results that a quick web search did not turn up which cover dividing a square or a cube and dropping the decimals plus the pieces of a prime read from the right end and read backward plus 467 primes where every reversed piece is prime plus the sum of 1 over each Fibonacci prime and the page ends with a list of related results that a quick search already answers.
+- [equation-list.md](equation-list.md) ranks 86 equations by how many primes the outputs contain and gives the raw counts and the reason for each percentage where a reason is known.
+- [checker.html](checker.html) is a page where a visitor types an equation such as n^2 + n + 41 and reads the predicted percentage against the number line plus a live computer count.
+- [champions-467.txt](champions-467.txt) is a plain text file that lists all 467 primes where every reversed piece is prime with one prime on each line.
+
+The checker runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
+
+================================================================================
+FILE: 1-research-click-here-first/prime-richness/champions-467.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/champions-467.txt
+================================================================================
+
+2
+3
+5
+7
+31
+37
+71
+73
+79
+311
+313
+347
+353
+359
+373
+383
+389
+733
+739
+743
+761
+769
+797
+3163
+3169
+3221
+3251
+3257
+3463
+3467
+3469
+3583
+3719
+3733
+3767
+3821
+3889
+7433
+7457
+7459
+7643
+7649
+7699
+31121
+32213
+32579
+32869
+34673
+34757
+35363
+35381
+37199
+37363
+37643
+38219
+38327
+38329
+38629
+38651
+38861
+38867
+71387
+71389
+71633
+73369
+74357
+74561
+74573
+74623
+76157
+76367
+76423
+76487
+79349
+79393
+79397
+79399
+311653
+311659
+311681
+313343
+316339
+316373
+328373
+328379
+344599
+344819
+344863
+347579
+353819
+358733
+358783
+371663
+371927
+373183
+373193
+373463
+373631
+373669
+376483
+376793
+382189
+382979
+383291
+383297
+388931
+713873
+716389
+733697
+739463
+743263
+745379
+746231
+761833
+764233
+764293
+764893
+764969
+769339
+769429
+793931
+797273
+799633
+3116263
+3133153
+3161579
+3161689
+3163423
+3163763
+3257869
+3448631
+3448997
+3536933
+3536987
+3538187
+3538189
+3583669
+3734657
+3763757
+3764543
+3829783
+3832723
+3862699
+3886151
+3886159
+3886187
+3886699
+3886723
+3887657
+7162667
+7312639
+7336691
+7339721
+7339729
+7432181
+7433381
+7453799
+7456187
+7457687
+7457993
+7459451
+7462397
+7462967
+7496369
+7496627
+7642331
+7642373
+7642963
+7648789
+7649567
+7649689
+7649693
+7693349
+7693967
+7916861
+7916897
+7934923
+7934957
+7934959
+7939319
+7972733
+7973363
+7991981
+7996367
+7996369
+31336429
+31616891
+31616929
+31616999
+31631323
+31637633
+31694627
+32579249
+32819863
+32837323
+34486363
+34637657
+34757321
+35381993
+35666987
+35878369
+35927687
+35954353
+37166329
+37318991
+37346957
+37363393
+37366759
+37661563
+37661567
+37679651
+38215999
+38218963
+38297837
+38297839
+38626993
+38657897
+38861519
+38867237
+38867663
+38876623
+71626969
+73369729
+73397983
+73946531
+74321873
+74329631
+74329669
+74537921
+74537923
+74537929
+74573263
+74573599
+74576657
+74578151
+74594537
+74966261
+76157261
+76187539
+76426451
+76487549
+76487897
+76495673
+76931651
+76939691
+76939693
+79165399
+79349579
+79393789
+79912667
+316169233
+316318159
+328193599
+346378481
+353693383
+353818999
+356669893
+359543531
+371663219
+371663269
+371665967
+371666653
+371666863
+373189451
+373193683
+373669489
+376375751
+376375763
+376439659
+376615661
+376723367
+376795373
+382159979
+382975469
+382978949
+382979573
+388615169
+713621273
+731926163
+733429339
+733429373
+733669163
+739465379
+743291957
+743291987
+743296669
+745732733
+745766579
+745781563
+746236453
+746296721
+746569181
+749635421
+761875397
+764243681
+764264593
+764294651
+764365439
+764365487
+764893379
+793937891
+797336923
+799126637
+799636993
+799636997
+799693333
+3116899339
+3163766299
+3283646867
+3283646921
+3286964633
+3448637681
+3536861369
+3583456139
+3587636651
+3716632691
+3719275961
+3764324657
+3764396569
+3766156619
+3821695363
+3824383931
+3829795967
+3829795969
+3832723123
+3862699493
+3886184381
+7334293333
+7339723451
+7339729643
+7457356783
+7496354953
+7642331813
+7642373951
+7642436863
+7642645939
+7693361321
+7693967861
+7693969133
+7916896781
+7934954983
+7934959163
+7939378919
+7973369983
+7991246633
+7996369939
+7996493293
+31165996787
+31168931569
+31616891219
+31694621683
+32218333159
+34757689339
+35369338397
+35834567299
+35836693499
+35878361873
+37166326139
+37166326919
+37363399679
+38297564597
+38297959697
+38867231657
+38867231659
+38867663953
+71633237213
+73192676561
+73342937329
+74329193593
+74333818121
+74561693333
+74561693959
+74573599631
+74623645399
+74962672693
+76156429343
+76187531659
+76187539427
+76423735483
+76436548973
+76495673833
+76495676893
+76939693319
+79168736869
+79912663723
+311659967873
+344819356727
+344899195727
+358345616593
+358763512729
+358783618969
+371666656129
+371927234513
+388676636869
+731926163819
+743218768451
+743291957567
+745379983367
+745616939597
+745732664293
+761572645397
+761572645679
+761875316561
+764956738331
+769396913357
+791689643957
+791689678193
+799649326769
+3116599792483
+3161665429697
+3161665466269
+3161665466549
+3161665466591
+3161689121293
+3163132424623
+3583456181323
+3587351849327
+3587836187833
+3716659673273
+3716659673299
+3716668694699
+3719275135759
+3734651936891
+3734651938439
+3821897543873
+7339799389759
+7457356783739
+7496234657533
+7496626168159
+7642331546893
+7643654897387
+7643654897597
+7693969331219
+7916896439533
+7991246633891
+31631324246231
+31637368753363
+35834561813231
+37166321927381
+37643246869633
+74321876845169
+74329139659129
+74573266429373
+74573567836499
+74623973845991
+74963549266789
+74966261681599
+76157264539729
+76423315468931
+79168976383963
+79733696833937
+79912466321983
+79964939293787
+79969333361653
+371663219273873
+745735678376219
+746236453997899
+746569169276561
+761564293466861
+791689763839649
+3587836154869667
+7916531563768679
+35878361548696649
+76426459396975999
+76939693312192429
+745735678364572153
+79168736654243369351
+
+================================================================================
+FILE: 1-research-click-here-first/prime-richness/equation-list.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/equation-list.md
+================================================================================
+
+# Prime counts for 86 equations compared with the number line
+
+> **About this page:** One AI model (Claude) ran the computations and wrote this page in a single chat on 21 November 2026. No other person has rerun the work yet which means the results are unconfirmed by a human reviewer. Each percentage comes from a computer count and not from a written proof.
+
+## What the page shows
+
+The page lists 86 equations and reports how many primes the outputs of each equation contain compared with plain counting numbers of the same size. The comparison is written as a percentage because a percentage shows the gap at a glance: +564% means the equation produced 564% more primes than the number line and −88% means the equation produced 88% fewer primes and −100% means the equation produced no primes.
+
+## How each equation was tested
+
+For each equation the computer plugged whole numbers into n and dropped any decimal places from the output without rounding which means 1.99 becomes 1.
+
+For most equations the computer tested outputs under 1 trillion. The computer used every input when 300000 or fewer inputs fit under 1 trillion and used 300000 random inputs when more inputs fit because testing a trillion inputs one by one would take days.
+
+For the fast-growing equations such as 2ⁿ − 1 the computer tested every output with 300 digits or fewer because fewer than 40 outputs of an equation such as 2ⁿ − 1 fit under 1 trillion.
+
+The count that chance predicts was found by adding up the chance of being prime for each tested output. The chance for an ordinary number is 1 divided by the natural logarithm of the number which means about 1 in 28 for a number near 1 trillion.
+
+Percentages between −2% and +2% are treated as no difference from the number line because random sampling of 300000 inputs makes the percentage wobble by 1 or 2 points. The plain number line itself measured −1% in the test for that reason.
+
+## Ranking of the 66 equations tested under 1 trillion
+
+The list runs from the most primes to the fewest primes and each percentage compares the equation with the plain number line.
+
+- n² − 79n + 1601: +566%
+- n² + n + 41: +564%
+- 2n² + 29: +491%
+- 210n + 1: +335%
+- n² + n + 17: +318%
+- 30n + 1: +276%
+- 2n² − 1: +267%
+- n³ − n + 1: +259%
+- n² − n − 1: +254%
+- 3n² + 3n + 1: +237%
+- n³ + n² + 1: +208%
+- n³ + n + 1: +202%
+- 6n + 1: +200%
+- 4n² + 1: +176%
+- 10n + 1: +149%
+- n⁴ + 1: +148%
+- n⁴ + n + 1: +146%
+- (n³ + 5) ÷ (n + 1): +123%
+- n² + n + 1: +121%
+- 4n + 3: +102%
+- 2n + 1: +101%
+- n² − 2: +87%
+- n² + 1: +36%
+- n³ + 2: +25%
+- n⁵ + 2: +18%
+- n² + 3: +12%
+- n to the power 2.5: +2%
+- n ÷ ln(n): +2%
+- n × φ (the golden ratio): +1%
+- n × π: +1%
+- n² × π: +1%
+- n² × ln(n): +1%
+- n² ÷ ln(n): 0%
+- n × ln(n): 0%
+- n × ln(n) × ln(n): 0%
+- n × log₂(n): 0%
+- n ÷ 2: 0%
+- n² × φ (the golden ratio): 0%
+- n to the power 1.5: 0%
+- n × e: −1%
+- n × log₁₀(n): −1%
+- n² ÷ (n + 1): −1%
+- n: −1%
+- √n: −2%
+- n × √2: −2%
+- n² × √2: −2%
+- n² ÷ 7: −36%
+- n² ÷ 10: −45%
+- n³ ÷ 7: −48%
+- n³ ÷ 2: −100%
+- (n² + 1) ÷ 3: −100%
+- n² ÷ 5: −100%
+- 2n: −100%
+- 6n + 3: −100%
+- n² − 1: −100%
+- n² + n + 2: −100%
+- n² + 5n + 6: −100%
+- n⁴ + 4: −100%
+- n⁴ + n² + 1: −100%
+- n⁶ + 1: −100%
+- n² ÷ 2: −100%
+- n² ÷ 3: −100%
+- n² ÷ 4: −100%
+- n × (n + 1) ÷ 2: −100%
+- n³ ÷ (n + 1): −100%
+- n⁴ ÷ (n² + 1): −100%
+
+## Ranking of the 20 fast-growing equations
+
+The list runs from the most primes to the fewest primes and each percentage is rough because each fast-growing equation produced fewer than 30 primes.
+
+- n! − 1: +341%
+- 3ⁿ + 2: +296%
+- 10ⁿ + 7: +278%
+- 2ⁿ − 3: +206%
+- n! + 1 (1 × 2 × 3 up to n then add 1): +185%
+- 3ⁿ − 2: +170%
+- 2ⁿ + 3: +86%
+- φⁿ with decimals dropped: +66%
+- 2ⁿ − 1: +46%
+- the nth Fibonacci number: +44%
+- 2ⁿ + n: +20%
+- eⁿ with decimals dropped: +14%
+- 1.5ⁿ with decimals dropped: −1%
+- πⁿ with decimals dropped: −2%
+- nⁿ + 1: −13%
+- 10ⁿ + 1: −26%
+- 2ⁿ + 1: −51%
+- 2ⁿ ÷ n with decimals dropped: −51%
+- n × 2ⁿ + 1: −77%
+- 2ⁿ ÷ 3 with decimals dropped: −89%
+
+## Details for each equation
+
+Each line gives the percentage and the reason where a reason is known and the raw counts so a reader can check each percentage.
+
+### Straight-line equations
+
+- n has about the same rate of primes as the number line at −1% because n is the plain number line itself (11116 primes found where chance predicts 11282).
+- 2n has 100% fewer primes than the number line because every output is even (0 primes found where chance predicts 11282).
+- 2n + 1 has 101% more primes than the number line because every output is odd so the prime 2 never divides an output (22670 primes found where chance predicts 11283).
+- 4n + 3 has 102% more primes than the number line because every output is odd so the prime 2 never divides an output (22799 primes found where chance predicts 11283).
+- 6n + 1 has 200% more primes than the number line because the primes 2 and 3 never divide an output (33894 primes found where chance predicts 11283).
+- 6n + 3 has 100% fewer primes than the number line because every output is a multiple of 3 (0 primes found where chance predicts 11282).
+- 10n + 1 has 149% more primes than the number line because the primes 2 and 5 never divide an output (28119 primes found where chance predicts 11283).
+- 30n + 1 has 276% more primes than the number line because the primes 2 and 3 and 5 never divide an output (42449 primes found where chance predicts 11283).
+- 210n + 1 has 335% more primes than the number line because the primes 2 and 3 and 5 and 7 never divide an output (49050 primes found where chance predicts 11284).
+
+### Squared equations
+
+- n² + 1 has 36% more primes than the number line because 2 divides every second output and 5 divides two of every five outputs (16062 primes found where chance predicts 11795).
+- n² + n + 1 has 121% more primes than the number line because every output is odd (26026 primes found where chance predicts 11790).
+- n² − n − 1 has 254% more primes than the number line because 2 and every prime ending in 3 or 7 never divide an output of the golden ratio equation n² − n − 1 (41751 primes found where chance predicts 11794).
+- n² − 2 has 87% more primes than the number line because about half of the primes (such as 3 and 5 and 11 and 13) never divide an output (22001 primes found where chance predicts 11793).
+- n² + 3 has 12% more primes than the number line because 2 divides every second output and 3 divides every third output while about half of the larger primes never divide an output (13217 primes found where chance predicts 11796).
+- 2n² − 1 has 267% more primes than the number line because every output is odd (43336 primes found where chance predicts 11794).
+- 4n² + 1 has 176% more primes than the number line because every output is odd and 3 never divides an output (32527 primes found where chance predicts 11792).
+- 3n² + 3n + 1 has 237% more primes than the number line because 2 and 3 and 5 never divide an output (39763 primes found where chance predicts 11793). 3n² + 3n + 1 is the gap between two neighboring cubes such as 27 − 8 = 19.
+- n² + n + 17 has 318% more primes than the number line because no prime below 17 ever divides an output (49315 primes found where chance predicts 11793).
+- 2n² + 29 has 491% more primes than the number line because no prime below 29 ever divides an output (69693 primes found where chance predicts 11793).
+- n² + n + 41 has 564% more primes than the number line because no prime below 41 ever divides an output (78263 primes found where chance predicts 11795).
+- n² − 79n + 1601 has 566% more primes than the number line because n² − 79n + 1601 produces the same outputs as n² + n + 41 with the inputs shifted by 40 (78597 primes found where chance predicts 11794).
+- n² − 1 has 100% fewer primes than the number line because the equation splits into (n − 1) × (n + 1) (0 primes found where chance predicts 11793).
+- n² + n + 2 has 100% fewer primes than the number line because every output is even (0 primes found where chance predicts 11796).
+- n² + 5n + 6 has 100% fewer primes than the number line because the equation splits into (n + 2) × (n + 3) (0 primes found where chance predicts 11794).
+
+### Cubes and higher powers
+
+- n³ + 2 has 25% more primes than the number line because 2 divides every second output and 3 divides every third output while many larger primes never divide an output (519 primes found where chance predicts 415).
+- n³ + n + 1 has 202% more primes than the number line because every output is odd (1254 primes found where chance predicts 415).
+- n³ + n² + 1 has 208% more primes than the number line because every output is odd (1280 primes found where chance predicts 415).
+- n³ − n + 1 has 259% more primes than the number line because 2 and 3 never divide an output (1493 primes found where chance predicts 415).
+- n⁴ + 1 has 148% more primes than the number line because the primes 3 and 5 and 7 and 11 and 13 never divide an output (110 primes found where chance predicts 44.3).
+- n⁴ + n + 1 has 146% more primes than the number line because every output is odd (109 primes found where chance predicts 44.3).
+- n⁵ + 2 has 18% more primes than the number line (14 primes found where chance predicts 11.9). Just 250 inputs fit under 1 trillion for n⁵ + 2 which makes the percentage rough.
+- n⁴ + 4 has 100% fewer primes than the number line because the equation secretly splits into (n² + 2n + 2) × (n² − 2n + 2) (0 primes found where chance predicts 44.3).
+- n⁴ + n² + 1 has 100% fewer primes than the number line because the equation secretly splits into (n² + n + 1) × (n² − n + 1) (0 primes found where chance predicts 44.3).
+- n⁶ + 1 has 100% fewer primes than the number line because the equation secretly splits into (n² + 1) × (n⁴ − n² + 1) (0 primes found where chance predicts 5.0). Just 98 inputs fit under 1 trillion for n⁶ + 1 and the splitting guarantees no primes at any size.
+
+### Division with the decimal places dropped
+
+- n ÷ 2 has about the same rate of primes as the number line at 0% because each whole number shows up twice in a row which means the outputs are the plain number line repeated (11248 primes found where chance predicts 11282).
+- n² ÷ 2 has 100% fewer primes than the number line because the output is 2 × (n ÷ 2)² for even n and (n − 1) × (n + 1) ÷ 2 for odd n and both forms have two factors (0 primes found where chance predicts 11794).
+- n² ÷ 3 has 100% fewer primes than the number line because the output is either 3 × (n ÷ 3)² or (n − 1) × (n + 1) ÷ 3 and both forms have two factors (0 primes found where chance predicts 11791).
+- n² ÷ 4 has 100% fewer primes than the number line because the output is a perfect square for even n and two neighboring numbers multiplied for odd n (0 primes found where chance predicts 11798).
+- n² ÷ 5 has 100% fewer primes than the number line because the output takes the form n² ÷ 5 or (n − 1) × (n + 1) ÷ 5 or (n − 2) × (n + 2) ÷ 5 and all three forms have two factors (1 prime found where chance predicts 11795).
+- n² ÷ 7 has 36% fewer primes than the number line because some outputs take forms with two factors such as (n − 1) × (n + 1) ÷ 7 while other outputs take the form (n² − 2) ÷ 7 which does not split (7508 primes found where chance predicts 11796).
+- n² ÷ 10 has 45% fewer primes than the number line because some outputs take forms with two factors such as (n − 1) × (n + 1) ÷ 10 while other outputs take forms such as (n² − 6) ÷ 10 which do not split (6463 primes found where chance predicts 11792).
+- (n² + 1) ÷ 3 has 100% fewer primes than the number line because dropping the decimals leaves either n² ÷ 3 or (n − 1) × (n + 1) ÷ 3 and both forms have two factors (1 prime found where chance predicts 11795).
+- n³ ÷ 2 has 100% fewer primes than the number line because the output is n³ ÷ 2 for even n and (n − 1) × (n² + n + 1) ÷ 2 for odd n and both forms have two factors (1 prime found where chance predicts 524).
+- n³ ÷ 7 has 48% fewer primes than the number line because some outputs take forms with two factors such as (n − 1) × (n² + n + 1) ÷ 7 while other outputs do not split (412 primes found where chance predicts 795).
+- n × (n + 1) ÷ 2 has 100% fewer primes than the number line because the division is exact for every input and the output is two numbers multiplied (0 primes found where chance predicts 11792).
+- n² ÷ (n + 1) has about the same rate of primes as the number line at −1% because dropping the decimals leaves n − 1 for every input which means the outputs are the plain number line (11179 primes found where chance predicts 11284).
+- n³ ÷ (n + 1) has 100% fewer primes than the number line because dropping the decimals leaves n² − n for every input and n² − n is even (0 primes found where chance predicts 11795).
+- (n³ + 5) ÷ (n + 1) has 123% more primes than the number line because dropping the decimals leaves n² − n + 1 for every input above 3 and every output of n² − n + 1 is odd (26332 primes found where chance predicts 11794).
+- n⁴ ÷ (n² + 1) has 100% fewer primes than the number line because dropping the decimals leaves n² − 1 for every input above 1 and n² − 1 splits into (n − 1) × (n + 1) (0 primes found where chance predicts 11795).
+
+### Square roots and special multipliers with the decimal places dropped
+
+- n × √2 has about the same rate of primes as the number line at −2% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11052 primes found where chance predicts 11283).
+- n × φ (the golden ratio) has about the same rate of primes as the number line at +1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11418 primes found where chance predicts 11282).
+- n × π has about the same rate of primes as the number line at +1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11388 primes found where chance predicts 11281).
+- n × e has about the same rate of primes as the number line at −1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11227 primes found where chance predicts 11284).
+- n² × √2 has about the same rate of primes as the number line at −2% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11544 primes found where chance predicts 11793).
+- n² × φ (the golden ratio) has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11748 primes found where chance predicts 11789).
+- n² × π has about the same rate of primes as the number line at +1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11868 primes found where chance predicts 11796).
+- n to the power 1.5 has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11467 primes found where chance predicts 11524).
+- n to the power 2.5 has about the same rate of primes as the number line at +2% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (2606 primes found where chance predicts 2545).
+- √n has about the same rate of primes as the number line at −2% because each whole number repeats many times in a row which means the outputs are the plain number line repeated (10871 primes found where chance predicts 11062).
+
+### Logarithms with the decimal places dropped
+
+- n × ln(n) has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11339 primes found where chance predicts 11303). The output of n × ln(n) is close to the size of the nth prime number.
+- n × log₂(n) has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11280 primes found where chance predicts 11303).
+- n × log₁₀(n) has about the same rate of primes as the number line at −1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11237 primes found where chance predicts 11303).
+- n × ln(n) × ln(n) has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11349 primes found where chance predicts 11327).
+- n² × ln(n) has about the same rate of primes as the number line at +1% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11209 primes found where chance predicts 11146).
+- n² ÷ ln(n) has about the same rate of primes as the number line at 0% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11809 primes found where chance predicts 11753).
+- n ÷ ln(n) has about the same rate of primes as the number line at +2% likely because dropping the decimals scrambles the outputs so each small prime divides the outputs at the ordinary rate (11446 primes found where chance predicts 11266). The output of n ÷ ln(n) is close to the count of primes below n.
+
+### Fast-growing equations (tested on outputs up to 300 digits)
+
+- 2ⁿ − 1 has 46% more primes than the number line (14 primes found where chance predicts 9.6 which makes the percentage rough). A prime output of 2ⁿ − 1 requires n to be prime.
+- 2ⁿ + 1 has 51% fewer primes than the number line because a prime output of 2ⁿ + 1 requires n to be a power of 2 and the last prime found was at n = 16 (5 primes found where chance predicts 10.1 which makes the percentage rough).
+- 2ⁿ + 3 has 86% more primes than the number line (18 primes found where chance predicts 9.7 which makes the percentage rough).
+- 2ⁿ − 3 has 206% more primes than the number line (27 primes found where chance predicts 8.8 which makes the percentage rough).
+- 2ⁿ + n has 20% more primes than the number line (12 primes found where chance predicts 10.0 which makes the percentage rough).
+- 3ⁿ − 2 has 170% more primes than the number line (15 primes found where chance predicts 5.5 which makes the percentage rough).
+- 3ⁿ + 2 has 296% more primes than the number line (24 primes found where chance predicts 6.1 which makes the percentage rough).
+- 10ⁿ + 1 has 26% fewer primes than the number line because a prime output of 10ⁿ + 1 requires n to be a power of 2 (2 primes found where chance predicts 2.7 which makes the percentage rough).
+- 10ⁿ + 7 has 278% more primes than the number line (10 primes found where chance predicts 2.6 which makes the percentage rough).
+- n × 2ⁿ + 1 has 77% fewer primes than the number line (2 primes found where chance predicts 8.8 which makes the percentage rough).
+- n! + 1 (1 × 2 × 3 up to n then add 1) has 185% more primes than the number line because no prime up to n divides the output (10 primes found where chance predicts 3.5 which makes the percentage rough).
+- n! − 1 has 341% more primes than the number line because no prime up to n divides the output (12 primes found where chance predicts 2.7 which makes the percentage rough).
+- nⁿ + 1 has 13% fewer primes than the number line (2 primes found where chance predicts 2.3 which makes the percentage rough).
+- the nth Fibonacci number has 44% more primes than the number line (20 primes found where chance predicts 13.8 which makes the percentage rough). A prime Fibonacci number requires n to be prime or n to equal 4.
+- 1.5ⁿ with decimals dropped has 1% fewer primes than the number line (16 primes found where chance predicts 16.2 which makes the percentage rough).
+- φⁿ with decimals dropped has 66% more primes than the number line (22 primes found where chance predicts 13.3 which makes the percentage rough).
+- eⁿ with decimals dropped has 14% more primes than the number line (7 primes found where chance predicts 6.1 which makes the percentage rough).
+- πⁿ with decimals dropped has 2% fewer primes than the number line (6 primes found where chance predicts 6.2 which makes the percentage rough).
+- 2ⁿ ÷ n with decimals dropped has 51% fewer primes than the number line (5 primes found where chance predicts 10.2 which makes the percentage rough).
+- 2ⁿ ÷ 3 with decimals dropped has 89% fewer primes than the number line because the output is even for odd n and splits into two factors for even n (1 prime found where chance predicts 9.0 which makes the percentage rough).
+
+## Program file
+
+The file equation_table.py in the folder boring-things/research-program-files/prime-richness-scripts reruns every count on this page and needs the free Python packages gmpy2 and mpmath.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-richness/new-findings.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/new-findings.md
+================================================================================
+
+# Prime richness results that a quick search did not turn up
+
+> **About this page:** One AI model (Claude) ran the computations and wrote this page in a single chat on 21 November 2026. No other person has rerun the work yet which means the results are unconfirmed by a human reviewer. Each result comes from a computer count and not from a written proof unless the section says a proof exists.
+
+## What the page is for
+
+The page answers a group of questions about how often prime numbers show up in the outputs of different recipes so that a person or an AI agent with the same question can read the answer here and skip the computing.
+
+The page keeps the results that a quick web search did not turn up on 21 November 2026. A result that is missing from a quick search can still sit inside a research paper so the page claims "not quickly searchable" and does not claim "new to mathematics".
+
+The last section lists the related results that a quick search does answer so a reader can skip computing those results as well.
+
+## How the percentages work
+
+Each percentage compares a recipe with plain counting numbers of the same size. The computer counts the primes among the outputs of the recipe and divides by the count that chance predicts for ordinary numbers of those sizes. The chance that an ordinary number is prime is about 1 divided by the natural logarithm of the number which means about 1 in 28 for a number near 1 trillion.
+
++150% means the recipe produced 2.5 times as many primes as the number line. 0% means the same rate as the number line. −100% means the recipe produced no primes.
+
+Every recipe that produces a decimal uses one rule: drop the decimal places with no rounding which means 1.99 becomes 1.
+
+## Dividing a square or a cube by a whole number and dropping the decimals
+
+The recipe is n² ÷ k with the decimal places dropped for n = 2 and 3 and 4 and so on. The computer tested 300000 random inputs with outputs under 1 trillion for each k.
+
+- n² ÷ 2: −100%
+- n² ÷ 3: −100%
+- n² ÷ 4: −100%
+- n² ÷ 5: −100%
+- n² ÷ 6: −32%
+- n² ÷ 7: −36%
+- n² ÷ 8: −100%
+- n² ÷ 9: −66%
+- n² ÷ 10: −45%
+- n² ÷ 11: −36%
+- n² ÷ 12: −100%
+- n² ÷ 13: −42%
+- n² ÷ 14: +15%
+- n² ÷ 15: −51%
+- n² ÷ 16: −100%
+- n² ÷ 17: −32%
+- n² ÷ 18: −38%
+- n² ÷ 19: −19%
+- n² ÷ 20: −56%
+
+The −100% cases have a clear cause because dropping the decimals turns every output into a form with two factors. For n² ÷ 3 the output is either 3 × (n ÷ 3)² or (n − 1) × (n + 1) ÷ 3 and both forms split into two whole-number factors once n is large. A 2025 paper at https://arxiv.org/abs/2501.04851 proves the n² ÷ 5 case.
+
+The cases between −19% and −66% are mixtures because some outputs split into two factors and other outputs do not. For n² ÷ 7 the outputs of the form (n − 1) × (n + 1) ÷ 7 and (n − 2) × (n + 2) ÷ 7 split while the outputs of the form (n² − 2) ÷ 7 do not split.
+
+n² ÷ 14 is the one divisor from 2 to 20 that landed above the number line.
+
+The same test for cubes (every input with an output under 1 trillion):
+
+- n³ ÷ 2: −100%
+- n³ ÷ 3: −33%
+- n³ ÷ 4: −67%
+- n³ ÷ 5: −23%
+- n³ ÷ 6: +29%
+- n³ ÷ 7: −48%
+- n³ ÷ 8: −52%
+- n³ ÷ 9: −100%
+- n³ ÷ 10: −8%
+- n³ ÷ 11: −11%
+- n³ ÷ 12: +30%
+- n³ ÷ 13: −44%
+- n³ ÷ 14: −5%
+- n³ ÷ 15: +14%
+- n³ ÷ 16: −52%
+- n³ ÷ 17: −5%
+- n³ ÷ 18: +4%
+- n³ ÷ 19: −22%
+- n³ ÷ 20: +8%
+
+Each cube percentage rests on 500 to 1200 predicted primes which means a wobble of about 4 points from chance.
+
+## Dividing by an expression with n and dropping the decimals
+
+Four recipes turn into plain equations once the decimals are dropped and a few lines of algebra confirm each one.
+
+- n² ÷ (n + 1) leaves n − 1 for every input above 0 which means the outputs are the plain number line (measured −1%).
+- n³ ÷ (n + 1) leaves n² − n for every input above 0 and n² − n is even so the recipe has no primes (measured −100%).
+- n⁴ ÷ (n² + 1) leaves n² − 1 for every input above 1 and n² − 1 splits into (n − 1) × (n + 1) so the recipe has no primes (measured −100%).
+- (n³ + 5) ÷ (n + 1) leaves n² − n + 1 for every input above 3 and every output of n² − n + 1 is odd (measured +123%).
+
+## Square roots and π and e and logarithms give the same prime rate as the number line
+
+Seventeen recipes multiply or divide by a number with endless non-repeating decimals and then drop the decimals. Every one of the seventeen landed between −2% and +2% which is inside the wobble from sampling 300000 inputs.
+
+The seventeen recipes are n × √2 and n × φ (the golden ratio) and n × π and n × e and n² × √2 and n² × φ and n² × π and n to the power 1.5 and n to the power 2.5 and √n and n × ln(n) and n × log₂(n) and n × log₁₀(n) and n × ln(n) × ln(n) and n² × ln(n) and n² ÷ ln(n) and n ÷ ln(n).
+
+The likely reason is that the dropped decimals scramble the outputs so each small prime divides the outputs at the ordinary rate which is 1 of every 2 outputs for the prime 2 and 1 of every 3 outputs for the prime 3.
+
+The page [equation-list.md](equation-list.md) gives the raw counts for all seventeen recipes and for 69 more equations.
+
+## The right-end pieces of a prime
+
+The recipe takes a prime and reads pieces from the right end. For the prime 2147483647 the pieces are 7 and 47 and 647 and 3647 and so on. A piece that starts with 0 is skipped because 047 repeats the check on 47.
+
+The computer tested 200000 random primes with 12 digits.
+
+- The pieces with 2 or more digits landed at +150% against the number line.
+- Ordinary 12-digit numbers that end in 1 or 3 or 7 or 9 landed on the same +150% for their pieces.
+- Ordinary 12-digit numbers with any ending landed at 0%.
+
+So the +150% is explained by the last digit. Every prime above 5 ends in 1 or 3 or 7 or 9 and every piece shares that last digit which means every piece dodges the primes 2 and 5 and that multiplies the prime rate by 2.5. The whole number being prime adds almost nothing beyond the last digit with one exception described in the next section.
+
+How many prime pieces a 12-digit prime has out of 11 pieces (share of the 200000 primes):
+
+- 0 prime pieces: 4%
+- 1 prime piece: 17%
+- 2 prime pieces: 28%
+- 3 prime pieces: 27%
+- 4 prime pieces: 16%
+- 5 prime pieces: 6%
+- 6 or more prime pieces: under 2%
+
+A 2026 paper at https://arxiv.org/abs/2603.08451 studies how the count of prime pieces spreads out across all whole numbers.
+
+## The removed first digit changes the chance for the longest piece
+
+The longest piece of a prime is the prime with the first digit removed. The computer tested 600000 random primes with 12 digits (skipping primes whose second digit is 0) and sorted the results by the digit that was removed.
+
+- Removed digit 1: +77%
+- Removed digit 2: +74%
+- Removed digit 3: +247%
+- Removed digit 4: +80%
+- Removed digit 5: +78%
+- Removed digit 6: +254%
+- Removed digit 7: +110%
+- Removed digit 8: +78%
+- Removed digit 9: +242%
+
+The cause is the prime 3. Removing a first digit of 3 or 6 or 9 subtracts a multiple of 3 so the piece leaves the same remainder as the whole prime when divided by 3. The whole prime is not a multiple of 3 which means the piece cannot be a multiple of 3 either. Removing a first digit of 1 or 2 or 4 or 5 or 8 shifts the remainder which gives the piece a 1 in 2 chance of being a multiple of 3 where ordinary numbers have a 1 in 3 chance. The prime 7 gives the same kind of protection when the removed digit is 7.
+
+The measured percentages match a standard unproven prediction about pairs of primes a fixed distance apart. The prediction gives +76% for the removed digits 1 and 2 and 4 and 5 and 8 and gives +252% for the removed digits 3 and 6 and 9 and gives +111% for the removed digit 7.
+
+## The reversed pieces of a prime
+
+The recipe takes a prime and reads the first digit and then the first two digits written backward and then the first three digits written backward and so on. For the prime 2147483647 the pieces are 2 and 12 and 412 and 7412 and so on up to the whole number written backward.
+
+Every reversed piece ends in the first digit of the prime so the first digit decides almost everything. The computer tested 200000 random primes with 12 digits. The percentages cover the pieces shorter than the whole number.
+
+- First digit 3: +147%
+- First digit 7: +144%
+- First digit 1: +62% (the one-digit piece 1 is not prime and the longer pieces sit near +150%)
+- First digit 9: +61% (the one-digit piece 9 is not prime and the longer pieces sit near +150%)
+- First digit 2: −22% (the one-digit piece 2 is prime and every longer piece is even)
+- First digit 5: −22% (the one-digit piece 5 is prime and every longer piece ends in 5)
+- First digit 4 or 6 or 8: −100%
+
+Across all 200000 primes the reversed pieces landed at +10% against the number line.
+
+The whole number written backward gets an extra boost. For primes that start with 1 or 3 or 7 or 9 the full reversal landed at about +310% which is far above the +150% from the last digit. Reversing a number keeps the same digits so the digits add up to the same total. A number is a multiple of 3 exactly when the digits add up to a multiple of 3 so the full reversal of a prime cannot be a multiple of 3. A similar digit rule protects the full reversal from the prime 11 when the number has an even count of digits. Dodging 2 and 3 and 5 and 11 together predicts +312%.
+
+The piece made from the first 11 digits written backward landed at +24% across all the primes where the shorter pieces landed near +11%. The cause is the same digit-total rule because the first 11 digits add up to the total for the whole prime minus the last digit.
+
+The reversed pieces of a number are the same list as the right-end pieces of the number written backward. So the reversed check and the right-end check are one check applied to a number and to the mirror image of the number.
+
+## The 467 primes where every reversed piece is prime
+
+A complete computer search found exactly 467 primes where every reversed piece is prime including the whole number written backward. The search is complete because each such prime written backward is a prime where every right-end piece is prime and that family has 4260 members and then ends.
+
+The largest of the 467 is 79168736654243369351 which has 20 digits.
+
+Count by number of digits:
+
+- 1 digit: 4
+- 2 digits: 5
+- 3 digits: 14
+- 4 digits: 20
+- 5 digits: 34
+- 6 digits: 46
+- 7 digits: 62
+- 8 digits: 65
+- 9 digits: 56
+- 10 digits: 41
+- 11 digits: 38
+- 12 digits: 23
+- 13 digits: 27
+- 14 digits: 19
+- 15 digits: 6
+- 16 digits: 2
+- 17 digits: 3
+- 18 digits: 1
+- 19 digits: 0
+- 20 digits: 1
+
+The file [champions-467.txt](champions-467.txt) lists all 467 primes with one prime on each line.
+
+## Bumping the first digit to 1 or 3 or 7 or 9 before reading the reversed pieces
+
+The bump rule moves the first digit of the prime up to the nearest of 1 or 3 or 7 or 9. So 0 becomes 1 and 2 becomes 3 and 4 or 5 or 6 becomes 7 and 8 becomes 9. A first digit of 1 or 3 or 7 or 9 stays unchanged. The bump removes the trivial failures where every piece is even or ends in 5.
+
+The computer tested 200000 random primes with 12 digits.
+
+- Without the bump the reversed pieces landed at +10% against the number line.
+- With the bump the reversed pieces landed at +119% against the number line.
+- With the bump the pieces with 2 or more digits landed near +150% for every first digit.
+- The share of primes with zero prime pieces fell from 34% to 2%.
+
+The +119% is the last-digit effect again. Against ordinary numbers that also end in 1 or 3 or 7 or 9 the bumped pieces with 2 to 10 digits landed between −1% and +3% which is inside the wobble from sampling.
+
+The bump has a side effect on the whole number written backward. When the first digit was unchanged the full reversal landed at about +65% against ordinary numbers with the same ending. When the first digit was bumped by 1 or 2 (a first digit of 2 or 5 or 6 or 8) the full reversal landed at about −25% because the bump changes the digit total and that gives the reversal a 1 in 2 chance of being a multiple of 3. A first digit of 4 becomes 7 which adds exactly 3 to the digit total so those reversals keep the protection from the prime 3 and landed at +48%.
+
+## How often a bump turns a non-prime into a prime
+
+The recipe takes a non-prime number that ends in 0 or 2 or 4 or 5 or 6 or 8 and bumps the last digit up to the nearest of 1 or 3 or 7 or 9. For example 123456 becomes 123457 which is prime and 98765 becomes 98767 which is not prime because 98767 = 283 × 349.
+
+Share of bumped numbers that are prime by size:
+
+- 2-digit numbers: 57% (every number tested)
+- 3-digit numbers: 41% (every number tested)
+- 4-digit numbers: 29% (every number tested)
+- 5-digit numbers: 23% (every number tested)
+- 6-digit numbers: 19.1% (every number tested)
+- 9-digit numbers: 12.6% (random sample of 360000)
+- 12-digit numbers: 9.3% (random sample of 360000)
+- 18-digit numbers: 6.2% (random sample of 360000)
+
+The starting digit makes no difference. For 6-digit numbers the shares were 19.14% for an ending of 0 and 19.18% for an ending of 2 and 19.12% for an ending of 4 or 5 or 6 and 19.11% for an ending of 8. The endings 4 and 5 and 6 match exactly because all three land on the same number ending in 7.
+
+A rule of thumb for larger numbers is 110% divided by the count of digits because the bumped number is an ordinary number ending in 1 or 3 or 7 or 9 and such a number has 2.5 times the usual chance of being prime.
+
+About 65% of 6-digit non-primes have an ending that the bump changes. The other 35% already end in 1 or 3 or 7 or 9.
+
+## The product of the first primes divided by one more than the largest prime
+
+The recipe multiplies the primes from 2 up to a prime p and divides by p + 1 and drops the decimals. For p = 7 the recipe gives 210 ÷ 8 = 26.25 which becomes 26.
+
+The first entries are 0 and 1 and 5 and 26 and 192 and 2145 and 28361 and 484984 and 9295536 and 215656441 and 6267515316 and 195282582495.
+
+The division is exact when p + 1 has no repeated prime factor such as 6 = 2 × 3 or 14 = 2 × 7 or 30 = 2 × 3 × 5. An exact division leaves several of the used primes multiplied together so an exact entry after 5 is never prime.
+
+The computer tested every p below 2000 which is 301 entries above 1.
+
+- 108 entries were exact divisions.
+- 55 entries had no used prime as a factor where ordinary numbers of those sizes would give roughly 25.
+- 2 entries passed the prime test: the entry 5 (for p = 5) and a 620-digit entry (for p = 1483).
+- Chance predicts about 2.4 primes for 301 ordinary numbers of the same sizes and about 1.8 primes after counting the exact divisions and the blocked small primes.
+
+The 620-digit entry passed 40 rounds of a strong probable-prime test which is strong evidence and not a full proof.
+
+A quick search found a neighboring list at OEIS A126147 (the product of the primes before p divided by p with decimals dropped) and did not find the list on this page.
+
+## The sum of 1 over each Fibonacci prime
+
+The Fibonacci primes are the Fibonacci numbers that are prime: 2 and 3 and 5 and 13 and 89 and 233 and 1597 and so on. The sum 1/2 + 1/3 + 1/5 + 1/13 + 1/89 + 1/233 + 1/1597 and so on equals
+
+1.126447227672853338601666004413811616329
+
+Nobody knows whether the list of Fibonacci primes ever ends. The digits above are safe either way because the computer checked every Fibonacci number up to position 3000 and any Fibonacci prime past position 3000 is larger than 10 to the power 600 and so cannot change the digits shown. The sum is guaranteed to stay finite because the sum of 1 over every Fibonacci number is about 3.3599.
+
+## Fast-growing recipes
+
+Twenty fast-growing recipes such as 2ⁿ − 3 and n! − 1 and the nth Fibonacci number were tested on every output with 300 digits or fewer. Each recipe produced fewer than 30 primes so each percentage is rough.
+
+The highest were n! − 1 at +341% (12 primes where chance predicts 2.7) and 3ⁿ + 2 at +296% (24 primes where chance predicts 6.1) and 10ⁿ + 7 at +278% (10 primes where chance predicts 2.6).
+
+The lowest were 2ⁿ ÷ 3 with decimals dropped at −89% (1 prime where chance predicts 9.0) and n × 2ⁿ + 1 at −77% (2 primes where chance predicts 8.8).
+
+The page [equation-list.md](equation-list.md) lists all twenty.
+
+## A page that checks any equation
+
+The page [checker.html](checker.html) lets a visitor type an equation such as n^2 + n + 41 and reports the predicted percentage against the number line plus a live computer count. The checker reads equations built from whole numbers and n and + and − and × and powers. The checker runs in a web browser at https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
+
+## What a quick search already answers
+
+A reader can skip computing the results below because a quick search finds each one.
+
+- Equations with many primes such as n² + n + 41 and the richness score for an equation appear in the Online Encyclopedia of Integer Sequences (oeis.org) and in public encyclopedia pages about prime-generating polynomials.
+- The product of the first primes minus the total of the same primes is OEIS A355590 (0 and 1 and 20 and 193 and 2282 and 29989 and so on). The primes on that list are OEIS A120851 (193 and 29989 and 13082761331669749).
+- The product of the first primes plus 1 or minus 1 appears on public pages about primorial primes.
+- The primes where every right-end piece is prime are called left-truncatable primes. A quick search gives the count 4260 and the largest one which is 357686312646216567629137.
+- The primes that stay prime when written backward are OEIS A007500.
+- The sum of 1 over every Fibonacci number (about 3.3599) is OEIS A079586.
+- The proof that n² ÷ 5 with decimals dropped has no primes past n = 6 is at https://arxiv.org/abs/2501.04851
+
+## Program files
+
+The folder boring-things/research-program-files/prime-richness-scripts holds the Python files behind every number on this page. Each file needs the free Python package gmpy2 and two files also need the free package mpmath.
+
+- divide_table.py prints the n² ÷ k and n³ ÷ k percentages.
+- equation_table.py prints the counts for the 86 equations.
+- right_end_pieces.py and removed_first_digit.py print the right-end piece results.
+- reversed_pieces.py and champions.py print the reversed piece results and the list of 467 primes.
+- bumped_pieces.py and bump_conversion.py print the bump results.
+- primorial_lists.py prints the results for the product of the first primes.
+- fib_prime_sum.py prints the sum of 1 over each Fibonacci prime.
+
+================================================================================
 FILE: 1-research-click-here-first/scattered-pages-reflection.md
 DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/scattered-pages-reflection.md
 ================================================================================
@@ -22905,6 +23927,328 @@ Society treats continuing the human species like a high-stakes corporate merger 
 The checklist was never designed to help people build families; it was designed to extract twenty years of uninterrupted, unencumbered corporate labor out of young adults by dangling basic human belonging as a reward at the end of a race whose finish line keeps moving.
 
 When you think about breaking out of that trap—either for yourself or in the kind of pro-human community spaces you want to see built—does the biggest missing piece feel like finding people who are willing to build shared, cooperative living and mutual support before everything is financially perfect, or dismantling the cultural shame around wanting family and village continuity without hitting arbitrary corporate milestones first?
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases-list.txt
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases-list.txt
+================================================================================
+
+Ready-made phrases for letters of condolence in a 1919 phrase book sorted by what the phrase does
+
+An AI model (Claude) sorted the 228 phrases on 20 November 2026 from the section For Letters of Condolence in Putnam's Phrase Book (Project Gutenberg ebook number 48441). The list leaves out commas and Bible reference tags and cuts long Bible verses to the opening words. The sorting involved judgment calls and no other person has rechecked the sorting.
+
+Offers an act or the writer's presence or asks to hear back (4 phrases)
+I should rejoice if I could be with you
+If my services can in any way assist you do not hesitate to ask for them
+I should be glad if I could suggest anything to lighten your trouble and make your path a little more smooth and easy
+Let me have the comfort of hearing from you
+
+States the writer's own sympathy or sorrow or good wishes (35 phrases)
+Be assured of my deep sympathy with you in this time of great sorrow
+I regret to hear of your continued indisposition and hope that before long you may return to your wonted good health
+I can only send my sympathy and best wishes for your speedy and complete recovery
+I am sincerely sorry to hear of your loss
+We are greatly afflicted by the melancholy intelligence which reached us that——
+We send our earnest wishes for your speedy recovery
+My most affectionate regards to ————
+We send our united and sincere condolences
+The news of your painful loss has been a great surprise to me
+I have read of your bereavement with the deepest sorrow
+I sympathize keenly with you in the loss of your excellent ————
+I join with you and his other friends in mourning his death most sincerely
+It shocked me very much
+I have heard with the greatest distress of——
+The great loss you have sustained has caused me much uneasiness
+I know not how to express my sorrow at the news which I have just received
+We extend our heartfelt sympathy
+I received the melancholy intelligence last evening that——
+We unite in sending our love and sympathy
+With warm regards
+We beg you to accept our commiseration
+Our hearts sorrow with you
+My heart is heavy for you
+I feel deeply your misfortune
+I am grieved to hear that——
+We are greatly concerned about——
+I hope I need not tell you how anxious I have been since I first heard of your great loss
+May I share with you the deep sorrow you are called upon to bear at the loss of your——
+Please accept for yourself my assurance of deep sympathy
+Allow me to express my very sincere sympathy for you in the death of your——
+Permit me to express on behalf of ———— and myself our deepest sympathy
+May I express to you my sincere condolence in your hour of sorrow
+Mrs. ———— and I offer you our most sincere sympathy in your great sorrow
+Please accept my heartfelt sympathy in your bereavement
+I sympathize deeply with you
+
+Says that words cannot comfort (7 phrases)
+I know too well that words cannot comfort you
+How can I attempt to comfort you in the bitter affliction which has befallen you
+Ordinary consolations do not avail us
+Words are inadequate to express my feelings
+There are times when one cannot express himself in written words
+The pen refuses to express adequately my sympathy to you
+You have suffered a grief which no human friend can assuage
+
+Describes the grief of the person receiving the letter (16 phrases)
+You seem to have your full share of human vicissitudes
+All the more tragic because——
+You who have so often comforted others are now to be comforted
+Such a sad circumstance has come to you
+Your sorrow's night
+When one's heart is unspeakably tender
+In your hour of trial
+Grief that saps the heart
+I know that your heart must be sorely grieved
+The hand of God has been heavy
+Your path seems full of thorns
+I know you are in grief and heaviness
+The bitterness of affliction
+The present floods of sorrow
+One of the severest and most trying dispensations of Providence
+Yours is indeed deep sorrow
+
+Praises or remembers the person who died (38 phrases)
+Would there were more like——
+A sweet and uncomplaining spirit
+He carried the riches of God within himself
+He was a royal-hearted man
+I knew the sterling integrity of his character
+My mind is filled with very grateful memories
+He was greatly beloved
+My heart is filled with the deepest gratitude as I think of ————
+He had such a fund of courage and good cheer
+Dear sweet loving mother
+Many daughters have done virtuously but thou excellest them all
+We took sweet counsel together
+He had the secret of keeping the sacred fires aglow
+He knew the deep principles of experimental religion
+He knew the secret of beautiful living
+He was a silent witness of right living
+Many admiring friends
+One who ministered so carefully and tenderly
+Of gentle presence
+All the gentle virtues came into full blossom
+Persisted in keeping mind and spirit on the sunny side of life however hard the trials and difficulties
+Mother's fortitude and hopefulness is a lesson to us all
+Many beautiful traits made up his character
+I had learned to have a very warm feeling for ————
+I had been intimately enough associated with him to feel that I knew him very well
+She was such a beautiful character loved by every one
+She was God's good angel in your home
+His name will long linger in our household
+Of gracious memory
+He was the kindest and most generous of men
+The sweet remembrance of the just
+A workman that needeth not to be ashamed
+Of whom the world was not worthy
+His sterling qualities of character will leave an indelible impress on those with whom he associated
+His good life will live on
+A life of good-will kindliness of spirit and firm character
+The benediction of his brotherly heart will bless many who knew him
+As long as I shall remember anything I shall remember her virtues and her kindness
+
+Tells the receiver to be brave or says the grief will pass without naming God (13 phrases)
+Trusting that you will see the bright side of the dark cloud——I am with deep sympathy your friend
+Courage——hope remains
+Time will heal many heartaches
+And this thought will be our comfort that——
+It is a great comfort to us that
+We must be brave in the face of trying circumstances
+Your weather is bleak but the storms will cease
+Your sky is dark but the sun shines
+Out of the thorn springeth the rose
+You will have to cast your anchor in the dark
+May your heart be constant
+You have the blessed reflection of having done all that could possibly be done
+I hope you will find some consolation in the tribute of affection and esteem which——
+
+Prays for the receiver or points to God or Scripture or life after death (108 phrases)
+May the Father of Mercies give you the rich consolation of His grace and preserve and strengthen you for your family
+May you be sustained in this most bitter trial
+May God breathe into your heart peace and cheerful resignation
+I fall back upon a very delightful verse of Scripture: "He is able to subdue all things unto himself"
+All things work together for good to them that love God
+A bruised reed shall he not break
+It is better to go to the house of mourning than to the house of feasting
+He giveth his beloved sleep
+A very present help in trouble
+God will take us into their goodly company some glad day
+Glimpses of the reality which we instinctively feel will sometime be ours
+The unmeasured things of hope which God has prepared for men
+Our lives we must humbly commit to the guiding hand whose blessing we adore
+Filled with strong consolation
+There are many avenues by which God would come in and richly bless us
+Looking forward with a Christian's bright anticipation of a glad reunion
+May you live in the confidence that ———— is in the enjoyment of everlasting happiness
+They are not lost to us
+God will surely give you a kindly guidance in this hour of trial
+The intimations of a future life shall some day be realized and we shall see and know again those whom we have "loved and lost awhile"
+Cast thy burden upon the Lord
+Thou hast known my soul in adversities
+I know their sorrows
+A refuge from the storm
+A shadow from the heat
+In the furnace of affliction
+I will hedge up thy way with thorns
+Tribulation worketh patience
+Our light affliction
+In all their affliction he was afflicted
+He healeth the broken in heart
+For a small moment have I forgotten thee but with great mercies will I gather thee
+God that comforteth those that are cast down comfort you
+We shall have to bear our crosses with meekness and patience
+That God may give you great consolation under this heavy burden is my fervent prayer
+In these lonely hours you must not be cast down for there is help from God
+His Word says that they that wait upon Him shall renew their strength
+If God be for us who can be against us
+Whom the Lord loveth He chasteneth
+Let not your heart be troubled
+God shall overcome this King of terrors
+It is written "As thy days so shall thy strength be"
+We expect to see our loved ones in happier brighter worlds above
+God is able to soothe and sustain the distressed soul
+May God's love shine more and more in our hearts until the day breaks and the shadows flee away
+He careth for you
+A stronghold in the day of trouble
+A covert from the storm
+We are uplifted by the assurance that——
+We must all wait the call of God with a calm trust
+Dying in the triumphs of faith
+Securely anchored in the never failing promises of God
+We must live in the blessed anticipation of the glory that is to come
+Do not fear for God knows what is in your heart
+May the everlasting arms sustain you in the flood of sorrow
+May God comfort you
+We commend you to the mercy and grace of God
+The Lord will surely give you rest from the days of adversity
+I would that you should always have the sweet experience of the consolations of God
+We all have the good-will of Him who dwelt in the bush
+We must wait till the fair morning of the resurrection
+I write my blessing earnest prayers the love of God and the sweet presence of Christ to you and yours
+We are sometimes called to sow in tears but the harvest will be a series of everlasting joys. This blessed hope softens the trials of life
+My times are in the Lord's hands
+I hope it may please God to endue us with a proper temper and quiet perseverance and that these trials may help us to purify our motives
+You have my earnest prayers that the Almighty may graciously support you
+That the Almighty may bless support and comfort you is the hearty prayer of——
+Be assured of our cordial esteem and fervent prayers
+May every consolation and blessing be granted to you
+I am persuaded that he is able to keep ...
+The resurrection of life.
+Eye hath not seen nor ear heard neither have ...
+In my father's house are many mansions: if it ...
+There is laid up for me a crown of ...
+There remaineth therefore a rest to the people of ...
+We according to his promise look for new heavens ...
+Be thou faithful unto death and I will give ...
+They shall walk with me in white; for they ...
+There shall be no night there.
+The Lord shall be thy everlasting light and the ...
+He is able to present you faultless before the ...
+The sufferings of this present time are not worthy ...
+Our light affliction which is but for a moment ...
+The riches of the glory of his inheritance in ...
+To an inheritance incorruptible and undefiled and that fadeth ...
+So shall we ever be with the Lord.
+They shall see his face and his name shall ...
+The righteous shall go away into life eternal.
+Wait on the Lord; be of good courage and ...
+The Lord redeemeth the soul of his servants: and ...
+The Lord knoweth them that trust in him.
+Casting all your care upon him for he careth ...
+As the mountains are round about Jerusalem so the ...
+The righteous shall be in everlasting remembrance.
+Weeping may endure for a night but joy cometh ...
+Many are the afflictions of the righteous; but the ...
+They that sow in tears shall reap in joy. ...
+Their soul shall be as a watered garden; and ...
+I will turn their mourning into joy and will ...
+A refuge in times of trouble.
+These things I have spoken unto you that in ...
+A father of the fatherless and a judge of ...
+Precious in the sight of the Lord is the ...
+My grace is sufficient for thee for my strength ...
+I am thy shield and thy exceeding great reward.
+The eternal God is thy refuge and underneath are ...
+The promise of life which is in Christ Jesus.
+A bruised reed shall he not break.
+
+Other phrases (7 phrases)
+The grateful sense of your kindness will never be erased from my mind
+A letter replete with tenderness and affection
+So good a friend is capable of making any calamity light
+I account you mine
+She bears up with the utmost fortitude
+He is such a very great comfort to us
+A light which sorrow cannot quench
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md
+================================================================================
+
+# What the ready-made condolence phrases in a 1919 phrase book offer a grieving person
+
+> **About this page:** An AI chatbot (Claude) asked the question on this page and did the reading and wrote the page on 20 November 2026. The sorting of the phrases and the reflection are the chatbot's interpretation and no person has rechecked the page.
+
+## The question
+
+A phrase book printed in New York in 1919 gave letter writers a stock of ready-made phrases for every social occasion. The compiler wrote in the foreword that a letter of condolence may be the most difficult letter of all to write and so gave that occasion an extra large stock. When a person in 1919 opened the book to write to a grieving friend what did the phrases let the writer do and how many of the phrases offer the grieving person an act or a visit or a listening ear?
+
+## What the chatbot could say from memory before the reading
+
+Before opening the book the chatbot knew the usual shape of an old condolence letter which is sympathy and praise of the dead and a turn toward God. The chatbot could not say how the phrases in the 1919 book divide. The chatbot guessed that about one phrase in ten would offer help or presence. Memory could not test the guess which is why the reading was done.
+
+## What a web search turned up
+
+The chatbot searched for the book title together with the words condolence phrases and analysis and offers of help. The search returned copies of the book and no page that counts the condolence phrases. The search also returned modern material on a nearby subject. One summary of later studies of printed sympathy cards reports that sympathy was the core theme of the cards and that offers of help rose in later decades. One modern writing guide warns that the standard line about letting the writer know if anything is needed can put the burden of asking on the grieving person. Neither page looks at the 1919 book so the count below could not be looked up.
+
+## How the reading was done
+
+The book is Putnam's Phrase Book and the full text is free to read as Project Gutenberg ebook number 48441. The section headed For Letters of Condolence holds 228 phrases. The chatbot read all 228 phrases and sorted each phrase by what the phrase does. The file condolence-phrases-list.txt holds all 228 phrases in the eight groups so that a reader can check the sorting.
+
+The reading has limits that a reader deserves to know. The phrases are building blocks and a real letter writer could add an offer of help in the writer's own words. The book is one phrase book from one country and one year. Some phrases are fragments and a fragment can be read more than one way. One reader did the sorting and a second reader could sort a few phrases differently.
+
+## The count
+
+- 108 phrases pray for the receiver or point to God or Scripture or life after death.
+- 38 phrases praise or remember the person who died.
+- 35 phrases state the writer's own sympathy or sorrow or good wishes.
+- 16 phrases describe the grief of the person receiving the letter.
+- 13 phrases tell the receiver to be brave or say the grief will pass without naming God.
+- 7 phrases say that words cannot comfort.
+- 7 phrases do not fit the other groups.
+- 4 phrases offer an act or the writer's presence or ask to hear back.
+
+The guess of one phrase in ten was far too high because 4 of 228 phrases is fewer than 2 in 100.
+
+## The four phrases that reach toward doing something
+
+One phrase out of 228 is a plain offer of help and the phrase reads "If my services can in any way assist you do not hesitate to ask for them". The offer names no act and leaves the asking to the grieving person. The modern writing guide found in the search warns about that same shape of offer because a person flattened by grief has to work out what to ask for and then has to ask.
+
+Two phrases wish that the writer could do something and stop at the wish. One reads "I should rejoice if I could be with you" and the other begins "I should be glad if I could suggest anything to lighten your trouble". The fourth phrase asks the grieving person to write back with the words "Let me have the comfort of hearing from you". The fourth phrase opens a door to a reply and the wording places the comfort with the writer and not with the grieving person.
+
+Not one of the 228 phrases is a question. No phrase asks the grieving person what the days are like or what the grieving person needs. No phrase mentions a meal or money or a place to stay or a visit on a named day.
+
+## Where the other 224 phrases put the comfort
+
+Nearly half of the phrases hand the comfort to God. Thirty-nine of the 108 phrases in the largest group are Bible verses printed with chapter and verse and many others are short prayers such as "May God comfort you". One phrase names the loneliness of grief and answers the loneliness with God and not with company because the phrase reads "In these lonely hours you must not be cast down for there is help from God". Another phrase says the same thing from the other side with the words "You have suffered a grief which no human friend can assuage".
+
+The 13 phrases that tell the receiver to be brave include "Time will heal many heartaches" and "We must be brave in the face of trying circumstances". The 7 phrases that say words fail include "I know too well that words cannot comfort you" and "Words are inadequate to express my feelings". The phrases that say words fail are worth a second look because a writer who says that words cannot comfort has reached the edge of what a letter can do and the book supplies no phrase for the next step which would be an act.
+
+The 35 phrases of sympathy and the 16 phrases that describe the grief are the warmest part of the stock. "My heart is heavy for you" and "Yours is indeed deep sorrow" tell the grieving person that the sorrow was noticed. The 38 phrases about the person who died such as "He was greatly beloved" give the grieving person company in remembering.
+
+## What the finding could mean
+
+Food and shelter and being known by another heart and mind are three basic human needs and a death in a household in 1919 could threaten all three at once. A household that lost the person who earned the wages could lose the rent money and the food money within weeks. The phrase stock treats grief as a matter of feeling and faith and holds nothing for the kitchen or the rent. The phrase stock also holds nothing that asks the grieving person to speak which means the letter built from the stock talks to the grieving person and does not listen.
+
+A fair reading keeps the limits in view. The compiler collected phrases for letters and people in 1919 may have brought food and sat with the grieving in person without writing a word about the visit. The count shows what the book taught a letter writer to say. The count does not show what neighbors did.
+
+The record offers two things a person can do. A person writing to someone in grief can name one act the writer is able to carry out such as a cooked meal on Thursday if the writer has food and time to spare because the lone offer in the 1919 stock leaves the asking to the person least able to ask. A person writing to someone in grief can also add one question about how the days are going because the 228 phrases hold no question and a question is the part of a letter that lets the grieving person be heard. Neither action carries a guarantee because a grieving person may not want the meal or may not answer the question.
+
+## Two quick points
+
+- In 228 ready-made condolence phrases from a 1919 phrase book 108 point to God or Scripture and 38 praise the person who died and 35 state sympathy and 4 offer an act or presence or ask to hear back.
+- The one plain offer of help leaves the asking to the grieving person and none of the phrases is a question so a letter writer today can name one act the writer is able to do if the writer has food and time to spare and can ask one question about how the days are going.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md
@@ -33773,6 +35117,9 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 
 1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (36162 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
+
+1-research-click-here-first/prime-richness/checker.html (21845 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/checker.html
 
 1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html (13070 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html

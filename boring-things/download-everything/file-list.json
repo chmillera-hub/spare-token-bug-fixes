@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-20",
- "file_count": 1244,
- "total_bytes": 95095014,
+ "built_on": "2026-11-21",
+ "file_count": 1262,
+ "total_bytes": 95232103,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 7055,
+   "bytes": 7669,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -692,6 +692,51 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md"
   },
   {
+   "path": "1-research-click-here-first/prime-richness/README.md",
+   "title": "Prime richness",
+   "bytes": 1545,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/champions-467.txt",
+   "title": "champions-467.txt",
+   "bytes": 4439,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/champions-467.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/champions-467.txt"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/checker.html",
+   "title": "checker.html",
+   "bytes": 21845,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/checker.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/checker.html"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/equation-list.md",
+   "title": "Prime counts for 86 equations compared with the number line",
+   "bytes": 21551,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/equation-list.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/equation-list.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/new-findings.md",
+   "title": "Prime richness results that a quick search did not turn up",
+   "bytes": 18766,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/new-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/new-findings.md"
+  },
+  {
    "path": "1-research-click-here-first/scattered-pages-reflection.md",
    "title": "What happens to a person's story when each listener holds a different pile of pages?",
    "bytes": 3134,
@@ -1320,6 +1365,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/checklist-before-family.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases-list.txt",
+   "title": "condolence-phrases-list.txt",
+   "bytes": 12728,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases-list.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases-list.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md",
+   "title": "What the ready-made condolence phrases in a 1919 phrase book offer a grieving person",
+   "bytes": 7975,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md",
@@ -2935,7 +2998,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 9675,
+   "bytes": 10054,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -9766,7 +9829,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 9169,
+   "bytes": 9970,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10023,6 +10086,105 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/page-splitting-scripts/split_test.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/page-splitting-scripts/split_test.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/bump_conversion.py",
+   "title": "bump_conversion.py",
+   "bytes": 1338,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/bump_conversion.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/bump_conversion.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/bumped_pieces.py",
+   "title": "bumped_pieces.py",
+   "bytes": 2119,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/bumped_pieces.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/bumped_pieces.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/champions.py",
+   "title": "champions.py",
+   "bytes": 869,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/champions.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/champions.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/divide_table.py",
+   "title": "divide_table.py",
+   "bytes": 748,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/divide_table.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/divide_table.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/equation_table.py",
+   "title": "equation_table.py",
+   "bytes": 9187,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/equation_table.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/equation_table.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/equation_table_results.json",
+   "title": "equation_table_results.json",
+   "bytes": 25227,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/equation_table_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/equation_table_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py",
+   "title": "fib_prime_sum.py",
+   "bytes": 511,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/primorial_lists.py",
+   "title": "primorial_lists.py",
+   "bytes": 1519,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/primorial_lists.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/primorial_lists.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/removed_first_digit.py",
+   "title": "removed_first_digit.py",
+   "bytes": 440,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/removed_first_digit.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/removed_first_digit.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/reversed_pieces.py",
+   "title": "reversed_pieces.py",
+   "bytes": 2172,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/reversed_pieces.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/reversed_pieces.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/right_end_pieces.py",
+   "title": "right_end_pieces.py",
+   "bytes": 2316,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/right_end_pieces.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/right_end_pieces.py"
   },
   {
    "path": "boring-things/research-program-files/social-media-vibes-scripts/count-sentences.py",

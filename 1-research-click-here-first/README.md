@@ -22,6 +22,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [zeta-sums](zeta-sums) holds computer search results about the numbers zeta(3) and zeta(5) and zeta(7) and zeta(9) which include two formulas that write zeta(3) purely as sums over powers of the golden ratio and a formula for zeta(5) with no extra pieces in a base near 0.7549 and formulas with no extra pieces for zeta(7) through zeta(15) in other bases and four long formulas with every whole-number coefficient written out.
+- [prime-richness](prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line (86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime) plus a page that checks any typed equation.
 
 ## Single pages (each page is its own project)
 
@@ -34,6 +35,8 @@ Every item in this folder is written for a person to read and the items are grou
 ## Something to play with
 
 A phone game named Squad Rush runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
+
+A prime richness checker runs in a web browser at this address and reports how many primes the outputs of a typed equation contain compared with the number line: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
 
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html
 
