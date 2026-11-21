@@ -1,0 +1,49 @@
+Scenes in the stories of the World English Bible where a person or a group is worn out or faint or asleep from exhaustion sorted by what the people nearby do
+
+An AI model (Claude) chose and sorted the 33 scenes on 20 November 2026. Each line gives one verse that marks the scene and the response often sits in the verses around that verse. The sorting involved judgment calls and no other person has rechecked the sorting.
+
+The worn-out person is given food or drink or a place to rest or has the load shared or is strengthened (15 scenes)
+Exodus 17:12
+Exodus 18:18
+Numbers 11:14
+Judges 15:18
+1 Samuel 28:20
+1 Samuel 30:10
+1 Samuel 30:11
+2 Samuel 16:2
+2 Samuel 17:29
+2 Samuel 21:15
+1 Kings 19:5
+Daniel 10:8
+Matthew 15:32
+Mark 6:31
+John 21:9
+
+The worn-out or sleeping person is attacked or tricked or bargained with or a plan is made to do so (6 scenes)
+Genesis 25:29
+Deuteronomy 25:18
+Judges 4:21
+Judges 16:19
+2 Samuel 4:5
+2 Samuel 17:2
+
+The worn-out or sleeping person is woken with a complaint or met with a question (4 scenes)
+Jonah 1:5
+Mark 4:38
+Mark 14:37
+John 4:6
+
+Food is refused to worn-out people or kept from worn-out people (3 scenes)
+Judges 8:5
+Judges 8:8
+1 Samuel 14:28
+
+A sleeping person is found by an opponent and left unharmed (1 scenes)
+1 Samuel 26:7
+
+Something else happens (4 scenes)
+Jonah 4:8
+Luke 9:32
+Acts 12:6
+Acts 20:9
+
