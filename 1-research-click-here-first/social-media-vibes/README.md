@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 52 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 53 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -58,6 +58,7 @@ The 52 pages in this list are written reflections that a visitor can read in a f
 - [Help behind a cashier: when asking for help means buying a service](deep-dives/help-behind-cashier.md) holds two reflections on the advice to try therapy or see a doctor given to a person who says "I am struggling" and explains that the advice costs the adviser nothing while the person can end up owing thousands and losing a home and that the person was often asking for a human being who would listen for an hour and still be around next week.
 - [Protecting the young: from asking who is to blame to building safer surroundings](deep-dives/protecting-the-young.md) holds four reflections on protecting young people from harm and explains that the question of whether God is to blame can be argued forever without anyone becoming safer while studying anonymized cases shows three conditions that let harm grow which are money and secrecy and an adult left alone with someone vulnerable and that securing food and shelter for everyone leaves more witnesses free to speak.
 - [A cup of water left on the wall of a covered well](deep-dives/cup-on-the-well.md) uses a village well with a paid cover as a picture of knowledge that already exists and cannot be reached by a person with no money and follows one villager who leaves a cup of stream water on the wall with a truthful sign and ends with two quick points.
+- [Who asked Jesus how his own heart was](deep-dives/who-asked-jesus.md) asks whether anyone in the four Gospel accounts asks Jesus how his own heart is doing and reports a reading of 127 questions put to Jesus in the World English Bible that found none about his feelings and lists seven moments where the question was close and ends with two things a person can do.
 
 ## Thread counts and data
 
