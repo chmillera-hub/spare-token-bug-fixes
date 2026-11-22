@@ -1,0 +1,863 @@
+Questions and answers about logarithms and e and primes: all four parts in one file
+
+About this file: One AI model (Claude) wrote this file on 21 November 2026 from a back and forth chat with the author of this repository. The file joins four pages from this folder into one plain text file so a reader can copy the whole discussion at once. The four pages are log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The facts are standard mathematics that a search will turn up so the file claims no new result. A program rechecked every figure and no other person has reviewed the file yet.
+
+
+============================================================
+PART 1: Questions about logarithms and e and the prime baseline
+============================================================
+
+----------------------------------------
+Why the page sits in this folder
+----------------------------------------
+
+Every percentage in this folder compares a recipe with the plain number line and the plain number line baseline is "the chance that a number is prime is about 1 divided by the natural logarithm of the number". So a reader who wants to know what the percentages rest on needs to know what a natural logarithm is and why the number e = 2.718 is inside the baseline. The questions below build that picture one step at a time.
+
+----------------------------------------
+Question: is a logarithm the count of how many times the base gets multiplied?
+----------------------------------------
+
+Yes with one adjustment. A logarithm counts the copies of the base and not the multiplication signs. The number 100000 is 10 × 10 × 10 × 10 × 10 which has five 10s and four multiplication signs so the base 10 logarithm of 100000 is 5.
+
+- The base 10 logarithm of 1000 is 3 because three 10s make 1000.
+- The base 2 logarithm of 1024 is 10 because ten 2s make 1024.
+- The base 10 logarithm of 50 is about 1.7 because 50 sits between one 10 and two 10s and 10 raised to the power 1.7 is about 50.
+
+The natural logarithm uses the base e = 2.718. The natural logarithm of 100000 is 11.513 which means about 11.5 copies of 2.718 multiplied together make 100000. One 10 is worth 2.3026 copies of 2.718 so any base 10 logarithm times 2.3026 gives the natural logarithm.
+
+----------------------------------------
+Question: what is the difference between (log of 5) divided by 2 and log of (5 divided by 2)?
+----------------------------------------
+
+Dividing outside the logarithm takes a square root of the 5 while dividing inside the logarithm removes one "copy of 2" from the 5.
+
+- (log of 5) divided by 2 = 0.6990 / 2 = 0.3495 which is the logarithm of 2.236 and 2.236 is the square root of 5.
+- log of (5 / 2) = log of 2.5 = 0.3979 which equals 0.6990 − 0.3010 where 0.3010 is the logarithm of 2.
+
+The reason is that a logarithm is a count of copies and counts of copies add when numbers multiply. So multiplying inside becomes adding outside and dividing inside becomes subtracting outside and a square root inside becomes dividing by 2 outside.
+
+A worked case: 10000 is four 10s and 100 is two 10s. Dividing 10000 by 100 cancels two of the four 10s and leaves two 10s so the logarithm of the answer is 4 − 2 = 2. The number 2 is worth 0.301 of a copy of 10 so 10000 divided by 2 leaves 4 − 0.301 = 3.699 copies and 10 raised to the power 3.699 is 5000.
+
+----------------------------------------
+Question: is a logarithm a kind of compression?
+----------------------------------------
+
+Yes. A logarithm takes in a big number and hands back the small count of copies of the base that rebuilds the number. The number 1000000000000 takes thirteen digits to write and the base 10 logarithm is 12.
+
+The compression is like a blurry thumbnail of a photo when only a few digits of the logarithm are kept. The logarithm of 997 is 2.99870 and the logarithm of 998 is 2.99913 so telling those two neighbors apart needs four or five decimal places. Restoring every digit of a big number needs the logarithm written to about as many digits as the number had.
+
+The measure of information is itself a logarithm. Picking one item out of 1024 takes ten yes-or-no questions because ten 2s make 1024 so the base 2 logarithm of the pile size is the smallest number of bits that can label every item.
+
+----------------------------------------
+Question: is writing a number as e to a power also compression?
+----------------------------------------
+
+Raising e to a power and taking the natural logarithm are one machine running in two directions. The natural logarithm is the squeezing step (997 goes in and 6.905 is handed back). Raising e to a power is the unpacking step (6.905 goes in and 997 is handed back). A number written on paper as "e to the power 6.905" is the squeezed form sitting on the shelf with a label that says which base unpacks the number.
+
+----------------------------------------
+Question: when the count is not a whole number can the whole part unpack first while the leftover part waits?
+----------------------------------------
+
+Yes. A power splits wherever the count splits because counts of copies add when numbers multiply. So e to the power 6.905 equals (e to the power 6) × (e to the power 0.905). The whole part unpacks by plain repeated multiplying: six copies of 2.718 make 403.4. The leftover part is a root and not a plain multiplication: 0.905 of a copy is worth 2.472. The product 403.4 × 2.472 is 997.
+
+The whole part sets the rough size and the leftover part sets the fine detail. Base 10 shows the split most clearly. The base 10 logarithm of 997 is 2.9987 so 997 = (10 to the power 2) × (10 to the power 0.9987) = 100 × 9.97. The whole part 2 says "three digit number" and the leftover part 0.9987 says "the digits are 9 9 7". A number written as 9.97 × 10² is that same split written on paper.
+
+----------------------------------------
+Question: how does the product of the (1 − 1/p) factors relate to the expression (1 + 1/n) multiplied n times that equals e?
+----------------------------------------
+
+The expression (1 + 1/n) multiplied n times closes in on e = 2.718 as n grows (2.7048 at n = 100). The minus version (1 − 1/n) multiplied n times closes in on 1/e = 0.3679 (0.3660 at n = 100 and 0.3677 at n = 1000).
+
+So one factor (1 − 1/n) is worth about "one n-th of a division by e". A fraction of a division means a smaller shrinking step that has to be repeated before the total equals one full division.
+
+- One full division by e multiplies by 0.3679.
+- Half of a division multiplies by 0.6065 because 0.6065 × 0.6065 = 0.3679.
+- One tenth of a division multiplies by 0.9048 because ten copies of 0.9048 multiplied together make 0.3679. The factor (1 − 1/10) = 0.9 is close to 0.9048.
+
+The sieve removes the multiples of each prime. After the prime 2 half of all numbers are left. After the prime 3 one third are left. After the prime 5 the share left is 26.7% and after the prime 7 the share is 22.9% and after the prime 11 the share is 20.8%. Each prime p multiplies the share left by (1 − 1/p).
+
+The prime 7 gives the factor 0.8571 and one seventh of a division by e is 0.8669. The prime 101 gives 0.990099 and one hundred-and-first of a division by e is 0.990148. So stacking the primes acts like (1/2 + 1/3 + 1/5 + 1/7 + …) divisions by e. The sum of 1 over each prime up to x grows like the natural logarithm of the natural logarithm of x and "1/e raised to a natural logarithm" undoes the logarithm. The result is that the share left after sieving by every prime up to x is about 0.5615 divided by the natural logarithm of x.
+
+----------------------------------------
+Question: where does the constant 0.5772 come from?
+----------------------------------------
+
+The constant 0.5772 (often written with the Greek letter gamma) is the gap between the sum 1 + 1/2 + 1/3 + … + 1/n and the natural logarithm of n.
+
+- At n = 10 the sum is 2.9290 and the natural logarithm is 2.3026 so the gap is 0.6264.
+- At n = 100 the gap is 0.5822.
+- At n = 1000 the gap is 0.5777.
+- At n = 1000000 the sum is 14.3927 and the natural logarithm is 13.8155 so the gap is 0.5772.
+
+A picture: a staircase has steps that are 1 tall and then 1/2 tall and then 1/3 tall and each step is 1 wide. A smooth downhill slide touches the back corner of every step. The area under the slide is the natural logarithm and the area of the staircase is the sum. The gap is the total area of the corner pieces of the steps that poke above the slide. The first four corner pieces have areas 0.3069 and 0.0945 and 0.0457 and 0.0269 which total 0.4740 and the rest of the pieces bring the total to 0.5772.
+
+The sieve constant 0.5615 is 1/e raised to the power 0.5772. The link exists because the sieve product turned upside down becomes the sum 1 + 1/2 + 1/3 + … so the head start of the sum over the logarithm is carried into the sieve.
+
+The primes have a constant of the same kind. The sum 1/2 + 1/3 + 1/5 + … over the primes stays ahead of "the natural logarithm of the natural logarithm" by a gap that settles at 0.2615. For the primes up to 997 the sum is 2.198 and the natural logarithm of 6.905 is 1.932 so the gap there is 0.266.
+
+----------------------------------------
+Question: what is the 1.123 figure?
+----------------------------------------
+
+A sieve needs only the primes up to the square root of N to find every prime below N. The natural logarithm of a square root is half the natural logarithm of the number. So "0.5615 divided by the natural logarithm" becomes 0.5615 divided by half of ln N which is 1.123 divided by ln N. The true share of primes near N is 1 divided by ln N so the sieve multiplication overshoots by 12.3%. The overshoot exists because the multiplication treats each prime as removing an exact share and that treatment is rough for primes near the square root of N which have only a few multiples below N.
+
+The percentages in this folder use 1 divided by the natural logarithm as the baseline so the percentages do not carry the 12.3% overshoot.
+
+----------------------------------------
+Question: what is the infinite sum 1/e + 1/e² + 1/e³ + …?
+----------------------------------------
+
+The sum is 1 divided by (e − 1) = 0.5820. Each term is the term before multiplied by 0.3679 so the total is "first term divided by (1 minus the shrink factor)" = 0.3679 / 0.6321. The running totals are 0.3679 then 0.5032 then 0.5530 then 0.5713 then 0.5781. Starting the sum with a leading 1 gives 1.5820.
+
+----------------------------------------
+Question: how do the numbers near 0.56 relate to the Omega constant?
+----------------------------------------
+
+The Omega constant is 0.5671 and is the one number that equals 1/e raised to itself. Six numbers built from e and pi sit between 0.56 and 0.59.
+
+- 0.5615 is the sieve constant.
+- 0.5642 is 1 divided by the square root of pi which is the scaling number that makes the area under a bell curve equal 1.
+- 0.5671 is the Omega constant.
+- 0.5724 is half the natural logarithm of pi.
+- 0.5772 is the gap constant from the question above.
+- 0.5820 is the sum 1/e + 1/e² + 1/e³ + …
+
+One real mechanism sits inside the cluster. Feeding any starting number into "1/e raised to that number" over and over spirals in to the Omega constant. Starting from 0.5772 the chain runs 0.5615 then 0.5704 then 0.5653 then 0.5682 and each bounce lands on the other side of 0.5671 and keeps about 57% of the distance. Starting from 0 the chain runs 1 then 0.3679 then 0.6922 then 0.5005 then 0.6062 then 0.5454 then 0.5796 then 0.5601. So the sieve constant 0.5615 sits near the Omega constant because 0.5772 does and that makes the pair one coincidence and not two.
+
+The closeness of 0.5772 to the Omega constant has no known explanation and no known equation builds one from the other. Short recipes built from e and pi mostly land between 0 and 1 and a window from 0.56 to 0.58 covers 2% of that stretch so a few hundred recipes would put several in the window by chance.
+
+A test for a real link: a real link is an equation that turns one number into the other and the equation holds in any number base. A link that is only matching digits stops when more digits are written. The square of the Omega constant is 0.32165 which opens with 3 then 2 then 1 and the sieve overshoot figure is 1.123 but 1.123 is the rounded form of 1.12292 so the mirror of 1 2 3 and 3 2 1 is a base 10 accident. The square of the Omega constant does have one exact meaning: the square equals 1/e raised to the power 1.1343 which is twice the Omega constant.
+
+The Omega constant is proven to be a number that is not the root of any whole-number polynomial. Whether 0.5772 can be written as a fraction is an open question.
+
+----------------------------------------
+Question: how does the bell curve connect to the square root and the half?
+----------------------------------------
+
+Taking a square root cuts a logarithm in half. The natural logarithm of 1000000 is 13.82 and the natural logarithm of the square root 1000 is 6.91.
+
+The height of the bell curve at a given distance from the center is 1/e raised to the power (distance squared divided by 2) where the distance is counted in typical wobbles. So the bell curve is written in divisions by e.
+
+- At 1 typical wobble the height has had half a division by e which leaves 0.6065.
+- At 2 typical wobbles the height has had 2 divisions by e which leaves 0.1353.
+- At 3 typical wobbles the height has had 4.5 divisions by e which leaves 0.0111.
+
+The size of one typical wobble in a count is the square root of the expected count. A stretch of the number line expected to hold 10000 primes typically lands within about 100 of that count. The "give or take" figure on each line of the master lists uses that square root. The counts of primes in a window follow the bell curve while the single gaps between neighboring primes follow the lopsided waiting-time shape.
+
+----------------------------------------
+Question: what is the rule where a prime such as 997 gets divided by a logarithm?
+----------------------------------------
+
+The rule estimates how many primes sit below a number: divide the number by the natural logarithm of the number. The natural logarithm of 997 is 6.905 (the base 10 logarithm is 3). Exactly 168 primes sit at or below 997.
+
+- 997 / 6.905 = 144.4 which undershoots 168 by about 14%.
+- 997 / (6.905 − 1) = 168.8 which is nearly exact.
+
+Old hand-counted tables suggested a correction of 1.08366 in place of 1. At one million the true count is 78498 and the 1.08366 version gives 78543 while the 1 version gives 78030 so the old guess did fit the tables of the time. The correction drifts down to exactly 1 as the numbers grow without limit.
+
+----------------------------------------
+Question: is subtracting 1 from the logarithm the same as removing one copy of e?
+----------------------------------------
+
+Yes. 6.905 − 1 = 5.905 and 5.905 copies of 2.718 make 366.8 which is 997 divided by e. So the corrected rule is "997 divided by the natural logarithm of 366.8". The plain rule applies the thin prime share at 997 to the whole stretch from 1 to 997 and the smaller numbers in the stretch are richer in primes. The repair uses the prime share at 366.8 as the stand-in for the whole stretch.
+
+----------------------------------------
+Question: what does "the average of the natural logarithm" mean?
+----------------------------------------
+
+Take the natural logarithm of every number in the stretch and add the logarithms and divide by how many numbers there were.
+
+- For 1 through 10 the average is 1.510 and the natural logarithm of 10 minus 1 is 1.303.
+- For 1 through 100 the average is 3.637 and the natural logarithm of 100 minus 1 is 3.605.
+- For 1 through 997 the average is 5.909 and the natural logarithm of 997 minus 1 is 5.905.
+
+The average sits one copy of e below the top for this reason. Think of each number below 997 as "997 with some copies of e taken away".
+
+- About 63.2% of the numbers sit between 367 and 997 and are missing less than one copy.
+- About 23.3% sit between 135 and 367 and are missing between one and two copies.
+- About 8.6% sit between 50 and 135 and are missing between two and three copies.
+- About 5.0% sit below 50 and are missing three copies or more.
+
+Each band is 1/e times the size of the band before. The average number of missing copies across the bands is exactly 1. The band pattern is the same waiting-time shape that the gaps between primes follow.
+
+----------------------------------------
+Question: what does "a typical multiplying size of 997 divided by e" mean?
+----------------------------------------
+
+Numbers can be averaged by adding or by multiplying. For 2 and 8 the adding average is 5 because 5 + 5 = 2 + 8. The multiplying average is 4 because 4 × 4 = 2 × 8.
+
+For 1 through 997 the adding average is 499 and the multiplying average is about 368 which sits next to 997 / e = 366.8. A logarithm turns multiplying into adding so the average natural logarithm (5.909) and the multiplying average (368) are one fact said two ways because 5.909 copies of 2.718 make 368.
+
+The multiplying average is the better stand-in for the prime count. Using 499 gives 997 / 6.213 = 160.5 and using 366.8 gives 168.8 and the true count is 168.
+
+----------------------------------------
+Question: does e relate to random events?
+----------------------------------------
+
+Yes. The number e shows up when many small independent chances get multiplied.
+
+- If an event is expected once on average then the chance of zero events is 1/e = 36.8%.
+- If random numbers between 0 and 1 are added until the total passes 1 then the average count of numbers needed is e.
+- The waiting-time curve is 1/e raised to (the wait divided by the average wait) so a wait of twice the average shows up 13.5% of the time.
+
+The primes behave enough like small independent chances that e ends up under the whole prime baseline.
+
+----------------------------------------
+How the questions tie back to the lists
+----------------------------------------
+
+- The baseline on every line of ranked-list.md is 1 divided by the natural logarithm of each output.
+- The "give or take" figure on each line is a square root because of the bell curve rule above.
+- The lines built from the product of all primes up to some prime lean on the unpacking direction. The product of all primes up to 1009 has a natural logarithm of 963 which means the product has about 419 digits.
+- A recipe that blocks the small primes gains the factor that the sieve would have removed which is why blocking every prime up to p multiplies the prime share by about 1.78 times the natural logarithm of p (1.78 is 1 divided by 0.5615).
+
+============================================================
+PART 2: Questions about the ladder of sums and chunky steps and the shuffle each prime gives
+============================================================
+
+----------------------------------------
+Question: how do the prime counting equations use the squeeze and the unpacking?
+----------------------------------------
+
+The equations run a three-step loop. A logarithm squeezes so that multiplying turns into adding. The adding gets done. A power of e unpacks the result back into a count.
+
+The loop is needed because primes belong to multiplying (every number is a product of primes) and counting belongs to adding (the number line goes up by 1 each step). A logarithm is the tool that carries a multiplying fact over into an adding fact.
+
+----------------------------------------
+Question: does a product of primes really turn into a sum of logarithms?
+----------------------------------------
+
+Yes. The number 60 is 2 × 2 × 3 × 5. The natural logarithm of 60 is 4.094 which equals 0.693 + 0.693 + 1.099 + 1.609 and those are the natural logarithms of 2 and 2 and 3 and 5.
+
+Each prime has a fixed length: 0.693 for the prime 2 and 1.099 for the prime 3 and 1.609 for the prime 5 and 1.946 for the prime 7. Every whole number is a stick built by laying prime lengths end to end. A prime number is a stick made of one piece. Each whole number can be built in only one way so no pile of 0.693 lengths ever equals a pile of 1.099 lengths which is the squeezed form of the fact that a power of 2 never equals a power of 3.
+
+----------------------------------------
+Question: what bookkeeping forces the rule "1 divided by the natural logarithm"?
+----------------------------------------
+
+Add the natural logarithms of every number from 1 to 997 and the total is 5891.4. The primes must hand out that same total because the prime 2 puts 0.693 into every second number and again into every fourth number and the prime 3 puts 1.099 into every third number and so on. A program confirmed both totals are 5891.4.
+
+The balance says the sum of (logarithm of p) divided by p over the primes up to x must stay close to the logarithm of x. For primes up to 997 the sum is 5.61 against 6.905 and for primes up to one million the sum is 12.48 against 13.82 so the gap stays near 1.3. The balance holds only if primes near a number thin out at the rate 1 divided by the natural logarithm because a thicker supply of primes would hand out too much weight.
+
+The best simple count adds 1 divided by the natural logarithm for every number from 2 to the top. That sum is 177.0 at 997 against the true count 168 and 78627 at one million against the true count 78498. The "chance" figure on each line of the master lists is that same sum taken over the outputs of a recipe.
+
+----------------------------------------
+Question: is the logarithm a round trip into another realm and back?
+----------------------------------------
+
+Yes. Take 6 × 7. Going in: the natural logarithms are 1.7918 and 1.9459. Working on the logarithm side: 1.7918 + 1.9459 = 3.7377. Going back out: e raised to the power 3.7377 is 42.
+
+On the logarithm side every operation drops one level. Multiplying becomes adding and dividing becomes subtracting and raising to a power becomes multiplying and taking a root becomes dividing. The number 1 becomes 0 because multiplying by 1 changes nothing and adding 0 changes nothing. The number 0 cannot be carried across because no count of copies of e multiplies out to 0.
+
+The base is a choice of measuring unit. Every base carries multiplying over to adding and base e is the unit where the prime rule has no leftover factor.
+
+----------------------------------------
+Question: how did anyone invent a system that drops every operation one level?
+----------------------------------------
+
+The need was practical. Around the year 1600 astronomers and ship navigators multiplied seven digit numbers by hand all day.
+
+The seed is ancient. Write the doublings 1 and 2 and 4 and 8 and 16 and 32 in one row and the step numbers 0 and 1 and 2 and 3 and 4 and 5 beneath. Multiplying two numbers in the top row matches adding the two step numbers beneath (4 × 8 = 32 sits above 2 + 3 = 5). The top row has big gaps so the trick worked only for doublings.
+
+The leap was to pack the top row so densely that every number had a step number. One inventor used a multiplier barely below 1 so the row crept along in tiny steps and spent about twenty years computing the table by hand and published the table in 1614. The table happened to sit near base 1/e because (1 − 1/n) multiplied n times closes in on 1/e. The number e itself was noticed decades later through questions about interest on money.
+
+The "one level down" behavior was not designed piece by piece. Multiplying is repeated adding and raising to a power is repeated multiplying so the operations form a ladder. A logarithm counts repeats and counting the repeats of one rung is the job of the rung below.
+
+----------------------------------------
+Question: why is a power of zero equal to 1 and not 0?
+----------------------------------------
+
+Taking more and more square roots heads toward 1. The values of e to the powers 1 and 0.5 and 0.25 and 0.125 are 2.718 and 1.6487 and 1.2840 and 1.1331. The power 0.001 gives 1.0010 and the power 0.0001 gives 1.0001.
+
+Walking down the whole number powers divides by 2.718 each step: 20.09 then 7.389 then 2.718 then 1 then 0.3679. The pattern passes straight through 1.
+
+Adding starts from 0 because adding nothing leaves 0. Multiplying starts from 1 because 1 is the number that changes nothing when multiplied in. So zero copies of e multiplied in leaves the starting 1 untouched.
+
+For a tiny count the result is almost exactly 1 plus the count. That holds for base e and not for other bases (10 to the power 0.001 is 1.0023) and that property is what makes e the natural base.
+
+----------------------------------------
+Question: is matrix math another kind of compression?
+----------------------------------------
+
+A matrix packs a different thing. A logarithm squeezes one number. A matrix (a grid of numbers) stores a whole action such as "turn every point on a page by 30 degrees" in four numbers.
+
+- The literal next squeeze after a logarithm is the logarithm of a logarithm. A 100 digit number has a natural logarithm of 230 and the logarithm of 230 is 5.4.
+- Turning by 30 degrees and then by 45 degrees means multiplying two grids and the result is a turn by 75 degrees. So the angle acts as the logarithm of the turning grid.
+- The grid with 1 and 1 on the top row and 1 and 0 on the bottom row produces the Fibonacci numbers when multiplied by itself (the tenth power holds 89 and 55 and 55 and 34). The stretch factors of that grid are 1.618 and −0.618 so the golden ratio is the stretch factor of the Fibonacci grid.
+
+----------------------------------------
+Question: does any mathematics attach a matrix to each prime and look for patterns?
+----------------------------------------
+
+Yes and one piece of that work sits inside the prediction formula of the checker page in this folder.
+
+Take x² + 1 and ask which whole numbers x make x² + 1 divisible by a prime. For 5 the values 2 and 3 work. For 7 no value works. For 13 the values 5 and 8 work. The equation has two hidden roots and each prime either leaves the two roots in place or swaps the two roots. "Leave in place" is the grid with rows 1 0 and 0 1. "Swap" is the grid with rows 0 1 and 1 0. The number of working values is the sum along the diagonal of the prime's grid.
+
+The predicted percentage for an equation multiplies one factor for each prime and each factor depends on how many values of n make the output divisible by that prime. That count is the diagonal sum. The equation n² + n + 41 scores high because every prime below 41 gets the swap grid which means no small prime divides an output.
+
+----------------------------------------
+Question: what is the shuffle and what does "fair sampler" mean?
+----------------------------------------
+
+Take x³ − 2. The number of working values for a prime is always 0 or 1 or 3. For 5 the value 3 works. For 7 and 13 no value works. For 11 the value 7 works. For 31 the values 4 and 7 and 20 work. For 43 the values 20 and 32 and 34 work.
+
+The equation has three hidden roots. Arithmetic with remainders after dividing by a prime p has one special move which is raising a number to the power p. The move leaves every ordinary whole number unchanged and keeps every equation true so the move sends each root to a root. A root that stays in place is a working value.
+
+Three roots can be shuffled six ways.
+
+- One shuffle leaves all three roots in place and gives 3 working values.
+- Three shuffles swap two roots and leave one in place and give 1 working value.
+- Two shuffles rotate all three roots and give 0 working values.
+
+No shuffle leaves exactly two roots in place which is why a count of 2 never appears.
+
+A count over all 664577 primes from 5 to ten million:
+
+- 16.64% of the primes gave 3 working values against a fair share of 16.67%.
+- 50.01% gave 1 working value against a fair share of 50%.
+- 33.35% gave 0 working values against a fair share of 33.33%.
+
+A proven theorem says the primes hand out the shuffles that an equation allows in exactly fair proportions. (Some equations allow only part of the full set of shuffles. The equation x³ − 2 allows all six.)
+
+The average number of working values per prime in the count was 0.9993 and the fair shares give exactly 1. An average of 1 means an equation that does not factor loses outputs to the primes at the same average rate as the number line. So a high percentage is won by getting "no working values" at the small primes where each dodge is worth the most.
+
+For x² + 1 the remainder of the prime after dividing by 4 decides the shuffle. For x³ − 2 no remainder rule of that kind exists and predicting the shuffle for such equations is one of the largest research efforts in mathematics.
+
+Three more facts from this area stated without detail: for equations such as y² = x³ + x + 1 each prime gets a two by two grid whose stretch factors have a size equal to the square root of the prime. The spacings of the ripples that correct the prime count match the spacings of the stretch factors of huge grids of random numbers (checked by computer and unproven). A grid that marks which numbers divide which has a summary number whose slow growth is equivalent to the unproven claim about the critical line.
+
+----------------------------------------
+Question: why does the sum of 1 over each prime grow like the logarithm of the logarithm?
+----------------------------------------
+
+Two squeezes are stacked.
+
+Moving from n to n + 1 raises the natural logarithm by almost exactly 1/n. So adding 1/2 + 1/3 + 1/4 + … walks along the logarithm scale and the distance walked up to x is the natural logarithm of x.
+
+Primes near n show up at a rate of 1 divided by the natural logarithm of n. So in the sum over primes each step is kept a fraction of the time and the fraction is 1 divided by the distance already walked. A walk where the step at distance u is weighted by 1/u is the same kind of sum again along the logarithm scale. The total is the logarithm of the distance walked.
+
+- Up to 10 the sum over primes is 1.176.
+- Up to 100 the sum is 1.803.
+- Up to 1000 the sum is 2.198.
+- Up to one million the sum is 2.887 (the logarithm of the logarithm is 2.626 and the gap heads to 0.2615).
+
+The sum over all whole numbers gains 0.693 each time the top number doubles. The sum over primes gains 0.693 each time the top number is squared. A total of 4 needs every prime up to about 10 to the power 18. A total of 10 needs every prime up to a number with over 7000 digits. The sum still grows without limit.
+
+----------------------------------------
+Question: is there a ladder where each rung is the rung above squeezed once more?
+----------------------------------------
+
+Yes.
+
+- 1 + 1 + 1 + … up to x totals x.
+- 1 + 1/2 + 1/3 + … up to x totals about the natural logarithm of x.
+- 1/2 + 1/3 + 1/5 + … over the primes up to x totals about the logarithm of the logarithm of x.
+
+The rule that moves down one rung: divide each term by the running total of the rung above. On the top rung the running total at n is n and dividing each 1 by n gives 1/n. On the second rung the running total at n is the natural logarithm of n and dividing each 1/n by that logarithm gives 1 divided by (n times the natural logarithm of n). Keeping only the primes does that dividing automatically.
+
+The sum 1 + 2 + 3 + 4 + … sits one rung above the top because each term n is the running total of 1 + 1 + 1 + … Going up the ladder multiplies each term by the running total and going down divides.
+
+The next rung down would grow like the logarithm of the logarithm of the logarithm which is about 0.97 at one million and about 1.69 at a 100 digit number. The chatbot knows of no famous family of numbers that sits on that rung. Twin primes (pairs such as 11 and 13) thin out faster than every rung so the sum of 1 over each twin prime settles on a finite total near 1.9. That finite total is proven while the question of whether twin primes go on forever is open.
+
+----------------------------------------
+Question: why does dividing by the running total give a logarithm?
+----------------------------------------
+
+Dividing a step by the running total turns the step into a percentage of what is already there and adding up percentage growths is what a logarithm measures.
+
+Plain counting announces how much each new 1 adds: going from 1 to 2 is +100% and from 2 to 3 is +50% and from 3 to 4 is +33%. So the reciprocals 1 + 1/2 + 1/3 + … are the percentage growths of plain counting added together.
+
+Percentage growths really multiply. The product (1 + 1/1) × (1 + 1/2) × (1 + 1/3) up to (1 + 1/10) equals exactly 11 because 2/1 × 3/2 × 4/3 cancels in a chain. A logarithm turns the multiplying into adding so the sum 1 + 1/2 + … + 1/10 = 2.93 tracks the natural logarithm of 11 = 2.40 with a fixed gap.
+
+The rule holds for any growing total. For the square numbers the steps are 1 and 3 and 5 and the running totals are 1 and 4 and 9. Dividing each step by its total and adding up to the 1000th square gives 13.33 and the natural logarithm of 1000 squared is 13.82.
+
+A check on the second rung: from 1000 to one million the sum of 1 divided by (n times the logarithm of n) rose by 0.6931 and the sum of 1 over each prime rose by 0.6892 and the logarithm of the logarithm rose by 0.6931.
+
+----------------------------------------
+Question: what are the first announcer and the second announcer?
+----------------------------------------
+
+Picture a jar that gets one marble at a time and two people with notebooks.
+
+The first person writes how big each new marble is compared with what the jar held: 1 then 1/2 then 1/3 then 1/4. The running total of the first notebook is 1 then 1.5 then 1.83 then 2.08.
+
+The second person watches only the first notebook and asks the same question about that total. The line 1/2 lands on a total of 1 so the second person writes 50%. The line 1/3 lands on 1.5 so the second person writes 22%. The line 1/4 lands on 1.83 so the second person writes 13.6%. The line 1/5 lands on 2.08 so the second person writes 9.6%.
+
+- At 1000 marbles the first notebook totals 7.49 and the second notebook totals 2.15.
+- At one million marbles the first notebook totals 14.39 and the second notebook totals 2.81.
+
+The first notebook gains 0.693 whenever the jar doubles. The second notebook gains about 0.693 whenever the first notebook doubles which takes roughly squaring the jar.
+
+Reading the first notebook only at the prime-numbered marbles gives a total that rises in step with the second notebook. Primes near a marble show up about once in every "first notebook total" marbles so skipping to the primes thins the lines by the same amount the second person divides by. Near 1000 the first notebook's line is 0.1% and primes show up once per 6.9 numbers so the prime lines average 0.0145% per number which is the second person's line there.
+
+----------------------------------------
+Question: what is the equation for e doing in this language?
+----------------------------------------
+
+The expression (1 + 1/n) multiplied n times is n announcements of "+1/n". The pile of announcements is exactly 1 (100%) and the product is where the number ends up.
+
+- One step of +100% ends at 2.
+- Two steps of +50% end at 2.25.
+- Four steps of +25% end at 2.4414.
+- Ten steps of +10% end at 2.5937.
+- One hundred steps of +1% end at 2.7048.
+- One thousand steps of +0.1% end at 2.7169.
+
+So e = 2.718 is where a number ends up when 100% of growth is delivered in pieces so small that the pieces blend into smooth growth. The natural logarithm of a number is the pile of tiny announcements needed to grow from 1 to that number (690.5% for 997).
+
+Taking the logarithm of the equation turns the n multiplications into n additions of one small number. For n = 10 the small number is the natural logarithm of 1.1 = 0.09531 and ten of those total 0.9531. For n = 100 the total is 0.99503 and for n = 1000 the total is 0.9995. The total closes in on 1 which means one copy of e.
+
+----------------------------------------
+Question: why does a chunky step fall short of a smooth step?
+----------------------------------------
+
+A chunky step delivers all its growth at the end. Smooth growth lets the growth made early start growing too.
+
+- A chunk of +100% ends at 2 and a smooth 100% ends at 2.718.
+- A chunk of +50% ends at 1.5 and a smooth 50% ends at 1.6487.
+- A chunk of +10% ends at 1.1 and a smooth 10% ends at 1.1052.
+- A chunk of +1% ends at 1.01 and a smooth 1% ends at 1.01005.
+
+The bonus that smooth growth earns is about half of the announced amount squared. A bank that pays 100% once at the end of a year turns 1 into 2 and a bank that pays that 100% spread over every instant turns 1 into 2.718.
+
+A shrinking chunk misses in the other direction. A chunk of −50% leaves 0.5 and a smooth 50% shrink leaves 0.6065.
+
+The shortfalls explain two constants.
+
+- The gap constant 0.5772 is the total shortfall of the counting chunks +100% and +50% and +33% and so on. The first three shortfalls are 0.3069 and 0.0945 and 0.0457.
+- The sieve factors (1 − 1/p) are shrinking chunks. The prime 2 misses by 0.1931 and the prime 3 by 0.0721 and the prime 5 by 0.0231 and the prime 7 by 0.0113. Across all primes the misses total 0.3157.
+- The prime constant 0.2615 equals 0.5772 minus 0.3157.
+
+The "half of the amount squared" bonus is also where the "distance squared divided by 2" in the bell curve formula originates.
+
+----------------------------------------
+Question: which infinite sums add up to exactly 1?
+----------------------------------------
+
+- 1/2 + 1/4 + 1/8 + … totals 1 because each term fills half of what is missing. With a leading 1 in front the total is 2.
+- 9/10 + 9/100 + 9/1000 + … totals 1 which is why 0.999 repeating equals 1.
+- 2/3 + 2/9 + 2/27 + … totals 1.
+- 1/2 + 1/6 + 1/12 + 1/20 + … totals 1 where the bottoms are 1 × 2 and 2 × 3 and 3 × 4 and 4 × 5.
+- 1/2 + 2/6 + 3/24 + 4/120 + … totals 1 with running totals 1/2 and 5/6 and 23/24 and 119/120.
+
+A shrinking sum where each term is the term before times a fixed factor r totals "first term divided by (1 − r)". So a first term of (1 − r) gives exactly 1.
+
+The fourth sum works by cancelling. 1/2 is 1/1 − 1/2. 1/6 is 1/2 − 1/3. 1/12 is 1/3 − 1/4. 1/20 is 1/4 − 1/5. Lined up the −1/2 cancels the +1/2 and the −1/3 cancels the +1/3 and the −1/4 cancels the +1/4. The pieces left are the 1/1 at the front and the −1/5 at the back so four terms total 4/5. After n terms the total is 1 minus 1/(n + 1). A sum that folds up into its two end pieces is called a telescoping sum.
+
+----------------------------------------
+Question: why is the chance of zero events the same as the chance of one event when one event is expected?
+----------------------------------------
+
+Split a day into 100 slots with a 1 in 100 chance of an event in each slot.
+
+Zero events needs all 100 slots empty which has chance 0.99 multiplied 100 times = 0.3660.
+
+Exactly one event needs one slot to fire (chance 1/100) and 99 slots to stay empty. The event can sit in any of 100 slots. The 100 choices cancel the 1/100 chance and what is left is 0.99 multiplied 99 times = 0.3697.
+
+- With 10 slots the chances are 34.9% for zero and 38.7% for one.
+- With 100 slots the chances are 36.6% and 37.0%.
+- With 1000 slots the chances are 36.77% and 36.81%.
+
+Both close in on 1/e = 36.79%. The tie needs the expected count to be exactly 1 because the cancellation is "number of slots times chance per slot". With an expected count of 2 the chances are 13.5% for zero and 27.1% for one.
+
+For an expected count of 1 the full list is 36.8% for zero and 36.8% for one and 18.4% for two and 6.1% for three and 1.5% for four. The chances cover every outcome so the chances total 1 which is the same as saying 1 + 1 + 1/2 + 1/6 + 1/24 + … equals e.
+
+A window of the number line with a length equal to the natural logarithm of the numbers inside is expected to hold 1 prime. The slot model predicts about 36.8% of those windows hold no prime. Real primes track the model closely and not exactly because primes are not fully independent.
+
+----------------------------------------
+How the questions tie back to the lists
+----------------------------------------
+
+- The "chance" figure on each line of ranked-list.md is the sum of 1 divided by the natural logarithm over the outputs.
+- The predicted percentage on the checker page multiplies one factor per prime and each factor uses the count of working values which is the diagonal sum of the shuffle that prime gives.
+- An equation that does not factor meets the primes at the same average rate as the number line so the high lines on the lists win by dodging the small primes.
+
+============================================================
+PART 3: Questions about reciprocals and painters and smoothing and the −1/12
+============================================================
+
+----------------------------------------
+Question: is "take 1 over the number" another realm with its own round trip the way the logarithm is?
+----------------------------------------
+
+Yes in two different ways.
+
+The reciprocal as a realm. Go in by taking 1 over each number. Add. Go back out by taking 1 over the result. One painter finishes a fence in 3 hours and another in 6 hours. Going in gives rates of 1/3 and 1/6 of a fence per hour. Adding gives 1/2. Going back out gives 2 hours working together.
+
+Any reversible machine makes a realm of this kind and each realm turns a different outside operation into addition.
+
+- The logarithm realm turns multiplying into adding.
+- The reciprocal realm turns "product divided by sum" into adding.
+- The squaring realm turns the long side of a right triangle into adding (3 squared plus 4 squared unpacks to 5).
+
+The logarithm is special because the operation it converts is multiplication which is a rung of the main ladder of operations.
+
+Steps and totals. The step from 1/3 to 1/4 is 1/12 so the steps of the reciprocals are the "1 over neighbors multiplied" terms. The step from the natural logarithm of 100 to the natural logarithm of 101 is 0.00995 which is close to 1/100 so the steps of the logarithm are close to the reciprocals. That makes a chain.
+
+- Adding up 1/(5 × 6) + 1/(6 × 7) + … without end rebuilds the reciprocal 1/5.
+- Adding up reciprocals rebuilds a logarithm.
+- Adding up logarithms rebuilds the logarithm of 1 × 2 × 3 × … up to the top number.
+
+So "take steps" and "add up" are a second pair of opposite machines. The pair "squeeze" and "unpack" changes which operation is in play. The pair "steps" and "totals" moves along the ladder of sums.
+
+Where the two pairs meet. For a factor close to 1 the logarithm and the reciprocal announcement are nearly the same number. The natural logarithm of (1 − 1/101) is −0.00995 and −1/101 is −0.00990. That is why sums of reciprocals keep producing logarithms.
+
+The reciprocal seen from the logarithm side. Taking 1 over a number flips the sign of the logarithm (the natural logarithm of 1/5 is −1.609). So the reciprocal is a mirror flip on the logarithm side which is why the reciprocal undoes itself.
+
+A limit on the likeness. A product in the bottom of a fraction turns into a subtraction of reciprocals only when the gap between the two numbers is supplied. 1/3 − 1/5 equals 2 divided by 15 and the 2 is the gap. The logarithm never needs an extra piece of that kind.
+
+----------------------------------------
+Question: how does the painter problem work step by step?
+----------------------------------------
+
+Two painters paint one fence. The first would take 3 hours alone and the second would take 6 hours alone.
+
+The hours cannot be added. 3 + 6 = 9 hours would be the time to paint two fences one after the other. Two painters on one fence finish faster than either alone so the answer is below 3 hours.
+
+- Going in: the first painter covers 1/3 of the fence each hour and the second covers 1/6.
+- Working inside: in any one hour the fence gains 1/3 + 1/6 = 1/2.
+- Going back out: half a fence each hour means 2 hours for the whole fence.
+- Check: in 2 hours the first painter covers 2/3 and the second covers 1/3 which makes 1 fence.
+
+More cases: two painters who each take 6 hours finish in 3 hours. Three painters who take 2 and 3 and 6 hours finish in exactly 1 hour because 1/2 + 1/3 + 1/6 = 1.
+
+A time is "hours per fence" and a rate is "fence per hour". Quantities written as "something per hour" add when things happen during the same hours. The reciprocal moves a quantity into the form that adds.
+
+----------------------------------------
+Question: where does "product divided by sum" come from?
+----------------------------------------
+
+Adding two fractions needs a shared bottom and the handy shared bottom is the product. 1/3 is 6/18 and 1/6 is 3/18 so 1/3 + 1/6 = 9/18. The top 9 is the sum 6 + 3 and the bottom 18 is the product 3 × 6. So the combined rate is "sum over product" and flipping gives the combined time as "product over sum": 18 divided by 9 = 2.
+
+- 4 hours and 12 hours give 48 / 16 = 3 hours.
+- 10 hours and 10 hours give 100 / 20 = 5 hours.
+- 2 hours and 1000 hours give 2000 / 1002 = 1.996 hours so a very slow helper barely changes the result.
+
+The answer is always below the smaller time and the faster painter dominates because a small time is a big rate.
+
+The rule gives a kind of average. Two identical painters who finish together in 2 hours would each take 4 hours alone so 4 is the "rate average" of 3 and 6 while the plain average is 4.5. Driving out at 60 and back at 30 over equal distances gives an average speed of 40 and not 45 for the same reason.
+
+----------------------------------------
+Question: how do the painters relate to counting primes?
+----------------------------------------
+
+Each number on the line acts as a painter who contributes a small share of one prime.
+
+Near a number N the typical gap between primes is the natural logarithm of N. The gap is "numbers per prime" which matches hours per fence. The flip is 1 divided by the natural logarithm which is "primes per number" and matches fence per hour. Gaps cannot be added to get a count. Rates can because each number walked past hands over its own rate for one step.
+
+The painters from 10 to 20. The rates are 0.434 and 0.417 and 0.402 and 0.390 and 0.379 and 0.369 and 0.361 and 0.353 and 0.346 and 0.340 and 0.334. The rates add to 4.12. The primes in that stretch are 11 and 13 and 17 and 19 which is 4 primes. Going back out: 11 numbers divided by 4.12 gives 2.67 numbers per prime and the true figure is 2.75.
+
+Longer stretches. From 2 to 997 the rates add to 177.0 against the true 168. From 2 to one million the rates add to 78627 against the true 78498.
+
+The master lists use the same painters on different numbers. For a recipe the painters are the outputs. Take n² + n + 41 for n from 0 to 9. The outputs are 41 and 43 and 47 and 53 and 61 and 71 and 83 and 97 and 113 and 131. The rates are 0.269 and 0.266 and 0.260 and 0.252 and 0.243 and 0.235 and 0.226 and 0.219 and 0.212 and 0.205 which add to 2.39. Plain numbers of those sizes would be expected to yield 2.39 primes and the recipe yields 10. Ten divided by 2.39 is 4.19 which reads as +319% for that tiny sample. The "chance" figure on each line of ranked-list.md is that sum of rates.
+
+Where the picture bends. A painter paints a steady share each hour while a number is either prime or not. So each rate is a chance and the sum is an expected count which is why the lists carry a "give or take" figure.
+
+----------------------------------------
+Question: is some kind of smoothing going on?
+----------------------------------------
+
+Yes. Each number is either prime or not so the true record along the number line is a jagged string of yes and no. Between 1000 and 1100 exactly 16 numbers are prime (16%) while 1 divided by the natural logarithm of 1050 is 14.4%. The rule "1 divided by the natural logarithm" is the jagged record averaged over a window. Swapping the jagged record for the smooth curve is what smoothing means in this setting.
+
+Each rung of the ladder of sums smooths more.
+
+- The count of primes below one million differs from the smooth estimate by about 129 primes which is about 0.16%.
+- The sum of 1 over each prime below one million is 2.887328 and the smooth formula (the logarithm of the logarithm plus 0.2615) gives 2.887289. The difference is 0.00004.
+
+A sum that weights each prime by 1/p barely notices any single large prime so the jaggedness washes out. The sum of 1 over each prime could not tell the real primes apart from numbers scattered at random with the rate 1 divided by the natural logarithm. The detail that makes the primes the primes lives in the jagged leftover.
+
+The word "smooth" has a second meaning in this field. A number is called smooth when all of its prime pieces are small (720 is built only from 2 and 3 and 5).
+
+----------------------------------------
+Question: does any of this connect with 1 + 2 + 3 + 4 + … and the value −1/12?
+----------------------------------------
+
+Yes. The −1/12 belongs to the same family as the gap constant 0.5772 because both are a fixed leftover after the growing part of a sum is taken away.
+
+The sum 1 + 2 + 3 + 4 + … grows without limit in the ordinary sense. The −1/12 is the constant that is left when the growing part is separated out by smoothing.
+
+All of these sums belong to one family: 1 divided by n raised to a power s added over every n. The dial at 2 gives 1 + 1/4 + 1/9 + … which settles at 1.645. The dial at 1 gives the reciprocal sum. The dial at 0 gives 1 + 1 + 1 + … with a leftover constant of −1/2. The dial at −1 gives 1 + 2 + 3 + … with a leftover constant of −1/12. For dial settings above 1 that family equals the sieve product over the primes which is why the family carries the prime information.
+
+A proven rule links the value at a dial setting s to the value at the setting 1 − s. The setting −1 is tied to the setting 2 and the numbers agree: −1.645 divided by (2 × pi × pi) = −0.0833 = −1/12. The middle of that mirror is the setting 1/2 which is the critical line.
+
+----------------------------------------
+Question: what are the faded sum and the smooth part?
+----------------------------------------
+
+Chopping means adding 1 + 2 + 3 + … up to a stopping point and cutting off dead. Chopping at 10 gives 55 and chopping at 100 gives 5050. Fading means every term stays and each term gets turned down by a dimmer that sinks gently toward zero.
+
+The dimmer for the term n is 1/e raised to the power (n divided by 10) so each step along the sum is one tenth of a division by e.
+
+- At n = 1 the dimmer is 0.905 and the dimmed term is 0.905.
+- At n = 5 the dimmer is 0.607 and the dimmed term is 3.03.
+- At n = 10 the dimmer is 0.368 and the dimmed term is 3.68 which is the largest.
+- At n = 20 the dimmer is 0.135 and the dimmed term is 2.71.
+- At n = 50 the dimmer is 0.0067 and the dimmed term is 0.34.
+- At n = 100 the dimmer is 0.000045 and the dimmed term is 0.0045.
+
+The whole endless dimmed sum totals 99.9167. The smooth part is the same quantity poured smoothly instead of added in whole-number steps which is the area under the curve "n times the dimmer" and that area is 10 squared = 100. The chunky sum falls short of the smooth pour by 0.0833 = 1/12.
+
+- With "n divided by 10" the sum is 99.9167 and the smooth part is 100.
+- With "n divided by 100" the sum is 9999.9167 and the smooth part is 10000.
+- With "n divided by 1000" the sum is 999999.9167 and the smooth part is 1000000.
+
+The smooth part grows without limit and the −1/12 stays put. Chopping hides the constant because chopping at N gives half of N squared plus half of N and the "half of N" piece from the abrupt edge swamps any small constant.
+
+The same fade applied to 1 + 1 + 1 + … with "n divided by 10" gives 9.5083 against a smooth part of 10 and the leftover heads to −1/2 as the dimmer gets gentler. With the strongest dimmer (one full division by e per step) the faded 1 + 1 + 1 + … is 1/e + 1/e² + 1/e³ + … = 0.5820. That number breaks apart as 1 − 1/2 + 1/12 − 1/720 and so on (the first four pieces give 0.5819) so 0.5820 holds both the −1/2 and the 1/12.
+
+----------------------------------------
+How the questions tie back to the lists
+----------------------------------------
+
+- The "chance" figure on each line of the master lists is a sum of painter rates taken over the outputs of a recipe.
+- The percentage on each line is the true count of primes measured against that sum.
+- The rule 1 divided by the natural logarithm is a smoothed record so short samples can sit well above or below the rule by luck which is why each line carries the odds that luck explains the result.
+
+============================================================
+PART 4: Questions about where pi enters and the ripples of the prime count
+============================================================
+
+----------------------------------------
+Question: the sum 1/e + 1/e² + 1/e³ + … = 0.5820 breaks apart as 1 − 1/2 + 1/12 minus tiny pieces. What are the tiny pieces?
+----------------------------------------
+
+- Start with 1.
+- Subtract 1/2 which gives 0.5.
+- Add 1/12 which gives 0.583333.
+- Subtract 1/720 which gives 0.581944.
+- Add 1/30240 which gives 0.5819775.
+- Subtract 1/1209600 which gives 0.5819767.
+- Add 1/47900160 which changes the eighth decimal place.
+
+The target is 0.58197671.
+
+The dimmer 1/e raised to n unpacks into the string 1 − n + (n squared)/2 − (n cubed)/6 + … where the bottoms are 1 and 1 × 2 and 1 × 2 × 3. So the faded sum holds every sum of powers at once with each one divided by its bottom.
+
+- 1 + 1 + 1 + … has the leftover constant −1/2 which gives the −1/2 piece.
+- 1 + 2 + 3 + … has the leftover constant −1/12 which gives the +1/12 piece.
+- The sum of squares has a leftover constant of 0 so no piece appears.
+- The sum of cubes has the leftover constant 1/120 and 1/120 divided by 6 gives the 1/720 piece.
+- The sum of fourth powers has a leftover constant of 0.
+- The sum of fifth powers has the leftover constant −1/252 and 1/252 divided by 120 gives the 1/30240 piece.
+
+Each piece is smaller than the one before by a factor of 60 then 42 then 40 then 39.6. The factor settles toward 39.48 which is 2 × pi multiplied by itself.
+
+----------------------------------------
+Question: where does the pi come from?
+----------------------------------------
+
+Growth with base e has a second direction. A tiny push along the direction a number already points makes the number bigger. A tiny push at a right angle swings the number around a circle of radius 1. The distance around that circle is 2 × pi = 6.283 so a pile of sideways pushes totaling 6.283 returns the number to 1. A pile of 1 swings the number through 57.3 degrees.
+
+The sum 1/e + 1/e² + … with a general dimmer strength x equals 1 divided by (e raised to x minus 1). That fraction blows up wherever e raised to x equals 1. In ordinary growth that happens at x = 0. In the sideways direction that happens again at 6.283 and 12.566 and 18.850 which are 1 and 2 and 3 full laps.
+
+Each hidden lap point adds a share to the 1/12 piece. The share from lap k is 2 divided by (2 × pi × k) squared.
+
+- Lap 1 adds 0.0507 which is about 61% of the 1/12.
+- Lap 2 adds 0.0127.
+- Lap 3 adds 0.0056.
+
+The shares total 0.0833 = 1/12.
+
+----------------------------------------
+Question: how does −1/12 relate to 1.645?
+----------------------------------------
+
+−1/12 equals −1.645 divided by 19.739. The number 1.645 is the settled total of 1 + 1/4 + 1/9 + 1/16 + … and 19.739 is 2 × pi × pi. The sum 1.645 is a rounded form of pi × pi divided by 6 = 1.6449341. Dividing 2 × pi × pi by the rounded 1.645 gives 11.9995 and dividing by the unrounded value gives exactly 12 because the pi × pi cancels and leaves 2 × 6.
+
+The next pair follows the same pattern. The sum of cubes has the leftover constant 1/120 and the sum of 1 over each fourth power settles at 1.0823 = pi to the fourth power divided by 90. The recipe "multiply by 6 and divide by 8 × pi to the fourth power" turns 1.0823 into 1/120.
+
+The running totals of 1 + 1/4 + 1/9 + … are 1 and 1.25 and 1.361 and 1.424 and 1.464 and after 1000 terms the total is 1.6439.
+
+----------------------------------------
+Question: where does the 6 in pi × pi divided by 6 come from? (The wave route.)
+----------------------------------------
+
+The sine wave crosses zero at every whole multiple of pi. The wave can be described two ways.
+
+- Built from powers the wave near zero is x minus (x cubed divided by 6) where the 6 is 1 × 2 × 3.
+- Built from its zero crossings the wave is x times (1 − x squared over pi squared) times (1 − x squared over 4 pi squared) times (1 − x squared over 9 pi squared) and so on.
+
+Multiplying out the second description the "x cubed" part collects (1 + 1/4 + 1/9 + …) divided by pi squared. The two descriptions must agree so that quantity equals 1/6.
+
+----------------------------------------
+Question: is there a different way to see the pi squared? (The lamp route.)
+----------------------------------------
+
+"The zeta function at 2" means the dial of the family of sums is set to 2 which picks out 1 + 1/4 + 1/9 + …
+
+The brightness of a lamp falls off as 1 divided by the distance squared. Stand at 0 on a number line with lamps at 1 and 2 and 3 and so on. The total brightness is 1 + 1/4 + 1/9 + …
+
+Stage 0. Take a circle whose distance around is 2. Stand at the bottom with one lamp at the top. Pi is "around divided by across" so the lamp is 2 / pi = 0.6366 away. The brightness is 1 / (0.6366 × 0.6366) = 2.4674 = pi × pi / 4. One pi is there because the lamp is one "across" away. The second pi is there because brightness uses the distance twice. The 4 is the distance around squared.
+
+The swap. For a triangle with a square corner the two short sides a and b and the height h down to the long side obey 1/h² = 1/a² + 1/b². So one lamp at distance h is exactly as bright as two lamps at distances a and b.
+
+Stage 1. Draw a circle twice as big touching your spot. Its center lands where the old lamp was. A level line through the center hits the circle at two points. Lamps at those two points replace the old lamp. Each new lamp is 0.9003 away in a straight line and gives 1.2337 so the two give 2.4674. Along the rim the lamps sit 1 to your left and 1 to your right.
+
+Stage 2. The same swap on each lamp with a circle of distance around 8 gives four lamps at rim spots 1 and 3 on each side. The straight distances are 0.9745 and 2.3527 and the total brightness is 2.4674.
+
+Every later stage. The lamps sit 2 apart along the rim at the odd spots and the total stays 2.4674. On a huge circle the rim near you is almost straight. With a distance around of 1024 the nearest straight distances are 0.999998 and 2.99996. In the limit the lamps sit at straight distances 1 and 3 and 5 and so on to each side.
+
+So 2 × (1 + 1/9 + 1/25 + …) = pi × pi / 4. The row added directly creeps upward: 2 then 2.222 then 2.302 then 2.343.
+
+----------------------------------------
+Question: how does pi × pi / 4 become pi × pi / 6?
+----------------------------------------
+
+- One side alone gives half: 1 + 1/9 + 1/25 + … = pi × pi / 8 = 1.2337.
+- The even lamps at 2 and 4 and 6 are still missing. Their brightness is 1/4 + 1/16 + 1/36 + … and each term is one quarter of a term of the full sum. So the even lamps are one quarter of the full sum (0.4112).
+- The odd lamps are therefore three quarters of the full sum. 1.2337 × 4/3 = 1.6449 = pi × pi / 6.
+
+----------------------------------------
+Question: what is the chance that a number picked at random has no repeated prime piece?
+----------------------------------------
+
+The chance is 6 divided by (pi × pi) = 60.79%. Exactly 607926 of the numbers from 1 to one million have no repeated prime piece.
+
+A number fails when some prime squared divides the number. The sieve with squares removes the multiples of 4 (75% left) and then of 9 (66.7% left) and of 25 (64.0%) and of 49 (62.7%) and of 121 (62.2%) and of 169 (61.8%). The share settles at 60.79%.
+
+The ordinary sieve has shrink announcements 1/2 and 1/3 and 1/5 whose pile grows without limit so the share left heads to zero. The square sieve has announcements 1/4 and 1/9 and 1/25 whose pile settles at 0.4522 so a positive share survives.
+
+Flipped upside down the factor for the prime 2 becomes 1 / (1 − 1/4) = 1 + 1/4 + 1/16 + … and the prime 3 gives 1 + 1/9 + 1/81 + … Multiplying those sums across every prime produces 1 over each whole number squared exactly once because each number is built from primes in one way. So the flipped product is pi × pi / 6.
+
+The same number is the chance that two numbers picked at random share no prime piece. Out of one million random pairs 608244 shared no prime piece.
+
+----------------------------------------
+Question: what does the zeta function at 1/2 mean?
+----------------------------------------
+
+The dial at 1/2 gives 1 + 1/√2 + 1/√3 + … which adds 1 over the square root of each whole number. The total is 18.59 after 100 terms and 198.54 after 10000 terms. The growing part is twice the square root of the number of terms. Taking the growing part away leaves −1.41 and then −1.455 and the leftover heads to −1.4604 which is the value of the zeta function at 1/2.
+
+The mirror rule pairs the setting s with the setting 1 − s so the setting 1/2 pairs with itself.
+
+The dial can also carry a sideways amount. A sideways amount does not change the size of a term and only turns the term. With the dial at 1/2 plus a sideways amount t the term for the number n is an arrow of length 1 over the square root of n turned by an angle of t times the natural logarithm of n. The critical line is the family of settings with the dial at 1/2 and every sideways amount.
+
+For certain sideways amounts the chain of arrows closes up and the total is zero. The first few are 14.13 and 21.02 and 25.01. Each such zero produces one ripple in the count of primes.
+
+----------------------------------------
+Question: 1 divided by the square root of 3 looks like another number near the Omega constant. Is the number related?
+----------------------------------------
+
+1 divided by the square root of 3 is 0.5773503 and the gap constant is 0.5772157. The two agree to three digits and differ by 0.00013. No equation is known that ties the two together.
+
+In its own right 0.57735 is the slope of a line tilted at 30 degrees and the distance from the center of a triangle with three equal sides of length 1 to a corner and the typical wobble of a value picked evenly at random between −1 and 1.
+
+Feeding 0.57735 into "1/e raised to that number" gives 0.56138 next to the sieve constant 0.56146. That closeness is forced by the first one.
+
+Two unrelated numbers between 0 and 1 agree to within 0.00013 about once in 4000 tries and simple recipes number in the thousands. A real link holds for every digit. This match stops at three digits.
+
+----------------------------------------
+Question: what are the ripples?
+----------------------------------------
+
+Add the natural logarithm of a prime each time a prime or a power of a prime is passed on the number line. That running total is a jagged staircase and the smooth guess for the staircase at the point x is x.
+
+A ripple is a pure wave added to the smooth guess. The first ripple (from the zero at 14.13) has these values.
+
+- +0.37 at 8 and −0.41 at 10.
+- +0.46 at 12.5 and −0.57 at 16.
+- +0.63 at 20 and −0.71 at 25.
+- +0.78 at 31 and −0.88 at 39.
+- +0.99 at 49 and −1.10 at 61.
+
+Each crest is about 1.56 times further along than the one before so the wave is evenly spaced on the logarithm scale. The height at each point is 0.14 times the square root of that point. The ripple from 21.02 repeats at a factor of 1.35 and the ripple from 25.01 at a factor of 1.29.
+
+A plus value says the staircase runs ahead of the smooth guess there and a minus value says the staircase runs behind. Added together the ripples pile up where a prime or a power of a prime sits and cancel in between. A sharp click can be built from many pure tones that peak at one instant and the staircase is a row of clicks.
+
+A count at 20.5 where the true staircase is 19.266:
+
+- The smooth guess alone gives 18.663.
+- Adding the first ripple gives 19.272.
+- Adding 200 ripples gives 19.256.
+
+At 50.5 the true staircase is 49.485 and the smooth guess gives 48.662 and 200 ripples give 49.557. The totals settle slowly and higher points need many more ripples. With every ripple included the formula is exact which is a proven result.
+
+----------------------------------------
+Question: why is "no zero at dial 1" the same as the rule 1 divided by the natural logarithm?
+----------------------------------------
+
+The height of a ripple is x raised to its dial position. The smooth guess is a ramp which is x raised to the power 1. A zero at dial 1 would give a ripple that grows as fast as the ramp so the staircase would never settle onto the ramp. With every dial below 1 each ripple shrinks as a share of the ramp. "The staircase closes in on the ramp" unpacks to "primes near a number show up at the rate 1 divided by the natural logarithm". That was proven in 1896.
+
+At one million a ripple at dial 1/2 has a height near 141 (0.014% of the ramp). A ripple at dial 0.9 would have a height near 35500 (about 3.6%). A ripple at dial 1 would stay near 14% at every size.
+
+----------------------------------------
+Question: what are the smooth ramp and the chord of pure tones and the same square root rate?
+----------------------------------------
+
+On the logarithm scale each ripple is a pure tone with a fixed pitch. The pitches 14.13 and 21.02 and 25.01 and 30.42 and 32.94 are not whole-number multiples of one another so the chord sounds like a bell. The staircase equals the ramp plus all the tones.
+
+Subtract the ramp and divide by the square root of x. If every zero has its dial at 1/2 then what remains is a steady chord whose tones never get louder or quieter. The loudness of each tone is about 2 divided by its pitch (0.141 and 0.095 and 0.080 for the first three).
+
+The steady chord measured: +0.13 at 10000 and +0.16 at 100000 and −0.41 at one million.
+
+A zero at dial 0.6 would leave a tone growing like x raised to the power 0.1 which is 4 times louder at one million and ten billion times louder at a 100 digit number. The unproven claim about the critical line says no tone does that.
+
+The mirror rule pairs a zero at dial 1/2 plus an offset with a partner at 1/2 minus the offset so zeros cannot all sit left of 1/2. Every zero exactly on 1/2 is the calmest arrangement the mirror allows. What is proven: every zero of this kind has its dial strictly between 0 and 1. More than 40% of the zeros sit exactly on 1/2. Computers have checked about the first ten trillion zeros and found every one on 1/2.
+
+----------------------------------------
+Question: what hidden regularity does the wave view expose?
+----------------------------------------
+
+The gaps between primes from 50 million to 100 million have an average of 18.1 and a spread of 15.5. A spread nearly as large as the average is the mark of the waiting-time shape.
+
+The first 200 pitches with gaps rescaled to an average of 1:
+
+- The spread of the gaps is 0.36 against 1 for a waiting-time shape.
+- The smallest gap is 0.32 and the largest is 1.96.
+- No gap is below one quarter of the average where a waiting-time shape would put 22% of the gaps.
+- 5% of the gaps are below half the average where a waiting-time shape would put 39%.
+
+A short formula counts the pitches below any height: (height / (2 × pi)) times (the natural logarithm of (height / (2 × pi)) minus 1) plus 7/8. At 100 the formula gives 29.002 and the true count is 29. At 396 the formula gives 198.998 and the true count is 199. The "minus 1" is the average-logarithm correction from the first page.
+
+The pitches determine every prime and the primes determine every pitch. The raggedness of the primes is traded for a list that is evenly spread. The regularity is statistical: no formula is known that gives the pitches one by one.
+
+----------------------------------------
+Question: could digits be stored as arrows tilted at different degrees to save space?
+----------------------------------------
+
+The scheme is a reversible code. A slope of 0.577 belongs to an arrow at 29.985 degrees and a slope of 0.698 belongs to an arrow at 34.915 degrees.
+
+A typical chunk does not get shorter. One hundredth of a degree moves the slope by about 0.0002 so the angle must be written to two decimal places. There are 1000 possible three-digit chunks so any code needs 1000 different labels.
+
+Some numbers get a huge saving. The slope of an arrow at exactly 30 degrees is 0.5773502691896… and "30" plus the word "slope" rebuild every digit. A number can be stored in less space exactly when a short recipe produces the number. Most long strings of digits have no recipe shorter than the digits because there are far more long strings than short recipes.
+
+Sound and photo files are stored as lists of waves with a strength for each wave. The saving there is from the smoothness of the data and from dropping weak waves.
+
+----------------------------------------
+Question: what more is there to the sum of 1 over each prime growing like the logarithm of the logarithm?
+----------------------------------------
+
+The sum counts prime pieces. The sum of 1 over each prime up to x is the average number of different primes dividing a number up to x. The average over every number up to one million is 2.854 against a sum of 2.887.
+
+- 7.9% of the numbers up to one million have exactly one prime piece (the primes and the powers of one prime).
+- 28.9% have two different prime pieces.
+- 38.0% have three.
+- 20.8% have four.
+- 4.2% have five.
+- 0.23% have six and 8 numbers have seven.
+
+A typical 100 digit number has about 5.7 different prime pieces.
+
+Equal gains for each doubling of the digit count. Primes up to 100 give 1.803. Primes up to 10000 give 2.483 (a gain of 0.680). Primes up to one hundred million give 3.175 (a gain of 0.692). The 5760226 primes with 5 to 8 digits add no more than the 1204 primes with 3 or 4 digits.
+
+The smoothness. At one hundred million the true sum is 3.174975 and the formula "double logarithm plus 0.2615" gives 3.174971.
+
+----------------------------------------
+Question: why is the expected count of different primes dividing a random number equal to the sum of 1 over each prime?
+----------------------------------------
+
+Make a tally sheet. The rows are the numbers 1 through 30. The columns are the primes 2 and 3 and 5 and 7 and 11 and 13 and 17 and 19 and 23 and 29. Put a mark wherever the column's prime divides the row's number.
+
+Counting by rows. Each row's marks are that number's different prime pieces. The number 30 has three marks (2 and 3 and 5) and the number 16 has one mark and the number 1 has none. The rows total 43 marks so the average is 43 / 30 = 1.43 marks per number.
+
+Counting by columns. The column for 2 has 15 marks because every second number gets one. The column for 3 has 10. The column for 5 has 6. The column for 7 has 4. The columns for 11 and 13 have 2 each. The columns for 17 and 19 and 23 and 29 have 1 each. The columns total 15 + 10 + 6 + 4 + 2 + 2 + 1 + 1 + 1 + 1 = 43.
+
+Both counts cover the same marks so the totals agree. The column for a prime p holds about 30 / p marks so the average per number is about 1/2 + 1/3 + 1/5 + … That sum over the ten primes is 1.53. The true 1.43 is a little lower because a column cannot hold a part of a mark (30 / 7 is 4.29 and the column holds 4).
+
+The rule needs no assumption that the primes act independently. Averages add even when the events overlap. The number 30 sits in three columns at once and is counted once in each.
+
+----------------------------------------
+How the questions tie back to the lists
+----------------------------------------
+
+- Blocking the small primes lifts a recipe because most of the average count of prime pieces sits with the small primes (1/2 + 1/3 + 1/5 + 1/7 is 1.176 of a total near 5.7 for a 100 digit number).
+- The "give or take" figure on each line is square root sized which is the same size as the ripples when the dial sits at 1/2.
+- The stronger bump rule avoids outputs that share small prime pieces which is a sieve of the same kind as the square sieve above.
