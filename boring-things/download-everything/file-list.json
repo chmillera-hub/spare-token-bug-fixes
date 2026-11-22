@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-22",
- "file_count": 1323,
- "total_bytes": 96500103,
+ "file_count": 1337,
+ "total_bytes": 96606518,
  "files": [
   {
    "path": ".gitignore",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 7260,
+   "bytes": 8069,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 131016,
+   "bytes": 155332,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -753,6 +753,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/grouped-list.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/grouped-list.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/half-dial-questions.md",
+   "title": "Questions about why the zeros sit on the dial setting 1/2",
+   "bytes": 24043,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/half-dial-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/half-dial-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/ladder-questions.md",
@@ -10000,7 +10009,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 13911,
+   "bytes": 14313,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10401,6 +10410,123 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/fib_prime_sum.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/README.md",
+   "title": "Programs that recheck the page half-dial-questions.md",
+   "bytes": 2139,
+   "type": "md",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/README.md"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/check.py",
+   "title": "check.py",
+   "bytes": 8733,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/check.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/half-dial-questions.txt",
+   "title": "half-dial-questions.txt",
+   "bytes": 24713,
+   "type": "txt",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/half-dial-questions.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/half-dial-questions.txt"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1_mixed.py",
+   "title": "p1_mixed.py",
+   "bytes": 1959,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1_mixed.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1_mixed.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1b_offline.py",
+   "title": "p1b_offline.py",
+   "bytes": 2499,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1b_offline.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p1b_offline.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p2_dials.py",
+   "title": "p2_dials.py",
+   "bytes": 679,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p2_dials.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p2_dials.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p3_baseline.py",
+   "title": "p3_baseline.py",
+   "bytes": 1778,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p3_baseline.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p3_baseline.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p4_pair.py",
+   "title": "p4_pair.py",
+   "bytes": 1322,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p4_pair.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p4_pair.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p5_heights.py",
+   "title": "p5_heights.py",
+   "bytes": 2959,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p5_heights.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p5_heights.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p6_misc.py",
+   "title": "p6_misc.py",
+   "bytes": 2759,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p6_misc.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p6_misc.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p7_pure.py",
+   "title": "p7_pure.py",
+   "bytes": 4067,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p7_pure.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p7_pure.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p8_detector.py",
+   "title": "p8_detector.py",
+   "bytes": 1735,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p8_detector.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/p8_detector.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/zfun.py",
+   "title": "zfun.py",
+   "bytes": 1503,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/zfun.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/half-dial-scripts/zfun.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/hybrid.py",
