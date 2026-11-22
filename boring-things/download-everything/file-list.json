@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-22",
- "file_count": 1343,
- "total_bytes": 96688492,
+ "file_count": 1344,
+ "total_bytes": 96736097,
  "files": [
   {
    "path": ".gitignore",
@@ -2139,6 +2139,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/fast-reply-comments.txt",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/fast-reply-comments.txt"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/game-scene-grief-thread.md",
+   "title": "A game scene and a grief: a support thread for a trans woman in new wording",
+   "bytes": 47605,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/game-scene-grief-thread.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/game-scene-grief-thread.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/generic-phrases-10000.txt",
