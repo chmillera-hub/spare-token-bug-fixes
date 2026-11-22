@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-21",
- "file_count": 1314,
- "total_bytes": 96372852,
+ "built_on": "2026-11-22",
+ "file_count": 1317,
+ "total_bytes": 96407932,
  "files": [
   {
    "path": ".gitignore",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 5500,
+   "bytes": 6062,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 85494,
+   "bytes": 98815,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -726,6 +726,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/checker.html",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/checker.html"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/coin-flip-questions.md",
+   "title": "Questions about locks and lap lengths and the coin flip inside the critical line",
+   "bytes": 13579,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/coin-flip-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/coin-flip-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/equation-list.md",
@@ -2206,7 +2215,7 @@
   {
    "path": "1-research-click-here-first/three-needs/README.md",
    "title": "Three needs",
-   "bytes": 2389,
+   "bytes": 2770,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md",
@@ -2229,6 +2238,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/help-without-jobs.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/help-without-jobs.md"
+  },
+  {
+   "path": "1-research-click-here-first/three-needs/jar-and-one-meal.md",
+   "title": "What a jar of marbles says about one meal",
+   "bytes": 3709,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/jar-and-one-meal.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/three-needs/jar-and-one-meal.md"
   },
   {
    "path": "1-research-click-here-first/three-needs/penny-in-every-pocket.md",
@@ -9946,7 +9964,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 12926,
+   "bytes": 13288,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10248,6 +10266,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/champions.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/champions.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py",
+   "title": "coin_flip_questions_check.py",
+   "bytes": 3166,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/dead_bump.py",
