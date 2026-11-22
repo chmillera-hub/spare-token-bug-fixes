@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-22",
- "file_count": 1339,
- "total_bytes": 96640880,
+ "file_count": 1341,
+ "total_bytes": 96666972,
  "files": [
   {
    "path": ".gitignore",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 8596,
+   "bytes": 9177,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -703,7 +703,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 170377,
+   "bytes": 181515,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -870,6 +870,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/root-questions.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/root-questions.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/sky-questions.md",
+   "title": "Questions about crowded lamps and the dark night sky",
+   "bytes": 11125,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/sky-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/sky-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/strip-questions.md",
@@ -10018,7 +10027,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 14608,
+   "bytes": 14912,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10815,6 +10824,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/running_sums_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/running_sums_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/sky_questions_check.py",
+   "title": "sky_questions_check.py",
+   "bytes": 2944,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/sky_questions_check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/sky_questions_check.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/strip_questions_check.py",
