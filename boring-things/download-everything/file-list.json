@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-21",
- "file_count": 1307,
- "total_bytes": 96227427,
+ "file_count": 1309,
+ "total_bytes": 96243267,
  "files": [
   {
    "path": ".gitignore",
@@ -694,7 +694,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 3707,
+   "bytes": 4151,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -789,6 +789,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/ranked-list.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/ranked-list.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/reciprocal-questions.md",
+   "title": "Questions about reciprocals and painters and smoothing and the −1/12",
+   "bytes": 12155,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/reciprocal-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/reciprocal-questions.md"
   },
   {
    "path": "1-research-click-here-first/scattered-pages-reflection.md",
@@ -9910,7 +9919,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 12016,
+   "bytes": 12259,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10491,6 +10500,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/reciprocal_questions_check.py",
+   "title": "reciprocal_questions_check.py",
+   "bytes": 2998,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/reciprocal_questions_check.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/reciprocal_questions_check.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/removed_first_digit.py",
