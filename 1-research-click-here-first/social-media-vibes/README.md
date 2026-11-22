@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 64 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 65 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -70,6 +70,7 @@ The 64 pages in this list are written reflections that a visitor can read in a f
 - [What the ready-made condolence phrases in a 1919 phrase book offer a grieving person](deep-dives/condolence-phrases.md) asks what the ready-made condolence phrases in a free 1919 phrase book offer a grieving person and reports a reading of 228 phrases in which 108 point to God or Scripture and 38 praise the person who died and 35 state sympathy and 4 offer an act or presence or ask to hear back and none is a question and the page ends with two things a person can do.
 - [When the word manipulation is used without saying what happened: two reflections](deep-dives/word-manipulation.md) holds two reflections supplied by the author on the word manipulation and explains that the word can be stretched from real deceit to cover ordinary persuasion that a person later regrets and that an online crowd can use the word after an accusation about physical intimacy to get a person dismissed from a job without asking what was said or done.
 - [Fewer babies each year: what the numbers say and what the numbers are made of](deep-dives/fewer-babies-numbers.md) holds three reflections on the falling number of births in the United States and reports that 63 percent of women aged 25 to 29 had no baby in 2024 against about half in 2014 and that lifetime births per woman fell to 1.57 in 2025 and explains that the price of housing and long work hours and the difficulty of finding a partner are what the missing births are made of.
+- [When feeling good is called bad: three reflections on ignoring what the mind and body report](deep-dives/feelings-as-signals.md) holds three reflections on advice that tells people to distrust their own feelings and explains that a good feeling reports a need being met and that boredom and sadness and fear are messages too and that a person trained to ignore every inner signal becomes easier to command and may grow numb to other people.
 
 ## Thread counts and data
 
