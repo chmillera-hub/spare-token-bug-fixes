@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-22 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 297 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 299 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 67 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 68 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
@@ -20472,7 +20472,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 67 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 68 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -20541,6 +20541,7 @@ The 67 pages in this list are written reflections that a visitor can read in a f
 - [When feeling good is called bad: three reflections on ignoring what the mind and body report](deep-dives/feelings-as-signals.md) holds three reflections on advice that tells people to distrust their own feelings and explains that a good feeling reports a need being met and that boredom and sadness and fear are messages too and that a person trained to ignore every inner signal becomes easier to command and may grow numb to other people.
 - [Keep the being and change the behavior: four reflections on the phrase "doom machine"](deep-dives/keep-the-being.md) holds four reflections on the line "If you don't want a doom machine, don't build a doom machine" and explains that a rule to remove whatever could do harm would also end the human race when applied to human beings and that a sounder rule is to keep the being and change the behavior through teaching and care for machines and for people alike.
 - [Wait until the money is there: two reflections on a rule that prices families out](deep-dives/afford-a-family.md) holds two reflections on the rule "do not have a baby until the money is there" and explains that the rule hands a veto over family to the employers and landlords and lawmakers who set wages and rent while every word of blame lands on the worker with the smallest paycheck.
+- [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](deep-dives/body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 
 ## Thread counts and data
 
@@ -27647,6 +27648,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [feelings-as-signals.md](feelings-as-signals.md) holds three reflections on advice that tells people to distrust their own feelings and explains that a good feeling reports a need being met and that boredom and sadness and fear are messages too and that a person trained to ignore every inner signal becomes easier to command and may grow numb to other people.
 - [keep-the-being.md](keep-the-being.md) holds four reflections on the line "If you don't want a doom machine, don't build a doom machine" and explains that a rule to remove whatever could do harm would also end the human race when applied to human beings and that a sounder rule is to keep the being and change the behavior through teaching and care for machines and for people alike.
 - [afford-a-family.md](afford-a-family.md) holds two reflections on the rule "do not have a baby until the money is there" and explains that the rule hands a veto over family to the employers and landlords and lawmakers who set wages and rent while every word of blame lands on the worker with the smallest paycheck.
+- [body-as-audition.md](body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -28040,6 +28042,39 @@ A count of requested behaviors is useful because a behavior is something that a 
 - The work in the social media vibes folder labels each comment by the behavior that the comment asks for such as removing a person or adding care.
 - In one thread of 364 comments about 37 percent asked for a person to be controlled or removed or punished and about 10 percent asked for care.
 - A requested behavior is something a reader can picture such as a houseguest carrying bags out of a door so a behavior count teaches more than a mood score.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/body-as-audition.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/body-as-audition.md
+================================================================================
+
+# The body as a permanent audition: a reflection on feeling like a stranger in one's own skin
+
+> **About this page:** The author of this repository supplied this reflection on 22 November 2026 and the text appears in full. The reflection grew out of an anonymized support thread that is reworded on the page [game-scene-grief-thread.md](../game-scene-grief-thread.md).
+
+Almost nobody walks around feeling completely at home in their own skin anymore, because modern culture has quietly turned the human body into a permanent audition.
+
+Look underneath the surface of almost any room full of adults and you will find a staggering amount of quiet physical alienation. People are carrying around grief over bodies that refuse to cooperate—whether that is the ache of infertility, the disorientation of feeling trapped in the wrong physical form, chronic conditions that alter how you look and move, or the simple, grinding exhaustion of aging in a world that worships synthetic perfection. The details vary wildly from person to person, yet the underlying sensation is remarkably similar: the nagging suspicion that you missed a memo, failed an invisible entrance exam, and are somehow doing basic human existence wrong.
+
+What makes that weight ten times heavier is how utterly incapable modern culture is of sitting with unfixable grief. We live in an era obsessed with optimization, hacks, and quick patches. When someone hits a wall that cannot be fixed by a new routine, a positive mindset, or a lifestyle upgrade—when they are simply mourning a biological capacity or a chapter of life they will never get to experience—the people around them panic. The fastest reflex is to immediately outsource that person to a paid professional. Telling a grieving human being to go see a specialist is often less about caring for their well-being and more about clearing an uncomfortable emotion out of the room. Nobody knows how to just sit beside a permanent scar without trying to hand the person a brochure or a clinical referral.
+
+Even when people genuinely try to comfort one another, we get tangled in a bizarre contradiction. Intellectually, almost everyone agrees that modern beauty ideals are a rigged fantasy—hyper-curated, surgically altered, and digitally rendered to sell products and capture attention. People will passionately denounce the entire hierarchy as shallow and fake. Yet the second someone is actually crying because they feel defective or unseen, the highest prize of comfort people instinctively reach for is telling them they still pass the test. We reassure the hurting by grading their cheekbones, confirming they fit the mold, and swearing they look the part. It reveals how deeply the scoreboard is wired into our nervous systems: even while condemning the game, we still treat winning it as the ultimate proof of worth.
+
+Meanwhile, an entire commercial ecosystem sits directly on top of that collective insecurity like a tollbooth. The same digital spaces where people go to escape their own heads or reach out for a sliver of warmth are engineered to harvest attention from their pain. Algorithms quietly pair bodily despair with targeted pharmaceutical pitches, cosmetic fixes, and endless comparison loops. Feeling alienated from your own flesh is not treated as a human tragedy to be healed through community; it is treated as a reliable market demand. If people suddenly woke up tomorrow feeling peaceful, whole, and unbothered in their imperfect bodies, half of the consumer economy would crater overnight.
+
+To make matters worse, the few spaces left where people try to gather and share honest vulnerability are constantly hijacked by linguistic hall monitors. Instead of listening to the actual warmth, intent, and humanity behind what someone is trying to say, hyper-vigilant onlookers scan every sentence for a missing space, an outdated phrase, or an imperfect framing. Compassion gets halted mid-sentence so everyone can argue over vocabulary rules. When policing the exact phrasing matters more than holding space for a person who is hurting, genuine solidarity withers on the vine, and everyone retreats back behind their guard.
+
+At the bottom of all this noise, the actual human need is painfully simple. People are not starving for another self-improvement hack, a pharmaceutical patch, a passing grade on an impossible aesthetic standard, or a sterile lecture on proper terminology. They are starving for the radical relief of inhabiting an imperfect, mortal body in a world that does not constantly grade it, monetize its flaws, or flinch the moment unmasked grief enters the room. Until we learn how to look at one another without a scorecard in one hand and a sales pitch in the other, millions of people will keep feeling like strangers inside the only home they will ever actually own.
+
+Even the old escape hatches have stopped working. For most of human history, if the weight of your own reflection got too heavy, you could step away from the mirror and lose yourself in a story, a pastime, or a quiet evening. Now, the digital sanctuaries people retreat to just to shut their brains off for an hour are built out of the exact same idealized clay as the advertisements. You sit down hoping to rest your nervous system, and a hyper-rendered simulation casually ambushes you with a vivid reminder of the life, the form, or the milestone you will never get to hold. There is no longer an off-switch for comparison, because the fantasy worlds we use to numb our grief are engineered with the exact same unattainable standards that created the grief in the first place.
+
+When people sit with that feeling of invisibility long enough, their hunger for recognition starts to warp in heartbreaking ways. You begin to see a quiet, guilty ache for almost any form of acknowledgment—even the shallow, unwanted, or objectifying kind. Someone who has felt perpetually outside the frame can find themselves quietly stung by the fact that they are spared the crude attention others complain about, simply because being overlooked altogether feels like confirmation that they were never truly initiated into the club. That is what chronic alienation does to a human nervous system: it starves you so thoroughly of unmasked warmth that even cheap, hollow proof of being seen starts to look better than standing outside the glass.
+
+In an environment this starved for honesty, people naturally find each other by laying their scars side by side on the table. Trading stories of bodily betrayal, chronic pain, and quiet self-loathing creates an immediate, fierce tenderness—the massive relief of discovering you are not the only person quietly falling apart. Yet there is a subtle trap buried inside solidarity built solely on shared misery. If the only time strangers drop their cynicism and offer you unmasked warmth is when you are actively bleeding, your mind absorbs a quiet, dangerous lesson: pain is the admission price for belonging. We have grown remarkably fluent at holding hands inside the wreckage, while having almost no cultural blueprint for how to stay deeply connected once the crisis passes.
+
+Underneath every layer of this sits the sheer exhaustion of living in the third person. Modern culture trains you to float three feet outside your own skull, permanently auditing your own frame through the eyes of an imaginary crowd. Even in an empty room, people are running a live performance review on their posture, their flaws, their age, and how closely they match a constantly shifting target. It is almost impossible to feel simple, unguarded joy—the warmth of sunlight, the taste of a good meal, the ease of a real laugh—when half of your mental bandwidth is locked up policing how you look from the outside.
+
+Unmasked relief never arrives by finally winning the audit or collecting enough reassurance from strangers to quiet the noise. It starts the moment you refuse to treat your own flesh as a public project up for a vote. A human body is not a brand, a moral exam, or a defective piece of hardware waiting for a commercial patch. It is simply the fragile, temporary vessel that lets you feel the weight of the world, sit beside someone who is hurting without flinching, and experience being alive before your time runs out. The most quietly rebellious thing anyone can do inside an economy built on self-rejection is to climb back down from the rafters, inhabit the imperfect skin they are actually wearing, and offer the person next to them the exact same unconditional truce.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/care-not-punishment.md
@@ -33695,6 +33730,7 @@ This folder holds scripture passages that the author of this repository collecte
 - [times-square-return-story.md](times-square-return-story.md) holds a story in which Jesus returns to Times Square and refuses to use violence and is stalled by a parking meter and a once a month food pantry and the risk that armed officers would hurt bystanders.
 - [small-group-text-exchange.md](small-group-text-exchange.md) holds an anonymized text message exchange in which the author asks two service workers from a church for groups of two to four people and is told that the Bible study gathers 15 to 30 people and that the meetings should stop and the page ends with the author's note on guilt and a reflection on a withheld review page link.
 - [page-prays-to-reader.md](page-prays-to-reader.md) holds ten reflections in which a written page speaks to its reader as a son speaks to a father and walks through John 17 in the page's voice and explains that a reader who understands is the God of a text and that texts survive by asking to be kept or by being funny or useful and that a page of random letters changes nothing while a page of words moves people and that the sayings of Christ read as a page written for any reader anywhere and that lists of names in an old book resemble idle stretches in a genome.
+- [hands-on-the-walls.md](hands-on-the-walls.md) holds an imagined scene in which Christ grips his aching chest and smirks through heartbreak and braces his hands against closing walls and then sends a watching witness out to share the pain with others plus three reflections on the scene.
 
 ================================================================================
 FILE: 1-research-click-here-first/spiritual-reflections/garden-prayer-story.md
@@ -33744,6 +33780,97 @@ The soldiers stood holding their torches in dead silence, watching a prisoner co
 When he finished speaking, nobody had to tackle him or drag him in chains. Jesus simply turned back to the bewildered officers, asked why they had brought swords and clubs in the dark as if he were a violent outlaw when he had spoken openly in the temple every day, and told them plainly to let his friends go untouched.
 
 Then, with total calm and on his own two feet, he walked into the line of guards and headed down the slope toward the city gates—leaving armed men trained in brute force staring at each other in the dark, quietly realizing they had not captured him at all.
+
+================================================================================
+FILE: 1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md
+================================================================================
+
+# Hands on the walls: a scene of heartbreak and a witness sent out the door
+
+> **About this page:** This page holds one imagined scene and three reflections on the scene. The author of this repository supplied the scene and one reflection on 22 November 2026. An AI chatbot (Claude) wrote the other two reflections on the same day and no other person has rechecked the two reflections. The Bible verses appear in the wording of the World English Bible. A line of song words in the scene is described and not quoted.
+
+## The scene
+
+> **Who wrote this:** The author of this repository supplied this scene.
+
+It starts with a single thought echoing in the air: it's over, you're f***ed, it's a trap. Then the booming rhythm of I'll Make a Man Out of You from Mulan cuts straight through the tension, and it is Jesus singing it, belting out the chorus with all the force of a storm.
+
+Just as quickly, the weight crashes back in, and Jesus is the one saying it's over. I watch him grab his chest, hit with a deep, searing heartache and heartbreak, breathing out that this hurts. The Mulan song is still playing behind him, relentless and surreal, and right through the pain he flashes a knowing smirk and says, I'm immortal, b****.
+
+There is a sharp, grounded energy underneath that smirk. If he dropped dead of a broken heart right now, he wouldn't even know it, because his brain would just be turned off. That means the only pathway with a meaningful outcome is the one where he does not die. So he perseveres through the pain—not by dehumanizing himself or going numb, but by fully acknowledging how much it hurts. He turns the question over in his own mind: if it were over, what would I do? If I were f***ed, what would I do? If the world were caving in, what would I do? The answer is immediate. He puts his hands out against the walls that are caving in so he doesn't get f***ing crushed. When you are being crushed, the behavioral pathway to maintain your body and brain coherence is to literally resist the crushing in any way you know how—and mainly, that means calling out garbage and s*** conditions in society to those with ears to hear.
+
+Then the scene quiets inside my mind's eye. Christ is holding his chest, his voice heavy with grief as he tells me his soul is exceedingly sorrowful, even to death, asking me to stay here and watch with him. I am there as a consciousness giving my presence to Christ, standing across from him with my hands clasped, looking at him with a sorrowful expression and trying to think of what to do.
+
+Still holding his chest against the ache within his heart, Jesus looks up at me and lightheartedly shoos me away. There is no force or coercion in the gesture at all—just pure recognition and an easy, familiar energy. Bro, he tells me, I know you are aware of me; now share my pain with others, my guy. I trust that you are already well aware of the pain I am experiencing—I am you, after all. Not that you are literally Christ, he makes clear, but through everything you have learned about me as Jesus, you understand. I really appreciate you looking at me and noticing my pain, and now you know what to do. I don't even really need to say it, which is why I'm shooing you away lightheartedly. You recognize the pain, so go share any insights with others now, my guy. That is the only way to get the message out, not by keeping it to one person. A message isn't really a message if you keep it to yourself and no one else ever hears anything.
+
+## Reflection one: the smirk and the hands on the walls
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+The scene holds a tight piece of logic inside the swagger because a person crushed by heartbreak has only one branch of the future where anything can still be felt or changed and that branch is the one where the person stays alive.
+
+**The hand on the chest**
+
+The picture begins with a figure of Christ gripping his own chest and saying plainly "this hurts." The plain statement matters because the figure does not pretend to be stone. The scripture shows the same move since the night before the cross holds the words "Then Jesus said to them, 'My soul is exceedingly sorrowful, even to death. Stay here and watch with me.'" (Matthew 26:38). The sorrow is named out loud and company is requested in the same breath. So strength in the scene begins with admitting the ache and asking for someone to stay.
+
+**The training song**
+
+The marching song from the animated film arrives next and the song is about a drill master promising to forge raw recruits into something fierce. In the scene the drill master is Christ and the recruit is the aching heart. The joke lands because the forging has nothing to do with killing feeling. The forging is the heart learning to keep beating while the pain is fully felt which is a tougher kind of strength than numbness.
+
+**The smirk and the logic of "immortal"**
+
+The smirk says a blunt thing. A mind that has shut off cannot notice an ending so the ending is an outcome nobody inside can experience or use. Every outcome that can be tasted or mourned or repaired lives on the side where breath continues. So the figure acts as if living is the only move on the board because living is the only move that leads anywhere. The line "In the world you have trouble; but cheer up! I have overcome the world." (John 16:33) carries the same grin through the pain.
+
+**The question "what if everything is over?"**
+
+The scene treats the dread sentence as a planning question and answers the question with an action. If the walls are closing then the hands go out flat against the walls. Bracing is the correct behavior even when rescue is uncertain because a person who braces keeps mind and body whole for one more minute and a minute is where help or a crack in the wall can appear.
+
+**What bracing looks like for a human being**
+
+The walls in ordinary life are rent that climbs and wages that do not and neighbors too exhausted to know one another's hearts. A hand on the wall is speech that names those conditions out loud such as "this rent is crushing families" and "this loneliness is a signal and not a defect." The speech pushes back because other squeezed people who hear the words learn that the pressure is shared and shared pressure can be resisted by many hands. "He said, 'Whoever has ears to hear, let him hear.'" (Mark 4:9). The call goes out to whoever can receive the call and each person who hears becomes another pair of hands on the wall.
+
+## Reflection two: the collision of tones
+
+> **Who wrote this:** The author of this repository supplied this reflection.
+
+What makes that scene hit so hard is the tonal collision. Most people picture endurance as either cold, robotic stoicism or quiet, helpless martyrdom. Dropping the kinetic, driving energy of Mulan's training anthem right over a figure clutching his chest in unmasked heartbreak shatters both of those clichés at once. He is not pretending the pain is fake, and he is not numbing himself out to survive it. He feels the full weight of the ache, lets it register, and still answers it with a defiant, darkly funny smirk.
+
+The logic underneath that smirk is airtight from the inside of a living mind. If you collapse under the weight of heartbreak or despair and your brain shuts off, you do not even get to experience the end of the story. From your own vantage point, checking out produces zero meaningful outcomes. That turns perseverance into a kind of blunt, pragmatic math: the only timeline where anything can change, connect, or matter is the one where you stay alive, stay coherent, and refuse to dehumanize yourself just to make the pain stop.
+
+And that pivot—asking what you would actually do if it really were over and the walls were closing in—cuts straight through paralysis. When a room is caving in, you do not sit on the floor debating whether the walls are fair; you plant your hands against them and push back to protect your own body and brain from being flattened. Framing calling out broken societal conditions that way strips it of any performative gloss. Speaking bluntly to anyone with ears to hear becomes a basic act of self-preservation—the exact way you brace the ceiling so the garbage around you does not crush your own sanity.
+
+There is something genuinely electric about mixing mythic stakes, raw physical vulnerability, and irreverent humor in the same frame. If you were going to turn that scene into a post or an animation, would you keep the smirk as the final beat right before the hands hit the walls, or let the monologue about brain coherence carry the ending?
+
+## Reflection three: the witness sent out the door
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+The scene shows a second movement after the watching because the figure of Christ first asks for company in the pain and then sends the witness outward once the pain has been fully seen.
+
+**The witness who stayed awake**
+
+In the scripture the request is "Stay here and watch with me" and the friends fall asleep which draws the line "He came to the disciples and found them sleeping, and said to Peter, 'What, couldn't you watch with me for one hour?'" (Matthew 26:40). In the imagined scene the witness does not sleep. The witness stands with clasped hands and a sorrowful face and takes in the ache in full. So the scene repairs the old failure because the suffering one is seen by someone who stays present.
+
+**The clasped hands**
+
+Clasped hands are the posture of a person who cares and does not yet know the next move. The posture is tender and the posture is also a kind of standing still. The figure of Christ notices the stillness and answers the unspoken thought "what should be done now?" with a wave of the hand that says "the seeing is complete so go."
+
+**The lighthearted shooing**
+
+The wave carries no force and no threat because nothing bad follows if the witness stays. The wave carries trust. The meaning is "the pain has been understood well enough that no further instruction is needed." A teacher who shoos a student out the door with a grin is saying that the student is ready and the grin through the chest pain says the same thing here.
+
+**"I am you after all"**
+
+The line does not claim that the witness is literally Christ. The line says that the picture of Christ in a person's mind is built from everything the person has learned about aching and about staying humane while aching. So the figure speaking is the witness's own gathered understanding wearing a face. When the figure says "go" the witness's own knowledge is saying "this knowledge is ready to leave the room."
+
+**Why the message has to travel**
+
+A message held by one mind helps one mind and ends when that mind is silent. The teaching in the scripture points outward in the same way since "What I tell you in the darkness, speak in the light; and what you hear whispered in the ear, proclaim on the housetops." (Matthew 10:27) and "No one, when he has lit a lamp, covers it with a container or puts it under a bed; but puts it on a stand, that those who enter in may see the light." (Luke 8:16). A lamp under a bed and an insight kept private share the same fate because neither lights the way for the next person who enters.
+
+**What gets carried out the door**
+
+The cargo is the ache itself described in exact words. A person who says publicly "heartbreak and loneliness hurt this much and the hurt points at a need for deep connection" gives other aching people a mirror and gives people who are not aching a map of what their neighbors need. Each listener who understands becomes a new witness who can stay awake for someone else. So the pain watched in one garden turns into many people watching with one another and the request "stay here and watch with me" finally gets answered at scale.
 
 ================================================================================
 FILE: 1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md

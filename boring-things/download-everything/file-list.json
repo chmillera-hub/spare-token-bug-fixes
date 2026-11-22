@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-22",
- "file_count": 1344,
- "total_bytes": 96736440,
+ "file_count": 1346,
+ "total_bytes": 96757878,
  "files": [
   {
    "path": ".gitignore",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 34250,
+   "bytes": 34667,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1423,7 +1423,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 22423,
+   "bytes": 22757,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1509,6 +1509,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/body-as-audition.md",
+   "title": "The body as a permanent audition: a reflection on feeling like a stranger in one's own skin",
+   "bytes": 8550,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/body-as-audition.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/body-as-audition.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/care-not-punishment.md",
@@ -2233,7 +2242,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 1906,
+   "bytes": 2196,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -2247,6 +2256,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/garden-prayer-story.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md",
+   "title": "Hands on the walls: a scene of heartbreak and a witness sent out the door",
+   "bytes": 11847,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md"
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md",
