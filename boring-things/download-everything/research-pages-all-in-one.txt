@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-22 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 292 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 293 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -15290,7 +15290,8 @@ This folder holds computer counts of how often prime numbers show up in the outp
 - [lamp-diagram.svg](lamp-diagram.svg) is the drawing used on the page lamp-questions.md.
 - [strip-questions.md](strip-questions.md) continues the questions and answers with separate lamps set against a smooth strip of light and the −1/12 as the correction between the two and why 0.6449 and the gap constant 0.5772 are the same leftover at two dial settings and how lamp totals are computed with a strip and what a zero on the critical line means (speakers that cancel to silence at certain pitches) and why zeros are ruled out away from the dial setting 1/2 except where the question is still open (standard mathematics with every figure rechecked by a program and no new result claimed).
 - [half-dial-questions.md](half-dial-questions.md) continues the questions and answers with why the zeros would sit on the dial setting 1/2 and almost nowhere else between 0 and 1: the average logarithm of the leftover is flat right of 1/2 and a ramp left of 1/2 so the bend between the two fixes the count of zeros and the wobble of the prime factors has a ceiling right of 1/2 and no ceiling at 1/2 and one speaker with one mirror image already cancels near every true zero and a zero leaves the line as half of a twin pair and a blended row that obeys a mirror rule without being a product over the primes has zeros off the line (ideas known to people who study the zeta function with freshly computed tables and every figure rechecked by a program and no progress on the proof).
-- [all-questions.txt](all-questions.txt) is one plain text file that joins the nine questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md) so a reader can copy the whole discussion at once.
+- [root-questions.md](root-questions.md) continues the questions and answers with the lamp setup for the critical line and the patterns in square roots of whole numbers and how the root of a prime differs from the root of a composite number and two sums with roots on the bottom and lamps placed at the roots of the primes and the boundary at the square root where the total brightness tips from finite to infinite (standard mathematics with every figure rechecked by a program and no new result claimed).
+- [all-questions.txt](all-questions.txt) is one plain text file that joins the ten questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md) so a reader can copy the whole discussion at once.
 - [ranked-list.md](ranked-list.md) is a master list that ranks 723 equations and running sums and other recipes from the most primes down to no primes (−100%). Each line shows how many outputs were tested and the share of the outputs that were prime and the wobble on the percentage and the odds that plain luck explains the result.
 - [grouped-list.md](grouped-list.md) holds the same 723 lines sorted into 35 groups by type (such as equations that start with n² or sums and running totals or digit tricks or recipes built from π) with a ranking inside each group.
 - [equation-list.md](equation-list.md) ranks 86 equations by how many primes the outputs contain and gives the raw counts and the reason for each percentage where a reason is known.
@@ -19893,6 +19894,173 @@ The same fade applied to 1 + 1 + 1 + … with "n divided by 10" gives 9.5083 aga
 - The "chance" figure on each line of the master lists is a sum of painter rates taken over the outputs of a recipe.
 - The percentage on each line is the true count of primes measured against that sum.
 - The rule 1 divided by the natural logarithm is a smoothed record so short samples can sit well above or below the rule by luck which is why each line carries the odds that luck explains the result.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-richness/root-questions.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/root-questions.md
+================================================================================
+
+# Questions about square roots and the boundary at the dial setting 1/2
+
+> **About this page:** One AI model (Claude) wrote this page on 22 November 2026 from a back and forth chat with the author of this repository. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The page continues the nine earlier question pages in this folder (the last one is [half-dial-questions.md](half-dial-questions.md)) and reuses the lamps from [lamp-questions.md](lamp-questions.md) and the speakers from [strip-questions.md](strip-questions.md). The facts are standard mathematics that a search will turn up so the page claims no new result. The value of the page is the plain-language route. A program rechecked every figure (the file root_questions_check.py in the folder boring-things/research-program-files/prime-richness-scripts) and no other person has reviewed the page yet.
+
+## Question: what is the lamp setup for the critical line at the dial setting 1/2?
+
+**The plain version.**
+
+- A source sits at every whole number distance (1 and 2 and 3 and so on).
+- The strength of each source is 1 over the square root of its distance: 1 for the source at 1 and 0.5 for the source at 4 and 0.333 for the source at 9 and 0.1 for the source at 100.
+- Each source sends a wave because waves can cancel and steady light can only add.
+- A pitch knob turns the wave from each source by an angle equal to the pitch times the natural logarithm of that source's distance.
+- The plain total is infinite so the growing part (twice the square root) is taken away as a smooth strip. What is left is the value on the critical line.
+
+Ordinary light fades as 1 over the distance squared (a dial of 2). The critical line uses the gentler fade 1 over the square root (a dial of 1/2). Ripples on a pond fade at about that gentle rate as they spread.
+
+**The version on a logarithm ruler.** Place each source at a position equal to the natural logarithm of its number: source 1 at 0 and source 2 at 0.693 and source 3 at 1.099 and source 4 at 1.386 and source 5 at 1.609 and source 6 at 1.792 (which is 0.693 + 1.099). Now an ordinary wave works because the delay is in plain proportion to position. Each unit along the ruler multiplies the strength by 0.6065 which is half a division by e.
+
+The sources for the primes sit at 0.693 and 1.099 and 1.609 and 1.946 and every other source sits at a sum of those prime lengths. So the endless row is generated by the prime positions.
+
+At most pitches something is left over (1.55 at a pitch of 10). At the pitches 14.13 and 21.02 and 25.01 the sources cancel to silence. The critical line claim says complete silence is possible only at the fade of half a division by e per unit.
+
+## Question: are there patterns in the square roots of whole numbers or are the decimals almost random?
+
+Both. The digits of one root look random while the roots taken together follow tight patterns.
+
+**A ladder between perfect squares.** The roots of 10 through 15 are 3.162 and 3.317 and 3.464 and 3.606 and 3.742 and 3.873. The steps are 0.154 and 0.147 and 0.141 and 0.136 and 0.131. The step from the root of n to the root of n + 1 is about 1 divided by twice the root. So the root of a perfect square plus a little extra is about the whole root plus the extra divided by twice the whole root: the root of 107 is about 10 + 7/20 = 10.35 and the true value is 10.344.
+
+**An even spread.** The decimal parts of the roots of 1 and 2 and 3 and so on fill the stretch from 0 to 1 evenly which is proven.
+
+**A repeating tower.** Any root can be written as a whole number plus 1 over (a whole number plus 1 over (a whole number plus …)). For the root of a whole number that is not a perfect square the list of whole numbers in the tower always repeats.
+
+- The root of 2 gives 1 and then 2 forever.
+- The root of 3 gives 1 and then 1 and 2 repeating.
+- The root of 5 gives 2 and then 4 forever.
+- The root of 7 gives 2 and then 1 and 1 and 1 and 4 repeating.
+- The root of 13 gives 3 and then 1 and 1 and 1 and 1 and 6 repeating.
+
+Cutting the tower for the root of 2 off early gives the fractions 7/5 and 17/12 and 41/29 and 99/70. The fraction 99/70 is 1.41429 against the true 1.41421.
+
+**Copies.** The root of 12 is 2 times the root of 3 because a repeated prime piece slides out of the root as a whole number. The roots that are new are the roots of numbers with no repeated prime piece (60.79% of numbers).
+
+The randomness shows only when a root is written out in base 10 digits.
+
+## Question: does the square root of a prime behave differently from the square root of a composite number?
+
+In the digits no. In the structure yes.
+
+- The root of a composite number is a product of roots of primes. The root of 6 is the root of 2 times the root of 3 (1.4142 × 1.7321 = 2.4495).
+- The prime roots are independent: no mix of fractions times the roots of 2 and 3 and 5 and 7 adds up to zero or to another prime root. That is proven.
+- Taking a root halves a number's stick. The stick of the root of a prime is a single half-piece.
+- In the repeating towers a prime that leaves a remainder of 1 when divided by 4 always has a repeating block of odd length (1 for the root of 5 and 5 for the root of 13 and 1 for the root of 17 and 5 for the root of 29). A prime that leaves a remainder of 3 always has a block of even length (2 for the root of 3 and 4 for the root of 7 and 2 for the root of 11 and 6 for the root of 19). Composite numbers follow no rule that simple (the root of 10 has a block of length 1 and the root of 15 has a block of length 2).
+
+On the critical line the strength of a composite source is the product of the strengths of its prime pieces. The source at 2 has strength 0.707 and the source at 3 has strength 0.577 and the source at 6 has strength 0.408 = 0.707 × 0.577. So the primes fix the strength and the position of every source.
+
+No test is known that reads off from the decimal value of a root whether the number underneath is prime.
+
+## Question: does multiplying square roots lose precision so that sticking to primes would be better?
+
+Multiplying rounded roots does stack the errors. 1.414 × 1.732 = 2.449048 and the true root of 6 is 2.449490 so the product is off by 0.00044. The root of 2 was off by about 15 parts in 100000 and the root of 3 by about 3 parts in 100000 and the product is off by about 18 parts in 100000.
+
+The loss can be avoided in two ways.
+
+- A composite root can be computed straight from the number. Guess and divide and average: start with 2.5 and 6 / 2.5 is 2.4 and the average is 2.45. Then 6 / 2.45 is 2.44898 and the average is 2.4494898. The true value is 2.4494897. Each round roughly doubles the count of correct digits.
+- A root can be left unexpanded as a symbol. As symbols the root of 6 times the root of 6 is exactly 6. As decimals 2.449 × 2.449 is 5.9976.
+
+Storing only the prime roots is a sound idea for a small table because every other root is a product of those. The old logarithm tables were built that way with a few extra digits to absorb the stacked errors.
+
+## Question: what is the sum of 1 over (root of n × root of n + 1)?
+
+The sum grows without limit at the pace of the natural logarithm.
+
+- One term gives 0.7071 and two terms give 1.1154 and three give 1.4040 and four give 1.6276.
+- Ten terms give 2.4168.
+- One hundred terms give 4.6341.
+- Ten thousand terms give 9.2295.
+- One million terms give 13.8345.
+
+The root of n × (n + 1) sits just under n + 1/2 (the root of 3 × 4 is 3.464 against 3.5) so each term is nearly 1 / (n + 1/2). The total minus the natural logarithm of the number of terms is 0.114 at ten terms and 0.029 at one hundred and 0.0191 at ten thousand and 0.0190 at one million. So the leftover is about 0.019.
+
+Without the roots the sum 1/(1 × 2) + 1/(2 × 3) + … totals exactly 1. Taking the root of each bottom is the same as moving the dial from 2 down to 1.
+
+**A root version that telescopes.** With the two roots on the bottom added and not multiplied each term 1 / (root of n + root of n + 1) equals root of n + 1 minus root of n. Three terms total exactly 1 and eight terms total exactly 2 and ninety-nine terms total exactly 9. That sum grows like the square root of the number of terms.
+
+- Bottoms of n × (n + 1) give a total that settles at 1.
+- Bottoms of root n × root (n + 1) give a total that grows like the natural logarithm.
+- Bottoms of root n + root (n + 1) give a total that grows like the square root.
+
+## Question: what is the sum of 1 over (root of 1 × root of 2 × … × root of n)?
+
+The sum settles at 2.4695063.
+
+The terms are 1 and 0.7071 and 0.4082 and 0.2041 and 0.0913 and 0.0373 and 0.0141 and 0.0050. The running totals are 1 and 1.7071 and 2.1154 and 2.3195 and 2.4108 and 2.4480 and 2.4621 and 2.4671 and by ten terms 2.4693.
+
+Dropping the roots gives 1 + 1/2 + 1/6 + 1/24 + … = e − 1. Squaring each term of the rooted sum removes the root so the squares of the terms add up to e − 1 = 1.71828. The chatbot knows of no formula for 2.4695063 in terms of e or pi.
+
+The total sits near pi × pi / 4 = 2.4674. The two agree to two decimal places and split at the third so the closeness looks like a coincidence. With a starting term for n = 0 the total is 3.4695063.
+
+## Question: is the sum of 1 over each prime like the triangle fact 1/h² = 1/a² + 1/b² with a² = 2 and b² = 3 and so on?
+
+Yes. If a squared is 2 and b squared is 3 and c squared is 5 then the sides are the square roots of the primes.
+
+**Lamps.** A lamp at the root of 2 (1.414 away) gives 1/2. A lamp at the root of 3 (1.732 away) gives 1/3. A lamp at the root of 5 (2.236 away) gives 1/5. A lamp at the root of 7 (2.646 away) gives 1/7. So the total brightness of lamps at the root of every prime is the sum of 1 over each prime.
+
+**The triangle fact with more sides.** For the corner of a box with edges a and b and c the distance h from the corner to the slanted face across the three edge tips obeys 1/h² = 1/a² + 1/b² + 1/c². The height h is also the distance where one lamp matches all the prime-root lamps.
+
+- With the primes 2 and 3 and 5 the sum is 1.033 and the height is 0.984.
+- With the primes through 7 the sum is 1.176 and the height is 0.922.
+- With the primes through 277 the sum reaches 2 and the height is 0.707.
+- With the primes through 5195977 the sum reaches 3 and the height is 0.577.
+- With the primes up to about 1.8 × 10 to the power 18 the sum reaches 4 and the height is 0.5.
+
+**Painters.** One painter takes 2 hours alone and one takes 3 hours and one takes 5 hours and so on for every prime. The painters for 2 and 3 and 5 finish together in 58 minutes. Adding the painter for 7 brings the time to 51 minutes. The painters for every prime through 277 finish in 30 minutes and through 5195977 in 20 minutes.
+
+The painter time is 1 divided by the sum and the lamp distance is 1 divided by the root of the sum.
+
+## Question: is there a boundary where pulling the lamps inward makes the total brightness infinite?
+
+Yes and the boundary is the square root. Put the lamp for each prime at a distance equal to the prime raised to a power between 1/2 and 1.
+
+- With a power of 1 the total brightness is 0.452.
+- With a power of 0.9 the total is 0.568.
+- With a power of 0.75 the total is 0.850.
+- With a power of 0.6 the total is 1.520.
+- With a power of 0.55 the total is 2.109.
+- With a power of 0.505 the total is 4.303.
+- With a power of 0.5005 the total is 6.593.
+- With a power of exactly 0.5 the total is infinite.
+
+Moving the power ten times closer to 1/2 adds about 2.3 (the natural logarithm of 10). Brightness uses the distance twice so a lamp at the prime raised to a power a gives 1 over the prime raised to 2a and a row of that kind settles only when 2a is above 1.
+
+For lamps at each whole number raised to the same powers the totals are 1.645 and 1.882 and 2.612 and 5.592 and 10.58 and 100.6 and 1000.6 with the same tipping point.
+
+Even at the boundary the infinity is gentle for the primes: the lamps out to the root of one million give 2.89.
+
+**The tie to the critical line.** The sources on the critical line have a strength of 1 over the square root of the distance. The energy of a wave goes by strength squared so the energies are 1 and 1/2 and 1/3 and 1/4 which is the row that just fails to settle. For a dial setting above 1/2 the total energy of the sources is finite and at or below 1/2 the total energy is infinite. So the critical line is the fade rate at which the combined energy of the sources tips from finite to infinite.
+
+## Question: how does the square root boundary relate to the primes as a whole and is 1/2 another way of saying square root?
+
+Raising a number to the power 1/2 is taking the square root and on the logarithm side taking a square root cuts the logarithm in half. So "the dial at 1/2" is "the square root line".
+
+A number's stick is its logarithm and the square root is the midpoint of the stick. The midpoint shows up for the primes in these places.
+
+1. Factors pair up across the square root. For 36 the pairs are 1 × 36 and 2 × 18 and 3 × 12 and 4 × 9 and 6 × 6.
+2. A sieve needs only the primes up to the square root. Testing 997 needs the primes up to 31.
+3. A number can hold at most one prime piece above its square root. 69.3% of numbers have one.
+4. The wobble of the prime count is square root sized if every zero sits on the dial at 1/2 (the unproven claim).
+5. The energy of the sources tips from finite to infinite at a fade of 1 over the square root.
+
+The mirror rule pairs the dial setting s with 1 − s around 1/2. The factor pairing sends a factor d to the number divided by d which reflects each piece of the stick across the halfway point. A sign that the two are related: computing a zero does not need the whole endless row because the sources beyond a cutoff can be replaced by a mirrored copy of the first ones. The cutoff is the square root of (the pitch divided by 2 × pi). At a pitch of 1000 the first 12 sources and their mirror image are enough. At a pitch of one million the first 398 sources and their mirror image are enough. The chatbot knows of no proof that the factor pairing and the mirror rule are one mechanism.
+
+## How the questions tie back to the lists
+
+- The "give or take" figure on each line of the master lists is a square root which is the same halfway mark that this page keeps finding.
+- A recipe that blocks every prime up to p is a sieve and a sieve needs to go only as far as the square root of the outputs to settle whether an output is prime.
+
+## Numbers that this page adds to the list in Part 7
+
+43. 0.019 is the leftover when the natural logarithm is taken from the sum of 1 over (root of n × root of n + 1).
+44. 2.4695063 is the sum of 1 over (root of 1 × root of 2 × … × root of n).
+45. 0.6065 is the strength lost for each unit along the logarithm ruler on the critical line (row 14 again).
 
 ================================================================================
 FILE: 1-research-click-here-first/prime-richness/strip-questions.md
@@ -39582,7 +39750,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (36162 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
 
-1-research-click-here-first/prime-richness/all-questions.txt (155332 bytes)
+1-research-click-here-first/prime-richness/all-questions.txt (170377 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt
 
 1-research-click-here-first/prime-richness/checker.html (21845 bytes)
