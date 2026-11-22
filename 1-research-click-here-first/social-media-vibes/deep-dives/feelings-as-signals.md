@@ -18,7 +18,7 @@ The person who takes the sentence to heart starts editing a life. Deep talks fee
 
 **The missing explanation**
 
-The sentence does contain a grain of something true. Some things feel good for an hour and cost a person food or shelter or connection afterward such as a numbing habit that eats the rent money. A caring adviser would say exactly that and would give the test which is "does this leave me better fed and sheltered and closer to people or worse?" By that test deep conversation and good food and real joy pass easily. An adviser who drops the bare slogan and walks away has handed over a rule with no way to tell a nourishing pleasure from a draining one. The walking away is where the harm is done because a rule that broad needed a lot of explaining.
+The sentence does contain a grain of something true. Some things feel good for an hour and cost a person food or shelter or connection afterward such as a numbing habit that eats the rent money. A caring adviser would say exactly that and would give the test which is "does this leave me better fed and sheltered and closer to people or worse?" By that test deep conversation and good food and unmasked joy pass easily. An adviser who drops the bare slogan and walks away has handed over a rule with no way to tell a nourishing pleasure from a draining one. The walking away is where the harm is done because a rule that broad needed a lot of explaining.
 
 **Why someone might hand out such advice**
 

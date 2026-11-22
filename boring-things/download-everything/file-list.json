@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-22",
  "file_count": 1323,
- "total_bytes": 96498319,
+ "total_bytes": 96498323,
  "files": [
   {
    "path": ".gitignore",
@@ -1594,7 +1594,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/feelings-as-signals.md",
    "title": "When feeling good is called bad: three reflections on ignoring what the mind and body report",
-   "bytes": 10999,
+   "bytes": 11003,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/feelings-as-signals.md",
