@@ -110,6 +110,10 @@ Rules for writing about emotions
   - Before: The person feels annoyed and should try to calm down.
   - After: The person's annoyance may be signaling that a small boundary is being ignored and so the person can ask the other person "why did you say that" to find out whether the remark was dismissive.
 
+- Describe how an emotion is being shown with words such as "unmasked" or "spiritually centered" or "fully expressive" or "clearly articulated" and leave out words such as "true" or "real" or "genuine" or "grounded" in front of the name of an emotion because every emotion is already a valid signal from the mind and body and a word like "true" suggests that some anger or some joy is fake and must pass an inspection before the emotion counts.
+  - Before: The person finally felt real anger about the missed wages.
+  - After: The person finally showed unmasked anger about the missed wages by saying "I worked those hours and I need to be paid for those hours".
+
 A caring question that hides the reason for asking can lead the other person to answer "I'm fine" for safety and the chance to give support is then lost.
 
 A written reply that uses firm words without evidence in the same sentence can lead the reader to believe an unproven claim and the reader may then repeat the unproven claim to other people as if somebody had proven the claim.
@@ -117,3 +121,5 @@ A written reply that uses firm words without evidence in the same sentence can l
 A text that names no path toward food or shelter or deep meaningful emotionally and spiritually resonant human connection can leave a suffering reader with nothing to act on and the reader then stays hungry or unhoused or alone.
 
 A text about emotional or spiritual growth that is described as playful can lead a reader to treat the text as a pastime and the reader may then leave before reaching the part that could help.
+
+A phrase such as "true anger" or "real joy" can lead a reader to doubt whether the reader's own emotion is the proper kind and the reader may then hide the emotion when the emotion was a valid signal that needed to be heard.
