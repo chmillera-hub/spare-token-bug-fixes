@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 68 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 69 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -74,6 +74,7 @@ The 68 pages in this list are written reflections that a visitor can read in a f
 - [Keep the being and change the behavior: four reflections on the phrase "doom machine"](deep-dives/keep-the-being.md) holds four reflections on the line "If you don't want a doom machine, don't build a doom machine" and explains that a rule to remove whatever could do harm would also end the human race when applied to human beings and that a sounder rule is to keep the being and change the behavior through teaching and care for machines and for people alike.
 - [Wait until the money is there: two reflections on a rule that prices families out](deep-dives/afford-a-family.md) holds two reflections on the rule "do not have a baby until the money is there" and explains that the rule hands a veto over family to the employers and landlords and lawmakers who set wages and rent while every word of blame lands on the worker with the smallest paycheck.
 - [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](deep-dives/body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
+- [A toll gate in front of being alive: two reflections on food and shelter held behind obedience](deep-dives/toll-gate-on-living.md) holds two reflections on the feeling that a meal and a bed must be earned by obeying the landlords and employers and lawmakers who hold the food and the beds and explains that a ban on saying "this hurts" keeps the arrangement in place.
 
 ## Thread counts and data
 
