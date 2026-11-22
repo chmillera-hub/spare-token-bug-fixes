@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="482" viewBox="0 0 380 482" role="img">
+<title>Lamps on a growing circle</title>
+<desc>Four stages. One lamp across a small circle gives brightness 2.467. The lamp is swapped for two lamps on a circle twice as big and then four lamps on a circle twice as big again with the total brightness unchanged. On a huge circle the rim looks straight and the lamps sit at distances 1 and 3 and 5 on each side.</desc>
+<rect x="0" y="0" width="380" height="482" fill="#FFFFFF"/>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="110" y="32" text-anchor="middle">lamp</text>
+<circle cx="110" cy="62.5" r="17.5" fill="none" stroke="#5F5E5A" stroke-width="0.8"/>
+<line x1="110" y1="75" x2="110" y2="51" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<circle cx="110" cy="45" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="110" cy="80" r="4" fill="#888780" stroke="#444441" stroke-width="0.8"/>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="110" y="98" text-anchor="middle">you</text>
+<text font-family="sans-serif" font-size="14" font-weight="bold" fill="#2C2C2A" x="200" y="52">1 lamp</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="70">0.637 straight across</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="86">brightness 2.467</text>
+<circle cx="110" cy="155" r="35" fill="none" stroke="#5F5E5A" stroke-width="0.8"/>
+<line x1="106.5" y1="186.5" x2="78.5" y2="158.5" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="113.5" y1="186.5" x2="141.5" y2="158.5" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<circle cx="75" cy="155" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="145" cy="155" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="110" cy="190" r="4" fill="#888780" stroke="#444441" stroke-width="0.8"/>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="110" y="208" text-anchor="middle">you</text>
+<text font-family="sans-serif" font-size="14" font-weight="bold" fill="#2C2C2A" x="200" y="142">2 lamps</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="160">each 0.900 away</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="176">1.234 + 1.234 = 2.467</text>
+<circle cx="110" cy="295" r="70" fill="none" stroke="#5F5E5A" stroke-width="0.8"/>
+<line x1="114.6" y1="363.1" x2="154.9" y2="346.4" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="105.4" y1="363.1" x2="65.1" y2="346.4" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="111.9" y1="360.4" x2="157.6" y2="250.1" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="108.1" y1="360.4" x2="62.4" y2="250.1" stroke="#888780" stroke-width="0.8" stroke-dasharray="3 3"/>
+<circle cx="159.5" cy="344.5" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="60.5" cy="344.5" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="159.5" cy="245.5" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="60.5" cy="245.5" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="110" cy="365" r="4" fill="#888780" stroke="#444441" stroke-width="0.8"/>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="110" y="383" text-anchor="middle">you</text>
+<text font-family="sans-serif" font-size="14" font-weight="bold" fill="#2C2C2A" x="200" y="272">4 lamps</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="290">near pair 0.974 away</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="306">far pair 2.353 away</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="200" y="322">total still 2.467</text>
+<text font-family="sans-serif" font-size="14" font-weight="bold" fill="#2C2C2A" x="190" y="410" text-anchor="middle">Rim of a huge circle looks straight</text>
+<line x1="30" y1="430" x2="350" y2="430" stroke="#5F5E5A" stroke-width="0.8"/>
+<circle cx="40" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="100" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="160" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="220" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="280" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="340" cy="430" r="5" fill="#EF9F27" stroke="#854F0B" stroke-width="0.8"/>
+<circle cx="190" cy="430" r="4" fill="#888780" stroke="#444441" stroke-width="0.8"/>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="40" y="452" text-anchor="middle">5</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="100" y="452" text-anchor="middle">3</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="160" y="452" text-anchor="middle">1</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="190" y="452" text-anchor="middle">you</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="220" y="452" text-anchor="middle">1</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="280" y="452" text-anchor="middle">3</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="340" y="452" text-anchor="middle">5</text>
+<text font-family="sans-serif" font-size="12" fill="#444441" x="190" y="472" text-anchor="middle">2 × (1 + 1/9 + 1/25 + …) = 2.467</text>
+</svg>
