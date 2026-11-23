@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
- "file_count": 1351,
- "total_bytes": 96803969,
+ "file_count": 1360,
+ "total_bytes": 96828076,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 7733,
+   "bytes": 8077,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -357,6 +357,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/christ-voice/vegeta-scripts.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/christ-voice/vegeta-scripts.md"
+  },
+  {
+   "path": "1-research-click-here-first/delivery-routes/README.md",
+   "title": "Delivery routes",
+   "bytes": 745,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/delivery-routes/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/delivery-routes/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/delivery-routes/route-guessing-findings.md",
+   "title": "Delivery route guessing tests",
+   "bytes": 6735,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/delivery-routes/route-guessing-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/delivery-routes/route-guessing-findings.md"
   },
   {
    "path": "1-research-click-here-first/emotion-stories/01-to-13-stories.md",
@@ -3286,7 +3304,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 10118,
+   "bytes": 10490,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10117,11 +10135,74 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 14912,
+   "bytes": 15463,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/README.md"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/benchmark-data/a280.tsp",
+   "title": "a280.tsp",
+   "bytes": 3483,
+   "type": "tsp",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/a280.tsp",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/a280.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/benchmark-data/berlin52.tsp",
+   "title": "berlin52.tsp",
+   "bytes": 916,
+   "type": "tsp",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/berlin52.tsp",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/berlin52.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/benchmark-data/ch150.tsp",
+   "title": "ch150.tsp",
+   "bytes": 5070,
+   "type": "tsp",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/ch150.tsp",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/ch150.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/benchmark-data/eil51.tsp",
+   "title": "eil51.tsp",
+   "bytes": 579,
+   "type": "tsp",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/eil51.tsp",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/eil51.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/benchmark-data/kroA100.tsp",
+   "title": "kroA100.tsp",
+   "bytes": 1345,
+   "type": "tsp",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/kroA100.tsp",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/kroA100.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/nearest_stop_rule_test.py",
+   "title": "nearest_stop_rule_test.py",
+   "bytes": 1388,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/nearest_stop_rule_test.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/nearest_stop_rule_test.py"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/random_routes_test.py",
+   "title": "random_routes_test.py",
+   "bytes": 2579,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/random_routes_test.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/random_routes_test.py"
   },
   {
    "path": "boring-things/research-program-files/kindness-games-scripts/1_exit.py",
