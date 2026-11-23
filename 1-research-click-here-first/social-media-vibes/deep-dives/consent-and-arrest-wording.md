@@ -1,4 +1,4 @@
-# The hands left out of the sentence: six reflections on consent and the wording of immigration arrests
+# Consent and the wording of immigration arrests: six reflections on what the phrase "going home" leaves out
 
 > **About this page:** This page holds six reflections on the way people describe immigration arrests with vague words such as "going home" and on the reasoning "they would refuse so nobody will ask." An AI chatbot (Claude) wrote reflections one and three and five on 23 November 2026 and no other person has rechecked the three reflections. The author of this repository supplied reflections two and four and six and the text of each appears in full. The page is not legal advice.
 
@@ -6,7 +6,7 @@
 
 > **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
 
-The sentence "they are simply going home" removes the hands from the picture because the sentence describes a destination and leaves out the armed agents and the handcuffs and the locked vehicle that the video shows.
+The sentence "they are simply going home" removes the agents from the picture because the sentence describes a destination and leaves out the armed agents and the handcuffs and the locked vehicle that the video shows.
 
 **What the video shows and what the comment says**
 
@@ -34,7 +34,7 @@ People who support removals say that elected lawmakers wrote the entry rules and
 
 **The measure of any position**
 
-A position that needs vague words to hide what happens to a human being is asking listeners to agree without looking. Describing the hands and the cuffs and the cell exactly lets every listener decide with eyes open and the people in the videos deserve at least that much accuracy from the people commenting on them.
+A position that needs vague words to hide what happens to a human being is asking listeners to agree without looking. Describing the agents and the cuffs and the cell exactly lets every listener decide with eyes open and the people in the videos deserve at least that much accuracy from the people commenting on them.
 
 ## Reflection two: paperwork language
 

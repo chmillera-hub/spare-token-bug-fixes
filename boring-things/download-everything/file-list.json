@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
  "file_count": 1349,
- "total_bytes": 96787315,
+ "total_bytes": 96787365,
  "files": [
   {
    "path": ".gitignore",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 35807,
+   "bytes": 35825,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1423,7 +1423,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 23640,
+   "bytes": 23665,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1563,6 +1563,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/condolence-phrases.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/consent-and-arrest-wording.md",
+   "title": "Consent and the wording of immigration arrests: six reflections on what the phrase \"going home\" leaves out",
+   "bytes": 16453,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/consent-and-arrest-wording.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/consent-and-arrest-wording.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md",
@@ -1725,15 +1734,6 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/graded-not-answered.md"
-  },
-  {
-   "path": "1-research-click-here-first/social-media-vibes/deep-dives/hands-left-out.md",
-   "title": "The hands left out of the sentence: six reflections on consent and the wording of immigration arrests",
-   "bytes": 16446,
-   "type": "md",
-   "area": "research",
-   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hands-left-out.md",
-   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/hands-left-out.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/help-behind-cashier.md",
