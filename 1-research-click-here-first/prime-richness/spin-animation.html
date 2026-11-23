@@ -60,8 +60,10 @@ button.chip{padding:6px 10px;font-size:14px}
 </div>
 
 <div class="card">
-<label for="sum" style="margin-top:0">The sum (the moves)</label>
+<label for="sum" style="margin-top:0">The sum (the terms)</label>
 <select id="sum"></select>
+<label for="mode">What each term does to the arrow</label>
+<select id="mode"><option value="add">Each term moves the arrow that many marks</option><option value="land">The arrow lands on the term itself</option></select>
 <label for="n">Number of marks on the circle</label>
 <input id="n" type="number" min="2" max="5000" value="360" inputmode="numeric">
 <div class="row" id="chips"></div>
@@ -71,9 +73,9 @@ button.chip{padding:6px 10px;font-size:14px}
 </div>
 
 <div class="card">
-<p class="small">Each term of the sum moves the arrow that many marks clockwise. A mark lights up when the arrow lands on the mark. The graph under the circle shows the share of the circle that is filled as the steps go by.</p>
+<p class="small" id="how"></p>
 <p class="small" id="note"></p>
-<p class="small">An AI model (Claude) wrote this page on 23 November 2026. The page goes with the questions page spin-questions.md in the prime-richness folder of the repository spare-token-bug-fixes.</p>
+<p class="small">An AI model (Claude) wrote this page on 23 November 2026. The page goes with the questions pages spin-questions.md and term-questions.md in the prime-richness folder of the repository spare-token-bug-fixes.</p>
 </div>
 </main>
 <script>
@@ -83,33 +85,33 @@ function primesUpTo(n){const s=new Uint8Array(n+1);const out=[];for(let i=2;i<=n
 let PRIMES=null;
 function fmtBig(b){const t=b.toString();return t.length<=15?t:"a number with "+t.length+" digits";}
 const ROWS=[
- {id:"count",name:"1 + 2 + 3 + 4 + … (counting numbers)",note:"Every mark gets hit only when the number of marks is a power of 2 such as 256 or 512. With 360 marks the arrow reaches 96 marks and repeats every 720 steps.",
+ {id:"count",name:"1 + 2 + 3 + 4 + … (counting numbers)",note:"Every mark gets hit only when the number of marks is a power of 2 such as 256 or 512. With 360 marks the arrow reaches 96 marks and repeats every 720 steps.",land:"The arrow walks around the circle one mark at a time so every mark is hit on every circle after one lap.",
   make(N){let n=0;return()=>{n++;return{m:n%N,label:String(n)};};}},
- {id:"odd",name:"1 + 3 + 5 + 7 + … (odd numbers)",note:"The arrow lands on the square numbers 1 and 4 and 9 and 16. With 360 marks the arrow reaches 36 marks.",
+ {id:"odd",name:"1 + 3 + 5 + 7 + … (odd numbers)",note:"The arrow lands on the square numbers 1 and 4 and 9 and 16. With 360 marks the arrow reaches 36 marks.",land:"With 360 marks the arrow reaches 180 marks because an odd number stays odd after full turns of 360 are removed. A circle with an odd number of marks gets fully hit.",
   make(N){let n=0;return()=>{n++;const v=2*n-1;return{m:v%N,label:String(v)};};}},
- {id:"sq",name:"1 + 4 + 9 + 16 + … (squares)",note:"Every mark gets hit when the number of marks is built only from 2s and 3s such as 144 or 432 or 1296. With 360 marks the arrow reaches 216 marks.",
+ {id:"sq",name:"1 + 4 + 9 + 16 + … (squares)",note:"Every mark gets hit when the number of marks is built only from 2s and 3s such as 144 or 432 or 1296. With 360 marks the arrow reaches 216 marks.",land:"With 360 marks the arrow reaches 36 marks which is the same 36 marks the odd numbers reach when each odd number moves the arrow.",
   make(N){let n=0;const B=BigInt(N);return()=>{n++;const v=BigInt(n)*BigInt(n);return{m:Number(v%B),label:fmtBig(v)};};}},
- {id:"cube",name:"1 + 8 + 27 + 64 + … (cubes)",note:"With 360 marks the arrow reaches only 18 marks.",
+ {id:"cube",name:"1 + 8 + 27 + 64 + … (cubes)",note:"With 360 marks the arrow reaches only 18 marks.",land:"With 360 marks the arrow reaches 75 marks.",
   make(N){let n=0;const B=BigInt(N);return()=>{n++;const v=BigInt(n)**3n;return{m:Number(v%B),label:fmtBig(v)};};}},
- {id:"fourth",name:"1 + 16 + 81 + 256 + … (fourth powers)",note:"With 360 marks the arrow reaches every mark after 2427 steps.",
+ {id:"fourth",name:"1 + 16 + 81 + 256 + … (fourth powers)",note:"With 360 marks the arrow reaches every mark after 2427 steps.",land:"With 360 marks the arrow reaches only 16 marks.",
   make(N){let n=0;const B=BigInt(N);return()=>{n++;const v=BigInt(n)**4n;return{m:Number(v%B),label:fmtBig(v)};};}},
- {id:"fib",name:"1 + 1 + 2 + 3 + 5 + 8 + … (Fibonacci numbers)",note:"Every mark gets hit when the number of marks is a power of 5 (or a power of 5 times 2 or 4 or 6 or 7 or 14 or a power of 3) such as 125 or 250 or 625. With 360 marks the arrow reaches 75 marks.",
+ {id:"fib",name:"1 + 1 + 2 + 3 + 5 + 8 + … (Fibonacci numbers)",note:"Every mark gets hit when the number of marks is a power of 5 (or a power of 5 times 2 or 4 or 6 or 7 or 14 or a power of 3) such as 125 or 250 or 625. With 360 marks the arrow reaches 75 marks.",land:"With 360 marks the arrow reaches 75 marks.",
   make(N){let a=1%N,b=1%N,A=1n,Bg=1n,k=0;return()=>{k++;const m=a;const label=k<=70?fmtBig(A):"a very large number";[a,b]=[b,(a+b)%N];if(k<=70){[A,Bg]=[Bg,A+Bg];}return{m,label};};}},
- {id:"dbl",name:"1 + 2 + 4 + 8 + 16 + … (doublings)",note:"No circle with more than 1 mark ever gets fully hit. With 360 marks the arrow reaches 14 marks. A prime number of marks such as 4987 can miss just one mark.",
+ {id:"dbl",name:"1 + 2 + 4 + 8 + 16 + … (doublings)",note:"No circle with more than 1 mark ever gets fully hit. With 360 marks the arrow reaches 14 marks. A prime number of marks such as 4987 can miss just one mark.",land:"With 360 marks the arrow reaches 15 marks and then circles through the same 12 marks.",
   make(N){let x=1%N,k=0,X=1n;return()=>{k++;const m=x;const label=k<=50?fmtBig(X):"a very large number";x=(2*x)%N;if(k<=50)X*=2n;return{m,label};};}},
- {id:"prime",name:"2 + 3 + 5 + 7 + 11 + … (primes)",note:"The primes hit every mark on every circle that was tested. With 360 marks every mark is hit after 1960 steps which is close to what random drops would need.",
+ {id:"prime",name:"2 + 3 + 5 + 7 + 11 + … (primes)",note:"The primes hit every mark on every circle that was tested. With 360 marks every mark is hit after 1960 steps which is close to what random drops would need.",land:"With 360 marks the arrow reaches only 99 marks because a prime above 5 shares no prime piece with 360. The primes fill a circle only when the number of marks is a prime such as 997.",
   make(N){if(!PRIMES)PRIMES=primesUpTo(3000000);let k=0;return()=>{if(k>=PRIMES.length)return null;const p=PRIMES[k++];return{m:p%N,label:String(p)};};}},
- {id:"s60",name:"1 + 61 + 121 + 181 + … (each move 60 more)",note:"With 360 marks the arrow lands on every mark exactly once in 360 steps and then repeats the same tour.",
+ {id:"s60",name:"1 + 61 + 121 + 181 + … (each move 60 more)",note:"With 360 marks the arrow lands on every mark exactly once in 360 steps and then repeats the same tour.",land:"With 360 marks the arrow reaches only 6 marks which are 1 and 61 and 121 and 181 and 241 and 301.",
   make(N){let n=0;return()=>{n++;const v=1+60*(n-1);return{m:v%N,label:String(v)};};}},
- {id:"pi",name:"1 + 4 + 1 + 5 + 9 + 2 + … (digits of pi)",note:"The digits of pi act like random small moves. With 360 marks every mark is hit after 1795 steps. This page holds 3000 digits.",
+ {id:"pi",name:"1 + 4 + 1 + 5 + 9 + 2 + … (digits of pi)",note:"The digits of pi act like random small moves. With 360 marks every mark is hit after 1795 steps. This page holds 3000 digits.",land:"A digit is 0 to 9 so the arrow reaches at most 10 marks.",
   make(N){let k=0;return()=>{if(k>=PI_DIGITS.length)return null;const dg=PI_DIGITS.charCodeAt(k++)-48;return{m:dg%N,label:String(dg)};};}},
- {id:"fact",name:"1 + 2 + 6 + 24 + 120 + … (1 × 2 × 3 × … × n)",note:"With 360 marks the arrow visits 1 and 3 and 9 and 33 and 153 and then stays at 153 because every later move is a whole number of full turns.",
+ {id:"fact",name:"1 + 2 + 6 + 24 + 120 + … (1 × 2 × 3 × … × n)",note:"With 360 marks the arrow visits 1 and 3 and 9 and 33 and 153 and then stays at 153 because every later move is a whole number of full turns.",land:"With 360 marks the arrow visits 1 and 2 and 6 and 24 and 120 and then stays at mark 0 because every later term is a whole number of full turns.",
   make(N){let f=1%N,n=0,F=1n;return()=>{n++;f=(f*(n%N))%N;if(n<=25)F*=BigInt(n);return{m:f,label:n<=25?fmtBig(F):"a very large number"};};}},
- {id:"seven",name:"7 + 7 + 7 + 7 + … (the same move every time)",note:"A steady move hits every mark when the move shares no prime piece with the number of marks. With 360 marks a move of 7 hits every mark in 360 steps.",
+ {id:"seven",name:"7 + 7 + 7 + 7 + … (the same move every time)",note:"A steady move hits every mark when the move shares no prime piece with the number of marks. With 360 marks a move of 7 hits every mark in 360 steps.",land:"The arrow stays on one mark because the term never changes.",
   make(N){return()=>({m:7%N,label:"7"});}}
 ];
-function newState(rowId,N){const row=ROWS.find(r=>r.id===rowId);return{row,N,next:row.make(N),pos:0,step:0,visits:new Uint32Array(N),hit:0,fullAt:0,lastNew:0,last:null,ended:false,hist:[[0,0]],stride:1};}
-function advance(st){const r=st.next();if(r===null){st.ended=true;return null;}const from=st.pos;st.pos=(st.pos+r.m)%st.N;st.step++;const fresh=st.visits[st.pos]===0;st.visits[st.pos]++;if(fresh){st.hit++;st.lastNew=st.step;if(st.hit===st.N&&!st.fullAt)st.fullAt=st.step;}if(fresh||st.step%st.stride===0){const h=st.hist,l=h[h.length-1];if(l[0]===st.step)l[1]=st.hit;else h.push([st.step,st.hit]);if(h.length>1500){const k=[h[0]];for(let i=1;i<h.length;i++){if(i%2===0||i===h.length-1)k.push(h[i]);}st.hist=k;st.stride*=2;}}st.last={from,to:st.pos,label:r.label,fresh};return st.last;}
+function newState(rowId,N,mode){const row=ROWS.find(r=>r.id===rowId);return{row,N,mode:mode||"add",next:row.make(N),pos:0,step:0,visits:new Uint32Array(N),hit:0,fullAt:0,lastNew:0,last:null,ended:false,hist:[[0,0]],stride:1};}
+function advance(st){const r=st.next();if(r===null){st.ended=true;return null;}const from=st.pos;st.pos=st.mode==="land"?r.m%st.N:(st.pos+r.m)%st.N;st.step++;const fresh=st.visits[st.pos]===0;st.visits[st.pos]++;if(fresh){st.hit++;st.lastNew=st.step;if(st.hit===st.N&&!st.fullAt)st.fullAt=st.step;}if(fresh||st.step%st.stride===0){const h=st.hist,l=h[h.length-1];if(l[0]===st.step)l[1]=st.hit;else h.push([st.step,st.hit]);if(h.length>1500){const k=[h[0]];for(let i=1;i<h.length;i++){if(i%2===0||i===h.length-1)k.push(h[i]);}st.hist=k;st.stride*=2;}}st.last={from,to:st.pos,label:r.label,fresh};return st.last;}
 /*CORE-END*/
 const $=id=>document.getElementById(id);
 const cv=$("cv"),ctx=cv.getContext("2d");
@@ -117,6 +119,8 @@ const ring=document.createElement("canvas"),web=document.createElement("canvas")
 ring.width=web.width=cv.width;ring.height=web.height=cv.height;
 const rctx=ring.getContext("2d"),wctx=web.getContext("2d");
 const W=cv.width,C=W/2,R=W*0.43,RT=W*0.47,RW=W*0.415;
+const HOW_ADD="Each term of the sum moves the arrow that many marks clockwise so the arrow shows the running total. A mark lights up when the arrow lands on the mark. The graph under the circle shows the share of the circle that is filled as the steps go by.";
+const HOW_LAND="The arrow points at the mark with the same number as the term. A term larger than the number of marks has full turns removed first so with 360 marks the term 367 lands on mark 7. A mark lights up when the arrow lands on the mark. The graph under the circle shows the share of the circle that is filled as the steps go by.";
 const SPEEDS=[1,2,5,10,20,50,100,200,500,1000,5000];
 let st=null,playing=false,carry=0,lastT=0;
 function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
@@ -126,10 +130,10 @@ function drawBase(){rctx.clearRect(0,0,W,W);wctx.clearRect(0,0,W,W);const f=css(
 function markHit(i){tick(rctx,i,st.N,css("--hit"),st.visits[i]===1?0.45:0.18);}
 function chord(from,to){if(!$("web").checked||from===to)return;const a=ang(from,st.N),b=ang(to,st.N);wctx.strokeStyle=css("--web");wctx.lineWidth=1.5;wctx.beginPath();wctx.moveTo(C+RW*Math.cos(a),C+RW*Math.sin(a));wctx.lineTo(C+RW*Math.cos(b),C+RW*Math.sin(b));wctx.stroke();}
 function render(){ctx.clearRect(0,0,W,W);ctx.drawImage(web,0,0);ctx.drawImage(ring,0,0);const a=ang(st.pos,st.N),col=css("--arrow");const x=C+RW*Math.cos(a),y=C+RW*Math.sin(a);ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=5;ctx.lineCap="round";ctx.beginPath();ctx.moveTo(C,C);ctx.lineTo(x,y);ctx.stroke();const hl=26;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-hl*Math.cos(a-0.4),y-hl*Math.sin(a-0.4));ctx.lineTo(x-hl*Math.cos(a+0.4),y-hl*Math.sin(a+0.4));ctx.closePath();ctx.fill();ctx.beginPath();ctx.arc(C,C,9,0,2*Math.PI);ctx.fill();ctx.fillStyle=css("--muted");ctx.font="26px system-ui, sans-serif";ctx.textAlign="center";ctx.fillText("0",C,C-RT-8+0);
- const pct=(100*st.hit/st.N);$("s1").textContent=st.step===0?"Step 0 · the arrow starts at mark 0":"Step "+st.step+" · the arrow is at mark "+st.pos;$("s1b").textContent=st.step===0?"":"The last move was "+(/^[0-9]/.test(st.last.label)?"+":"")+st.last.label;
+ const pct=(100*st.hit/st.N);$("s1").textContent=st.step===0?"Step 0 · the arrow starts at mark 0":"Step "+st.step+" · the arrow is at mark "+st.pos;$("s1b").textContent=st.step===0?"":(st.mode==="land"?"The last term was "+st.last.label:"The last move was "+(/^[0-9]/.test(st.last.label)?"+":"")+st.last.label);
  $("s2").textContent="Filled: "+pct.toFixed(1)+"% ("+st.hit+" of "+st.N+" marks)";graph();
  let t3="";if(st.fullAt){t3="Every mark was hit by step "+st.fullAt+".";$("s3").className="small one done";}else{$("s3").className="small one";if(st.step>0)t3="Steps since a new mark was hit: "+(st.step-st.lastNew)+".";}
- if(st.ended)t3="The moves stored on this page ran out.";$("s3").textContent=t3;
+ if(st.ended)t3="The terms stored on this page ran out.";$("s3").textContent=t3;
  let t4="";if(!st.fullAt&&st.step>0){const miss=[];for(let i=0;i<st.N&&miss.length<12;i++)if(!st.visits[i])miss.push(i);const left=st.N-st.hit;t4="Marks not hit yet: "+miss.join(" ")+(left>miss.length?" … ("+left+" in all)":"");}$("s4").textContent=t4;}
 const gr=$("gr"),gx=gr.getContext("2d");
 function graph(){const GW=gr.width,GH=gr.height,L=74,Rr=14,T=14,B=40,w=GW-L-Rr,h=GH-T-B;gx.clearRect(0,0,GW,GH);const mu=css("--muted"),ln=css("--line"),hc=css("--hit");
@@ -142,14 +146,15 @@ function graph(){const GW=gr.width,GH=gr.height,L=74,Rr=14,T=14,B=40,w=GW-L-Rr,h
 function doSteps(k){for(let i=0;i<k;i++){const r=advance(st);if(!r){setPlaying(false);break;}markHit(r.to);chord(r.from,r.to);}}
 function frame(t){if(!playing)return;const dt=Math.min(0.1,(t-lastT)/1000);lastT=t;carry+=dt*SPEEDS[+$("speed").value];const k=Math.floor(carry);if(k>0){carry-=k;doSteps(k);render();}requestAnimationFrame(frame);}
 function setPlaying(p){playing=p;$("play").textContent=p?"Pause":"Play";if(p){lastT=performance.now();carry=0;requestAnimationFrame(frame);}}
-function reset(){setPlaying(false);let N=Math.round(+$("n").value);if(!(N>=2))N=2;if(N>5000)N=5000;$("n").value=N;st=newState($("sum").value,N);$("note").textContent=st.row.note;drawBase();render();}
+function reset(){setPlaying(false);let N=Math.round(+$("n").value);if(!(N>=2))N=2;if(N>5000)N=5000;$("n").value=N;st=newState($("sum").value,N,$("mode").value);$("note").textContent=st.mode==="land"?st.row.land:st.row.note;$("how").textContent=st.mode==="land"?HOW_LAND:HOW_ADD;drawBase();render();}
 ROWS.forEach(r=>{const o=document.createElement("option");o.value=r.id;o.textContent=r.name;$("sum").appendChild(o);});
-[12,60,125,256,360,432,1000,4096].forEach(v=>{const b=document.createElement("button");b.className="chip";b.textContent=v;b.addEventListener("click",()=>{$("n").value=v;reset();});$("chips").appendChild(b);});
+[12,60,125,256,360,432,997,1000,4096].forEach(v=>{const b=document.createElement("button");b.className="chip";b.textContent=v;b.addEventListener("click",()=>{$("n").value=v;reset();});$("chips").appendChild(b);});
 function spLabel(){const v=SPEEDS[+$("speed").value];$("spv").textContent=v+(v===1?" step each second":" steps each second");}
 $("play").addEventListener("click",()=>{if(st.ended)return;setPlaying(!playing);});
 $("step").addEventListener("click",()=>{setPlaying(false);doSteps(1);render();});
 $("reset").addEventListener("click",reset);
 $("sum").addEventListener("change",reset);
+$("mode").addEventListener("change",reset);
 $("n").addEventListener("change",reset);
 $("speed").addEventListener("input",spLabel);
 $("web").addEventListener("change",()=>{if(!$("web").checked){wctx.clearRect(0,0,W,W);render();}});
