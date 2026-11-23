@@ -41161,7 +41161,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/prime-richness/lamp-diagram.svg (5623 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/lamp-diagram.svg
 
-1-research-click-here-first/prime-richness/spin-animation.html (17891 bytes)
+1-research-click-here-first/prime-richness/spin-animation.html (18282 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/spin-animation.html
 
 1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html (13070 bytes)

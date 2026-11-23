@@ -20,7 +20,10 @@ canvas{display:block;margin:0 auto}
 .card.top{padding:10px 12px}
 .row.first{margin-top:0;margin-bottom:6px}
 .card.top .stat{margin:2px 0 0;font-size:15px;font-weight:600}
-.card.top .small{margin:3px 0}
+.card.top .small{margin:3px 0;font-variant-numeric:tabular-nums}
+.card.top .one{height:1.5em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card.top .two{height:3em;overflow:hidden}
+.card.top .stat{height:1.5em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-variant-numeric:tabular-nums}
 label{display:block;font-size:14px;color:var(--muted);margin:10px 0 4px}
 select,input[type=number]{width:100%;font-size:16px;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
 input[type=range]{width:100%}
@@ -50,9 +53,10 @@ button.chip{padding:6px 10px;font-size:14px}
 <canvas id="cv" width="880" height="880" role="img" aria-label="A circle of marks with an arrow that moves by each term of the chosen sum"></canvas>
 <p class="stat" id="s2">Marks hit: 0</p>
 <canvas id="gr" width="880" height="230" role="img" aria-label="A graph of the share of the circle that is filled as the steps go by"></canvas>
-<p class="small" id="s1">Step 0</p>
-<p class="small" id="s3"></p>
-<p class="small" id="s4"></p>
+<p class="small one" id="s1">Step 0</p>
+<p class="small one" id="s1b"></p>
+<p class="small one" id="s3"></p>
+<p class="small two" id="s4"></p>
 </div>
 
 <div class="card">
@@ -122,11 +126,11 @@ function drawBase(){rctx.clearRect(0,0,W,W);wctx.clearRect(0,0,W,W);const f=css(
 function markHit(i){tick(rctx,i,st.N,css("--hit"),st.visits[i]===1?0.45:0.18);}
 function chord(from,to){if(!$("web").checked||from===to)return;const a=ang(from,st.N),b=ang(to,st.N);wctx.strokeStyle=css("--web");wctx.lineWidth=1.5;wctx.beginPath();wctx.moveTo(C+RW*Math.cos(a),C+RW*Math.sin(a));wctx.lineTo(C+RW*Math.cos(b),C+RW*Math.sin(b));wctx.stroke();}
 function render(){ctx.clearRect(0,0,W,W);ctx.drawImage(web,0,0);ctx.drawImage(ring,0,0);const a=ang(st.pos,st.N),col=css("--arrow");const x=C+RW*Math.cos(a),y=C+RW*Math.sin(a);ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=5;ctx.lineCap="round";ctx.beginPath();ctx.moveTo(C,C);ctx.lineTo(x,y);ctx.stroke();const hl=26;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-hl*Math.cos(a-0.4),y-hl*Math.sin(a-0.4));ctx.lineTo(x-hl*Math.cos(a+0.4),y-hl*Math.sin(a+0.4));ctx.closePath();ctx.fill();ctx.beginPath();ctx.arc(C,C,9,0,2*Math.PI);ctx.fill();ctx.fillStyle=css("--muted");ctx.font="26px system-ui, sans-serif";ctx.textAlign="center";ctx.fillText("0",C,C-RT-8+0);
- const pct=(100*st.hit/st.N);$("s1").textContent=st.step===0?"Step 0 · the arrow starts at mark 0":"Step "+st.step+" · the move was +"+st.last.label+" · the arrow is at mark "+st.pos;
+ const pct=(100*st.hit/st.N);$("s1").textContent=st.step===0?"Step 0 · the arrow starts at mark 0":"Step "+st.step+" · the arrow is at mark "+st.pos;$("s1b").textContent=st.step===0?"":"The last move was "+(/^[0-9]/.test(st.last.label)?"+":"")+st.last.label;
  $("s2").textContent="Filled: "+pct.toFixed(1)+"% ("+st.hit+" of "+st.N+" marks)";graph();
- let t3="";if(st.fullAt){t3="Every mark was hit by step "+st.fullAt+".";$("s3").className="small done";}else{$("s3").className="small";if(st.step>0)t3="Steps since a new mark was hit: "+(st.step-st.lastNew)+".";}
- if(st.ended)t3+=" The list of moves on this page ran out so the arrow stopped.";$("s3").textContent=t3;
- let t4="";if(!st.fullAt&&st.step>0){const miss=[];for(let i=0;i<st.N&&miss.length<14;i++)if(!st.visits[i])miss.push(i);const left=st.N-st.hit;t4="Marks not hit yet: "+miss.join(" ")+(left>miss.length?" … ("+left+" in all)":"");}$("s4").textContent=t4;}
+ let t3="";if(st.fullAt){t3="Every mark was hit by step "+st.fullAt+".";$("s3").className="small one done";}else{$("s3").className="small one";if(st.step>0)t3="Steps since a new mark was hit: "+(st.step-st.lastNew)+".";}
+ if(st.ended)t3="The moves stored on this page ran out.";$("s3").textContent=t3;
+ let t4="";if(!st.fullAt&&st.step>0){const miss=[];for(let i=0;i<st.N&&miss.length<12;i++)if(!st.visits[i])miss.push(i);const left=st.N-st.hit;t4="Marks not hit yet: "+miss.join(" ")+(left>miss.length?" … ("+left+" in all)":"");}$("s4").textContent=t4;}
 const gr=$("gr"),gx=gr.getContext("2d");
 function graph(){const GW=gr.width,GH=gr.height,L=74,Rr=14,T=14,B=40,w=GW-L-Rr,h=GH-T-B;gx.clearRect(0,0,GW,GH);const mu=css("--muted"),ln=css("--line"),hc=css("--hit");
  gx.font="24px system-ui, sans-serif";gx.fillStyle=mu;gx.textAlign="right";gx.textBaseline="middle";gx.strokeStyle=ln;gx.lineWidth=1.5;
