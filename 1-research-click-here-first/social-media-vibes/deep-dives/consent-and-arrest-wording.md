@@ -22,7 +22,7 @@ Home is where a person's bed and job and family and friends are. A person who ha
 
 **The Canada test**
 
-The body knows the difference even when the words blur. A commenter grabbed by the arm by armed strangers and told "come along or be beaten and the destination is Canada" would feel terror in the chest and would likely scream. The destination being a decent country would not calm the terror because the terror is about the hands and the loss of every familiar person. So the test shows that "where the person is sent" was never the part that hurts.
+The body knows the difference even when the words blur. A commenter grabbed by the arm by armed strangers and told "come along or be beaten and the destination is Canada" would feel terror in the chest and would likely scream. The destination being a decent country would not calm the terror because the terror is about being grabbed by armed strangers and losing every familiar person. So the test shows that "where the person is sent" was never the part that hurts.
 
 **Why the vague words get chosen**
 
@@ -66,7 +66,7 @@ A request is only a request if "no" is an allowed answer. A person who asks and 
 
 **Asking under threat is the same move in a politer coat**
 
-Officials sometimes do ask in a form such as "leave on your own or agents will arrive." The sentence has an "or else" attached and the "or else" is hands and handcuffs and a cell. An answer given under that threat tells nobody what the person wants because the person is choosing between two kinds of loss. Agreement that is produced by fear of being seized is compliance and compliance is different from consent.
+Officials sometimes do ask in a form such as "leave on your own or agents will arrive." The sentence has an "or else" attached and the "or else" is being grabbed by agents and handcuffed and locked in a cell. An answer given under that threat tells nobody what the person wants because the person is choosing between two kinds of loss. Agreement that is produced by fear of being seized is compliance and compliance is different from consent.
 
 **What a consent-based version would look like**
 

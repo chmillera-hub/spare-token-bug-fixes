@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
  "file_count": 1349,
- "total_bytes": 96787365,
+ "total_bytes": 96787412,
  "files": [
   {
    "path": ".gitignore",
@@ -1567,7 +1567,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/consent-and-arrest-wording.md",
    "title": "Consent and the wording of immigration arrests: six reflections on what the phrase \"going home\" leaves out",
-   "bytes": 16453,
+   "bytes": 16500,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/consent-and-arrest-wording.md",
