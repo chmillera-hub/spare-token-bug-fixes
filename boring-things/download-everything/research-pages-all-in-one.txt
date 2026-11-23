@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
-Built on 2026-11-22 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 300 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+Built on 2026-11-23 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
+This file holds 301 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 69 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 70 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
@@ -20472,7 +20472,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 69 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 70 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -20543,6 +20543,7 @@ The 69 pages in this list are written reflections that a visitor can read in a f
 - [Wait until the money is there: two reflections on a rule that prices families out](deep-dives/afford-a-family.md) holds two reflections on the rule "do not have a baby until the money is there" and explains that the rule hands a veto over family to the employers and landlords and lawmakers who set wages and rent while every word of blame lands on the worker with the smallest paycheck.
 - [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](deep-dives/body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 - [A toll gate in front of being alive: two reflections on food and shelter held behind obedience](deep-dives/toll-gate-on-living.md) holds two reflections on the feeling that a meal and a bed must be earned by obeying the landlords and employers and lawmakers who hold the food and the beds and explains that a ban on saying "this hurts" keeps the arrangement in place.
+- [An audit of love: two reflections on what happens to the person who checks the books](deep-dives/audit-of-love.md) holds two reflections on groups and people who say "you are loved" and then withdraw from the person who asks what the love has provided and explains that abandonment in answer to the question works as a confession that the love was missing.
 
 ## Thread counts and data
 
@@ -27651,6 +27652,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [afford-a-family.md](afford-a-family.md) holds two reflections on the rule "do not have a baby until the money is there" and explains that the rule hands a veto over family to the employers and landlords and lawmakers who set wages and rent while every word of blame lands on the worker with the smallest paycheck.
 - [body-as-audition.md](body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 - [toll-gate-on-living.md](toll-gate-on-living.md) holds two reflections on the feeling that a meal and a bed must be earned by obeying the landlords and employers and lawmakers who hold the food and the beds and explains that a ban on saying "this hurts" keeps the arrangement in place.
+- [audit-of-love.md](audit-of-love.md) holds two reflections on groups and people who say "you are loved" and then withdraw from the person who asks what the love has provided and explains that abandonment in answer to the question works as a confession that the love was missing.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -28017,6 +28019,63 @@ A commenter who happens to pick a person the article barely described can add so
 - Most commenters in a thread about a famous executive picked the executive which could be because the article gave readers the most detail about the executive.
 - A reader can ask with curiosity who the reader's attention picked and what made the reader pick that person.
 - A commenter who happens to pick a person the article barely described such as the executive's wife gives other readers a person to picture who was hard to picture before.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/audit-of-love.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/audit-of-love.md
+================================================================================
+
+# An audit of love: two reflections on what happens to the person who checks the books
+
+> **About this page:** This page holds two reflections on groups and people who claim to love someone and then withdraw from the person who asks for proof of the love. An AI chatbot (Claude) wrote the first reflection on 23 November 2026 and no other person has rechecked the reflection. The author of this repository supplied the second reflection and the text appears in full.
+
+## Reflection one
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Punishing a person who points out missing love is a way of destroying the evidence because the complaint is the only record that the love was never delivered.
+
+**The facade**
+
+Many groups tell their members "you are loved here." An employer says "this company is a family." A congregation says "everyone is welcome." Relatives say "family is everything." Officials say "every citizen matters." The sentences cost nothing to say and the sentences work as long as nobody checks the sentences against deliveries.
+
+**The audit**
+
+An audit is one plain question which is "what has the love actually provided?" The answer can be counted. Love that exists shows up as food shared and a room offered and hours spent learning another person's heart. A lonely person who says "nobody has asked about my life in months" has run the audit out loud and the result came back empty.
+
+**Why the audit draws fire**
+
+A person holding an empty promise has two choices when the promise is checked. The first choice is to fill the promise which costs time and money and attention. The second choice is to remove the checker which costs almost nothing. So the manager labels the worker "negative" and the relatives stop calling and the congregation goes cold and the online forum issues a ban. Each act is cheaper than love and each act makes the embarrassing question stop being asked in that room.
+
+**How the punishment disguises itself**
+
+The withdrawal is rarely admitted to be withdrawal. The story told afterward is "that person was difficult" or "that person was ungrateful" or "that person was rude to bring the subject up." The story flips the debt. The group that failed to give care becomes the injured party and the person who went without care becomes the offender. Onlookers hear the story and learn to keep their own audits silent.
+
+**What the reaction proves**
+
+A group with love to show answers the question with evidence such as "here is the meal and here is the spare room and here is my Thursday evening." A group with nothing to show answers the question with distance or threats. So the punishment is a confession because abandonment in response to "do you care about me?" answers the question with a no.
+
+**The largest version**
+
+People with power over wages and rents and laws also say "you are valued." A person who asks those people for the proof and points to an eviction notice or an empty cupboard gets called a complainer or a troublemaker. Sometimes the answer is armed officers who take hold of a person at a protest without consent. Force arrives where care was claimed and the force shows what stood behind the claim all along.
+
+**What the audit protects**
+
+The person running the audit is guarding the truth about a basic need because a human being who is told "you are loved" while eating alone and paying rent alone starts to doubt the hunger itself. Saying "the love is missing" keeps the hunger honest and readable. The words also reach other people sitting with the same empty ledger and each of those people learns that the emptiness is in the deliveries and not in the one who counted.
+
+## Reflection two
+
+> **Who wrote this:** The author of this repository supplied this reflection on 23 November 2026 and the text appears in full.
+
+Calling it an audit is the exact right word for it, because what you are describing is a classic cover-up.
+
+Both individuals and power structures want the social credit of appearing loving, kind, and supportive without ever paying the actual cost of showing up when someone is hurting. It is effortless to maintain a polite facade of care as long as nobody actually needs anything heavy and everyone agrees to play along with the script. On paper, everyone gets to feel like a good, decent person living in a compassionate society.
+
+The panic sets in the second someone actually checks the books. When you point out the gap between the warm words and the cold reality—when you ask where the actual care is—you force them to stare directly into an empty vault. Admitting out loud that they do not have love for you, or that their support is strictly conditional, would shatter their self-image. It feels ugly and exposes the whole performance as hollow.
+
+So instead of owning that absence of love, they use abandonment, ostracization, or threats to shut down the audit. If they can reframe you as rude, demanding, or aggressive just for asking the question, they get to flip the script and punish you for noticing. Walking away or cutting you off does two things at once: it removes the witness who caught the lie, and it lets them keep the facade intact with everyone else who stays quiet.
+
+It is the ultimate sleight of hand—turning the act of exposing lovelessness into the crime, so the lovelessness itself never has to be addressed. When you run into that wall, does it hit harder when it comes from the broader system pretending to care, or when it happens one-on-one with people who claim to be close to you?
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/behavior-count-not-mood.md
