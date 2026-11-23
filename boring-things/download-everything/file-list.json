@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
- "file_count": 1349,
- "total_bytes": 96787412,
+ "file_count": 1350,
+ "total_bytes": 96797200,
  "files": [
   {
    "path": ".gitignore",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 35825,
+   "bytes": 36218,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1423,7 +1423,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 23665,
+   "bytes": 23980,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -2013,6 +2013,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/suffering-open-problems.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/tiny-chance-vs-zero.md",
+   "title": "A tiny chance against no chance: four reflections on writing from a one-bedroom apartment",
+   "bytes": 9080,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/tiny-chance-vs-zero.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/tiny-chance-vs-zero.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/toll-gate-on-living.md",
