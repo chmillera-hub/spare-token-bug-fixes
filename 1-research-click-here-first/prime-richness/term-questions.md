@@ -8,7 +8,7 @@ The page before this one used a "moving" rule: each term of a sum moves the arro
 
 This page uses a "landing" rule: the arrow points at the mark with the same number as the term. A term larger than the number of marks has full turns removed first. With 360 marks the term 367 lands on mark 7 and the term 720 lands on mark 0.
 
-The file [spin-animation.html](spin-animation.html) in this folder now has a switch between the two rules under the list of sums.
+The file [spin-animation.html](spin-animation.html) in this folder shows the two rules as two circles side by side.
 
 ## Question: what changes when the arrow lands on the term itself?
 

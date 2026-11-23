@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
- "file_count": 1372,
- "total_bytes": 96931883,
+ "file_count": 1375,
+ "total_bytes": 96983237,
  "files": [
   {
    "path": ".gitignore",
@@ -712,7 +712,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 10529,
+   "bytes": 11040,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -721,7 +721,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 212262,
+   "bytes": 231331,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -863,6 +863,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/prime-pieces-questions.md"
   },
   {
+   "path": "1-research-click-here-first/prime-richness/rank-questions.md",
+   "title": "Questions about ranking sums that fill a circle under two rules",
+   "bytes": 18769,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/rank-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/rank-questions.md"
+  },
+  {
    "path": "1-research-click-here-first/prime-richness/ranked-list.md",
    "title": "Master list of 723 equations and sums ranked by prime percentage",
    "bytes": 217925,
@@ -901,7 +910,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/spin-animation.html",
    "title": "spin-animation.html",
-   "bytes": 20424,
+   "bytes": 22635,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/spin-animation.html",
@@ -928,7 +937,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/term-questions.md",
    "title": "Questions about a circle where the arrow lands on the term itself",
-   "bytes": 8771,
+   "bytes": 8757,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/term-questions.md",
@@ -10162,7 +10171,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 16310,
+   "bytes": 16723,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10959,6 +10968,24 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py",
+   "title": "both_rules_ranking.py",
+   "bytes": 7235,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/rank-scripts/digit_rows.py",
+   "title": "digit_rows.py",
+   "bytes": 3160,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/rank-scripts/digit_rows.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/rank-scripts/digit_rows.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/reciprocal_questions_check.py",
