@@ -2,6 +2,10 @@
 
 > **About this page:** One AI model (Claude) wrote this page on 23 November 2026 from a back and forth chat with the author of this repository. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The page continues the eleven earlier question pages in this folder (the last one is [sky-questions.md](sky-questions.md)). The author proposed each test on this page: putting a sum on a circle so the sum spins and cutting a circle into sections and asking which sections a sum ever reaches. The underlying facts are standard mathematics so the page claims no new result. The counts for circles with up to 5000 sections are measurements from programs and the page marks which statements are proven and which are only measured. The programs are in the folder boring-things/research-program-files/prime-richness-scripts/spin-scripts. No other person has reviewed the page yet.
 
+## An animation to go with this page
+
+The file [spin-animation.html](spin-animation.html) in this folder is a small program for a web browser. A reader picks a sum and a number of marks and presses Play and watches the arrow move and the marks light up. The program has twelve sums including the counting numbers and the squares and the Fibonacci numbers and the primes and the digits of pi.
+
 ## The picture the page uses
 
 An arrow has a length and a direction. A sum of sizes can only pile up along a line. A sum of arrows can cancel because arrows can point in different directions. "Putting a number next to pi" on this page means using the number as an angle: the number sets how far an arrow is turned.
@@ -197,7 +201,7 @@ No. The primes are fixed and anyone can compute them. What the tests show is tha
 - Testing whether a given number is prime is fast even for numbers with thousands of digits and a fast method is proven to exist.
 - Finding the next prime after a given number is also fast because only about "the natural logarithm of the number" candidates need testing on average.
 - The count of primes below a number has been computed for numbers with more than 25 digits without listing the primes.
-- What nobody has is a short formula that hands over the n-th prime directly. No proof says such a formula cannot exist.
+- What nobody has is a short formula that gives the n-th prime directly. No proof says such a formula cannot exist.
 
 So the primes are a fixed list that imitates randomness in bulk and keeps a few rigid habits and can be computed to any length but not from a shortcut formula that anyone knows.
 
