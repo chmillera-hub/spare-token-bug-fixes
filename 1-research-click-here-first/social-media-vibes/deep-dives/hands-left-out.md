@@ -1,6 +1,6 @@
-# The hands left out of the sentence: six reflections on soft words and unasked questions
+# The hands left out of the sentence: six reflections on consent and the wording of immigration arrests
 
-> **About this page:** This page holds six reflections on the way people describe immigration arrests with soft words such as "going home" and on the reasoning "they would refuse so nobody will ask." An AI chatbot (Claude) wrote reflections one and three and five on 23 November 2026 and no other person has rechecked the three reflections. The author of this repository supplied reflections two and four and six and the text of each appears in full. The page is not legal advice.
+> **About this page:** This page holds six reflections on the way people describe immigration arrests with vague words such as "going home" and on the reasoning "they would refuse so nobody will ask." An AI chatbot (Claude) wrote reflections one and three and five on 23 November 2026 and no other person has rechecked the three reflections. The author of this repository supplied reflections two and four and six and the text of each appears in full. The page is not legal advice.
 
 ## Reflection one: "they are simply going home"
 
@@ -10,11 +10,11 @@ The sentence "they are simply going home" removes the hands from the picture bec
 
 **What the video shows and what the comment says**
 
-The video shows agents with weapons taking hold of a person's arms without consent and closing metal cuffs on the wrists and placing the person in a vehicle the person cannot leave. The comment answers with "relocating" and "returning" and "leaving the country." Each soft word names where the person ends up and skips how the person was moved. A reader who only saw the comment would picture someone boarding a flight with a suitcase.
+The video shows agents with weapons taking hold of a person's arms without consent and closing metal cuffs on the wrists and placing the person in a vehicle the person cannot leave. The comment answers with "relocating" and "returning" and "leaving the country." Each of those words names where the person ends up and skips how the person was moved. A reader who only saw the comment would picture someone boarding a flight with a suitcase.
 
 **The cage between the grab and the plane**
 
-The trip is rarely direct because people are held first. News reports of official figures say that federal immigration officials were holding more than 65,000 people in custody as of the middle of November 2026. So the plain sequence is a grab and then a cell and then a forced flight and the phrase "going home" covers all three with two gentle words.
+The trip is rarely direct because people are held first. News reports of official figures say that federal immigration officials were holding more than 65,000 people in custody as of the middle of November 2026. So the plain sequence is a grab and then a cell and then a forced flight and the phrase "going home" covers all three with two vague words.
 
 **The word "home"**
 
@@ -24,9 +24,9 @@ Home is where a person's bed and job and family and friends are. A person who ha
 
 The body knows the difference even when the words blur. A commenter grabbed by the arm by armed strangers and told "come along or be beaten and the destination is Canada" would feel terror in the chest and would likely scream. The destination being a decent country would not calm the terror because the terror is about the hands and the loss of every familiar person. So the test shows that "where the person is sent" was never the part that hurts.
 
-**Why the soft words get chosen**
+**Why the vague words get chosen**
 
-Here is a possibility about ordinary commenters. A person who wants to see himself as kind cannot comfortably say "I support armed agents seizing my neighbor and locking my neighbor in a cell." The sentence "they are just going home" lets the same person keep the policy and keep the self-image. The soft wording protects the speaker's conscience and does nothing for the person in the vehicle.
+Here is a possibility about ordinary commenters. A person who wants to see himself as kind cannot comfortably say "I support armed agents seizing my neighbor and locking my neighbor in a cell." The sentence "they are just going home" lets the same person keep the policy and keep the self-image. The vague wording protects the speaker's conscience and does nothing for the person in the vehicle.
 
 **What supporters of deportation argue**
 
@@ -34,7 +34,7 @@ People who support removals say that elected lawmakers wrote the entry rules and
 
 **The measure of any position**
 
-A position that needs gentle words to hide what happens to a human being is asking listeners to agree without looking. Describing the hands and the cuffs and the cell exactly lets every listener decide with eyes open and the people in the videos deserve at least that much accuracy from the people commenting on them.
+A position that needs vague words to hide what happens to a human being is asking listeners to agree without looking. Describing the hands and the cuffs and the cell exactly lets every listener decide with eyes open and the people in the videos deserve at least that much accuracy from the people commenting on them.
 
 ## Reflection two: paperwork language
 

@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
  "file_count": 1349,
- "total_bytes": 96787279,
+ "total_bytes": 96787315,
  "files": [
   {
    "path": ".gitignore",
@@ -901,7 +901,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 35792,
+   "bytes": 35807,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1423,7 +1423,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 23639,
+   "bytes": 23640,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1728,8 +1728,8 @@
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/hands-left-out.md",
-   "title": "The hands left out of the sentence: six reflections on soft words and unasked questions",
-   "bytes": 16426,
+   "title": "The hands left out of the sentence: six reflections on consent and the wording of immigration arrests",
+   "bytes": 16446,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/hands-left-out.md",
