@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 70 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 71 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -76,6 +76,7 @@ The 70 pages in this list are written reflections that a visitor can read in a f
 - [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](deep-dives/body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 - [A toll gate in front of being alive: two reflections on food and shelter held behind obedience](deep-dives/toll-gate-on-living.md) holds two reflections on the feeling that a meal and a bed must be earned by obeying the landlords and employers and lawmakers who hold the food and the beds and explains that a ban on saying "this hurts" keeps the arrangement in place.
 - [An audit of love: two reflections on what happens to the person who checks the books](deep-dives/audit-of-love.md) holds two reflections on groups and people who say "you are loved" and then withdraw from the person who asks what the love has provided and explains that abandonment in answer to the question works as a confession that the love was missing.
+- [The hands left out of the sentence: six reflections on soft words and unasked questions](deep-dives/hands-left-out.md) holds six reflections on soft words such as "going home" for immigration arrests and on the reasoning "they would refuse so nobody will ask" and explains that a description which leaves out the hands and the handcuffs and the cell asks listeners to agree without looking.
 
 ## Thread counts and data
 
