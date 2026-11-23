@@ -9,12 +9,18 @@
 @media (prefers-color-scheme:dark){:root{--bg:#1c1b1a;--card:#262523;--text:#f0eee6;--muted:#a8a69d;--line:#45433e;--faint:#3a3835;--hit:#5dcaa5;--arrow:#f0a23b;--web:rgba(93,202,165,0.10);--btn:#f0eee6;--btntext:#1c1b1a}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
-main{max-width:560px;margin:0 auto;padding:16px 14px 40px}
-h1{font-size:21px;font-weight:600;margin:6px 0 4px}
+main{max-width:560px;margin:0 auto;padding:10px 12px 40px}
+h1{font-size:19px;font-weight:600;margin:2px 0 0}
 p{margin:6px 0}
 .lead{color:var(--muted);font-size:15px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:12px}
-canvas{display:block;width:100%;max-width:440px;aspect-ratio:1/1;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+canvas{display:block;margin:0 auto}
+#cv{width:min(100%,46vh,440px);aspect-ratio:1/1}
+#gr{width:100%;aspect-ratio:880/230;margin-top:2px}
+.card.top{padding:10px 12px}
+.row.first{margin-top:0;margin-bottom:6px}
+.card.top .stat{margin:2px 0 0;font-size:15px;font-weight:600}
+.card.top .small{margin:3px 0}
 label{display:block;font-size:14px;color:var(--muted);margin:10px 0 4px}
 select,input[type=number]{width:100%;font-size:16px;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
 input[type=range]{width:100%}
@@ -34,24 +40,23 @@ button.chip{padding:6px 10px;font-size:14px}
 <body>
 <main>
 <h1>Spinning sums on a circle</h1>
-<p class="lead">Pick a sum and a number of marks and press Play. Each term of the sum moves the arrow that many marks clockwise. A mark lights up when the arrow lands on the mark.</p>
 
-<div class="card">
+<div class="card top">
+<div class="row first">
+<button class="main" id="play">Play</button>
+<button id="step">One step</button>
+<button id="reset">Start over</button>
+</div>
 <canvas id="cv" width="880" height="880" role="img" aria-label="A circle of marks with an arrow that moves by each term of the chosen sum"></canvas>
-<p class="stat" id="s1">Step 0</p>
 <p class="stat" id="s2">Marks hit: 0</p>
-<div class="bar"><div id="bar"></div></div>
+<canvas id="gr" width="880" height="230" role="img" aria-label="A graph of the share of the circle that is filled as the steps go by"></canvas>
+<p class="small" id="s1">Step 0</p>
 <p class="small" id="s3"></p>
 <p class="small" id="s4"></p>
 </div>
 
 <div class="card">
-<div class="row">
-<button class="main" id="play">Play</button>
-<button id="step">One step</button>
-<button id="reset">Start over</button>
-</div>
-<label for="sum">The sum (the moves)</label>
+<label for="sum" style="margin-top:0">The sum (the moves)</label>
 <select id="sum"></select>
 <label for="n">Number of marks on the circle</label>
 <input id="n" type="number" min="2" max="5000" value="360" inputmode="numeric">
@@ -62,6 +67,7 @@ button.chip{padding:6px 10px;font-size:14px}
 </div>
 
 <div class="card">
+<p class="small">Each term of the sum moves the arrow that many marks clockwise. A mark lights up when the arrow lands on the mark. The graph under the circle shows the share of the circle that is filled as the steps go by.</p>
 <p class="small" id="note"></p>
 <p class="small">An AI model (Claude) wrote this page on 23 November 2026. The page goes with the questions page spin-questions.md in the prime-richness folder of the repository spare-token-bug-fixes.</p>
 </div>
@@ -98,8 +104,8 @@ const ROWS=[
  {id:"seven",name:"7 + 7 + 7 + 7 + … (the same move every time)",note:"A steady move hits every mark when the move shares no prime piece with the number of marks. With 360 marks a move of 7 hits every mark in 360 steps.",
   make(N){return()=>({m:7%N,label:"7"});}}
 ];
-function newState(rowId,N){const row=ROWS.find(r=>r.id===rowId);return{row,N,next:row.make(N),pos:0,step:0,visits:new Uint32Array(N),hit:0,fullAt:0,lastNew:0,last:null,ended:false};}
-function advance(st){const r=st.next();if(r===null){st.ended=true;return null;}const from=st.pos;st.pos=(st.pos+r.m)%st.N;st.step++;const fresh=st.visits[st.pos]===0;st.visits[st.pos]++;if(fresh){st.hit++;st.lastNew=st.step;if(st.hit===st.N&&!st.fullAt)st.fullAt=st.step;}st.last={from,to:st.pos,label:r.label,fresh};return st.last;}
+function newState(rowId,N){const row=ROWS.find(r=>r.id===rowId);return{row,N,next:row.make(N),pos:0,step:0,visits:new Uint32Array(N),hit:0,fullAt:0,lastNew:0,last:null,ended:false,hist:[[0,0]],stride:1};}
+function advance(st){const r=st.next();if(r===null){st.ended=true;return null;}const from=st.pos;st.pos=(st.pos+r.m)%st.N;st.step++;const fresh=st.visits[st.pos]===0;st.visits[st.pos]++;if(fresh){st.hit++;st.lastNew=st.step;if(st.hit===st.N&&!st.fullAt)st.fullAt=st.step;}if(fresh||st.step%st.stride===0){const h=st.hist,l=h[h.length-1];if(l[0]===st.step)l[1]=st.hit;else h.push([st.step,st.hit]);if(h.length>1500){const k=[h[0]];for(let i=1;i<h.length;i++){if(i%2===0||i===h.length-1)k.push(h[i]);}st.hist=k;st.stride*=2;}}st.last={from,to:st.pos,label:r.label,fresh};return st.last;}
 /*CORE-END*/
 const $=id=>document.getElementById(id);
 const cv=$("cv"),ctx=cv.getContext("2d");
@@ -117,10 +123,18 @@ function markHit(i){tick(rctx,i,st.N,css("--hit"),st.visits[i]===1?0.45:0.18);}
 function chord(from,to){if(!$("web").checked||from===to)return;const a=ang(from,st.N),b=ang(to,st.N);wctx.strokeStyle=css("--web");wctx.lineWidth=1.5;wctx.beginPath();wctx.moveTo(C+RW*Math.cos(a),C+RW*Math.sin(a));wctx.lineTo(C+RW*Math.cos(b),C+RW*Math.sin(b));wctx.stroke();}
 function render(){ctx.clearRect(0,0,W,W);ctx.drawImage(web,0,0);ctx.drawImage(ring,0,0);const a=ang(st.pos,st.N),col=css("--arrow");const x=C+RW*Math.cos(a),y=C+RW*Math.sin(a);ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=5;ctx.lineCap="round";ctx.beginPath();ctx.moveTo(C,C);ctx.lineTo(x,y);ctx.stroke();const hl=26;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-hl*Math.cos(a-0.4),y-hl*Math.sin(a-0.4));ctx.lineTo(x-hl*Math.cos(a+0.4),y-hl*Math.sin(a+0.4));ctx.closePath();ctx.fill();ctx.beginPath();ctx.arc(C,C,9,0,2*Math.PI);ctx.fill();ctx.fillStyle=css("--muted");ctx.font="26px system-ui, sans-serif";ctx.textAlign="center";ctx.fillText("0",C,C-RT-8+0);
  const pct=(100*st.hit/st.N);$("s1").textContent=st.step===0?"Step 0 · the arrow starts at mark 0":"Step "+st.step+" · the move was +"+st.last.label+" · the arrow is at mark "+st.pos;
- $("s2").textContent="Marks hit: "+st.hit+" of "+st.N+" ("+pct.toFixed(1)+"%)";$("bar").style.width=pct+"%";
+ $("s2").textContent="Filled: "+pct.toFixed(1)+"% ("+st.hit+" of "+st.N+" marks)";graph();
  let t3="";if(st.fullAt){t3="Every mark was hit by step "+st.fullAt+".";$("s3").className="small done";}else{$("s3").className="small";if(st.step>0)t3="Steps since a new mark was hit: "+(st.step-st.lastNew)+".";}
  if(st.ended)t3+=" The list of moves on this page ran out so the arrow stopped.";$("s3").textContent=t3;
  let t4="";if(!st.fullAt&&st.step>0){const miss=[];for(let i=0;i<st.N&&miss.length<14;i++)if(!st.visits[i])miss.push(i);const left=st.N-st.hit;t4="Marks not hit yet: "+miss.join(" ")+(left>miss.length?" … ("+left+" in all)":"");}$("s4").textContent=t4;}
+const gr=$("gr"),gx=gr.getContext("2d");
+function graph(){const GW=gr.width,GH=gr.height,L=74,Rr=14,T=14,B=40,w=GW-L-Rr,h=GH-T-B;gx.clearRect(0,0,GW,GH);const mu=css("--muted"),ln=css("--line"),hc=css("--hit");
+ gx.font="24px system-ui, sans-serif";gx.fillStyle=mu;gx.textAlign="right";gx.textBaseline="middle";gx.strokeStyle=ln;gx.lineWidth=1.5;
+ [0,50,100].forEach(p=>{const y=T+h-h*p/100;gx.fillText(p+"%",L-10,y);gx.beginPath();gx.moveTo(L,y);gx.lineTo(L+w,y);gx.stroke();});
+ const maxS=Math.max(st.step,1);const pts=st.hist.slice();if(pts[pts.length-1][0]!==st.step)pts.push([st.step,st.hit]);
+ gx.beginPath();gx.moveTo(L,T+h);pts.forEach(p=>{gx.lineTo(L+w*p[0]/maxS,T+h-h*p[1]/st.N);});gx.lineTo(L+w*pts[pts.length-1][0]/maxS,T+h);gx.closePath();gx.globalAlpha=0.18;gx.fillStyle=hc;gx.fill();gx.globalAlpha=1;
+ gx.beginPath();pts.forEach((p,i)=>{const x=L+w*p[0]/maxS,y=T+h-h*p[1]/st.N;if(i)gx.lineTo(x,y);else gx.moveTo(x,y);});gx.strokeStyle=hc;gx.lineWidth=4;gx.lineJoin="round";gx.stroke();
+ gx.fillStyle=mu;gx.textBaseline="alphabetic";gx.textAlign="left";gx.fillText("step 0",L,GH-10);gx.textAlign="right";gx.fillText("step "+st.step,L+w,GH-10);gx.textAlign="center";gx.fillText("share of the circle filled",L+w/2,GH-10);}
 function doSteps(k){for(let i=0;i<k;i++){const r=advance(st);if(!r){setPlaying(false);break;}markHit(r.to);chord(r.from,r.to);}}
 function frame(t){if(!playing)return;const dt=Math.min(0.1,(t-lastT)/1000);lastT=t;carry+=dt*SPEEDS[+$("speed").value];const k=Math.floor(carry);if(k>0){carry-=k;doSteps(k);render();}requestAnimationFrame(frame);}
 function setPlaying(p){playing=p;$("play").textContent=p?"Pause":"Play";if(p){lastT=performance.now();carry=0;requestAnimationFrame(frame);}}
