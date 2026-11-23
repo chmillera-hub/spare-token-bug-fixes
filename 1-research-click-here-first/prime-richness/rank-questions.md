@@ -4,7 +4,7 @@
 
 ## The two rules and the test
 
-Under the "moving" rule each term of a sum moves the arrow that many marks so the arrow shows the running total. Under the "landing" rule the arrow lands on the mark with the same number as the term after full turns are removed. A term with a minus sign moves the arrow backward under the moving rule and lands on the mark that many steps back from mark 0 under the landing rule.
+Under the "cumulative" rule each term of a sum moves the arrow that many marks so the arrow shows the running total. Under the "literal" rule the arrow lands on the mark with the same number as the term after full turns are removed. A term with a minus sign moves the arrow backward under the cumulative rule and lands on the mark that many steps back from mark 0 under the literal rule.
 
 The test ran 32 sums on every circle size from 2 marks to 5000 marks which is 4999 sizes. Each sum got 30 steps for each mark on the circle so a circle of 360 marks got 10800 steps and a circle of 5000 marks got 150000 steps. Terms with decimals had the decimals dropped with no rounding.
 
@@ -14,8 +14,8 @@ The file [spin-animation.html](spin-animation.html) in this folder shows both ru
 
 Five sums filled every mark on all 4999 circle sizes under both rules:
 
-- 1 − 2 + 3 − 4 (the counting numbers with flipping signs). The running totals are 1 and −1 and 2 and −2 and 3 so the arrow swings one mark wider on each side. On 1000 marks this sum filled the landing circle in 1000 steps and the moving circle in 1999 steps which was the fastest of the 32 sums.
-- 4 + 6 + 8 + 9 (the composite numbers) and the same sum with flipping signs. On 1000 marks the composite numbers needed 2567 steps on the landing circle and 8202 steps on the moving circle.
+- 1 − 2 + 3 − 4 (the counting numbers with flipping signs). The running totals are 1 and −1 and 2 and −2 and 3 so the arrow swings one mark wider on each side. On 1000 marks this sum filled the literal circle in 1000 steps and the cumulative circle in 1999 steps which was the fastest of the 32 sums.
+- 4 + 6 + 8 + 9 (the composite numbers) and the same sum with flipping signs. On 1000 marks the composite numbers needed 2567 steps on the literal circle and 8202 steps on the cumulative circle.
 - 0 + 1 + 3 + 5 + 8 + 10 (the whole part of n times the natural logarithm of n).
 - 1 + 2 + 5 + 8 + 11 (the whole part of n times the root of n).
 
@@ -23,7 +23,7 @@ A sum fills both circles when the terms reach every remainder and the running to
 
 ## List 1: the two percentages added together (out of 200)
 
-Each percentage is the share of marks a sum reached averaged over all 4999 circle sizes. The brackets show the moving circle and then the landing circle. A sum that covers all of both circles scores 200.
+Each percentage is the share of marks a sum reached averaged over all 4999 circle sizes. The brackets show the cumulative circle and then the literal circle. A sum that covers all of both circles scores 200.
 
 1. 1 − 2 + 3 − 4 (counting numbers with flipping signs): 200.0 (100.0 and 100.0)
 2. 4 + 6 + 8 + 9 (composite numbers): 200.0 (100.0 and 100.0)
@@ -58,11 +58,11 @@ Each percentage is the share of marks a sum reached averaged over all 4999 circl
 31. 1 + 2 + 6 + 24 + 120 (1 and 1 × 2 and 1 × 2 × 3): 30.8 (15.3 and 15.5)
 32. 1 − 1 + 1 − 1 (steady 1 with flipping signs): 0.6 (0.3 and 0.3)
 
-The steady sum 1 + 1 + 1 + 1 sits in the middle of this list at about 100 because the running total walks onto every mark of the moving circle while the landing arrow stays on mark 1.
+The steady sum 1 + 1 + 1 + 1 sits in the middle of this list at about 100 because the running total walks onto every mark of the cumulative circle while the arrow on the literal circle stays on mark 1.
 
-## List 2: circle sizes filled on the moving circle plus circle sizes filled on the landing circle (out of 9998)
+## List 2: circle sizes filled on the cumulative circle plus circle sizes filled on the literal circle (out of 9998)
 
-A size counts on a circle only when the sum reached every mark of that circle. The brackets show the moving count and then the landing count.
+A size counts on a circle only when the sum reached every mark of that circle. The brackets show the cumulative count and then the literal count.
 
 1. 1 − 2 + 3 − 4 (counting numbers with flipping signs): 9998 (4999 and 4999)
 2. 4 + 6 + 8 + 9 (composite numbers): 9998 (4999 and 4999)
@@ -136,7 +136,7 @@ Sums with the same count are tied.
 
 ## List 4: the lower of the two percentages (out of 100)
 
-For each circle size the score takes the lower of the two shares and then averages over all 4999 sizes. The brackets show the landing average and then the moving average.
+For each circle size the score takes the lower of the two shares and then averages over all 4999 sizes. The brackets show the literal average and then the cumulative average.
 
 1. 1 − 2 + 3 − 4 (counting numbers with flipping signs): 100.0 (100.0 and 100.0)
 2. 4 + 6 + 8 + 9 (composite numbers): 100.0 (100.0 and 100.0)
@@ -173,23 +173,23 @@ For each circle size the score takes the lower of the two shares and then averag
 
 ## Question: what do the counts in the lists match?
 
-- The primes filled both circles on 669 sizes and there are 669 primes up to 5000. The page before this one shows that the primes fill the landing circle only when the number of marks is a prime.
-- The counting numbers filled the moving circle on 12 sizes and there are 12 powers of 2 from 2 to 4096. The running totals of the counting numbers fill a circle only when the number of marks is a power of 2.
-- The numbers with no repeated prime piece filled the landing circle on 3041 sizes and those are exactly the 3041 circle sizes from 2 to 5000 that themselves have no repeated prime piece. The program compared the sizes one by one.
-- The odd numbers with flipping signs filled the landing circle on 2499 sizes and those are exactly the 2499 odd sizes from 3 to 4999.
-- The steady sum 7 + 7 + 7 + 7 filled the moving circle on 4285 sizes which is every size that 7 does not divide.
+- The primes filled both circles on 669 sizes and there are 669 primes up to 5000. The page before this one shows that the primes fill the literal circle only when the number of marks is a prime.
+- The counting numbers filled the cumulative circle on 12 sizes and there are 12 powers of 2 from 2 to 4096. The running totals of the counting numbers fill a circle only when the number of marks is a power of 2.
+- The numbers with no repeated prime piece filled the literal circle on 3041 sizes and those are exactly the 3041 circle sizes from 2 to 5000 that themselves have no repeated prime piece. The program compared the sizes one by one.
+- The odd numbers with flipping signs filled the literal circle on 2499 sizes and those are exactly the 2499 odd sizes from 3 to 4999.
+- The steady sum 7 + 7 + 7 + 7 filled the cumulative circle on 4285 sizes which is every size that 7 does not divide.
 
 ## Question: does the whole part of n times the natural logarithm of n need decimals?
 
 Yes in the middle of the calculation. The recipe multiplies n by the natural logarithm of n and then drops everything after the decimal point. So 2 gives 1.386 and the term is 1. Then 3 gives 3.296 and the term is 3. Then 4 gives 5.545 and the term is 5. Then 5 gives 8.047 and the term is 8.
 
-The n-th prime is close to n times the natural logarithm of n which is a proven fact about how the primes thin out. So this sum is a smooth imitation of the primes that grows at the pace of the primes. The imitation filled the landing circle on all 4999 sizes and the primes filled the landing circle on 669 sizes. The imitation is free to land on even marks and a prime above 2 is not. So the gap between 4999 and 669 belongs to the sieve and not to how fast the primes grow.
+The n-th prime is close to n times the natural logarithm of n which is a proven fact about how the primes thin out. So this sum is a smooth imitation of the primes that grows at the pace of the primes. The imitation filled the literal circle on all 4999 sizes and the primes filled the literal circle on 669 sizes. The imitation is free to land on even marks and a prime above 2 is not. So the gap between 4999 and 669 belongs to the sieve and not to how fast the primes grow.
 
 ## Question: did dropping the decimals create a randomness as good as the primes?
 
-The chopped sum covered the marks as well as the primes on the moving circle and better than the primes on the landing circle. But the chopped sum is not random. The gaps between neighboring terms are 1 and 2 and 2 and 3 and 2 and 3 and the gaps creep upward slowly. So the arrow sweeps around the circle at a speed that changes a tiny bit on each lap and each lap lands slightly offset from the lap before. Anyone can work out the millionth term with a calculator.
+The chopped sum covered the marks as well as the primes on the cumulative circle and better than the primes on the literal circle. But the chopped sum is not random. The gaps between neighboring terms are 1 and 2 and 2 and 3 and 2 and 3 and the gaps creep upward slowly. So the arrow sweeps around the circle at a speed that changes a tiny bit on each lap and each lap lands slightly offset from the lap before. Anyone can work out the millionth term with a calculator.
 
-On 1000 marks the chopped sum filled the moving circle in 5850 steps and the primes needed 8348 steps and random drops would need about 6908.
+On 1000 marks the chopped sum filled the cumulative circle in 5850 steps and the primes needed 8348 steps and random drops would need about 6908.
 
 So "fills every circle" is a weak test of randomness because a fully predictable sum passes the test. The tests on the earlier pages where the primes looked special were the sharp pitches and the last digits of neighboring primes.
 
@@ -199,7 +199,7 @@ The chatbot recalls that mathematicians have proven that the whole parts of smoo
 
 A sum such as the primes never ends so the program has to stop somewhere and count. One step is one term used once. Each sum got 30 times as many steps as the circle has marks. Random drops need about "the natural logarithm of the number of marks" steps for each mark which is about 8.5 for 5000 marks so 30 is more than three times what random drops need. The number 30 is the chatbot's choice and not a standard.
 
-The limit lowers the landing scores of sums whose terms grow slowly because the landing arrow cannot reach a mark larger than the largest term seen so far. The sum 1 + 2 + 2 + 3 + 3 + 3 reaches only the term 547 after 150000 steps so that sum cannot land on marks 548 to 4999 of a circle with 5000 marks inside the limit. The digits of pi and the number of divisors of n are held back the same way. The two sums built from the root of 2 and the golden ratio missed a few marks on 71 and 80 sizes and more steps might fill those sizes.
+The limit lowers the literal scores of sums whose terms grow slowly because the arrow on the literal circle cannot reach a mark larger than the largest term seen so far. The sum 1 + 2 + 2 + 3 + 3 + 3 reaches only the term 547 after 150000 steps so that sum cannot land on marks 548 to 4999 of a circle with 5000 marks inside the limit. The digits of pi and the number of divisors of n are held back the same way. The two sums built from the root of 2 and the golden ratio missed a few marks on 71 and 80 sizes and more steps might fill those sizes.
 
 The limit makes no difference for sums that repeat on a circle such as the counting numbers and the squares and the cubes and the Fibonacci numbers and the doublings.
 
@@ -207,26 +207,26 @@ The limit makes no difference for sums that repeat on a circle such as the count
 
 The test used the digits after the decimal point of pi and e and the golden ratio and the roots of 2 and 3 and 5 and 7 and the natural logarithm of 2. Each constant was used two ways.
 
-**One digit at a time.** Every one of the eight constants scored the same: 100.0 on the moving circle and 1.4 on the landing circle for a total of 101.4 out of 200. A digit is 0 to 9 so the landing arrow can reach at most 10 marks and the landing circle was filled only on the 9 sizes from 2 to 10. Digits from a random number generator scored the same 101.4.
+**One digit at a time.** Every one of the eight constants scored the same: 100.0 on the cumulative circle and 1.4 on the literal circle for a total of 101.4 out of 200. A digit is 0 to 9 so the arrow on the literal circle can reach at most 10 marks and the literal circle was filled only on the 9 sizes from 2 to 10. Digits from a random number generator scored the same 101.4.
 
 **Four digits at a time.** The digits were cut into blocks of four so e gives 7182 and 8182 and 8459. Every one of the eight constants filled both circles on all 4999 sizes for a total of 200.0. Blocks from a random number generator scored the same 200.0.
 
 Two controls:
 
-- 1 divided by 7 has the repeating digits 142857. One digit at a time scored 95.5 (the moving circle was filled on 4444 sizes). Four digits at a time scored 79.0 because the blocks repeat after three blocks.
-- The counting numbers written in a line (123456789101112) scored 101.4 one digit at a time and 200.0 four digits at a time though the moving circle was left unfilled on 86 sizes.
+- 1 divided by 7 has the repeating digits 142857. One digit at a time scored 95.5 (the cumulative circle was filled on 4444 sizes). Four digits at a time scored 79.0 because the blocks repeat after three blocks.
+- The counting numbers written in a line (123456789101112) scored 101.4 one digit at a time and 200.0 four digits at a time though the cumulative circle was left unfilled on 86 sizes.
 
 So the digits of these constants behaved like random digits in this test and no constant stood out from another. The test cannot tell e from the golden ratio or from a random number generator. What decides the score is how large the terms are allowed to be and not which constant the digits belong to.
 
 ## Question: what stands out so far?
 
-**The landing circle works like a mirror.** A sum fills the landing circle on the circle sizes that are the same kind of number as the terms of the sum. The primes filled exactly the circles with a prime number of marks. The numbers with no repeated prime piece filled exactly the circles whose size has no repeated prime piece. The odd numbers with flipping signs filled exactly the circles with an odd number of marks. The program compared these size by size from 2 to 5000 and found no exception. The reason is the sieve: a circle size blocks the marks that share a forbidden piece with the size so only a size free of that piece leaves every mark open.
+**The literal circle works like a mirror.** A sum fills the literal circle on the circle sizes that are the same kind of number as the terms of the sum. The primes filled exactly the circles with a prime number of marks. The numbers with no repeated prime piece filled exactly the circles whose size has no repeated prime piece. The odd numbers with flipping signs filled exactly the circles with an odd number of marks. The program compared these size by size from 2 to 5000 and found no exception. The reason is the sieve: a circle size blocks the marks that share a forbidden piece with the size so only a size free of that piece leaves every mark open.
 
 **Filling a circle measures steady drift and not randomness.** A sum that anyone can predict with a calculator (the whole part of n times the natural logarithm of n) filled every circle under both rules and the primes did not. So a full circle says the terms keep shifting their remainders and says nothing about whether the terms are unpredictable.
 
 **The two rules are one rule a level apart.** The running totals of one sum are the terms of another sum. That is the same ladder as the earlier pages where a logarithm takes multiplying down to adding and where dividing each term by the running total takes a sum down one rung.
 
-**Flipping signs repairs the counting numbers.** 1 + 2 + 3 + 4 fills the moving circle only on powers of 2 and 1 − 2 + 3 − 4 fills every circle under both rules and was the fastest sum tested. On the earlier pages the same flipped sum was the one that settles to 1/4 while the unflipped sum needs the −1/12 treatment. The chatbot sees a resemblance there (backward steps cancel the pile-up in both settings) and has not shown that the two facts are linked by a proof.
+**Flipping signs repairs the counting numbers.** 1 + 2 + 3 + 4 fills the cumulative circle only on powers of 2 and 1 − 2 + 3 − 4 fills every circle under both rules and was the fastest sum tested. On the earlier pages the same flipped sum was the one that settles to 1/4 while the unflipped sum needs the −1/12 treatment. The chatbot sees a resemblance there (backward steps cancel the pile-up in both settings) and has not shown that the two facts are linked by a proof.
 
 **The digits of the constants could not be told apart.** Pi and e and the golden ratio and four square roots and the natural logarithm of 2 gave the same scores as a random number generator. Mathematicians widely expect the digits of these constants to behave like random digits and nobody has proven that for any of these eight constants. This test agrees with the expectation and does not prove the expectation.
 
@@ -235,10 +235,10 @@ So the digits of these constants behaved like random digits in this test and no 
 ## How the questions tie back to the lists
 
 - The recipe n² + n + 41 ranks high for primes on the master lists and scored 75.8 out of 200 here and filled both circles on no size. Being rich in primes and filling a circle are separate properties.
-- The primes scored 161.1 out of 200: a full moving circle and a landing circle held to 61.1% on average by the sieve.
+- The primes scored 161.1 out of 200: a full cumulative circle and a literal circle held to 61.1% on average by the sieve.
 
 ## Numbers that this page adds to the list in Part 7
 
-56. 161.1 out of 200 is the score of the primes when the average share of the moving circle (100.0%) and the landing circle (61.1%) are added over circle sizes 2 to 5000.
+56. 161.1 out of 200 is the score of the primes when the average share of the cumulative circle (100.0%) and the literal circle (61.1%) are added over circle sizes 2 to 5000.
 57. 30 is the number of steps for each mark that the ranking test allowed.
 58. 101.4 out of 200 is the score of the digits of every tested constant taken one digit at a time.

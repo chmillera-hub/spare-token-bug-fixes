@@ -66,7 +66,7 @@ rows = [
 ]
 print('--- 360 marks: marks reached when the arrow lands on the term itself and when each term moves the arrow')
 for name, terms in rows:
-    print('%-34s lands on %3d   moved by %3d' % (name, land(terms), total(terms)))
+    print('%-34s literal %3d   cumulative %3d' % (name, land(terms), total(terms)))
 
 print('--- which marks')
 print('doublings', sorted({2 ** k % N for k in range(600)}))
@@ -78,7 +78,7 @@ print('odd numbers moved', total(rows[1][1]), ' squares landed', land(rows[3][1]
 print('counting numbers moved', total(rows[0][1]), ' triangular numbers landed', land(rows[2][1]))
 print('same marks for odd and squares:', {t % N for t in rows[3][1]} == {sum(rows[1][1][:k]) % N for k in range(1, 800)})
 
-print('--- primes landing on 360 marks')
+print('--- primes literal on 360 marks')
 pm = {p % N for p in P}
 free = [r for r in range(N) if math.gcd(r, N) == 1]
 print('marks reached', len(pm), ' share', 100 * len(pm) / N, ' marks that share no prime piece with 360:', len(free))
@@ -96,7 +96,7 @@ print('first 200000 primes: visits to each of the 96 marks run from', min(big), 
 tri = {n * (n + 1) // 2 % N for n in range(1, 2000)}
 print('marks shared by the 96 triangular marks and the 96 prime-free marks', len(tri & set(free)))
 
-print('--- primes landing on other circle sizes')
+print('--- primes literal on other circle sizes')
 for M in (2, 3, 4, 5, 6, 7, 10, 12, 30, 60, 100, 210, 256, 360, 997, 1000, 2310):
     c = len({p % M for p in P})
     print('%5d marks: %4d reached  %5.1f percent' % (M, c, 100 * c / M))

@@ -1,6 +1,6 @@
 # Ranks rows of whole numbers by how much of a circle each row reaches under two rules.
-# Moving rule: each term moves the arrow that many marks (the arrow shows the running total).
-# Landing rule: the arrow lands on the term itself with full turns removed.
+# Cumulative rule: each term moves the arrow that many marks (the arrow shows the running total).
+# Literal rule: the arrow lands on the term itself with full turns removed.
 # A negative term moves the arrow the other way around the circle.
 # Every circle size from 2 to 5000 marks is tested (a different top size can be given after the file name) with 30 steps for each mark on the circle.
 # Run with: python3 both_rules_ranking.py   (needs the free Python packages numpy and mpmath)
@@ -124,24 +124,24 @@ def first_full(t, N, cap):
 T = NMAX - 1
 print('circle sizes tested:', T, ' steps for each mark:', PER)
 rank = sorted(res.items(), key=lambda kv: -np.minimum(kv[1][:, 0], kv[1][:, 1]).mean())
-print('--- ranking 1: average over all sizes of the lower of the two percentages (then landing average and moving average)')
+print('--- ranking 1: average over all sizes of the lower of the two percentages (then literal average and cumulative average)')
 for i, (name, a) in enumerate(rank, 1):
-    print('%2d. %-74s %5.1f | land %5.1f move %5.1f' % (i, name, 100 * np.minimum(a[:, 0], a[:, 1]).mean(), 100 * a[:, 0].mean(), 100 * a[:, 1].mean()))
+    print('%2d. %-74s %5.1f | literal %5.1f cumulative %5.1f' % (i, name, 100 * np.minimum(a[:, 0], a[:, 1]).mean(), 100 * a[:, 0].mean(), 100 * a[:, 1].mean()))
 cnt = {k: (int((a[:, 1] == 1).sum()), int((a[:, 0] == 1).sum()), int(((a[:, 0] == 1) & (a[:, 1] == 1)).sum())) for k, a in res.items()}
 print('--- ranking 2: number of sizes filled under both rules at once')
 for i, (name, c) in enumerate(sorted(cnt.items(), key=lambda kv: -kv[1][2]), 1):
     print('%2d. %-74s %4d' % (i, name, c[2]))
-print('--- ranking 3: sizes filled on the moving circle plus sizes filled on the landing circle')
+print('--- ranking 3: sizes filled on the cumulative circle plus sizes filled on the literal circle')
 for i, (name, c) in enumerate(sorted(cnt.items(), key=lambda kv: -(kv[1][0] + kv[1][1])), 1):
-    print('%2d. %-74s %5d | moving %4d landing %4d' % (i, name, c[0] + c[1], c[0], c[1]))
-print('--- ranking 4: moving average percentage plus landing average percentage (out of 200)')
+    print('%2d. %-74s %5d | cumulative %4d literal %4d' % (i, name, c[0] + c[1], c[0], c[1]))
+print('--- ranking 4: cumulative average percentage plus literal average percentage (out of 200)')
 for i, (name, a) in enumerate(sorted(res.items(), key=lambda kv: -(kv[1][:, 0].mean() + kv[1][:, 1].mean())), 1):
-    print('%2d. %-74s %5.1f | moving %5.1f landing %5.1f' % (i, name, 100 * (a[:, 0].mean() + a[:, 1].mean()), 100 * a[:, 1].mean(), 100 * a[:, 0].mean()))
-print('--- steps needed to fill 1000 marks: landing circle then moving circle')
+    print('%2d. %-74s %5.1f | cumulative %5.1f literal %5.1f' % (i, name, 100 * (a[:, 0].mean() + a[:, 1].mean()), 100 * a[:, 1].mean(), 100 * a[:, 0].mean()))
+print('--- steps needed to fill 1000 marks: literal circle then cumulative circle')
 for name in rows:
     if any(w in name for w in ('1 - 2 + 3 - 4', '4 + 6 + 8 + 9', 'natural logarithm', '2 + 3 + 5 + 7')):
         print('%-74s' % name, first_full(rows[name], 1000, min(K, 30000)))
-print('--- which sizes get a full landing circle')
+print('--- which sizes get a full literal circle')
 lp = res['2 + 3 + 5 + 7 (primes)'][:, 0] == 1
 ls = res['1 + 2 + 3 + 5 + 6 + 7 (numbers with no repeated prime piece)'][:, 0] == 1
 lo = res['1 - 3 + 5 - 7 (odd numbers with flipping signs)'][:, 0] == 1
