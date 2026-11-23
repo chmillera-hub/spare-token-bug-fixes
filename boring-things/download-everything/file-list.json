@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
  "file_count": 1375,
- "total_bytes": 96983237,
+ "total_bytes": 97379197,
  "files": [
   {
    "path": ".gitignore",
@@ -712,7 +712,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 11040,
+   "bytes": 11119,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -910,7 +910,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/spin-animation.html",
    "title": "spin-animation.html",
-   "bytes": 22635,
+   "bytes": 418516,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/spin-animation.html",
