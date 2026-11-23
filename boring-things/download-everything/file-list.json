@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
  "file_count": 1375,
- "total_bytes": 97379197,
+ "total_bytes": 97385071,
  "files": [
   {
    "path": ".gitignore",
@@ -721,7 +721,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 231331,
+   "bytes": 233842,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -865,7 +865,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/rank-questions.md",
    "title": "Questions about ranking sums that fill a circle under two rules",
-   "bytes": 18769,
+   "bytes": 21225,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/rank-questions.md",
@@ -10972,7 +10972,7 @@
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py",
    "title": "both_rules_ranking.py",
-   "bytes": 7235,
+   "bytes": 8142,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py",

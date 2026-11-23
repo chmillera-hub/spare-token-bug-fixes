@@ -141,3 +141,13 @@ print('--- steps needed to fill 1000 marks: landing circle then moving circle')
 for name in rows:
     if any(w in name for w in ('1 - 2 + 3 - 4', '4 + 6 + 8 + 9', 'natural logarithm', '2 + 3 + 5 + 7')):
         print('%-74s' % name, first_full(rows[name], 1000, min(K, 30000)))
+print('--- which sizes get a full landing circle')
+lp = res['2 + 3 + 5 + 7 (primes)'][:, 0] == 1
+ls = res['1 + 2 + 3 + 5 + 6 + 7 (numbers with no repeated prime piece)'][:, 0] == 1
+lo = res['1 - 3 + 5 - 7 (odd numbers with flipping signs)'][:, 0] == 1
+lt = res['1 + 3 + 6 + 10 (triangular numbers)'][:, 0] == 1
+sizes = range(2, NMAX + 1)
+print('primes: differs from "the size is a prime" on', sum(1 for N, f in zip(sizes, lp) if f != bool(S[N])), 'sizes')
+print('numbers with no repeated prime piece: differs from "the size has no repeated prime piece" on', sum(1 for N, f in zip(sizes, ls) if f != bool(sqf[N])), 'sizes')
+print('odd numbers with flipping signs: differs from "the size is odd" on', sum(1 for N, f in zip(sizes, lo) if f != (N % 2 == 1)), 'sizes')
+print('triangular numbers: differs from "the size is a power of 2" on', sum(1 for N, f in zip(sizes, lt) if f != (N & (N - 1) == 0)), 'sizes')
