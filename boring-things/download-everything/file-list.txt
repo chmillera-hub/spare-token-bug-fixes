@@ -78,6 +78,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/block-questions.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/champions-467.txt
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/checker.html
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/coin-flip-questions.md
@@ -1165,6 +1166,11 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/borin
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/page-splitting-scripts/split_test.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/big_digits.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/big_digits_results.json
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_looped.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_rows.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/polynomial_rows.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/sized_blocks.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/small_terms_blocks.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/bump_conversion.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/bumped_pieces.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/champions.py

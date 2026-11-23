@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-23",
- "file_count": 1375,
- "total_bytes": 97386002,
+ "file_count": 1381,
+ "total_bytes": 97458057,
  "files": [
   {
    "path": ".gitignore",
@@ -712,7 +712,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 11167,
+   "bytes": 11705,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -721,11 +721,20 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 234104,
+   "bytes": 250948,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/all-questions.txt"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/block-questions.md",
+   "title": "Questions about digit blocks and polynomials and Collatz paths on the two circles",
+   "bytes": 16593,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/block-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/block-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/champions-467.txt",
@@ -910,7 +919,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/spin-animation.html",
    "title": "spin-animation.html",
-   "bytes": 418821,
+   "bytes": 439834,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/spin-animation.html",
@@ -10171,7 +10180,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 16727,
+   "bytes": 17207,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10509,6 +10518,51 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/big_digits_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/big_digits_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_looped.py",
+   "title": "collatz_looped.py",
+   "bytes": 2566,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_looped.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_looped.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_rows.py",
+   "title": "collatz_rows.py",
+   "bytes": 4002,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_rows.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/collatz_rows.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/block-scripts/polynomial_rows.py",
+   "title": "polynomial_rows.py",
+   "bytes": 3566,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/polynomial_rows.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/polynomial_rows.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/block-scripts/sized_blocks.py",
+   "title": "sized_blocks.py",
+   "bytes": 3308,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/sized_blocks.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/sized_blocks.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/block-scripts/small_terms_blocks.py",
+   "title": "small_terms_blocks.py",
+   "bytes": 3145,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/small_terms_blocks.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/block-scripts/small_terms_blocks.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/bump_conversion.py",

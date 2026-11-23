@@ -83,7 +83,7 @@ button.chip{padding:6px 10px;font-size:14px}
 <p class="small" id="how"></p>
 <p class="small" id="note"></p>
 <p class="small" id="score"></p>
-<p class="small">An AI model (Claude) wrote this page on 23 November 2026. The page goes with the questions pages spin-questions.md and term-questions.md and rank-questions.md in the prime-richness folder of the repository spare-token-bug-fixes.</p>
+<p class="small">An AI model (Claude) wrote this page on 23 November 2026. The page goes with the questions pages spin-questions.md and term-questions.md and rank-questions.md and block-questions.md in the prime-richness folder of the repository spare-token-bug-fixes.</p>
 </div>
 </main>
 <script>
@@ -93,6 +93,9 @@ function primesUpTo(n){const s=new Uint8Array(n+1);const out=[];for(let i=2;i<=n
 let PRIMES=null,FLAGS=null;
 function sieveFlags(n){const s=new Uint8Array(n+1);for(let i=2;i*i<=n;i++){if(!s[i]){for(let j=i*i;j<=n;j+=i)s[j]=1;}}return s;}
 function fmtBig(b){const t=b.toString();return t.length<=15?t:"a number with "+t.length+" digits";}
+function polyRow(co,flip,N){let n=0;const cb=co.map(c=>BigInt(c)),cm=co.map(c=>((c%N)+N)%N);return()=>{n++;const x=n%N;let r=0;for(const c of cm)r=(r*x+c)%N;let v=0n;const X=BigInt(n);for(const c of cb)v=v*X+c;if(flip&&n%2===0)return{m:(N-r)%N,label:"−"+fmtBig(v)};return{m:r,label:fmtBig(v)};};}
+function collatzInfo(n){let c=0,o=0,mx=n;while(n!==1){if(n%2){n=3*n+1;o++;}else n/=2;c++;if(n>mx)mx=n;}return[c,o,mx];}
+function lineRow(next,N){const w=String(N).length;let buf="";return()=>{while(buf.length<w){const t=next();if(t===null)return null;buf+=t;}const t=buf.substr(0,w);buf=buf.substr(w);return{m:parseInt(t,10)%N,label:t};};}
 function digitRow(d,w,N){let k=0;return()=>{if(k+w>d.length)return null;const t=d.substr(k,w);k+=w;return{m:parseInt(t,10)%N,label:t};};}
 function champRow(w,N){let buf="",n=0;return()=>{while(buf.length<w){n++;buf+=n;}const t=buf.substr(0,w);buf=buf.substr(w);return{m:parseInt(t,10)%N,label:t};};}
 const ROWS=[
@@ -199,7 +202,115 @@ const ROWS=[
  {id:"champ1",g:"Digits one at a time",name:"1 + 2 + 3 + … + 9 + 1 + 0 + 1 + 1 + … (the counting numbers written in a line)",note:"The digits are 123456789101112 and onward. A digit is 0 to 9 so the literal circle reaches at most 10 marks.",
   make(N){return champRow(1,N);}},
  {id:"champ4",g:"Digits four at a time",name:"1234 + 5678 + 9101 + … (the counting numbers written in a line in blocks of four)",note:"The digits 123456789101112 and onward are cut into blocks of four.",
-  make(N){return champRow(4,N);}}
+  make(N){return champRow(4,N);}},
+ {id:"piS",g:"Digits in blocks sized to the circle",name:"Digits of pi in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.pi,String(N).length,N);}},
+ {id:"eS",g:"Digits in blocks sized to the circle",name:"Digits of e in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.e,String(N).length,N);}},
+ {id:"phiS",g:"Digits in blocks sized to the circle",name:"Digits of the golden ratio in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.phi,String(N).length,N);}},
+ {id:"r2S",g:"Digits in blocks sized to the circle",name:"Digits of the root of 2 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.r2,String(N).length,N);}},
+ {id:"r3S",g:"Digits in blocks sized to the circle",name:"Digits of the root of 3 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.r3,String(N).length,N);}},
+ {id:"r5S",g:"Digits in blocks sized to the circle",name:"Digits of the root of 5 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.r5,String(N).length,N);}},
+ {id:"r7S",g:"Digits in blocks sized to the circle",name:"Digits of the root of 7 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.r7,String(N).length,N);}},
+ {id:"ln2S",g:"Digits in blocks sized to the circle",name:"Digits of the natural logarithm of 2 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The blocks can reach every mark so both circles fill like random drops. This page holds 48000 digits.",
+  make(N){return digitRow(DIG.ln2,String(N).length,N);}},
+ {id:"champS",g:"Digits in blocks sized to the circle",name:"The counting numbers written in a line in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The digits are 123456789101112 and onward.",
+  make(N){return champRow(String(N).length,N);}},
+ {id:"sevS",g:"Digits in blocks sized to the circle",name:"Digits of 1 divided by 7 in blocks sized to the circle",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. The six digits 142857 repeat forever so the blocks repeat and the literal circle reaches only a few marks.",
+  make(N){const w=String(N).length;let k=0;return()=>{let t="";for(let i=0;i<w;i++){t+="142857"[k%6];k++;}return{m:parseInt(t,10)%N,label:t};};}},
+ {id:"oneS",g:"Digits in blocks sized to the circle",name:"1 + 1 + 1 + 1 read as 11 or 111 or 1111 (sized to the circle)",note:"The block is as many digits long as the number of marks is written so a circle of 360 marks reads three digits at a time and a circle of 1000 marks reads four. Every block is the same number so the arrow on the literal circle stays on one mark. The cumulative circle fills when that number shares no prime piece with the number of marks.",
+  make(N){const t="1".repeat(String(N).length);const m=parseInt(t,10)%N;return()=>({m,label:t});}},
+ {id:"p3x1",g:"Polynomials",name:"4 + 7 + 10 + 13 + … (3x + 1)",note:"The terms are 3x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([3, 1],false,N);}},
+ {id:"p2x1",g:"Polynomials",name:"3 + 5 + 7 + 9 + … (2x + 1)",note:"The terms are 2x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([2, 1],false,N);}},
+ {id:"p6x1",g:"Polynomials",name:"7 + 13 + 19 + 25 + … (6x + 1)",note:"The terms are 6x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([6, 1],false,N);}},
+ {id:"px5",g:"Polynomials",name:"1 + 32 + 243 + 1024 + … (x⁵)",note:"The terms are x⁵ at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0, 0, 0],false,N);}},
+ {id:"px6",g:"Polynomials",name:"1 + 64 + 729 + 4096 + … (x⁶)",note:"The terms are x⁶ at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0, 0, 0, 0],false,N);}},
+ {id:"px7",g:"Polynomials",name:"1 + 128 + 2187 + 16384 + … (x⁷)",note:"The terms are x⁷ at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0, 0, 0, 0, 0],false,N);}},
+ {id:"px2p1",g:"Polynomials",name:"2 + 5 + 10 + 17 + … (x² + 1)",note:"The terms are x² + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 1],false,N);}},
+ {id:"px2x",g:"Polynomials",name:"2 + 6 + 12 + 20 + … (x² + x)",note:"The terms are x² + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 1, 0],false,N);}},
+ {id:"px2x1",g:"Polynomials",name:"3 + 7 + 13 + 21 + … (x² + x + 1)",note:"The terms are x² + x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 1, 1],false,N);}},
+ {id:"p2x2p1",g:"Polynomials",name:"3 + 9 + 19 + 33 + … (2x² + 1)",note:"The terms are 2x² + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([2, 0, 1],false,N);}},
+ {id:"p2x2x",g:"Polynomials",name:"3 + 10 + 21 + 36 + … (2x² + x)",note:"The terms are 2x² + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([2, 1, 0],false,N);}},
+ {id:"p3x2x",g:"Polynomials",name:"4 + 14 + 30 + 52 + … (3x² + x)",note:"The terms are 3x² + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([3, 1, 0],false,N);}},
+ {id:"p6x2x",g:"Polynomials",name:"7 + 26 + 57 + 100 + … (6x² + x)",note:"The terms are 6x² + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([6, 1, 0],false,N);}},
+ {id:"px3x",g:"Polynomials",name:"2 + 10 + 30 + 68 + … (x³ + x)",note:"The terms are x³ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 1, 0],false,N);}},
+ {id:"px3mx",g:"Polynomials",name:"0 + 6 + 24 + 60 + … (x³ − x)",note:"The terms are x³ − x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, -1, 0],false,N);}},
+ {id:"px3x1",g:"Polynomials",name:"3 + 11 + 31 + 69 + … (x³ + x + 1)",note:"The terms are x³ + x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 1, 1],false,N);}},
+ {id:"px3all",g:"Polynomials",name:"4 + 15 + 40 + 85 + … (x³ + x² + x + 1)",note:"The terms are x³ + x² + x + 1 at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 1, 1, 1],false,N);}},
+ {id:"p2x3x",g:"Polynomials",name:"3 + 18 + 57 + 132 + … (2x³ + x)",note:"The terms are 2x³ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([2, 0, 1, 0],false,N);}},
+ {id:"p3x3x",g:"Polynomials",name:"4 + 26 + 84 + 196 + … (3x³ + x)",note:"The terms are 3x³ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([3, 0, 1, 0],false,N);}},
+ {id:"p6x3x",g:"Polynomials",name:"7 + 50 + 165 + 388 + … (6x³ + x)",note:"The terms are 6x³ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([6, 0, 1, 0],false,N);}},
+ {id:"px4x",g:"Polynomials",name:"2 + 18 + 84 + 260 + … (x⁴ + x)",note:"The terms are x⁴ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 1, 0],false,N);}},
+ {id:"px5x",g:"Polynomials",name:"2 + 34 + 246 + 1028 + … (x⁵ + x)",note:"The terms are x⁵ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0, 1, 0],false,N);}},
+ {id:"px5mx",g:"Polynomials",name:"0 + 30 + 240 + 1020 + … (x⁵ − x)",note:"The terms are x⁵ − x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0, -1, 0],false,N);}},
+ {id:"p30x5x",g:"Polynomials",name:"31 + 962 + 7293 + 30724 + … (30x⁵ + x)",note:"The terms are 30x⁵ + x at x = 1 and 2 and 3 and onward. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([30, 0, 0, 0, 1, 0],false,N);}},
+ {id:"px3f",g:"Polynomials",name:"1 − 8 + 27 − 64 + … (x³ with flipping signs)",note:"The terms are x³ at x = 1 and 2 and 3 and onward with every second term given a minus sign. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 0, 0],true,N);}},
+ {id:"px2x1f",g:"Polynomials",name:"3 − 7 + 13 − 21 + … (x² + x + 1 with flipping signs)",note:"The terms are x² + x + 1 at x = 1 and 2 and 3 and onward with every second term given a minus sign. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 1, 1],true,N);}},
+ {id:"px3xf",g:"Polynomials",name:"2 − 10 + 30 − 68 + … (x³ + x with flipping signs)",note:"The terms are x³ + x at x = 1 and 2 and 3 and onward with every second term given a minus sign. A polynomial repeats on a circle so the marks stop changing after one full cycle.",
+  make(N){return polyRow([1, 0, 1, 0],true,N);}},
+ {id:"cSteps",g:"The Collatz rule",name:"0 + 1 + 7 + 2 + 5 + 8 + 16 + … (Collatz steps for each start to reach 1)",note:"The Collatz rule halves an even number and turns an odd number n into 3n + 1. Each term is the number of steps the rule takes to bring the start down to 1. The counts stay small so the literal circle cannot reach the far marks of a large circle.",
+  make(N){let n=0;return()=>{n++;const c=collatzInfo(n)[0];return{m:c%N,label:String(c)};};}},
+ {id:"cOdd",g:"The Collatz rule",name:"0 + 0 + 2 + 0 + 1 + 2 + 5 + … (Collatz odd steps for each start)",note:"Each term is the number of times the rule uses 3n + 1 on the way from the start down to 1.",
+  make(N){let n=0;return()=>{n++;const c=collatzInfo(n)[1];return{m:c%N,label:String(c)};};}},
+ {id:"cPeak",g:"The Collatz rule",name:"1 + 2 + 16 + 4 + 16 + 16 + 52 + … (highest number each start reaches)",note:"Every term after the first is even so both circles fill only when the number of marks is odd.",
+  make(N){let n=0;return()=>{n++;const c=collatzInfo(n)[2];return{m:c%N,label:String(c)};};}},
+ {id:"cJoin",g:"The Collatz rule",name:"2 + 1 + 3 + 10 + 5 + 16 + 8 + 4 + 2 + 1 + … (all Collatz paths joined in a line)",note:"The path from 2 down to 1 is followed by the path from 3 down to 1 and then the path from 4 and onward.",
+  make(N){let st=1,x=1;return()=>{if(x===1){st++;x=st;}else{x=x%2?3*x+1:x/2;}return{m:x%N,label:String(x)};};}},
+ {id:"cp27",g:"The Collatz rule",name:"The Collatz path from 27 started over each time the path reaches 1 (112 terms)",note:"The literal circle can never show more than 112 marks because every pass lands on the same terms. Each pass shifts the cumulative circle so the cumulative circle keeps filling.",
+  make(N){let x=0;return()=>{x=(x===0||x===1)?27:(x%2?3*x+1:x/2);return{m:x%N,label:String(x)};};}},
+ {id:"cp871",g:"The Collatz rule",name:"The Collatz path from 871 started over each time the path reaches 1 (179 terms)",note:"The literal circle can never show more than 179 marks because every pass lands on the same terms. Each pass shifts the cumulative circle so the cumulative circle keeps filling.",
+  make(N){let x=0;return()=>{x=(x===0||x===1)?871:(x%2?3*x+1:x/2);return{m:x%N,label:String(x)};};}},
+ {id:"cp6171",g:"The Collatz rule",name:"The Collatz path from 6171 started over each time the path reaches 1 (262 terms)",note:"The literal circle can never show more than 262 marks because every pass lands on the same terms. Each pass shifts the cumulative circle so the cumulative circle keeps filling.",
+  make(N){let x=0;return()=>{x=(x===0||x===1)?6171:(x%2?3*x+1:x/2);return{m:x%N,label:String(x)};};}},
+ {id:"cp837799",g:"The Collatz rule",name:"The Collatz path from 837799 started over each time the path reaches 1 (525 terms)",note:"The literal circle can never show more than 525 marks because every pass lands on the same terms. Each pass shifts the cumulative circle so the cumulative circle keeps filling.",
+  make(N){let x=0;return()=>{x=(x===0||x===1)?837799:(x%2?3*x+1:x/2);return{m:x%N,label:String(x)};};}},
+ {id:"cp63728127",g:"The Collatz rule",name:"The Collatz path from 63728127 started over each time the path reaches 1 (950 terms)",note:"The literal circle can never show more than 950 marks because every pass lands on the same terms. Each pass shifts the cumulative circle so the cumulative circle keeps filling.",
+  make(N){let x=0;return()=>{x=(x===0||x===1)?63728127:(x%2?3*x+1:x/2);return{m:x%N,label:String(x)};};}},
+ {id:"cpBig",g:"The Collatz rule",name:"The Collatz path from 2 to the power 3000 minus 1 started over each time the path reaches 1 (43231 terms)",note:"A Collatz path avoids multiples of 3 after the starting number so the literal circle loses a third of the marks when 3 divides the number of marks.",
+  make(N){const S=2n**3000n-1n,B=BigInt(N);let x=0n;return()=>{x=(x===0n||x===1n)?S:(x%2n?3n*x+1n:x/2n);return{m:Number(x%B),label:fmtBig(x)};};}},
+ {id:"lnDbl",g:"Sequences written in a line of digits",name:"The doublings written in a line (1248163264128…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. The blocks are no longer doublings so the multiplying flaw disappears.",
+  make(N){let x=0n;return lineRow(()=>{x=x===0n?1n:2n*x;return x.toString();},N);}},
+ {id:"lnFib",g:"Sequences written in a line of digits",name:"The Fibonacci numbers written in a line (11235813213455…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. The blocks are no longer Fibonacci numbers.",
+  make(N){let a=0n,b=1n;return lineRow(()=>{const v=b;[a,b]=[b,a+b];return v.toString();},N);}},
+ {id:"lnPrime",g:"Sequences written in a line of digits",name:"The primes written in a line (235711131719…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. The blocks can land on marks that a prime cannot.",
+  make(N){if(!PRIMES)PRIMES=primesUpTo(3000000);let k=0;return lineRow(()=>k<PRIMES.length?String(PRIMES[k++]):null,N);}},
+ {id:"lnSteps",g:"Sequences written in a line of digits",name:"Collatz step counts written in a line (01725816319…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. ",
+  make(N){let n=0;return lineRow(()=>{n++;return String(collatzInfo(n)[0]);},N);}},
+ {id:"lnGaps",g:"Sequences written in a line of digits",name:"The gaps between primes written in a line (1224242462…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. Nearly every gap is even so the line is heavy with the digits 2 and 4 and 6 and 8.",
+  make(N){if(!PRIMES)PRIMES=primesUpTo(3000000);let k=0;return lineRow(()=>k+1<PRIMES.length?String(PRIMES[k+1]-PRIMES[k++]):null,N);}},
+ {id:"lnDiv",g:"Sequences written in a line of digits",name:"The number of divisors written in a line (1223242434…) in blocks sized to the circle",note:"The sequence is written as one long line of digits and the line is read in blocks as long as the number of marks is written. ",
+  make(N){let n=0;return lineRow(()=>{n++;let c=0;for(let q=1;q*q<=n;q++){if(n%q===0)c+=q*q===n?1:2;}return String(c);},N);}}
 ];
 function newState(rowId,N,mode){const row=ROWS.find(r=>r.id===rowId);return{row,N,mode:mode||"add",next:row.make(N),pos:0,step:0,visits:new Uint32Array(N),hit:0,fullAt:0,lastNew:0,last:null,ended:false,hist:[[0,0]],stride:1};}
 function advance(st){const r=st.next();if(r===null){st.ended=true;return null;}const from=st.pos;st.pos=st.mode==="land"?r.m%st.N:(st.pos+r.m)%st.N;st.step++;const fresh=st.visits[st.pos]===0;st.visits[st.pos]++;if(fresh){st.hit++;st.lastNew=st.step;if(st.hit===st.N&&!st.fullAt)st.fullAt=st.step;}if(fresh||st.step%st.stride===0){const h=st.hist,l=h[h.length-1];if(l[0]===st.step)l[1]=st.hit;else h.push([st.step,st.hit]);if(h.length>1500){const k=[h[0]];for(let i=1;i<h.length;i++){if(i%2===0||i===h.length-1)k.push(h[i]);}st.hist=k;st.stride*=2;}}st.last={from,to:st.pos,label:r.label,fresh};return st.last;}
@@ -209,8 +320,8 @@ const W=600,C=W/2,R=W*0.40,RT=W*0.455,RW=W*0.385;
 function mkView(id,mode,hitVar,webVar,pid){const cv=$(id),ring=document.createElement("canvas"),web=document.createElement("canvas");ring.width=web.width=W;ring.height=web.height=W;return{cv,ctx:cv.getContext("2d"),ring,rctx:ring.getContext("2d"),web,wctx:web.getContext("2d"),mode,hitVar,webVar,pid,st:null};}
 const VA=mkView("cvA","add","--hit","--web","pA"),VB=mkView("cvB","land","--hit2","--web2","pB"),VIEWS=[VA,VB];
 const HOW="Both circles get the same terms one step at a time. On the cumulative circle (left) each term moves the arrow that many marks clockwise so the arrow shows the running total. On the literal circle (right) the arrow points at the mark with the same number as the term after full turns are removed so with 360 marks the term 367 lands on mark 7. A mark lights up when the arrow lands on the mark. The small number in the corner of each circle is the share of that circle that is filled and the graph shows both shares as the steps go by.";
-const SCORE={alt:[200.0,100.0,100.0],comp:[200.0,100.0,100.0],compflip:[200.0,100.0,100.0],nlogn:[200.0,100.0,100.0],nrootn:[200.0,100.0,100.0],root2n:[199.8,100.0,99.8],goldn:[199.7,100.0,99.7],sqfree:[192.4,100.0,92.4],oddflip:[168.7,100.0,68.7],prime:[161.1,100.0,61.1],primeflip:[161.1,100.0,61.1],count:[133.6,33.6,100.0],not3:[128.4,39.5,88.9],rep:[120.7,100.0,20.7],div:[104.6,100.0,4.6],odd:[102.8,27.8,75.0],pi:[101.4,100.0,1.4],one:[100.2,100.0,0.2],even:[99.7,24.7,75.0],triflip:[97.9,43.4,54.5],sqflip:[92.6,54.5,38.1],tri:[88.7,55.2,33.6],seven:[87.9,87.8,0.2],sq:[83.0,55.2,27.8],fourth:[76.2,57.2,19.0],quad:[75.8,51.1,24.7],cube:[68.4,18.9,49.5],gaps:[65.1,61.0,4.1],fib:[62.5,31.3,31.3],dbl:[39.9,19.9,20.0],fact:[30.8,15.3,15.5],alt1:[0.6,0.3,0.3],sev1:[95.5,94.7,0.9],sev4:[79.0,78.6,0.5],champ1:[101.4,100.0,1.4],champ4:[200.0,100.0,100.0],e1:[101.4,100.0,1.4],phi1:[101.4,100.0,1.4],r21:[101.4,100.0,1.4],r31:[101.4,100.0,1.4],r51:[101.4,100.0,1.4],r71:[101.4,100.0,1.4],ln21:[101.4,100.0,1.4],pi4:[200.0,100.0,100.0],e4:[200.0,100.0,100.0],phi4:[200.0,100.0,100.0],r24:[200.0,100.0,100.0],r34:[200.0,100.0,100.0],r54:[200.0,100.0,100.0],r74:[200.0,100.0,100.0],ln24:[200.0,100.0,100.0]};
-const GROUPS=["Counting and steady sums","Powers and recipes","Whole parts of smooth recipes","Primes and their relatives","Fast growing sums","Digits one at a time","Digits four at a time"];
+const SCORE={p3x1:[117.5,39.7,77.8],p2x1:[102.8,27.8,75.0],p6x1:[91.2,32.8,58.3],px5:[86.0,20.9,65.2],px6:[69.9,53.6,16.4],px7:[95.3,20.7,74.6],px2p1:[85.1,57.3,27.8],px2x:[65.6,40.9,24.7],px2x1:[76.1,51.5,24.7],p2x2p1:[73.7,50.6,23.1],p2x2x:[85.9,52.4,33.6],p3x2x:[65.3,36.1,29.2],p6x2x:[87.0,47.3,39.7],px3x:[57.7,16.8,40.9],px3mx:[46.2,14.9,31.3],px3x1:[85.9,45.0,40.9],px3all:[87.6,42.2,45.4],p2x3x:[63.4,21.2,42.2],p3x3x:[57.7,16.8,40.9],p6x3x:[78.3,23.2,55.2],px4x:[73.0,38.8,34.2],px5x:[58.9,18.4,40.5],px5mx:[38.9,14.2,24.7],p30x5x:[81.4,25.7,55.7],px3f:[91.5,42.0,49.5],px2x1f:[80.3,39.7,40.6],px3xf:[81.8,40.9,40.9],cp27:[108.5,99.0,9.5],cp871:[113.1,100.0,13.1],cp6171:[117.1,100.0,17.1],cp837799:[126.6,99.9,26.7],cp63728127:[138.1,100.0,38.1],cSteps:[121.3,100.0,21.3],cOdd:[109.8,100.0,9.8],cPeak:[137.2,68.8,68.5],cJoin:[178.3,100.0,78.3],cpBig:[186.4,99.5,86.9],lnDbl:[200.0,100.0,100.0],lnFib:[200.0,100.0,100.0],lnPrime:[200.0,100.0,100.0],lnSteps:[198.5,100.0,98.5],lnGaps:[157.8,100.0,57.8],lnDiv:[156.1,100.0,56.1],piS:[200.0,100.0,100.0],eS:[200.0,100.0,100.0],phiS:[200.0,100.0,100.0],r2S:[200.0,100.0,100.0],r3S:[200.0,100.0,100.0],r5S:[200.0,100.0,100.0],r7S:[200.0,100.0,100.0],ln2S:[200.0,100.0,100.0],champS:[200.0,100.0,100.0],sevS:[79.5,79.1,0.5],oneS:[88.3,88.1,0.2],alt:[200.0,100.0,100.0],comp:[200.0,100.0,100.0],compflip:[200.0,100.0,100.0],nlogn:[200.0,100.0,100.0],nrootn:[200.0,100.0,100.0],root2n:[199.8,100.0,99.8],goldn:[199.7,100.0,99.7],sqfree:[192.4,100.0,92.4],oddflip:[168.7,100.0,68.7],prime:[161.1,100.0,61.1],primeflip:[161.1,100.0,61.1],count:[133.6,33.6,100.0],not3:[128.4,39.5,88.9],rep:[120.7,100.0,20.7],div:[104.6,100.0,4.6],odd:[102.8,27.8,75.0],pi:[101.4,100.0,1.4],one:[100.2,100.0,0.2],even:[99.7,24.7,75.0],triflip:[97.9,43.4,54.5],sqflip:[92.6,54.5,38.1],tri:[88.7,55.2,33.6],seven:[87.9,87.8,0.2],sq:[83.0,55.2,27.8],fourth:[76.2,57.2,19.0],quad:[75.8,51.1,24.7],cube:[68.4,18.9,49.5],gaps:[65.1,61.0,4.1],fib:[62.5,31.3,31.3],dbl:[39.9,19.9,20.0],fact:[30.8,15.3,15.5],alt1:[0.6,0.3,0.3],sev1:[95.5,94.7,0.9],sev4:[79.0,78.6,0.5],champ1:[101.4,100.0,1.4],champ4:[200.0,100.0,100.0],e1:[101.4,100.0,1.4],phi1:[101.4,100.0,1.4],r21:[101.4,100.0,1.4],r31:[101.4,100.0,1.4],r51:[101.4,100.0,1.4],r71:[101.4,100.0,1.4],ln21:[101.4,100.0,1.4],pi4:[200.0,100.0,100.0],e4:[200.0,100.0,100.0],phi4:[200.0,100.0,100.0],r24:[200.0,100.0,100.0],r34:[200.0,100.0,100.0],r54:[200.0,100.0,100.0],r74:[200.0,100.0,100.0],ln24:[200.0,100.0,100.0]};
+const GROUPS=["Counting and steady sums","Powers and recipes","Whole parts of smooth recipes","Primes and their relatives","Fast growing sums","Digits one at a time","Digits four at a time","Digits in blocks sized to the circle","Polynomials","The Collatz rule","Sequences written in a line of digits"];
 const SPEEDS=[1,2,5,10,20,50,100,200,500,1000,5000];
 let playing=false,carry=0,lastT=0;
 function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
