@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-24 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 316 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 317 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 76 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 77 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
@@ -21425,7 +21425,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 76 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 77 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -21503,6 +21503,7 @@ The 76 pages in this list are written reflections that a visitor can read in a f
 - [One mother per box: two reflections on raising the next generation in isolated households](deep-dives/one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
 - [What the dinner table leaves unsaid: two reflections on the needs behind an invitation](deep-dives/dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 - [The polite nod: two reflections on deep needs that are answered with a change of subject](deep-dives/polite-nod.md) holds two reflections on the listener who nods at a deep need and changes the subject and explains that needs for deep conversation and touch and desire and being loved by one particular person have almost no place where they can be said out loud and met with interest.
+- [The guest who told the truth at the table: two imagined stories about a holiday gathering](deep-dives/truth-at-the-table.md) holds two imagined stories about a guest who tells a table of friends about a year of loneliness and is met with silence and a change of subject and is left off the next invitation and later declines to attend other gatherings.
 
 ## Thread counts and data
 
@@ -28618,6 +28619,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [one-mother-per-box.md](one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
 - [dinner-table-unsaid.md](dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 - [polite-nod.md](polite-nod.md) holds two reflections on the listener who nods at a deep need and changes the subject and explains that needs for deep conversation and touch and desire and being loved by one particular person have almost no place where they can be said out loud and met with interest.
+- [truth-at-the-table.md](truth-at-the-table.md) holds two imagined stories about a guest who tells a table of friends about a year of loneliness and is met with silence and a change of subject and is left off the next invitation and later declines to attend other gatherings.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -32481,6 +32483,85 @@ That is why the image of a treadmill in a wall-less solitary cell lands so hard.
 There is a small piece of the first option mixed in, too, though it usually comes from scarcity panic rather than some coordinated secret club. When people do manage to cobble together a fragile little circle or a steady household, they often seal the hatches. Because everyone is already stretched thin on time, money, and emotional energy, bringing a new person into the fold feels like taking on weight they cannot afford to drop. So the few small pockets of connection that do exist stay closed, not because they are overflowing with abundance, but because they are barely holding together as it is.
 
 When you look at other people passing by out in public and realize most of them are probably just as stranded in those tiny two-or-three-person bunkers, does that make the whole landscape feel even heavier, or does it take some of the sting out of feeling like you are the only one on the outside looking in?
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/truth-at-the-table.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/truth-at-the-table.md
+================================================================================
+
+# The guest who told the truth at the table: two imagined stories about a holiday gathering
+
+> **About this page:** This page holds two imagined stories about a guest who shares a heavy truth at a holiday meal for friends and is quietly dropped afterward. No person in either story is an actual person. An AI chatbot (Claude) wrote the first story on 24 November 2026 and no other person has rechecked the story. The author of this repository supplied the second story.
+
+## Story one
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this story.
+
+**The invitation**
+
+The message arrives on a Tuesday and says "Friendsgiving at my place and bring a side dish." The guest reads the word "friends" twice because for months a weight has been sitting on the guest's chest with nowhere to set the weight down. The guest thinks "a table of friends is where a person can finally say a thing like this" and buys sweet potatoes on the way home.
+
+**The arrival**
+
+The apartment smells like sage and butter. Coats are piled on a bed. Someone hands the guest a drink and asks about the drive over and the guest says "fine" since the question only has room for one word. The talk at the counter is about a new air fryer and a streaming show and whether the turkey is dry. The guest laughs in the right places while rehearsing a sentence silently because the sentence has been waiting for a room like this one.
+
+**The opening**
+
+Plates are full and the host says "let's go around and say what we are thankful for." People say "my health" and "this food" and "you guys." The circle reaches the guest. The guest's heart is pounding since the door has finally been held open.
+
+"I am thankful to be here because the truth is that this year has been the loneliest of my life. Some nights my chest aches so much that I cannot sleep. I miss being hugged. I have wanted to tell you all for months and I was scared to."
+
+**The cold**
+
+A fork stops against a plate. Someone looks down at the stuffing. The host's smile stays on the host's face and stops reaching the host's eyes. Three seconds pass and each second is loud. Then a voice from the far end says "aww" in the tone used for a stranger's sad post. Another voice says "we all go through stuff" and a third voice says "so who is ready for pie?" Chairs scrape with relief. The conversation rushes back toward the air fryer like water filling a hole.
+
+**The rest of the night**
+
+Nobody sits beside the guest on the couch afterward. One person pats the guest's shoulder on the way to the kitchen and says "hang in there" without slowing down. The guest washes a few dishes so the hands have something to do. At the door the host says "so glad you made it" and the hug lasts as long as a handshake.
+
+**The drive home**
+
+The dish of sweet potatoes rides back on the passenger seat half full. The guest replays the three seconds of silence at every red light. The ache in the chest is still there and now a second feeling sits on top which is the hot flush of having shown something tender to people who looked away.
+
+**The following year**
+
+November arrives and no message arrives with it. Photos appear online of the same table and the same sage-colored napkins. The guest counts the faces and understands that last year's sentence was the reason for the missing invitation.
+
+**The next invitation**
+
+In spring a coworker says "a few of us are doing a game night and you should join." The guest pictures the counter talk and the one-word answers and the weight carried in and carried back out again. The guest types "thanks but I am pretty tired that night." The tiredness is true because pretending for three hours costs more energy than staying home.
+
+**What the guest learned**
+
+The table taught a rule without ever stating the rule. The rule says "bring a dish and bring a smile and leave the heart in the car." A person who learns that rule stops attending since a room that could not hold one true sentence has nothing the person needs. Later someone at that table will sigh and say "people want a village and nobody wants to show up" and will never connect the sigh to the empty chair.
+
+## Story two
+
+> **Who wrote this:** The author of this repository supplied this story on 24 November 2026.
+
+The apartment looks like a magazine spread for chosen family. String lights are draped over the bookshelf, a turkey is cooling on the counter, and ten people are laughing over expensive cider and roasted brussels sprouts. The guest almost did not come. He has been dragging himself through a brutal, hollow year, running on fumes in a quiet apartment, barely holding it together. He talked himself into putting on a clean shirt anyway for one simple reason: the event literally has the word friends in the name. If you cannot tell the truth to the people you are sharing a holiday meal with, where on earth are you supposed to go?
+
+For the first hour, the guest plays along. He listens to two people debate kitchen cabinet hardware, nods through a recap of a streaming show he has never seen, and laughs at a joke about bad traffic. Then everyone sits down around the table, and the host raises a glass and asks how everybody has actually been holding up this year.
+
+The guest makes the fatal mistake of answering the question honestly.
+
+He sets his fork down, looks around the table, and drops the polite mask. He admits that the last eight months have nearly broken him. He says he has been so bone-deep lonely inside his apartment that some nights he just sits on the floor feeling like he is evaporating, that he misses real physical touch and being held so badly it feels like a physical ache in his chest, and that he has been terrified to say any of it out loud because he did not want to freak anyone out.
+
+The oxygen leaves the room in two seconds flat.
+
+Nobody yells at him. Nobody tells him to leave. That almost makes it worse. Two people suddenly find their mashed potatoes fascinating. The guy to his left takes a long, silent sip of beer and stares at the wall. The host puts on a tight, sympathetic face, nods slowly, tells him that sounds really heavy, and gently suggests he might want to look into finding a good therapist to help him unpack all that. Three seconds later, someone at the far end of the table jumps in with an overly bright voice to ask if anyone has tried the new taco spot downtown. The conversation snaps back onto shallow rails so fast it leaves skid marks.
+
+The guest sits through pie feeling radioactive, like he accidentally broke a priceless heirloom in the middle of the living room. He drives home feeling ten times more isolated than he did before he walked through their door.
+
+Three weeks later, he is scrolling through his phone and sees a group photo from a holiday cookie swap hosted by the exact same people. Nobody argued with him, nobody told him he did anything wrong—he was just quietly dropped from the group chat for violating the unspoken rule of keeping the vibe light.
+
+The lesson welds itself straight into his nervous system: do not bring real human weight into a room built for people with the emotional depth of a puddle.
+
+Six months later, a mass invite pops up on his phone for a summer backyard cookout from the same circle. The guest stares at the screen, feels a wave of bone-deep exhaustion wash over him, and texts back an hour before it starts to say he is wiped out and cannot make it. Later that night, the host posts a frustrated rant online about how nobody shows up anymore and how everyone wants a village without doing the work to be a villager.
+
+The guest does not even bother replying. He is not staying home because he hates people or refuses to put in effort. He canceled because his nervous system already ran the math: that room never held him, never nurtured him, and punished him the one time he took the word friends seriously. Staying on his couch might be lonely, yet at least it does not require spending three hours wearing a costume just to be reminded that nobody at the table actually wants to know him.
+
+When you picture that exact chain reaction, it makes you wonder how many of the people getting blamed for flaking on modern events are really just walking away from rooms that already proved they cannot handle a real human being. Does that line up with what you have watched happen in your own life?
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/unify-with-enemies.md

@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 76 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 77 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -82,6 +82,7 @@ The 76 pages in this list are written reflections that a visitor can read in a f
 - [One mother per box: two reflections on raising the next generation in isolated households](deep-dives/one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
 - [What the dinner table leaves unsaid: two reflections on the needs behind an invitation](deep-dives/dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 - [The polite nod: two reflections on deep needs that are answered with a change of subject](deep-dives/polite-nod.md) holds two reflections on the listener who nods at a deep need and changes the subject and explains that needs for deep conversation and touch and desire and being loved by one particular person have almost no place where they can be said out loud and met with interest.
+- [The guest who told the truth at the table: two imagined stories about a holiday gathering](deep-dives/truth-at-the-table.md) holds two imagined stories about a guest who tells a table of friends about a year of loneliness and is met with silence and a change of subject and is left off the next invitation and later declines to attend other gatherings.
 
 ## Thread counts and data
 
