@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-23",
- "file_count": 1382,
- "total_bytes": 97464062,
+ "built_on": "2026-11-24",
+ "file_count": 1383,
+ "total_bytes": 97471452,
  "files": [
   {
    "path": ".gitignore",
@@ -973,7 +973,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 36601,
+   "bytes": 37010,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1495,7 +1495,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 24280,
+   "bytes": 24610,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -1959,6 +1959,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md",
+   "title": "One mother per box: two reflections on raising the next generation in isolated households",
+   "bytes": 6651,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md",
