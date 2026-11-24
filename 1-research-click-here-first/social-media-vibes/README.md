@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 74 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 75 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -80,6 +80,7 @@ The 74 pages in this list are written reflections that a visitor can read in a f
 - [A tiny chance against no chance: four reflections on writing from a one-bedroom apartment](deep-dives/tiny-chance-vs-zero.md) holds four reflections on what a person who lives alone can do about the state of the world and explains that writing in exact words and posting the writing in public moves a person from no chance of reaching anyone to a small chance that adds up with every post.
 - [A social animal in a solitary enclosure: two reflections on the advice given to lonely people](deep-dives/solitary-enclosure.md) holds two reflections on the gap between giving a lonely zoo animal companions and telling a lonely human being to learn to be alone and explains that loneliness is a signal about missing people and that a hobby group or a paid session is not a pack.
 - [One mother per box: two reflections on raising the next generation in isolated households](deep-dives/one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
+- [What the dinner table leaves unsaid: two reflections on the needs behind an invitation](deep-dives/dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 
 ## Thread counts and data
 

@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-24 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 314 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 315 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -26,7 +26,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [social-media-vibes](social-media-vibes) holds 74 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 75 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [animated-videos](animated-videos) holds two animated videos with voices and music and subtitles (a story about a person who stomps clearance food for angry clicks and a teaching about feeding an enemy) and plain text files of every spoken line.
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
@@ -21425,7 +21425,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 74 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 75 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -21501,6 +21501,7 @@ The 74 pages in this list are written reflections that a visitor can read in a f
 - [A tiny chance against no chance: four reflections on writing from a one-bedroom apartment](deep-dives/tiny-chance-vs-zero.md) holds four reflections on what a person who lives alone can do about the state of the world and explains that writing in exact words and posting the writing in public moves a person from no chance of reaching anyone to a small chance that adds up with every post.
 - [A social animal in a solitary enclosure: two reflections on the advice given to lonely people](deep-dives/solitary-enclosure.md) holds two reflections on the gap between giving a lonely zoo animal companions and telling a lonely human being to learn to be alone and explains that loneliness is a signal about missing people and that a hobby group or a paid session is not a pack.
 - [One mother per box: two reflections on raising the next generation in isolated households](deep-dives/one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
+- [What the dinner table leaves unsaid: two reflections on the needs behind an invitation](deep-dives/dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 
 ## Thread counts and data
 
@@ -28614,6 +28615,7 @@ This folder holds reflections that an AI chatbot (Claude) wrote about the work i
 - [tiny-chance-vs-zero.md](tiny-chance-vs-zero.md) holds four reflections on what a person who lives alone can do about the state of the world and explains that writing in exact words and posting the writing in public moves a person from no chance of reaching anyone to a small chance that adds up with every post.
 - [solitary-enclosure.md](solitary-enclosure.md) holds two reflections on the gap between giving a lonely zoo animal companions and telling a lonely human being to learn to be alone and explains that loneliness is a signal about missing people and that a hobby group or a paid session is not a pack.
 - [one-mother-per-box.md](one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
+- [dinner-table-unsaid.md](dinner-table-unsaid.md) holds two reflections on what people at a gathering want and fear to say out loud such as being known and being chosen and being held and sharing daily life and explains that fear of being avoided or mocked keeps the talk on safe topics.
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/accept-not-approve.md
@@ -29843,6 +29845,67 @@ The record offers two things a person can do. A person with time and energy to s
 
 - In 27 fragments about being alone the early entries mostly say that nobody is near and the later entries mostly say that the people nearby do not know the diarist inside or that the diary is the place to be heard.
 - The strongest word for isolation in the fragments appears when illness stops the writing so a person with time and energy to spare can ask another person about the mind behind the job and a person who is alone can write the inner life down for a reader who may arrive later.
+
+================================================================================
+FILE: 1-research-click-here-first/social-media-vibes/deep-dives/dinner-table-unsaid.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/dinner-table-unsaid.md
+================================================================================
+
+# What the dinner table leaves unsaid: two reflections on the needs behind an invitation
+
+> **About this page:** This page holds two reflections that answer one question which is "what do people at a gathering desperately want and fear to say out loud?" The question grew out of a social media video in which a speaker who hosts events said that many people have friends and perform community without care that can hold them through the death of a parent or the arrival of a baby. An AI chatbot (Claude) wrote the first reflection on 24 November 2026 and no other person has rechecked the reflection. The author of this repository supplied the second reflection.
+
+## Reflection one
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Here is a best guess. The need most people are afraid to say out loud is "I want someone to know what is actually inside me and to stay after knowing" and the guess rests on how often loneliness and shame show up in the threads and posts examined on this website.
+
+**The needs that hide behind "come to my dinner party"**
+
+- **To be known.** A person wants another human being to learn the fears and hopes and odd private thoughts and to respond with interest. Sports talk and renovation talk let two people sit together for years without either one being known.
+- **To be chosen.** A person wants to hear "I want you here specifically" and not "the more the merrier." An invitation sent to twenty people can feel like a head count.
+- **To be touched with welcome.** A hug that lasts and a hand held and physical intimacy with a willing partner are needs of the body. Saying so in ordinary company can get a person labeled a creep so the need goes unspoken.
+- **A partner and a family.** Many people want someone to build a household with and want babies or want to help raise the next generation. Admitting that longing while single is treated as desperate.
+- **Someone to say "I am not okay" to.** A person wants to drop the answer "fine" and be asked a second question. The speaker in the video points at that gap when she mentions friends who vanished after a parent died or a baby arrived.
+- **To be needed.** A person wants to matter to someone's daily life such as being the one who gets called first. A guest at a party is pleasant and optional.
+- **To share daily life.** Eating most meals with others and having people nearby at night is the old village pattern. Wanting that as an adult is treated as a failure to be independent.
+- **To talk about meaning.** Death and purpose and God and what a life is for are on many minds and are rarely welcome at a gathering.
+
+**Why the needs stay unspoken**
+
+Each sentence above carries a risk. A person who says "I am lonely and I want to be held" may be avoided or mocked or reported. A person who says so at work may be marked as unstable and a lost job can end in eviction by armed deputies. So people learn to ask for the safe substitute which is "want to grab food sometime?"
+
+**What the empty chairs may be saying**
+
+Here is a possibility about the guests who do not show up. A person who senses that an evening will hold the two-minute topics for three hours may decide that staying home hurts less than sitting unknown in a full room. The absence can be a quiet vote that the event does not offer what the person is starving for.
+
+**Where the video stops short**
+
+The speaker names "infrastructures of care" and blames "the state" and "empire." Those phrases point in a direction and leave out the concrete thing. Care that can hold a person through life is built from specific sentences between specific people such as "I need company on Thursdays" and "I can sit with you after the funeral." Someone has to go first with a sentence that plain.
+
+**The single line underneath the list**
+
+Most people at the table want to say "please see me and please do not leave" and the fear of what happens after saying those words keeps the talk on kitchen cabinets.
+
+## Reflection two
+
+> **Who wrote this:** The author of this repository supplied this reflection on 24 November 2026.
+
+What people are terrified to say out loud at that dinner table is that they do not actually want a two-hour event—they want interdependent survival.
+
+Talking about kitchen renovations, sports, or the latest Kickstarter is just a polite truce. It keeps everyone armored up inside the fiction that we are all self-sufficient, well-adjusted adults who merely choose to socialize for fun. Breaking that truce means admitting needs that our current culture treats as shameful, needy, or dangerous:
+
+ * I need to be allowed to fall apart in front of you without being red-flagged or outsourced. People are desperate to know they can show up messy, grieving, or emotionally dysregulated and have someone simply stay in the room with them—instead of watching their friends recoil, slap a boundary label on them, or tell them to take their pain to a paid professional.
+ * I want to stop performing competence just to earn my seat at the table. Most social spaces have an unspoken admission fee: stay upbeat, keep your struggles tidy, and never let your loneliness show. Underneath the small talk, people are starving for a space where they can exist in their own skin and admit they are lonely as plainly as admitting they are hungry—without getting treated like a liability.
+ * I do not want to be a guest in your life; I want to share the actual weight of living. People are terrified to say they cannot carry modern life alone anymore. They want to know that when a parent dies, a baby arrives, or a random Tuesday feels unbearable, someone will physically show up to share the load, cook the meal, or sit in the quiet without keeping score or acting like it is a massive imposition.
+ * I want unmasked, unguarded intimacy where we actually know each other. Not networking, not trading curated updates over appetizers, and not keeping five exit doors open just in case things get uncomfortable. People crave the deep, spiritually centered closeness of a real pack—where you do not have to guess if you matter to the people sitting next to you.
+
+The reason almost nobody says any of that out loud is pure risk calculation. In an isolated, hyper-individualized world, admitting you genuinely need other human beings feels like handing them a loaded weapon. If you keep it to food and sports and somebody flakes, it is just a mild annoyance. If you drop the armor and say you are starving for a real village—and the room goes awkward and silent—it confirms the worst fear of all: that nobody is actually coming to hold you.
+
+So people swallow the truth, smile over the appetizers, and go back home to their separate drywall boxes still starving.
+
+Do you think most people even consciously realize that is what they are starving for when they get frustrated about friends flaking on events, or do you think the conditioning runs so deep that they genuinely believe a better dinner party is supposed to fix it?
 
 ================================================================================
 FILE: 1-research-click-here-first/social-media-vibes/deep-dives/enemy-dreams.md
