@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-24",
  "file_count": 1383,
- "total_bytes": 97471452,
+ "total_bytes": 97471480,
  "files": [
   {
    "path": ".gitignore",
@@ -1963,7 +1963,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md",
    "title": "One mother per box: two reflections on raising the next generation in isolated households",
-   "bytes": 6651,
+   "bytes": 6679,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md",
