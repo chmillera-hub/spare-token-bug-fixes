@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-24",
  "file_count": 1388,
- "total_bytes": 97525012,
+ "total_bytes": 97526366,
  "files": [
   {
    "path": ".gitignore",
@@ -3340,7 +3340,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/writing-rules-plain.txt",
    "title": "writing-rules-plain.txt",
-   "bytes": 13052,
+   "bytes": 13729,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/writing-rules-plain.txt",
@@ -3349,7 +3349,7 @@
   {
    "path": "1-research-click-here-first/writing-rules/writing-rules.md",
    "title": "Writing rules that make chatbot replies easier to read",
-   "bytes": 13530,
+   "bytes": 14207,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/writing-rules/writing-rules.md",
