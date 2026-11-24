@@ -10,15 +10,71 @@ A true Christian to me dances with death doesn't run from it and doesn't worship
 
 ## The selection the question refers to
 
-- 1 John 3:13 to 3:23 which says that a person passes from death to life by loving others and that a person with possessions who has no pity on someone in need lacks the love of God.
-- John 10:9 which calls Christ the gate.
-- Matthew 7:9 to 7:14 which describes a father who gives bread and not a stone and describes the narrow gate that leads to life.
-- James 2:14 to 2:16 which asks what good a blessing is when a person without shelter or daily food is given nothing.
-- Proverbs 25:19 to 25:22 which compares singing songs to a heavy heart with vinegar on a wound and says to feed a hungry enemy.
-- Romans 12:17 to 12:21 which says to overcome evil with good and to feed a hungry enemy.
-- John 15:12 which commands people to love each other.
-- 1 Timothy 1:12 to 1:16 in which a formerly violent man describes being shown mercy.
-- Romans 8:35 to 8:39 which says that neither death nor life can separate a person from love.
+> **About this section:** The verses below are the passages the question refers to in the wording of the World English Bible.
+
+> "Don’t be surprised, my brothers, if the world hates you." (1 John 3:13)
+
+> "We know that we have passed out of death into life, because we love the brothers. He who doesn’t love his brother remains in death." (1 John 3:14)
+
+> "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers." (1 John 3:16)
+
+> "But whoever has the world’s goods and sees his brother in need, then closes his heart of compassion against him, how does God’s love remain in him?" (1 John 3:17)
+
+> "This is his commandment, that we should believe in the name of his Son, Jesus Christ, and love one another, even as he commanded." (1 John 3:23)
+
+> "I am the door. If anyone enters in by me, he will be saved, and will go in and go out and will find pasture." (John 10:9)
+
+> "Or who is there among you who, if his son asks him for bread, will give him a stone?" (Matthew 7:9)
+
+> "Or if he asks for a fish, who will give him a serpent?" (Matthew 7:10)
+
+> "“Enter in by the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter in by it." (Matthew 7:13)
+
+> "How narrow is the gate and the way is restricted that leads to life! There are few who find it." (Matthew 7:14)
+
+> "What good is it, my brothers, if a man says he has faith, but has no works? Can faith save him?" (James 2:14)
+
+> "And if a brother or sister is naked and in lack of daily food," (James 2:15)
+
+> "and one of you tells them, “Go in peace. Be warmed and filled;” yet you didn’t give them the things the body needs, what good is it?" (James 2:16)
+
+> "Confidence in someone unfaithful in time of trouble is like a bad tooth or a lame foot." (Proverbs 25:19)
+
+> "As one who takes away a garment in cold weather, or vinegar on soda, so is one who sings songs to a heavy heart." (Proverbs 25:20)
+
+> "If your enemy is hungry, give him food to eat. If he is thirsty, give him water to drink;" (Proverbs 25:21)
+
+> "for you will heap coals of fire on his head, and God will reward you." (Proverbs 25:22)
+
+> "Repay no one evil for evil. Respect what is honorable in the sight of all men." (Romans 12:17)
+
+> "If it is possible, as much as it is up to you, be at peace with all men." (Romans 12:18)
+
+> "Therefore “If your enemy is hungry, feed him. If he is thirsty, give him a drink; for in doing so, you will heap coals of fire on his head.”" (Romans 12:20)
+
+> "Don’t be overcome by evil, but overcome evil with good." (Romans 12:21)
+
+> "“This is my commandment, that you love one another, even as I have loved you." (John 15:12)
+
+> "I thank him who enabled me, Christ Jesus our Lord, because he counted me faithful, appointing me to service," (1 Timothy 1:12)
+
+> "although I used to be a blasphemer, a persecutor, and insolent. However, I obtained mercy because I did it ignorantly in unbelief." (1 Timothy 1:13)
+
+> "The grace of our Lord abounded exceedingly with faith and love which is in Christ Jesus." (1 Timothy 1:14)
+
+> "The saying is faithful and worthy of all acceptance, that Christ Jesus came into the world to save sinners, of whom I am chief." (1 Timothy 1:15)
+
+> "However, for this cause I obtained mercy, that in me first, Jesus Christ might display all his patience for an example of those who were going to believe in him for eternal life." (1 Timothy 1:16)
+
+> "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?" (Romans 8:35)
+
+> "Even as it is written, “For your sake we are killed all day long. We were accounted as sheep for the slaughter.”" (Romans 8:36)
+
+> "No, in all these things we are more than conquerors through him who loved us." (Romans 8:37)
+
+> "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers," (Romans 8:38)
+
+> "nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord." (Romans 8:39)
 
 ## What death is doing in the selection
 
