@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-24",
- "file_count": 1390,
- "total_bytes": 97565733,
+ "file_count": 1392,
+ "total_bytes": 97783438,
  "files": [
   {
    "path": ".gitignore",
@@ -2422,7 +2422,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 2499,
+   "bytes": 2828,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -2454,6 +2454,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/hands-on-the-walls.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/lurker-and-high-five.md",
+   "title": "The lurker and the high five: a comic and two reflections on a scoffer's pity",
+   "bytes": 7174,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/lurker-and-high-five.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/lurker-and-high-five.md"
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md",
@@ -2490,6 +2499,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/times-square-return-story.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/times-square-return-story.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/where-were-you-comic.jpg",
+   "title": "where-were-you-comic.jpg",
+   "bytes": 210202,
+   "type": "jpg",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/where-were-you-comic.jpg",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/where-were-you-comic.jpg"
   },
   {
    "path": "1-research-click-here-first/squad-rush-game/README.md",
