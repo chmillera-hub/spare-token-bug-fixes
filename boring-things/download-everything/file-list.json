@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1393,
- "total_bytes": 97813688,
+ "file_count": 1394,
+ "total_bytes": 97825724,
  "files": [
   {
    "path": ".gitignore",
@@ -2431,7 +2431,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 2828,
+   "bytes": 3137,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -2517,6 +2517,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/where-were-you-comic.jpg",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/where-were-you-comic.jpg"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md",
+   "title": "What the word \"God\" points to: a word replacement test and four reflections",
+   "bytes": 11727,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md"
   },
   {
    "path": "1-research-click-here-first/squad-rush-game/README.md",
