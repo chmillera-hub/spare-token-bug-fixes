@@ -1,0 +1,362 @@
+[
+ {
+  "pattern": "rows (every room opens east)",
+  "k": 2,
+  "prime": "1151",
+  "regions": 2,
+  "largest": 2,
+  "longest": 2,
+  "tb": 0,
+  "lr": 2
+ },
+ {
+  "pattern": "rows (every room opens east)",
+  "k": 3,
+  "prime": "111111199",
+  "regions": 3,
+  "largest": 3,
+  "longest": 3,
+  "tb": 0,
+  "lr": 3
+ },
+ {
+  "pattern": "rows (every room opens east)",
+  "k": 4,
+  "prime": "1111111111111999",
+  "regions": 4,
+  "largest": 4,
+  "longest": 4,
+  "tb": 0,
+  "lr": 4
+ },
+ {
+  "pattern": "rows (every room opens east)",
+  "k": 5,
+  "prime": "1111111111111111111115591",
+  "regions": 5,
+  "largest": 5,
+  "longest": 5,
+  "tb": 0,
+  "lr": 5
+ },
+ {
+  "pattern": "rows (every room opens east)",
+  "k": 6,
+  "prime": "111111111111111111111111111111159559",
+  "regions": 6,
+  "largest": 6,
+  "longest": 6,
+  "tb": 0,
+  "lr": 6
+ },
+ {
+  "pattern": "columns (every room opens south and the last room opens east)",
+  "k": 2,
+  "prime": "2221",
+  "regions": 2,
+  "largest": 2,
+  "longest": 2,
+  "tb": 2,
+  "lr": 0
+ },
+ {
+  "pattern": "columns (every room opens south and the last room opens east)",
+  "k": 3,
+  "prime": "222226229",
+  "regions": 3,
+  "largest": 3,
+  "longest": 3,
+  "tb": 3,
+  "lr": 0
+ },
+ {
+  "pattern": "columns (every room opens south and the last room opens east)",
+  "k": 4,
+  "prime": "2222222222262629",
+  "regions": 4,
+  "largest": 4,
+  "longest": 4,
+  "tb": 4,
+  "lr": 0
+ },
+ {
+  "pattern": "columns (every room opens south and the last room opens east)",
+  "k": 5,
+  "prime": "2222222222222222222226221",
+  "regions": 5,
+  "largest": 5,
+  "longest": 5,
+  "tb": 5,
+  "lr": 0
+ },
+ {
+  "pattern": "columns (every room opens south and the last room opens east)",
+  "k": 6,
+  "prime": "222222222222222222222222222222226669",
+  "regions": 6,
+  "largest": 6,
+  "longest": 6,
+  "tb": 6,
+  "lr": 0
+ },
+ {
+  "pattern": "nested rings (each layer of rooms is a clockwise loop)",
+  "k": 2,
+  "prime": "1283",
+  "regions": 1,
+  "largest": 4,
+  "longest": 4,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "nested rings (each layer of rooms is a clockwise loop)",
+  "k": 3,
+  "prime": "112006073",
+  "regions": 1,
+  "largest": 9,
+  "longest": 9,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "nested rings (each layer of rooms is a clockwise loop)",
+  "k": 4,
+  "prime": "1112012200320377",
+  "regions": 2,
+  "largest": 12,
+  "longest": 12,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "nested rings (each layer of rooms is a clockwise loop)",
+  "k": 5,
+  "prime": "1111201122000220033243337",
+  "regions": 2,
+  "largest": 16,
+  "longest": 16,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "nested rings (each layer of rooms is a clockwise loop)",
+  "k": 6,
+  "prime": "111112011122001222000322003332037337",
+  "regions": 3,
+  "largest": 20,
+  "longest": 20,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "spiral (one hallway that winds into the center)",
+  "k": 2,
+  "prime": "1213",
+  "regions": 1,
+  "largest": 4,
+  "longest": 4,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "spiral (one hallway that winds into the center)",
+  "k": 3,
+  "prime": "112132073",
+  "regions": 1,
+  "largest": 9,
+  "longest": 9,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "spiral (one hallway that winds into the center)",
+  "k": 4,
+  "prime": "1112112201724333",
+  "regions": 1,
+  "largest": 16,
+  "longest": 16,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "spiral (one hallway that winds into the center)",
+  "k": 5,
+  "prime": "1111211122013220033287773",
+  "regions": 1,
+  "largest": 25,
+  "longest": 25,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "spiral (one hallway that winds into the center)",
+  "k": 6,
+  "prime": "111112111122011222001322003332433333",
+  "regions": 1,
+  "largest": 36,
+  "longest": 36,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "staircases (east then south then east then south)",
+  "k": 2,
+  "prime": "1229",
+  "regions": 2,
+  "largest": 3,
+  "longest": 3,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "staircases (east then south then east then south)",
+  "k": 3,
+  "prime": "121212521",
+  "regions": 3,
+  "largest": 5,
+  "longest": 5,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "staircases (east then south then east then south)",
+  "k": 4,
+  "prime": "1212212112126529",
+  "regions": 4,
+  "largest": 7,
+  "longest": 7,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "staircases (east then south then east then south)",
+  "k": 5,
+  "prime": "1212121212121212121212961",
+  "regions": 5,
+  "largest": 9,
+  "longest": 9,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "staircases (east then south then east then south)",
+  "k": 6,
+  "prime": "121212212121121212212121121212252169",
+  "regions": 6,
+  "largest": 11,
+  "longest": 11,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "comb (left column opens south and every other room opens west)",
+  "k": 2,
+  "prime": "2767",
+  "regions": 1,
+  "largest": 4,
+  "longest": 4,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "comb (left column opens south and every other room opens west)",
+  "k": 3,
+  "prime": "233233673",
+  "regions": 1,
+  "largest": 9,
+  "longest": 7,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "comb (left column opens south and every other room opens west)",
+  "k": 4,
+  "prime": "2333233323336373",
+  "regions": 1,
+  "largest": 16,
+  "longest": 10,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "comb (left column opens south and every other room opens west)",
+  "k": 5,
+  "prime": "2333323333233332333327377",
+  "regions": 1,
+  "largest": 25,
+  "longest": 13,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "comb (left column opens south and every other room opens west)",
+  "k": 6,
+  "prime": "233333233333233333233333233333277737",
+  "regions": 1,
+  "largest": 36,
+  "longest": 16,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "bricks (pairs of rooms that open toward each other)",
+  "k": 2,
+  "prime": "1753",
+  "regions": 2,
+  "largest": 2,
+  "longest": 2,
+  "tb": 0,
+  "lr": 2
+ },
+ {
+  "pattern": "bricks (pairs of rooms that open toward each other)",
+  "k": 4,
+  "prime": "1313131313131357",
+  "regions": 8,
+  "largest": 2,
+  "longest": 2,
+  "tb": 0,
+  "lr": 0
+ },
+ {
+  "pattern": "bricks (pairs of rooms that open toward each other)",
+  "k": 6,
+  "prime": "131313131313131313131313131313131393",
+  "regions": 18,
+  "largest": 2,
+  "longest": 2,
+  "tb": 0,
+  "lr": 0
+ },
+ {
+  "pattern": "zigzag (rows open east then west in turn and the row ends open south)",
+  "k": 2,
+  "prime": "1223",
+  "regions": 1,
+  "largest": 4,
+  "longest": 4,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "zigzag (rows open east then west in turn and the row ends open south)",
+  "k": 4,
+  "prime": "1112233311126337",
+  "regions": 1,
+  "largest": 16,
+  "longest": 16,
+  "tb": 1,
+  "lr": 1
+ },
+ {
+  "pattern": "zigzag (rows open east then west in turn and the row ends open south)",
+  "k": 6,
+  "prime": "111112233333111112233333111112233733",
+  "regions": 1,
+  "largest": 36,
+  "longest": 36,
+  "tb": 1,
+  "lr": 1
+ }
+]

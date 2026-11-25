@@ -29,6 +29,15 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 .check input{width:18px;height:18px}
 .note{border-left:3px solid var(--line);padding-left:10px;color:var(--muted);font-size:14px}
 .hide{display:none}
+.rk{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line)}
+.rk:first-child{border-top:none}
+.rk img{width:92px;height:92px;flex:0 0 92px;border-radius:6px;border:1px solid var(--line);background:var(--card)}
+.rk .pos{font-size:17px;font-weight:700;flex:0 0 2.1em;text-align:center}
+.rk .txt{min-width:0;flex:1;font-size:14px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.rk .txt b{font-size:16px}
+.rk.new{background:var(--faint);border-radius:8px}
+.rk button{font-size:13px;padding:6px 9px;margin-top:4px}
+h2{font-size:16px;font-weight:600;margin:0 0 4px}
 </style>
 </head>
 <body>
@@ -103,10 +112,16 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 
 <div class="card">
 <p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door. <span id="ruleText"></span> A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
-<p><b>The openings on the outer wall.</b> A green arrow with a green piece in the outer wall marks a spot where a player could open a door from outside and walk through joined rooms to the opposite side of the grid. Each green arrow is worth 1 door point. Two green arrows on opposite sides that sit on the same colored region are the two ends of one crossing. A thin gray piece in the outer wall marks a door that a number opened onto the outside when no path leads from that door to the opposite side.</p>
+<p><b>The openings on the outer wall.</b> Every room on the edge of the grid is assumed to have a door to the outside that the player can open. A corner room has two such doors because a corner room touches two outer walls. A green arrow beside a gap in the outer wall marks an outside door where the player can enter and walk through joined rooms to the opposite side of the grid and leave there. Each green arrow is worth 1 door point. An outside door with no green arrow leads to rooms that never reach the opposite side so the wall is drawn closed at that spot. Two green arrows on opposite sides that sit on the same colored region are the two ends of one crossing.</p>
 <p><b>The small arrows inside the rooms.</b> Each room shows a small gray arrow next to the wall where the number in that room opened a door. A room can also be entered through a door that a neighboring room opened so an open wall with no small arrow beside it was opened from the other side.</p>
 <p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing. The three part score is the largest region plus the longest walk plus the door points.</p>
 <p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The page maze-test-zero-north.md in the same folder reports the counts for every prime with 4 digits and every prime with 9 digits under this rule. The page maze-test-findings.md reports the counts for an earlier version of the rule in which 1 opened north and the program no longer draws that version. No other person has reviewed the program yet.</p>
+</div>
+<div class="card" id="rankCard">
+<h2>Ranking of the mazes tried so far</h2>
+<p class="small" id="rankNote">Finish a maze and the maze appears in this list with a small copy of the grid. The list is ordered by three part score with the highest score at the top.</p>
+<div id="rankList"></div>
+<div class="row"><button id="rankClear">Clear the ranking</button></div>
 </div>
 </main>
 
@@ -180,7 +195,7 @@ function setup(){
   var nums;
   if(fixed){nums=numbersFor(src,0,el("own").value,el("primePick").value);if(nums.length<4)nums=[1,2,3,4];k=Math.min(60,Math.ceil(Math.sqrt(nums.length/per)));while(nums.length<k*k*per)nums.push(nums[nums.length%Math.max(1,nums.length)]);}
   else nums=numbersFor(src,k*k*per,"","");
-  S.k=k;S.per=per;S.nums=nums;S.pos=0;S.done=false;S.walk=null;S.lastRoom=-1;S.lastDirs=[];
+  S.k=k;S.per=per;S.nums=nums;S.pos=0;S.done=false;S.recorded=false;S.walk=null;S.lastRoom=-1;S.lastDirs=[];
   S.adj=[];S.parent=[];S.out=[];for(var i=0;i<k*k;i++){S.adj.push([]);S.parent.push(i);S.out.push([]);}
   S.regions=k*k;
   el("sizeV").textContent=k;el("now").textContent="Press Play to open the first door.";el("walkNote").textContent="";
@@ -265,8 +280,7 @@ function draw(){
   function spot(room,side){ // side 0 top 1 right 2 bottom 3 left. Returns 2 crossing spot 1 outward door without a crossing 0 closed
     if(!showOpen)return 0;
     var f=find(room),cross=side===0?inf2.bot[f]:side===2?inf2.top[f]:side===3?inf2.right[f]:inf2.left[f];
-    if(cross&&S.pos>0&&(room<S.pos||S.adj[room].length))return 2;
-    return S.out[room].indexOf(side)>=0?1:0;
+    return (cross&&S.pos>0&&(room<S.pos||S.adj[room].length))?2:0;
   }
   function wallPiece(x1,y1,x2,y2,kind,nx,ny){ // nx ny point outward from the grid
     g.strokeStyle=css("--wall");g.lineWidth=wallW;g.beginPath();
@@ -274,12 +288,9 @@ function draw(){
     else{g.moveTo(x1,y1);g.lineTo(x1+(x2-x1)*gapA,y1+(y2-y1)*gapA);g.moveTo(x1+(x2-x1)*gapB,y1+(y2-y1)*gapB);g.lineTo(x2,y2);}
     g.stroke();
     if(kind===0)return;
-    g.strokeStyle=css(kind===2?"--open":"--muted");g.lineWidth=kind===2?Math.max(3,wallW*1.6):Math.max(1.5,wallW*0.7);g.beginPath();
-    g.moveTo(x1+(x2-x1)*(gapA+0.06),y1+(y2-y1)*(gapA+0.06));g.lineTo(x1+(x2-x1)*(gapB-0.06),y1+(y2-y1)*(gapB-0.06));g.stroke();
-    if(kind!==2)return;
     var mx=(x1+x2)/2,my=(y1+y2)/2,tx=(x2-x1)/cell,ty=(y2-y1)/cell;
-    if(kind===2){ // green arrow that points into the grid
-      g.fillStyle=css("--open");g.beginPath();
+    { // arrow that points into the grid: green when a walk leads to an outside door on the opposite side
+      g.fillStyle=css(kind===2?"--open":"--muted");g.beginPath();
       g.moveTo(mx+nx*ms*0.35,my+ny*ms*0.35);
       g.lineTo(mx+nx*ms*1.55+tx*ms*1.05,my+ny*ms*1.55+ty*ms*1.05);
       g.lineTo(mx+nx*ms*1.55-tx*ms*1.05,my+ny*ms*1.55-ty*ms*1.05);
@@ -319,8 +330,48 @@ function draw(){
 // ---------- controls ----------
 function el(id){return document.getElementById(id);}
 var SPEEDS=[1,2,3,4,8,15,30,60,150,400,1500];
+// ---------- running ranking of finished mazes ----------
+var RANK=[],RANKKEY="doorGridRanking3",lastAdded=null;
+try{var saved=JSON.parse(localStorage.getItem(RANKKEY)||"[]");if(Array.isArray(saved))RANK=saved;}catch(e){RANK=[];}
+function saveRank(){try{localStorage.setItem(RANKKEY,JSON.stringify(RANK));}catch(e){}}
+function sourceLabel(){
+  var src=el("src").value,opt=el("src").options[el("src").selectedIndex].textContent;
+  var digits=S.nums.every(function(n){return n>=0&&n<=9;})?S.nums.join(""):"";
+  if((src==="own"||src==="oneprime")&&digits)return digits;
+  return opt.replace(/\s*\(.*\)\s*$/,"");
+}
+function recordFinished(){
+  if(!S.done||S.recorded||!S.walk)return;
+  S.recorded=true;
+  var info=regionInfo(),k=S.k,score=info.big+S.walk.len+info.door,max=2*k*k+4*k;
+  var digits=S.nums.every(function(n){return n>=0&&n<=9;})?S.nums.join(""):"";
+  var key=k+"|"+S.per+"|"+S.nums.join(S.per>1||!digits?",":"");
+  var small=document.createElement("canvas");small.width=184;small.height=184;small.getContext("2d").drawImage(el("cv"),0,0,184,184);
+  var pic="";try{pic=small.toDataURL("image/png");}catch(e){}
+  var entry={key:key,label:sourceLabel(),k:k,per:S.per,score:score,max:max,big:info.big,walk:S.walk.len,door:info.door,cut:!!S.walk.cut,pic:pic,digits:(S.per===1&&digits.length<=400)?digits:""};
+  RANK=RANK.filter(function(e){return e.key!==key;});RANK.push(entry);
+  RANK.sort(function(a,b){return b.score-a.score||a.k-b.k;});
+  if(RANK.length>60)RANK.length=60;
+  lastAdded=key;saveRank();showRank();
+}
+function showRank(){
+  var box=el("rankList");box.innerHTML="";
+  el("rankClear").className=RANK.length?"":"hide";
+  RANK.forEach(function(e,i){
+    var row=document.createElement("div");row.className="rk"+(e.key===lastAdded?" new":"");
+    var pos=document.createElement("div");pos.className="pos";pos.textContent=(i+1)+".";row.appendChild(pos);
+    if(e.pic){var im=document.createElement("img");im.src=e.pic;im.alt="Small copy of the maze";row.appendChild(im);}
+    var t=document.createElement("div");t.className="txt";
+    var lab=e.label.length>44?e.label.slice(0,20)+" ... "+e.label.slice(-20):e.label;
+    var b=document.createElement("b");b.textContent="Score "+(e.cut?"at least ":"")+e.score+" of "+e.max;t.appendChild(b);
+    var d1=document.createElement("div");d1.textContent=lab+" on "+e.k+" by "+e.k+" rooms"+(e.per>1?" with "+e.per+" numbers in each room":"");t.appendChild(d1);
+    var d2=document.createElement("div");d2.textContent="Largest region "+e.big+" + longest walk "+e.walk+" + door points "+e.door;t.appendChild(d2);
+    if(e.digits){var again=document.createElement("button");again.textContent="Show this maze again";again.onclick=function(){el("src").value="own";el("own").value=e.digits;el("per").value="1";syncBoxes();setup();while(!S.done)stepOnce();afterSteps();window.scrollTo({top:0,behavior:"smooth"});};t.appendChild(again);}
+    row.appendChild(t);box.appendChild(row);
+  });
+}
 function stop(){if(S.timer){clearInterval(S.timer);S.timer=null;}el("play").textContent="Play";}
-function afterSteps(){var end=S.done;scores(end);draw();if(end){var w=S.walk;el("now").textContent="Finished: the grid has "+S.regions+" regions and the longest walk visits "+(w&&w.cut?"at least ":"")+(w?w.len:0)+" rooms.";}}
+function afterSteps(){var end=S.done;scores(end);draw();if(end)recordFinished();if(end){var w=S.walk;el("now").textContent="Finished: the grid has "+S.regions+" regions and the longest walk visits "+(w&&w.cut?"at least ":"")+(w?w.len:0)+" rooms.";}}
 function play(){
   if(S.timer){stop();return;}
   if(S.done)setup();
@@ -342,7 +393,8 @@ function fillPresets(){var box=el("primePick");box.innerHTML="";PRESETS[RULE].fo
 fillPresets();
 el("speedV").textContent=SPEEDS[Number(el("speed").value)];
 if(window.matchMedia)window.matchMedia("(prefers-color-scheme:dark)").addEventListener("change",draw);
-syncBoxes();setup();
+el("rankClear").onclick=function(){RANK=[];lastAdded=null;saveRank();showRank();};
+syncBoxes();setup();showRank();
 </script>
 </body>
 </html>

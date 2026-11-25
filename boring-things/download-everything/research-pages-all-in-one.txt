@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-25 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 331 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 334 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -25,7 +25,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
-- [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and a program that builds a maze one room at a time.
+- [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a program that builds a maze one room at a time.
 - [prime-richness](prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line (86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime) plus a page that checks any typed equation.
 - [social-media-vibes](social-media-vibes) holds 80 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
@@ -15487,15 +15487,21 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 This folder holds experiments that turn the digits of prime numbers into mazes. The author of this repository proposed the rules and an AI model (Claude) wrote the programs and ran the counts on 25 November 2026 and no other person has rechecked the pages.
 
+- [after-digit-changes.png](after-digit-changes.png) is a picture of four random numbers after single digit changes raised their scores.
+- [best-random-numbers.png](best-random-numbers.png) is a picture of the highest scoring random number found for five grid sizes.
 - [champion-primes-zero-north.png](champion-primes-zero-north.png) is a picture of eight primes drawn on door grids under the version of the rule where 0 opens north.
 - [champion-primes.png](champion-primes.png) is a picture of eight primes drawn on door grids with the digits inside the rooms.
 - [door-grids-zero-north.png](door-grids-zero-north.png) is a picture of six grids of 40 by 40 rooms under the version of the rule where 0 opens north.
 - [door-grids.png](door-grids.png) is a picture of six grids of 40 by 40 rooms fed by different number sources.
 - [hallway-walk-findings.md](hallway-walk-findings.md) reports a rule where each number is the length of a hallway and the walker turns right after each hallway: the digits of the primes written in one row drift 969 steps east because primes with 4 digits line up with the 4 directions.
 - [hallway-walks.png](hallway-walks.png) is a picture of eight hallway walks.
-- [maze-animation.html](maze-animation.html) is a program for a web browser: pick where the numbers are taken from and a grid size and press Play to watch each room open a door under the rule where 0 opens north and read the scores (the program marks the door each room opened and marks every spot on the outer wall where a player could enter and walk to the opposite side).
+- [maze-animation.html](maze-animation.html) is a program for a web browser: pick where the numbers are taken from and a grid size and press Play to watch each room open a door under the rule where 0 opens north and read the scores (the program marks the door each room opened and marks every spot on the outer wall where a player could enter and walk to the opposite side and keeps a running ranking of the mazes tried with a small copy of each maze).
 - [maze-test-findings.md](maze-test-findings.md) reports the maze test where each digit opens one door of a room: all 1061 primes with 4 digits and all 45086079 primes with 9 digits scored by longest walk and by crossings from one side of the square to the opposite side (80279 primes with 9 digits make one hallway through all 9 rooms and the smallest is 100101299) plus larger grids and primes built to make one hallway through 100 rooms.
 - [maze-test-zero-north.md](maze-test-zero-north.md) repeats the maze test under a second version of the rule where 0 opens north: the lean of the primes flips from top to bottom crossings to side to side crossings and 91720 primes with 9 digits make one hallway through all 9 rooms and the smallest is 102002003.
+- [multi-size-score-list.md](multi-size-score-list.md) lists which shapes and repeating blocks of doors and well known number sequences earn the highest total three part score across nine grid sizes from 2 by 2 to 10 by 10 rooms: the spiral and the zigzag reach 984 of 984 while the best repeating block of 7 doors or fewer reaches 402.
+- [neat-shapes-findings.md](neat-shapes-findings.md) lists the smallest primes that draw rows and columns and nested rings and spirals and staircases and combs and bricks and zigzags on grids up to 6 by 6 rooms.
+- [neat-shapes.png](neat-shapes.png) is a picture of ten primes that draw neat shapes.
+- [random-search-findings.md](random-search-findings.md) reports a search of random numbers for the highest three part score on five grid sizes (a random number reached the highest possible 48 on 4 by 4 rooms) plus single digit changes that reached the highest possible score on grids up to 8 by 8 rooms and high scoring numbers for 10 by 10 and 12 by 12 rooms.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is a plain text ranking of primes by maze score under the version of the rule where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is a plain text ranking of primes by maze score under the version of the rule where 1 opens north.
 - [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks primes by a three part score (largest region plus longest walk plus 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side) under the version of the rule where 0 opens north: all 1061 primes with 4 digits in order and the score counts for all 45086079 primes with 9 digits (91720 tie at the highest score of 30) and the best of 20000 random primes for grids of 4 by 4 and 5 by 5 rooms.
@@ -15845,6 +15851,283 @@ The chatbot also ran the programs for the first version a second time on 25 Nove
 - [ranking-list.txt](ranking-list.txt) is the ranked list under the version where 1 opens north.
 - [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under the version where 0 opens north and marks the door each room opened and the openings on the outer wall.
 - The programs sit in boring-things/research-program-files/prime-mazes-scripts. Running a program with the setting MAZE_RULE=zero-north uses the second version and writes result files whose names end in zero_north.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-mazes/multi-size-score-list.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/multi-size-score-list.md
+================================================================================
+
+# One pattern on many grid sizes: total three part scores for grids from 2 by 2 to 10 by 10 rooms
+
+> **About this page:** One AI model (Claude) wrote this page on 25 November 2026. The author of this repository asked for the experiments and the chatbot wrote the programs and ran the counts. The program is multi_size_scores.py in the folder boring-things/research-program-files/prime-mazes-scripts. The page proves nothing about primes. No other person has reviewed the page yet.
+
+## What this list measures
+
+Each room reads one number and opens one door: 0 and 4 and 8 open north. 1 and 5 and 9 open east. 2 and 6 open south. 3 and 7 open west. The numbers fill a square grid row by row starting at the top left room.
+
+The three part score adds the largest region (the most rooms joined by open doors) and the longest walk (the most rooms one line can pass through without entering a room twice) and the door points. Every room on the edge of the grid is assumed to have a door to the outside that a player can open and a corner room has two. The player earns 1 door point for each outside door where the player can enter and walk through joined rooms to the opposite side of the grid.
+
+Each entry is one pattern or one sequence scored on nine grids (2 by 2 rooms up to 10 by 10 rooms) and the nine scores are added. The highest possible total is 984 because the highest scores for the nine grids are 16 and 30 and 48 and 70 and 96 and 126 and 160 and 198 and 240.
+
+Each line gives the total and then the nine scores in order from 2 by 2 rooms to 10 by 10 rooms.
+
+## List 1: shapes that are redrawn for each grid size
+
+1. Spiral (one hallway that winds into the center): total 984 of 984 (100%). Scores: 16 and 30 and 48 and 70 and 96 and 126 and 160 and 198 and 240
+2. Zigzag (one hallway that snakes back and forth): total 984 of 984 (100%). Scores: 16 and 30 and 48 and 70 and 96 and 126 and 160 and 198 and 240
+3. Comb (left column opens south and every other room opens west): total 744 of 984 (76%). Scores: 16 and 28 and 42 and 58 and 76 and 96 and 118 and 142 and 168
+4. Nested rings (each layer of rooms is a clockwise loop): total 578 of 984 (59%). Scores: 16 and 30 and 40 and 52 and 64 and 76 and 88 and 100 and 112
+5. Staircases (east then south over and over): total 252 of 984 (26%). Scores: 12 and 16 and 20 and 24 and 28 and 32 and 36 and 40 and 44
+6. Rows (every room opens east): total 216 of 984 (22%). Scores: 8 and 12 and 16 and 20 and 24 and 28 and 32 and 36 and 40
+7. Columns (every room opens south): total 216 of 984 (22%). Scores: 8 and 12 and 16 and 20 and 24 and 28 and 32 and 36 and 40
+8. Bricks (pairs of rooms that open toward each other): total 40 of 984 (4%). Scores: 8 and 4 and 4 and 4 and 4 and 4 and 4 and 4 and 4
+
+The spiral and the zigzag reach the highest possible score on every grid size because each one is a single hallway through every room.
+
+## List 2: one short block of doors repeated over and over
+
+A block is a short run of digits that repeats to fill the grid row by row. The program tested all 21844 blocks of 1 to 7 doors which make 21736 different repeating patterns. The digits here are door numbers (0 north and 1 east and 2 south and 3 west).
+
+1. Block 0330100: total 402 of 984 (41%). Scores: 12 and 30 and 25 and 39 and 58 and 46 and 72 and 48 and 72
+2. Block 2331112: total 402 of 984 (41%). Scores: 12 and 16 and 22 and 33 and 56 and 55 and 77 and 54 and 77
+3. Block 2331122: total 396 of 984 (40%). Scores: 12 and 26 and 14 and 39 and 52 and 46 and 76 and 59 and 72
+4. Block 2333311: total 396 of 984 (40%). Scores: 16 and 15 and 22 and 34 and 60 and 60 and 78 and 58 and 53
+5. Block 233112: total 393 of 984 (40%). Scores: 12 and 30 and 29 and 44 and 40 and 62 and 47 and 72 and 57
+6. Block 1233221: total 391 of 984 (40%). Scores: 16 and 25 and 27 and 30 and 55 and 51 and 73 and 54 and 60
+7. Block 2333331: total 391 of 984 (40%). Scores: 16 and 18 and 18 and 24 and 58 and 71 and 75 and 57 and 54
+8. Block 0333110: total 390 of 984 (40%). Scores: 8 and 10 and 21 and 29 and 59 and 55 and 76 and 55 and 77
+9. Block 2233311: total 390 of 984 (40%). Scores: 16 and 13 and 37 and 30 and 59 and 51 and 74 and 58 and 52
+10. Block 2331121: total 390 of 984 (40%). Scores: 12 and 30 and 14 and 40 and 43 and 44 and 76 and 59 and 72
+11. Block 2332211: total 390 of 984 (40%). Scores: 12 and 26 and 28 and 30 and 58 and 42 and 76 and 57 and 61
+12. Block 2332221: total 390 of 984 (40%). Scores: 12 and 29 and 19 and 31 and 56 and 44 and 77 and 61 and 61
+13. Block 1233121: total 388 of 984 (39%). Scores: 16 and 26 and 27 and 31 and 48 and 51 and 73 and 54 and 62
+14. Block 2233321: total 388 of 984 (39%). Scores: 16 and 13 and 29 and 34 and 56 and 53 and 74 and 60 and 53
+15. Block 0333011: total 387 of 984 (39%). Scores: 8 and 22 and 25 and 30 and 60 and 51 and 77 and 55 and 59
+16. Block 2333111: total 387 of 984 (39%). Scores: 16 and 13 and 25 and 34 and 61 and 49 and 79 and 57 and 53
+17. Block 0330011: total 386 of 984 (39%). Scores: 12 and 25 and 27 and 30 and 58 and 42 and 76 and 56 and 60
+18. Block 0333100: total 386 of 984 (39%). Scores: 8 and 23 and 21 and 33 and 59 and 55 and 72 and 44 and 71
+19. Block 1233222: total 386 of 984 (39%). Scores: 16 and 22 and 28 and 29 and 47 and 53 and 76 and 55 and 60
+20. Block 2332111: total 386 of 984 (39%). Scores: 12 and 25 and 24 and 31 and 60 and 40 and 77 and 56 and 61
+
+The best block for each block length:
+
+- 1 door: block 0 with total 216. Scores: 8 and 12 and 16 and 20 and 24 and 28 and 32 and 36 and 40
+- 2 doors: block 03 with total 276. Scores: 16 and 16 and 22 and 24 and 32 and 32 and 42 and 40 and 52
+- 3 doors: block 031 with total 321. Scores: 16 and 15 and 26 and 31 and 36 and 41 and 46 and 54 and 56
+- 4 doors: block 0310 with total 340. Scores: 16 and 24 and 22 and 34 and 36 and 48 and 42 and 58 and 60
+- 5 doors: block 23331 with total 383. Scores: 16 and 16 and 35 and 39 and 48 and 38 and 37 and 70 and 84
+- 6 doors: block 233112 with total 393. Scores: 12 and 30 and 29 and 44 and 40 and 62 and 47 and 72 and 57
+- 7 doors: block 0330100 with total 402. Scores: 12 and 30 and 25 and 39 and 58 and 46 and 72 and 48 and 72
+
+No repeating block of 7 doors or fewer passes 42% of the highest possible total. A repeating block lines up well with some grid widths and badly with others so the nine scores swing up and down.
+
+## List 3: well known number sequences
+
+The first numbers of each sequence fill each grid (the first 4 numbers for 2 by 2 rooms and the first 100 numbers for 10 by 10 rooms).
+
+1. Square numbers with one whole number in each room (1 4 9 16 ...): total 276 of 984 (28%). Scores: 16 and 16 and 22 and 24 and 32 and 32 and 42 and 40 and 52
+2. Fibonacci numbers with one whole number in each room (1 1 2 3 5 8 ...): total 260 of 984 (26%). Scores: 8 and 15 and 26 and 44 and 46 and 35 and 12 and 11 and 63
+3. Counting numbers with one whole number in each room (1 then 2 then 3 ...): total 250 of 984 (25%). Scores: 12 and 24 and 26 and 26 and 7 and 48 and 50 and 50 and 7
+4. Digits of the counting numbers written in one row (1 2 3 ... 9 1 0 1 1 ...): total 199 of 984 (20%). Scores: 12 and 24 and 16 and 13 and 28 and 15 and 22 and 27 and 42
+5. Digits of the square root of 2 (1 4 1 4 2 1 ...): total 177 of 984 (18%). Scores: 16 and 6 and 8 and 15 and 27 and 25 and 20 and 31 and 29
+6. Digits of pi (3 1 4 1 5 9 ...): total 166 of 984 (17%). Scores: 6 and 8 and 15 and 12 and 15 and 25 and 29 and 33 and 23
+7. Digits of the primes written in one row (2 3 5 7 1 1 1 3 ...): total 160 of 984 (16%). Scores: 16 and 6 and 15 and 23 and 11 and 18 and 21 and 26 and 24
+8. Digits of e (2 7 1 8 2 8 ...): total 134 of 984 (14%). Scores: 16 and 6 and 23 and 8 and 15 and 13 and 19 and 18 and 16
+9. One whole prime in each room (2 then 3 then 5 ...): total 98 of 984 (10%). Scores: 16 and 10 and 6 and 12 and 10 and 12 and 10 and 10 and 12
+
+For comparison 300 sets of random digits averaged a total of 183 and the best of the 300 sets reached 248.
+
+- Square numbers and Fibonacci numbers and counting numbers with one whole number in each room beat the random average.
+- One whole prime in each room scores lowest because every prime above 2 is odd and odd numbers open east or west so no door ever joins two rows.
+- The digits of pi and e and the square root of 2 and the primes land near the random average.
+
+## What the three lists show together
+
+- A shape that is redrawn to fit each grid can reach 100% on every size.
+- A fixed repeating block tops out near 41% of the highest possible total.
+- Well known sequences score between 10% and 28% which is close to random digits (about 19%).
+
+## Weak points
+
+- The totals add raw scores so the large grids count for more than the small grids.
+- Blocks longer than 7 doors were not tested.
+- Each well known sequence was read from its first number and a different starting point would change its scores.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-mazes/neat-shapes-findings.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes-findings.md
+================================================================================
+
+# Neat shapes: the smallest primes that draw rows and rings and spirals on door grids
+
+> **About this page:** One AI model (Claude) wrote this page on 25 November 2026. The author of this repository asked for the experiments and the chatbot wrote the programs and ran the counts. The programs are neat_shapes.py and grid_tools.py in the folder boring-things/research-program-files/prime-mazes-scripts. The page proves nothing about primes. No other person has reviewed the page yet.
+
+## The rule
+
+Each room reads one number and opens one door: 0 and 4 and 8 open north. 1 and 5 and 9 open east. 2 and 6 open south. 3 and 7 open west. The numbers fill a square grid row by row starting at the top left room.
+
+## How the primes were found
+
+The chatbot chose a door for every room so that the open doors draw a shape. Each door can be written with two or three different digits so the program tried the digit choices from smallest to largest until the whole number was prime. So each number below is the smallest prime that draws its shape on its grid. These shapes were built on purpose and did not show up by chance.
+
+To try a number open the program [maze-animation.html](maze-animation.html) and set the box named "Where the numbers are taken from" to "My own number or digits" and paste the number and press Finish.
+
+![Ten primes that draw neat shapes](neat-shapes.png)
+
+## Rows (every room opens east)
+
+Each row becomes its own hallway so the grid looks like stacked stripes.
+
+- 2 by 2 rooms: 1151 (regions 2 and largest region 2 and longest walk 2)
+- 3 by 3 rooms: 111111199 (regions 3 and largest region 3 and longest walk 3)
+- 4 by 4 rooms: 1111111111111999 (regions 4 and largest region 4 and longest walk 4)
+- 5 by 5 rooms: 1111111111111111111115591 (regions 5 and largest region 5 and longest walk 5)
+- 6 by 6 rooms: 111111111111111111111111111111159559 (regions 6 and largest region 6 and longest walk 6)
+
+## Columns (every room opens south and the last room opens east)
+
+The stripes stand upright because every door opens downward. The last room opens east because a prime cannot end in an even digit.
+
+- 2 by 2 rooms: 2221 (regions 2 and largest region 2 and longest walk 2)
+- 3 by 3 rooms: 222226229 (regions 3 and largest region 3 and longest walk 3)
+- 4 by 4 rooms: 2222222222262629 (regions 4 and largest region 4 and longest walk 4)
+- 5 by 5 rooms: 2222222222222222222226221 (regions 5 and largest region 5 and longest walk 5)
+- 6 by 6 rooms: 222222222222222222222222222222226669 (regions 6 and largest region 6 and longest walk 6)
+
+## Nested rings (each layer of rooms is a clockwise loop)
+
+Each layer of rooms is a loop. The 4 by 4 number draws a ring of 12 rooms around a separate block of 4 rooms and the 6 by 6 number draws three separate rings.
+
+- 2 by 2 rooms: 1283 (regions 1 and largest region 4 and longest walk 4)
+- 3 by 3 rooms: 112006073 (regions 1 and largest region 9 and longest walk 9)
+- 4 by 4 rooms: 1112012200320377 (regions 2 and largest region 12 and longest walk 12)
+- 5 by 5 rooms: 1111201122000220033243337 (regions 2 and largest region 16 and longest walk 16)
+- 6 by 6 rooms: 111112011122001222000322003332037337 (regions 3 and largest region 20 and longest walk 20)
+
+## Spiral (one hallway that winds into the center)
+
+Every room is on one hallway that winds into the center so each of these primes earns the highest three part score for its grid.
+
+- 2 by 2 rooms: 1213 (regions 1 and largest region 4 and longest walk 4)
+- 3 by 3 rooms: 112132073 (regions 1 and largest region 9 and longest walk 9)
+- 4 by 4 rooms: 1112112201724333 (regions 1 and largest region 16 and longest walk 16)
+- 5 by 5 rooms: 1111211122013220033287773 (regions 1 and largest region 25 and longest walk 25)
+- 6 by 6 rooms: 111112111122011222001322003332433333 (regions 1 and largest region 36 and longest walk 36)
+
+## Staircases (east then south then east then south)
+
+The regions run diagonally down the grid in steps.
+
+- 2 by 2 rooms: 1229 (regions 2 and largest region 3 and longest walk 3)
+- 3 by 3 rooms: 121212521 (regions 3 and largest region 5 and longest walk 5)
+- 4 by 4 rooms: 1212212112126529 (regions 4 and largest region 7 and longest walk 7)
+- 5 by 5 rooms: 1212121212121212121212961 (regions 5 and largest region 9 and longest walk 9)
+- 6 by 6 rooms: 121212212121121212212121121212252169 (regions 6 and largest region 11 and longest walk 11)
+
+## Comb (left column opens south and every other room opens west)
+
+One spine runs down the left side with a tooth for every row.
+
+- 2 by 2 rooms: 2767 (regions 1 and largest region 4 and longest walk 4)
+- 3 by 3 rooms: 233233673 (regions 1 and largest region 9 and longest walk 7)
+- 4 by 4 rooms: 2333233323336373 (regions 1 and largest region 16 and longest walk 10)
+- 5 by 5 rooms: 2333323333233332333327377 (regions 1 and largest region 25 and longest walk 13)
+- 6 by 6 rooms: 233333233333233333233333233333277737 (regions 1 and largest region 36 and longest walk 16)
+
+## Bricks (pairs of rooms that open toward each other)
+
+Every region is exactly 2 rooms.
+
+- 2 by 2 rooms: 1753 (regions 2 and largest region 2 and longest walk 2)
+- 4 by 4 rooms: 1313131313131357 (regions 8 and largest region 2 and longest walk 2)
+- 6 by 6 rooms: 131313131313131313131313131313131393 (regions 18 and largest region 2 and longest walk 2)
+
+## Zigzag (rows open east then west in turn and the row ends open south)
+
+One hallway snakes back and forth through every room.
+
+- 2 by 2 rooms: 1223 (regions 1 and largest region 4 and longest walk 4)
+- 4 by 4 rooms: 1112233311126337 (regions 1 and largest region 16 and longest walk 16)
+- 6 by 6 rooms: 111112233333111112233333111112233733 (regions 1 and largest region 36 and longest walk 36)
+
+## Three things the search turned up
+
+- **A ring made from a prime can turn clockwise and cannot turn counterclockwise.** A counterclockwise ring needs the bottom right room to open north and north takes an even digit. A prime with more than one digit never ends in an even digit.
+- **The zigzag prime exists on grids with an even number of rooms along one side.** On a grid of 3 by 3 or 5 by 5 rooms the snake needs the last room to open south which again takes an even digit.
+- **The digits themselves look patterned.** The rows prime is almost all 1s and the columns prime is almost all 2s and the spiral and ring primes repeat short runs of 1 and 2 and 0 and 3.
+
+## Weak points
+
+- Eight shapes were tried and many other shapes are possible.
+- Each prime passed 30 rounds of a random-witness primality check which leaves a tiny chance of error for the largest numbers.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-mazes/random-search-findings.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/random-search-findings.md
+================================================================================
+
+# Random number search: the highest scoring random numbers on door grids
+
+> **About this page:** One AI model (Claude) wrote this page on 25 November 2026. The author of this repository asked for the experiments and the chatbot wrote the programs and ran the counts. The programs are random_search.py and random_search_strict_doors.py in the folder boring-things/research-program-files/prime-mazes-scripts. The page proves nothing about primes. No other person has reviewed the page yet.
+
+## The rule and the score
+
+Each room reads one number and opens one door: 0 and 4 and 8 open north. 1 and 5 and 9 open east. 2 and 6 open south. 3 and 7 open west. The numbers fill a square grid row by row starting at the top left room.
+
+The three part score adds the largest region (the most rooms joined by open doors) and the longest walk (the most rooms one line can pass through without entering a room twice) and the door points. Every room on the edge of the grid is assumed to have a door to the outside that a player can open and a corner room has two. The player earns 1 door point for each outside door where the player can enter and walk through joined rooms to the opposite side of the grid.
+
+The highest possible score on a grid with k rooms along one side is k times k for the region plus k times k for the walk plus 4 times k for the door points. The numbers on this page are random digits and are not primes.
+
+## Experiment 1: try many random numbers and keep the best
+
+![The best random number found for each grid size](best-random-numbers.png)
+
+- **4 by 4 rooms (200000 random numbers):** 2363667423305504 scored 48 of 48 (largest region 16 + longest walk 16 + door points 16).
+- **5 by 5 rooms (150000 random numbers):** 2591390460149980403684143 scored 63 of 70 (largest region 25 + longest walk 18 + door points 20).
+- **6 by 6 rooms (80000 random numbers):** 996526852592511909186910442807485140 scored 79 of 96 (largest region 36 + longest walk 19 + door points 24).
+- **8 by 8 rooms (25000 random numbers):** 4555151456438110499031061694707649854845720801020245027837864223 scored 86 of 160 (largest region 46 + longest walk 25 + door points 15).
+- **10 by 10 rooms (10000 random numbers):** 4187011063204003567787977067149454411677378554628085544418608582414413119643079268215584531472061044 scored 102 of 240 (largest region 59 + longest walk 26 + door points 17).
+
+The best random number reached the highest possible score on the grid of 4 by 4 rooms and that number appeared on try number 37697. Luck falls behind as the grid grows: the best random number earned 100% of the possible score on 4 by 4 rooms and 90% on 5 by 5 rooms and 82% on 6 by 6 rooms and 54% on 8 by 8 rooms and 43% on 10 by 10 rooms.
+
+## Experiment 2: change one digit at a time and keep any change that does not lower the score
+
+The program started from each best random number and tried up to 40000 changes of a single digit.
+
+![The numbers after single digit changes](after-digit-changes.png)
+
+- **5 by 5 rooms:** 2737659543518564238607433 scored 70 of 70 after 7 improving steps.
+- **6 by 6 rooms:** 552598822854061087071614918283477954 scored 96 of 96 after 12 improving steps.
+- **8 by 8 rooms:** 9219126746832768092869484768607018506508863230148706104759499590 scored 160 of 160 after 36 improving steps.
+- **10 by 10 rooms:** 2755696467287018682496007318206707306734916988929023705823076110037120929125102867436836309994510950 scored 239 of 240 after 65 improving steps.
+
+Small repeated improvements beat luck by a wide margin on large grids. The number for 8 by 8 rooms went from 86 to the highest possible 160. The number for 10 by 10 rooms stopped at 239 of 240 in this run with all 100 rooms joined and a longest walk of 99 rooms.
+
+## High scoring numbers for grids of 10 by 10 rooms and 12 by 12 rooms
+
+- **Spiral on 10 by 10 rooms:** score 240 of 240 (largest region 100 + longest walk 100 + door points 40). The number is 1111111112111111112201111112220011112222000112222200001322220000333222000333332200333333320333333333
+- **Zigzag on 10 by 10 rooms:** score 240 of 240 (largest region 100 + longest walk 100 + door points 40). The number is 1111111112233333333311111111122333333333111111111223333333331111111112233333333311111111122333333333
+- **Random number improved by single digit changes on 10 by 10 rooms:** score 240 of 240 (largest region 100 + longest walk 100 + door points 40). The number is 2771772777258490212852584758286303342330996904925827709463836990433960569169546067072472745514914118
+- **Spiral on 12 by 12 rooms:** score 336 of 336 (largest region 144 + longest walk 144 + door points 48). The number is 111111111112111111111122011111111222001111112222000111122222000011222222000001322222000003332222000033333222000333333322003333333332033333333333
+- **Zigzag on 12 by 12 rooms:** score 336 of 336 (largest region 144 + longest walk 144 + door points 48). The number is 111111111112233333333333111111111112233333333333111111111112233333333333111111111112233333333333111111111112233333333333111111111112233333333333
+- **Random number improved by single digit changes on 12 by 12 rooms:** score 335 of 336 (largest region 144 + longest walk 143 + door points 48). The number is 559251559192427387366733465916431216238367592906219859067633687511796296194833827586521654011623858108033656477763754223591825007316437770337773
+
+The spiral and the zigzag are built shapes that reach the highest possible score on every grid size. A second run of single digit changes on the 10 by 10 number reached 240 of 240.
+
+## A stricter door rule that was tried and set aside
+
+The chatbot also tried counting a door point only when a number in a room opened a door onto the outside and a walk led from that door to another such door on the opposite side.
+
+- With one number in each room no grid ever earned a door point. The program checked all 262144 door patterns on 3 by 3 rooms and every random number in a new search of 415000 numbers on five grid sizes.
+- The reason is that a group of joined rooms needs all but one of its doors to hold the group together so at most one door in the group is left over to open onto the outside.
+- With two numbers in each room the stricter rule works: 77% of 60000 random grids of 3 by 3 rooms earned at least one door point and 89% of 25000 random grids of 4 by 4 rooms did.
+- The author then chose the rule on this page in which every edge room has an outside door.
+
+## Weak points
+
+- Each grid size had one run so another run would find different numbers.
+- The method of single digit changes can stall just short of the highest score.
+- The numbers are random digits so nothing on this page is a statement about primes.
 
 ================================================================================
 FILE: 1-research-click-here-first/prime-mazes/ranking-list-zero-north.txt
@@ -47620,6 +47903,12 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (36162 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
 
+1-research-click-here-first/prime-mazes/after-digit-changes.png (138887 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/after-digit-changes.png
+
+1-research-click-here-first/prime-mazes/best-random-numbers.png (157298 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/best-random-numbers.png
+
 1-research-click-here-first/prime-mazes/champion-primes-zero-north.png (80552 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/champion-primes-zero-north.png
 
@@ -47635,8 +47924,11 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/prime-mazes/hallway-walks.png (198200 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png
 
-1-research-click-here-first/prime-mazes/maze-animation.html (22884 bytes)
+1-research-click-here-first/prime-mazes/maze-animation.html (26839 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html
+
+1-research-click-here-first/prime-mazes/neat-shapes.png (112525 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes.png
 
 1-research-click-here-first/prime-richness/all-questions.txt (250948 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt
