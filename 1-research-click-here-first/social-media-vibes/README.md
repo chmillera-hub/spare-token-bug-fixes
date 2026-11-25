@@ -4,7 +4,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Reflections to read
 
-The 79 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+The 80 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
 
 - [Four habits in public conversation](deep-dives/public-conversation-habits.md) describes four habits in public conversation such as respecting a fast answer from a wealthy executive more than the same fast answer from an ordinary person.
 - [Why money is not the number being raised here](deep-dives/why-not-money.md) explains why the work in the social media vibes folder is not aimed at making money and lists the numbers the author seems to watch in place of money such as how hard a line lands and how far a behavior spreads.
@@ -85,6 +85,7 @@ The 79 pages in this list are written reflections that a visitor can read in a f
 - [The guest who told the truth at the table: two imagined stories about a holiday gathering](deep-dives/truth-at-the-table.md) holds two imagined stories about a guest who tells a table of friends about a year of loneliness and is met with silence and a change of subject and is left off the next invitation and later declines to attend other gatherings.
 - [Every life with no exceptions: eleven reflections on absolute nonviolence](deep-dives/every-life-no-exceptions.md) holds eleven reflections that move from the habit of answering one war's dead by listing other wars to the position that ending a human life is wrong in every case and explains that an exception for enemies who are "evil enough" gives every future warmaker a script.
 - [The dare and the third option: two reflections on answering someone who refuses to stop](deep-dives/dare-third-option.md) holds two reflections on a person or a ruler who keeps harming others and dares a nonviolent person to strike back and explains a third option which is distance and plain public description and speaking to the next listener and equipping the people the violent one loves.
+- [A deep dive with thirteen payoffs: eight reflections on writing for almost no audience](deep-dives/thirteen-payoffs.md) holds eight reflections on a writer who posts long careful replies from a small account and counts thirteen separate payoffs from each reply and uses a story about a painter to explain that work enjoyed during the making and saved in several places loses nothing when few people respond.
 
 ## Thread counts and data
 
