@@ -13,7 +13,7 @@ A short way to find the door under the second version is to divide the number by
 
 Everything else is the same as on the first page. A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room. The scores (regions and crossings and longest walk and maze score) are defined on the first page.
 
-The program [maze-animation.html](maze-animation.html) has a box named "Door rule" that switches between the two versions. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+The program [maze-animation.html](maze-animation.html) draws the second version only. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
 
 ## The ranked list
 
@@ -137,5 +137,5 @@ The chatbot also ran the programs for the first version a second time on 25 Nove
 - [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks the primes by a second score that adds the largest region and the longest walk and 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is the ranked list under the version where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is the ranked list under the version where 1 opens north.
-- [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under either version.
+- [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under the version where 0 opens north and marks the door each room opened and the openings on the outer wall.
 - The programs sit in boring-things/research-program-files/prime-mazes-scripts. Running a program with the setting MAZE_RULE=zero-north uses the second version and writes result files whose names end in zero_north.

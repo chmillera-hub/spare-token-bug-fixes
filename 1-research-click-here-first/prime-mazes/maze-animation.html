@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Door grid maze from the digits of primes</title>
 <style>
-:root{--bg:#faf9f5;--card:#ffffff;--text:#1f1e1d;--muted:#6b6a65;--line:#d9d6cc;--faint:#e4e1d6;--wall:#1f1e1d;--now:#b45309;--walk:#be123c;--btn:#1f1e1d;--btntext:#faf9f5;--r0:#f4b942;--r1:#7fc8f8;--r2:#9bdeac;--r3:#f7a8b8;--r4:#c9b6e4;--r5:#f2d98b}
-@media (prefers-color-scheme:dark){:root{--bg:#1c1b1a;--card:#262523;--text:#f0eee6;--muted:#a8a69d;--line:#45433e;--faint:#3a3835;--wall:#f0eee6;--now:#f0a23b;--walk:#fb7185;--btn:#f0eee6;--btntext:#1c1b1a;--r0:#8a6410;--r1:#1f5f86;--r2:#2f6b45;--r3:#8a3b52;--r4:#5a4687;--r5:#6f6221}}
+:root{--bg:#faf9f5;--card:#ffffff;--text:#1f1e1d;--muted:#6b6a65;--line:#d9d6cc;--faint:#e4e1d6;--wall:#1f1e1d;--now:#b45309;--walk:#be123c;--open:#15803d;--btn:#1f1e1d;--btntext:#faf9f5;--r0:#f4b942;--r1:#7fc8f8;--r2:#9bdeac;--r3:#f7a8b8;--r4:#c9b6e4;--r5:#f2d98b}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b1a;--card:#262523;--text:#f0eee6;--muted:#a8a69d;--line:#45433e;--faint:#3a3835;--wall:#f0eee6;--now:#f0a23b;--walk:#fb7185;--open:#4ade80;--btn:#f0eee6;--btntext:#1c1b1a;--r0:#8a6410;--r1:#1f5f86;--r2:#2f6b45;--r3:#8a3b52;--r4:#5a4687;--r5:#6f6221}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
 main{max-width:560px;margin:0 auto;padding:10px 12px 40px}
@@ -49,16 +49,12 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 <div>Largest region: <b id="sBig">0</b></div><div>Longest walk: <b id="sLong">0</b></div>
 <div>Top to bottom crossings: <b id="sTB">0</b></div><div>Side to side crossings: <b id="sLR">0</b></div>
 <div>Maze score: <b id="sScore">0</b></div><div>Corner to corner: <b id="sFin">no</b></div>
+<div>Door points: <b id="sDoor">0</b></div><div>Three part score: <b id="sThree">0</b></div>
 </div>
 <p class="small" id="walkNote"></p>
 </div>
 
 <div class="card">
-<label for="rule">Door rule</label>
-<select id="rule">
-<option value="zero">0 opens north (0 north and 1 east and 2 south and 3 west and then the cycle repeats)</option>
-<option value="one">1 opens north (1 north and 2 east and 3 south and 4 west and then the cycle repeats and 0 is west)</option>
-</select>
 <label for="src">Where the numbers are taken from</label>
 <select id="src">
 <option value="primedigits">Digits of the primes written in one row (2 3 5 7 1 1 1 3 ...)</option>
@@ -101,12 +97,16 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 
 <label class="check"><input type="checkbox" id="showDigits" checked> Show the number inside each room when the rooms are large enough</label>
 <label class="check"><input type="checkbox" id="showWalk" checked> Draw the longest walk when the grid is finished</label>
+<label class="check"><input type="checkbox" id="showOpen" checked> Show the openings on the outer wall</label>
+<label class="check"><input type="checkbox" id="showMark" checked> Show a small arrow at the door each room opened</label>
 </div>
 
 <div class="card">
-<p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door. <span id="ruleText"></span> The box named "Door rule" switches between the two versions of the rule. A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
-<p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing.</p>
-<p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The pages maze-test-findings.md (1 opens north) and maze-test-zero-north.md (0 opens north) in the same folder report the counts for every prime with 4 digits and every prime with 9 digits under each version of the rule. No other person has reviewed the program yet.</p>
+<p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door. <span id="ruleText"></span> A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
+<p><b>The openings on the outer wall.</b> A green arrow with a green piece in the outer wall marks a spot where a player could open a door from outside and walk through joined rooms to the opposite side of the grid. Each green arrow is worth 1 door point. Two green arrows on opposite sides that sit on the same colored region are the two ends of one crossing. A thin gray piece in the outer wall marks a door that a number opened onto the outside when no path leads from that door to the opposite side.</p>
+<p><b>The small arrows inside the rooms.</b> Each room shows a small gray arrow next to the wall where the number in that room opened a door. A room can also be entered through a door that a neighboring room opened so an open wall with no small arrow beside it was opened from the other side.</p>
+<p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing. The three part score is the largest region plus the longest walk plus the door points.</p>
+<p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The page maze-test-zero-north.md in the same folder reports the counts for every prime with 4 digits and every prime with 9 digits under this rule. The page maze-test-findings.md reports the counts for an earlier version of the rule in which 1 opened north and the program no longer draws that version. No other person has reviewed the program yet.</p>
 </div>
 </main>
 
@@ -116,7 +116,7 @@ var DR=[[-1,0],[0,1],[1,0],[0,-1]];
 var NAMES=["north","east","south","west"];
 var RULE="zero";
 function dirOf(n){return RULE==="zero"?((n%4)+4)%4:((n-1)%4+4)%4;}
-var RULETEXT={zero:"Under this version 0 opens the north door and 1 opens the east door and 2 opens the south door and 3 opens the west door. The cycle then repeats so 4 is north and 5 is east and 6 is south and 7 is west and 8 is north and 9 is east.",one:"Under this version 1 opens the north door and 2 opens the east door and 3 opens the south door and 4 opens the west door. The cycle then repeats so 5 is north and 6 is east and 7 is south and 8 is west and 9 is north and 0 is west."};
+var RULETEXT={zero:"0 opens the north door and 1 opens the east door and 2 opens the south door and 3 opens the west door. The cycle then repeats so 4 is north and 5 is east and 6 is south and 7 is west and 8 is north and 9 is east.",one:"Under this version 1 opens the north door and 2 opens the east door and 3 opens the south door and 4 opens the west door. The cycle then repeats so 5 is north and 6 is east and 7 is south and 8 is west and 9 is north and 0 is west."};
 
 // ---------- number sources ----------
 var PR=(function(){var n=260000,s=new Uint8Array(n+1),out=[];for(var i=2;i<=n;i++){if(!s[i]){out.push(i);for(var j=i*i;j<=n;j+=i)s[j]=1;}}return out;})();
@@ -171,7 +171,7 @@ function numbersFor(src,need,ownText,primeText){
 }
 
 // ---------- the grid ----------
-var S={k:12,per:1,nums:[],pos:0,adj:[],parent:[],regions:0,timer:null,done:false,walk:null,lastRoom:-1,lastDirs:[]};
+var S={k:12,per:1,nums:[],pos:0,adj:[],parent:[],out:[],regions:0,timer:null,done:false,walk:null,lastRoom:-1,lastDirs:[]};
 function find(x){while(S.parent[x]!==x){S.parent[x]=S.parent[S.parent[x]];x=S.parent[x];}return x;}
 function setup(){
   stop();
@@ -181,14 +181,14 @@ function setup(){
   if(fixed){nums=numbersFor(src,0,el("own").value,el("primePick").value);if(nums.length<4)nums=[1,2,3,4];k=Math.min(60,Math.ceil(Math.sqrt(nums.length/per)));while(nums.length<k*k*per)nums.push(nums[nums.length%Math.max(1,nums.length)]);}
   else nums=numbersFor(src,k*k*per,"","");
   S.k=k;S.per=per;S.nums=nums;S.pos=0;S.done=false;S.walk=null;S.lastRoom=-1;S.lastDirs=[];
-  S.adj=[];S.parent=[];for(var i=0;i<k*k;i++){S.adj.push([]);S.parent.push(i);}
+  S.adj=[];S.parent=[];S.out=[];for(var i=0;i<k*k;i++){S.adj.push([]);S.parent.push(i);S.out.push([]);}
   S.regions=k*k;
   el("sizeV").textContent=k;el("now").textContent="Press Play to open the first door.";el("walkNote").textContent="";
   scores(false);draw();
 }
 function openDoor(i,d){
   var k=S.k,r=Math.floor(i/k),c=i%k,a=r+DR[d][0],b=c+DR[d][1];
-  if(a<0||a>=k||b<0||b>=k)return false;
+  if(a<0||a>=k||b<0||b>=k){if(S.out[i].indexOf(d)<0)S.out[i].push(d);return false;}
   var j=a*k+b;
   if(S.adj[i].indexOf(j)<0){S.adj[i].push(j);S.adj[j].push(i);}
   var x=find(i),y=find(j);if(x!==y){S.parent[x]=y;S.regions--;}
@@ -210,7 +210,9 @@ function regionInfo(){
   for(i=0;i<k;i++){top[find(i)]=1;bot[find((k-1)*k+i)]=1;left[find(i*k)]=1;right[find(i*k+k-1)]=1;}
   for(key in top)if(bot[key])tb++;
   for(key in left)if(right[key])lr++;
-  return {size:size,big:big,tb:tb,lr:lr,fin:find(0)===find(n-1)};
+  var door=0;
+  for(i=0;i<k;i++){if(bot[find(i)])door++;if(top[find((k-1)*k+i)])door++;if(right[find(i*k)])door++;if(left[find(i*k+k-1)])door++;}
+  return {size:size,big:big,tb:tb,lr:lr,door:door,top:top,bot:bot,left:left,right:right,fin:find(0)===find(n-1)};
 }
 function longestWalk(){
   var n=S.k*S.k,seen=new Uint8Array(n),best=0,bestPath=[],path=[],budget=4000000,cut=false;
@@ -229,19 +231,21 @@ function scores(full){
   var info=regionInfo();
   el("sDone").textContent=S.pos+" of "+S.k*S.k;el("sReg").textContent=S.regions;el("sBig").textContent=info.big+" rooms";
   el("sTB").textContent=info.tb;el("sLR").textContent=info.lr;el("sFin").textContent=info.fin?"yes":"no";
+  el("sDoor").textContent=info.door+" of "+4*S.k;
   if(full||S.k<=14){
     var w=longestWalk();S.walk=w;
     el("sLong").textContent=(w.cut?"at least ":"")+w.len+" rooms";
     el("sScore").textContent=(w.cut?"at least ":"")+(w.len+S.k*(info.tb+info.lr));
+    el("sThree").textContent=(w.cut?"at least ":"")+(info.big+w.len+info.door);
     el("walkNote").textContent=w.cut?"The search for the longest walk stopped early because this grid has many loops so the true longest walk could be longer.":"";
-  }else{el("sLong").textContent="shown at the end";el("sScore").textContent="shown at the end";S.walk=null;}
+  }else{el("sLong").textContent="shown at the end";el("sScore").textContent="shown at the end";el("sThree").textContent="shown at the end";S.walk=null;}
   return info;
 }
 
 // ---------- drawing ----------
 function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
 function draw(){
-  var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,k=S.k,pad=8,cell=(W-2*pad)/k,n=k*k,i,r,c;
+  var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,k=S.k,pad=46,cell=(W-2*pad)/k,n=k*k,i,r,c;
   g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
   if(S.pos>0){
     var info=regionInfo(),keys=Object.keys(info.size).sort(function(a,b){return info.size[b]-info.size[a];}),col={};
@@ -255,11 +259,55 @@ function draw(){
     if(c+1<k&&S.adj[i].indexOf(i+1)<0){g.moveTo(x+cell,y);g.lineTo(x+cell,y+cell);}
     if(r+1<k&&S.adj[i].indexOf(i+k)<0){g.moveTo(x,y+cell);g.lineTo(x+cell,y+cell);}
   }
-  g.rect(pad,pad,W-2*pad,W-2*pad);g.stroke();
+  g.stroke();
+  // ---- outer wall: one piece for each spot with gaps where a door opens ----
+  var showOpen=el("showOpen").checked,inf2=regionInfo(),wallW=g.lineWidth,gapA=0.14,gapB=0.86,ms=Math.max(3,Math.min(cell*0.24,pad*0.6));
+  function spot(room,side){ // side 0 top 1 right 2 bottom 3 left. Returns 2 crossing spot 1 outward door without a crossing 0 closed
+    if(!showOpen)return 0;
+    var f=find(room),cross=side===0?inf2.bot[f]:side===2?inf2.top[f]:side===3?inf2.right[f]:inf2.left[f];
+    if(cross&&S.pos>0&&(room<S.pos||S.adj[room].length))return 2;
+    return S.out[room].indexOf(side)>=0?1:0;
+  }
+  function wallPiece(x1,y1,x2,y2,kind,nx,ny){ // nx ny point outward from the grid
+    g.strokeStyle=css("--wall");g.lineWidth=wallW;g.beginPath();
+    if(kind===0){g.moveTo(x1,y1);g.lineTo(x2,y2);}
+    else{g.moveTo(x1,y1);g.lineTo(x1+(x2-x1)*gapA,y1+(y2-y1)*gapA);g.moveTo(x1+(x2-x1)*gapB,y1+(y2-y1)*gapB);g.lineTo(x2,y2);}
+    g.stroke();
+    if(kind===0)return;
+    g.strokeStyle=css(kind===2?"--open":"--muted");g.lineWidth=kind===2?Math.max(3,wallW*1.6):Math.max(1.5,wallW*0.7);g.beginPath();
+    g.moveTo(x1+(x2-x1)*(gapA+0.06),y1+(y2-y1)*(gapA+0.06));g.lineTo(x1+(x2-x1)*(gapB-0.06),y1+(y2-y1)*(gapB-0.06));g.stroke();
+    if(kind!==2)return;
+    var mx=(x1+x2)/2,my=(y1+y2)/2,tx=(x2-x1)/cell,ty=(y2-y1)/cell;
+    if(kind===2){ // green arrow that points into the grid
+      g.fillStyle=css("--open");g.beginPath();
+      g.moveTo(mx+nx*ms*0.35,my+ny*ms*0.35);
+      g.lineTo(mx+nx*ms*1.55+tx*ms*1.05,my+ny*ms*1.55+ty*ms*1.05);
+      g.lineTo(mx+nx*ms*1.55-tx*ms*1.05,my+ny*ms*1.55-ty*ms*1.05);
+      g.closePath();g.fill();
+    }
+  }
+  for(i=0;i<k;i++){
+    var a0=pad+i*cell,a1=a0+cell,far=pad+k*cell;
+    wallPiece(a0,pad,a1,pad,spot(i,0),0,-1);
+    wallPiece(a0,far,a1,far,spot((k-1)*k+i,2),0,1);
+    wallPiece(pad,a0,pad,a1,spot(i*k,3),-1,0);
+    wallPiece(far,a0,far,a1,spot(i*k+k-1,1),1,0);
+  }
+  g.strokeStyle=css("--wall");g.lineWidth=wallW;
   if(el("showDigits").checked&&k<=22){
     g.fillStyle=css("--text");g.textAlign="center";g.textBaseline="middle";
     var fs=Math.max(11,Math.min(cell*0.42,cell*1.5/(String(S.nums[S.per*n-1]).length*S.per+1)+6));g.font="600 "+fs+"px system-ui,sans-serif";
     for(i=0;i<S.pos;i++){var lab=[];for(var t=0;t<S.per;t++)lab.push(S.nums[i*S.per+t]);g.fillText(lab.join(" "),pad+(i%k)*cell+cell/2,pad+Math.floor(i/k)*cell+cell/2,cell*0.92);}
+  }
+  if(el("showMark").checked&&k<=30){
+    g.fillStyle=css("--muted");var q=Math.max(2.5,cell*0.085);
+    for(i=0;i<S.pos;i++){
+      var cx=pad+(i%k)*cell+cell/2,cy=pad+Math.floor(i/k)*cell+cell/2;
+      for(var u=0;u<S.per;u++){
+        var dd=dirOf(S.nums[i*S.per+u]),ox=DR[dd][1],oy=DR[dd][0],bx=cx+ox*cell*0.36,by=cy+oy*cell*0.36;
+        g.beginPath();g.moveTo(bx+ox*q,by+oy*q);g.lineTo(bx-ox*q*0.6+oy*q*0.8,by-oy*q*0.6+ox*q*0.8);g.lineTo(bx-ox*q*0.6-oy*q*0.8,by-oy*q*0.6-ox*q*0.8);g.closePath();g.fill();
+      }
+    }
   }
   if(S.done&&S.walk&&el("showWalk").checked&&S.walk.path.length>1){
     g.strokeStyle=css("--walk");g.lineWidth=Math.max(2,cell*0.14);g.lineJoin="round";g.globalAlpha=0.8;g.beginPath();
@@ -289,9 +337,8 @@ el("src").onchange=function(){syncBoxes();setup();};
 el("primePick").onchange=setup;el("own").oninput=setup;el("per").onchange=setup;
 el("size").oninput=function(){el("sizeV").textContent=this.value;setup();};
 el("speed").oninput=function(){el("speedV").textContent=SPEEDS[Number(this.value)];if(S.timer){stop();play();}};
-el("showDigits").onchange=draw;el("showWalk").onchange=draw;
+el("showDigits").onchange=draw;el("showWalk").onchange=draw;el("showOpen").onchange=draw;el("showMark").onchange=draw;
 function fillPresets(){var box=el("primePick");box.innerHTML="";PRESETS[RULE].forEach(function(p){var o=document.createElement("option");o.value=p[0];o.textContent=p[1];box.appendChild(o);});el("ruleText").textContent=RULETEXT[RULE];}
-el("rule").onchange=function(){RULE=this.value;fillPresets();setup();};
 fillPresets();
 el("speedV").textContent=SPEEDS[Number(el("speed").value)];
 if(window.matchMedia)window.matchMedia("(prefers-color-scheme:dark)").addEventListener("change",draw);

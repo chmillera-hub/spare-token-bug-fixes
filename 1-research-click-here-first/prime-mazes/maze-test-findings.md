@@ -16,7 +16,7 @@ Picture a square grid of rooms where every room starts with four closed doors. E
 
 A prime with 4 digits fills a grid of 2 by 2 rooms exactly and a prime with 9 digits fills a grid of 3 by 3 rooms and a prime with 16 digits fills a grid of 4 by 4 rooms.
 
-The program [maze-animation.html](maze-animation.html) shows the doors opening one room at a time for any of these inputs. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+The program [maze-animation.html](maze-animation.html) shows doors opening one room at a time. The program now uses the version of the rule where 0 opens north so the primes on this page draw different shapes in the program than the shapes described here. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
 
 ## The scores
 

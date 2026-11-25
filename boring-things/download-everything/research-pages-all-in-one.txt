@@ -15493,7 +15493,7 @@ This folder holds experiments that turn the digits of prime numbers into mazes. 
 - [door-grids.png](door-grids.png) is a picture of six grids of 40 by 40 rooms fed by different number sources.
 - [hallway-walk-findings.md](hallway-walk-findings.md) reports a rule where each number is the length of a hallway and the walker turns right after each hallway: the digits of the primes written in one row drift 969 steps east because primes with 4 digits line up with the 4 directions.
 - [hallway-walks.png](hallway-walks.png) is a picture of eight hallway walks.
-- [maze-animation.html](maze-animation.html) is a program for a web browser: pick the door rule (0 opens north or 1 opens north) and where the numbers are taken from and a grid size and press Play to watch each room open a door and read the scores.
+- [maze-animation.html](maze-animation.html) is a program for a web browser: pick where the numbers are taken from and a grid size and press Play to watch each room open a door under the rule where 0 opens north and read the scores (the program marks the door each room opened and marks every spot on the outer wall where a player could enter and walk to the opposite side).
 - [maze-test-findings.md](maze-test-findings.md) reports the maze test where each digit opens one door of a room: all 1061 primes with 4 digits and all 45086079 primes with 9 digits scored by longest walk and by crossings from one side of the square to the opposite side (80279 primes with 9 digits make one hallway through all 9 rooms and the smallest is 100101299) plus larger grids and primes built to make one hallway through 100 rooms.
 - [maze-test-zero-north.md](maze-test-zero-north.md) repeats the maze test under a second version of the rule where 0 opens north: the lean of the primes flips from top to bottom crossings to side to side crossings and 91720 primes with 9 digits make one hallway through all 9 rooms and the smallest is 102002003.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is a plain text ranking of primes by maze score under the version of the rule where 0 opens north.
@@ -15562,7 +15562,7 @@ Picture a square grid of rooms where every room starts with four closed doors. E
 
 A prime with 4 digits fills a grid of 2 by 2 rooms exactly and a prime with 9 digits fills a grid of 3 by 3 rooms and a prime with 16 digits fills a grid of 4 by 4 rooms.
 
-The program [maze-animation.html](maze-animation.html) shows the doors opening one room at a time for any of these inputs. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+The program [maze-animation.html](maze-animation.html) shows doors opening one room at a time. The program now uses the version of the rule where 0 opens north so the primes on this page draw different shapes in the program than the shapes described here. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
 
 ## The scores
 
@@ -15719,7 +15719,7 @@ A short way to find the door under the second version is to divide the number by
 
 Everything else is the same as on the first page. A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room. The scores (regions and crossings and longest walk and maze score) are defined on the first page.
 
-The program [maze-animation.html](maze-animation.html) has a box named "Door rule" that switches between the two versions. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+The program [maze-animation.html](maze-animation.html) draws the second version only. The program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
 
 ## The ranked list
 
@@ -15843,7 +15843,7 @@ The chatbot also ran the programs for the first version a second time on 25 Nove
 - [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks the primes by a second score that adds the largest region and the longest walk and 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is the ranked list under the version where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is the ranked list under the version where 1 opens north.
-- [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under either version.
+- [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under the version where 0 opens north and marks the door each room opened and the openings on the outer wall.
 - The programs sit in boring-things/research-program-files/prime-mazes-scripts. Running a program with the setting MAZE_RULE=zero-north uses the second version and writes result files whose names end in zero_north.
 
 ================================================================================
@@ -47635,7 +47635,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/prime-mazes/hallway-walks.png (198200 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png
 
-1-research-click-here-first/prime-mazes/maze-animation.html (19068 bytes)
+1-research-click-here-first/prime-mazes/maze-animation.html (22884 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html
 
 1-research-click-here-first/prime-richness/all-questions.txt (250948 bytes)

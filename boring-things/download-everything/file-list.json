@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
  "file_count": 1433,
- "total_bytes": 99082101,
+ "total_bytes": 99086227,
  "files": [
   {
    "path": ".gitignore",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 3192,
+   "bytes": 3318,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -793,7 +793,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-animation.html",
    "title": "maze-animation.html",
-   "bytes": 19068,
+   "bytes": 22884,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html",
@@ -802,7 +802,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-test-findings.md",
    "title": "The maze test: door grids made from the digits of primes",
-   "bytes": 12928,
+   "bytes": 13061,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-findings.md",
@@ -811,7 +811,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-test-zero-north.md",
    "title": "The maze test with 0 as north: door grids made from the digits of primes",
-   "bytes": 12327,
+   "bytes": 12378,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md",
