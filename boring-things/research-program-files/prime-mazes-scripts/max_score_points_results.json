@@ -1,0 +1,474 @@
+{
+ "sizes": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "blocks_tested": 87380,
+ "blocks_with_points": 15714,
+ "point_counts": {
+  "2": 4,
+  "1": 15710
+ },
+ "top_blocks": [
+  {
+   "doors": "110030",
+   "points": 2,
+   "sizes": [
+    2,
+    3
+   ]
+  },
+  {
+   "doors": "110033",
+   "points": 2,
+   "sizes": [
+    2,
+    3
+   ]
+  },
+  {
+   "doors": "11100333",
+   "points": 2,
+   "sizes": [
+    2,
+    4
+   ]
+  },
+  {
+   "doors": "23331112",
+   "points": 2,
+   "sizes": [
+    2,
+    4
+   ]
+  },
+  {
+   "doors": "03",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "10",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "12",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "23",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "030",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "031",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "120",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "121",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "221",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "231",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "320",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "330",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "0203",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "0300",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "0310",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1000",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1003",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1100",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1103",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1110",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1200",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1201",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1202",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1203",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1210",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1211",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1213",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1223",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1233",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1300",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1303",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "1310",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2010",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2110",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2203",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2210",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2211",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2212",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2213",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2223",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2233",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2300",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2303",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2310",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2311",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2312",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2313",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2320",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2330",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "2333",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "3203",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "3300",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "3303",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "3310",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "02030",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  },
+  {
+   "doors": "02031",
+   "points": 1,
+   "sizes": [
+    2
+   ]
+  }
+ ],
+ "sizes_ever_maxed_by_a_block": [
+  2,
+  3,
+  4
+ ],
+ "chain": {
+  "doors": "110010003",
+  "reaches": 3,
+  "solutions_found_by_size": {
+   "2": 46,
+   "3": 53
+  }
+ },
+ "tally_by_sizes": {
+  "2": 15632,
+  "3": 76,
+  "2,3": 2,
+  "4": 2,
+  "2,4": 2
+ },
+ "shortest_block_for_sizes": {
+  "2": "03",
+  "3": "033010",
+  "2,3": "110030",
+  "4": "03331110",
+  "2,4": "11100333"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "max_3_and_4": {
+  "count": 6,
+  "examples": [
+   "2332120331120333",
+   "2332120333120333",
+   "2332120333230330",
+   "2332121023031110",
+   "2332121123031110"
+  ]
+ },
+ "max_3_4_5": {
+  "found": null,
+  "tried": 6,
+  "finished": true
+ },
+ "max_2_and_4": {
+  "count_of_2_by_2_starts_that_extend": 0,
+  "examples": [],
+  "finished": false
+ },
+ "natural": {
+  "digits of the primes written in one row": [
+   2
+  ],
+  "digits of pi": [],
+  "digits of e": [
+   2
+  ],
+  "digits of the square root of 2": [
+   2
+  ],
+  "digits of the counting numbers written in one row": [],
+  "counting numbers with one whole number in each room": [],
+  "one whole prime in each room": [
+   2
+  ],
+  "Fibonacci numbers with one whole number in each room": [],
+  "square numbers with one whole number in each room": [
+   2
+  ]
+ }
+}

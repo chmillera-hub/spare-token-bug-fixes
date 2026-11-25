@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1448,
- "total_bytes": 99564359,
+ "file_count": 1454,
+ "total_bytes": 99584854,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 9279,
+   "bytes": 9342,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 4661,
+   "bytes": 4945,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -807,6 +807,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hallway-walks.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/max-score-points-list.md",
+   "title": "Points for a perfect grid: sequences ranked by how many grid sizes they max out",
+   "bytes": 5075,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/max-score-points-list.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/max-score-points-list.md"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/maze-animation.html",
@@ -3655,7 +3664,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 11499,
+   "bytes": 11562,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10914,6 +10923,51 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/large_grid_sequences_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/large_grid_sequences_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points.py",
+   "title": "max_score_points.py",
+   "bytes": 4968,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points_pairs.py",
+   "title": "max_score_points_pairs.py",
+   "bytes": 1952,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_pairs.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_pairs.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points_results.json",
+   "title": "max_score_points_results.json",
+   "bytes": 4794,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples.py",
+   "title": "max_score_points_triples.py",
+   "bytes": 2483,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples_results.json",
+   "title": "max_score_points_triples_results.json",
+   "bytes": 813,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/max_score_points_triples_results.json"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test.py",
