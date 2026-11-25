@@ -134,7 +134,7 @@ The chatbot also ran the programs for the first version a second time on 25 Nove
 
 ## Files
 
-- [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks the primes by a second score that adds the largest region and the longest walk and 2 points for each crossing.
+- [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks the primes by a second score that adds the largest region and the longest walk and 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is the ranked list under the version where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is the ranked list under the version where 1 opens north.
 - [maze-animation.html](maze-animation.html) shows a grid being built one room at a time under either version.

@@ -77,7 +77,7 @@
 - [Hallway walks: each number is the length of a hallway](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walk-findings.md)
 - [The maze test: door grids made from the digits of primes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-findings.md)
 - [The maze test with 0 as north: door grids made from the digits of primes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md)
-- [Three part score ranking: primes ranked by largest region plus longest walk plus crossing points](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md)
+- [Three part score ranking: primes ranked by largest region plus longest walk plus door points](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md)
 - [Prime richness](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md)
 - [Questions about digit blocks and polynomials and Collatz paths on the two circles](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/block-questions.md)
 - [Questions about locks and lap lengths and the coin flip inside the critical line](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/coin-flip-questions.md)
