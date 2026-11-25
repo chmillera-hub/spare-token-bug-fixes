@@ -2,9 +2,9 @@
 
 This folder holds written reflections on subjects such as loneliness and empty advice and loving an enemy and the folder also holds counts of what behaviors the commenters in a social media thread are asking other people to carry out because a count of requested behaviors shows the mood of a thread more clearly than a count of positive and negative words.
 
-## Reflections to read
+## Deep dives: the reflections to read
 
-The 80 pages in this list are written reflections that a visitor can read in a few minutes each and each page can be read alone. The reflections sit inside the [deep-dives](deep-dives) folder.
+"Deep dive" and "reflection" mean the same thing on this page because a deep dive is a written reflection on one subject. The 80 pages in this list are all of the deep dives and each page can be read alone in a few minutes. Every page in the list sits inside one folder named [deep-dives](deep-dives) and the list is sorted by title.
 
 - [Advice that punishes questions: two reflections](deep-dives/advice-obedience-trap.md) holds two reflections on an adviser who drops a person for asking questions about advice such as joining a hobby group and on five ways people are cut off from deep human connection such as money checklists and scripted speech and punishment that multiplies enemies.
 - [Asking an enemy for love: two reflections](deep-dives/request-love-enemy.md) holds two reflections on asking an enemy for love and care in reply to mockery and on asking friends and strangers alike for the time and attention needed to build deeper human connections.
@@ -118,9 +118,9 @@ Fourth thread (a person who said in a video that the person is angry with God):
 - [angry-thread-comments.txt](angry-thread-comments.txt) holds the 458 comments in anonymized form.
 - [angry-thread-labels.txt](angry-thread-labels.txt) holds the same anonymized comments with the counted labels under each comment.
 
-Deep dives (reflections on the work in this folder):
+The deep dives folder:
 
-- [deep-dives](deep-dives) is a folder that holds reflections such as one about four habits in public conversation and one about why a question teaches more than a verdict.
+- [deep-dives](deep-dives) is the folder that holds every reflection listed at the top of this page plus ten plain text lists that support some of the reflections.
 
 Generic phrases (phrases that a program could post as easily as a person):
 
