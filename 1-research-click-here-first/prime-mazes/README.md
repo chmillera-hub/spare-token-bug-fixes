@@ -13,5 +13,6 @@ This folder holds experiments that turn the digits of prime numbers into mazes. 
 - [maze-test-zero-north.md](maze-test-zero-north.md) repeats the maze test under a second version of the rule where 0 opens north: the lean of the primes flips from top to bottom crossings to side to side crossings and 91720 primes with 9 digits make one hallway through all 9 rooms and the smallest is 102002003.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is a plain text ranking of primes by maze score under the version of the rule where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is a plain text ranking of primes by maze score under the version of the rule where 1 opens north.
+- [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks primes by a three part score (largest region plus longest walk plus 2 points for each crossing) under the version of the rule where 0 opens north: all 1061 primes with 4 digits in order and the score counts for all 45086079 primes with 9 digits (91720 tie at the highest score of 22) and the best of 20000 random primes for grids of 4 by 4 and 5 by 5 rooms.
 
 The maze program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
