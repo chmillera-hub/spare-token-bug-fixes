@@ -1,0 +1,859 @@
+{
+ "named": [
+  {
+   "name": "1 + 2 + 3 + 5 + 6 + 7 (numbers with no repeated prime piece)",
+   "cumulative": 100.0,
+   "literal": 92.4,
+   "circle_out_of_200": 192.4,
+   "maze_total": 294,
+   "maze_percent": 29.9,
+   "average_percent": 63.0,
+   "lower_percent": 29.9
+  },
+  {
+   "name": "1 - 2 + 3 - 4 (counting numbers with flipping signs)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 250,
+   "maze_percent": 25.4,
+   "average_percent": 62.7,
+   "lower_percent": 25.4
+  },
+  {
+   "name": "4 + 6 + 8 + 9 (composite numbers)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 191,
+   "maze_percent": 19.4,
+   "average_percent": 59.7,
+   "lower_percent": 19.4
+  },
+  {
+   "name": "1 + 2 + 5 + 8 + 11 (whole part of n times the root of n)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 185,
+   "maze_percent": 18.8,
+   "average_percent": 59.4,
+   "lower_percent": 18.8
+  },
+  {
+   "name": "0 + 1 + 3 + 5 + 8 (whole part of n times the natural logarithm of n)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 175,
+   "maze_percent": 17.8,
+   "average_percent": 58.9,
+   "lower_percent": 17.8
+  },
+  {
+   "name": "4 - 6 + 8 - 9 (composite numbers with flipping signs)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 170,
+   "maze_percent": 17.3,
+   "average_percent": 58.6,
+   "lower_percent": 17.3
+  },
+  {
+   "name": "1 + 2 + 4 + 5 + 7 (whole part of n times the root of 2)",
+   "cumulative": 100.0,
+   "literal": 99.9,
+   "circle_out_of_200": 199.9,
+   "maze_total": 148,
+   "maze_percent": 15.0,
+   "average_percent": 57.5,
+   "lower_percent": 15.0
+  },
+  {
+   "name": "1 + 3 + 4 + 6 + 8 (whole part of n times the golden ratio)",
+   "cumulative": 100.0,
+   "literal": 99.8,
+   "circle_out_of_200": 199.8,
+   "maze_total": 134,
+   "maze_percent": 13.6,
+   "average_percent": 56.8,
+   "lower_percent": 13.6
+  },
+  {
+   "name": "1 - 3 + 5 - 7 (odd numbers with flipping signs)",
+   "cumulative": 100.0,
+   "literal": 68.6,
+   "circle_out_of_200": 168.6,
+   "maze_total": 216,
+   "maze_percent": 22.0,
+   "average_percent": 53.1,
+   "lower_percent": 22.0
+  },
+  {
+   "name": "1 + 2 + 3 + 4 (counting numbers)",
+   "cumulative": 45.9,
+   "literal": 100.0,
+   "circle_out_of_200": 145.9,
+   "maze_total": 250,
+   "maze_percent": 25.4,
+   "average_percent": 49.2,
+   "lower_percent": 25.4
+  },
+  {
+   "name": "2 - 3 + 5 - 7 (primes with flipping signs)",
+   "cumulative": 100.0,
+   "literal": 64.5,
+   "circle_out_of_200": 164.5,
+   "maze_total": 140,
+   "maze_percent": 14.2,
+   "average_percent": 48.2,
+   "lower_percent": 14.2
+  },
+  {
+   "name": "2 + 3 + 5 + 7 (primes)",
+   "cumulative": 100.0,
+   "literal": 64.5,
+   "circle_out_of_200": 164.5,
+   "maze_total": 98,
+   "maze_percent": 10.0,
+   "average_percent": 46.1,
+   "lower_percent": 10.0
+  },
+  {
+   "name": "repeating block 0 3 3 0 1 0 0 (best short block from the maze test)",
+   "cumulative": 92.0,
+   "literal": 6.9,
+   "circle_out_of_200": 98.9,
+   "maze_total": 402,
+   "maze_percent": 40.9,
+   "average_percent": 45.2,
+   "lower_percent": 40.9
+  },
+  {
+   "name": "repeating block 1 5 9 0 3 7 2 6 4 8 (best block with equal digits from the maze test)",
+   "cumulative": 82.4,
+   "literal": 19.3,
+   "circle_out_of_200": 101.7,
+   "maze_total": 383,
+   "maze_percent": 38.9,
+   "average_percent": 44.9,
+   "lower_percent": 38.9
+  },
+  {
+   "name": "1 - 4 + 9 - 16 (squares with flipping signs)",
+   "cumulative": 69.2,
+   "literal": 49.0,
+   "circle_out_of_200": 118.2,
+   "maze_total": 276,
+   "maze_percent": 28.0,
+   "average_percent": 43.6,
+   "lower_percent": 28.0
+  },
+  {
+   "name": "1 + 2 + 2 + 3 + 2 + 4 (number of divisors of n)",
+   "cumulative": 100.0,
+   "literal": 38.0,
+   "circle_out_of_200": 138.0,
+   "maze_total": 171,
+   "maze_percent": 17.4,
+   "average_percent": 43.2,
+   "lower_percent": 17.4
+  },
+  {
+   "name": "1 + 1 + 2 + 3 + 5 (Fibonacci numbers)",
+   "cumulative": 55.8,
+   "literal": 55.8,
+   "circle_out_of_200": 111.6,
+   "maze_total": 260,
+   "maze_percent": 26.4,
+   "average_percent": 41.1,
+   "lower_percent": 26.4
+  },
+  {
+   "name": "1 + 4 + 9 + 16 (squares)",
+   "cumulative": 66.9,
+   "literal": 37.1,
+   "circle_out_of_200": 104.0,
+   "maze_total": 276,
+   "maze_percent": 28.0,
+   "average_percent": 40.0,
+   "lower_percent": 28.0
+  },
+  {
+   "name": "1 + 4 + 1 + 5 + 9 (digits of pi after the decimal point)",
+   "cumulative": 100.0,
+   "literal": 19.3,
+   "circle_out_of_200": 119.3,
+   "maze_total": 187,
+   "maze_percent": 19.0,
+   "average_percent": 39.3,
+   "lower_percent": 19.0
+  },
+  {
+   "name": "1 + 8 + 27 + 64 (cubes)",
+   "cumulative": 28.1,
+   "literal": 59.2,
+   "circle_out_of_200": 87.3,
+   "maze_total": 326,
+   "maze_percent": 33.1,
+   "average_percent": 38.4,
+   "lower_percent": 33.1
+  },
+  {
+   "name": "1 + 1 + 1 + 1 (steady 1)",
+   "cumulative": 100.0,
+   "literal": 2.5,
+   "circle_out_of_200": 102.5,
+   "maze_total": 216,
+   "maze_percent": 22.0,
+   "average_percent": 36.6,
+   "lower_percent": 22.0
+  },
+  {
+   "name": "1 + 3 + 6 + 10 (triangular numbers)",
+   "cumulative": 66.9,
+   "literal": 45.9,
+   "circle_out_of_200": 112.8,
+   "maze_total": 146,
+   "maze_percent": 14.8,
+   "average_percent": 35.6,
+   "lower_percent": 14.8
+  },
+  {
+   "name": "2 + 4 + 6 + 8 (even numbers)",
+   "cumulative": 33.2,
+   "literal": 74.9,
+   "circle_out_of_200": 108.1,
+   "maze_total": 136,
+   "maze_percent": 13.8,
+   "average_percent": 33.9,
+   "lower_percent": 13.8
+  },
+  {
+   "name": "1 + 2 + 2 + 4 (gaps between neighboring primes)",
+   "cumulative": 63.2,
+   "literal": 32.6,
+   "circle_out_of_200": 95.7,
+   "maze_total": 122,
+   "maze_percent": 12.4,
+   "average_percent": 30.1,
+   "lower_percent": 12.4
+  },
+  {
+   "name": "1 + 3 + 5 + 7 (odd numbers)",
+   "cumulative": 37.1,
+   "literal": 74.9,
+   "circle_out_of_200": 112.0,
+   "maze_total": 40,
+   "maze_percent": 4.1,
+   "average_percent": 30.0,
+   "lower_percent": 4.1
+  }
+ ],
+ "equations_tested": 14589,
+ "top_average": [
+  {
+   "name": "floor(sqrt(35*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 383,
+   "maze_percent": 38.9,
+   "average_percent": 69.5,
+   "lower_percent": 38.9
+  },
+  {
+   "name": "floor(17*n / 40)",
+   "cumulative": 99.9,
+   "literal": 100.0,
+   "circle_out_of_200": 199.9,
+   "maze_total": 380,
+   "maze_percent": 38.6,
+   "average_percent": 69.3,
+   "lower_percent": 38.6
+  },
+  {
+   "name": "floor(sqrt(30*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 379,
+   "maze_percent": 38.5,
+   "average_percent": 69.3,
+   "lower_percent": 38.5
+  },
+  {
+   "name": "floor(n/3) + floor(n/10)",
+   "cumulative": 99.6,
+   "literal": 99.4,
+   "circle_out_of_200": 199.1,
+   "maze_total": 384,
+   "maze_percent": 39.0,
+   "average_percent": 69.3,
+   "lower_percent": 39.0
+  },
+  {
+   "name": "floor(sqrt(43*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 377,
+   "maze_percent": 38.3,
+   "average_percent": 69.2,
+   "lower_percent": 38.3
+  },
+  {
+   "name": "floor(sqrt(29*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 376,
+   "maze_percent": 38.2,
+   "average_percent": 69.1,
+   "lower_percent": 38.2
+  },
+  {
+   "name": "floor(8*n / 19)",
+   "cumulative": 99.7,
+   "literal": 100.0,
+   "circle_out_of_200": 199.7,
+   "maze_total": 376,
+   "maze_percent": 38.2,
+   "average_percent": 69.0,
+   "lower_percent": 38.2
+  },
+  {
+   "name": "floor(13*n / 31)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 374,
+   "maze_percent": 38.0,
+   "average_percent": 69.0,
+   "lower_percent": 38.0
+  },
+  {
+   "name": "floor(11*n / 26)",
+   "cumulative": 99.8,
+   "literal": 100.0,
+   "circle_out_of_200": 199.8,
+   "maze_total": 374,
+   "maze_percent": 38.0,
+   "average_percent": 68.9,
+   "lower_percent": 38.0
+  },
+  {
+   "name": "floor(14*n / 33)",
+   "cumulative": 99.8,
+   "literal": 100.0,
+   "circle_out_of_200": 199.8,
+   "maze_total": 373,
+   "maze_percent": 37.9,
+   "average_percent": 68.9,
+   "lower_percent": 37.9
+  },
+  {
+   "name": "floor(19*n / 40)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 371,
+   "maze_percent": 37.7,
+   "average_percent": 68.8,
+   "lower_percent": 37.7
+  },
+  {
+   "name": "floor(16*n / 37)",
+   "cumulative": 99.8,
+   "literal": 100.0,
+   "circle_out_of_200": 199.8,
+   "maze_total": 367,
+   "maze_percent": 37.3,
+   "average_percent": 68.6,
+   "lower_percent": 37.3
+  },
+  {
+   "name": "floor(10*n / 23)",
+   "cumulative": 99.1,
+   "literal": 100.0,
+   "circle_out_of_200": 199.1,
+   "maze_total": 366,
+   "maze_percent": 37.2,
+   "average_percent": 68.4,
+   "lower_percent": 37.2
+  },
+  {
+   "name": "floor(sqrt(34*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 362,
+   "maze_percent": 36.8,
+   "average_percent": 68.4,
+   "lower_percent": 36.8
+  },
+  {
+   "name": "floor(13*n / 27)",
+   "cumulative": 97.2,
+   "literal": 100.0,
+   "circle_out_of_200": 197.2,
+   "maze_total": 367,
+   "maze_percent": 37.3,
+   "average_percent": 68.0,
+   "lower_percent": 37.3
+  },
+  {
+   "name": "floor(13*n / 30)",
+   "cumulative": 99.8,
+   "literal": 100.0,
+   "circle_out_of_200": 199.8,
+   "maze_total": 355,
+   "maze_percent": 36.1,
+   "average_percent": 68.0,
+   "lower_percent": 36.1
+  },
+  {
+   "name": "floor(17*n / 35)",
+   "cumulative": 98.0,
+   "literal": 100.0,
+   "circle_out_of_200": 198.0,
+   "maze_total": 360,
+   "maze_percent": 36.6,
+   "average_percent": 67.8,
+   "lower_percent": 36.6
+  },
+  {
+   "name": "floor(19*n / 39)",
+   "cumulative": 98.3,
+   "literal": 100.0,
+   "circle_out_of_200": 198.3,
+   "maze_total": 359,
+   "maze_percent": 36.5,
+   "average_percent": 67.8,
+   "lower_percent": 36.5
+  },
+  {
+   "name": "floor(sqrt(41*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 349,
+   "maze_percent": 35.5,
+   "average_percent": 67.7,
+   "lower_percent": 35.5
+  },
+  {
+   "name": "floor(15*n / 32)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 347,
+   "maze_percent": 35.3,
+   "average_percent": 67.6,
+   "lower_percent": 35.3
+  },
+  {
+   "name": "floor(17*n / 36)",
+   "cumulative": 99.7,
+   "literal": 100.0,
+   "circle_out_of_200": 199.7,
+   "maze_total": 347,
+   "maze_percent": 35.3,
+   "average_percent": 67.6,
+   "lower_percent": 35.3
+  },
+  {
+   "name": "floor(sqrt(33*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 347,
+   "maze_percent": 35.3,
+   "average_percent": 67.6,
+   "lower_percent": 35.3
+  },
+  {
+   "name": "floor(14*n / 29)",
+   "cumulative": 93.0,
+   "literal": 100.0,
+   "circle_out_of_200": 193.0,
+   "maze_total": 374,
+   "maze_percent": 38.0,
+   "average_percent": 67.3,
+   "lower_percent": 38.0
+  },
+  {
+   "name": "floor(17*n / 39)",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 340,
+   "maze_percent": 34.6,
+   "average_percent": 67.3,
+   "lower_percent": 34.6
+  },
+  {
+   "name": "floor(sqrt(21*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 340,
+   "maze_percent": 34.6,
+   "average_percent": 67.3,
+   "lower_percent": 34.6
+  },
+  {
+   "name": "floor(9*n / 19)",
+   "cumulative": 93.4,
+   "literal": 100.0,
+   "circle_out_of_200": 193.4,
+   "maze_total": 371,
+   "maze_percent": 37.7,
+   "average_percent": 67.2,
+   "lower_percent": 37.7
+  },
+  {
+   "name": "floor(7*n / 17)",
+   "cumulative": 99.7,
+   "literal": 100.0,
+   "circle_out_of_200": 199.7,
+   "maze_total": 338,
+   "maze_percent": 34.3,
+   "average_percent": 67.1,
+   "lower_percent": 34.3
+  },
+  {
+   "name": "floor(sqrt(40*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 336,
+   "maze_percent": 34.1,
+   "average_percent": 67.1,
+   "lower_percent": 34.1
+  },
+  {
+   "name": "floor(sqrt(28*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 335,
+   "maze_percent": 34.0,
+   "average_percent": 67.0,
+   "lower_percent": 34.0
+  },
+  {
+   "name": "floor(11*n / 23)",
+   "cumulative": 96.2,
+   "literal": 100.0,
+   "circle_out_of_200": 196.2,
+   "maze_total": 349,
+   "maze_percent": 35.5,
+   "average_percent": 66.8,
+   "lower_percent": 35.5
+  }
+ ],
+ "top_lower": [
+  {
+   "name": "(3*n*n + 1*n + 10) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 458,
+   "maze_percent": 46.5,
+   "average_percent": 50.3,
+   "lower_percent": 46.5
+  },
+  {
+   "name": "(3*n*n + 7*n + 3) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 445,
+   "maze_percent": 45.2,
+   "average_percent": 49.7,
+   "lower_percent": 45.2
+  },
+  {
+   "name": "(8*n*n + 6*n + 9) mod 11",
+   "cumulative": 96.0,
+   "literal": 12.2,
+   "circle_out_of_200": 108.2,
+   "maze_total": 430,
+   "maze_percent": 43.7,
+   "average_percent": 48.9,
+   "lower_percent": 43.7
+  },
+  {
+   "name": "(1*n*n + 6*n + 0) mod 9",
+   "cumulative": 86.1,
+   "literal": 8.7,
+   "circle_out_of_200": 94.8,
+   "maze_total": 426,
+   "maze_percent": 43.3,
+   "average_percent": 45.3,
+   "lower_percent": 43.3
+  },
+  {
+   "name": "(3*n*n + 6*n + 1) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 424,
+   "maze_percent": 43.1,
+   "average_percent": 48.6,
+   "lower_percent": 43.1
+  },
+  {
+   "name": "(5*n*n + 3*n + 8) mod 9",
+   "cumulative": 88.8,
+   "literal": 8.7,
+   "circle_out_of_200": 97.5,
+   "maze_total": 410,
+   "maze_percent": 41.7,
+   "average_percent": 45.2,
+   "lower_percent": 41.7
+  },
+  {
+   "name": "(8*n*n + 4*n + 4) mod 9",
+   "cumulative": 90.4,
+   "literal": 8.7,
+   "circle_out_of_200": 99.1,
+   "maze_total": 408,
+   "maze_percent": 41.5,
+   "average_percent": 45.5,
+   "lower_percent": 41.5
+  },
+  {
+   "name": "(5*n*n + 2*n + 1) mod 9",
+   "cumulative": 88.8,
+   "literal": 8.7,
+   "circle_out_of_200": 97.5,
+   "maze_total": 405,
+   "maze_percent": 41.2,
+   "average_percent": 44.9,
+   "lower_percent": 41.2
+  },
+  {
+   "name": "(3*n*n + 5*n + 1) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 405,
+   "maze_percent": 41.2,
+   "average_percent": 47.7,
+   "lower_percent": 41.2
+  },
+  {
+   "name": "(8*n*n + 0*n + 1) mod 11",
+   "cumulative": 96.0,
+   "literal": 12.2,
+   "circle_out_of_200": 108.2,
+   "maze_total": 405,
+   "maze_percent": 41.2,
+   "average_percent": 47.6,
+   "lower_percent": 41.2
+  },
+  {
+   "name": "(1*n*n + 8*n + 7) mod 9",
+   "cumulative": 86.1,
+   "literal": 8.7,
+   "circle_out_of_200": 94.8,
+   "maze_total": 400,
+   "maze_percent": 40.7,
+   "average_percent": 44.0,
+   "lower_percent": 40.7
+  },
+  {
+   "name": "(1*n*n + 4*n + 4) mod 9",
+   "cumulative": 86.1,
+   "literal": 8.7,
+   "circle_out_of_200": 94.8,
+   "maze_total": 397,
+   "maze_percent": 40.3,
+   "average_percent": 43.9,
+   "lower_percent": 40.3
+  },
+  {
+   "name": "(3*n*n + 2*n + 2) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 395,
+   "maze_percent": 40.1,
+   "average_percent": 47.1,
+   "lower_percent": 40.1
+  },
+  {
+   "name": "(3*n*n + 0*n + 9) mod 11",
+   "cumulative": 96.1,
+   "literal": 12.2,
+   "circle_out_of_200": 108.3,
+   "maze_total": 392,
+   "maze_percent": 39.8,
+   "average_percent": 47.0,
+   "lower_percent": 39.8
+  },
+  {
+   "name": "(4*n*n + 5*n + 1) mod 9",
+   "cumulative": 86.8,
+   "literal": 8.7,
+   "circle_out_of_200": 95.5,
+   "maze_total": 390,
+   "maze_percent": 39.6,
+   "average_percent": 43.7,
+   "lower_percent": 39.6
+  },
+  {
+   "name": "(8*n*n + 6*n + 8) mod 9",
+   "cumulative": 90.4,
+   "literal": 8.7,
+   "circle_out_of_200": 99.1,
+   "maze_total": 384,
+   "maze_percent": 39.0,
+   "average_percent": 44.3,
+   "lower_percent": 39.0
+  },
+  {
+   "name": "(8*n*n + 10*n + 0) mod 11",
+   "cumulative": 96.0,
+   "literal": 12.2,
+   "circle_out_of_200": 108.2,
+   "maze_total": 384,
+   "maze_percent": 39.0,
+   "average_percent": 46.6,
+   "lower_percent": 39.0
+  },
+  {
+   "name": "floor(n/3) + floor(n/10)",
+   "cumulative": 99.6,
+   "literal": 99.4,
+   "circle_out_of_200": 199.1,
+   "maze_total": 384,
+   "maze_percent": 39.0,
+   "average_percent": 69.3,
+   "lower_percent": 39.0
+  },
+  {
+   "name": "floor(sqrt(35*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 383,
+   "maze_percent": 38.9,
+   "average_percent": 69.5,
+   "lower_percent": 38.9
+  },
+  {
+   "name": "(4*n*n + 4*n + 1) mod 9",
+   "cumulative": 86.8,
+   "literal": 8.7,
+   "circle_out_of_200": 95.5,
+   "maze_total": 381,
+   "maze_percent": 38.7,
+   "average_percent": 43.2,
+   "lower_percent": 38.7
+  },
+  {
+   "name": "floor(17*n / 40)",
+   "cumulative": 99.9,
+   "literal": 100.0,
+   "circle_out_of_200": 199.9,
+   "maze_total": 380,
+   "maze_percent": 38.6,
+   "average_percent": 69.3,
+   "lower_percent": 38.6
+  },
+  {
+   "name": "floor(sqrt(30*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 379,
+   "maze_percent": 38.5,
+   "average_percent": 69.3,
+   "lower_percent": 38.5
+  },
+  {
+   "name": "(5*n*n + 1*n + 4) mod 9",
+   "cumulative": 88.8,
+   "literal": 8.7,
+   "circle_out_of_200": 97.5,
+   "maze_total": 378,
+   "maze_percent": 38.4,
+   "average_percent": 43.6,
+   "lower_percent": 38.4
+  },
+  {
+   "name": "floor(sqrt(1*n))",
+   "cumulative": 100.0,
+   "literal": 62.6,
+   "circle_out_of_200": 162.6,
+   "maze_total": 377,
+   "maze_percent": 38.3,
+   "average_percent": 59.8,
+   "lower_percent": 38.3
+  },
+  {
+   "name": "floor(sqrt(43*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 377,
+   "maze_percent": 38.3,
+   "average_percent": 69.2,
+   "lower_percent": 38.3
+  },
+  {
+   "name": "(4*n*n + 2*n + 7) mod 9",
+   "cumulative": 86.8,
+   "literal": 8.7,
+   "circle_out_of_200": 95.5,
+   "maze_total": 376,
+   "maze_percent": 38.2,
+   "average_percent": 43.0,
+   "lower_percent": 38.2
+  },
+  {
+   "name": "floor(8*n / 19)",
+   "cumulative": 99.7,
+   "literal": 100.0,
+   "circle_out_of_200": 199.7,
+   "maze_total": 376,
+   "maze_percent": 38.2,
+   "average_percent": 69.0,
+   "lower_percent": 38.2
+  },
+  {
+   "name": "floor(sqrt(29*n))",
+   "cumulative": 100.0,
+   "literal": 100.0,
+   "circle_out_of_200": 200.0,
+   "maze_total": 376,
+   "maze_percent": 38.2,
+   "average_percent": 69.1,
+   "lower_percent": 38.2
+  },
+  {
+   "name": "(1*n*n + 2*n + 1) mod 9",
+   "cumulative": 86.1,
+   "literal": 8.7,
+   "circle_out_of_200": 94.8,
+   "maze_total": 375,
+   "maze_percent": 38.1,
+   "average_percent": 42.8,
+   "lower_percent": 38.1
+  },
+  {
+   "name": "(4*n*n + 3*n + 0) mod 9",
+   "cumulative": 86.8,
+   "literal": 8.7,
+   "circle_out_of_200": 95.5,
+   "maze_total": 375,
+   "maze_percent": 38.1,
+   "average_percent": 42.9,
+   "lower_percent": 38.1
+  }
+ ]
+}

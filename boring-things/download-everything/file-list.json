@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1461,
- "total_bytes": 99644454,
+ "file_count": 1466,
+ "total_bytes": 99686753,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 9427,
+   "bytes": 9518,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 5753,
+   "bytes": 6135,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -825,6 +825,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hallway-walks.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/master-challenge-findings.md",
+   "title": "Master challenge: sequences scored on the two circle test and the maze test together",
+   "bytes": 10770,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/master-challenge-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/master-challenge-findings.md"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/max-score-points-list.md",
@@ -3691,7 +3700,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 11647,
+   "bytes": 11738,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10986,6 +10995,42 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/large_grid_sequences_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/large_grid_sequences_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/master_challenge.py",
+   "title": "master_challenge.py",
+   "bytes": 4834,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits.py",
+   "title": "master_challenge_digits.py",
+   "bytes": 2612,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits_results.json",
+   "title": "master_challenge_digits_results.json",
+   "bytes": 4292,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_digits_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/master_challenge_results.json",
+   "title": "master_challenge_results.json",
+   "bytes": 19227,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/master_challenge_results.json"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/max_score_points.py",

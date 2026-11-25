@@ -1,0 +1,217 @@
+[
+ {
+  "name": "digits of pi alone",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 187,
+  "maze_scores": {
+   "2": 8,
+   "3": 13,
+   "4": 10,
+   "5": 16,
+   "6": 17,
+   "7": 25,
+   "8": 40,
+   "9": 36,
+   "10": 22
+  },
+  "maze_sizes_maxed": [],
+  "first_digits": "141592653589793238462643383279"
+ },
+ {
+  "name": "perfect 8 by 8 grid with equal digits and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 349,
+  "maze_scores": {
+   "2": 8,
+   "3": 8,
+   "4": 43,
+   "5": 18,
+   "6": 26,
+   "7": 26,
+   "8": 160,
+   "9": 28,
+   "10": 32
+  },
+  "maze_sizes_maxed": [
+   8
+  ],
+  "first_digits": "519611920767476354969203863982"
+ },
+ {
+  "name": "perfect 6 by 6 grid with equal digits and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 305,
+  "maze_scores": {
+   "2": 16,
+   "3": 21,
+   "4": 29,
+   "5": 8,
+   "6": 96,
+   "7": 24,
+   "8": 36,
+   "9": 36,
+   "10": 39
+  },
+  "maze_sizes_maxed": [
+   2,
+   6
+  ],
+  "first_digits": "236737649560299734687120118824"
+ },
+ {
+  "name": "perfect 10 by 10 grid (random number improved digit by digit) and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 377,
+  "maze_scores": {
+   "2": 12,
+   "3": 18,
+   "4": 12,
+   "5": 13,
+   "6": 21,
+   "7": 16,
+   "8": 23,
+   "9": 22,
+   "10": 240
+  },
+  "maze_sizes_maxed": [
+   10
+  ],
+  "first_digits": "277177277725849021285258475828"
+ },
+ {
+  "name": "perfect 12 by 12 spiral and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 310,
+  "maze_scores": {
+   "2": 8,
+   "3": 12,
+   "4": 24,
+   "5": 23,
+   "6": 34,
+   "7": 37,
+   "8": 51,
+   "9": 62,
+   "10": 59
+  },
+  "maze_sizes_maxed": [
+   12
+  ],
+  "first_digits": "111111111112111111111122011111"
+ },
+ {
+  "name": "16 digits that max 3 by 3 and 4 by 4 rooms (2332120331120333) and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 293,
+  "maze_scores": {
+   "2": 12,
+   "3": 30,
+   "4": 48,
+   "5": 33,
+   "6": 19,
+   "7": 20,
+   "8": 50,
+   "9": 46,
+   "10": 35
+  },
+  "maze_sizes_maxed": [
+   3,
+   4
+  ],
+  "first_digits": "233212033112033314159265358979"
+ },
+ {
+  "name": "9 digits that max 2 by 2 and 3 by 3 rooms (150492837) and then the digits of pi",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 201,
+  "maze_scores": {
+   "2": 16,
+   "3": 30,
+   "4": 20,
+   "5": 12,
+   "6": 17,
+   "7": 16,
+   "8": 31,
+   "9": 38,
+   "10": 21
+  },
+  "maze_sizes_maxed": [
+   2,
+   3
+  ],
+  "first_digits": "150492837141592653589793238462"
+ },
+ {
+  "name": "repeating block 1590372648",
+  "cumulative": 81.5,
+  "literal": 4.2,
+  "circle_out_of_200": 85.7,
+  "circle_sizes_filled_cumulative": 641,
+  "circle_sizes_filled_literal": 8,
+  "maze_total_2_to_10": 383,
+  "maze_scores": {
+   "2": 16,
+   "3": 23,
+   "4": 21,
+   "5": 52,
+   "6": 18,
+   "7": 15,
+   "8": 63,
+   "9": 79,
+   "10": 96
+  },
+  "maze_sizes_maxed": [
+   2
+  ],
+  "first_digits": "159037264815903726481590372648"
+ },
+ {
+  "name": "counting numbers written in a line (123456789101112)",
+  "cumulative": 100.0,
+  "literal": 100.0,
+  "circle_out_of_200": 200.0,
+  "circle_sizes_filled_cumulative": 999,
+  "circle_sizes_filled_literal": 999,
+  "maze_total_2_to_10": 199,
+  "maze_scores": {
+   "2": 12,
+   "3": 24,
+   "4": 16,
+   "5": 13,
+   "6": 28,
+   "7": 15,
+   "8": 22,
+   "9": 27,
+   "10": 42
+  },
+  "maze_sizes_maxed": [],
+  "first_digits": "123456789101112131415161718192"
+ }
+]
