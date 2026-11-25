@@ -5,8 +5,8 @@
 ## Download everything
 
 - [Zip of the whole repository](https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip): one download that holds every file
-- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 322 pages joined into one plain text file
-- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1394 files
+- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 323 pages joined into one plain text file
+- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1399 files
 - [List of direct download addresses](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.txt): one address per line
 - Any single file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path of the file>
 
@@ -95,6 +95,7 @@
 - [Questions about strips of light and the −1/12 and what a zero means](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/strip-questions.md)
 - [Takes on the two-circle tests so far](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/takes-on-circle-tests.md)
 - [Questions about a circle where the arrow lands on the term itself](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/term-questions.md)
+- [Two-prime sums and the cost of finding against checking](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/two-prime-sums.md)
 - [What happens to a person's story when each listener holds a different pile of pages?](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/scattered-pages-reflection.md)
 - [Social media vibes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md)
 - [What 458 comments said to a person who was angry with God](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/angry-thread-findings.md)
