@@ -1,5 +1,5 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
-Built on 2026-11-24 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
+Built on 2026-11-25 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
 This file holds 321 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
