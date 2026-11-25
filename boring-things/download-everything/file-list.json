@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1454,
- "total_bytes": 99584854,
+ "file_count": 1461,
+ "total_bytes": 99644454,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 9342,
+   "bytes": 9427,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -730,7 +730,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 4945,
+   "bytes": 5753,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -791,6 +791,24 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/door-grids.png"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/equal-digits-findings.md",
+   "title": "Equal digits: high scoring sequences that use all ten digits equally often",
+   "bytes": 6392,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/equal-digits-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/equal-digits-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/equation-search-findings.md",
+   "title": "Equation search: equations whose outputs score high on many grid sizes",
+   "bytes": 4679,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/equation-search-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/equation-search-findings.md"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/hallway-walk-findings.md",
    "title": "Hallway walks: each number is the length of a hallway",
    "bytes": 3450,
@@ -820,7 +838,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-animation.html",
    "title": "maze-animation.html",
-   "bytes": 26839,
+   "bytes": 30474,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html",
@@ -870,6 +888,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/neat-shapes.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/patterns-summary.md",
+   "title": "Patterns that stand out across the maze tests",
+   "bytes": 4917,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/patterns-summary.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/patterns-summary.md"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/random-search-findings.md",
@@ -3664,7 +3691,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 11562,
+   "bytes": 11647,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10887,6 +10914,42 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/draw_grids.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/draw_grids.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/equal_digits_search.py",
+   "title": "equal_digits_search.py",
+   "bytes": 3748,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/equal_digits_search.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/equal_digits_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/equal_digits_search_results.json",
+   "title": "equal_digits_search_results.json",
+   "bytes": 17838,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/equal_digits_search_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/equal_digits_search_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/equation_search.py",
+   "title": "equation_search.py",
+   "bytes": 3066,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/equation_search.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/equation_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/equation_search_results.json",
+   "title": "equation_search_results.json",
+   "bytes": 14347,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/equation_search_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/equation_search_results.json"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/grid_tools.py",

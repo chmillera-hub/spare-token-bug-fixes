@@ -5,8 +5,8 @@
 ## Download everything
 
 - [Zip of the whole repository](https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip): one download that holds every file
-- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 335 pages joined into one plain text file
-- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1454 files
+- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 338 pages joined into one plain text file
+- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1461 files
 - [List of direct download addresses](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.txt): one address per line
 - Any single file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path of the file>
 
@@ -74,12 +74,15 @@
 - [Joining twists: a left-handed and a right-handed Mobius strip cancel while two left-handed strips add](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/twist-joining-finding.md)
 - [Other collections](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/other-collections/README.md)
 - [Prime mazes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md)
+- [Equal digits: high scoring sequences that use all ten digits equally often](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/equal-digits-findings.md)
+- [Equation search: equations whose outputs score high on many grid sizes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/equation-search-findings.md)
 - [Hallway walks: each number is the length of a hallway](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walk-findings.md)
 - [Points for a perfect grid: sequences ranked by how many grid sizes they max out](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/max-score-points-list.md)
 - [The maze test: door grids made from the digits of primes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-findings.md)
 - [The maze test with 0 as north: door grids made from the digits of primes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md)
 - [One pattern on many grid sizes: total three part scores for grids from 2 by 2 to 10 by 10 rooms](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/multi-size-score-list.md)
 - [Neat shapes: the smallest primes that draw rows and rings and spirals on door grids](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes-findings.md)
+- [Patterns that stand out across the maze tests](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/patterns-summary.md)
 - [Random number search: the highest scoring random numbers on door grids](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/random-search-findings.md)
 - [Three part score ranking: primes ranked by largest region plus longest walk plus door points](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md)
 - [Prime richness](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md)

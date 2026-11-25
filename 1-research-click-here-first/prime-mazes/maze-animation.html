@@ -67,7 +67,7 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 <label for="src">Where the numbers are taken from</label>
 <select id="src">
 <option value="primedigits">Digits of the primes written in one row (2 3 5 7 1 1 1 3 ...)</option>
-<option value="oneprime">One prime that fills the whole grid (pick the prime in the next box)</option>
+<option value="oneprime">An example number that fills the whole grid (pick the example in the next box)</option>
 <option value="wholeprime">One whole prime in each room (2 then 3 then 5 ...)</option>
 <option value="lastdigit">Last digit of each prime</option>
 <option value="firstdigit">First digit of each prime</option>
@@ -80,13 +80,14 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 </select>
 
 <div id="primeBox" class="hide">
-<label for="primePick">Prime that fills the grid</label>
+<label for="primePick">Example that fills the grid (primes and neat shapes and highest scores)</label>
 <select id="primePick"></select>
 </div>
 
 <div id="ownBox" class="hide">
 <label for="own">My own digits (the grid is sized to fit the digits)</label>
-<input type="text" id="own" inputmode="numeric" value="123456789">
+<input type="text" id="own" inputmode="numeric" value="" placeholder="Paste or type a number here" autocomplete="off">
+<div class="row"><button id="ownClear">Clear the box</button></div>
 </div>
 
 <div id="sizeBox">
@@ -114,7 +115,7 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 <p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door. <span id="ruleText"></span> A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
 <p><b>The openings on the outer wall.</b> Every room on the edge of the grid is assumed to have a door to the outside that the player can open. A corner room has two such doors because a corner room touches two outer walls. A green arrow beside a gap in the outer wall marks an outside door where the player can enter and walk through joined rooms to the opposite side of the grid and leave there. Each green arrow is worth 1 door point. An outside door with no green arrow leads to rooms that never reach the opposite side so the wall is drawn closed at that spot. Two green arrows on opposite sides that sit on the same colored region are the two ends of one crossing.</p>
 <p><b>The small arrows inside the rooms.</b> Each room shows a small gray arrow next to the wall where the number in that room opened a door. A room can also be entered through a door that a neighboring room opened so an open wall with no small arrow beside it was opened from the other side.</p>
-<p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing. The three part score is the largest region plus the longest walk plus the door points.</p>
+<p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing. The three part score is the largest region plus the longest walk plus the door points. The highest possible three part score is every room for the region plus every room for the walk plus every outside door so the program shows the score against that highest score and as a percent.</p>
 <p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The page maze-test-zero-north.md in the same folder reports the counts for every prime with 4 digits and every prime with 9 digits under this rule. The page maze-test-findings.md reports the counts for an earlier version of the rule in which 1 opened north and the program no longer draws that version. No other person has reviewed the program yet.</p>
 </div>
 <div class="card" id="rankCard">
@@ -141,21 +142,8 @@ function piDigits(count){
   var pi=16n*arctanInv(5)-4n*arctanInv(239);
   return pi.toString().slice(0,count).split("").map(Number);
 }
-var PRESETS={one:[
- ["1019","1019 (one hallway through all 4 rooms)"],
- ["3119","3119 (two top to bottom crossings)"],
- ["1063","1063 (two side to side crossings)"],
- ["100101299","100101299 (smallest 9 digit prime that makes one hallway through all 9 rooms)"],
- ["111111199","111111199 (three top to bottom crossings)"],
- ["6109908929389081","6109908929389081 (best of 20000 random 16 digit primes)"],
- ["6627304862272669","6627304862272669 (16 digit prime built to make one hallway)"],
- ["7090152239154791257890409","7090152239154791257890409 (best of 20000 random 25 digit primes)"],
- ["2266774088622673884466229","2266774088622673884466229 (25 digit prime built to make one hallway)"],
- ["626663788808226227788884622223666623","36 digit prime built to make one hallway"],
- ["2226662730884040626226633080000862222627344808402222666726266269","64 digit prime built to make one hallway"],
- ["6222626627700440408426222626633880840480266622266370004804882666222627308480040462226222232266666621","100 digit prime built to make one hallway"]
-],
-zero:[
+var PRESETS={zero:[
+ {group:"Primes from the maze test",items:[
  ["1087","1087 (one hallway through all 4 rooms)"],
  ["1013","1013 (two side to side crossings)"],
  ["2221","2221 (two top to bottom crossings)"],
@@ -169,6 +157,43 @@ zero:[
  ["151512233773959512273737155196115191","36 digit prime built to make one hallway"],
  ["9991119667773377111155966337773355155592633333371515115299915911","64 digit prime built to make one hallway"],
  ["9999991992673377377711595555126373737777911159515223737733331519555112637337773319551551565191999991","100 digit prime built to make one hallway"]
+]},
+ {group:"Primes that draw neat shapes",items:[
+  ["1111111111111999","1111111111111999 (rows on 4 by 4 rooms)"],
+  ["2222222222262629","2222222222262629 (columns on 4 by 4 rooms)"],
+  ["1112012200320377","1112012200320377 (nested rings on 4 by 4 rooms)"],
+  ["111112011122001222000322003332037337","11111201...037337 (nested rings on 6 by 6 rooms)"],
+  ["1111211122013220033287773","11112111...287773 (spiral on 5 by 5 rooms)"],
+  ["111112111122011222001322003332433333","11111211...433333 (spiral on 6 by 6 rooms)"],
+  ["1212121212121212121212961","12121212...212961 (staircases on 5 by 5 rooms)"],
+  ["2333323333233332333327377","23333233...327377 (comb on 5 by 5 rooms)"],
+  ["1313131313131357","1313131313131357 (bricks on 4 by 4 rooms)"],
+  ["1112233311126337","1112233311126337 (zigzag on 4 by 4 rooms)"]
+ ]},
+ {group:"Highest scores with all ten digits used equally",items:[
+  ["6373956411280594","6373956411280594 (4 by 4 rooms and score 48 of 48)"],
+  ["1993727960644246873851550","19937279...851550 (5 by 5 rooms and score 70 of 70)"],
+  ["236737649560299734687120118824515090","23673764...515090 (6 by 6 rooms and score 96 of 96)"],
+  ["1952956876746367210432834234116030027719049558598","19529568...558598 (7 by 7 rooms and score 126 of 126)"],
+  ["5196119207674763549692038639825842033643025542180787670351149158","51961192...149158 (8 by 8 rooms and score 160 of 160)"],
+  ["952295612075642346083101682198833142877014637994403296595410682895518506403737777","95229561...737777 (9 by 9 rooms and score 195 of 198)"],
+  ["1616756723062347382802599184748511214114867364302702545648308992358590477615203363070675289959099418","16167567...099418 (10 by 10 rooms and score 237 of 240)"],
+  ["927561921512091460824237433638278595594124698770472730144958905610512873879608479564687689203320168110659054678333283634521920647347458710519150","92756192...519150 (12 by 12 rooms and score 325 of 336)"]
+ ]},
+ {group:"Highest scores on large grids",items:[
+  ["1111111112111111112201111112220011112222000112222200001322220000333222000333332200333333320333333333","11111111...333333 (spiral on 10 by 10 rooms and score 240 of 240)"],
+  ["1111111112233333333311111111122333333333111111111223333333331111111112233333333311111111122333333333","11111111...333333 (zigzag on 10 by 10 rooms and score 240 of 240)"],
+  ["2771772777258490212852584758286303342330996904925827709463836990433960569169546067072472745514914118","27717727...914118 (random number improved digit by digit on 10 by 10 rooms and score 240 of 240)"],
+  ["111111111112111111111122011111111222001111112222000111122222000011222222000001322222000003332222000033333222000333333322003333333332033333333333","11111111...333333 (spiral on 12 by 12 rooms and score 336 of 336)"],
+  ["559251559192427387366733465916431216238367592906219859067633687511796296194833827586521654011623858108033656477763754223591825007316437770337773","55925155...337773 (random number improved digit by digit on 12 by 12 rooms and score 335 of 336)"]
+ ]},
+ {group:"Best plain random numbers",items:[
+  ["2363667423305504","2363667423305504 (best of 200000 random numbers on 4 by 4 rooms and score 48 of 48)"],
+  ["2591390460149980403684143","25913904...684143 (best of 150000 random numbers on 5 by 5 rooms and score 63 of 70)"],
+  ["996526852592511909186910442807485140","99652685...485140 (best of 80000 random numbers on 6 by 6 rooms and score 79 of 96)"],
+  ["4555151456438110499031061694707649854845720801020245027837864223","45551514...864223 (best of 25000 random numbers on 8 by 8 rooms and score 86 of 160)"],
+  ["4187011063204003567787977067149454411677378554628085544418608582414413119643079268215584531472061044","41870110...061044 (best of 10000 random numbers on 10 by 10 rooms and score 102 of 240)"]
+ ]}
 ]};
 function numbersFor(src,need,ownText,primeText){
   var out=[],i;
@@ -193,7 +218,7 @@ function setup(){
   var src=el("src").value,per=Number(el("per").value),k=Number(el("size").value);
   var fixed=(src==="oneprime"||src==="own");
   var nums;
-  if(fixed){nums=numbersFor(src,0,el("own").value,el("primePick").value);if(nums.length<4)nums=[1,2,3,4];k=Math.min(60,Math.ceil(Math.sqrt(nums.length/per)));while(nums.length<k*k*per)nums.push(nums[nums.length%Math.max(1,nums.length)]);}
+  if(fixed){nums=numbersFor(src,0,el("own").value,el("primePick").value);if(nums.length<4)nums=[1,2,3,4,5,6,7,8,9];k=Math.min(60,Math.ceil(Math.sqrt(nums.length/per)));while(nums.length<k*k*per)nums.push(nums[nums.length%Math.max(1,nums.length)]);}
   else nums=numbersFor(src,k*k*per,"","");
   S.k=k;S.per=per;S.nums=nums;S.pos=0;S.done=false;S.recorded=false;S.walk=null;S.lastRoom=-1;S.lastDirs=[];
   S.adj=[];S.parent=[];S.out=[];for(var i=0;i<k*k;i++){S.adj.push([]);S.parent.push(i);S.out.push([]);}
@@ -251,7 +276,7 @@ function scores(full){
     var w=longestWalk();S.walk=w;
     el("sLong").textContent=(w.cut?"at least ":"")+w.len+" rooms";
     el("sScore").textContent=(w.cut?"at least ":"")+(w.len+S.k*(info.tb+info.lr));
-    el("sThree").textContent=(w.cut?"at least ":"")+(info.big+w.len+info.door);
+    var three=info.big+w.len+info.door,threeMax=2*S.k*S.k+4*S.k;el("sThree").textContent=(w.cut?"at least ":"")+three+" of "+threeMax+" ("+Math.round(100*three/threeMax)+"%)";
     el("walkNote").textContent=w.cut?"The search for the longest walk stopped early because this grid has many loops so the true longest walk could be longer.":"";
   }else{el("sLong").textContent="shown at the end";el("sScore").textContent="shown at the end";el("sThree").textContent="shown at the end";S.walk=null;}
   return info;
@@ -363,7 +388,7 @@ function showRank(){
     if(e.pic){var im=document.createElement("img");im.src=e.pic;im.alt="Small copy of the maze";row.appendChild(im);}
     var t=document.createElement("div");t.className="txt";
     var lab=e.label.length>44?e.label.slice(0,20)+" ... "+e.label.slice(-20):e.label;
-    var b=document.createElement("b");b.textContent="Score "+(e.cut?"at least ":"")+e.score+" of "+e.max;t.appendChild(b);
+    var b=document.createElement("b");b.textContent="Score "+(e.cut?"at least ":"")+e.score+" of "+e.max+" ("+Math.round(100*e.score/e.max)+"%)";t.appendChild(b);
     var d1=document.createElement("div");d1.textContent=lab+" on "+e.k+" by "+e.k+" rooms"+(e.per>1?" with "+e.per+" numbers in each room":"");t.appendChild(d1);
     var d2=document.createElement("div");d2.textContent="Largest region "+e.big+" + longest walk "+e.walk+" + door points "+e.door;t.appendChild(d2);
     if(e.digits){var again=document.createElement("button");again.textContent="Show this maze again";again.onclick=function(){el("src").value="own";el("own").value=e.digits;el("per").value="1";syncBoxes();setup();while(!S.done)stepOnce();afterSteps();window.scrollTo({top:0,behavior:"smooth"});};t.appendChild(again);}
@@ -385,11 +410,11 @@ el("finish").onclick=function(){stop();if(S.done)setup();while(!S.done)stepOnce(
 el("reset").onclick=setup;
 function syncBoxes(){var v=el("src").value;el("primeBox").className=v==="oneprime"?"":"hide";el("ownBox").className=v==="own"?"":"hide";el("sizeBox").className=(v==="oneprime"||v==="own")?"hide":"";}
 el("src").onchange=function(){syncBoxes();setup();};
-el("primePick").onchange=setup;el("own").oninput=setup;el("per").onchange=setup;
+el("primePick").onchange=setup;el("own").oninput=setup;var ownFresh=false;el("own").onfocus=function(){ownFresh=true;};el("own").onclick=function(){if(ownFresh){ownFresh=false;try{this.select();}catch(e){}}};el("ownClear").onclick=function(){el("own").value="";setup();el("own").focus();};el("per").onchange=setup;
 el("size").oninput=function(){el("sizeV").textContent=this.value;setup();};
 el("speed").oninput=function(){el("speedV").textContent=SPEEDS[Number(this.value)];if(S.timer){stop();play();}};
 el("showDigits").onchange=draw;el("showWalk").onchange=draw;el("showOpen").onchange=draw;el("showMark").onchange=draw;
-function fillPresets(){var box=el("primePick");box.innerHTML="";PRESETS[RULE].forEach(function(p){var o=document.createElement("option");o.value=p[0];o.textContent=p[1];box.appendChild(o);});el("ruleText").textContent=RULETEXT[RULE];}
+function fillPresets(){var box=el("primePick");box.innerHTML="";PRESETS[RULE].forEach(function(g){var og=document.createElement("optgroup");og.label=g.group;g.items.forEach(function(p){var o=document.createElement("option");o.value=p[0];o.textContent=p[1];og.appendChild(o);});box.appendChild(og);});el("ruleText").textContent=RULETEXT[RULE];}
 fillPresets();
 el("speedV").textContent=SPEEDS[Number(el("speed").value)];
 if(window.matchMedia)window.matchMedia("(prefers-color-scheme:dark)").addEventListener("change",draw);
