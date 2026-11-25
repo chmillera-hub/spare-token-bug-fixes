@@ -1,0 +1,80 @@
+{
+ "rows": [
+  {
+   "cities": 7,
+   "runs": 30,
+   "blind_steps": 1956,
+   "learner_steps": 206,
+   "told_plus_10_percent_steps": 205,
+   "told_steps": 16,
+   "check_steps": 7,
+   "learner_over_told": 12.88
+  },
+  {
+   "cities": 8,
+   "runs": 30,
+   "blind_steps": 13699,
+   "learner_steps": 936,
+   "told_plus_10_percent_steps": 929,
+   "told_steps": 95,
+   "check_steps": 8,
+   "learner_over_told": 9.85
+  },
+  {
+   "cities": 9,
+   "runs": 30,
+   "blind_steps": 109600,
+   "learner_steps": 1963,
+   "told_plus_10_percent_steps": 1956,
+   "told_steps": 130,
+   "check_steps": 9,
+   "learner_over_told": 15.1
+  },
+  {
+   "cities": 10,
+   "runs": 30,
+   "blind_steps": 986409,
+   "learner_steps": 5111,
+   "told_plus_10_percent_steps": 5072,
+   "told_steps": 276,
+   "check_steps": 10,
+   "learner_over_told": 18.52
+  },
+  {
+   "cities": 11,
+   "runs": 20,
+   "blind_steps": 9864100,
+   "learner_steps": 14871,
+   "told_plus_10_percent_steps": 14864,
+   "told_steps": 429,
+   "check_steps": 11,
+   "learner_over_told": 34.66
+  },
+  {
+   "cities": 12,
+   "runs": 10,
+   "blind_steps": 108505111,
+   "learner_steps": 22031,
+   "told_plus_10_percent_steps": 20989,
+   "told_steps": 753,
+   "check_steps": 12,
+   "learner_over_told": 29.26
+  },
+  {
+   "cities": 13,
+   "runs": 6,
+   "blind_steps": 1302061344,
+   "learner_steps": 258751,
+   "told_plus_10_percent_steps": 258715,
+   "told_steps": 20176,
+   "check_steps": 13,
+   "learner_over_told": 12.82
+  }
+ ],
+ "growth_per_added_city": {
+  "blind_steps": 9.34,
+  "learner_steps": 3.28,
+  "told_plus_10_percent_steps": 3.29,
+  "told_steps": 3.29
+ }
+}

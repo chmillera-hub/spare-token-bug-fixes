@@ -1,0 +1,119 @@
+[
+ {
+  "source": "1 2 3 4 5 6 7 8 9 repeated",
+  "hallways": 2000,
+  "steps": 9993,
+  "end_distance": 8.1,
+  "box_width": 17,
+  "box_height": 17,
+  "crossing_spots": 164,
+  "repeat_share": 0.984,
+  "end_point_east_north": [
+   -1,
+   8
+  ]
+ },
+ {
+  "source": "1 3 1 3 repeated",
+  "hallways": 2000,
+  "steps": 4000,
+  "end_distance": 0.0,
+  "box_width": 3,
+  "box_height": 1,
+  "crossing_spots": 8,
+  "repeat_share": 0.998,
+  "end_point_east_north": [
+   0,
+   0
+  ]
+ },
+ {
+  "source": "digits of the primes written in one row",
+  "hallways": 2000,
+  "steps": 8307,
+  "end_distance": 992.3,
+  "box_width": 1000,
+  "box_height": 370,
+  "crossing_spots": 1428,
+  "repeat_share": 0.303,
+  "end_point_east_north": [
+   969,
+   -214
+  ]
+ },
+ {
+  "source": "last digit of each prime",
+  "hallways": 2000,
+  "steps": 9977,
+  "end_distance": 127.0,
+  "box_width": 109,
+  "box_height": 167,
+  "crossing_spots": 2591,
+  "repeat_share": 0.475,
+  "end_point_east_north": [
+   -2,
+   127
+  ]
+ },
+ {
+  "source": "gap between neighboring primes",
+  "hallways": 2000,
+  "steps": 17391,
+  "end_distance": 234.8,
+  "box_width": 540,
+  "box_height": 278,
+  "crossing_spots": 3581,
+  "repeat_share": 0.301,
+  "end_point_east_north": [
+   234,
+   -19
+  ]
+ },
+ {
+  "source": "the primes themselves",
+  "hallways": 300,
+  "steps": 271061,
+  "end_distance": 1489.9,
+  "box_width": 1987,
+  "box_height": 1979,
+  "crossing_spots": 0,
+  "repeat_share": 0.0,
+  "end_point_east_north": [
+   -1056,
+   -1051
+  ]
+ },
+ {
+  "source": "random digits",
+  "hallways": 2000,
+  "steps": 9055,
+  "end_distance": 261.0,
+  "box_width": 112,
+  "box_height": 284,
+  "crossing_spots": 2285,
+  "repeat_share": 0.442,
+  "end_point_east_north": [
+   -23,
+   -260
+  ]
+ },
+ {
+  "source": "random digits 1 to 9",
+  "hallways": 2000,
+  "steps": 9882,
+  "end_distance": 143.0,
+  "box_width": 144,
+  "box_height": 110,
+  "crossing_spots": 2449,
+  "repeat_share": 0.555,
+  "end_point_east_north": [
+   -134,
+   50
+  ]
+ },
+ {
+  "random_digit_walks": 200,
+  "average_end_distance": 120.1,
+  "largest_end_distance": 319.0
+ }
+]

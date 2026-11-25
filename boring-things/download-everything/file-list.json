@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1399,
- "total_bytes": 97860106,
+ "file_count": 1422,
+ "total_bytes": 98408771,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 8478,
+   "bytes": 9064,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -361,11 +361,20 @@
   {
    "path": "1-research-click-here-first/delivery-routes/README.md",
    "title": "Delivery routes",
-   "bytes": 745,
+   "bytes": 1160,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/delivery-routes/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/delivery-routes/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/delivery-routes/known-answer-findings.md",
+   "title": "How much does knowing the answer shrink a search? Step counts from mazes and delivery routes",
+   "bytes": 7120,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/delivery-routes/known-answer-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/delivery-routes/known-answer-findings.md"
   },
   {
    "path": "1-research-click-here-first/delivery-routes/route-guessing-findings.md",
@@ -719,6 +728,78 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/other-collections/README.md"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/README.md",
+   "title": "Prime mazes",
+   "bytes": 1776,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/champion-primes.png",
+   "title": "champion-primes.png",
+   "bytes": 79328,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/champion-primes.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/champion-primes.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/door-grids.png",
+   "title": "door-grids.png",
+   "bytes": 85860,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/door-grids.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/door-grids.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/hallway-walk-findings.md",
+   "title": "Hallway walks: each number is the length of a hallway",
+   "bytes": 3450,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walk-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hallway-walk-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/hallway-walks.png",
+   "title": "hallway-walks.png",
+   "bytes": 198200,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hallway-walks.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/maze-animation.html",
+   "title": "maze-animation.html",
+   "bytes": 16959,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/maze-animation.html"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/maze-test-findings.md",
+   "title": "The maze test: door grids made from the digits of primes",
+   "bytes": 12472,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/maze-test-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/ranking-list.txt",
+   "title": "ranking-list.txt",
+   "bytes": 65122,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/ranking-list.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/ranking-list.txt"
+  },
+  {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
    "bytes": 12564,
@@ -973,7 +1054,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/two-prime-sums.md",
    "title": "Two-prime sums and the cost of finding against checking",
-   "bytes": 16012,
+   "bytes": 16211,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/two-prime-sums.md",
@@ -3475,7 +3556,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 10919,
+   "bytes": 11284,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10306,7 +10387,7 @@
   {
    "path": "boring-things/research-program-files/README.md",
    "title": "Program files behind the research pages",
-   "bytes": 17637,
+   "bytes": 18615,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/README.md",
@@ -10356,6 +10437,42 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/kroA100.tsp",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/benchmark-data/kroA100.tsp"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search.py",
+   "title": "maze_search.py",
+   "bytes": 5735,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search_results.json",
+   "title": "maze_search_results.json",
+   "bytes": 3095,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/maze_search_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance.py",
+   "title": "route_known_distance.py",
+   "bytes": 3522,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance.py"
+  },
+  {
+   "path": "boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance_results.json",
+   "title": "route_known_distance_results.json",
+   "bytes": 1597,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/delivery-routes-scripts/known-answer-scripts/route_known_distance_results.json"
   },
   {
    "path": "boring-things/research-program-files/delivery-routes-scripts/nearest_stop_rule_test.py",
@@ -10626,6 +10743,96 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/page-splitting-scripts/split_test.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/page-splitting-scripts/split_test.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/door_grid.py",
+   "title": "door_grid.py",
+   "bytes": 5494,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/door_grid.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/door_grid.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/door_grid_results.json",
+   "title": "door_grid_results.json",
+   "bytes": 6950,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/door_grid_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/door_grid_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/draw_grids.py",
+   "title": "draw_grids.py",
+   "bytes": 4142,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/draw_grids.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/draw_grids.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/grid_tools.py",
+   "title": "grid_tools.py",
+   "bytes": 3062,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/grid_tools.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/grid_tools.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/hallways.py",
+   "title": "hallways.py",
+   "bytes": 3346,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/hallways.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/hallways.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/hallways_results.json",
+   "title": "hallways_results.json",
+   "bytes": 2069,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/hallways_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/hallways_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test.py",
+   "title": "maze_test.py",
+   "bytes": 9594,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/maze_test.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/maze_test.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json",
+   "title": "maze_test_results.json",
+   "bytes": 23568,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results.json",
+   "title": "ranking_extra_results.json",
+   "bytes": 203,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/ranking_list.py",
+   "title": "ranking_list.py",
+   "bytes": 3458,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/ranking_list.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/ranking_list.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/big_digits.py",

@@ -162,6 +162,8 @@ The author also proposed that novel ideas could be as rare as large primes and t
 - How many search steps does a maze-solving agent save when the agent is told the exit or the route length or a yes or no answer and do the savings match the halved exponent that the two-ended search predicts?
 - For a delivery route problem how much does handing the solver the exact best distance shrink the number of partial routes that the solver must explore?
 
+The second and third questions now have first answers on the page known-answer-findings.md in the delivery-routes folder which counts the search steps saved in mazes and in delivery route searches.
+
 ## Weak points
 
 - The tables stop at 16 million so each "last number" is the last number below that limit and not a proven last number.

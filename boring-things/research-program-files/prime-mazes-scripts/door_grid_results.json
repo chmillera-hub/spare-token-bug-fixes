@@ -1,0 +1,253 @@
+{
+ "grid2_all_4_digit_primes": {
+  "primes": 1061,
+  "finish": 324,
+  "longest_counts": {
+   "1": 70,
+   "2": 541,
+   "3": 254,
+   "4": 196
+  },
+  "tube_primes_first_20": [
+   1019,
+   1021,
+   1051,
+   1061,
+   1069,
+   1091,
+   1429,
+   1451,
+   1459,
+   1499,
+   1811,
+   1861,
+   2011,
+   2029,
+   2069,
+   2099,
+   2111,
+   2129,
+   2161,
+   2221
+  ],
+  "tube_primes_count": 196
+ },
+ "grid2_all_4_digit_numbers": {
+  "numbers": 9000,
+  "finish": 2948,
+  "tube": 1738
+ },
+ "grid3_all_9_digit_primes": {
+  "primes": 45086079,
+  "finish": 4244233,
+  "longest_counts": {
+   "1": 0,
+   "2": 1888638,
+   "3": 10729356,
+   "4": 15989540,
+   "5": 9355883,
+   "6": 5083192,
+   "7": 1345788,
+   "8": 613403,
+   "9": 80279
+  },
+  "tube_primes_count": 80279,
+  "smallest_tube_prime": 100101299,
+  "largest_tube_prime": 988988269,
+  "first_15_tube_primes": [
+   100101299,
+   100101629,
+   100101691,
+   100104229,
+   100104629,
+   100105259,
+   100105619,
+   100108661,
+   100108669,
+   100109621,
+   100109699,
+   100130141,
+   100130189,
+   100130509,
+   100130549
+  ],
+  "average_longest": 4.264117134692507,
+  "average_regions": 3.7982657351951143
+ },
+ "grid3_all_9_digit_numbers": {
+  "numbers": 900000000,
+  "finish_share": 0.11051725333333333,
+  "tube_share": 0.00210036,
+  "average_longest": 4.314256462222223
+ },
+ "larger_grids": [
+  {
+   "grid": 4,
+   "rooms": 16,
+   "samples": 20000,
+   "primes": {
+    "finish_share": 0.03245,
+    "average_longest": 5.8086,
+    "max_longest": 14,
+    "champion": "1544292167146669",
+    "average_regions": 5.55425,
+    "average_largest_region": 6.8289
+   },
+   "random_numbers": {
+    "finish_share": 0.03885,
+    "average_longest": 5.8534,
+    "max_longest": 14,
+    "champion": "4623219396339885",
+    "average_regions": 5.4782,
+    "average_largest_region": 6.884
+   }
+  },
+  {
+   "grid": 5,
+   "rooms": 25,
+   "samples": 20000,
+   "primes": {
+    "finish_share": 0.01305,
+    "average_longest": 7.185,
+    "max_longest": 19,
+    "champion": "4028259344158895474944229",
+    "average_regions": 7.5732,
+    "average_largest_region": 9.01995
+   },
+   "random_numbers": {
+    "finish_share": 0.01365,
+    "average_longest": 7.2277,
+    "max_longest": 19,
+    "champion": "6108765197189306103958044",
+    "average_regions": 7.4916,
+    "average_largest_region": 9.06035
+   }
+  },
+  {
+   "grid": 6,
+   "rooms": 36,
+   "samples": 8000,
+   "primes": {
+    "finish_share": 0.005125,
+    "average_longest": 8.409375,
+    "max_longest": 20,
+    "champion": "398601080882149134592105544734429447",
+    "average_regions": 9.8425,
+    "average_largest_region": 11.065875
+   },
+   "random_numbers": {
+    "finish_share": 0.004625,
+    "average_longest": 8.43675,
+    "max_longest": 24,
+    "champion": "930073703176712984662691096221555896",
+    "average_regions": 9.76725,
+    "average_largest_region": 11.128875
+   }
+  },
+  {
+   "grid": 7,
+   "rooms": 49,
+   "samples": 4000,
+   "primes": {
+    "finish_share": 0.00125,
+    "average_longest": 9.548,
+    "max_longest": 23,
+    "champion": "2970462590500466974403508544436314488961088994179",
+    "average_regions": 12.30725,
+    "average_largest_region": 13.128
+   },
+   "random_numbers": {
+    "finish_share": 0.0025,
+    "average_longest": 9.47625,
+    "max_longest": 21,
+    "champion": "1009036151817159974011697398795406999070968173997",
+    "average_regions": 12.33625,
+    "average_largest_region": 12.98425
+   }
+  },
+  {
+   "grid": 8,
+   "rooms": 64,
+   "samples": 3000,
+   "primes": {
+    "finish_share": 0.0003333333333333333,
+    "average_longest": 10.532,
+    "max_longest": 25,
+    "champion": "4292496982550367277018839386169930918251763454856922114549791137",
+    "average_regions": 15.175,
+    "average_largest_region": 14.87
+   },
+   "random_numbers": {
+    "finish_share": 0.0006666666666666666,
+    "average_longest": 10.434666666666667,
+    "max_longest": 27,
+    "champion": "5970044548280997146611891419159407184637800970540231098121330114",
+    "average_regions": 15.084,
+    "average_largest_region": 14.769333333333334
+   }
+  },
+  {
+   "grid": 10,
+   "rooms": 100,
+   "samples": 2000,
+   "primes": {
+    "finish_share": 0.0,
+    "average_longest": 12.1765,
+    "max_longest": 28,
+    "champion": "8302550834246565474919757472276832623184747188610062148500028560822554727260141819207944894071433903",
+    "average_regions": 21.4295,
+    "average_largest_region": 18.2815
+   },
+   "random_numbers": {
+    "finish_share": 0.0,
+    "average_longest": 12.2115,
+    "max_longest": 28,
+    "champion": "2063307914519703015049878858292963064549823461210398304372959700976128741981858454267927405905183287",
+    "average_regions": 21.4655,
+    "average_largest_region": 18.358
+   }
+  },
+  {
+   "grid": 15,
+   "rooms": 225,
+   "samples": 600,
+   "primes": {
+    "finish_share": 0.0,
+    "average_longest": 15.413333333333334,
+    "max_longest": 33,
+    "champion": "198229977628301392341971005047562914718185068891991160131726961341926798113435305636603416919045843308092792110595506540819163949116970806026854444722266348671411500986370428011111096321630689615421846188225687298788052646809",
+    "average_regions": 41.71,
+    "average_largest_region": 24.808333333333334
+   },
+   "random_numbers": {
+    "finish_share": 0.0,
+    "average_longest": 15.398333333333333,
+    "max_longest": 32,
+    "champion": "993189341124233821594533708091187830542931012427472115077952406533517268284191974033476031356815130141554801561447100014607581601697507740606500987041804604167124367928092416543800172682979418135185250367663219313731079460989",
+    "average_regions": 41.69166666666667,
+    "average_largest_region": 25.176666666666666
+   }
+  },
+  {
+   "grid": 20,
+   "rooms": 400,
+   "samples": 300,
+   "primes": {
+    "finish_share": 0.0,
+    "average_longest": 17.503333333333334,
+    "max_longest": 39,
+    "champion": "2506912363589520362906569752036117910110482308010312525038839574878992186397473194048656005057190463583805353825203004424540185777868012791877197538065059526354063361099852210185935671758213489498717445494239586535816621866638446661918657253342686496921305193879290611250351616165296395622717909727993207992559327678937646534727369128994113027854292577025418888917741066034356509376040424762019358411",
+    "average_regions": 68.54333333333334,
+    "average_largest_region": 29.763333333333332
+   },
+   "random_numbers": {
+    "finish_share": 0.0,
+    "average_longest": 17.086666666666666,
+    "max_longest": 33,
+    "champion": "3082467038759873761636125110279071953619142394497362396941625538440541210510143144264265296212905624920059217060544875462894231486468923712882680639159059881465074678495234465520686024344587744717487562713015017077663945554631965655648076396365266513286348534001410694246342880035565657195941229040262342695083508235585322598570286091551761004336355976365794006899591038214103251706153899451389994797",
+    "average_regions": 68.74666666666667,
+    "average_largest_region": 29.05666666666667
+   }
+  }
+ ]
+}
