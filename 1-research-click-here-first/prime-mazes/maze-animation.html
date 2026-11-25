@@ -54,6 +54,11 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 </div>
 
 <div class="card">
+<label for="rule">Door rule</label>
+<select id="rule">
+<option value="zero">0 opens north (0 north and 1 east and 2 south and 3 west and then the cycle repeats)</option>
+<option value="one">1 opens north (1 north and 2 east and 3 south and 4 west and then the cycle repeats and 0 is west)</option>
+</select>
 <label for="src">Where the numbers are taken from</label>
 <select id="src">
 <option value="primedigits">Digits of the primes written in one row (2 3 5 7 1 1 1 3 ...)</option>
@@ -99,9 +104,9 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 </div>
 
 <div class="card">
-<p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door: 1 opens the north door and 2 opens the east door and 3 opens the south door and 4 opens the west door. The cycle then repeats so 5 is north and 6 is east and 7 is south and 8 is west and 9 is north and 0 is west. A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
+<p><b>The rule.</b> Every room starts with four closed doors. Each room reads one number and opens one door. <span id="ruleText"></span> The box named "Door rule" switches between the two versions of the rule. A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left room.</p>
 <p><b>The scores.</b> A region is a group of rooms joined by open doors. A top to bottom crossing is a region that touches both the top row and the bottom row. A side to side crossing is a region that touches both the left column and the right column. The longest walk is the most rooms a walker can visit without entering a room twice. The maze score is the longest walk plus the number of rooms along one side for each crossing.</p>
-<p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The page maze-test-findings.md in the same folder reports the counts for every prime with 4 digits and every prime with 9 digits. No other person has reviewed the program yet.</p>
+<p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 25 November 2026 from a rule that the author of this repository proposed. The pages maze-test-findings.md (1 opens north) and maze-test-zero-north.md (0 opens north) in the same folder report the counts for every prime with 4 digits and every prime with 9 digits under each version of the rule. No other person has reviewed the program yet.</p>
 </div>
 </main>
 
@@ -109,7 +114,9 @@ button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);m
 "use strict";
 var DR=[[-1,0],[0,1],[1,0],[0,-1]];
 var NAMES=["north","east","south","west"];
-function dirOf(n){return ((n-1)%4+4)%4;}
+var RULE="zero";
+function dirOf(n){return RULE==="zero"?((n%4)+4)%4:((n-1)%4+4)%4;}
+var RULETEXT={zero:"Under this version 0 opens the north door and 1 opens the east door and 2 opens the south door and 3 opens the west door. The cycle then repeats so 4 is north and 5 is east and 6 is south and 7 is west and 8 is north and 9 is east.",one:"Under this version 1 opens the north door and 2 opens the east door and 3 opens the south door and 4 opens the west door. The cycle then repeats so 5 is north and 6 is east and 7 is south and 8 is west and 9 is north and 0 is west."};
 
 // ---------- number sources ----------
 var PR=(function(){var n=260000,s=new Uint8Array(n+1),out=[];for(var i=2;i<=n;i++){if(!s[i]){out.push(i);for(var j=i*i;j<=n;j+=i)s[j]=1;}}return out;})();
@@ -119,7 +126,7 @@ function piDigits(count){
   var pi=16n*arctanInv(5)-4n*arctanInv(239);
   return pi.toString().slice(0,count).split("").map(Number);
 }
-var PRESET=[
+var PRESETS={one:[
  ["1019","1019 (one hallway through all 4 rooms)"],
  ["3119","3119 (two top to bottom crossings)"],
  ["1063","1063 (two side to side crossings)"],
@@ -132,7 +139,22 @@ var PRESET=[
  ["626663788808226227788884622223666623","36 digit prime built to make one hallway"],
  ["2226662730884040626226633080000862222627344808402222666726266269","64 digit prime built to make one hallway"],
  ["6222626627700440408426222626633880840480266622266370004804882666222627308480040462226222232266666621","100 digit prime built to make one hallway"]
-];
+],
+zero:[
+ ["1087","1087 (one hallway through all 4 rooms)"],
+ ["1013","1013 (two side to side crossings)"],
+ ["2221","2221 (two top to bottom crossings)"],
+ ["102002003","102002003 (smallest 9 digit prime that makes one hallway through all 9 rooms)"],
+ ["103111111","103111111 (three side to side crossings)"],
+ ["202002001","202002001 (three top to bottom crossings)"],
+ ["8856673763365447","8856673763365447 (best of 20000 random 16 digit primes)"],
+ ["5596677711161513","5596677711161513 (16 digit prime built to make one hallway)"],
+ ["5515216637272691252135677","5515216637272691252135677 (best of 20000 random 25 digit primes)"],
+ ["9195623337995122777319117","9195623337995122777319117 (25 digit prime built to make one hallway)"],
+ ["151512233773959512273737155196115191","36 digit prime built to make one hallway"],
+ ["9991119667773377111155966337773355155592633333371515115299915911","64 digit prime built to make one hallway"],
+ ["9999991992673377377711595555126373737777911159515223737733331519555112637337773319551551565191999991","100 digit prime built to make one hallway"]
+]};
 function numbersFor(src,need,ownText,primeText){
   var out=[],i;
   if(src==="primedigits"){var s="";for(i=0;s.length<need;i++)s+=PR[i];return s.slice(0,need).split("").map(Number);}
@@ -268,7 +290,9 @@ el("primePick").onchange=setup;el("own").oninput=setup;el("per").onchange=setup;
 el("size").oninput=function(){el("sizeV").textContent=this.value;setup();};
 el("speed").oninput=function(){el("speedV").textContent=SPEEDS[Number(this.value)];if(S.timer){stop();play();}};
 el("showDigits").onchange=draw;el("showWalk").onchange=draw;
-PRESET.forEach(function(p){var o=document.createElement("option");o.value=p[0];o.textContent=p[1];el("primePick").appendChild(o);});
+function fillPresets(){var box=el("primePick");box.innerHTML="";PRESETS[RULE].forEach(function(p){var o=document.createElement("option");o.value=p[0];o.textContent=p[1];box.appendChild(o);});el("ruleText").textContent=RULETEXT[RULE];}
+el("rule").onchange=function(){RULE=this.value;fillPresets();setup();};
+fillPresets();
 el("speedV").textContent=SPEEDS[Number(el("speed").value)];
 if(window.matchMedia)window.matchMedia("(prefers-color-scheme:dark)").addEventListener("change",draw);
 syncBoxes();setup();

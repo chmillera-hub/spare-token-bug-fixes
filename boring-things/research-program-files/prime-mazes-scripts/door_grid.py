@@ -45,7 +45,7 @@ for a in range(lo, half, CH):
     code = np.zeros(len(pr), dtype=np.int64); q = pr.copy()
     for pos in range(8, -1, -1):              # last digit belongs to room 8 (bottom right)
         d = q % 10; q //= 10
-        code |= ((d - 1) % 4) << (2 * pos)
+        code |= ((d - OFF) % 4) << (2 * pos)
     counts += np.bincount(code, minlength=4 ** 9)
     tubes = pr[T_long[code] == 9]
     if len(tubes):
@@ -59,8 +59,8 @@ out["grid3_all_9_digit_primes"] = {
     "first_15_tube_primes": tube_examples,
     "average_longest": float((counts * T_long).sum() / total), "average_regions": float((counts * T_reg).sum() / total)}
 # all 9 digit numbers = every pattern weighted by how many digit strings give the pattern (first digit not 0)
-w_first = np.array([3, 2, 2, 2])   # north 1 5 9; east 2 6; south 3 7; west 4 8 (no leading 0)
-w_rest = np.array([3, 2, 2, 3])    # west also takes the digit 0
+w_first = np.array(W_FIRST)   # how many digits open each door in the first room (no leading 0)
+w_rest = np.array(W_REST)     # how many digits open each door in any other room
 codes = np.arange(4 ** 9); wt = w_first[codes & 3].astype(np.float64)
 for i in range(1, 9): wt *= w_rest[(codes >> (2 * i)) & 3]
 out["grid3_all_9_digit_numbers"] = {"numbers": int(wt.sum()), "finish_share": float(wt[T_fin].sum() / wt.sum()),
@@ -83,4 +83,4 @@ for k, reps in ((4, 20000), (5, 20000), (6, 8000), (7, 4000), (8, 3000), (10, 20
     rd = batch(lambda: str(rng.randrange(10 ** (nd - 1), 10 ** nd)))
     rows.append({"grid": k, "rooms": nd, "samples": reps, "primes": pr, "random_numbers": rd}); print(k, pr["finish_share"], rd["finish_share"], pr["average_longest"], rd["average_longest"], pr["max_longest"], flush=True)
 out["larger_grids"] = rows
-json.dump(out, open("door_grid_results.json", "w"), indent=1)
+json.dump(out, open("door_grid_results%s.json" % SUF, "w"), indent=1)

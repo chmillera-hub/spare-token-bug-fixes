@@ -1,9 +1,10 @@
 """Write the ranking list of primes by maze score and compare 9 digit primes with all 9 digit numbers on the crossings."""
 from grid_tools import *
-res = json.load(open("maze_test_results.json")); dg = json.load(open("door_grid_results.json"))
+res = json.load(open("maze_test_results%s.json" % SUF)); dg = json.load(open("door_grid_results%s.json" % SUF))
 L = []
 A = L.append
 A("Ranking list for the maze test (door grids made from the digits of primes)")
+A("Door rule for this list: " + ("0 and 4 and 8 open north; 1 and 5 and 9 open east; 2 and 6 open south; 3 and 7 open west." if ZERO_NORTH else "1 and 5 and 9 open north; 2 and 6 open east; 3 and 7 open south; 4 and 8 and 0 open west."))
 A("")
 A("Maze score = longest walk + (rooms along one side) x (top-to-bottom crossings + side-to-side crossings).")
 A("Each line: prime then score then top-to-bottom crossings then side-to-side crossings then longest walk.")
@@ -25,6 +26,8 @@ for v, ex in res["grid3"]["examples_for_top_scores"].items():
 A("")
 A("The first 9 digit primes with three top-to-bottom crossings (score 12): " + " ".join(map(str, res["grid3"]["three_top_bottom_examples"])))
 A("")
+A("The first 9 digit primes with three side-to-side crossings (score 12): " + " ".join(map(str, res["grid3"]["three_side_side_examples"])))
+A("")
 for row in res["larger_grids"]:
     if not row["top_10_by_maze_score"]: continue
     k = row["grid"]
@@ -33,16 +36,16 @@ for row in res["larger_grids"]:
     A("")
 A("PRIMES BUILT ON PURPOSE to make one hallway through every room (the highest longest walk possible):")
 for k, t in res["built_tube_primes"].items(): A("%s by %s rooms: %s  score %d" % (k, k, t["prime"], t["score"]))
-open("ranking-list.txt", "w").write("\n".join(L) + "\n")
+open("ranking-list%s.txt" % DASH, "w").write("\n".join(L) + "\n")
 # all 9 digit numbers against 9 digit primes on crossings
 T_tb = np.zeros(4 ** 9, dtype=np.int8); T_lr = np.zeros(4 ** 9, dtype=np.int8)
 for code in range(4 ** 9):
     adj = build([(code >> (2 * i)) & 3 for i in range(9)], 3); T_tb[code], T_lr[code] = crossings(adj, 3)
-w_first = np.array([3, 2, 2, 2]); w_rest = np.array([3, 2, 2, 3]); codes = np.arange(4 ** 9); wt = w_first[codes & 3].astype(np.float64)
+w_first = np.array(W_FIRST); w_rest = np.array(W_REST); codes = np.arange(4 ** 9); wt = w_first[codes & 3].astype(np.float64)
 for i in range(1, 9): wt *= w_rest[(codes >> (2 * i)) & 3]
 extra = {"all_9_digit_numbers_share_with_top_bottom_crossing": float(wt[T_tb >= 1].sum() / wt.sum()),
          "all_9_digit_numbers_share_with_side_side_crossing": float(wt[T_lr >= 1].sum() / wt.sum()),
          "all_9_digit_numbers_share_crossing_both_ways": float(wt[(T_tb >= 1) & (T_lr >= 1)].sum() / wt.sum())}
-json.dump(extra, open("ranking_extra_results.json", "w"), indent=1); print(extra)
+json.dump(extra, open("ranking_extra_results%s.json" % SUF, "w"), indent=1); print(extra)
 print(json.dumps(dg["grid2_all_4_digit_numbers"]), json.dumps(res["grid2"]["score_counts"]), res["grid2"]["top_scores_first_25"][:3])
 print(len(L))

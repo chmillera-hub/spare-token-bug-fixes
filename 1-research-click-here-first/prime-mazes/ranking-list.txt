@@ -1,4 +1,5 @@
 Ranking list for the maze test (door grids made from the digits of primes)
+Door rule for this list: 1 and 5 and 9 open north; 2 and 6 open east; 3 and 7 open south; 4 and 8 and 0 open west.
 
 Maze score = longest walk + (rooms along one side) x (top-to-bottom crossings + side-to-side crossings).
 Each line: prime then score then top-to-bottom crossings then side-to-side crossings then longest walk.
@@ -1132,6 +1133,8 @@ The first primes found for each of the six highest scores:
 100000217  score 10  top-bottom 0  side-side 2  longest 4
 
 The first 9 digit primes with three top-to-bottom crossings (score 12): 111111199 111115919 111119551 111151199 111151511 111155519 111155591 111155951 111155959 111159151 111159511 111191111
+
+The first 9 digit primes with three side-to-side crossings (score 12): 100000223 100000267 100000627 100004263 100044667 100048667 100080223 100080667 100088267 100088623 100088627 100200223
 
 GRID OF 4 BY 4 ROOMS: the ten highest scores among 20000 random primes with 16 digits. A single hallway through every room would score 24.
 6109908929389081  score 21  top-bottom 1  side-side 1  longest 13

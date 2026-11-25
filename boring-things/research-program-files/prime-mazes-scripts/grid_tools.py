@@ -15,7 +15,19 @@ import numpy as np
 import gmpy2
 sys.setrecursionlimit(100000)
 DR = ((-1, 0), (0, 1), (1, 0), (0, -1))   # north east south west
-def dir_of(d): return (d - 1) % 4
+# Two versions of the rule. Set the environment variable MAZE_RULE=zero-north to use the second version.
+#   one-north  (first version):  1 5 9 north; 2 6 east; 3 7 south; 4 8 0 west   -> door = (digit - 1) mod 4
+#   zero-north (second version): 0 4 8 north; 1 5 9 east; 2 6 south; 3 7 west   -> door = digit mod 4
+import os
+ZERO_NORTH = os.environ.get("MAZE_RULE", "one-north") == "zero-north"
+OFF = 0 if ZERO_NORTH else 1
+SUF = "_zero_north" if ZERO_NORTH else ""          # added to the names of result files
+DASH = "-zero-north" if ZERO_NORTH else ""         # added to the names of pictures and lists
+def dir_of(d): return (d - OFF) % 4
+_ORDER = range(10) if ZERO_NORTH else list(range(1, 10)) + [0]   # the first version lists 0 last so earlier built primes come out the same
+OPTS = {k: "".join(str(d) for d in _ORDER if dir_of(d) == k) for k in range(4)}   # digits that open each door
+W_REST = [len(OPTS[k]) for k in range(4)]                                            # digits for each door (any room)
+W_FIRST = [len(OPTS[k].replace("0", "")) for k in range(4)]                          # first room cannot hold 0
 
 def build(dirs, k):
     """dirs: list of k*k directions. Returns adjacency lists (sets)."""

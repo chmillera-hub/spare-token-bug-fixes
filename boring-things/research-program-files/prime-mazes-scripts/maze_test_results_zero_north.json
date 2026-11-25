@@ -1,0 +1,1240 @@
+{
+ "grid2": {
+  "primes": 1061,
+  "top_bottom_counts": {
+   "0": 445,
+   "1": 589,
+   "2": 27
+  },
+  "side_side_counts": {
+   "0": 181,
+   "1": 702,
+   "2": 178
+  },
+  "two_top_bottom_crossings_first_15": [
+   2221,
+   2239,
+   2269,
+   2281,
+   2609,
+   2621,
+   2671,
+   2689,
+   3209,
+   4201,
+   4241,
+   4289,
+   4649,
+   6221,
+   6229
+  ],
+  "two_top_bottom_total": 27,
+  "two_side_side_crossings": [
+   1013,
+   1019,
+   1033,
+   1051,
+   1063,
+   1091,
+   1093,
+   1097,
+   1117,
+   1123,
+   1151,
+   1153,
+   1163,
+   1193,
+   1319
+  ],
+  "crossing_both_ways": 484,
+  "score_counts": {
+   "8": 211,
+   "7": 273,
+   "6": 205,
+   "4": 323,
+   "1": 49
+  },
+  "top_scores_first_25": [
+   {
+    "prime": 1087,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1103,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1187,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1201,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1213,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1217,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1223,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1237,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1249,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1259,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1277,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1283,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1289,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1291,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1297,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1303,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1307,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1447,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1483,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1487,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1543,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1583,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1601,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1607,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   },
+   {
+    "prime": 1609,
+    "score": 8,
+    "top_bottom": 1,
+    "side_side": 1,
+    "longest": 4
+   }
+  ]
+ },
+ "grid3": {
+  "primes": 45086079,
+  "top_bottom_counts": {
+   "0": 26222226,
+   "1": 17772841,
+   "2": 1084788,
+   "3": 6224
+  },
+  "side_side_counts": {
+   "0": 18877285,
+   "1": 22575761,
+   "2": 3559532,
+   "3": 73501
+  },
+  "crossing_both_ways": 10280296,
+  "three_top_bottom_examples": [
+   202002001,
+   202002401,
+   202002481,
+   202002841,
+   202006001,
+   202006009,
+   202006481,
+   202042889,
+   202046081,
+   202046849,
+   202082449,
+   202082849
+  ],
+  "three_side_side_examples": [
+   103111111,
+   103111133,
+   103111199,
+   103111577,
+   103111927,
+   103111963,
+   103111973,
+   103111991,
+   103113137,
+   103113167,
+   103113233,
+   103113377
+  ],
+  "tube_that_crosses_both_ways_examples": [
+   102002003,
+   102002807,
+   102002843,
+   102003037,
+   102003437,
+   102003877,
+   102006043,
+   102006083,
+   102006407,
+   102006433,
+   102042037,
+   102042077
+  ],
+  "tube_that_crosses_both_ways_count": 91720,
+  "score_counts": {
+   "15": 91720,
+   "14": 585057,
+   "13": 1368945,
+   "12": 3783276,
+   "11": 5617583,
+   "10": 2884416,
+   "9": 2155030,
+   "8": 4086910,
+   "7": 9254286,
+   "6": 4965128,
+   "4": 3615488,
+   "3": 4920594,
+   "2": 1757646
+  },
+  "examples_for_top_scores": {
+   "15": [
+    {
+     "prime": 102002003,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102002807,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102002843,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102003037,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102003437,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102003877,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102006043,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    },
+    {
+     "prime": 102006083,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 9
+    }
+   ],
+   "14": [
+    {
+     "prime": 100002037,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100002437,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100003037,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100003873,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100006033,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100006037,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100006043,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    },
+    {
+     "prime": 100006477,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 8
+    }
+   ],
+   "13": [
+    {
+     "prime": 100000007,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100000037,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100000073,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100000837,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100001087,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100001843,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100001887,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    },
+    {
+     "prime": 100002103,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 7
+    }
+   ],
+   "12": [
+    {
+     "prime": 100000543,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100000643,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100000687,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100001107,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100001147,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100001183,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100001203,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    },
+    {
+     "prime": 100001207,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 6
+    }
+   ],
+   "11": [
+    {
+     "prime": 100003151,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 5
+    },
+    {
+     "prime": 100003153,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 5
+    },
+    {
+     "prime": 100003157,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 5
+    },
+    {
+     "prime": 100003273,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 5
+    },
+    {
+     "prime": 100003301,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 5
+    },
+    {
+     "prime": 100003349,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 5
+    },
+    {
+     "prime": 100003381,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 5
+    },
+    {
+     "prime": 100003559,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 5
+    }
+   ],
+   "10": [
+    {
+     "prime": 100010401,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100010441,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100010489,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100014041,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100018001,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100018081,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100018409,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    },
+    {
+     "prime": 100018441,
+     "top_bottom": 2,
+     "side_side": 0,
+     "longest": 4
+    }
+   ]
+  }
+ },
+ "larger_grids": [
+  {
+   "grid": 4,
+   "samples": 20000,
+   "average_top_bottom": 0.31075,
+   "average_side_side": 0.42545,
+   "share_with_a_top_bottom_crossing": 0.2978,
+   "share_with_a_side_side_crossing": 0.3909,
+   "best_total": 3,
+   "best_prime": "5153191552417927",
+   "top_10_by_maze_score": [
+    {
+     "prime": "8856673763365447",
+     "score": 22,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 14
+    },
+    {
+     "prime": "1241899242190777",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "9432430300266433",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "9228765697528777",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "4126585503399547",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "1167403855184537",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "4955904043545187",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "8373351834161473",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "5192995987380541",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    },
+    {
+     "prime": "1120823939565119",
+     "score": 21,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 13
+    }
+   ]
+  },
+  {
+   "grid": 5,
+   "samples": 20000,
+   "average_top_bottom": 0.2072,
+   "average_side_side": 0.2623,
+   "share_with_a_top_bottom_crossing": 0.2005,
+   "share_with_a_side_side_crossing": 0.24905,
+   "best_total": 3,
+   "best_prime": "4555228733100963337755337",
+   "top_10_by_maze_score": [
+    {
+     "prime": "5515216637272691252135677",
+     "score": 30,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 20
+    },
+    {
+     "prime": "9155147678862870774049343",
+     "score": 28,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "1055615496088461343615843",
+     "score": 27,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "1755269002547120181111143",
+     "score": 27,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "9111487338508496554451077",
+     "score": 27,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "4555228733100963337755337",
+     "score": 27,
+     "top_bottom": 0,
+     "side_side": 3,
+     "longest": 12
+    },
+    {
+     "prime": "7251082540228371299021449",
+     "score": 27,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "6008606592990274128343771",
+     "score": 26,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 16
+    },
+    {
+     "prime": "4446695161016479019083111",
+     "score": 26,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 16
+    },
+    {
+     "prime": "1936085107867748714291873",
+     "score": 26,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 16
+    }
+   ]
+  },
+  {
+   "grid": 6,
+   "samples": 8000,
+   "average_top_bottom": 0.13925,
+   "average_side_side": 0.15675,
+   "share_with_a_top_bottom_crossing": 0.13625,
+   "share_with_a_side_side_crossing": 0.152125,
+   "best_total": 3,
+   "best_prime": "111973168512599940989050186584912733",
+   "top_10_by_maze_score": [
+    {
+     "prime": "111973168512599940989050186584912733",
+     "score": 32,
+     "top_bottom": 0,
+     "side_side": 3,
+     "longest": 14
+    },
+    {
+     "prime": "191262877277346779907345101071851803",
+     "score": 32,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 20
+    },
+    {
+     "prime": "367916195405200907743474000145851843",
+     "score": 31,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 19
+    },
+    {
+     "prime": "381167990500806460141478030284274147",
+     "score": 31,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 19
+    },
+    {
+     "prime": "622915551402879543599450486916830501",
+     "score": 30,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "237518839694190990794554205447991413",
+     "score": 30,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "123207221950064770561868698178742277",
+     "score": 30,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "274992206675925610994981067018993083",
+     "score": 30,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "260952903447319029187247630662168373",
+     "score": 29,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "153225074300534307659069215007243773",
+     "score": 29,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    }
+   ]
+  },
+  {
+   "grid": 8,
+   "samples": 3000,
+   "average_top_bottom": 0.05333333333333334,
+   "average_side_side": 0.05733333333333333,
+   "share_with_a_top_bottom_crossing": 0.052333333333333336,
+   "share_with_a_side_side_crossing": 0.056666666666666664,
+   "best_total": 2,
+   "best_prime": "4762988522926543603202221667349585196548017725018481987418601729",
+   "top_10_by_maze_score": [
+    {
+     "prime": "2238611048915162748892790208677136919515111187538077330288789483",
+     "score": 39,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 23
+    },
+    {
+     "prime": "5673879779689610825269849416942365192019114210014445816587710007",
+     "score": 37,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 21
+    },
+    {
+     "prime": "5714287792023978787914022860918332942194258574605868520624779527",
+     "score": 37,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 21
+    },
+    {
+     "prime": "4762988522926543603202221667349585196548017725018481987418601729",
+     "score": 34,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "6252725770656045799126896687639158892639214211355192008048190287",
+     "score": 34,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "3326926072205090967554098952058387116377570958235212013696198421",
+     "score": 34,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 18
+    },
+    {
+     "prime": "8376047090520552982198216013899058107381787329302738875276907733",
+     "score": 33,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "9955973378454991730275546556634071633040516550750135809161910737",
+     "score": 33,
+     "top_bottom": 0,
+     "side_side": 2,
+     "longest": 17
+    },
+    {
+     "prime": "4839225152706535316879078419503953506333108753288558583448367709",
+     "score": 33,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 17
+    },
+    {
+     "prime": "8077260815194636441022873711205819891870634086778768412413749223",
+     "score": 32,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 16
+    }
+   ]
+  },
+  {
+   "grid": 10,
+   "samples": 2000,
+   "average_top_bottom": 0.0145,
+   "average_side_side": 0.025,
+   "share_with_a_top_bottom_crossing": 0.0145,
+   "share_with_a_side_side_crossing": 0.025,
+   "best_total": 2,
+   "best_prime": "2550319676630158990321715893009120721373538387396796598640494501041594796470339383334759447497098761",
+   "top_10_by_maze_score": [
+    {
+     "prime": "2550319676630158990321715893009120721373538387396796598640494501041594796470339383334759447497098761",
+     "score": 42,
+     "top_bottom": 1,
+     "side_side": 1,
+     "longest": 22
+    },
+    {
+     "prime": "9615777119921314946676287002053396115196110951013773266594138226103398938140510913333008379692999851",
+     "score": 35,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 25
+    },
+    {
+     "prime": "3395177528377591128856839426638961850134436500142516986616566531461427955246622289379396078613308693",
+     "score": 34,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 24
+    },
+    {
+     "prime": "1460128780657141023511917903852003437046710484730953741678789758385547842887673510941569937954084167",
+     "score": 33,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 23
+    },
+    {
+     "prime": "9826597612290096493780494925925158115079147764035860762923833317508508904685352236006391490624059333",
+     "score": 33,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 23
+    },
+    {
+     "prime": "3283299169036092466264938650849262020676899586536840371837731404618555295882449252152155882898857763",
+     "score": 33,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 23
+    },
+    {
+     "prime": "3753924816163835427566948239563210925965123440111051219545349115072100924338144222727369966198050893",
+     "score": 33,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 23
+    },
+    {
+     "prime": "6896278384780454175415125044099517799073204527420584201666736358056623630243129315088216581638244931",
+     "score": 32,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 22
+    },
+    {
+     "prime": "4321558224664893542600672106550314414593659168636272281087148984719713899607791511278727246720787867",
+     "score": 32,
+     "top_bottom": 1,
+     "side_side": 0,
+     "longest": 22
+    },
+    {
+     "prime": "5860711760901491314021117244917701544050301254164851019687873455092616947520113646302723478830787037",
+     "score": 32,
+     "top_bottom": 0,
+     "side_side": 1,
+     "longest": 22
+    }
+   ]
+  },
+  {
+   "grid": 20,
+   "samples": 300,
+   "average_top_bottom": 0.0,
+   "average_side_side": 0.0,
+   "share_with_a_top_bottom_crossing": 0.0,
+   "share_with_a_side_side_crossing": 0.0,
+   "best_total": 0,
+   "best_prime": null,
+   "top_10_by_maze_score": []
+  }
+ ],
+ "big_grid_300": [
+  {
+   "source": "digits of the primes written in one row",
+   "door_shares_north_east_south_west": [
+    0.21,
+    0.393,
+    0.153,
+    0.245
+   ],
+   "share_of_inner_walls_open": 0.444,
+   "regions": 10541,
+   "largest_region": 298,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 73
+  },
+  {
+   "source": "one whole prime in each room",
+   "door_shares_north_east_south_west": [
+    0.0,
+    0.499,
+    0.0,
+    0.5
+   ],
+   "share_of_inner_walls_open": 0.356,
+   "regions": 26048,
+   "largest_region": 17,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 17
+  },
+  {
+   "source": "last digit of each prime",
+   "door_shares_north_east_south_west": [
+    0.0,
+    0.5,
+    0.0,
+    0.5
+   ],
+   "share_of_inner_walls_open": 0.358,
+   "regions": 25808,
+   "largest_region": 16,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 16
+  },
+  {
+   "source": "first digit of each prime",
+   "door_shares_north_east_south_west": [
+    0.19,
+    0.421,
+    0.196,
+    0.193
+   ],
+   "share_of_inner_walls_open": 0.5,
+   "regions": 323,
+   "largest_region": 8700,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 174,
+   "longest": 624
+  },
+  {
+   "source": "gap between neighboring primes",
+   "door_shares_north_east_south_west": [
+    0.426,
+    0.0,
+    0.574,
+    0.0
+   ],
+   "share_of_inner_walls_open": 0.378,
+   "regions": 22198,
+   "largest_region": 23,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 23
+  },
+  {
+   "source": "half of the gap between neighboring primes",
+   "door_shares_north_east_south_west": [
+    0.159,
+    0.287,
+    0.267,
+    0.287
+   ],
+   "share_of_inner_walls_open": 0.441,
+   "regions": 11593,
+   "largest_region": 68,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 31
+  },
+  {
+   "source": "random digits",
+   "door_shares_north_east_south_west": [
+    0.3,
+    0.3,
+    0.201,
+    0.199
+   ],
+   "share_of_inner_walls_open": 0.44,
+   "regions": 11803,
+   "largest_region": 72,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0,
+   "longest": 31
+  }
+ ],
+ "more_digits_in_each_room": [
+  {
+   "source": "digits of the primes written in one row",
+   "digits_in_each_room": 1,
+   "share_of_inner_walls_open": 0.444,
+   "regions": 10541,
+   "largest_region_share": 0.003,
+   "corner_to_corner": false,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0
+  },
+  {
+   "source": "digits of the primes written in one row",
+   "digits_in_each_room": 2,
+   "share_of_inner_walls_open": 0.684,
+   "regions": 114,
+   "largest_region_share": 0.995,
+   "corner_to_corner": false,
+   "top_bottom_crossings": 1,
+   "side_side_crossings": 1
+  },
+  {
+   "source": "digits of the primes written in one row",
+   "digits_in_each_room": 3,
+   "share_of_inner_walls_open": 0.819,
+   "regions": 11,
+   "largest_region_share": 1.0,
+   "corner_to_corner": true,
+   "top_bottom_crossings": 1,
+   "side_side_crossings": 1
+  },
+  {
+   "source": "random digits",
+   "digits_in_each_room": 1,
+   "share_of_inner_walls_open": 0.44,
+   "regions": 11811,
+   "largest_region_share": 0.001,
+   "corner_to_corner": false,
+   "top_bottom_crossings": 0,
+   "side_side_crossings": 0
+  },
+  {
+   "source": "random digits",
+   "digits_in_each_room": 2,
+   "share_of_inner_walls_open": 0.685,
+   "regions": 57,
+   "largest_region_share": 0.999,
+   "corner_to_corner": false,
+   "top_bottom_crossings": 1,
+   "side_side_crossings": 1
+  },
+  {
+   "source": "random digits",
+   "digits_in_each_room": 3,
+   "share_of_inner_walls_open": 0.825,
+   "regions": 5,
+   "largest_region_share": 1.0,
+   "corner_to_corner": true,
+   "top_bottom_crossings": 1,
+   "side_side_crossings": 1
+  }
+ ],
+ "built_tube_primes": {
+  "4": {
+   "prime": "5596677711161513",
+   "longest": 16,
+   "top_bottom": 1,
+   "side_side": 1,
+   "score": 24
+  },
+  "5": {
+   "prime": "9195623337995122777319117",
+   "longest": 25,
+   "top_bottom": 1,
+   "side_side": 1,
+   "score": 35
+  },
+  "6": {
+   "prime": "151512233773959512273737155196115191",
+   "longest": 36,
+   "top_bottom": 1,
+   "side_side": 1,
+   "score": 48
+  },
+  "8": {
+   "prime": "9991119667773377111155966337773355155592633333371515115299915911",
+   "longest": 64,
+   "top_bottom": 1,
+   "side_side": 1,
+   "score": 80
+  },
+  "10": {
+   "prime": "9999991992673377377711595555126373737777911159515223737733331519555112637337773319551551565191999991",
+   "longest": 100,
+   "top_bottom": 1,
+   "side_side": 1,
+   "score": 120
+  }
+ }
+}

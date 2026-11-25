@@ -33,27 +33,27 @@ for i in range(1, int(lim ** 0.5) // 2 + 1):
     if sv[i]:
         p = 2 * i + 1; sv[(p * p) // 2::p] = False
 T_score = T_long.astype(np.int64) + 3 * (T_tb.astype(np.int64) + T_lr.astype(np.int64))
-counts = np.zeros(4 ** 9, dtype=np.int64); total = 0; ex = {"tb3": [], "both": [], "best": []}; score_ex = {}
+counts = np.zeros(4 ** 9, dtype=np.int64); total = 0; ex = {"tb3": [], "lr3": [], "both": [], "best": []}; score_ex = {}
 CH = 25_000_000
 for a in range((10 ** 8) // 2, half, CH):
     idx = np.nonzero(sv[a:min(a + CH, half)])[0].astype(np.int64) + a
     pr = 2 * idx + 1; total += len(pr); code = np.zeros(len(pr), dtype=np.int64); q = pr.copy()
     for pos in range(8, -1, -1):
-        d = q % 10; q //= 10; code |= ((d - 1) % 4) << (2 * pos)
+        d = q % 10; q //= 10; code |= ((d - OFF) % 4) << (2 * pos)
     counts += np.bincount(code, minlength=4 ** 9)
     sc = T_score[code]
     for v in np.unique(sc)[-8:].tolist():
         if len(score_ex.setdefault(v, [])) < 8:
             sel = np.nonzero(sc == v)[0][:8 - len(score_ex[v])]
             score_ex[v] += [{"prime": int(pr[i]), "top_bottom": int(T_tb[code[i]]), "side_side": int(T_lr[code[i]]), "longest": int(T_long[code[i]])} for i in sel]
-    for key, mask in (("tb3", T_tb[code] == 3), ("both", (T_tb[code] >= 1) & (T_lr[code] >= 1) & (T_long[code] == 9))):
+    for key, mask in (("tb3", T_tb[code] == 3), ("lr3", T_lr[code] == 3), ("both", (T_tb[code] >= 1) & (T_lr[code] >= 1) & (T_long[code] == 9))):
         if len(ex[key]) < 12: ex[key] += pr[mask][:12 - len(ex[key])].tolist()
 del sv
 out["grid3"] = {"primes": int(total),
     "top_bottom_counts": {str(v): int(counts[T_tb == v].sum()) for v in range(4)},
     "side_side_counts": {str(v): int(counts[T_lr == v].sum()) for v in range(4)},
     "crossing_both_ways": int(counts[(T_tb >= 1) & (T_lr >= 1)].sum()),
-    "three_top_bottom_examples": ex["tb3"], "tube_that_crosses_both_ways_examples": ex["both"],
+    "three_top_bottom_examples": ex["tb3"], "three_side_side_examples": ex["lr3"], "tube_that_crosses_both_ways_examples": ex["both"],
     "tube_that_crosses_both_ways_count": int(counts[(T_tb >= 1) & (T_lr >= 1) & (T_long == 9)].sum())}
 vals = sorted({int(v) for v in np.unique(T_score[counts > 0])}, reverse=True)
 out["grid3"]["score_counts"] = {str(v): int(counts[T_score == v].sum()) for v in vals}
@@ -126,7 +126,7 @@ def tube_prime(k, rng):
     for i, room in enumerate(path):
         if i < ib: want[room] = toward(room, path[i + 1])
         elif i > ib: want[room] = toward(room, path[i - 1])
-    opts = {0: "159", 1: "26", 2: "37", 3: "480"}
+    opts = OPTS
     for _ in range(200000):
         ds = []
         for room in range(k * k):
@@ -143,4 +143,4 @@ for k in (4, 5, 6, 8, 10):
     s = tube_prime(k, r3); m = measure(digits_to_dirs(s), k); assert m["longest"] == k * k
     tb, lr = crossings(build(digits_to_dirs(s), k), k); tubes[str(k)] = {"prime": s, "longest": k * k, "top_bottom": tb, "side_side": lr, "score": k * k + k * (tb + lr)}
 out["built_tube_primes"] = tubes; print(tubes)
-json.dump(out, open("maze_test_results.json", "w"), indent=1)
+json.dump(out, open("maze_test_results%s.json" % SUF, "w"), indent=1)

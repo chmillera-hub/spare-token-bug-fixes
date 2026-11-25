@@ -2,6 +2,8 @@
 
 > **About this page:** One AI model (Claude) wrote this page on 25 November 2026 from a back and forth chat with the author of this repository. The author proposed the rule for the doors and the three scores and the idea of ranking primes by the scores. The chatbot wrote the programs and ran the counts. The counts are measurements from the programs in the folder boring-things/research-program-files/prime-mazes-scripts. A quick web search did not turn up this rule or these counts. The page proves nothing about primes. No other person has reviewed the page yet.
 
+> **A second version of the rule:** This page uses the version where 1 opens north. The page [maze-test-zero-north.md](maze-test-zero-north.md) repeats every count under the version where 0 opens north and compares the two versions.
+
 ## The rule
 
 Picture a square grid of rooms where every room starts with four closed doors. Each room reads one number and opens one door.
@@ -146,6 +148,7 @@ Each of these primes passed 30 rounds of a random-witness primality check and ma
 ## Files
 
 - [maze-animation.html](maze-animation.html) is the program that shows a grid being built one room at a time.
+- [maze-test-zero-north.md](maze-test-zero-north.md) repeats the counts under the version of the rule where 0 opens north and [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is the ranked list for that version.
 - [ranking-list.txt](ranking-list.txt) ranks all 1061 primes with 4 digits by maze score and gives the score counts for primes with 9 digits and the ten best primes found for larger grids.
 - [hallway-walk-findings.md](hallway-walk-findings.md) covers a second rule where each number is the length of a hallway.
 - The programs sit in boring-things/research-program-files/prime-mazes-scripts: door_grid.py (longest walks and corner to corner counts) and maze_test.py (crossings and maze scores and the grid of 300 by 300 rooms and the built primes) and ranking_list.py and draw_grids.py with grid_tools.py holding the shared parts.

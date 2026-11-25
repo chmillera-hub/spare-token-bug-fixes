@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1422,
- "total_bytes": 98408771,
+ "file_count": 1429,
+ "total_bytes": 98689746,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 9064,
+   "bytes": 9143,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -730,11 +730,20 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 1776,
+   "bytes": 2670,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/champion-primes-zero-north.png",
+   "title": "champion-primes-zero-north.png",
+   "bytes": 80552,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/champion-primes-zero-north.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/champion-primes-zero-north.png"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/champion-primes.png",
@@ -744,6 +753,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/champion-primes.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/champion-primes.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/door-grids-zero-north.png",
+   "title": "door-grids-zero-north.png",
+   "bytes": 85674,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/door-grids-zero-north.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/door-grids-zero-north.png"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/door-grids.png",
@@ -775,7 +793,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-animation.html",
    "title": "maze-animation.html",
-   "bytes": 16959,
+   "bytes": 19068,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html",
@@ -784,16 +802,34 @@
   {
    "path": "1-research-click-here-first/prime-mazes/maze-test-findings.md",
    "title": "The maze test: door grids made from the digits of primes",
-   "bytes": 12472,
+   "bytes": 12928,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-findings.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/maze-test-findings.md"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/maze-test-zero-north.md",
+   "title": "The maze test with 0 as north: door grids made from the digits of primes",
+   "bytes": 12052,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/ranking-list-zero-north.txt",
+   "title": "ranking-list-zero-north.txt",
+   "bytes": 65429,
+   "type": "txt",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/ranking-list-zero-north.txt",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/ranking-list-zero-north.txt"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/ranking-list.txt",
    "title": "ranking-list.txt",
-   "bytes": 65122,
+   "bytes": 65429,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/ranking-list.txt",
@@ -3556,7 +3592,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 11284,
+   "bytes": 11363,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
@@ -10747,7 +10783,7 @@
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/door_grid.py",
    "title": "door_grid.py",
-   "bytes": 5494,
+   "bytes": 5521,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/door_grid.py",
@@ -10763,9 +10799,18 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/door_grid_results.json"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/door_grid_results_zero_north.json",
+   "title": "door_grid_results_zero_north.json",
+   "bytes": 6941,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/door_grid_results_zero_north.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/door_grid_results_zero_north.json"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/draw_grids.py",
    "title": "draw_grids.py",
-   "bytes": 4142,
+   "bytes": 4740,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/draw_grids.py",
@@ -10774,7 +10819,7 @@
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/grid_tools.py",
    "title": "grid_tools.py",
-   "bytes": 3062,
+   "bytes": 4152,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/grid_tools.py",
@@ -10801,7 +10846,7 @@
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test.py",
    "title": "maze_test.py",
-   "bytes": 9594,
+   "bytes": 9646,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/maze_test.py",
@@ -10810,11 +10855,20 @@
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json",
    "title": "maze_test_results.json",
-   "bytes": 23568,
+   "bytes": 23772,
    "type": "json",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/maze_test_results_zero_north.json",
+   "title": "maze_test_results_zero_north.json",
+   "bytes": 23805,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results_zero_north.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/maze_test_results_zero_north.json"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results.json",
@@ -10826,9 +10880,18 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results.json"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results_zero_north.json",
+   "title": "ranking_extra_results_zero_north.json",
+   "bytes": 221,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results_zero_north.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/ranking_extra_results_zero_north.json"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/ranking_list.py",
    "title": "ranking_list.py",
-   "bytes": 3458,
+   "bytes": 3864,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/ranking_list.py",

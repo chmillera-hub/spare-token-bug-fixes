@@ -35,21 +35,25 @@ def two_door(seq):
     return adj
 panels = [
  ("digits of the primes written in one row", build([dir_of(int(c)) for c in stream[:need]], K)),
- ("one whole prime in each room (hallways run north and south)", build([dir_of(p) for p in P[:need]], K)),
- ("gap between neighboring primes (hallways run east and west)", build([dir_of(P[i + 1] - P[i]) for i in range(need)], K)),
+ ("one whole prime in each room (hallways run %s)" % ("east and west" if ZERO_NORTH else "north and south"), build([dir_of(p) for p in P[:need]], K)),
+ ("gap between neighboring primes (hallways run %s)" % ("north and south" if ZERO_NORTH else "east and west"), build([dir_of(P[i + 1] - P[i]) for i in range(need)], K)),
  ("first digit of each prime (bands)", build([dir_of(int(str(p)[0])) for p in P[:need]], K)),
  ("random digits", build([dir_of(r2.randrange(10)) for _ in range(need)], K)),
  ("digits of the primes with two digits in each room", two_door(stream)),
 ]
 fig, axs = plt.subplots(2, 3, figsize=(16.5, 11.4))
 for ax, (t, adj) in zip(axs.flat, panels): draw(ax, adj, K, t)
-fig.suptitle("Door grids of 40 by 40 rooms: each room reads a number and opens one door (1 north and 2 east and 3 south and 4 west and then the cycle repeats). The five largest regions are colored.", fontsize=11)
-fig.tight_layout(h_pad=3.0); fig.savefig("door-grids.png", dpi=95)
+fig.suptitle("Door grids of 40 by 40 rooms: each room reads a number and opens one door (%s and then the cycle repeats). The five largest regions are colored." % ("0 north and 1 east and 2 south and 3 west" if ZERO_NORTH else "1 north and 2 east and 3 south and 4 west"), fontsize=11)
+fig.tight_layout(h_pad=3.0); fig.savefig("door-grids%s.png" % DASH, dpi=95)
 
-res = json.load(open("maze_test_results.json"))
-champs = [("1019 (one hallway through all 4 rooms)", "1019", 2), ("3119 (two top-to-bottom crossings)", "3119", 2),
+res = json.load(open("maze_test_results%s.json" % SUF))
+first4 = [("1087 (one hallway through all 4 rooms)", "1087", 2), ("1013 (two side-to-side crossings)", "1013", 2),
+          ("102002003 (smallest 9 digit prime that makes one hallway through all 9 rooms)", "102002003", 3),
+          ("103111111 (three side-to-side crossings)", "103111111", 3)] if ZERO_NORTH else [
+          ("1019 (one hallway through all 4 rooms)", "1019", 2), ("3119 (two top-to-bottom crossings)", "3119", 2),
           ("100101299 (smallest 9 digit prime that makes one hallway through all 9 rooms)", "100101299", 3),
-          ("111111199 (three top-to-bottom crossings)", "111111199", 3),
+          ("111111199 (three top-to-bottom crossings)", "111111199", 3)]
+champs = first4 + [
           ("a 16 digit prime built to make one hallway", res["built_tube_primes"]["4"]["prime"], 4),
           ("a 25 digit prime built to make one hallway", res["built_tube_primes"]["5"]["prime"], 5),
           ("best of 20000 random 16 digit primes", res["larger_grids"][0]["top_10_by_maze_score"][0]["prime"], 4),
@@ -58,6 +62,6 @@ fig, axs = plt.subplots(2, 4, figsize=(16.5, 8.8))
 for ax, (t, s, k) in zip(axs.flat, champs):
     import textwrap
     draw(ax, build(digits_to_dirs(s), k), k, "\n".join(textwrap.wrap(t, 38)), digits=list(s))
-fig.suptitle("Primes on door grids: the digits fill the rooms row by row and each digit opens one door", fontsize=12)
-fig.tight_layout(); fig.savefig("champion-primes.png", dpi=95)
+fig.suptitle("Primes on door grids: the digits fill the rooms row by row and each digit opens one door" + (" (0 north and 1 east and 2 south and 3 west)" if ZERO_NORTH else ""), fontsize=12)
+fig.tight_layout(); fig.savefig("champion-primes%s.png" % DASH, dpi=95)
 print(champs[-2][1], champs[-1][1])
