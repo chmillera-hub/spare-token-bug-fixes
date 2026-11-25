@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
  "file_count": 1394,
- "total_bytes": 97825724,
+ "total_bytes": 97835840,
  "files": [
   {
    "path": ".gitignore",
@@ -2431,7 +2431,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 3137,
+   "bytes": 3204,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -2520,8 +2520,8 @@
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md",
-   "title": "What the word \"God\" points to: a word replacement test and four reflections",
-   "bytes": 11727,
+   "title": "What the word \"God\" points to: a word replacement test and eight reflections",
+   "bytes": 21776,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md",

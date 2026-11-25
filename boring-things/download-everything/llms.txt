@@ -209,7 +209,7 @@
 - [A request for small groups: a text message exchange](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md)
 - [Spiritual quotes and reflections](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/spiritual-quotes.md)
 - [The return at Times Square](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/times-square-return-story.md)
-- [What the word "God" points to: a word replacement test and four reflections](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md)
+- [What the word "God" points to: a word replacement test and eight reflections](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/word-god-replacement-test.md)
 - [Squad Rush game](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/squad-rush-game/README.md)
 - [Three needs](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/README.md)
 - [An AI model that can switch on free food or shelter for a person: what the design would need](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/three-needs/free-service-gate.md)
