@@ -1,0 +1,29 @@
+{
+ "light_directions": 1200,
+ "share_of_directions_with_a_lit_patch": 0.74,
+ "lit_patch_alone_miss_0.05": {
+  "pictures": 888,
+  "middle_uncertainty_degrees": 33.629142981761646,
+  "share_pinned_within_15_degrees": 0.36599099099099097,
+  "share_with_a_look_alike_more_than_30_degrees_away": 0.5326576576576577
+ },
+ "whole_shadow_miss_0.05": {
+  "pictures": 1200,
+  "middle_uncertainty_degrees": 1.2074182697257333e-06,
+  "share_pinned_within_15_degrees": 0.9783333333333334,
+  "share_with_a_look_alike_more_than_30_degrees_away": 0.0
+ },
+ "lit_patch_alone_miss_0.10": {
+  "pictures": 888,
+  "middle_uncertainty_degrees": 79.01612612135688,
+  "share_pinned_within_15_degrees": 0.17117117117117117,
+  "share_with_a_look_alike_more_than_30_degrees_away": 0.8040540540540541
+ },
+ "whole_shadow_miss_0.10": {
+  "pictures": 1200,
+  "middle_uncertainty_degrees": 12.407288609539068,
+  "share_pinned_within_15_degrees": 0.5566666666666666,
+  "share_with_a_look_alike_more_than_30_degrees_away": 0.11833333333333333
+ },
+ "lowest_overlap_between_right_handed_shadow_and_matching_left_handed_shadow": 0.9999204708127883
+}

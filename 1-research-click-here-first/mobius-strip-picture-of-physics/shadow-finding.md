@@ -100,6 +100,23 @@ An untwisted loop would give the same lit patch for every direction of tilt beca
 
 ![Light through the middle of a Mobius strip as the strip tilts](shadow-light-hole.png)
 
+## Result 7: reading the pose of the strip back from the light
+
+A reverse test took each picture and searched 1200 poses of the Mobius strip for every pose that makes the same picture within a miss of 5 parts in 100. The size and the proportions and the handedness of the strip were treated as known ahead of time.
+
+| Picture used | Poses pinned to within 15 degrees | Poses with a look-alike pose more than 30 degrees away |
+|---|---|---|
+| Lit patch through the middle alone | 37 out of 100 | 53 out of 100 |
+| Whole shadow | 98 out of 100 | 0 out of 100 |
+
+- The lit patch alone is a weak clue because the lit patch is a plain oval or leaf or lemon with no dents and many different poses make nearly the same plain oval.
+- The whole shadow is a strong clue because the outer outline carries the dents and the bulges and the off-center placing of the opening.
+- A blurrier match rule with a miss of 10 parts in 100 dropped the whole shadow from 98 poses pinned down to 56 poses pinned so a fuzzy shadow loses much of the advantage.
+
+The handedness of the half twist cannot be read from one shadow. A left-handed strip turned into the right pose casts exactly the same shadow as a right-handed strip because a shadow flattens everything along the direction of the light. Flipping the strip front to back along the light changes nothing on the wall while the flip turns a right-handed twist into a left-handed twist. The program checked twelve poses and the two shadows overlapped by 9999 parts in 10000 in every checked pose.
+
+One shadow therefore tells a watcher where each part of the strip sits across the wall which means left and right and up and down. One shadow does not tell the watcher which part of the strip is nearer to the light because the mirror-image strip with near and far swapped casts the same shadow. A second shadow from a different known direction settles the handedness because the two mirror candidates stop agreeing once the light moves. Watching the shadow change while the strip turns in a known direction settles the handedness the same way.
+
 ## What the results could mean for the ribbon picture
 
 A count of different shadows is a count of messages because a shape with 37 different shadows can tell a watcher which of 37 poses the shape is in from one shadow. A sphere can tell the watcher nothing because every pose gives the same disk. Shapes with many different shadows could therefore have more capacity for carrying information to the surroundings which fits the parts of the main document that compare ribbon structures with proteins because a protein needs a lopsided shape with pockets to tell one partner from another.
@@ -116,6 +133,7 @@ One prediction could fail. A knotted band should score above the Mobius strip an
 - The light was straight like sunlight. A lamp close to the shape would enlarge the near parts of the shadow and could change the counts.
 - Each wavy shape was tested at one wave height and one number of waves.
 - Shadows were drawn on a grid of 48 by 48 squares for comparing and 160 by 160 squares for finding openings and dents.
+- The reverse test used 1200 poses which sit about 6 degrees apart so the reverse test cannot see look-alike poses closer together than about 6 degrees.
 - No search for published studies of shadow counts was made.
 
 ## How to rerun the tests

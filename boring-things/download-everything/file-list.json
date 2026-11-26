@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1466,
- "total_bytes": 99781047,
+ "file_count": 1482,
+ "total_bytes": 100160277,
  "files": [
   {
    "path": ".gitignore",
@@ -613,7 +613,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 125373,
+   "bytes": 125699,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -649,7 +649,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 49373,
+   "bytes": 49432,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -658,7 +658,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 122346,
+   "bytes": 122509,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
@@ -681,6 +681,51 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/packing-test.md"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/shadow-all-mobius.png",
+   "title": "shadow-all-mobius.png",
+   "bytes": 43699,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-all-mobius.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-all-mobius.png"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/shadow-finding.md",
+   "title": "Shadow test: how many different shadows does a Mobius strip cast compared with a circle and a square and a cube?",
+   "bytes": 13022,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-finding.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-finding.md"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/shadow-light-hole.png",
+   "title": "shadow-light-hole.png",
+   "bytes": 71231,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-light-hole.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-light-hole.png"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/shadow-others.png",
+   "title": "shadow-others.png",
+   "bytes": 59679,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-others.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-others.png"
+  },
+  {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/shadow-wavy.png",
+   "title": "shadow-wavy.png",
+   "bytes": 76263,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-wavy.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/shadow-wavy.png"
   },
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/smallest-size-finding.md",
@@ -10851,6 +10896,105 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/pinch_off_handedness.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/pinch_off_handedness.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/README.md",
+   "title": "Programs behind the shadow test",
+   "bytes": 2058,
+   "type": "md",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/README.md"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light.py",
+   "title": "hole_light.py",
+   "bytes": 4595,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light_results.json",
+   "title": "hole_light_results.json",
+   "bytes": 84861,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/hole_light_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_full_gallery.py",
+   "title": "make_full_gallery.py",
+   "bytes": 1891,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_full_gallery.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_full_gallery.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_wavy_gallery.py",
+   "title": "make_wavy_gallery.py",
+   "bytes": 1173,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_wavy_gallery.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_wavy_gallery.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_results.json",
+   "title": "shadow_results.json",
+   "bytes": 3151,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_stretchproof.py",
+   "title": "shadow_stretchproof.py",
+   "bytes": 2218,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_stretchproof.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_stretchproof.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_variety.py",
+   "title": "shadow_variety.py",
+   "bytes": 8974,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_variety.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_variety.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/stretchproof_results.json",
+   "title": "stretchproof_results.json",
+   "bytes": 1077,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/stretchproof_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/stretchproof_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy.py",
+   "title": "wavy.py",
+   "bytes": 4114,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy_fine.py",
+   "title": "wavy_fine.py",
+   "bytes": 676,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy_fine.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/wavy_fine.py"
   },
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/smallest_paper_strip.py",
