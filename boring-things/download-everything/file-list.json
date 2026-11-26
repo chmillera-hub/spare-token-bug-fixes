@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
  "file_count": 1466,
- "total_bytes": 99731460,
+ "total_bytes": 99745204,
  "files": [
   {
    "path": ".gitignore",
@@ -613,7 +613,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 103816,
+   "bytes": 109817,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -649,7 +649,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 42837,
+   "bytes": 44582,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -658,7 +658,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 101171,
+   "bytes": 107169,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
