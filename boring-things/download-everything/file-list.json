@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-25",
- "file_count": 1482,
- "total_bytes": 100160277,
+ "file_count": 1485,
+ "total_bytes": 100175436,
  "files": [
   {
    "path": ".gitignore",
@@ -1261,7 +1261,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/README.md",
    "title": "Social media vibes",
-   "bytes": 39430,
+   "bytes": 39804,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/README.md",
@@ -1783,7 +1783,7 @@
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/README.md",
    "title": "Deep dives",
-   "bytes": 30899,
+   "bytes": 31262,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/README.md",
@@ -2220,6 +2220,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/meaning-after-role.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/meaning-after-role.md"
+  },
+  {
+   "path": "1-research-click-here-first/social-media-vibes/deep-dives/mind-as-enzyme.md",
+   "title": "The mind as a wall of locks and as one large enzyme: two reflections on why most incoming information is ignored",
+   "bytes": 8872,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/mind-as-enzyme.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/social-media-vibes/deep-dives/mind-as-enzyme.md"
   },
   {
    "path": "1-research-click-here-first/social-media-vibes/deep-dives/more-enemies-or-fewer.md",
@@ -10941,6 +10950,24 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_wavy_gallery.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/make_wavy_gallery.py"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_results.json",
+   "title": "reverse_results.json",
+   "bytes": 1110,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_results.json"
+  },
+  {
+   "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_test.py",
+   "title": "reverse_test.py",
+   "bytes": 4440,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_test.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/mobius-strip-calculations/shadow-test/reverse_test.py"
   },
   {
    "path": "boring-things/research-program-files/mobius-strip-calculations/shadow-test/shadow_results.json",
