@@ -1,0 +1,65 @@
+[
+ {
+  "name": "sphere",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 1,
+   "0.25": 1,
+   "0.35": 1
+  }
+ },
+ {
+  "name": "flat circle",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 1,
+   "0.25": 1,
+   "0.35": 1
+  }
+ },
+ {
+  "name": "flat square",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 1,
+   "0.25": 1,
+   "0.35": 1
+  }
+ },
+ {
+  "name": "cube",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 2,
+   "0.25": 2,
+   "0.35": 1
+  }
+ },
+ {
+  "name": "lumpy rock",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 6,
+   "0.25": 3,
+   "0.35": 2
+  }
+ },
+ {
+  "name": "untwisted loop",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 49,
+   "0.25": 16,
+   "0.35": 9
+  }
+ },
+ {
+  "name": "Mobius strip",
+  "shadows_cast": 2000,
+  "different_shadows_after_stretching_is_removed": {
+   "0.15": 120,
+   "0.25": 37,
+   "0.35": 16
+  }
+ }
+]

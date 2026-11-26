@@ -12,3 +12,5 @@ These ten small Python programs produced the computer checks mentioned in the do
 - spin_rate_for_mass.py works out the loop radius and the laps each second that a ribbon moving at the speed of light would need for the energy of the motion to equal the mass of each particle.
 - longer_strip_model.py gives each stretch of strip a fixed energy and compares the lap rates of one big loop and a coiled strip for atoms from hydrogen to uranium.
 - twist_joining.py joins left-handed and right-handed Mobius strips end to end and measures the sides and edges and edge winding of the joined band and the energy freed in a simple elastic model.
+
+The folder named shadow-test holds the programs behind the page named shadow-finding.md which counted the different shadows of a Mobius strip and six other shapes and traced the light that passes through the middle of a Mobius strip. The page named README.md inside the shadow-test folder says what each program does.

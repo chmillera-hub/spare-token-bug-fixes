@@ -4,7 +4,7 @@ November 11 2026 and updated November 15 2026 and November 16 2026
 
 ## Pages in this folder
 
-This page is the main document and the folder also holds nine shorter pages and two copies of the main document for downloading.
+This page is the main document and the folder also holds ten shorter pages and two copies of the main document for downloading.
 
 - [half-angle-finding.md](half-angle-finding.md) shows that the half-angle rate for entangled pairs comes out of evenly random directions in three dimensions and fails in two dimensions and overshoots in four or more dimensions.
 - [smallest-size-finding.md](smallest-size-finding.md) puts a number on the smallest paper Mobius strip which has to be more than 1.732 times as long as wide and folds down toward a flat triangle.
@@ -15,6 +15,7 @@ This page is the main document and the folder also holds nine shorter pages and 
 - [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
 - [twist-joining-finding.md](twist-joining-finding.md) reports a computer test that joined Mobius strips end to end and found that a left-handed strip and a right-handed strip cancel into a plain loop while two left-handed strips add into one locked full twist which matches the way electric charge adds.
 - [notebook-physics-ideas.md](notebook-physics-ideas.md) gathers physics ideas from an earlier notebook such as time as the equal sign between two snapshots of the universe and forces as density of context and black holes that throw out simple strips from the top and the bottom.
+- [shadow-finding.md](shadow-finding.md) reports computer tests that counted the different shadows of a sphere and a cube and a flat circle and a flat square and an untwisted loop and a Mobius strip such as a result where the Mobius strip cast 37 different shadows and kept all 37 after stretched copies were removed while the flat circle and the flat square dropped to 1.
 - [mobius-physics.txt](mobius-physics.txt) is a plain text copy of this document for copying into another program.
 - [mobius-physics.docx](mobius-physics.docx) is a word processor copy of this document.
 
@@ -489,3 +490,4 @@ Four shorter pages were added on November 12 2026 and each page tests one senten
 - [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
 - [twist-joining-finding.md](twist-joining-finding.md) reports a computer test that joined Mobius strips end to end and found that a left-handed strip and a right-handed strip cancel into a plain loop while two left-handed strips add into one locked full twist which matches the way electric charge adds.
 - [notebook-physics-ideas.md](notebook-physics-ideas.md) gathers physics ideas from an earlier notebook such as time as the equal sign between two snapshots of the universe and forces as density of context and black holes that throw out simple strips from the top and the bottom.
+- [shadow-finding.md](shadow-finding.md) reports computer tests that counted the different shadows of a sphere and a cube and a flat circle and a flat square and an untwisted loop and a Mobius strip such as a result where the Mobius strip cast 37 different shadows and kept all 37 after stretched copies were removed while the flat circle and the flat square dropped to 1.

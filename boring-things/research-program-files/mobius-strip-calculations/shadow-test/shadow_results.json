@@ -1,0 +1,168 @@
+[
+ {
+  "name": "sphere",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 1,
+   "0.25": 1,
+   "0.35": 1
+  },
+  "share_with_a_hole": 0.0,
+  "most_holes": 0,
+  "shadows_wide_enough_to_check_for_dents": 2000,
+  "share_with_a_dent": 0.0,
+  "deepest_dent_fill": 0.9936886395511921,
+  "hole_counts_seen": [
+   0
+  ]
+ },
+ {
+  "name": "flat circle",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 17,
+   "0.25": 9,
+   "0.35": 9
+  },
+  "share_with_a_hole": 0.0,
+  "most_holes": 0,
+  "shadows_wide_enough_to_check_for_dents": 1797,
+  "share_with_a_dent": 0.0,
+  "deepest_dent_fill": 0.935375777884155,
+  "hole_counts_seen": [
+   0
+  ]
+ },
+ {
+  "name": "flat square",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 78,
+   "0.25": 26,
+   "0.35": 13
+  },
+  "share_with_a_hole": 0.0,
+  "most_holes": 0,
+  "shadows_wide_enough_to_check_for_dents": 1772,
+  "share_with_a_dent": 0.0,
+  "deepest_dent_fill": 0.9525909592061742,
+  "hole_counts_seen": [
+   0
+  ]
+ },
+ {
+  "name": "cube",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 4,
+   "0.25": 2,
+   "0.35": 1
+  },
+  "share_with_a_hole": 0.0,
+  "most_holes": 0,
+  "shadows_wide_enough_to_check_for_dents": 2000,
+  "share_with_a_dent": 0.0,
+  "deepest_dent_fill": 0.9921630094043887,
+  "hole_counts_seen": [
+   0
+  ]
+ },
+ {
+  "name": "lumpy rock",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 21,
+   "0.25": 5,
+   "0.35": 2
+  },
+  "share_with_a_hole": 0.0,
+  "most_holes": 0,
+  "shadows_wide_enough_to_check_for_dents": 2000,
+  "share_with_a_dent": 0.0,
+  "deepest_dent_fill": 0.9792381296262863,
+  "hole_counts_seen": [
+   0
+  ]
+ },
+ {
+  "name": "untwisted loop",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 25,
+   "0.25": 11,
+   "0.35": 8
+  },
+  "share_with_a_hole": 0.6135,
+  "most_holes": 1,
+  "shadows_wide_enough_to_check_for_dents": 2000,
+  "share_with_a_dent": 0.5035,
+  "deepest_dent_fill": 0.053292995112869446,
+  "hole_counts_seen": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "Mobius strip",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 112,
+   "0.25": 37,
+   "0.35": 17
+  },
+  "share_with_a_hole": 0.731,
+  "most_holes": 1,
+  "shadows_wide_enough_to_check_for_dents": 2000,
+  "share_with_a_dent": 0.608,
+  "deepest_dent_fill": 0.46181585062905683,
+  "hole_counts_seen": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "Mobius strip with half as many light directions",
+  "shadows_cast": 1000,
+  "different_shadows": {
+   "0.15": 108,
+   "0.25": 36,
+   "0.35": 16
+  }
+ },
+ {
+  "name": "flat circle plus stretched circle",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 17,
+   "0.25": 9,
+   "0.35": 8
+  }
+ },
+ {
+  "name": "flat square plus stretched square",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 72,
+   "0.25": 26,
+   "0.35": 13
+  }
+ },
+ {
+  "name": "untwisted loop plus stretched and wider and narrower loops",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 110,
+   "0.25": 39,
+   "0.35": 20
+  }
+ },
+ {
+  "name": "Mobius strip plus stretched and wider and narrower Mobius strips",
+  "shadows_cast": 2000,
+  "different_shadows": {
+   "0.15": 355,
+   "0.25": 113,
+   "0.35": 43
+  }
+ }
+]
