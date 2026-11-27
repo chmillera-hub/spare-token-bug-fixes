@@ -2,6 +2,7 @@
 
 This folder holds scripture passages that the author of this repository collected together with the author's reflections on the passages.
 
+- [antichrist-as-behavior.md](antichrist-as-behavior.md) holds two reflections that read the word "Antichrist" as a pattern of behavior that withholds food and shelter and care from people and above all as harm carried out in the language of care.
 - [death-and-life-scores.md](death-and-life-scores.md) holds a question about whether a selection of scripture worships or fears or hates death plus two sets of scores out of 10 for how the selection treats death and life and two reflections on why the claim "life is superior to death" needs no hedge.
 - [garden-prayer-story.md](garden-prayer-story.md) holds a story in which Jesus heals the ear of a man in the arresting party and then speaks the whole prayer of John chapter 17 to the disciples while the soldiers stand watching with torches.
 - [hands-on-the-walls.md](hands-on-the-walls.md) holds an imagined scene in which Christ grips his aching chest and smirks through heartbreak and braces his hands against closing walls and then sends a watching witness out to share the pain with others plus three reflections on the scene.

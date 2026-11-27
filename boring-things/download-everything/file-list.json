@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-25",
- "file_count": 1485,
- "total_bytes": 100190928,
+ "built_on": "2026-11-27",
+ "file_count": 1486,
+ "total_bytes": 100198412,
  "files": [
   {
    "path": ".gitignore",
@@ -2719,11 +2719,20 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 3204,
+   "bytes": 3452,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/README.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/antichrist-as-behavior.md",
+   "title": "The Antichrist as a pattern of behavior: two reflections on what the word points to",
+   "bytes": 7236,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/antichrist-as-behavior.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/antichrist-as-behavior.md"
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/death-and-life-scores.md",
