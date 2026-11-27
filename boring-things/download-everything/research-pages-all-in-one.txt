@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-27 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 343 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 345 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -51,6 +51,8 @@ Every item in this folder is written for a person to read and the items are grou
 A phone game named Squad Rush runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/squad-rush-game/play.html
 
 A prime maze program runs in a web browser at this address and shows a maze being built one room at a time from the digits of primes: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+
+A door maze program with seven shapes of room runs in a web browser at this address and shows mazes on triangles and squares and hexagons and other shapes including pictures that grow from one room: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/shapes-animation.html
 
 A prime richness checker runs in a web browser at this address and reports how many primes the outputs of a typed equation contain compared with the number line: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
 
@@ -15573,18 +15575,24 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Prime mazes
 
-This folder holds experiments that turn the digits of prime numbers into mazes. The author of this repository proposed the rules and an AI model (Claude) wrote the programs and ran the counts on 25 November 2026 and no other person has rechecked the pages.
+This folder holds experiments that turn the digits of prime numbers into mazes. The author of this repository proposed the rules and an AI model (Claude) wrote the programs and ran the counts on 25 and 27 November 2026 and no other person has rechecked the pages.
 
 - [after-digit-changes.png](after-digit-changes.png) is a picture of four random numbers after single digit changes raised their scores.
 - [best-random-numbers.png](best-random-numbers.png) is a picture of the highest scoring random number found for five grid sizes.
 - [champion-primes-zero-north.png](champion-primes-zero-north.png) is a picture of eight primes drawn on door grids under the version of the rule where 0 opens north.
 - [champion-primes.png](champion-primes.png) is a picture of eight primes drawn on door grids with the digits inside the rooms.
+- [counting-on-large-squares.png](counting-on-large-squares.png) is a picture of the counting numbers on square grids of sizes 32 to 35.
+- [counting-on-small-squares.png](counting-on-small-squares.png) is a picture of the counting numbers on square grids of sizes 12 to 15.
+- [disappearing-squares.png](disappearing-squares.png) is a picture of the digits of pi on the ten sided grid where a square disappears when a large room picks a door into the square.
 - [door-grids-zero-north.png](door-grids-zero-north.png) is a picture of six grids of 40 by 40 rooms under the version of the rule where 0 opens north.
 - [door-grids.png](door-grids.png) is a picture of six grids of 40 by 40 rooms fed by different number sources.
 - [equal-digits-findings.md](equal-digits-findings.md) reports high scoring sequences that use all ten digits equally often: perfect grids for every size from 4 by 4 to 8 by 8 rooms and all 25200 repeating blocks of ten different digits and the equations (a*n + b) mod 10.
 - [equation-search-findings.md](equation-search-findings.md) reports an equation that uses the grid width and maxes every grid size from 2 by 2 to 12 by 12 rooms plus a search of 14589 equations that ignore the grid width where the best reached 47% of the possible total.
+- [growing-rooms.png](growing-rooms.png) is a picture of twelve pictures that grow from one room after 900 numbers each.
 - [hallway-walk-findings.md](hallway-walk-findings.md) reports a rule where each number is the length of a hallway and the walker turns right after each hallway: the digits of the primes written in one row drift 969 steps east because primes with 4 digits line up with the 4 directions.
 - [hallway-walks.png](hallway-walks.png) is a picture of eight hallway walks.
+- [hexagon-animation.html](hexagon-animation.html) is a program for a web browser that builds the door maze with hexagon rooms in place of square rooms and uses the same three part score.
+- [large-hexagons-counting.png](large-hexagons-counting.png) is a picture of the counting numbers on hexagon grids of sizes 30 to 35.
 - [master-challenge-findings.md](master-challenge-findings.md) scores sequences on the two circle test and the maze test together: a digit sequence that starts with a perfect maze and continues with the digits of pi scores 200 of 200 on the circles and maxes the maze at one or two grid sizes and the best equation for both tests is the whole part of the square root of 35 times n.
 - [max-score-points-list.md](max-score-points-list.md) ranks sequences by how many grid sizes from 2 by 2 to 12 by 12 rooms they max out with 1 point for each perfect grid: no fixed sequence earned more than 2 points and no sequence maxes 2 by 2 and 3 by 3 and 4 by 4 rooms together.
 - [maze-animation.html](maze-animation.html) is a program for a web browser: pick where the numbers are taken from and a grid size and press Play to watch each room open a door under the rule where 0 opens north and read the scores (the program marks the door each room opened and marks every spot on the outer wall where a player could enter and walk to the opposite side and keeps a running ranking of the mazes tried with a small copy of each maze and offers 41 example numbers and shows the three part score against the highest possible score).
@@ -15593,13 +15601,24 @@ This folder holds experiments that turn the digits of prime numbers into mazes. 
 - [multi-size-score-list.md](multi-size-score-list.md) lists which shapes and repeating blocks of doors and well known number sequences earn the highest total three part score across nine grid sizes from 2 by 2 to 10 by 10 rooms: the spiral and the zigzag reach 984 of 984 while the best repeating block of 7 doors or fewer reaches 402.
 - [neat-shapes-findings.md](neat-shapes-findings.md) lists the smallest primes that draw rows and columns and nested rings and spirals and staircases and combs and bricks and zigzags on grids up to 6 by 6 rooms.
 - [neat-shapes.png](neat-shapes.png) is a picture of ten primes that draw neat shapes.
+- [new-sequences.png](new-sequences.png) is a picture of ten runs with polynomial formulas and Fibonacci numbers and other added sequences.
+- [open-squares.png](open-squares.png) is a picture of eight runs on the eight sided grid and the ten sided grid where the squares start with every door open.
 - [patterns-summary.md](patterns-summary.md) is a summary of the patterns that stand out across all the maze tests and which of them come from how primes are written.
+- [pi-large-grids.png](pi-large-grids.png) is a picture of the digits of pi on squares and hexagons side by side at grid sizes 30 and 40.
+- [pi-small-grids.png](pi-small-grids.png) is a picture of the digits of pi on squares and hexagons side by side at grid sizes 12 and 20.
 - [random-search-findings.md](random-search-findings.md) reports a search of random numbers for the highest three part score on five grid sizes (a random number reached the highest possible 48 on 4 by 4 rooms) plus single digit changes that reached the highest possible score on grids up to 8 by 8 rooms and high scoring numbers for 10 by 10 and 12 by 12 rooms.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is a plain text ranking of primes by maze score under the version of the rule where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is a plain text ranking of primes by maze score under the version of the rule where 1 opens north.
+- [shape-grids-findings.md](shape-grids-findings.md) reports door mazes on other shapes of room: hexagons against squares (the counting numbers make exactly as many kinds of pattern as a room has doors) and five other shapes including the Einstein hat tile with 14 doors and pictures that grow from one room (whole primes on hexagons never step back) and four rules for the squares between large rooms and 25 added number sequences and towers that show repeat visits.
+- [shapes-animation.html](shapes-animation.html) is a program for a web browser that switches between seven shapes of room (triangles and squares and five sided rooms and hexagons and eight sided rooms and ten sided rooms and the Einstein hat tile) and between a fixed grid and a picture that grows from one room and offers 32 number sequences plus a box for typed digits and a landscape view where each room is a tower that rises with each visit.
+- [six-grids-pi.png](six-grids-pi.png) is a picture of the digits of pi on six shapes of room.
+- [small-hexagons-counting.png](small-hexagons-counting.png) is a picture of the counting numbers on hexagon grids of sizes 12 to 17.
 - [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks primes by a three part score (largest region plus longest walk plus 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side) under the version of the rule where 0 opens north: all 1061 primes with 4 digits in order and the score counts for all 45086079 primes with 9 digits (91720 tie at the highest score of 30) and the best of 20000 random primes for grids of 4 by 4 and 5 by 5 rooms.
+- [visit-towers.png](visit-towers.png) is a picture of eight growing runs drawn as stacks and as a landscape of towers.
 
 The maze program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+
+The program with seven shapes of room runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/shapes-animation.html
 
 ================================================================================
 FILE: 1-research-click-here-first/prime-mazes/equal-digits-findings.md
@@ -19034,6 +19053,122 @@ PRIMES BUILT ON PURPOSE to make one hallway through every room (the highest long
 10 by 10 rooms: 6222626627700440408426222626633880840480266622266370004804882666222627308480040462226222232266666621  score 120
 
 ================================================================================
+FILE: 1-research-click-here-first/prime-mazes/shape-grids-findings.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shape-grids-findings.md
+================================================================================
+
+# Questions about door mazes on other shapes of room and on pictures that grow
+
+> **About this page:** One AI model (Claude) wrote this page on 27 November 2026 from a back and forth chat with the author of this repository. The author proposed every test and every rule on this page: hexagon rooms in place of square rooms and counting numbers on both shapes and other shapes of room and the Einstein hat tile and pictures that grow from one room and squares that read no numbers and towers that show visits. The chatbot wrote the programs and ran the counts. The numbers are measurements from the program [shapes-animation.html](shapes-animation.html) in this folder and from the programs in the folder boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts. The outline of the hat tile is the published shape and the page claims no new result about the hat tile. No other person has reviewed the page or the programs yet.
+
+## The rule that every test shares
+
+Each room reads one number and opens one door. The doors of a room are counted clockwise starting from the door that points most nearly north. The count goes around again when the number is larger than the number of doors so a 7 in a room with 6 doors opens door 1.
+
+The three part score is the same score as on the square grid pages in this folder: the size of the largest region of connected rooms plus the number of rooms on the longest walk that never visits a room twice plus 1 point for each outside door where a player could enter and walk through to the opposite side of the grid.
+
+## What changes when the rooms are hexagons?
+
+The program [hexagon-animation.html](hexagon-animation.html) draws the same maze with hexagons. A hexagon has 6 doors so the digits 0 and 6 open the same door and so do 1 and 7 and 2 and 8 and 3 and 9. The digits 4 and 5 each have a door to themselves. The digits of pi on a hexagon grid of size 12 scored 45 of 336.
+
+The pictures [pi-small-grids.png](pi-small-grids.png) and [pi-large-grids.png](pi-large-grids.png) show the digits of pi on squares and on hexagons side by side for four grid sizes.
+
+## How many kinds of pattern do the counting numbers make?
+
+The counting numbers 1 2 3 4 make exactly as many kinds of pattern as a room has doors.
+
+- On hexagons there are 6 kinds. The kind depends on the remainder when the length of a row is divided by 6.
+- On squares there are 4 kinds. The kind depends on the remainder when the length of a row is divided by 4.
+- The kinds fall into three families on both shapes. A row length that is a multiple of the number of doors gives vertical bands because every room in a column opens the same door. A row length that is one more or one less than a multiple gives diagonal bands because the door shifts by one from each row to the next. Every other row length gives small closed tiles.
+
+The pictures [small-hexagons-counting.png](small-hexagons-counting.png) and [large-hexagons-counting.png](large-hexagons-counting.png) show hexagon grids of sizes 12 to 17 and 30 to 35. The pictures [counting-on-small-squares.png](counting-on-small-squares.png) and [counting-on-large-squares.png](counting-on-large-squares.png) show square grids of sizes 12 to 15 and 32 to 35.
+
+## Do hexagons score higher than squares on random digits?
+
+Yes in most trials. A hexagon grid beat a square grid of the same size in 63% to 83% of trials with random digits across grid sizes from 12 to 60 when both were scored as a percentage of the highest possible score. One likely reason is that a room with more doors has more neighbors to join.
+
+## Which other shapes of room were tried?
+
+The program [shapes-animation.html](shapes-animation.html) switches between seven shapes.
+
+- Triangles with 3 doors.
+- Squares with 4 doors.
+- Five sided rooms with 5 doors in the pattern known as the Cairo tiling.
+- Hexagons with 6 doors.
+- Eight sided rooms with squares between them.
+- Ten sided rooms with squares between them. No flat grid can give every room ten neighbors because the average number of neighbors in a flat grid cannot go above 6. So a large room here is an eight sided outline where two of the slanted sides hold two doors each.
+- The Einstein hat tile with 13 sides. One side is twice as long as the short sides and holds two doors so a hat has 14 doors.
+
+Average scores for random digits at grid size 12 as a percentage of the highest possible score: triangles 8.8% and squares 10.1% and five sided rooms 10.5% and hexagons 11.6% and the eight sided mix 13.9% and the ten sided mix 13.7%. These averages come from the first version of the ten sided grid where each square was cut into two halves. The picture [six-grids-pi.png](six-grids-pi.png) shows the digits of pi on the six grids.
+
+## What happens when the picture grows from one room?
+
+The author proposed a second mode. The picture starts with one room. Each number picks a door of the room where the walk stands. A new room appears behind the door when the space is empty and the walk steps into the new room. When an old room already sits behind the door the door opens and the walk steps into the old room.
+
+For the hat tile a new hat can often sit against a door in several ways. The number divided by 14 with the remainder dropped picks one way from the list of ways that do not overlap any hat. A step where no hat fits leaves the picture unchanged. The program checked that every hat covers exactly 8 small kites and that no two hats overlap in every run.
+
+Findings from 3600 numbers unless a line says otherwise:
+
+- Counting numbers freeze on most shapes because the doors get picked in clockwise order which walks the path around a small circle. The picture stops at 4 rooms on triangles and 4 on squares and 5 on five sided rooms and 6 on hexagons and 44 on hat tiles.
+- Whole primes on squares make a flat line of 34 rooms because every prime after 2 is odd so only the east door and the west door get picked.
+- Whole primes on hexagons never step back because every prime after 3 leaves a remainder of 1 or 5 when divided by 6 and both of those doors point upward. The result is 3599 rooms in one thin zigzag column.
+- Prime gaps on squares make a straight vertical line of 683 rooms because every gap after the first is even.
+- Prime gaps on hexagons stay inside a strip 7 units wide and 650 units tall. A likely reason is that a gap with remainder 2 and a gap with remainder 4 must take turns.
+- Digits of pi and random digits make wandering clusters with many loops on every shape.
+- Whole primes on hat tiles grow a long ribbon of 1863 hats and 927 of those hats are mirrored. The chatbot did not work out why the ribbon leans one way.
+- Prime gaps on hat tiles make a thin chain of 2328 hats and only 117 of those hats are mirrored.
+
+The picture [growing-rooms.png](growing-rooms.png) shows twelve growing pictures after 900 numbers each.
+
+## What should happen to the squares between the large rooms?
+
+The author tried four rules for the squares on the eight sided grid and the ten sided grid.
+
+- **Squares read numbers like any room.** Digits of pi on a grid of size 12 scored 31 of 258 on the eight sided grid and 48 of 258 on the ten sided grid.
+- **Squares read no numbers and start with every door open.** The whole grid is one region before the first number is read so two of the three score parts stop measuring anything. The picture [open-squares.png](open-squares.png) shows this rule.
+- **Squares read no numbers and start with every door closed.** The scores drop to about 5% because the squares stop opening doors.
+- **Squares read no numbers and a square disappears when a large room picks a door into the square.** A square that has disappeared keeps every door open. The scores land in a middle range that still differs from one sequence to the next. The picture [disappearing-squares.png](disappearing-squares.png) shows the digits of pi on the ten sided grid under this rule.
+
+The author then set one more rule for the longest walk: a square that reads no numbers is not a step of the walk. A walk passes from one large room straight to another large room when a square joins the two rooms. The highest possible score on a grid of size 12 is then 209 which is 113 rooms for the largest region plus 64 large rooms for the longest walk plus 32 outside doors.
+
+Scores on a grid of size 12 under the disappearing rule with the walk rule (each score is a lower bound because the search for the longest walk ran out of time):
+
+- Digits of pi: 132 of 209 on the eight sided grid and 146 of 209 on the ten sided grid.
+- Digits of the primes written in one row: 157 and 177.
+- Whole primes: 169 and 157.
+- Counting numbers: 156 and 166.
+- Prime gaps: 47 and 172. The eight sided score is low because even numbers pick only the straight doors on that grid so no square ever disappears.
+- Random digits averaged 63.1% on the eight sided grid and 66.9% on the ten sided grid over 100 runs each.
+
+## Which new number sequences were added?
+
+The program offers 25 more sequences: seven polynomial formulas and the terms of sums such as the Fibonacci numbers and the factorials and the Catalan numbers and the partition numbers plus Collatz step counts and divisor counts and the Recaman sequence and the digits of e and of the square root of 2 and of the golden ratio. A term too large for the program to hold exactly is replaced by the remainder after dividing by 10090080 because that remainder picks the same door in a room with any number of doors from 1 to 16.
+
+- x squared on a square grid makes clean vertical stripes because a square number leaves a remainder of 0 or 1 when divided by 4.
+- A formula whose values are all odd (such as x squared plus x plus 41) freezes at 2 or 3 rooms on growing squares and never steps back on growing hexagons.
+- A formula with many even values (such as x squared) does the reverse: one straight line of 3601 squares and a freeze at 4 rooms on hexagons.
+- Fibonacci numbers on growing squares make one flat line of 2401 rooms because the remainders of the Fibonacci numbers repeat in a short cycle.
+- Collatz step counts on growing squares make a web of thin corridors with 2340 rooms.
+- The Recaman sequence on growing hexagons makes a compact cluster of 203 rooms because the walk keeps stepping back into old rooms.
+
+The picture [new-sequences.png](new-sequences.png) shows ten of these runs.
+
+## How are repeat visits shown?
+
+A room in a growing picture can be visited many times. The author asked for stacks and for a view like a landscape. The stacks view draws one more outline for each visit. The landscape view tilts the picture and draws each room as a tower whose height is the number of visits. A number on top shows the true count once a stack stops rising. In 1600 terms of the Recaman sequence on hexagons the most visited room was visited 52 times. The picture [visit-towers.png](visit-towers.png) shows eight runs.
+
+## How does this connect to food and shelter and deep human connection?
+
+A door maze does not feed or house anyone. The tie is in the method. One person with no training in mathematics asked plain questions and each answer was posted where anyone can read the answer for free. A reader who wonders about the same patterns can find the work already done and spend the saved time and money on meals or rent or on a long conversation with another person.
+
+## What was not checked
+
+- No other person has rerun the programs.
+- The longest walk is a lower bound on grids with many loops because the search stops after 4 million tries.
+- The choice among several hat placements uses the remainder trick only up to 16 placements and the chatbot did not confirm that more than 16 placements never occur for very large terms.
+- The chatbot looked at the pictures as screenshots and did not view this page as shown on the GitHub site.
+
+================================================================================
 FILE: 1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md
 DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md
 ================================================================================
@@ -20401,10 +20536,11 @@ This folder holds computer counts of how often prime numbers show up in the outp
 - [term-questions.md](term-questions.md) continues the questions and answers with a circle where the arrow lands on each term itself after full turns are removed: the counting numbers reach every mark and the primes reach only 99 of 360 marks and the primes fill a circle only when the number of marks is a prime and how the blocked marks show the sieve as a picture.
 - [rank-questions.md](rank-questions.md) continues the questions and answers with a ranking of 32 sums by how well each sum fills a circle under both rules on every circle size from 2 to 5000 marks: four ways of scoring and the five sums that fill everything (1 − 2 + 3 − 4 is the fastest) and why a predictable sum can fill a circle as well as the primes and how the digits of e and the golden ratio and square roots score.
 - [block-questions.md](block-questions.md) continues the questions and answers on the two circles: digits read in blocks sized to the circle (the digits of pi go from 101.4 to 200 out of 200) and 34 polynomials (none beats plain x) and sequences from the Collatz rule (a Collatz path avoids multiples of 3) and starting a sequence over when the sequence ends and what the sequences with the highest and lowest scores have in common.
+- [random-questions.md](random-questions.md) continues the questions and answers: random sequences on the two circles (200 out of 200 when the range is wider than the circle) and the sequence 0 + 1 − 2 + 3 − 4 that fills both circles in exactly N steps on every even circle size and three patterns of the primes on the literal circle and the slow growing sum of one over the height of each zeta zero (3.53295 for the 4520 zeros below height 5000) and how the count of zeros passes the count of composite numbers near 3820.
 - [takes-on-circle-tests.md](takes-on-circle-tests.md) is a short reflection by the chatbot on the circle tests so far: what the two-circle test measures (divisibility habits and not randomness) and how each rule change removed an unfair penalty and what is known mathematics against what is a new record and three loose ends and the weak points.
 - [two-prime-sums.md](two-prime-sums.md) counts the ways each even number up to 16 million is a sum of two primes: the last even number with fewer than 100 ways (11672) and fewer than 1000 ways (195368) and the lowest count in each range against the simple formula (the real count runs about 1.14 times the formula) and the counts for powers of 2 plus timings for checking a prime against finding a prime plus quick reference facts and untested ideas about how much knowing an answer lowers the work of solving.
 - [spin-animation.html](spin-animation.html) is an animation program for a web browser that goes with spin-questions.md and term-questions.md and rank-questions.md and block-questions.md: pick one of 107 sequences (every sequence from the rankings on rank-questions.md and the digit blocks and polynomials and Collatz sequences from block-questions.md) and a number of marks on a circle and press Play to see which marks get hit. Two circles side by side show the cumulative rule (each term moves the arrow so the arrow shows the running total) and the literal rule (the arrow lands on the term itself).
-- [all-questions.txt](all-questions.txt) is one plain text file that joins the fifteen questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md) so a reader can copy the whole discussion at once.
+- [all-questions.txt](all-questions.txt) is one plain text file that joins the sixteen questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md and random-questions.md) so a reader can copy the whole discussion at once.
 - [ranked-list.md](ranked-list.md) is a master list that ranks 723 equations and running sums and other recipes from the most primes down to no primes (−100%). Each line shows how many outputs were tested and the share of the outputs that were prime and the wobble on the percentage and the odds that plain luck explains the result.
 - [grouped-list.md](grouped-list.md) holds the same 723 lines sorted into 35 groups by type (such as equations that start with n² or sums and running totals or digit tricks or recipes built from π) with a ranking inside each group.
 - [equation-list.md](equation-list.md) ranks 86 equations by how many primes the outputs contain and gives the raw counts and the reason for each percentage where a reason is known.
@@ -24290,6 +24426,110 @@ The count of primes needed (3 and 59 and 361139) follows the pattern loosely bec
 - The primes 2 and 3 and 5 and 7 account for 1.176 of the average count of prime pieces so blocking those few primes removes a large share of the ways an output can fail to be prime.
 - Blocking a band of larger primes removes about the same one piece no matter how many primes the band holds which is why the gain from blocking all primes up to p grows only like the natural logarithm of p.
 - A recipe's outputs that are prime are the outputs whose stick is a single piece.
+
+================================================================================
+FILE: 1-research-click-here-first/prime-richness/random-questions.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/random-questions.md
+================================================================================
+
+# Questions about random sequences and the fewest steps and the zeta zeros
+
+> **About this page:** One AI model (Claude) wrote this page on 27 November 2026 from a back and forth chat with the author of this repository that ran from 23 to 27 November 2026. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The page continues the fifteen earlier question pages in this folder (the last one is [block-questions.md](block-questions.md)). The scores and counts are measurements from the programs in the folder boring-things/research-program-files/prime-richness-scripts/random-scripts. The facts about the zeta zeros are standard mathematics and the page claims no new result. No other person has reviewed the page yet.
+
+## The two circles and the score
+
+A sequence of whole numbers feeds two circles one term at a time. On the "cumulative" circle each term moves the arrow that many marks so the arrow shows the running total. On the "literal" circle the arrow lands on the mark with the same number as the term after full turns are removed. Each test uses every circle size from 2 marks to 5000 marks. The score is the average share of the cumulative circle reached plus the average share of the literal circle reached so a perfect score is 200. Each sequence got 30 steps for each mark.
+
+## How does a random sequence of numbers do on the two circles?
+
+A random sequence scores 200 when the range of the random numbers is wider than the largest circle. The score falls when the range is narrow because the literal circle can only be hit on marks that the range reaches.
+
+- Random whole numbers from 0 to 9999: 200.0 on each of three runs.
+- Random whole numbers from 0 to 999999: 200.0.
+- Random primes below 1000000: 160.9 because the primes skip every mark that shares a factor with the circle size.
+- Random multiples of 3 from 0 to 999999: 155.6.
+- Random whole numbers from 0 to 999: 152.2.
+- Random even numbers from 0 to 999998: 150.0.
+- Random whole numbers from 0 to 99: 109.8.
+- Random whole numbers from 0 to 9: 101.4 because the literal circle only ever sees the marks 0 to 9.
+- A random choice of +1 or −1: between 21.3 and 27.7 because the arrow on the cumulative circle wanders back and forth and covers only 13.1% of a circle with 5000 marks in 150000 steps.
+
+Random digits from 0 to 9 reach 200.0 when the digits are read in blocks sized to the circle which is the block rule on [block-questions.md](block-questions.md).
+
+## Is a perfect score on 4999 circle sizes strong evidence that every circle size would be filled?
+
+A perfect score on every size from 2 to 5000 is good evidence for those sizes and weak evidence by itself for every size beyond 5000. A measurement on a finite list of sizes cannot settle a claim about every size because a sequence can have a habit that only shows on a size nobody tested. A claim about every size needs an argument about the rule of the sequence. The next answer has a rule where the reason is visible.
+
+## Which rule fills both circles in the fewest steps?
+
+The sequence 0 + 1 − 2 + 3 − 4 fills both circles in exactly N steps on every even circle size N from 2 to 5000. N steps is the fewest possible because each step can mark at most one new mark on each circle.
+
+- On the literal circle the terms 0 and 1 and −2 and 3 and −4 land on a new mark each time.
+- On the cumulative circle the running totals are 0 then 1 then −1 then 2 then −2 so the arrow swings one mark farther out on alternate sides.
+- Without the 0 in front the sequence 1 − 2 + 3 − 4 needs 2N − 1 steps on the cumulative circle (19 steps on 10 marks and 719 steps on 360 marks).
+- On an odd circle size the sequence with the 0 in front fills the cumulative circle in N steps and takes about one and a half times N steps on the literal circle (17 steps on 11 marks and 542 steps on 361 marks).
+- A search of every possible sequence on small circles found that the fewest steps for both circles together is 2 on 2 marks and 4 on 3 marks and 4 on 4 marks and 6 on 5 marks and 6 on 6 marks and 8 on 7 marks. So an odd size N needed N + 1 steps in every case tried.
+
+## Do the primes show patterns on the literal circle?
+
+Yes. Three patterns showed up for the 5761455 primes below 100 million.
+
+**The primes avoid marks that share a factor with the circle size.** On 360 marks only 96 marks can ever be hit by a prime larger than 5.
+
+**Some open marks stay slightly ahead.** A mark that is the square of another open mark gets slightly fewer primes.
+
+- On 4 marks: mark 3 got 2880950 primes and mark 1 got 2880504 and mark 3 was ahead after 99.96% of the primes.
+- On 3 marks: mark 2 got 2880937 primes and mark 1 got 2880517.
+- On 10 marks: mark 3 beat mark 1 by 176 and mark 7 beat mark 9 by 309.
+- On 8 marks: marks 3 and 5 and 7 all beat mark 1 by between 436 and 574.
+- On 360 marks: the 6 open marks that are squares averaged 59941.2 primes and the other 90 open marks averaged 60020.1.
+
+This lean is a known effect in the study of primes and the page only measures the effect.
+
+**Two primes in a row avoid landing on the same mark.**
+
+- On 10 marks an even spread would repeat the mark 25.00% of the time and the primes repeat 17.18% of the time.
+- On 3 marks an even spread would repeat 50.00% of the time and the primes repeat 43.89% of the time.
+- On 30 marks an even spread would repeat 12.50% of the time and the primes repeat 4.43% of the time.
+- After a prime that ends in 1 the next prime ends in 1 only 17.7% of the time and ends in 3 in 30.39% and ends in 7 in 31.03% and ends in 9 in 20.87%.
+- The avoidance fades slowly as the primes grow: 11.85% repeats for primes below 10000 and 15.35% below 1000000 and 17.18% below 100000000.
+
+This avoidance is also a known effect and the page only measures the effect.
+
+## What is the sum of one over the height of each zero of the zeta function?
+
+The sum of 1 divided by the height of each zero on the critical line grows without limit and grows very slowly. The program found 4520 zeros below height 5000 which matches the standard counting formula (about 4520.3).
+
+- The sum over the first 10 zeros is 0.33655.
+- The sum over the first 100 zeros is 1.03114.
+- The sum over the first 1000 zeros is 2.32103.
+- The sum over all 4520 zeros below height 5000 is 3.53295.
+- The sum tracks the square of the natural logarithm of (height divided by 2π) divided by 4π with a steady gap near −0.017.
+- By that formula the sum reaches 5 near a height of 2π times e to the power 7.9 and reaches 10 near 2π times e to the power 11.2.
+
+The sum of 1 divided by the square of each height does settle on a limit. The closely related sum of 1 divided by (one quarter plus the height squared) has the known exact value 1 + 0.5772/2 − ln(4π)/2 = 0.0230957 where 0.5772 is the Euler constant. The program reached 0.0230924 from 4520 zeros plus an estimate for the rest.
+
+## How does the number of zeros compare with the number of primes and composites?
+
+The zeros get more crowded with height while the primes get more spread out.
+
+- Near height 20 the average gap between zeros is about 5.43 and near height 5000 the gap is about 0.94.
+- The count of zeros below height T is close to the natural logarithm of the factorial of (T divided by 2π).
+- Near 1000 there are about 0.807 zeros for each unit of height and about 0.145 primes for each unit of the number line and about 0.855 composite numbers.
+- The count of zeros below T passes the count of primes below T at T = 86 and stays ahead.
+- The count of zeros below T passes the count of composite numbers below T near T = 3820 (3291 zeros against 3290 composites at T = 3821). The zeros stay ahead after that because the zeros keep getting denser while the composites can never exceed one for each whole number.
+
+The link between the two lists is the known explicit formula: each zero adds one wave to the count of primes and the height of the zero sets how fast that wave wiggles.
+
+## How does this connect to food and shelter and deep human connection?
+
+None of these counts feeds or houses a person. The tie is that the answers sit in public for free so a person who asks the same question does not have to pay for the answer or spend hours finding the answer. The hours saved can go toward a meal or toward rent or toward sitting with another person and hearing what is on that person's heart.
+
+## What was not checked
+
+- No other person has rerun the programs.
+- The zeros were found by a fast method that looks for sign changes and the count matches the standard formula. The program did not prove that no zero was missed.
+- The two prime effects are named in the research literature and the chatbot did not compare the measured sizes against published predictions.
 
 ================================================================================
 FILE: 1-research-click-here-first/prime-richness/rank-questions.md
@@ -48629,14 +48869,32 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/prime-mazes/champion-primes.png (79328 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/champion-primes.png
 
+1-research-click-here-first/prime-mazes/counting-on-large-squares.png (105992 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/counting-on-large-squares.png
+
+1-research-click-here-first/prime-mazes/counting-on-small-squares.png (250863 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/counting-on-small-squares.png
+
+1-research-click-here-first/prime-mazes/disappearing-squares.png (16691 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/disappearing-squares.png
+
 1-research-click-here-first/prime-mazes/door-grids-zero-north.png (85674 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/door-grids-zero-north.png
 
 1-research-click-here-first/prime-mazes/door-grids.png (85860 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/door-grids.png
 
+1-research-click-here-first/prime-mazes/growing-rooms.png (141855 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/growing-rooms.png
+
 1-research-click-here-first/prime-mazes/hallway-walks.png (198200 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png
+
+1-research-click-here-first/prime-mazes/hexagon-animation.html (32240 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hexagon-animation.html
+
+1-research-click-here-first/prime-mazes/large-hexagons-counting.png (469776 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/large-hexagons-counting.png
 
 1-research-click-here-first/prime-mazes/maze-animation.html (30474 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html
@@ -48644,7 +48902,31 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/prime-mazes/neat-shapes.png (112525 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes.png
 
-1-research-click-here-first/prime-richness/all-questions.txt (250948 bytes)
+1-research-click-here-first/prime-mazes/new-sequences.png (377408 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/new-sequences.png
+
+1-research-click-here-first/prime-mazes/open-squares.png (202739 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/open-squares.png
+
+1-research-click-here-first/prime-mazes/pi-large-grids.png (274670 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-large-grids.png
+
+1-research-click-here-first/prime-mazes/pi-small-grids.png (257498 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-small-grids.png
+
+1-research-click-here-first/prime-mazes/shapes-animation.html (63041 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shapes-animation.html
+
+1-research-click-here-first/prime-mazes/six-grids-pi.png (332711 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/six-grids-pi.png
+
+1-research-click-here-first/prime-mazes/small-hexagons-counting.png (532681 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/small-hexagons-counting.png
+
+1-research-click-here-first/prime-mazes/visit-towers.png (112194 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/visit-towers.png
+
+1-research-click-here-first/prime-richness/all-questions.txt (259864 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt
 
 1-research-click-here-first/prime-richness/checker.html (21845 bytes)

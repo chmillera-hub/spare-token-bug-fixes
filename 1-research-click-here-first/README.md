@@ -42,6 +42,8 @@ A phone game named Squad Rush runs in a web browser at this address: https://chm
 
 A prime maze program runs in a web browser at this address and shows a maze being built one room at a time from the digits of primes: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
 
+A door maze program with seven shapes of room runs in a web browser at this address and shows mazes on triangles and squares and hexagons and other shapes including pictures that grow from one room: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/shapes-animation.html
+
 A prime richness checker runs in a web browser at this address and reports how many primes the outputs of a typed equation contain compared with the number line: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-richness/checker.html
 
 A live page with sliders runs the word evolution experiment in a web browser at this address: https://htmlpreview.github.io/?https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/word-evolution/live-program.html

@@ -1,17 +1,23 @@
 # Prime mazes
 
-This folder holds experiments that turn the digits of prime numbers into mazes. The author of this repository proposed the rules and an AI model (Claude) wrote the programs and ran the counts on 25 November 2026 and no other person has rechecked the pages.
+This folder holds experiments that turn the digits of prime numbers into mazes. The author of this repository proposed the rules and an AI model (Claude) wrote the programs and ran the counts on 25 and 27 November 2026 and no other person has rechecked the pages.
 
 - [after-digit-changes.png](after-digit-changes.png) is a picture of four random numbers after single digit changes raised their scores.
 - [best-random-numbers.png](best-random-numbers.png) is a picture of the highest scoring random number found for five grid sizes.
 - [champion-primes-zero-north.png](champion-primes-zero-north.png) is a picture of eight primes drawn on door grids under the version of the rule where 0 opens north.
 - [champion-primes.png](champion-primes.png) is a picture of eight primes drawn on door grids with the digits inside the rooms.
+- [counting-on-large-squares.png](counting-on-large-squares.png) is a picture of the counting numbers on square grids of sizes 32 to 35.
+- [counting-on-small-squares.png](counting-on-small-squares.png) is a picture of the counting numbers on square grids of sizes 12 to 15.
+- [disappearing-squares.png](disappearing-squares.png) is a picture of the digits of pi on the ten sided grid where a square disappears when a large room picks a door into the square.
 - [door-grids-zero-north.png](door-grids-zero-north.png) is a picture of six grids of 40 by 40 rooms under the version of the rule where 0 opens north.
 - [door-grids.png](door-grids.png) is a picture of six grids of 40 by 40 rooms fed by different number sources.
 - [equal-digits-findings.md](equal-digits-findings.md) reports high scoring sequences that use all ten digits equally often: perfect grids for every size from 4 by 4 to 8 by 8 rooms and all 25200 repeating blocks of ten different digits and the equations (a*n + b) mod 10.
 - [equation-search-findings.md](equation-search-findings.md) reports an equation that uses the grid width and maxes every grid size from 2 by 2 to 12 by 12 rooms plus a search of 14589 equations that ignore the grid width where the best reached 47% of the possible total.
+- [growing-rooms.png](growing-rooms.png) is a picture of twelve pictures that grow from one room after 900 numbers each.
 - [hallway-walk-findings.md](hallway-walk-findings.md) reports a rule where each number is the length of a hallway and the walker turns right after each hallway: the digits of the primes written in one row drift 969 steps east because primes with 4 digits line up with the 4 directions.
 - [hallway-walks.png](hallway-walks.png) is a picture of eight hallway walks.
+- [hexagon-animation.html](hexagon-animation.html) is a program for a web browser that builds the door maze with hexagon rooms in place of square rooms and uses the same three part score.
+- [large-hexagons-counting.png](large-hexagons-counting.png) is a picture of the counting numbers on hexagon grids of sizes 30 to 35.
 - [master-challenge-findings.md](master-challenge-findings.md) scores sequences on the two circle test and the maze test together: a digit sequence that starts with a perfect maze and continues with the digits of pi scores 200 of 200 on the circles and maxes the maze at one or two grid sizes and the best equation for both tests is the whole part of the square root of 35 times n.
 - [max-score-points-list.md](max-score-points-list.md) ranks sequences by how many grid sizes from 2 by 2 to 12 by 12 rooms they max out with 1 point for each perfect grid: no fixed sequence earned more than 2 points and no sequence maxes 2 by 2 and 3 by 3 and 4 by 4 rooms together.
 - [maze-animation.html](maze-animation.html) is a program for a web browser: pick where the numbers are taken from and a grid size and press Play to watch each room open a door under the rule where 0 opens north and read the scores (the program marks the door each room opened and marks every spot on the outer wall where a player could enter and walk to the opposite side and keeps a running ranking of the mazes tried with a small copy of each maze and offers 41 example numbers and shows the three part score against the highest possible score).
@@ -20,10 +26,21 @@ This folder holds experiments that turn the digits of prime numbers into mazes. 
 - [multi-size-score-list.md](multi-size-score-list.md) lists which shapes and repeating blocks of doors and well known number sequences earn the highest total three part score across nine grid sizes from 2 by 2 to 10 by 10 rooms: the spiral and the zigzag reach 984 of 984 while the best repeating block of 7 doors or fewer reaches 402.
 - [neat-shapes-findings.md](neat-shapes-findings.md) lists the smallest primes that draw rows and columns and nested rings and spirals and staircases and combs and bricks and zigzags on grids up to 6 by 6 rooms.
 - [neat-shapes.png](neat-shapes.png) is a picture of ten primes that draw neat shapes.
+- [new-sequences.png](new-sequences.png) is a picture of ten runs with polynomial formulas and Fibonacci numbers and other added sequences.
+- [open-squares.png](open-squares.png) is a picture of eight runs on the eight sided grid and the ten sided grid where the squares start with every door open.
 - [patterns-summary.md](patterns-summary.md) is a summary of the patterns that stand out across all the maze tests and which of them come from how primes are written.
+- [pi-large-grids.png](pi-large-grids.png) is a picture of the digits of pi on squares and hexagons side by side at grid sizes 30 and 40.
+- [pi-small-grids.png](pi-small-grids.png) is a picture of the digits of pi on squares and hexagons side by side at grid sizes 12 and 20.
 - [random-search-findings.md](random-search-findings.md) reports a search of random numbers for the highest three part score on five grid sizes (a random number reached the highest possible 48 on 4 by 4 rooms) plus single digit changes that reached the highest possible score on grids up to 8 by 8 rooms and high scoring numbers for 10 by 10 and 12 by 12 rooms.
 - [ranking-list-zero-north.txt](ranking-list-zero-north.txt) is a plain text ranking of primes by maze score under the version of the rule where 0 opens north.
 - [ranking-list.txt](ranking-list.txt) is a plain text ranking of primes by maze score under the version of the rule where 1 opens north.
+- [shape-grids-findings.md](shape-grids-findings.md) reports door mazes on other shapes of room: hexagons against squares (the counting numbers make exactly as many kinds of pattern as a room has doors) and five other shapes including the Einstein hat tile with 14 doors and pictures that grow from one room (whole primes on hexagons never step back) and four rules for the squares between large rooms and 25 added number sequences and towers that show repeat visits.
+- [shapes-animation.html](shapes-animation.html) is a program for a web browser that switches between seven shapes of room (triangles and squares and five sided rooms and hexagons and eight sided rooms and ten sided rooms and the Einstein hat tile) and between a fixed grid and a picture that grows from one room and offers 32 number sequences plus a box for typed digits and a landscape view where each room is a tower that rises with each visit.
+- [six-grids-pi.png](six-grids-pi.png) is a picture of the digits of pi on six shapes of room.
+- [small-hexagons-counting.png](small-hexagons-counting.png) is a picture of the counting numbers on hexagon grids of sizes 12 to 17.
 - [three-part-score-ranking-zero-north.md](three-part-score-ranking-zero-north.md) ranks primes by a three part score (largest region plus longest walk plus 1 door point for each spot on the outer wall where a player could enter and walk to the opposite side) under the version of the rule where 0 opens north: all 1061 primes with 4 digits in order and the score counts for all 45086079 primes with 9 digits (91720 tie at the highest score of 30) and the best of 20000 random primes for grids of 4 by 4 and 5 by 5 rooms.
+- [visit-towers.png](visit-towers.png) is a picture of eight growing runs drawn as stacks and as a landscape of towers.
 
 The maze program runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/maze-animation.html
+
+The program with seven shapes of room runs in a web browser at this address: https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/prime-mazes/shapes-animation.html

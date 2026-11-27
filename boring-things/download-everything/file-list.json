@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1507,
- "total_bytes": 100264145,
+ "file_count": 1534,
+ "total_bytes": 103496692,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 10136,
+   "bytes": 10452,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 6135,
+   "bytes": 9077,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -1007,6 +1007,33 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/champion-primes.png"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/counting-on-large-squares.png",
+   "title": "counting-on-large-squares.png",
+   "bytes": 105992,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/counting-on-large-squares.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/counting-on-large-squares.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/counting-on-small-squares.png",
+   "title": "counting-on-small-squares.png",
+   "bytes": 250863,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/counting-on-small-squares.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/counting-on-small-squares.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/disappearing-squares.png",
+   "title": "disappearing-squares.png",
+   "bytes": 16691,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/disappearing-squares.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/disappearing-squares.png"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/door-grids-zero-north.png",
    "title": "door-grids-zero-north.png",
    "bytes": 85674,
@@ -1043,6 +1070,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/equation-search-findings.md"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/growing-rooms.png",
+   "title": "growing-rooms.png",
+   "bytes": 141855,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/growing-rooms.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/growing-rooms.png"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/hallway-walk-findings.md",
    "title": "Hallway walks: each number is the length of a hallway",
    "bytes": 3450,
@@ -1059,6 +1095,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hallway-walks.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/hexagon-animation.html",
+   "title": "hexagon-animation.html",
+   "bytes": 32240,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hexagon-animation.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/hexagon-animation.html"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/large-hexagons-counting.png",
+   "title": "large-hexagons-counting.png",
+   "bytes": 469776,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/large-hexagons-counting.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/large-hexagons-counting.png"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/master-challenge-findings.md",
@@ -1133,6 +1187,24 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/neat-shapes.png"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/new-sequences.png",
+   "title": "new-sequences.png",
+   "bytes": 377408,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/new-sequences.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/new-sequences.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/open-squares.png",
+   "title": "open-squares.png",
+   "bytes": 202739,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/open-squares.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/open-squares.png"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/patterns-summary.md",
    "title": "Patterns that stand out across the maze tests",
    "bytes": 4917,
@@ -1140,6 +1212,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/patterns-summary.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/patterns-summary.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/pi-large-grids.png",
+   "title": "pi-large-grids.png",
+   "bytes": 274670,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-large-grids.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/pi-large-grids.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/pi-small-grids.png",
+   "title": "pi-small-grids.png",
+   "bytes": 257498,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-small-grids.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/pi-small-grids.png"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/random-search-findings.md",
@@ -1169,6 +1259,42 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/ranking-list.txt"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/shape-grids-findings.md",
+   "title": "Questions about door mazes on other shapes of room and on pictures that grow",
+   "bytes": 11832,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shape-grids-findings.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/shape-grids-findings.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/shapes-animation.html",
+   "title": "shapes-animation.html",
+   "bytes": 63041,
+   "type": "html",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shapes-animation.html",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/shapes-animation.html"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/six-grids-pi.png",
+   "title": "six-grids-pi.png",
+   "bytes": 332711,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/six-grids-pi.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/six-grids-pi.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/small-hexagons-counting.png",
+   "title": "small-hexagons-counting.png",
+   "bytes": 532681,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/small-hexagons-counting.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/small-hexagons-counting.png"
+  },
+  {
    "path": "1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md",
    "title": "Three part score ranking: primes ranked by largest region plus longest walk plus door points",
    "bytes": 92873,
@@ -1178,9 +1304,18 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md"
   },
   {
+   "path": "1-research-click-here-first/prime-mazes/visit-towers.png",
+   "title": "visit-towers.png",
+   "bytes": 112194,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/visit-towers.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/visit-towers.png"
+  },
+  {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 12564,
+   "bytes": 13115,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -1189,7 +1324,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 250948,
+   "bytes": 259864,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -1338,6 +1473,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/prime-pieces-questions.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/prime-pieces-questions.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/random-questions.md",
+   "title": "Questions about random sequences and the fewest steps and the zeta zeros",
+   "bytes": 8788,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/random-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/random-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/rank-questions.md",
@@ -10765,7 +10909,7 @@
   {
    "path": "boring-things/download-everything/README.md",
    "title": "Download everything",
-   "bytes": 3149,
+   "bytes": 4000,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
@@ -11573,6 +11717,60 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/ranking_list.py"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/compare6.py",
+   "title": "compare6.py",
+   "bytes": 2760,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/compare6.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/compare6.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_hex.py",
+   "title": "counting_hex.py",
+   "bytes": 2630,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_hex.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_hex.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py",
+   "title": "counting_square.py",
+   "bytes": 2404,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py",
+   "title": "hex_compare.py",
+   "bytes": 4917,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py",
+   "title": "pi_compare.py",
+   "bytes": 1478,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py",
+   "title": "random_compare.py",
+   "bytes": 2199,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/three_part_score.py",
    "title": "three_part_score.py",
    "bytes": 5377,
@@ -12156,6 +12354,51 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/quad_search.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/random-scripts/fewest_steps.py",
+   "title": "fewest_steps.py",
+   "bytes": 1990,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/fewest_steps.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/fewest_steps.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/random-scripts/prime_marks_race.py",
+   "title": "prime_marks_race.py",
+   "bytes": 3018,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/prime_marks_race.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/prime_marks_race.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/random-scripts/random_rows.py",
+   "title": "random_rows.py",
+   "bytes": 2654,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/random_rows.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/random_rows.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_count_compare.py",
+   "title": "zero_count_compare.py",
+   "bytes": 1037,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_count_compare.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_count_compare.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_height_sums.py",
+   "title": "zero_height_sums.py",
+   "bytes": 2905,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_height_sums.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/random-scripts/zero_height_sums.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/rank-scripts/both_rules_ranking.py",

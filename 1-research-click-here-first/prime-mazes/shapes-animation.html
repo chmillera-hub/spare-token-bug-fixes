@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Door mazes on seven kinds of grid</title>
+<style>
+:root{--bg:#faf9f5;--card:#ffffff;--text:#1f1e1d;--muted:#6b6a65;--line:#d9d6cc;--faint:#e4e1d6;--wall:#1f1e1d;--now:#b45309;--walk:#be123c;--open:#15803d;--btn:#1f1e1d;--btntext:#faf9f5;--r0:#f4b942;--r1:#7fc8f8;--r2:#9bdeac;--r3:#f7a8b8;--r4:#c9b6e4;--r5:#f2d98b}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b1a;--card:#262523;--text:#f0eee6;--muted:#a8a69d;--line:#45433e;--faint:#3a3835;--wall:#f0eee6;--now:#f0a23b;--walk:#fb7185;--open:#4ade80;--btn:#f0eee6;--btntext:#1c1b1a;--r0:#8a6410;--r1:#1f5f86;--r2:#2f6b45;--r3:#8a3b52;--r4:#5a4687;--r5:#6f6221}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+main{max-width:560px;margin:0 auto;padding:10px 12px 40px}
+h1{font-size:19px;font-weight:600;margin:2px 0 0}
+p{margin:6px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+canvas{display:block;margin:6px auto 0;width:100%;max-width:min(520px,62vh);aspect-ratio:1/1}
+label{display:block;font-size:14px;color:var(--muted);margin:10px 0 4px}
+select,input[type=number],input[type=text]{width:100%;font-size:16px;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
+input[type=range]{width:100%}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.row.first{margin-top:0}
+button{font-size:15px;padding:9px 13px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer}
+button.main{background:var(--btn);color:var(--btntext);border-color:var(--btn);min-width:92px}
+.stat{font-size:15px;font-weight:600;margin:6px 0 0;font-variant-numeric:tabular-nums;min-height:1.5em}
+.small{font-size:14px;color:var(--muted);overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;margin-top:6px;font-size:14px;font-variant-numeric:tabular-nums}
+.grid2 b{font-weight:600}
+.check{display:flex;align-items:center;gap:8px;font-size:15px;color:var(--text);margin-top:10px}
+.check input{width:18px;height:18px}
+.note{border-left:3px solid var(--line);padding-left:10px;color:var(--muted);font-size:14px}
+.hide{display:none}
+.rk{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line)}
+.rk:first-child{border-top:none}
+.rk img{width:92px;height:92px;flex:0 0 92px;border-radius:6px;border:1px solid var(--line);background:var(--card)}
+.rk .pos{font-size:17px;font-weight:700;flex:0 0 2.1em;text-align:center}
+.rk .txt{min-width:0;flex:1;font-size:14px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.rk .txt b{font-size:16px}
+.rk.new{background:var(--faint);border-radius:8px}
+.rk button{font-size:13px;padding:6px 9px;margin-top:4px}
+h2{font-size:16px;font-weight:600;margin:0 0 4px}
+</style>
+</head>
+<body>
+<main>
+<h1>Door mazes on seven kinds of grid</h1>
+
+<div class="card">
+<label for="grid" style="margin-top:0">Shape of the rooms</label>
+<select id="grid">
+<option value="tri">Triangles (3 doors in each room)</option>
+<option value="sq">Squares (4 doors)</option>
+<option value="pent">Five sided rooms (5 doors)</option>
+<option value="hex" selected>Hexagons (6 doors)</option>
+<option value="oct">Eight sided rooms with small squares between them (8 doors and 4 doors)</option>
+<option value="ten">Ten sided rooms with plain squares between them (10 doors and 6 doors)</option>
+<option value="hat">Einstein hat tiles that grow from one tile (13 sides and 14 doors)</option>
+</select>
+<label for="mode" style="display:block;margin-top:10px">How the rooms appear</label>
+<select id="mode"><option value="fill">Fill a fixed grid of rooms</option><option value="grow">Grow from one room (each number adds or revisits a room)</option></select>
+<div class="hide" id="viewBox"><label for="view" style="display:block;margin-top:10px">How visits to a room are shown</label><select id="view"><option value="flat">Flat picture with no visit counts</option><option value="stack">Stacks: one more outline for each visit to a room</option><option value="3d">Landscape: each room is a tower that rises with each visit</option></select></div>
+<div class="hide" id="skipBox"><label for="skipSmall" style="display:block;margin-top:10px">The squares between the large rooms</label><select id="skipSmall"><option value="vanish">Squares read no numbers and a square disappears when a large room picks a door into the square</option><option value="closed">Squares read no numbers and start with every door closed</option><option value="open">Squares read no numbers and start with every door open</option><option value="read">Squares read numbers like any other room</option></select></div>
+<div class="row">
+<button class="main" id="play">Play</button>
+<button id="step">One step</button>
+<button id="finish">Finish</button>
+<button id="reset">Start over</button>
+</div>
+<canvas id="cv" width="900" height="900" role="img" aria-label="A grid of rooms where each room opens one door chosen by a number"></canvas>
+<p class="stat" id="now">Press Play to open the first door.</p>
+<div class="grid2" id="gridStats">
+<div>Rooms done: <b id="sDone">0</b></div><div>Regions: <b id="sReg">0</b></div>
+<div>Largest region: <b id="sBig">0</b></div><div>Longest walk: <b id="sLong">0</b></div>
+<div>Top to bottom crossings: <b id="sTB">0</b></div><div>Side to side crossings: <b id="sLR">0</b></div>
+<div>Door points: <b id="sDoor">0</b></div><div>First room joined to last room: <b id="sFin">no</b></div>
+</div>
+<p class="stat" id="sThreeLine">Three part score: <span id="sThree">0</span></p>
+<div class="grid2 hide" id="hatStats">
+<div>Numbers read: <b id="hRead">0</b></div><div>Tiles placed: <b id="hTiles">1</b></div>
+<div>Doors opened: <b id="hDoors">0</b></div><div>Steps back into an old tile: <b id="hBack">0</b></div>
+<div>Steps where no tile fits: <b id="hBlocked">0</b></div><div>Mirrored tiles: <b id="hMirror">0</b></div>
+<div>Loops of rooms: <b id="hLoops">0</b></div><div>Farthest tile from the start: <b id="hFar">0</b></div>
+</div>
+<p class="small" id="walkNote"></p>
+</div>
+
+<div class="card">
+<label for="src" style="margin-top:0">Where the numbers are taken from</label>
+<select id="src">
+<option value="primedigits">Digits of the primes written in one row (2 3 5 7 1 1 1 3 ...)</option>
+<option value="wholeprime">One whole prime in each room (2 then 3 then 5 ...)</option>
+<option value="lastdigit">Last digit of each prime</option>
+<option value="gap">Gap between neighboring primes</option>
+<option value="pi">Digits of pi</option>
+<option value="counting">Counting numbers 1 2 3 4 ...</option>
+<option value="random">Random digits</option>
+<option value="edigits">Digits of e</option>
+<option value="root2">Digits of the square root of 2</option>
+<option value="golden">Digits of the golden ratio</option>
+<option value="squares">Square numbers: 1 + 4 + 9 + 16</option>
+<option value="cubes">Cube numbers: 1 + 8 + 27 + 64</option>
+<option value="polyA">x squared plus 1: 2 + 5 + 10 + 17</option>
+<option value="polyB">x squared plus x plus 41 (a formula known for giving many primes)</option>
+<option value="polyC">2 times x squared minus 1: 1 + 7 + 17 + 31</option>
+<option value="polyD">x cubed plus x: 2 + 10 + 30 + 68</option>
+<option value="polyE">x to the power 4: 1 + 16 + 81 + 256</option>
+<option value="polyF">x to the power 5: 1 + 32 + 243 + 1024</option>
+<option value="polyG">x squared minus x plus 1: 1 + 3 + 7 + 13</option>
+<option value="triangular">Running totals of 1 + 2 + 3 + 4 (1 then 3 then 6 then 10)</option>
+<option value="primesums">Running totals of the primes (2 then 5 then 10 then 17)</option>
+<option value="fib">Fibonacci numbers: 1 + 1 + 2 + 3 + 5 + 8</option>
+<option value="pow2">Doubling numbers: 1 + 2 + 4 + 8 + 16</option>
+<option value="pow3">Tripling numbers: 1 + 3 + 9 + 27</option>
+<option value="fact">Factorials: 1 + 1 + 2 + 6 + 24 + 120</option>
+<option value="catalan">Catalan numbers: 1 + 1 + 2 + 5 + 14 + 42</option>
+<option value="partitions">Partition numbers: 1 + 1 + 2 + 3 + 5 + 7 + 11</option>
+<option value="nlogn">Whole part of n times the natural logarithm of n</option>
+<option value="collatz">Collatz step counts for 1 and 2 and 3 and so on</option>
+<option value="divisors">How many divisors each counting number has</option>
+<option value="totient">How many smaller numbers share no factor with each counting number</option>
+<option value="recaman">Recaman sequence (step back by n when possible and forward otherwise)</option>
+<option value="own">My own number or digits (type in the box that appears)</option>
+</select>
+
+<div id="ownBox" class="hide">
+<label for="own">My own digits (the grid is sized to fit the digits)</label>
+<input type="text" id="own" inputmode="numeric" value="" placeholder="Paste or type a number here" autocomplete="off">
+<div class="row"><button id="ownClear">Clear the box</button></div>
+</div>
+
+<div id="sizeBox">
+<label for="size"><span id="sizeWord">Grid size</span>: <span id="sizeV">12</span> (<span id="roomsV">144</span> <span id="roomsWord">rooms</span>)</label>
+<input type="range" id="size" min="2" max="60" value="12">
+</div>
+
+<label for="speed">Speed: <span id="speedV">4</span> rooms each second</label>
+<input type="range" id="speed" min="0" max="10" value="3">
+
+<label class="check"><input type="checkbox" id="showDigits" checked> Show the number inside each room when the rooms are large enough</label>
+<label class="check"><input type="checkbox" id="showWalk" checked> Draw the longest walk when the grid is finished</label>
+<label class="check"><input type="checkbox" id="showOpen" checked> Show in green the outside doors that earn a door point</label>
+<label class="check"><input type="checkbox" id="showMark" checked> Show a small arrow at the door each room opened</label>
+</div>
+
+<div class="card">
+<p><b>The rule.</b> Every room starts with all doors closed. Each room reads one number and opens one door. The doors of a room are counted clockwise starting from the door that points most nearly north so 0 opens that first door and 1 opens the next door clockwise. When the number is larger than the last door the count goes around again. <span id="ruleText"></span> A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left.</p>
+<p><b>The Einstein hat tiles.</b> The hat is a tile with 13 sides that can cover a flat surface only in patterns that never repeat. One side is twice as long as the short sides and holds two doors so a hat room has 14 doors. The hat choice works differently from the other grids. The picture starts with one hat. Each number picks a door of the current hat by counting clockwise from the door that points most nearly north and going around again after 14. If another hat already sits behind that door the door opens and the walk steps into that old hat. If the space behind the door is empty the program lists every way a new hat can sit against that door without overlapping any hat and the rest of the number (the number divided by 14 with the remainder dropped) picks one way from the list. The door opens and the walk steps into the new hat. If no hat fits behind the door nothing happens. A plain hat is drawn in a light color and a mirrored hat is drawn in a darker color. Numbers with two or more digits are used so that all 14 doors can be reached.</p>
+<p><b>Growing from one room.</b> The second menu switches any shape from a fixed grid to a picture that grows. The picture starts with one room. Each number picks a door of the current room. If the space behind the door is empty a new room appears there and the walk steps into the new room. If an old room already sits behind the door the door opens and the walk steps into the old room. The walk reads the next number from whichever room the walk is standing in. The slider sets how many numbers are read.</p>
+<p><b>Visit counts in the growing pictures.</b> A room in a growing picture can be visited many times because the walk often steps back into an old room. A menu sets how the visits are shown. The stacks setting draws one more outline for each visit so a room visited five times looks like five plates on top of each other. The landscape setting tilts the picture and draws each room as a tower whose height is the number of visits. A stack stops rising after 8 visits and a tower stops rising after 40 visits and a number on top then shows the true count where the room is large enough to hold a number.</p>
+<p><b>Squares that read no numbers.</b> The eight sided grid and the ten sided grid have squares between the large rooms. A third menu sets how the squares behave. With the first setting the numbers go only into the large rooms and every square starts with all doors closed so a square joins a region only when a large room opens a door into the square. On a fixed grid a square that reads no numbers is not a step of the longest walk. A walk passes from one large room straight to another large room when a square joins the two rooms and only the large rooms are counted. The highest possible score then counts every room once for the largest region and every large room once for the longest walk. In the growing pictures with the first setting a door that leads into a square places the square and the walk stays in the large room because a square reads no number. A further setting makes a square disappear when a large room picks a door into the square. A square that has disappeared has all doors open from then on so the large rooms around the square are joined through the empty space. In the growing pictures the disappearing setting behaves like the open setting because a square appears only when a door is picked into the square. With the open setting every square starts with all doors open which joins the whole fixed grid into one region before the first number is read and in the growing pictures the walk passes straight through a square into the large room on the far side. With the third setting a square reads a number like any other room.</p>
+<p><b>The extra number sequences.</b> The menu of numbers also holds the terms of several sums that go on forever and the digits of several famous numbers. Some sequences such as the factorials grow past what the program can hold exactly. A term that large is replaced by the remainder after dividing by 10090080 because that remainder picks the same door in a room with any number of doors from 1 to 16. In a fixed grid the label inside a room then shows the remainder and not the full term.</p>
+<p><b>The dashed outer walls.</b> A dashed wall on the outside of the grid marks an outside door. A room on the edge counts once for each side of the grid that the room touches (top or bottom or left or right). A dashed wall turns green with a green arrow when a player can enter there and walk through joined rooms to the opposite side of the grid and leave. Each green door is worth 1 door point.</p>
+<p><b>The colors.</b> Every region with two or more rooms is filled with one of six colors and the six largest regions each get a different color. A room joined to no other room stays white.</p>
+<p><b>The scores.</b> A region is a group of rooms joined by open doors. The longest walk is the most rooms a walker can visit without entering a room twice. The three part score is the largest region plus the longest walk plus the door points. The highest possible score is every room for the region plus every room for the walk plus every outside door. The grids hold different numbers of rooms so the percent is the fair number to compare between shapes.</p>
+<p class="note"><b>About this page:</b> One AI model (Claude) wrote this program on 27 November 2026 after the author of this repository asked for the door maze on other shapes of room and for one program that switches between the shapes. No flat grid can give every room ten neighbors so the ten sided grid mixes large rooms with ten doors and plain squares. Two of the four slanted sides of a large room hold two doors each which is how an eight sided outline gets ten doors. Both doors on such a side lead into the same square so a square has six doors. The outline of the hat tile is the published shape and the growing rule for the hats was proposed by the author. No other person has reviewed the program yet.</p>
+</div>
+<div class="card" id="rankCard">
+<h2>Ranking of the mazes tried so far</h2>
+<p class="small" id="rankNote">Finish a maze and the maze appears in this list with a small copy of the grid. The list is ordered by percent of the highest possible score.</p>
+<div id="rankList"></div>
+<div class="row"><button id="rankClear">Clear the ranking</button></div>
+</div>
+</main>
+<script>
+"use strict";
+function el(id){return document.getElementById(id);}
+// ---------- number sources ----------
+var PR=(function(){var n=260000,s=new Uint8Array(n+1),out=[];for(var i=2;i<=n;i++){if(!s[i]){out.push(i);for(var j=i*i;j<=n;j+=i)s[j]=1;}}return out;})();
+function piDigits(count){
+  var scale=10n**BigInt(count+12);
+  function arctanInv(x){var X=BigInt(x),x2=X*X,term=scale/X,sum=term,k=1n,sign=-1n;while(term>0n){term=term/x2;k+=2n;sum+=sign*(term/k);sign=-sign;}return sum;}
+  var pi=16n*arctanInv(5)-4n*arctanInv(239);
+  return pi.toString().slice(0,count).split("").map(Number);
+}
+
+// ---------- more number sequences: terms of sums and digits of famous numbers ----------
+var BIGMOD=10090080n; // 14 times 720720. A term larger than a 15 digit number is replaced by the remainder after dividing by 10090080 because that remainder picks the same door in every kind of room
+function red(b){return b<9007199254740991n?Number(b):Number(b%BIGMOD);}
+function isqrtB(n){if(n<2n)return n;var x=1n<<BigInt(Math.ceil(n.toString(2).length/2)+1);for(;;){var y=(x+n/x)>>1n;if(y>=x)return x;x=y;}}
+function digitsOfRoot(k,count,phi){var sc=10n**BigInt(count+6),r=isqrtB(BigInt(k)*sc*sc);if(phi)r=(r+sc)/2n;return r.toString().slice(0,count).split("").map(Number);}
+function digitsOfE(count){var sc=10n**BigInt(count+12),sum=0n,t=sc,k=1n;while(t>0n){sum+=t;t/=k;k++;}return sum.toString().slice(0,count).split("").map(Number);}
+var EXTRA={
+ squares:{label:"Square numbers: 1 + 4 + 9 + 16",gen:function(n){var o=[];for(var i=1;i<=n;i++)o.push(i*i);return o;}},
+ cubes:{label:"Cube numbers: 1 + 8 + 27 + 64",gen:function(n){var o=[];for(var i=1;i<=n;i++)o.push(i*i*i);return o;}},
+ triangular:{label:"Running totals of 1 + 2 + 3 + 4 (1 then 3 then 6 then 10)",gen:function(n){var o=[];for(var i=1;i<=n;i++)o.push(i*(i+1)/2);return o;}},
+ primesums:{label:"Running totals of the primes (2 then 5 then 10 then 17)",gen:function(n){var o=[],t=0;for(var i=0;i<n;i++){t+=PR[i];o.push(t);}return o;}},
+ fib:{label:"Fibonacci numbers: 1 + 1 + 2 + 3 + 5 + 8",gen:function(n){var o=[],a=1n,b=1n;for(var i=0;i<n;i++){o.push(red(a));var c=a+b;a=b;b=c;}return o;}},
+ pow2:{label:"Doubling numbers: 1 + 2 + 4 + 8 + 16",gen:function(n){var o=[],a=1n;for(var i=0;i<n;i++){o.push(red(a));a*=2n;}return o;}},
+ pow3:{label:"Tripling numbers: 1 + 3 + 9 + 27",gen:function(n){var o=[],a=1n;for(var i=0;i<n;i++){o.push(red(a));a*=3n;}return o;}},
+ fact:{label:"Factorials: 1 + 1 + 2 + 6 + 24 + 120",gen:function(n){var o=[],a=1n;for(var i=0;i<n;i++){o.push(red(a));a*=BigInt(i+1);}return o;}},
+ catalan:{label:"Catalan numbers: 1 + 1 + 2 + 5 + 14 + 42",gen:function(n){var o=[],a=1n;for(var i=0;i<n;i++){o.push(red(a));a=a*BigInt(2*(2*i+1))/BigInt(i+2);}return o;}},
+ partitions:{label:"Partition numbers: 1 + 1 + 2 + 3 + 5 + 7 + 11",gen:function(n){var p=[1n],o=[1];for(var i=1;i<n;i++){var t=0n;for(var k=1;;k++){var g1=k*(3*k-1)/2,g2=k*(3*k+1)/2;if(g1>i)break;var sg=k%2?1n:-1n;t+=sg*p[i-g1];if(g2<=i)t+=sg*p[i-g2];}p.push(t);o.push(red(t));}return o;}},
+ nlogn:{label:"Whole part of n times the natural logarithm of n",gen:function(n){var o=[];for(var i=2;o.length<n;i++)o.push(Math.floor(i*Math.log(i)));return o;}},
+ collatz:{label:"Collatz step counts for 1 and 2 and 3 and so on",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=i,c=0;while(x!==1){x=x%2?3*x+1:x/2;c++;}o.push(c);}return o;}},
+ divisors:{label:"How many divisors each counting number has",gen:function(n){var d=new Int32Array(n+1),o=[];for(var i=1;i<=n;i++)for(var j=i;j<=n;j+=i)d[j]++;for(i=1;i<=n;i++)o.push(d[i]);return o;}},
+ totient:{label:"How many smaller numbers share no factor with each counting number",gen:function(n){var t=[],o=[];for(var i=0;i<=n;i++)t.push(i);for(i=2;i<=n;i++)if(t[i]===i)for(var j=i;j<=n;j+=i)t[j]-=t[j]/i;for(i=1;i<=n;i++)o.push(t[i]);return o;}},
+ recaman:{label:"Recaman sequence (step back by n when possible and forward otherwise)",gen:function(n){var o=[0],seen={0:1},a=0;for(var i=1;i<n;i++){var b=a-i;if(b<0||seen[b])b=a+i;seen[b]=1;o.push(b);a=b;}return o;}},
+ polyA:{label:"x squared plus 1: 2 + 5 + 10 + 17",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x+1n));}return o;}},
+ polyB:{label:"x squared plus x plus 41 (a formula known for giving many primes)",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x+x+41n));}return o;}},
+ polyC:{label:"2 times x squared minus 1: 1 + 7 + 17 + 31",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(2n*x*x-1n));}return o;}},
+ polyD:{label:"x cubed plus x: 2 + 10 + 30 + 68",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x*x+x));}return o;}},
+ polyE:{label:"x to the power 4: 1 + 16 + 81 + 256",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x*x*x));}return o;}},
+ polyF:{label:"x to the power 5: 1 + 32 + 243 + 1024",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x*x*x*x));}return o;}},
+ polyG:{label:"x squared minus x plus 1: 1 + 3 + 7 + 13",gen:function(n){var o=[];for(var i=1;i<=n;i++){var x=BigInt(i);o.push(red(x*x-x+1n));}return o;}},
+ edigits:{label:"Digits of e",digits:1,gen:function(n){return digitsOfE(n);}},
+ root2:{label:"Digits of the square root of 2",digits:1,gen:function(n){return digitsOfRoot(2,n,false);}},
+ golden:{label:"Digits of the golden ratio",digits:1,gen:function(n){return digitsOfRoot(5,n,true);}}
+};
+var EXC={};
+function extraNums(src,need){var c=EXC[src];if(!c||c.length<need){c=EXC[src]=EXTRA[src].gen(Math.max(need,400));}return c.slice(0,need);}
+function numbersFor(src,need,ownText){
+  var out=[],i;
+  if(EXTRA[src])return extraNums(src,need);
+  if(src==="primedigits"){var s="";for(i=0;s.length<need;i++)s+=PR[i];return s.slice(0,need).split("").map(Number);}
+  if(src==="wholeprime")return PR.slice(0,need);
+  if(src==="lastdigit")return PR.slice(0,need).map(function(p){return p%10;});
+  if(src==="gap"){for(i=0;i<need;i++)out.push(PR[i+1]-PR[i]);return out;}
+  if(src==="pi")return piDigits(need);
+  if(src==="counting"){for(i=1;i<=need;i++)out.push(i);return out;}
+  if(src==="random"){for(i=0;i<need;i++)out.push(Math.floor(Math.random()*10));return out;}
+  return ownText.replace(/[^0-9]/g,"").split("").map(Number);
+}
+
+// ---------- the six grids: each grid is a list of rooms and each room is a polygon ----------
+var GRIDNAME={tri:"triangle",sq:"square",pent:"five sided",hex:"hexagon",oct:"eight sided and square",ten:"ten sided and square"};
+function innerSize(kind,k){return kind==="pent"?Math.max(1,Math.round(k/1.4142)):kind==="oct"?Math.max(2,Math.round(k/1.4142)):kind==="ten"?Math.max(2,Math.round(k/1.4142)):k;}
+function roomCount(kind,k){var m=innerSize(kind,k);return kind==="pent"?2*m*(m+1):kind==="oct"?m*m+(m-1)*(m-1):kind==="ten"?m*m+(m-1)*(m-1):k*k;}
+function polygons(kind,k){
+  var P=[],m=innerSize(kind,k),r,c,a,b,i,j;
+  if(kind==="sq"){for(r=0;r<k;r++)for(c=0;c<k;c++)P.push({p:[[c,r],[c+1,r],[c+1,r+1],[c,r+1]],band:r});}
+  else if(kind==="hex"){var h=Math.sqrt(3);for(r=0;r<k;r++)for(c=0;c<k;c++){var cx=1.5*c,cy=h*r+(c%2?h/2:0),v=[];for(j=0;j<6;j++)v.push([cx+Math.cos(Math.PI/3*j),cy+Math.sin(Math.PI/3*j)]);P.push({p:v,band:r,keep:r*k+c});}}
+  else if(kind==="tri"){for(r=0;r<k;r++)for(c=0;c<k;c++){if((r+c)%2===0)P.push({p:[[c,r+1],[c+2,r+1],[c+1,r]],band:r});else P.push({p:[[c,r],[c+2,r],[c+1,r+1]],band:r});}}
+  else if(kind==="pent"){
+    var t=0.6;
+    var horiz=function(a,b){return ((a+b)%2+2)%2===0;};
+    var left=function(a,b){return horiz(a,b)?[[2*a+1-t,2*b+1]]:[[2*a+1,2*b+1-t],[2*a+1,2*b+1+t]];};
+    var right=function(a,b){return horiz(a,b)?[[2*a+1+t,2*b+1]]:[[2*a+1,2*b+1-t],[2*a+1,2*b+1+t]];};
+    var top=function(a,b){return horiz(a,b)?[[2*a+1-t,2*b+1],[2*a+1+t,2*b+1]]:[[2*a+1,2*b+1-t]];};
+    var bottom=function(a,b){return horiz(a,b)?[[2*a+1-t,2*b+1],[2*a+1+t,2*b+1]]:[[2*a+1,2*b+1+t]];};
+    for(b=0;b<=m;b++){
+      for(a=0;a<m;a++)P.push({p:[[2*a,2*b]].concat(bottom(a,b-1),[[2*a+2,2*b]],top(a,b).slice().reverse()),band:2*b});
+      if(b<m)for(a=0;a<=m;a++)P.push({p:[[2*a,2*b]].concat(left(a,b),[[2*a,2*b+2]],right(a-1,b).slice().reverse()),band:2*b+1});
+    }
+  }
+  else{ // eight sided rooms with squares or ten sided rooms with split squares
+    var L=1+Math.SQRT2,s=Math.SQRT2/2,ten=kind==="ten";
+    for(j=0;j<m;j++){
+      for(i=0;i<m;i++){
+        var X=i*L,Y=j*L,o=[[-0.5,-L/2],[0.5,-L/2]];
+        if(ten)o.push([(0.5+L/2)/2,(-L/2-0.5)/2]);
+        o.push([L/2,-0.5],[L/2,0.5],[0.5,L/2],[-0.5,L/2]);
+        if(ten)o.push([(-0.5-L/2)/2,(L/2+0.5)/2]);
+        o.push([-L/2,0.5],[-L/2,-0.5]);
+        P.push({p:o.map(function(q){return [X+q[0],Y+q[1]];}),band:2*j});
+      }
+      if(j<m-1)for(i=0;i<m-1;i++){
+        var DX=(i+0.5)*L,DY=(j+0.5)*L,N=[DX,DY-s],E=[DX+s,DY],So=[DX,DY+s],W=[DX-s,DY];
+        if(!ten)P.push({p:[N,E,So,W],band:2*j+1});
+        else{var mne=[(N[0]+E[0])/2,(N[1]+E[1])/2],msw=[(So[0]+W[0])/2,(So[1]+W[1])/2];P.push({p:[N,mne,E,So,msw,W],band:2*j+1});}
+      }
+    }
+  }
+  return P;
+}
+function makeGrid(kind,k){
+  var P=polygons(kind,k),n=P.length,i,j,cell;
+  for(i=0;i<n;i++){cell=P[i];var sx=0,sy=0;for(j=0;j<cell.p.length;j++){sx+=cell.p[j][0];sy+=cell.p[j][1];}cell.c=[sx/cell.p.length,sy/cell.p.length];}
+  if(kind==="pent"||kind==="oct"||kind==="ten")P.sort(function(u,v){return u.band-v.band||u.c[0]-v.c[0];});
+  var minx=1e9,miny=1e9,maxx=-1e9,maxy=-1e9,map={};
+  function key(a,b){var ka=Math.round(a[0]*1000)+"_"+Math.round(a[1]*1000),kb=Math.round(b[0]*1000)+"_"+Math.round(b[1]*1000);return ka<kb?ka+"|"+kb:kb+"|"+ka;}
+  for(i=0;i<n;i++){
+    cell=P[i];var E=[],m=cell.p.length;
+    for(j=0;j<m;j++){var a=cell.p[j],b=cell.p[(j+1)%m],mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,ang=Math.atan2(mx-cell.c[0],-(my-cell.c[1]));if(ang<-1e-9)ang+=2*Math.PI;
+      E.push({a:a,b:b,m:[mx,my],ang:ang,nb:-1,side:-1});
+      if(a[0]<minx)minx=a[0];if(a[0]>maxx)maxx=a[0];if(a[1]<miny)miny=a[1];if(a[1]>maxy)maxy=a[1];}
+    E.sort(function(u,v){return u.ang-v.ang;});cell.e=E;
+    for(j=0;j<m;j++){var kk=key(E[j].a,E[j].b);if(map[kk]){var o=map[kk];E[j].nb=o[0];P[o[0]].e[o[1]].nb=i;}else map[kk]=[i,j];}
+  }
+  var sides=[[],[],[],[]],inSide=[{},{},{},{}]; // top bottom left right
+  for(i=0;i<n;i++){cell=P[i];for(j=0;j<cell.e.length;j++){var ed=cell.e[j];if(ed.nb>=0)continue;
+    var d=[ed.m[1]-miny,maxy-ed.m[1],ed.m[0]-minx,maxx-ed.m[0]],best=0;for(var q=1;q<4;q++)if(d[q]<d[best]-1e-9)best=q;
+    ed.side=best;if(!inSide[best][i]){inSide[best][i]=1;sides[best].push(i);}}}
+  return {kind:kind,k:k,cells:P,n:n,box:[minx,miny,maxx,maxy],sides:sides,inSide:inSide,doorMax:sides[0].length+sides[1].length+sides[2].length+sides[3].length};
+}
+
+// ---------- the maze on a grid ----------
+function isSmall(T,i){return (T.kind==="oct"&&T.cells[i].e.length===4)||(T.kind==="ten"&&T.cells[i].e.length===6);}
+function bigCount(T){var c=0;for(var i=0;i<T.n;i++)if(!isSmall(T,i))c++;return c;}
+function spreadNums(T,list){var out=[],q=0;for(var i=0;i<T.n;i++)out.push(isSmall(T,i)?null:list[q++]);return out;} // squares get no number
+function newMaze(T,nums,skip){var n=T.n,adj=[],parent=[],i;for(i=0;i<n;i++){adj.push([]);parent.push(i);}
+  var M={T:T,nums:nums,pos:0,adj:adj,parent:parent,regions:n,done:false,lastRoom:-1,skip:null,skipMode:skip||"",gone:{}};
+  if(skip){M.skip=[];for(i=0;i<n;i++)M.skip.push(isSmall(T,i));
+    if(skip==="open")for(i=0;i<n;i++)if(M.skip[i])T.cells[i].e.forEach(function(ed){var j=ed.nb;if(j<0)return;if(adj[i].indexOf(j)<0){adj[i].push(j);adj[j].push(i);}var x=find(M,i),y=find(M,j);if(x!==y){parent[x]=y;M.regions--;}});
+    while(M.pos<n&&M.skip[M.pos])M.pos++;}
+  return M;}
+function find(M,x){var p=M.parent;while(p[x]!==x){p[x]=p[p[x]];x=p[x];}return x;}
+function doorOf(T,i,num){var m=T.cells[i].e.length;return ((num%m)+m)%m;}
+function stepMaze(M){
+  if(M.done)return null;
+  var i=M.pos,num=M.nums[i],d=doorOf(M.T,i,num),j=M.T.cells[i].e[d].nb,ok=j>=0;
+  if(ok){if(M.adj[i].indexOf(j)<0){M.adj[i].push(j);M.adj[j].push(i);}var x=find(M,i),y=find(M,j);if(x!==y){M.parent[x]=y;M.regions--;}
+    if(M.skipMode==="vanish"&&M.skip[j]&&!M.gone[j]){M.gone[j]=1;M.T.cells[j].e.forEach(function(ed){var q=ed.nb;if(q<0)return;if(M.adj[j].indexOf(q)<0){M.adj[j].push(q);M.adj[q].push(j);}var a=find(M,j),b=find(M,q);if(a!==b){M.parent[a]=b;M.regions--;}});}}
+  M.lastRoom=i;M.pos++;if(M.skip)while(M.pos<M.T.n&&M.skip[M.pos])M.pos++;if(M.pos>=M.T.n)M.done=true;
+  return {room:i,num:num,door:d,ok:ok};
+}
+function regionInfo(M){
+  var T=M.T,n=T.n,size={},i,s,big=0;
+  for(i=0;i<n;i++){var f=find(M,i);size[f]=(size[f]||0)+1;}
+  for(var key in size)if(size[key]>big)big=size[key];
+  var has=[{},{},{},{}];for(s=0;s<4;s++)for(i=0;i<T.sides[s].length;i++)has[s][find(M,T.sides[s][i])]=1;
+  var tb=0,lr=0;for(key in has[0])if(has[1][key])tb++;for(key in has[2])if(has[3][key])lr++;
+  var door=0,opp=[1,0,3,2];for(s=0;s<4;s++)for(i=0;i<T.sides[s].length;i++)if(has[opp[s]][find(M,T.sides[s][i])])door++;
+  return {size:size,big:big,tb:tb,lr:lr,door:door,has:has,fin:find(M,0)===find(M,n-1)};
+}
+function maxScore(M){return (M.skip?M.T.n+bigCount(M.T):2*M.T.n)+M.T.doorMax;} // with squares that read no numbers a walk can hold only the large rooms
+function longestWalk(M){
+  var n=M.T.n,seen=new Uint8Array(n),best=0,bestPath=[],path=[],budget=4000000,cut=false,A=M.adj;
+  if(M.skip){ // squares are not steps of a walk: large rooms joined through a square count as neighbors
+    A=[];for(var i0=0;i0<n;i0++){var li=[];if(!M.skip[i0])M.adj[i0].forEach(function(v){if(!M.skip[v]){if(li.indexOf(v)<0)li.push(v);}else M.adj[v].forEach(function(w){if(w!==i0&&!M.skip[w]&&li.indexOf(w)<0)li.push(w);});});A.push(li);}
+  }
+  function go(u){
+    if(budget--<0){cut=true;return;}
+    path.push(u);
+    if(path.length>best){best=path.length;bestPath=path.slice();}
+    var a=A[u];
+    for(var q=0;q<a.length;q++){var v=a[q];if(!seen[v]){seen[v]=1;go(v);seen[v]=0;if(cut)break;}}
+    path.pop();
+  }
+  for(var s=0;s<n&&!cut;s++){if(M.skip&&M.skip[s])continue;if(A[s].length===0){if(best<1){best=1;bestPath=[s];}continue;}seen[s]=1;go(s);seen[s]=0;}
+  return {len:best,path:bestPath,cut:cut};
+}
+function fullScore(kind,k,nums){ // used for tests: runs a whole maze and returns the parts of the score
+  var T=makeGrid(kind,k),M=newMaze(T,nums);while(!M.done)stepMaze(M);
+  var info=regionInfo(M),w=longestWalk(M);
+  return {n:T.n,regions:M.regions,big:info.big,walk:w.len,door:info.door,tb:info.tb,lr:info.lr,three:info.big+w.len+info.door,max:2*T.n+T.doorMax,doorMax:T.doorMax};
+}
+
+
+// ---------- Einstein hat tiles that grow from one tile ----------
+var HR3=0.8660254037844386;
+var HAT=[[0,0],[-1,-1],[0,-2],[1,-2],[2,-2],[2,-1],[4,-2],[5,-1],[4,0],[3,0],[2,2],[0,3],[0,2],[-1,2]]; // corners on a lattice. The long side is split in two
+function hpt(v){return [v[0]+0.5*v[1],HR3*v[1]];}
+function hrot(v){return [-v[1],v[0]+v[1]];}       // turn by 60 degrees on the lattice
+function hmir(v){return [v[0]+v[1],-v[1]];}       // mirror on the lattice
+function isC(a,b){return ((a-b)%6+6)%6===0&&((a+2*b)%6+6)%6===0;} // lattice points that are centers of the hexagons under the hat
+var VVEC=[[2,0],[0,2],[-2,2],[-2,0],[0,-2],[2,-2]];
+function inPoly(pt,poly){var x=pt[0],y=pt[1],inside=false;for(var i=0,j=poly.length-1;i<poly.length;j=i++){var xi=poly[i][0],yi=poly[i][1],xj=poly[j][0],yj=poly[j][1];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;}
+var HATKITES=(function(){var out=[],poly=HAT.map(hpt);for(var a=-12;a<=12;a++)for(var b=-12;b<=12;b++){if(!isC(a,b))continue;for(var q=0;q<6;q++){var c=hpt([a,b]),w=hpt(VVEC[q]);if(inPoly([c[0]+0.625*w[0],c[1]+0.625*w[1]],poly))out.push([[a,b],[a+VVEC[q][0],b+VVEC[q][1]]]);}}return out;})(); // the 8 kites inside the hat
+var ORI=(function(){var out=[];for(var m=0;m<2;m++)for(var r=0;r<6;r++){var f=function(v){var w=m?hmir(v):v;for(var q=0;q<r;q++)w=hrot(w);return w;};out.push({mirror:m,rot:r,verts:HAT.map(f),kites:HATKITES.map(function(k){return [f(k[0]),f(k[1])];})});}return out;})();
+function newHatWorld(nums){
+  var Wd={kind:"hat",nums:nums,pos:0,done:false,tiles:[],kite:{},edge:{},open:{},cur:0,read:0,back:0,blocked:0,doors:0,lastNew:-1,lastRoom:-1};
+  addHat(Wd,0,[0,0]);return Wd;
+}
+function ekey(a,b){var ka=a[0]+"_"+a[1],kb=b[0]+"_"+b[1];return ka<kb?ka+"|"+kb:kb+"|"+ka;}
+function kkey(k,t){return (k[0][0]+t[0])+"_"+(k[0][1]+t[1])+"_"+(k[1][0]+t[0])+"_"+(k[1][1]+t[1]);}
+function hatFits(Wd,o,t){if(!isC(t[0],t[1]))return false;var ks=ORI[o].kites;for(var i=0;i<ks.length;i++)if(Wd.kite[kkey(ks[i],t)]!==undefined)return false;return true;}
+function addHat(Wd,o,t){
+  var idx=Wd.tiles.length,V=ORI[o].verts.map(function(v){return [v[0]+t[0],v[1]+t[1]];}),p=V.map(hpt),cx=0,cy=0,i;
+  for(i=0;i<14;i++){cx+=p[i][0];cy+=p[i][1];}cx/=14;cy/=14;
+  var E=[];for(i=0;i<14;i++){var a=V[i],b=V[(i+1)%14],pa=p[i],pb=p[(i+1)%14],mx=(pa[0]+pb[0])/2,my=(pa[1]+pb[1])/2,ang=Math.atan2(mx-cx,-(my-cy));if(ang<-1e-9)ang+=2*Math.PI;E.push({a:a,b:b,pa:pa,pb:pb,m:[mx,my],ang:ang,key:ekey(a,b)});}
+  E.sort(function(u,v){return u.ang-v.ang;});
+  var T={idx:idx,visits:1,ori:o,col:ORI[o].rot,mirror:ORI[o].mirror,p:p,c:[cx,cy],e:E,depth:0};
+  ORI[o].kites.forEach(function(k){Wd.kite[kkey(k,t)]=idx;});
+  E.forEach(function(ed){(Wd.edge[ed.key]=Wd.edge[ed.key]||[]).push(idx);});
+  Wd.tiles.push(T);return T;
+}
+function stepHat(Wd){
+  if(Wd.done)return null;
+  var n=Wd.nums[Wd.pos],T=Wd.tiles[Wd.cur],d=((n%14)+14)%14,ed=T.e[d],res={num:n,door:d,from:Wd.cur,kind:""};
+  var owners=Wd.edge[ed.key],other=-1;for(var i=0;i<owners.length;i++)if(owners[i]!==Wd.cur)other=owners[i];
+  if(other>=0){res.kind=Wd.open[ed.key]?"old door":"old tile";if(!Wd.open[ed.key]){Wd.open[ed.key]=1;Wd.doors++;}Wd.back++;Wd.cur=other;Wd.tiles[other].visits++;}
+  else{
+    var cands=[];
+    for(var o=0;o<12;o++){var V=ORI[o].verts;for(var j=0;j<14;j++){var P=V[j],Q=V[(j+1)%14],t=[ed.a[0]-Q[0],ed.a[1]-Q[1]];
+      if(!(P[0]+t[0]===ed.b[0]&&P[1]+t[1]===ed.b[1])){t=[ed.a[0]-P[0],ed.a[1]-P[1]];if(!(Q[0]+t[0]===ed.b[0]&&Q[1]+t[1]===ed.b[1]))continue;}
+      if(hatFits(Wd,o,t))cands.push([o,t]);}}
+    res.choices=cands.length;
+    if(!cands.length){res.kind="blocked";Wd.blocked++;}
+    else{var pick=cands[Math.floor(n/14)%cands.length],N=addHat(Wd,pick[0],pick[1]);N.depth=T.depth+1;Wd.open[ed.key]=1;Wd.doors++;Wd.cur=N.idx;res.kind="new";res.pick=Math.floor(n/14)%cands.length;}
+  }
+  Wd.lastRoom=Wd.cur;Wd.pos++;Wd.read++;if(Wd.pos>=Wd.nums.length)Wd.done=true;res.to=Wd.cur;
+  return res;
+}
+function hatNumbers(src,need,ownText){
+  var out=[],i,d;
+  function pairs(digits){var o=[];for(var q=0;q+1<digits.length&&o.length<need;q+=2)o.push(digits[q]*10+digits[q+1]);return o;}
+  if(EXTRA[src])return EXTRA[src].digits?pairs(extraNums(src,2*need)):extraNums(src,need);
+  if(src==="wholeprime"){for(i=0;out.length<need;i++)if(PR[i]>=10)out.push(PR[i]);return out;}
+  if(src==="counting"){for(i=10;out.length<need;i++)out.push(i);return out;}
+  if(src==="gap"){for(i=0;i<need;i++)out.push(PR[i+1]-PR[i]);return out;}
+  if(src==="random"){for(i=0;i<need;i++)out.push(10+Math.floor(Math.random()*90));return out;}
+  if(src==="pi")return pairs(piDigits(2*need));
+  if(src==="primedigits"){var s="";for(i=0;s.length<2*need;i++)s+=PR[i];return pairs(s.split("").map(Number));}
+  if(src==="lastdigit"){d=[];for(i=0;i<2*need;i++)d.push(PR[i]%10);return pairs(d);}
+  d=ownText.replace(/[^0-9]/g,"").split("").map(Number);need=1e9;return pairs(d);
+}
+function hatSummary(Wd){var mir=0,far=0;Wd.tiles.forEach(function(t){if(t.mirror)mir++;if(t.depth>far)far=t.depth;});return {read:Wd.read,tiles:Wd.tiles.length,doors:Wd.doors,back:Wd.back,blocked:Wd.blocked,mirror:mir,loops:Wd.doors-(Wd.tiles.length-1),far:far};}
+function hatRun(src,need){var Wd=newHatWorld(hatNumbers(src,need,""));while(!Wd.done)stepHat(Wd);var s=hatSummary(Wd),x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;Wd.tiles.forEach(function(t){t.p.forEach(function(p){if(p[0]<x0)x0=p[0];if(p[0]>x1)x1=p[0];if(p[1]<y0)y0=p[1];if(p[1]>y1)y1=p[1];});});s.width=x1-x0;s.height=y1-y0;s.kites=Object.keys(Wd.kite).length;return s;}
+function drawHat(){
+  if(el("view").value!=="flat"){drawTowers(el("view").value);return;}
+  el("walkNote").textContent="";
+  var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,Wd=S.M,pad=30,x0=1e9,x1=-1e9,y0=1e9,y1=-1e9,i,j;
+  Wd.tiles.forEach(function(t){t.p.forEach(function(p){if(p[0]<x0)x0=p[0];if(p[0]>x1)x1=p[0];if(p[1]<y0)y0=p[1];if(p[1]>y1)y1=p[1];});});
+  var span=Math.max(x1-x0,y1-y0,Wd.kind==="hat"?14:6),sc=(W-2*pad)/span,ox=W/2-(x0+x1)/2*sc,oy=W/2-(y0+y1)/2*sc;
+  function X(p){return ox+p[0]*sc;}function Y(p){return oy+p[1]*sc;}
+  g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
+  var pal=[css("--r1"),css("--r2"),css("--r5"),css("--r3"),css("--r4"),css("--r0")],dark=css("--now");
+  Wd.tiles.forEach(function(t){g.beginPath();t.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p));else g.lineTo(X(p),Y(p));});g.closePath();g.fillStyle=t.mirror?dark:pal[t.col%6];g.globalAlpha=t.mirror?0.85:1;g.fill();g.globalAlpha=1;});
+  var cur=Wd.tiles[Wd.cur];if(!Wd.done){g.beginPath();cur.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p));else g.lineTo(X(p),Y(p));});g.closePath();g.fillStyle=css("--walk");g.globalAlpha=0.45;g.fill();g.globalAlpha=1;}
+  var lw=sc>=20?3:(sc>=9?2:1.2);g.strokeStyle=css("--wall");g.lineWidth=lw;g.lineCap="round";g.beginPath();
+  var drawn={};Wd.tiles.forEach(function(t){t.e.forEach(function(ed){if(drawn[ed.key]||Wd.open[ed.key])return;drawn[ed.key]=1;g.moveTo(X(ed.pa),Y(ed.pa));g.lineTo(X(ed.pb),Y(ed.pb));});});
+  g.stroke();
+  if(el("showWalk").checked){ // a thin line through each open door from tile center to tile center
+    g.strokeStyle=css("--text");g.globalAlpha=0.35;g.lineWidth=Math.max(1,lw*0.6);g.beginPath();var seen={};
+    Wd.tiles.forEach(function(t){t.e.forEach(function(ed){if(!Wd.open[ed.key]||seen[ed.key])return;seen[ed.key]=1;var ow=Wd.edge[ed.key];if(ow.length<2)return;var a=Wd.tiles[ow[0]].c,b=Wd.tiles[ow[1]].c;g.moveTo(X(a),Y(a));g.lineTo(X(ed.m),Y(ed.m));g.lineTo(X(b),Y(b));});});
+    g.stroke();g.globalAlpha=1;
+  }
+  if(el("showDigits").checked&&sc>=16){g.fillStyle=css("--text");g.textAlign="center";g.textBaseline="middle";g.font="600 "+Math.min(26,sc*1.1)+"px system-ui,sans-serif";Wd.tiles.forEach(function(t){g.fillText(String(t.idx+1),X(t.c),Y(t.c));});}
+  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=lw*1.6;g.beginPath();g.arc(X(st.c),Y(st.c),Math.max(4,sc*0.9),0,2*Math.PI);g.stroke();
+}
+
+function drawTowers(view){
+  var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,Wd=S.M,pad=30,x0=1e9,x1=-1e9,y0=1e9,y1=-1e9,maxV=1;
+  Wd.tiles.forEach(function(t){if(t.visits>maxV)maxV=t.visits;t.p.forEach(function(p){if(p[0]<x0)x0=p[0];if(p[0]>x1)x1=p[0];if(p[1]<y0)y0=p[1];if(p[1]>y1)y1=p[1];});});
+  var f=Wd.tiles[0],ts=Math.sqrt(Math.abs(f.p.reduce(function(a,p,i){var q=f.p[(i+1)%f.p.length];return a+p[0]*q[1]-q[0]*p[1];},0))/2);
+  var three=view==="3d",ky=three?0.55:1,cap=three?40:8,hf=(three?0.3:0.09)*ts,maxL=Math.min(maxV,cap);
+  var minSpan=Wd.kind==="hat"?14:6,sx=Math.max(x1-x0,minSpan),sy=Math.max(y1-y0,minSpan)*ky+maxL*hf,sc=(W-2*pad)/Math.max(sx,sy);
+  var ox=W/2-(x0+x1)/2*sc,oy=W/2+(maxL*hf*sc)/2-(y0+y1)/2*ky*sc,hz=hf*sc;
+  function X(p){return ox+p[0]*sc;}function Y(p){return oy+p[1]*ky*sc;}
+  g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
+  var pal=[css("--r1"),css("--r2"),css("--r5"),css("--r3"),css("--r4"),css("--r0")],dark=css("--now"),wall=css("--wall"),text=css("--text");
+  var order=Wd.tiles.slice().sort(function(a,b){return a.c[1]-b.c[1]||a.c[0]-b.c[0];}),lw=sc*ts>=24?1.4:(sc*ts>=8?0.8:0.4);
+  g.lineJoin="round";g.textAlign="center";g.textBaseline="middle";
+  function path(t,dy){g.beginPath();t.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p)-dy);else g.lineTo(X(p),Y(p)-dy);});g.closePath();}
+  order.forEach(function(t){
+    var col=t.mirror?dark:pal[t.col%6],L=Math.min(t.visits,cap),H=L*hz,i;
+    if(three){
+      var m=t.p.length,sides=[];for(i=0;i<m;i++){var a=t.p[i],b=t.p[(i+1)%m];sides.push([a,b,(a[1]+b[1])/2]);}
+      sides.sort(function(u,v){return u[2]-v[2];});
+      sides.forEach(function(sd){g.beginPath();g.moveTo(X(sd[0]),Y(sd[0]));g.lineTo(X(sd[1]),Y(sd[1]));g.lineTo(X(sd[1]),Y(sd[1])-H);g.lineTo(X(sd[0]),Y(sd[0])-H);g.closePath();g.fillStyle=col;g.fill();g.fillStyle="rgba(0,0,0,0.32)";g.fill();if(lw>=0.8){g.strokeStyle=wall;g.lineWidth=lw*0.5;g.stroke();}});
+      path(t,H);g.fillStyle=col;g.fill();g.fillStyle="rgba(255,255,255,"+Math.min(0.35,L/cap*0.35)+")";g.fill();g.strokeStyle=wall;g.lineWidth=lw;g.stroke();
+    }else{
+      for(i=0;i<L;i++){path(t,i*hz);g.fillStyle=col;g.fill();g.strokeStyle=wall;g.lineWidth=lw;g.stroke();}
+      H=(L-1)*hz;
+    }
+    if(t.idx===Wd.cur&&!Wd.done){path(t,H);g.fillStyle=css("--walk");g.globalAlpha=0.5;g.fill();g.globalAlpha=1;}
+    var fs=Math.min(22,sc*ts*0.34);
+    if(fs>=7&&(t.visits>cap||(t.visits>=2&&fs>=11))){g.fillStyle=text;g.font="700 "+fs+"px system-ui,sans-serif";g.fillText(String(t.visits),X(t.c),Y(t.c)-H);}
+  });
+  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=Math.max(1.5,lw*1.6);g.beginPath();g.ellipse(X(st.c),Y(st.c),Math.max(4,sc*ts*0.45),Math.max(4,sc*ts*0.45)*ky,0,0,2*Math.PI);g.stroke();
+  el("walkNote").textContent="The most visited room was visited "+maxV+" times."+(maxV>cap?" A stack stops rising after "+cap+" visits and a number on top shows the true count where the room is large enough to hold a number.":"");
+}
+function hatScores(){var s=hatSummary(S.M);el("hRead").textContent=s.read+" of "+S.M.nums.length;el("hTiles").textContent=s.tiles;el("hDoors").textContent=s.doors;el("hBack").textContent=s.back;el("hBlocked").textContent=s.blocked;el("hMirror").textContent=s.mirror+" of "+s.tiles;el("hLoops").textContent=s.loops;el("hFar").textContent=s.far+" doors away";}
+function describeHat(r){
+  var base="Number "+r.num+" picks door "+r.door+" of tile "+(r.from+1)+": ";
+  if(r.kind==="new")return base+"a new tile is placed (way "+(r.pick+1)+" of "+r.choices+")";
+  if(r.kind==="blocked")return base+"no tile fits behind that door";
+  if(r.kind==="old tile")return base+"the door opens into old tile "+(r.to+1);
+  return base+"the door was already open so the walk steps into tile "+(r.to+1);
+}
+
+// ---------- any grid grown from one room ----------
+var GT={};
+function growTemplate(kind){
+  if(GT[kind])return GT[kind];
+  var T=makeGrid(kind,kind==="sq"||kind==="hex"||kind==="tri"?8:14),tab={},order=[],i,j;
+  function sig(c){return c.p.map(function(p){return Math.round((p[0]-c.c[0])*100)+"_"+Math.round((p[1]-c.c[1])*100);}).sort().join(",");}
+  var s1=T.cells.map(sig),inner=T.cells.map(function(c){for(var q=0;q<c.e.length;q++)if(c.e[q].nb<0)return false;return true;});
+  var sg=T.cells.map(function(c,ci){if(!inner[ci])return "edge"+ci;return s1[ci]+"/"+c.e.map(function(ed){var o=T.cells[ed.nb];return s1[ed.nb]+"@"+Math.round((o.c[0]-c.c[0])*100)+"_"+Math.round((o.c[1]-c.c[1])*100);}).join(";");});
+  var deep=T.cells.map(function(c,ci){if(!inner[ci])return false;for(var q=0;q<c.e.length;q++)if(!inner[c.e[q].nb])return false;return true;});
+  for(i=0;i<T.n;i++){var c=T.cells[i];if(!deep[i]||tab[sg[i]])continue;
+    tab[sg[i]]={id:order.length,e:c.e.map(function(ed){var o=T.cells[ed.nb];return {a:[ed.a[0]-c.c[0],ed.a[1]-c.c[1]],b:[ed.b[0]-c.c[0],ed.b[1]-c.c[1]],sig:sg[ed.nb],off:[o.c[0]-c.c[0],o.c[1]-c.c[1]]};}),p:c.p.map(function(p){return [p[0]-c.c[0],p[1]-c.c[1]];})};order.push(sg[i]);}
+  var miss=0;order.forEach(function(q){tab[q].e.forEach(function(ed){if(!tab[ed.sig])miss++;});});
+  var best=order[0];order.forEach(function(q){if(tab[q].e.length>tab[best].e.length)best=q;});
+  return GT[kind]={tab:tab,start:best,T:T,sg:sg,deep:deep,miss:miss};
+}
+function rk(p){return Math.round(p[0]*100)+"_"+Math.round(p[1]*100);}
+function addRoom(Wd,sg,c){
+  var t=Wd.G.tab[sg],idx=Wd.tiles.length,p=t.p.map(function(q){return [q[0]+c[0],q[1]+c[1]];});
+  var E=t.e.map(function(ed){var pa=[ed.a[0]+c[0],ed.a[1]+c[1]],pb=[ed.b[0]+c[0],ed.b[1]+c[1]],ka=rk(pa),kb=rk(pb);return {pa:pa,pb:pb,m:[(pa[0]+pb[0])/2,(pa[1]+pb[1])/2],key:ka<kb?ka+"|"+kb:kb+"|"+ka,sig:ed.sig,off:ed.off};});
+  var R={idx:idx,visits:1,sg:sg,col:t.id,mirror:0,p:p,c:c,e:E,depth:0};
+  E.forEach(function(ed){(Wd.edge[ed.key]=Wd.edge[ed.key]||[]).push(idx);if(Wd.open[ed.key]&&Wd.edge[ed.key].length===2)Wd.doors++;});
+  Wd.tiles.push(R);return R;
+}
+function newGrowWorld(kind,nums,skip){
+  var G=growTemplate(kind),Wd={kind:"grow",grid:kind,G:G,nums:nums,pos:0,done:false,tiles:[],edge:{},open:{},cur:0,read:0,back:0,blocked:0,doors:0,skip:skip||"",bigDoors:G.tab[G.start].e.length};
+  addRoom(Wd,G.start,[0,0]);return Wd;
+}
+function openEdge(Wd,key){if(Wd.open[key])return false;Wd.open[key]=1;if(Wd.edge[key]&&Wd.edge[key].length>1)Wd.doors++;return true;}
+function otherAt(Wd,key,me){var o=Wd.edge[key]||[];for(var i=0;i<o.length;i++)if(o[i]!==me)return o[i];return -1;}
+function stepGrow(Wd){
+  if(Wd.done)return null;
+  var n=Wd.nums[Wd.pos],T=Wd.tiles[Wd.cur],m=T.e.length,d=((n%m)+m)%m,ed=T.e[d],res={num:n,door:d,from:Wd.cur,kind:"",of:m,through:false};
+  var other=otherAt(Wd,ed.key,Wd.cur),fresh=false,was=!!Wd.open[ed.key];
+  if(other<0){var N=addRoom(Wd,ed.sig,[T.c[0]+ed.off[0],T.c[1]+ed.off[1]]);N.depth=T.depth+1;other=N.idx;fresh=true;}
+  openEdge(Wd,ed.key);
+  var R=Wd.tiles[other];if(!fresh)R.visits++;
+  if(Wd.skip==="closed"&&R.e.length<Wd.bigDoors){res.stay=true;if(!fresh&&!was)was=false;other=Wd.cur;if(fresh){res.kind="new";fresh=false;res.sq=1;}}
+  else if((Wd.skip==="open"||Wd.skip==="vanish")&&R.e.length<Wd.bigDoors){ // a square between large rooms: every door of the square is open and the walk passes straight through
+    res.through=true;R.e.forEach(function(q){openEdge(Wd,q.key);});
+    var tx=2*R.c[0]-ed.m[0],ty=2*R.c[1]-ed.m[1],ex=R.e[0],bd=1e9;R.e.forEach(function(q){var dd=(q.m[0]-tx)*(q.m[0]-tx)+(q.m[1]-ty)*(q.m[1]-ty);if(dd<bd){bd=dd;ex=q;}});
+    var far=otherAt(Wd,ex.key,R.idx);fresh=false;
+    if(far<0){var N2=addRoom(Wd,ex.sig,[R.c[0]+ex.off[0],R.c[1]+ex.off[1]]);N2.depth=T.depth+1;far=N2.idx;fresh=true;}else Wd.tiles[far].visits++;
+    other=far;
+  }
+  if(res.sq){}else if(fresh)res.kind="new";else{res.kind=was?"old door":"old tile";Wd.back++;}
+  Wd.cur=other;Wd.pos++;Wd.read++;if(Wd.pos>=Wd.nums.length)Wd.done=true;res.to=Wd.cur;return res;
+}
+function growRun(kind,src,need,skip){var Wd=newGrowWorld(kind,numbersFor(src,need,""),skip);while(!Wd.done)stepGrow(Wd);var s=hatSummary(Wd),x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;Wd.tiles.forEach(function(t){t.p.forEach(function(p){if(p[0]<x0)x0=p[0];if(p[0]>x1)x1=p[0];if(p[1]<y0)y0=p[1];if(p[1]>y1)y1=p[1];});});s.width=Math.round(x1-x0);s.height=Math.round(y1-y0);
+  var last=Wd.tiles.length,chk=[10,100,1000];return s;}
+function growCheck(kind){var G=growTemplate(kind),T=G.T,bad=0,n=0;for(var i=0;i<T.n;i++){var c=T.cells[i],t=G.tab[G.sg[i]];if(!t||!G.deep[i]){continue;}for(var j=0;j<c.e.length;j++){var ed=c.e[j];if(ed.nb<0)continue;n++;var o=T.cells[ed.nb];if(G.sg[ed.nb]!==t.e[j].sig||Math.abs(o.c[0]-c.c[0]-t.e[j].off[0])>1e-6||Math.abs(o.c[1]-c.c[1]-t.e[j].off[1])>1e-6)bad++;}}return {types:Object.keys(G.tab).length,checked:n,bad:bad,miss:G.miss};}
+
+// ---------- the page ----------
+var S={M:null,walk:null,timer:null,recorded:false};
+function isHat(){return el("grid").value==="hat";}
+function skipOn(kind){var v=el("skipSmall").value;return (kind==="oct"||kind==="ten")&&v!=="read"?v:"";}
+function setup(){
+  stop();
+  var kind=el("grid").value,src=el("src").value,k=Number(el("size").value),nums;
+  if(kind==="hat")el("mode").value="grow";
+  el("skipBox").className=kind==="oct"||kind==="ten"?"":"hide";
+  var grow=el("mode").value==="grow";el("viewBox").className=grow?"":"hide";
+  el("gridStats").className=grow?"grid2 hide":"grid2";el("sThreeLine").className=grow?"stat hide":"stat";el("hatStats").className=grow?"grid2":"grid2 hide";
+  el("sizeWord").textContent=grow?"Amount of numbers":"Grid size";el("roomsWord").textContent=grow?"numbers read":"rooms";
+  el("hBlocked").parentNode.className=kind==="hat"?"":"hide";el("hMirror").parentNode.className=kind==="hat"?"":"hide";
+  if(grow){
+    if(kind==="hat"){nums=hatNumbers(src,k*k,el("own").value);if(nums.length<1)nums=[31,41,59,26,53,58,97,93];S.M=newHatWorld(nums);}
+    else{nums=numbersFor(src,src==="own"?0:k*k,el("own").value);if(nums.length<1)nums=[1,2,3,4,5,6,7,8,9];S.M=newGrowWorld(kind,nums,skipOn(kind));}
+    S.walk=null;S.recorded=true;
+    el("sizeV").textContent=k;el("roomsV").textContent=nums.length;el("now").textContent="Press Play to read the first number.";el("walkNote").textContent="";el("ruleText").textContent="";
+    hatScores();drawHat();return;
+  }
+  if(src==="own"){nums=numbersFor(src,0,el("own").value);if(nums.length<3)nums=[1,2,3,4,5,6,7,8,9];k=2;while(roomCount(kind,k)<nums.length&&k<60)k++;}
+  var T=makeGrid(kind,k);
+  var skip=skipOn(kind),need=skip?bigCount(T):T.n;
+  if(src==="own"){var base=nums.slice();while(nums.length<need)nums.push(base[nums.length%base.length]);}
+  else nums=numbersFor(src,need,"");
+  if(skip)nums=spreadNums(T,nums);
+  S.M=newMaze(T,nums,skip);S.walk=null;S.recorded=false;
+  el("sizeV").textContent=k;el("roomsV").textContent=T.n;el("now").textContent="Press Play to open the first door.";el("walkNote").textContent="";
+  el("ruleText").textContent=ruleText(kind);
+  scores(false);draw();
+}
+function ruleText(kind){
+  if(kind==="sq")return "A square room has 4 doors so 0 opens north and 1 opens east and 2 opens south and 3 opens west and 4 opens north again.";
+  if(kind==="hex")return "A hexagon room has 6 doors so 0 opens north and 1 opens northeast and 2 opens southeast and 3 opens south and 4 opens southwest and 5 opens northwest and 6 opens north again.";
+  if(kind==="tri")return "A triangle room has 3 doors so the count goes around again at 3. A triangle that points down has a north door and a triangle that points up starts with the door on the upper right.";
+  if(kind==="pent")return "A five sided room has 5 doors so the count goes around again at 5 which gives every door exactly two of the ten digits. The rooms sit in four different turns so the first door is whichever door of that room points most nearly north.";
+  if(kind==="oct")return "An eight sided room has 8 doors and a small square room has 4 doors so the count goes around again at 8 in a large room and at 4 in a small room.";
+  return "A ten sided room has 10 doors so every digit from 0 to 9 opens a different door. A square between the large rooms has 6 doors because two of the four sides of the square hold two doors each. Both doors on such a side lead into the same large room.";
+}
+function scores(full){
+  var M=S.M,info=regionInfo(M),n=M.T.n;
+  el("sDone").textContent=M.pos+" of "+n;el("sReg").textContent=M.regions;el("sBig").textContent=info.big+" rooms";
+  el("sTB").textContent=info.tb;el("sLR").textContent=info.lr;el("sFin").textContent=info.fin?"yes":"no";
+  el("sDoor").textContent=info.door+" of "+M.T.doorMax;
+  if(full||(n<=200&&M.skipMode!=="open")){
+    var w=longestWalk(M);S.walk=w;var three=info.big+w.len+info.door,max=maxScore(M);
+    el("sLong").textContent=(w.cut?"at least ":"")+w.len+" rooms";
+    el("sThree").textContent=(w.cut?"at least ":"")+three+" of "+max+" ("+(100*three/max).toFixed(1)+"%)";
+    el("walkNote").textContent=w.cut?"The search for the longest walk stopped early because this grid has many loops so the true longest walk could be longer.":"";
+  }else{el("sLong").textContent="shown at the end";el("sThree").textContent="shown at the end";S.walk=null;}
+  return info;
+}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+function draw(){
+  if(S.M.kind==="hat"||S.M.kind==="grow"){drawHat();return;}
+  var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,M=S.M,T=M.T,n=T.n,pad=40,i,j,cell,ed;
+  var bw=T.box[2]-T.box[0],bh=T.box[3]-T.box[1],sc=Math.min((W-2*pad)/bw,(W-2*pad)/bh),ox=(W-bw*sc)/2-T.box[0]*sc,oy=(W-bh*sc)/2-T.box[1]*sc;
+  function X(p){return ox+p[0]*sc;}function Y(p){return oy+p[1]*sc;}
+  function poly(c){g.beginPath();for(var q=0;q<c.p.length;q++){if(q===0)g.moveTo(X(c.p[q]),Y(c.p[q]));else g.lineTo(X(c.p[q]),Y(c.p[q]));}g.closePath();}
+  var unit=Math.sqrt(bw*bh/n)*sc; // rough width of one room on the screen
+  g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
+  var info=regionInfo(M);
+  if(M.pos>0){
+    var keys=Object.keys(info.size).sort(function(a,b){return info.size[b]-info.size[a];}),col={},pal=[css("--r0"),css("--r1"),css("--r2"),css("--r3"),css("--r4"),css("--r5")];
+    for(i=0;i<keys.length;i++)if(info.size[keys[i]]>=2)col[keys[i]]=pal[i%6];
+    for(i=0;i<n;i++){var f=find(M,i);if(col[f]){g.fillStyle=col[f];poly(T.cells[i]);g.fill();}}
+  }
+  if(M.lastRoom>=0&&!M.done){g.fillStyle=css("--now");g.globalAlpha=0.35;poly(T.cells[M.lastRoom]);g.fill();g.globalAlpha=1;}
+  var wallW=unit>=60?4:(unit>=26?2.5:1.5),showOpen=el("showOpen").checked,opp=[1,0,3,2],plain=[],won=[],arrows=[],seenSide={};
+  g.strokeStyle=css("--wall");g.lineWidth=wallW;g.lineCap="round";g.beginPath();
+  for(i=0;i<n;i++){cell=T.cells[i];for(j=0;j<cell.e.length;j++){ed=cell.e[j];
+    if(ed.nb>=0){if(i<ed.nb&&M.adj[i].indexOf(ed.nb)<0){g.moveTo(X(ed.a),Y(ed.a));g.lineTo(X(ed.b),Y(ed.b));}continue;}
+    var live=M.pos>0&&(i<M.pos||M.adj[i].length),w=showOpen&&live&&info.has[opp[ed.side]][find(M,i)];
+    (w?won:plain).push(ed);
+    if(w&&!seenSide[i+"_"+ed.side]){seenSide[i+"_"+ed.side]=1;arrows.push([ed,cell]);}
+  }}
+  g.stroke();
+  var dash=Math.max(3,unit*0.11);g.lineCap="butt";g.setLineDash([dash,dash*0.8]);
+  g.strokeStyle=css("--wall");g.lineWidth=Math.max(1.2,wallW*0.75);g.beginPath();for(i=0;i<plain.length;i++){g.moveTo(X(plain[i].a),Y(plain[i].a));g.lineTo(X(plain[i].b),Y(plain[i].b));}g.stroke();
+  g.strokeStyle=css("--open");g.lineWidth=wallW*1.5;g.beginPath();for(i=0;i<won.length;i++){g.moveTo(X(won[i].a),Y(won[i].a));g.lineTo(X(won[i].b),Y(won[i].b));}g.stroke();
+  g.setLineDash([]);g.lineCap="round";
+  var ms=Math.max(3,Math.min(unit*0.16,pad*0.42));g.fillStyle=css("--open");
+  for(i=0;i<arrows.length;i++){ed=arrows[i][0];cell=arrows[i][1];var mx=X(ed.m),my=Y(ed.m),nx=mx-X(cell.c),ny=my-Y(cell.c),ln=Math.hypot(nx,ny)||1;nx/=ln;ny/=ln;var tx=-ny,ty=nx;
+    g.beginPath();g.moveTo(mx+nx*ms*0.35,my+ny*ms*0.35);g.lineTo(mx+nx*ms*1.55+tx*ms*1.05,my+ny*ms*1.55+ty*ms*1.05);g.lineTo(mx+nx*ms*1.55-tx*ms*1.05,my+ny*ms*1.55-ty*ms*1.05);g.closePath();g.fill();}
+  if(el("showDigits").checked&&unit>=30){
+    g.fillStyle=css("--text");g.textAlign="center";g.textBaseline="middle";
+    for(i=0;i<M.pos;i++){if(M.skip&&M.skip[i])continue;cell=T.cells[i];var small=cell.e.length<=4&&(T.kind==="oct"||T.kind==="ten")?0.6:(T.kind==="tri"?0.62:1);
+      var lab=String(M.nums[i]),fs=Math.max(9,Math.min(unit*0.42*small,unit*1.3*small/(lab.length+0.6)));g.font="600 "+fs+"px system-ui,sans-serif";g.fillText(lab,X(cell.c),Y(cell.c));}
+  }
+  if(el("showMark").checked&&unit>=20){
+    g.fillStyle=css("--muted");
+    for(i=0;i<M.pos;i++){if(M.skip&&M.skip[i])continue;cell=T.cells[i];ed=cell.e[doorOf(T,i,M.nums[i])];
+      var cx=X(cell.c),cy=Y(cell.c),ex=X(ed.m),ey=Y(ed.m),dx=ex-cx,dy=ey-cy,dl=Math.hypot(dx,dy)||1,ux=dx/dl,uy=dy/dl,q=Math.max(2.5,Math.min(unit*0.085,dl*0.2)),bx=cx+dx*0.78,by=cy+dy*0.78;
+      g.beginPath();g.moveTo(bx+ux*q,by+uy*q);g.lineTo(bx-ux*q*0.6-uy*q*0.8,by-uy*q*0.6+ux*q*0.8);g.lineTo(bx-ux*q*0.6+uy*q*0.8,by-uy*q*0.6-ux*q*0.8);g.closePath();g.fill();}
+  }
+  if(M.done&&S.walk&&el("showWalk").checked&&S.walk.path.length>1){
+    g.strokeStyle=css("--walk");g.lineWidth=Math.max(2,unit*0.12);g.lineJoin="round";g.globalAlpha=0.8;g.beginPath();
+    for(i=0;i<S.walk.path.length;i++){cell=T.cells[S.walk.path[i]];if(i===0)g.moveTo(X(cell.c),Y(cell.c));else g.lineTo(X(cell.c),Y(cell.c));}
+    g.stroke();g.globalAlpha=1;
+  }
+}
+var SPEEDS=[1,2,3,4,8,15,30,60,150,400,1500];
+var RANK=[],RANKKEY="multiGridDoorRanking1",lastAdded=null;
+try{var saved=JSON.parse(localStorage.getItem(RANKKEY)||"[]");if(Array.isArray(saved))RANK=saved;}catch(e){RANK=[];}
+function saveRank(){try{localStorage.setItem(RANKKEY,JSON.stringify(RANK));}catch(e){}}
+function recordFinished(){
+  var M=S.M;if(!M.done||S.recorded||!S.walk)return;S.recorded=true;
+  var info=regionInfo(M),T=M.T,score=info.big+S.walk.len+info.door,max=maxScore(M),src=el("src").value;
+  var NN=M.nums.filter(function(x){return x!==null;}),digits=NN.every(function(x){return x>=0&&x<=9;})?NN.join(""):"";
+  var label=src==="own"?(digits.length>44?digits.slice(0,20)+" ... "+digits.slice(-20):digits):el("src").options[el("src").selectedIndex].textContent.replace(/\s*\(.*\)\s*$/,"");
+  var key=T.kind+M.skipMode+"|"+T.k+"|"+(src==="random"||src==="own"?M.nums.join(""):src);
+  var small=document.createElement("canvas");small.width=184;small.height=184;small.getContext("2d").drawImage(el("cv"),0,0,184,184);
+  var pic="";try{pic=small.toDataURL("image/png");}catch(e){}
+  var entry={key:key,label:label,kind:T.kind,k:T.k,n:T.n,score:score,max:max,big:info.big,walk:S.walk.len,door:info.door,cut:!!S.walk.cut,pic:pic,digits:digits.length<=400?digits:""};
+  RANK=RANK.filter(function(e){return e.key!==key;});RANK.push(entry);
+  RANK.sort(function(a,b){return b.score/b.max-a.score/a.max;});
+  if(RANK.length>60)RANK.length=60;
+  lastAdded=key;saveRank();showRank();
+}
+function showRank(){
+  var box=el("rankList");box.innerHTML="";el("rankClear").className=RANK.length?"":"hide";
+  RANK.forEach(function(e,i){
+    var row=document.createElement("div");row.className="rk"+(e.key===lastAdded?" new":"");
+    var pos=document.createElement("div");pos.className="pos";pos.textContent=(i+1)+".";row.appendChild(pos);
+    if(e.pic){var im=document.createElement("img");im.src=e.pic;im.alt="Small copy of the maze";row.appendChild(im);}
+    var t=document.createElement("div");t.className="txt";
+    var b=document.createElement("b");b.textContent=(100*e.score/e.max).toFixed(1)+"% which is "+(e.cut?"at least ":"")+e.score+" of "+e.max;t.appendChild(b);
+    var d1=document.createElement("div");d1.textContent=e.label+" on "+e.n+" "+GRIDNAME[e.kind]+" rooms";t.appendChild(d1);
+    var d2=document.createElement("div");d2.textContent="Largest region "+e.big+" + longest walk "+e.walk+" + door points "+e.door;t.appendChild(d2);
+    if(e.digits){var again=document.createElement("button");again.textContent="Show this maze again";again.onclick=function(){el("grid").value=e.kind;el("src").value="own";el("own").value=e.digits;syncBoxes();setup();finishAll();window.scrollTo({top:0,behavior:"smooth"});};t.appendChild(again);}
+    row.appendChild(t);box.appendChild(row);
+  });
+}
+function stop(){if(S.timer){clearInterval(S.timer);S.timer=null;}el("play").textContent="Play";}
+function describe(r){var T=S.M.T,m=T.cells[r.room].e.length;return "Room "+(r.room+1)+": "+r.num+" opens door "+r.door+" of the "+m+" doors"+(r.ok?"":" (outside the grid)");}
+function afterSteps(last){
+  var M=S.M,end=M.done;if(end)stop();
+  if(M.kind==="hat"||M.kind==="grow"){hatScores();drawHat();if(last)el("now").textContent=M.kind==="hat"?describeHat(last):describeGrow(last);if(end){var hs=hatSummary(M);el("now").textContent="Finished: "+hs.tiles+" tiles were placed from "+hs.read+" numbers and "+hs.doors+" doors are open.";}return;}
+  scores(end);draw();
+  if(last)el("now").textContent=describe(last);
+  if(end){recordFinished();var w=S.walk;el("now").textContent="Finished: the grid has "+M.regions+" regions and the longest walk visits "+(w&&w.cut?"at least ":"")+(w?w.len:0)+" rooms.";}
+}
+function stepAny(M){return M.kind==="hat"?stepHat(M):M.kind==="grow"?stepGrow(M):stepMaze(M);}
+function describeGrow(r){var b="Number "+r.num+" picks door "+r.door+" of the "+r.of+" doors of room "+(r.from+1)+": ";if(r.stay)return b+(r.kind==="new"?"a new square is placed behind the door and the walk stays in room "+(r.from+1):r.kind==="old tile"?"the door opens into an old square and the walk stays in room "+(r.from+1):"the door into the square was already open so the walk stays in room "+(r.from+1));if(r.through)b+="the walk passes through the open square and ";return b+(r.kind==="new"?"a new room is placed":r.kind==="old tile"?"the door opens into old room "+(r.to+1):"the door was already open so the walk steps into room "+(r.to+1));}
+function finishAll(){stop();if(S.M.done)setup();var last=null;while(!S.M.done)last=stepAny(S.M);afterSteps(last);}
+function play(){
+  if(S.timer){stop();return;}
+  if(S.M.done)setup();
+  var rate=SPEEDS[Number(el("speed").value)],interval=Math.max(16,1000/rate),batch=Math.max(1,Math.round(rate*interval/1000));
+  el("play").textContent="Pause";
+  S.timer=setInterval(function(){var last=null;for(var b=0;b<batch&&!S.M.done;b++)last=stepAny(S.M);afterSteps(last);},interval);
+}
+el("play").onclick=play;
+el("step").onclick=function(){stop();if(S.M.done)setup();afterSteps(stepAny(S.M));};
+el("finish").onclick=finishAll;
+el("reset").onclick=setup;
+function syncBoxes(){var v=el("src").value;el("ownBox").className=v==="own"?"":"hide";el("sizeBox").className=v==="own"?"hide":"";}
+el("grid").onchange=setup;el("skipSmall").onchange=setup;el("view").onchange=draw;el("mode").onchange=function(){if(el("grid").value==="hat"&&el("mode").value==="fill")el("grid").value="hex";setup();};
+el("src").onchange=function(){syncBoxes();setup();};
+el("own").oninput=setup;el("ownClear").onclick=function(){el("own").value="";setup();el("own").focus();};
+el("size").oninput=function(){setup();};
+el("speed").oninput=function(){el("speedV").textContent=SPEEDS[Number(this.value)];if(S.timer){stop();play();}};
+el("showDigits").onchange=draw;el("showWalk").onchange=draw;el("showOpen").onchange=draw;el("showMark").onchange=draw;
+el("speedV").textContent=SPEEDS[Number(el("speed").value)];
+if(window.matchMedia)window.matchMedia("(prefers-color-scheme:dark)").addEventListener("change",draw);
+el("rankClear").onclick=function(){RANK=[];lastAdded=null;saveRank();showRank();};
+syncBoxes();setup();showRank();
+</script>
+</body>
+</html>
