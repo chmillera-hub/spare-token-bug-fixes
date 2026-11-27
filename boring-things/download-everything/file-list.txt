@@ -121,6 +121,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hallway-walks.png
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/hexagon-animation.html
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/large-hexagons-counting.png
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/loops-of-prime-digits.png
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/master-challenge-findings.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/max-score-points-list.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-animation.html
@@ -131,6 +132,7 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes.png
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/new-sequences.png
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/open-squares.png
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/order-test-findings.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/patterns-summary.md
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-large-grids.png
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/pi-small-grids.png
@@ -1305,14 +1307,19 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/borin
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_hex.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_ring.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_cousins.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_loop.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/five_digit_loop.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_collatz_runs.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_counting_trap.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hexagon_prime_race.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/prime_digit_loops.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/prime_door_counts.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/shuffle_scores.py
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/shuffle_scores_results.json
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_digit_walks.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking.py
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking_results.json

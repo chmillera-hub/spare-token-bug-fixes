@@ -5,8 +5,8 @@
 ## Download everything
 
 - [Zip of the whole repository](https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip): one download that holds every file
-- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 346 pages joined into one plain text file
-- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1545 files
+- [Every reading page in one text file](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/research-pages-all-in-one.txt): 347 pages joined into one plain text file
+- [List of every file as JSON](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.json): path and title and size and direct download address for 1552 files
 - [List of direct download addresses](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/file-list.txt): one address per line
 - Any single file: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path of the file>
 
@@ -86,6 +86,7 @@
 - [The maze test with 0 as north: door grids made from the digits of primes](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/maze-test-zero-north.md)
 - [One pattern on many grid sizes: total three part scores for grids from 2 by 2 to 10 by 10 rooms](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/multi-size-score-list.md)
 - [Neat shapes: the smallest primes that draw rows and rings and spirals on door grids](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/neat-shapes-findings.md)
+- [Five follow up tests on the door walks: shuffled order and Fibonacci cousins and prime door counts and wider loops and hat tiles that never block](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/order-test-findings.md)
 - [Patterns that stand out across the maze tests](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/patterns-summary.md)
 - [Random number search: the highest scoring random numbers on door grids](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/random-search-findings.md)
 - [Questions about door mazes on other shapes of room and on pictures that grow](https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shape-grids-findings.md)
