@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1552,
- "total_bytes": 103812429,
+ "file_count": 1557,
+ "total_bytes": 103818758,
  "files": [
   {
    "path": ".gitignore",
@@ -712,7 +712,7 @@
   {
    "path": "1-research-click-here-first/lean-math-proofs/README.md",
    "title": "Lean math proofs",
-   "bytes": 19383,
+   "bytes": 21640,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/README.md",
@@ -746,6 +746,42 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a109095.lean"
   },
   {
+   "path": "1-research-click-here-first/lean-math-proofs/oeis-a227387.lean",
+   "title": "oeis-a227387.lean",
+   "bytes": 1008,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a227387.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a227387.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/oeis-a228865.lean",
+   "title": "oeis-a228865.lean",
+   "bytes": 736,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a228865.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a228865.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/oeis-a234798.lean",
+   "title": "oeis-a234798.lean",
+   "bytes": 742,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a234798.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a234798.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/oeis-a256834.lean",
+   "title": "oeis-a256834.lean",
+   "bytes": 606,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256834.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a256834.lean"
+  },
+  {
    "path": "1-research-click-here-first/lean-math-proofs/oeis-a256836.lean",
    "title": "oeis-a256836.lean",
    "bytes": 608,
@@ -753,6 +789,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256836.lean",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a256836.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/oeis-a333122.lean",
+   "title": "oeis-a333122.lean",
+   "bytes": 980,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a333122.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/oeis-a333122.lean"
   },
   {
    "path": "1-research-click-here-first/lean-math-proofs/oeis-a352628.lean",
