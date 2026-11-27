@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
  "file_count": 1507,
- "total_bytes": 100261157,
+ "total_bytes": 100264145,
  "files": [
   {
    "path": ".gitignore",
@@ -3961,7 +3961,7 @@
   {
    "path": "_config.yml",
    "title": "_config.yml",
-   "bytes": 457,
+   "bytes": 678,
    "type": "yml",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/_config.yml",
@@ -10765,7 +10765,7 @@
   {
    "path": "boring-things/download-everything/README.md",
    "title": "Download everything",
-   "bytes": 3141,
+   "bytes": 3149,
    "type": "md",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/README.md",
@@ -10774,7 +10774,7 @@
   {
    "path": "boring-things/download-everything/build-download-files.py",
    "title": "build-download-files.py",
-   "bytes": 5419,
+   "bytes": 8178,
    "type": "py",
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/download-everything/build-download-files.py",

@@ -2,6 +2,7 @@
 # Run from the top folder of the repository:  python3 boring-things/download-everything/build-download-files.py
 # The script reads the list of tracked files from git and writes four files next to this script:
 #   file-list.json  file-list.txt  research-pages-all-in-one.txt  llms.txt
+# and one more file named everything-in-one.md which joins nearly all the written text of the repository for upload to a chatbot.
 import subprocess, json, os, datetime, urllib.parse
 
 OWNER_REPO = "chmillera-hub/spare-token-bug-fixes"
@@ -11,7 +12,7 @@ SITE = "https://chmillera-hub.github.io/spare-token-bug-fixes/"
 ZIP = "https://github.com/" + OWNER_REPO + "/archive/refs/heads/main.zip"
 HERE = "boring-things/download-everything/"
 RESEARCH = "1-research-click-here-first/"
-GENERATED = {HERE + n for n in ("file-list.json", "file-list.txt", "research-pages-all-in-one.txt", "llms.txt")}
+GENERATED = {HERE + n for n in ("file-list.json", "file-list.txt", "research-pages-all-in-one.txt", "llms.txt", "everything-in-one.md")}
 SMALL_TEXT_LIMIT = 100_000  # bytes; larger .txt files are data files and stay out of the all-in-one file
 
 def q(p): return urllib.parse.quote(p)
@@ -71,4 +72,32 @@ with open(HERE + "llms.txt", "w", encoding="utf-8") as f:
     f.write("\n## Other files\n\n- [Bug fix shelf map for AI agents](" + RAW + "boring-things/bug-fixes/llms.txt)\n- [Bug fix shelf list as JSON](" + RAW + "boring-things/bug-fixes/index.json)\n")
 
 print("files listed", len(files), "| pages in all-in-one", len(picked), "| left out", len(left_out))
+
+# everything-in-one.md : one large Markdown file with nearly all the written text of the repository
+BIBLE = RESEARCH + "bible-quote-builder/bible-source/"
+DUPLICATE = RESEARCH + "emotion-stories/all-stories-in-one.md"
+def in_big(x):
+    p, t = x["path"], x["type"]
+    if p == DUPLICATE or p.startswith(BIBLE): return False
+    if x["area"] == "top": return t == "md"
+    if x["area"] == "research": return t in ("md", "txt", "lean", "py")
+    return t == "md"
+order = {"top": 0, "research": 1, "boring-things": 2}
+big = sorted((x for x in files if in_big(x)), key=lambda x: (order[x["area"]], x["path"]))
+skipped = [x for x in files if not in_big(x)]
+with open(HERE + "everything-in-one.md", "w", encoding="utf-8") as f:
+    f.write("# Everything in one file\n\n")
+    f.write("This file joins " + str(len(big)) + " text files from the repository at https://github.com/" + OWNER_REPO + " into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on " + today + ". An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.\n\n")
+    f.write("Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.\n\n")
+    f.write("This file holds the reading pages and the plain text data files of the research folder and the Lean proof files and the notes about each bug fix. This file leaves out videos and pictures and programs and patch files and the full text of the Bible (a public text that is easy to find elsewhere) and one page that only repeats the emotion stories. The end of this file lists every file that was left out with a direct download address.\n\n")
+    f.write("## List of the joined files\n\n")
+    for x in big: f.write("- " + x["path"] + "\n")
+    for x in big:
+        body = open(x["path"], encoding="utf-8", errors="ignore").read().rstrip()
+        f.write("\n\n---\n\n# FILE: " + x["path"] + "\n\nDownload address: " + x["raw_url"] + "\n\n")
+        if x["type"] == "md": f.write(body + "\n")
+        else: f.write("````" + ("text" if x["type"] == "txt" else x["type"]) + "\n" + body + "\n````\n")
+    f.write("\n\n---\n\n# FILES LEFT OUT OF THIS FILE\n\n")
+    for x in skipped: f.write("- " + x["path"] + " (" + str(x["bytes"]) + " bytes) " + x["raw_url"] + "\n")
+print("everything-in-one.md holds", len(big), "files |", os.path.getsize(HERE + "everything-in-one.md"), "bytes")
 for n in sorted(GENERATED): print(n, os.path.getsize(n))

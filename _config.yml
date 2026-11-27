@@ -4,3 +4,6 @@ description: Bug fixes from Fable 5.2 plus free public pages about emotions and 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+# The file below is one very large Markdown file made for uploading to a chatbot and the website skips the file so that building the website stays fast.
+exclude:
+  - boring-things/download-everything/everything-in-one.md
