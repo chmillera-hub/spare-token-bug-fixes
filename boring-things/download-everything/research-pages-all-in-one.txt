@@ -1,6 +1,6 @@
 EVERY READING PAGE IN THE RESEARCH FOLDER IN ONE FILE
 Built on 2026-11-27 by the script named build-download-files.py. An AI chatbot (Claude) wrote the pages and no other person has rechecked the pages.
-This file holds 341 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
+This file holds 343 pages. Each page starts with a line of equals signs and then the path of the page and the direct download address of the page.
 Large data files and program files are left out of this file and are listed at the end with a direct download address for each.
 
 ================================================================================
@@ -23,6 +23,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
+- [lean-math-proofs](lean-math-proofs) holds six computer-checked proofs in the proof language Lean 4 of five small helper steps toward known math results (a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the size of prime numbers and a bookkeeping fact about sums over primes and a short fact from group theory) which the checking script of the public project Left to Solve accepted.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
@@ -13910,6 +13911,38 @@ The hopeful half is that the tools can be handed back. A friend who says "you ca
 The six Python files that produced every number sit in the folder named kindness-games-scripts inside boring-things/research-program-files. Each file runs with the command "python3" followed by the file name.
 
 ================================================================================
+FILE: 1-research-click-here-first/lean-math-proofs/README.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/README.md
+================================================================================
+
+# Lean math proofs
+
+This folder holds six computer-checked proofs of five small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
+
+The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026.
+
+The five facts are small helper steps and are not solutions to open problems because the hard parts of the larger results are other steps that still have no proof in that collection.
+
+- [Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean](Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean) proves a counting fact which says that among the whole numbers from 1 to X at most X divided by B numbers can be divided evenly by the square of some whole number larger than B (for example at most 10 of the numbers from 1 to 100 are divisible by the square of a number larger than 10). The counting fact is one of two steps toward a 1981 result of Claudia Spiro about Erdős problem 946 which says that infinitely many whole numbers n have the same count of divisors as the number n + 5040.
+- [Erdos1162.erdos_1162.variants.pyber.R1.H1.lean](Erdos1162.erdos_1162.variants.pyber.R1.H1.lean) proves a lower bound on the number of subgroups of the symmetric group on n objects where the symmetric group means the collection of all ways to rearrange n objects and a subgroup means a smaller collection of rearrangements that is closed under doing one rearrangement after another. The bound says that the number of subgroups is at least 2 raised to the power a times b where a is n divided by 4 rounded down and a + b is n divided by 2 rounded down (for example 8 objects give at least 2^4 = 16 subgroups). The bound is the easier of two steps toward a 1993 result of László Pyber about Erdős problem 1162.
+- [Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean](Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean) holds the same proof of the same lower bound with a different first line because the project lists the lower bound a second time as a step toward a sharper 2025 result of Roney-Dougal and Tracey.
+- [Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean](Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean) proves a bound on the size of prime numbers which says that the prime number in position n + 1 of the list of primes (2 and 3 and 5 and so on) divided by n + 1 is at most 2 times the natural logarithm of that prime number whenever n is at least 13 (for example the prime in position 100 is 541 and 541 divided by 100 is 5.41 while 2 times the natural logarithm of 541 is about 12.6). The bound is the easier of two steps toward a known result about Erdős problem 968 which says that the ratio of a prime number to the position of that prime number rises twice in a row infinitely often.
+- [ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean](ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean) proves a bookkeeping fact about sums over prime numbers which says that a bound on sums where each prime p is weighted by the natural logarithm of p can be turned into a bound on the same sums without the logarithm weights at the cost of dividing by the natural logarithm of 2. The bookkeeping fact is the easier of two steps toward the Bombieri-Vinogradov theorem of 1965 which describes how evenly prime numbers spread across remainder classes on average.
+- [HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean](HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean) proves a short fact from group theory where a group means a collection of reversible moves that can be done one after another. The short fact says that if every group of a kind called hyperbolic can be told apart from the one-move group by finite pictures of the group (the label for that property is residually finite) then every hyperbolic group with more than one move has a smaller part that is not the whole group and that splits the group into finitely many equal pieces. The short fact is the easy direction of a known two-way statement and the other direction still has no proof in the collection.
+
+## How the proofs were checked
+
+Claude ran the checking script of the Left to Solve project (the file tools/check.sh at version 630fcab of the collection) on each of the six files and the script printed "accepted" for all six files which means the Lean checker found no gap and the proofs use only the three standard starting assumptions of Lean (propext and Classical.choice and Quot.sound). No person has reread the proofs and the Left to Solve project has not received or reviewed the proofs because nobody has sent the proofs to the project yet.
+
+## The idea behind each proof
+
+- The counting proof adds up the multiples of each square because exactly X divided by d squared (rounded down) of the numbers from 1 to X are multiples of d squared. The sum of 1 divided by d squared over every d larger than B stays below 1 divided by B because each term 1 divided by d squared is at most 1/(d-1) minus 1/d and those differences cancel in a chain.
+- The subgroup proof swaps objects in pairs because a + b separate pairs of objects can each be swapped or left alone which gives a collection of 2^(a+b) rearrangements. Each grid of zeros and ones with a rows and b columns then picks out a different subgroup inside that collection and there are 2^(a times b) such grids.
+- The prime number proof uses two facts from the public Lean math library named Mathlib which are a lower bound of Chebyshev type on a weighted count of prime powers up to a number P and an upper bound on the same weighted count by the number of primes up to P times the natural logarithm of P. The two facts together force the number of primes up to P to be large and the prime in position n + 1 has exactly n + 1 primes up to that prime.
+- The bookkeeping proof walks up the whole numbers one at a time because adding a new prime changes the plain sum and the weighted sum divided by the logarithm by the same amount. The leftover error at each step is at most the bound times the drop in 1 divided by the logarithm and those drops cancel in a chain.
+- The group theory proof picks one move other than the do-nothing move because the residually finite property hands over a part of the group that leaves out the picked move and that splits the group into finitely many equal pieces.
+
+================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/README.md
 DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md
 ================================================================================
@@ -13920,13 +13953,14 @@ November 11 2026 and updated November 15 2026 and November 16 2026 and November 
 
 ## Pages in this folder
 
-This page is the main document and the folder also holds ten shorter pages and two copies of the main document for downloading.
+This page is the main document and the folder also holds eleven shorter pages and two copies of the main document for downloading.
 
 - [half-angle-finding.md](half-angle-finding.md) shows that the half-angle rate for entangled pairs comes out of evenly random directions in three dimensions and fails in two dimensions and overshoots in four or more dimensions.
 - [smallest-size-finding.md](smallest-size-finding.md) puts a number on the smallest paper Mobius strip which has to be more than 1.732 times as long as wide and folds down toward a flat triangle.
 - [three-dimensions-check.md](three-dimensions-check.md) compares the half-angle result with published research and adds three new tests which include a test where two dimensions and four or more dimensions could allow faster-than-light messages.
 - [knots-from-cutting.md](knots-from-cutting.md) shows that a ribbon with three half twists becomes a trefoil knot when the ribbon splits down the middle which could give the ribbon picture a road to knots with no tying.
 - [expression-continuum-reflection.md](expression-continuum-reflection.md) is a short reflection that uses the unbroken path along a Mobius strip as a picture for a feeling that runs through inner experience and facial movement and body language and tone of voice and words at the same moment.
+- [hilbert-space-reflection.md](hilbert-space-reflection.md) is a reflection on how Hilbert space could be expressed in the ribbon picture such as the arrow of a state as the whole ripple pattern on a ribbon and a measurement as a shadow and the two-lap rule as the sign flip and the page names where the ribbon picture falls short for many particles.
 - [packing-test.md](packing-test.md) reports computer tests that poured flat strips and plain loops and Mobius strips into bins such as a result where flat pieces packed tightest and the Mobius strip and the untwisted loop packed about the same away from the walls of the bin.
 - [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
 - [twist-joining-finding.md](twist-joining-finding.md) reports a computer test that joined Mobius strips end to end and found that a left-handed strip and a right-handed strip cancel into a plain loop while two left-handed strips add into one locked full twist which matches the way electric charge adds.
@@ -14450,6 +14484,7 @@ Four shorter pages were added on November 12 2026 and each page tests one senten
 - [three-dimensions-check.md](three-dimensions-check.md) compares the half-angle result with published research and adds three new tests which include a test where two dimensions and four or more dimensions could allow faster-than-light messages.
 - [knots-from-cutting.md](knots-from-cutting.md) shows that a ribbon with three half twists becomes a trefoil knot when the ribbon splits down the middle which could give the ribbon picture a road to knots with no tying.
 - [expression-continuum-reflection.md](expression-continuum-reflection.md) is a short reflection that uses the unbroken path along a Mobius strip as a picture for a feeling that runs through inner experience and facial movement and body language and tone of voice and words at the same moment.
+- [hilbert-space-reflection.md](hilbert-space-reflection.md) is a reflection on how Hilbert space could be expressed in the ribbon picture such as the arrow of a state as the whole ripple pattern on a ribbon and a measurement as a shadow and the two-lap rule as the sign flip and the page names where the ribbon picture falls short for many particles.
 - [packing-test.md](packing-test.md) reports computer tests that poured flat strips and plain loops and Mobius strips into bins such as a result where flat pieces packed tightest and the Mobius strip and the untwisted loop packed about the same away from the walls of the bin.
 - [spin-rate-finding.md](spin-rate-finding.md) gives rough numbers for how many laps each second a ribbon loop would need for each particle mass and shows that a longer strip coiled into more turns lets atoms from hydrogen to uranium share one spin rate at the speed of light.
 - [twist-joining-finding.md](twist-joining-finding.md) reports a computer test that joined Mobius strips end to end and found that a left-handed strip and a right-handed strip cancel into a plain loop while two left-handed strips add into one locked full twist which matches the way electric charge adds.
@@ -14544,6 +14579,61 @@ The program is named half_angle_from_directions.py and sits in the folder boring
 ## Who made this page
 
 > **Who wrote this:** An AI chatbot (Claude) ran the test and wrote this page.
+
+================================================================================
+FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/hilbert-space-reflection.md
+DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/hilbert-space-reflection.md
+================================================================================
+
+# How Hilbert space could be expressed in the Mobius strip picture
+
+> **About this page:** One AI model (Claude) wrote this page on 27 November 2026 after the author of this repository asked how Hilbert space might be expressed in the ribbon picture of the main document in this folder. The page holds the chatbot's reflections and is a way of imagining. The page is not tested physics and no other person has reviewed the page.
+
+## What Hilbert space is in plain words
+
+Hilbert space is the bookkeeping that quantum physics uses for everything a particle could be doing at once. The state of a particle is pictured as one arrow in a space that has one direction for each basic possibility. The lengths of the arrow along those directions say how much of each possibility is present.
+
+The main document never uses the name Hilbert space and yet the main document already holds most of the pieces. Each part below takes one piece of Hilbert space and points to the part of the ribbon picture that could express that piece.
+
+## 1. The arrow could be the whole ripple pattern on a ribbon
+
+The part of the main document about superposition says one ribbon can carry many ripples stacked on top of each other. Every ripple pattern on a closed loop can be built by adding pure notes in different amounts which is proven mathematics about waves on a loop. So the basic directions of Hilbert space could be the pure notes of the ribbon and the arrow could be the list of how much of each note the ribbon carries.
+
+## 2. The two-lap rule is the most exact match
+
+In Hilbert space the arrow for an electron turns into the negative of the same arrow after one full turn and returns to the start after two full turns. The main document describes an ant that walks one lap around a Mobius strip and arrives upside down and needs a second lap to arrive right side up. The upside down ant is that same sign flip.
+
+A wave living on a Mobius strip has to flip sign after one lap for the same reason and the flip forces the notes of the wave to step in halves. This match is a mathematical one and not a loose comparison because the waves that fit on a Mobius strip are exactly the waves that change sign after one lap.
+
+## 3. The corkscrew could carry the two-part numbers
+
+Each amount in Hilbert space is a number with two parts which are a size and a position around a circle. The main document pictures light as a corkscrew with a tip that keeps circling. The width of the corkscrew could be the size and the place of the tip on the circle could be the second part.
+
+## 4. A measurement could be a shadow
+
+A measurement in Hilbert space takes the shadow of the arrow along one chosen direction. The main document says a measurement works like a prism that lets one ripple through. The main document also says a Mobius strip shows a different outline from each viewing direction. The page [shadow-finding.md](shadow-finding.md) in this folder counted 37 different shadows of a Mobius strip. So the idea that what a person finds depends on which direction the person asks from is already in this folder.
+
+## 5. The half-angle page supplies the chance rule for one spin
+
+Hilbert space says the chance of a result is the squared length of the shadow. For the spin of one particle that rule becomes the square of the cosine of half the angle between two directions. The page [half-angle-finding.md](half-angle-finding.md) in this folder got that exact rate from a randomly pointing arrow in three dimensions.
+
+The same page found that a random point on a circle gives the wrong rate. That result fits Hilbert space because the states of one spin map onto the surface of a ball and not onto a circle.
+
+## 6. The order of the questions
+
+In Hilbert space two measurements can give different results depending on which measurement is done first. The main document describes a paper Mobius strip that has two sides to the eye and one side to a finger tracing the surface. Each method of checking gives a true answer that the other method cannot give which is a start on the idea that the order and the kind of question matter.
+
+## Where the ribbon picture falls short
+
+**Many particles.** The Hilbert space for two particles is the product of the two separate spaces and not the sum. So 10 spins need 1024 directions and 300 spins need more directions than there are atoms in the visible universe. Ripples on a ribbon sitting in ordinary space are one pattern over one surface and that kind of pattern grows by adding. The single stretched ribbon in the part of the main document about entanglement handles one pair. The chatbot does not see how the ribbon picture reaches the multiplying growth for many particles. This is the largest gap and standard physics has no easy picture for the multiplying growth either.
+
+**The squared rule in general.** The half-angle page covers one spin measured along a direction. Hilbert space applies the squared rule to every kind of measurement.
+
+**The circling tip.** Part 3 above uses a circle for the second part of each number. The half-angle page shows that a circle alone gives the wrong rate. So the ribbon picture would need to say how the circling tip and the three-dimensional tumbling fit together.
+
+## One sentence that sums up the expression
+
+Hilbert space could be the collection of every ripple pattern a ribbon complex can carry where a state is one pattern and a measurement is a shadow of the pattern and the half twist is the reason the pattern flips sign after one lap.
 
 ================================================================================
 FILE: 1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md
@@ -48384,10 +48474,28 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html (1906201 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/bible-quote-builder/program-3-key-phrases.html
 
-1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (51851 bytes)
+1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean (5375 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean (3406 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean (3434 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean (3020 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean (1808 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean
+
+1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean (625 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean
+
+1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (51959 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
 
-1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt (129026 bytes)
+1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt (129381 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt
 
 1-research-click-here-first/mobius-strip-picture-of-physics/shadow-all-mobius.png (43699 bytes)

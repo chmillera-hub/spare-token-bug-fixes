@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1486,
- "total_bytes": 100198412,
+ "file_count": 1494,
+ "total_bytes": 100230726,
  "files": [
   {
    "path": ".gitignore",
@@ -19,7 +19,7 @@
   {
    "path": "1-research-click-here-first/README.md",
    "title": "Research",
-   "bytes": 9518,
+   "bytes": 9994,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/README.md",
@@ -611,9 +611,72 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/kindness-games/love-your-enemies-report.md"
   },
   {
+   "path": "1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean",
+   "title": "ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean",
+   "bytes": 5375,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean",
+   "title": "Erdos1162.erdos_1162.variants.pyber.R1.H1.lean",
+   "bytes": 3406,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean",
+   "title": "Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean",
+   "bytes": 3434,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean",
+   "title": "Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean",
+   "bytes": 3020,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean",
+   "title": "Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean",
+   "bytes": 1808,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/Erdos968.erdos_968.variants.infinite_increasingTriples.R1.H2.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean",
+   "title": "HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean",
+   "bytes": 625,
+   "type": "lean",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean"
+  },
+  {
+   "path": "1-research-click-here-first/lean-math-proofs/README.md",
+   "title": "Lean math proofs",
+   "bytes": 6993,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/README.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/lean-math-proofs/README.md"
+  },
+  {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
    "title": "The Mobius Strip Picture of Physics",
-   "bytes": 132255,
+   "bytes": 132962,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/README.md",
@@ -638,6 +701,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/half-angle-finding.md"
   },
   {
+   "path": "1-research-click-here-first/mobius-strip-picture-of-physics/hilbert-space-reflection.md",
+   "title": "How Hilbert space could be expressed in the Mobius strip picture",
+   "bytes": 5503,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/hilbert-space-reflection.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/mobius-strip-picture-of-physics/hilbert-space-reflection.md"
+  },
+  {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/knots-from-cutting.md",
    "title": "A ribbon with three half twists turns into a knot when the ribbon splits down the middle",
    "bytes": 6672,
@@ -649,7 +721,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
    "title": "mobius-physics.docx",
-   "bytes": 51851,
+   "bytes": 51959,
    "type": "docx",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx",
@@ -658,7 +730,7 @@
   {
    "path": "1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
    "title": "mobius-physics.txt",
-   "bytes": 129026,
+   "bytes": 129381,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.txt",
@@ -3763,7 +3835,7 @@
   {
    "path": "README.md",
    "title": "Research pages and free bug fixes from Charles and an AI chatbot",
-   "bytes": 11738,
+   "bytes": 12242,
    "type": "md",
    "area": "top",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/README.md",
