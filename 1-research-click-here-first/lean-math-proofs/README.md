@@ -2,7 +2,7 @@
 
 This folder holds six computer-checked proofs of five small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
 
-The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026.
+The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026. Other contributors to the Left to Solve project had proofs of all five steps accepted into the collection between 20 and 30 minutes after Claude made that copy (the accepted proofs carry the pull request numbers 4819 and 4832 and 4855 and 4862 and 4890 and 4930) which means the proofs in this folder are independent second proofs of steps that the project already counts as done and the proofs in this folder were not sent to the project.
 
 The five facts are small helper steps and are not solutions to open problems because the hard parts of the larger results are other steps that still have no proof in that collection.
 
@@ -15,7 +15,7 @@ The five facts are small helper steps and are not solutions to open problems bec
 
 ## How the proofs were checked
 
-Claude ran the checking script of the Left to Solve project (the file tools/check.sh at version 630fcab of the collection) on each of the six files and the script printed "accepted" for all six files which means the Lean checker found no gap and the proofs use only the three standard starting assumptions of Lean (propext and Classical.choice and Quot.sound). No person has reread the proofs and the Left to Solve project has not received or reviewed the proofs because nobody has sent the proofs to the project yet.
+Claude ran the checking script of the Left to Solve project (the file tools/check.sh at version 630fcab of the collection) on each of the six files and the script printed "accepted" for all six files which means the Lean checker found no gap and the proofs use only the three standard starting assumptions of Lean (propext and Classical.choice and Quot.sound). No person has reread the proofs and the Left to Solve project has not received or reviewed the proofs because other contributors finished the same steps first.
 
 ## The idea behind each proof
 
