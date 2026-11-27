@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1538,
- "total_bytes": 103516700,
+ "file_count": 1545,
+ "total_bytes": 103766965,
  "files": [
   {
    "path": ".gitignore",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 9452,
+   "bytes": 10096,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -1270,7 +1270,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/shapes-animation.html",
    "title": "shapes-animation.html",
-   "bytes": 70750,
+   "bytes": 71062,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shapes-animation.html",
@@ -1293,6 +1293,24 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/small-hexagons-counting.png",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/small-hexagons-counting.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/ten-patterns.png",
+   "title": "ten-patterns.png",
+   "bytes": 225586,
+   "type": "png",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/ten-patterns.png",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/ten-patterns.png"
+  },
+  {
+   "path": "1-research-click-here-first/prime-mazes/ten-sided-ranking.md",
+   "title": "Ranking of number sequences on growing ten sided rooms and the patterns behind the scores",
+   "bytes": 9141,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/ten-sided-ranking.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-mazes/ten-sided-ranking.md"
   },
   {
    "path": "1-research-click-here-first/prime-mazes/three-part-score-ranking-zero-north.md",
@@ -11762,6 +11780,24 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_loop.py"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_collatz_runs.py",
+   "title": "hat_collatz_runs.py",
+   "bytes": 2124,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_collatz_runs.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_collatz_runs.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_counting_trap.py",
+   "title": "hat_counting_trap.py",
+   "bytes": 1766,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_counting_trap.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hat_counting_trap.py"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py",
    "title": "hex_compare.py",
    "bytes": 4917,
@@ -11805,6 +11841,33 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_digit_walks.py",
+   "title": "ten_sided_digit_walks.py",
+   "bytes": 1850,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_digit_walks.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_digit_walks.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking.py",
+   "title": "ten_sided_ranking.py",
+   "bytes": 2120,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking_results.json",
+   "title": "ten_sided_ranking_results.json",
+   "bytes": 6722,
+   "type": "json",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking_results.json",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/ten_sided_ranking_results.json"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/three_part_score.py",
