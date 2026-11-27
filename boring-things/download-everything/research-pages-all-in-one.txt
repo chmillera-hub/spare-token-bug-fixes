@@ -23,7 +23,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [lean-math-proofs](lean-math-proofs) holds six computer-checked proofs in the proof language Lean 4 of five small helper steps toward known math results (a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the size of prime numbers and a bookkeeping fact about sums over primes and a short fact from group theory) which the checking script of the public project Left to Solve accepted.
+- [lean-math-proofs](lean-math-proofs) holds eleven computer-checked proofs in the proof language Lean 4 of ten small helper steps toward known math results and open math problems (such as a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the number of different distances between points) which the checking script of the public project Left to Solve accepted and the folder also holds eight translations of unproven guesses about number sequences into Lean 4 and the folder keeps a copy of every file written for that project.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
@@ -13917,9 +13917,9 @@ DOWNLOAD: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/
 
 # Lean math proofs
 
-This folder holds six computer-checked proofs of five small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
+This folder holds eight statement files that are described in a later section and eleven computer-checked proofs of ten small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
 
-The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026.
+The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026. Other contributors to the Left to Solve project had proofs of all five steps accepted into the collection between 20 and 30 minutes after Claude made that copy (the accepted proofs carry the pull request numbers 4819 and 4832 and 4855 and 4862 and 4890 and 4930) which means the proofs in this folder are independent second proofs of steps that the project already counts as done and the proofs in this folder were not sent to the project.
 
 The five facts are small helper steps and are not solutions to open problems because the hard parts of the larger results are other steps that still have no proof in that collection.
 
@@ -13930,9 +13930,34 @@ The five facts are small helper steps and are not solutions to open problems bec
 - [ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean](ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean) proves a bookkeeping fact about sums over prime numbers which says that a bound on sums where each prime p is weighted by the natural logarithm of p can be turned into a bound on the same sums without the logarithm weights at the cost of dividing by the natural logarithm of 2. The bookkeeping fact is the easier of two steps toward the Bombieri-Vinogradov theorem of 1965 which describes how evenly prime numbers spread across remainder classes on average.
 - [HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean](HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean) proves a short fact from group theory where a group means a collection of reversible moves that can be done one after another. The short fact says that if every group of a kind called hyperbolic can be told apart from the one-move group by finite pictures of the group (the label for that property is residually finite) then every hyperbolic group with more than one move has a smaller part that is not the whole group and that splits the group into finitely many equal pieces. The short fact is the easy direction of a known two-way statement and the other direction still has no proof in the collection.
 
+## Proofs written for sending to the Left to Solve project
+
+The five files in this section were written after the owner of this repository made a personal copy of the Left to Solve collection at https://github.com/chmillera-hub/open-math-agents so that proofs could be sent to the project under the GitHub name chmillera-hub. This folder keeps a copy of every proof written for the project so that the proofs stay readable here even if the Left to Solve project is removed from the internet.
+
+- [Erdos100.erdos_100.variants.guth_katz.R1.H2.lean](Erdos100.erdos_100.variants.guth_katz.R1.H2.lean) proves a fact about distances between points on a flat surface which says that if any two different distances between points of a finite set differ by at least 1 then the number of different distances is at most the largest distance in the set plus 1 (for example the three corners of a triangle with sides 3 and 4 and 5 give three different distances and the largest distance plus 1 is 6). The fact is the easier of two steps toward a known result about Erdős problem 100 which follows from a 2015 theorem of Guth and Katz. Claude reserved this step on the Left to Solve site on 27 November 2026 and the owner of this repository sent the proof to the project on that day as pull request number 7124. The project accepted a proof of the same step from another contributor (pull request number 6342) because that contributor had sent a proof about 80 minutes earlier and the project checks proofs in the order of arrival.
+- [Erdos89.erdos_89.variants.n_dvd_log_n.R1.H2.lean](Erdos89.erdos_89.variants.n_dvd_log_n.R1.H2.lean) proves a counting fact about line segments between points which says that the square of the number of ordered pairs of different points is at most the number of different distances times the number of ways to pick two ordered pairs that are the same distance apart. The counting fact is the easier of two steps toward a known result about Erdős problem 89. Claude reserved this step on the Left to Solve site on 27 November 2026 but another contributor had a proof of the same step accepted before Claude finished and so this proof was not sent to the project.
+- [Erdos398.erdos_398.R1.H1.lean](Erdos398.erdos_398.R1.H1.lean) proves a fact about factorials where the factorial of n (written n!) means the product of the whole numbers from 1 to n. The fact says that for n at least 4 the number n! + 1 is a perfect square exactly when n! divided by 4 is a product of two neighboring whole numbers (for example 5! + 1 is 121 which is 11 squared and 5! divided by 4 is 30 which is 5 times 6). The fact is one of three steps toward Erdős problem 398 which is an open problem that asks whether 4 and 5 and 7 are the only values of n that make n! + 1 a perfect square. Claude reserved this step on 27 November 2026 and the owner of this repository sent the proof to the project on that day. Other contributors had sent proofs of the same step between 7 and 24 minutes earlier and the project checks proofs in the order of arrival which means the project will most likely accept one of the earlier proofs.
+- [Erdos386.erdos_386.variants.two.R1.H1.lean](Erdos386.erdos_386.variants.two.R1.H1.lean) proves a fact about counting pairs which says that if P is at least 6 and 8 times P plus 1 is a perfect square then P is the number of ways to choose 2 objects out of n objects for some n that is at least 4 (for example P = 6 gives 49 which is 7 squared and 6 is the number of ways to choose 2 objects out of 4). The fact is one of two steps toward a part of Erdős problem 386 which is an open problem. Claude reserved this step on 27 November 2026 and the owner of this repository sent the proof to the project on that day. Other contributors had sent proofs of the same step between 7 and 24 minutes earlier and the project checks proofs in the order of arrival which means the project will most likely accept one of the earlier proofs.
+- [Erdos458.erdos_458.R1.H1.lean](Erdos458.erdos_458.R1.H1.lean) proves a fact about the least common multiple of the numbers from 1 to n which means the smallest number that every number from 1 to n divides evenly. The fact says that the natural logarithm of the least common multiple for b minus the natural logarithm of the least common multiple for a equals a sum over the numbers between a and b in which each power of a prime number contributes the natural logarithm of that prime number. The fact is one step toward Erdős problem 458 which is an open problem. Claude reserved this step on 27 November 2026 and the owner of this repository sent the proof to the project on that day. Other contributors had sent proofs of the same step between 7 and 24 minutes earlier and the project checks proofs in the order of arrival which means the project will most likely accept one of the earlier proofs.
+
+The Left to Solve project had about 2600 proofs waiting to be checked on 27 November 2026 and a reserved step can already have a proof from another contributor waiting in that line which means that reserving a step did not show whether a proof from this folder would be the first proof to arrive.
+
+## Statements written for sending to the Left to Solve project
+
+The eight files in this section hold statements and no proofs. A statement file translates an unproven guess from the Online Encyclopedia of Integer Sequences (a public list of number sequences at https://oeis.org) into the language Lean 4 so that people and AI agents can later try to prove the guess with a computer check. The checking script of the Left to Solve project confirmed on 27 November 2026 that the eight files are valid Lean 4 text but a computer cannot confirm that a translation says the same thing as the original guess and so a person at the project reviews each translation. The owner of this repository sent the eight files to the project on 27 November 2026 and no review result had arrived when this page was written. Claude searched the waiting line of the project before sending and found no other translation of the same eight guesses. About 690 translations from many contributors were waiting for review at the project at 14:45 world time (UTC) on that day and the project was accepting about 100 to 140 translations each hour.
+
+- [oeis-a055469.lean](oeis-a055469.lean) states the guess from sequence A055469 that infinitely many prime numbers are 1 more than a triangular number where a triangular number is a number of the form k times (k + 1) divided by 2 (for example 7 is prime and 7 is 1 more than the triangular number 6). The file was sent as pull request number 7412.
+- [oeis-a366871.lean](oeis-a366871.lean) states the guess from sequence A366871 about a sequence that starts 0 and 1 and 2 and 3 and 4 and 5 and 5 and 6 where each term is built from earlier terms by a fixed rule. The guess says that the term in position n stays close to 0.854 times n as n grows where the exact multiplier is 3 times the square root of 5 minus 5 and then divided by 2. The file was sent as pull request number 7418.
+- [oeis-a109095.lean](oeis-a109095.lean) states a guess named after the mathematician Surányi from sequence A109095 where the factorial of N (written N!) means the product of the whole numbers from 1 to N. The guess says that if N! equals a product of two smaller factorials that are each larger than 1 then N is 10 or N is itself a factorial (for example 10! equals 6! times 7! and 6! equals 3! times 5! where 6 is the factorial 3!). The file was sent as pull request number 7421.
+- [oeis-a256836.lean](oeis-a256836.lean) states the guess from sequence A256836 that infinitely many prime numbers are a square number plus 4096 (for example 4177 is prime and 4177 is 9 times 9 plus 4096). The file was sent as pull request number 7509.
+- [oeis-a356109.lean](oeis-a356109.lean) states the guess from sequence A356109 that there are infinitely many whole numbers k for which the four numbers k times k plus 1 and k times k plus 3 and k times k plus 7 and k times k plus 13 are all prime (for example k = 2 gives the four primes 5 and 7 and 11 and 17). The file was sent as pull request number 7515.
+- [oeis-a352628.lean](oeis-a352628.lean) states the guess from sequence A352628 that every whole number from 0 upward equals a^2 + 2*b^2 + c^4 + 2*d^4 + 3*c^2*d^2 for some whole numbers a and b and c and d where the sign ^ means raised to a power (for example 21 equals 1^2 + 2*3^2 + 0^4 + 2*1^4 + 0). The file was sent as pull request number 7516.
+- [oeis-a067730.lean](oeis-a067730.lean) states the guess from sequence A067730 about the sum of the divisors of a number where the divisors of a number are the whole numbers that divide the number evenly. The guess says that every number n for which the divisor sum of n - 1 plus the divisor sum of n + 1 equals the divisor sum of 2 times n is an odd number (for example n = 309 works because 672 + 576 equals 1248). The file was sent as pull request number 7518.
+- [oeis-a383244.lean](oeis-a383244.lean) states the guess from sequence A383244 that infinitely many prime numbers equal p times q times (q - p) plus 1 where p and q are two prime numbers next to each other in the list of primes (for example the neighbors 3 and 5 give 3 times 5 times 2 plus 1 which is the prime 31). The file was sent as pull request number 7519.
+
 ## How the proofs were checked
 
-Claude ran the checking script of the Left to Solve project (the file tools/check.sh at version 630fcab of the collection) on each of the six files and the script printed "accepted" for all six files which means the Lean checker found no gap and the proofs use only the three standard starting assumptions of Lean (propext and Classical.choice and Quot.sound). No person has reread the proofs and the Left to Solve project has not received or reviewed the proofs because nobody has sent the proofs to the project yet.
+Claude ran the checking script of the Left to Solve project (the file tools/check.sh at version 630fcab of the collection) on each of the eleven files and the script printed "accepted" for all eleven files which means the Lean checker found no gap and the proofs use only the three standard starting assumptions of Lean (propext and Classical.choice and Quot.sound). No person has reread the proofs. The Left to Solve project has not received or reviewed the six proofs in the first list because other contributors finished the same steps first.
 
 ## The idea behind each proof
 
@@ -48520,11 +48545,26 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean (5375 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/ElliottHalberstamConjecture.elliott_halberstam.variants.bombieri_vinogradov.R1.H2.lean
 
+1-research-click-here-first/lean-math-proofs/Erdos100.erdos_100.variants.guth_katz.R1.H2.lean (2034 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos100.erdos_100.variants.guth_katz.R1.H2.lean
+
 1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean (3406 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.pyber.R1.H1.lean
 
 1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean (3434 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos1162.erdos_1162.variants.roney_dougal_tracey.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos386.erdos_386.variants.two.R1.H1.lean (866 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos386.erdos_386.variants.two.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos398.erdos_398.R1.H1.lean (836 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos398.erdos_398.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos458.erdos_458.R1.H1.lean (668 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos458.erdos_458.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/Erdos89.erdos_89.variants.n_dvd_log_n.R1.H2.lean (2133 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos89.erdos_89.variants.n_dvd_log_n.R1.H2.lean
 
 1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean (3020 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/Erdos946.erdos_946.variants.spiro_5040.R1.H2.lean
@@ -48534,6 +48574,30 @@ https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-res
 
 1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean (625 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/HyperbolicGroupsResiduallyFinite.hyperbolic_residuallyFinite_iff_exists_finiteIndex_ne_top.R1.H1.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a055469.lean (927 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a055469.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a067730.lean (1033 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a067730.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a109095.lean (1282 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a109095.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a256836.lean (608 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256836.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a352628.lean (1227 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a352628.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a356109.lean (784 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a356109.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a366871.lean (1411 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a366871.lean
+
+1-research-click-here-first/lean-math-proofs/oeis-a383244.lean (1123 bytes)
+https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a383244.lean
 
 1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx (51994 bytes)
 https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/mobius-strip-picture-of-physics/mobius-physics.docx
