@@ -50,14 +50,17 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 <option value="tri">Triangles (3 doors in each room)</option>
 <option value="sq">Squares (4 doors)</option>
 <option value="pent">Five sided rooms (5 doors)</option>
-<option value="hex" selected>Hexagons (6 doors)</option>
+<option value="hex">Hexagons (6 doors)</option>
 <option value="oct">Eight sided rooms with small squares between them (8 doors and 4 doors)</option>
-<option value="ten">Ten sided rooms with plain squares between them (10 doors and 6 doors)</option>
+<option value="ten" selected>Ten sided rooms with plain squares between them (10 doors and 6 doors)</option>
 <option value="hat">Einstein hat tiles that grow from one tile (13 sides and 14 doors)</option>
 </select>
 <label for="mode" style="display:block;margin-top:10px">How the rooms appear</label>
-<select id="mode"><option value="fill">Fill a fixed grid of rooms</option><option value="grow">Grow from one room (each number adds or revisits a room)</option></select>
-<div class="hide" id="viewBox"><label for="view" style="display:block;margin-top:10px">How visits to a room are shown</label><select id="view"><option value="flat">Flat picture with no visit counts</option><option value="stack">Stacks: one more outline for each visit to a room</option><option value="3d">Landscape: each room is a tower that rises with each visit</option></select></div>
+<select id="mode"><option value="fill">Fill a fixed grid of rooms</option><option value="grow" selected>Grow from one room (each number adds or revisits a room)</option></select>
+<div class="hide" id="viewBox"><label for="view" style="display:block;margin-top:10px">How visits to a room are shown</label><select id="view"><option value="flat">Flat picture with no visit counts</option><option value="stack">Stacks: one more outline for each visit to a room</option><option value="3d" selected>Landscape: each room is a tower that rises with each visit</option></select>
+<p class="note" style="margin:10px 0 0">Pinch the picture with two fingers to zoom. Zoom now: <span id="zoomV">1</span> times.</p>
+<label class="check"><input type="checkbox" id="follow" checked> Keep the room where the walk stands in the middle while zoomed in</label>
+<p class="note" id="zoomNote" style="margin:4px 0 0">Drag the picture with one finger to look around while zoomed in. Tap the picture twice to return to the whole picture.</p></div>
 <div class="hide" id="skipBox"><label for="skipSmall" style="display:block;margin-top:10px">The squares between the large rooms</label><select id="skipSmall"><option value="vanish">Squares read no numbers and a square disappears when a large room picks a door into the square</option><option value="closed">Squares read no numbers and start with every door closed</option><option value="open">Squares read no numbers and start with every door open</option><option value="read">Squares read numbers like any other room</option></select></div>
 <div class="row">
 <button class="main" id="play">Play</button>
@@ -79,6 +82,8 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 <div>Doors opened: <b id="hDoors">0</b></div><div>Steps back into an old tile: <b id="hBack">0</b></div>
 <div>Steps where no tile fits: <b id="hBlocked">0</b></div><div>Mirrored tiles: <b id="hMirror">0</b></div>
 <div>Loops of rooms: <b id="hLoops">0</b></div><div>Farthest tile from the start: <b id="hFar">0</b></div>
+<div>Largest region: <b id="hBig">1 room</b></div><div>Longest walk: <b id="hLong">1 room</b></div>
+<div style="grid-column:1 / -1">Score (largest region plus longest walk): <b id="hScore">2</b></div>
 </div>
 <p class="small" id="walkNote"></p>
 </div>
@@ -145,7 +150,8 @@ h2{font-size:16px;font-weight:600;margin:0 0 4px}
 <p><b>The rule.</b> Every room starts with all doors closed. Each room reads one number and opens one door. The doors of a room are counted clockwise starting from the door that points most nearly north so 0 opens that first door and 1 opens the next door clockwise. When the number is larger than the last door the count goes around again. <span id="ruleText"></span> A door opened from either side joins the two rooms. A door that points outside the grid joins nothing. The numbers fill the rooms row by row starting at the top left.</p>
 <p><b>The Einstein hat tiles.</b> The hat is a tile with 13 sides that can cover a flat surface only in patterns that never repeat. One side is twice as long as the short sides and holds two doors so a hat room has 14 doors. The hat choice works differently from the other grids. The picture starts with one hat. Each number picks a door of the current hat by counting clockwise from the door that points most nearly north and going around again after 14. If another hat already sits behind that door the door opens and the walk steps into that old hat. If the space behind the door is empty the program lists every way a new hat can sit against that door without overlapping any hat and the rest of the number (the number divided by 14 with the remainder dropped) picks one way from the list. The door opens and the walk steps into the new hat. If no hat fits behind the door nothing happens. A plain hat is drawn in a light color and a mirrored hat is drawn in a darker color. Numbers with two or more digits are used so that all 14 doors can be reached.</p>
 <p><b>Growing from one room.</b> The second menu switches any shape from a fixed grid to a picture that grows. The picture starts with one room. Each number picks a door of the current room. If the space behind the door is empty a new room appears there and the walk steps into the new room. If an old room already sits behind the door the door opens and the walk steps into the old room. The walk reads the next number from whichever room the walk is standing in. The slider sets how many numbers are read.</p>
-<p><b>Visit counts in the growing pictures.</b> A room in a growing picture can be visited many times because the walk often steps back into an old room. A menu sets how the visits are shown. The stacks setting draws one more outline for each visit so a room visited five times looks like five plates on top of each other. The landscape setting tilts the picture and draws each room as a tower whose height is the number of visits. A stack stops rising after 8 visits and a tower stops rising after 40 visits and a number on top then shows the true count where the room is large enough to hold a number.</p>
+<p><b>The score of a growing picture.</b> A growing picture is scored by the largest region plus the longest walk. The largest region is the largest group of rooms joined through open doors. The longest walk is the longest route through open doors that never visits a room twice and the picture draws that route as a red line. A room that was visited many times still counts as one room in both parts. A square that reads no numbers counts as a room of the region and does not count as a step of the walk. The words at least appear when the search for the longest walk ran out of time.</p>
+<p><b>Visit counts in the growing pictures.</b> A room in a growing picture can be visited many times because the walk often steps back into an old room. A menu sets how the visits are shown. The stacks setting draws one more outline for each visit so a room visited five times looks like five plates on top of each other. The landscape setting tilts the picture and draws each room as a tower whose height is the number of visits. A stack stops rising after 8 visits and a tower stops rising after 40 visits and a number on top then shows the true count where the room is large enough to hold a number. Pinching a growing picture with two fingers enlarges the picture up to 40 times. A check box keeps the room where the walk stands in the middle while the picture builds and dragging the picture with one finger moves the view. Two quick taps return to the whole picture.</p>
 <p><b>Squares that read no numbers.</b> The eight sided grid and the ten sided grid have squares between the large rooms. A third menu sets how the squares behave. With the first setting the numbers go only into the large rooms and every square starts with all doors closed so a square joins a region only when a large room opens a door into the square. On a fixed grid a square that reads no numbers is not a step of the longest walk. A walk passes from one large room straight to another large room when a square joins the two rooms and only the large rooms are counted. The highest possible score then counts every room once for the largest region and every large room once for the longest walk. In the growing pictures with the first setting a door that leads into a square places the square and the walk stays in the large room because a square reads no number. A further setting makes a square disappear when a large room picks a door into the square. A square that has disappeared has all doors open from then on so the large rooms around the square are joined through the empty space. In the growing pictures the disappearing setting behaves like the open setting because a square appears only when a door is picked into the square. With the open setting every square starts with all doors open which joins the whole fixed grid into one region before the first number is read and in the growing pictures the walk passes straight through a square into the large room on the far side. With the third setting a square reads a number like any other room.</p>
 <p><b>The extra number sequences.</b> The menu of numbers also holds the terms of several sums that go on forever and the digits of several famous numbers. Some sequences such as the factorials grow past what the program can hold exactly. A term that large is replaced by the remainder after dividing by 10090080 because that remainder picks the same door in a room with any number of doors from 1 to 16. In a fixed grid the label inside a room then shows the remainder and not the full term.</p>
 <p><b>The dashed outer walls.</b> A dashed wall on the outside of the grid marks an outside door. A room on the edge counts once for each side of the grid that the room touches (top or bottom or left or right). A dashed wall turns green with a green arrow when a player can enter there and walk through joined rooms to the opposite side of the grid and leave. Each green door is worth 1 door point.</p>
@@ -403,21 +409,50 @@ function drawHat(){
   var span=Math.max(x1-x0,y1-y0,Wd.kind==="hat"?14:6),sc=(W-2*pad)/span,ox=W/2-(x0+x1)/2*sc,oy=W/2-(y0+y1)/2*sc;
   function X(p){return ox+p[0]*sc;}function Y(p){return oy+p[1]*sc;}
   g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
+  var Z=VIEW.z;viewBegin(g,W,X(Wd.tiles[Wd.cur].c),Y(Wd.tiles[Wd.cur].c));
   var pal=[css("--r1"),css("--r2"),css("--r5"),css("--r3"),css("--r4"),css("--r0")],dark=css("--now");
   Wd.tiles.forEach(function(t){g.beginPath();t.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p));else g.lineTo(X(p),Y(p));});g.closePath();g.fillStyle=t.mirror?dark:pal[t.col%6];g.globalAlpha=t.mirror?0.85:1;g.fill();g.globalAlpha=1;});
   var cur=Wd.tiles[Wd.cur];if(!Wd.done){g.beginPath();cur.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p));else g.lineTo(X(p),Y(p));});g.closePath();g.fillStyle=css("--walk");g.globalAlpha=0.45;g.fill();g.globalAlpha=1;}
-  var lw=sc>=20?3:(sc>=9?2:1.2);g.strokeStyle=css("--wall");g.lineWidth=lw;g.lineCap="round";g.beginPath();
+  var lw=(sc*Z>=20?3:(sc*Z>=9?2:1.2))/Z;g.strokeStyle=css("--wall");g.lineWidth=lw;g.lineCap="round";g.beginPath();
   var drawn={};Wd.tiles.forEach(function(t){t.e.forEach(function(ed){if(drawn[ed.key]||Wd.open[ed.key])return;drawn[ed.key]=1;g.moveTo(X(ed.pa),Y(ed.pa));g.lineTo(X(ed.pb),Y(ed.pb));});});
   g.stroke();
   if(el("showWalk").checked){ // a thin line through each open door from tile center to tile center
-    g.strokeStyle=css("--text");g.globalAlpha=0.35;g.lineWidth=Math.max(1,lw*0.6);g.beginPath();var seen={};
+    g.strokeStyle=css("--text");g.globalAlpha=0.35;g.lineWidth=Math.max(1/Z,lw*0.6);g.beginPath();var seen={};
     Wd.tiles.forEach(function(t){t.e.forEach(function(ed){if(!Wd.open[ed.key]||seen[ed.key])return;seen[ed.key]=1;var ow=Wd.edge[ed.key];if(ow.length<2)return;var a=Wd.tiles[ow[0]].c,b=Wd.tiles[ow[1]].c;g.moveTo(X(a),Y(a));g.lineTo(X(ed.m),Y(ed.m));g.lineTo(X(b),Y(b));});});
     g.stroke();g.globalAlpha=1;
   }
-  if(el("showDigits").checked&&sc>=16){g.fillStyle=css("--text");g.textAlign="center";g.textBaseline="middle";g.font="600 "+Math.min(26,sc*1.1)+"px system-ui,sans-serif";Wd.tiles.forEach(function(t){g.fillText(String(t.idx+1),X(t.c),Y(t.c));});}
-  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=lw*1.6;g.beginPath();g.arc(X(st.c),Y(st.c),Math.max(4,sc*0.9),0,2*Math.PI);g.stroke();
+  if(el("showDigits").checked&&sc*Z>=16){g.fillStyle=css("--text");g.textAlign="center";g.textBaseline="middle";g.font="600 "+Math.min(26/Z,sc*1.1)+"px system-ui,sans-serif";Wd.tiles.forEach(function(t){g.fillText(String(t.idx+1),X(t.c),Y(t.c));});}
+  if(S.walk&&S.walk.path&&S.walk.path.length>1&&el("showWalk").checked){g.strokeStyle="#d03030";g.lineWidth=Math.max(1.5/Z,lw*1.5);g.lineJoin="round";g.beginPath();S.walk.path.forEach(function(ix,q){var c=Wd.tiles[ix].c;if(q===0)g.moveTo(X(c),Y(c));else g.lineTo(X(c),Y(c));});g.stroke();}
+  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=lw*1.6;g.beginPath();g.arc(X(st.c),Y(st.c),Math.max(4/Z,sc*0.9),0,2*Math.PI);g.stroke();g.restore();
 }
 
+
+var VIEW={z:1,px:0,py:0};
+function viewBegin(g,W,fx,fy){ // zoom and pan for the growing pictures
+  var Z=VIEW.z,cx=W/2,cy=W/2;
+  if(Z>1){if(el("follow").checked&&!S.M.done){VIEW.px=W/2-fx;VIEW.py=W/2-fy;}cx=W/2-VIEW.px;cy=W/2-VIEW.py;}
+  g.save();g.translate(W/2,W/2);g.scale(Z,Z);g.translate(-cx,-cy);
+}
+function applyZoom(z){VIEW.z=Math.max(1,Math.min(40,z));if(VIEW.z<=1.02){VIEW.z=1;VIEW.px=0;VIEW.py=0;}el("zoomV").textContent=Math.round(VIEW.z*10)/10;el("cv").style.touchAction=VIEW.z>1?"none":"pan-y";draw();}
+(function(){var cv=null,pts={},pinch=null,lastTap=0,tap=null;
+  function grows(){return S.M&&(S.M.kind==="hat"||S.M.kind==="grow");}
+  function pos(e){var r=cv.getBoundingClientRect(),k=cv.width/r.width;return [e.clientX*k,e.clientY*k];}
+  function ids(){return Object.keys(pts);}
+  function dist(){var k=ids(),a=pts[k[0]],b=pts[k[1]];return Math.hypot(a[0]-b[0],a[1]-b[1]);}
+  window.addEventListener("load",function(){cv=el("cv");cv.style.touchAction="pan-y";
+    cv.addEventListener("pointerdown",function(e){if(!grows())return;pts[e.pointerId]=pos(e);try{cv.setPointerCapture(e.pointerId);}catch(x){}
+      if(ids().length===2){pinch={d:dist(),z:VIEW.z};e.preventDefault();}
+      else if(ids().length===1)tap={id:e.pointerId,p:pts[e.pointerId],ok:true};
+      if(ids().length>1&&tap)tap.ok=false;});
+    cv.addEventListener("pointermove",function(e){if(!pts[e.pointerId])return;var p=pos(e),q=pts[e.pointerId];if(tap&&tap.id===e.pointerId&&Math.hypot(p[0]-tap.p[0],p[1]-tap.p[1])>12)tap.ok=false;
+      if(ids().length>=2&&pinch){pts[e.pointerId]=p;if(pinch.d>5)applyZoom(pinch.z*dist()/pinch.d);return;}
+      if(VIEW.z>1){if(Math.abs(p[0]-q[0])+Math.abs(p[1]-q[1])>2&&!S.M.done)el("follow").checked=false;VIEW.px+=(p[0]-q[0])/VIEW.z;VIEW.py+=(p[1]-q[1])/VIEW.z;pts[e.pointerId]=p;draw();}});
+    function end(e){delete pts[e.pointerId];if(ids().length<2)pinch=null;
+      if(e.type==="pointerup"&&tap&&tap.id===e.pointerId){if(tap.ok){var now=Date.now();if(now-lastTap<350){applyZoom(1);lastTap=0;}else lastTap=now;}tap=null;}}
+    cv.addEventListener("pointerup",end);cv.addEventListener("pointercancel",end);
+    cv.addEventListener("touchmove",function(e){if(e.touches.length>1&&grows())e.preventDefault();},{passive:false});
+    cv.addEventListener("wheel",function(e){if(!e.ctrlKey||!grows())return;e.preventDefault();applyZoom(VIEW.z*Math.exp(-e.deltaY*0.01));},{passive:false});});
+})();
 function drawTowers(view){
   var cv=el("cv"),g=cv.getContext("2d"),W=cv.width,Wd=S.M,pad=30,x0=1e9,x1=-1e9,y0=1e9,y1=-1e9,maxV=1;
   Wd.tiles.forEach(function(t){if(t.visits>maxV)maxV=t.visits;t.p.forEach(function(p){if(p[0]<x0)x0=p[0];if(p[0]>x1)x1=p[0];if(p[1]<y0)y0=p[1];if(p[1]>y1)y1=p[1];});});
@@ -427,8 +462,9 @@ function drawTowers(view){
   var ox=W/2-(x0+x1)/2*sc,oy=W/2+(maxL*hf*sc)/2-(y0+y1)/2*ky*sc,hz=hf*sc;
   function X(p){return ox+p[0]*sc;}function Y(p){return oy+p[1]*ky*sc;}
   g.clearRect(0,0,W,W);g.fillStyle=css("--card");g.fillRect(0,0,W,W);
+  var Z=VIEW.z,ct=Wd.tiles[Wd.cur];viewBegin(g,W,X(ct.c),Y(ct.c)-Math.min(ct.visits,cap)*hz/2);
   var pal=[css("--r1"),css("--r2"),css("--r5"),css("--r3"),css("--r4"),css("--r0")],dark=css("--now"),wall=css("--wall"),text=css("--text");
-  var order=Wd.tiles.slice().sort(function(a,b){return a.c[1]-b.c[1]||a.c[0]-b.c[0];}),lw=sc*ts>=24?1.4:(sc*ts>=8?0.8:0.4);
+  var order=Wd.tiles.slice().sort(function(a,b){return a.c[1]-b.c[1]||a.c[0]-b.c[0];}),lw=(sc*ts*Z>=24?1.4:(sc*ts*Z>=8?0.8:0.4))/Z;
   g.lineJoin="round";g.textAlign="center";g.textBaseline="middle";
   function path(t,dy){g.beginPath();t.p.forEach(function(p,q){if(q===0)g.moveTo(X(p),Y(p)-dy);else g.lineTo(X(p),Y(p)-dy);});g.closePath();}
   order.forEach(function(t){
@@ -436,20 +472,53 @@ function drawTowers(view){
     if(three){
       var m=t.p.length,sides=[];for(i=0;i<m;i++){var a=t.p[i],b=t.p[(i+1)%m];sides.push([a,b,(a[1]+b[1])/2]);}
       sides.sort(function(u,v){return u[2]-v[2];});
-      sides.forEach(function(sd){g.beginPath();g.moveTo(X(sd[0]),Y(sd[0]));g.lineTo(X(sd[1]),Y(sd[1]));g.lineTo(X(sd[1]),Y(sd[1])-H);g.lineTo(X(sd[0]),Y(sd[0])-H);g.closePath();g.fillStyle=col;g.fill();g.fillStyle="rgba(0,0,0,0.32)";g.fill();if(lw>=0.8){g.strokeStyle=wall;g.lineWidth=lw*0.5;g.stroke();}});
+      sides.forEach(function(sd){g.beginPath();g.moveTo(X(sd[0]),Y(sd[0]));g.lineTo(X(sd[1]),Y(sd[1]));g.lineTo(X(sd[1]),Y(sd[1])-H);g.lineTo(X(sd[0]),Y(sd[0])-H);g.closePath();g.fillStyle=col;g.fill();g.fillStyle="rgba(0,0,0,0.32)";g.fill();if(lw*Z>=0.8){g.strokeStyle=wall;g.lineWidth=lw*0.5;g.stroke();}});
       path(t,H);g.fillStyle=col;g.fill();g.fillStyle="rgba(255,255,255,"+Math.min(0.35,L/cap*0.35)+")";g.fill();g.strokeStyle=wall;g.lineWidth=lw;g.stroke();
     }else{
       for(i=0;i<L;i++){path(t,i*hz);g.fillStyle=col;g.fill();g.strokeStyle=wall;g.lineWidth=lw;g.stroke();}
       H=(L-1)*hz;
     }
     if(t.idx===Wd.cur&&!Wd.done){path(t,H);g.fillStyle=css("--walk");g.globalAlpha=0.5;g.fill();g.globalAlpha=1;}
-    var fs=Math.min(22,sc*ts*0.34);
-    if(fs>=7&&(t.visits>cap||(t.visits>=2&&fs>=11))){g.fillStyle=text;g.font="700 "+fs+"px system-ui,sans-serif";g.fillText(String(t.visits),X(t.c),Y(t.c)-H);}
+    var fs=Math.min(22/Z,sc*ts*0.34);
+    if(fs*Z>=7&&(t.visits>cap||(t.visits>=2&&fs*Z>=11))){g.fillStyle=text;g.font="700 "+fs+"px system-ui,sans-serif";g.fillText(String(t.visits),X(t.c),Y(t.c)-H);}
   });
-  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=Math.max(1.5,lw*1.6);g.beginPath();g.ellipse(X(st.c),Y(st.c),Math.max(4,sc*ts*0.45),Math.max(4,sc*ts*0.45)*ky,0,0,2*Math.PI);g.stroke();
+  if(S.walk&&S.walk.path&&S.walk.path.length>1&&el("showWalk").checked){g.strokeStyle="#d03030";g.lineWidth=Math.max(1.5/Z,lw*1.8);g.lineJoin="round";g.beginPath();S.walk.path.forEach(function(ix,q){var t=Wd.tiles[ix],hh=three?Math.min(t.visits,cap)*hz:(Math.min(t.visits,cap)-1)*hz;if(q===0)g.moveTo(X(t.c),Y(t.c)-hh);else g.lineTo(X(t.c),Y(t.c)-hh);});g.stroke();}
+  var st=Wd.tiles[0];g.strokeStyle=css("--open");g.lineWidth=Math.max(1.5/Z,lw*1.6);g.beginPath();g.ellipse(X(st.c),Y(st.c),Math.max(4/Z,sc*ts*0.45),Math.max(4/Z,sc*ts*0.45)*ky,0,0,2*Math.PI);g.stroke();g.restore();
   el("walkNote").textContent="The most visited room was visited "+maxV+" times."+(maxV>cap?" A stack stops rising after "+cap+" visits and a number on top shows the true count where the room is large enough to hold a number.":"");
 }
-function hatScores(){var s=hatSummary(S.M);el("hRead").textContent=s.read+" of "+S.M.nums.length;el("hTiles").textContent=s.tiles;el("hDoors").textContent=s.doors;el("hBack").textContent=s.back;el("hBlocked").textContent=s.blocked;el("hMirror").textContent=s.mirror+" of "+s.tiles;el("hLoops").textContent=s.loops;el("hFar").textContent=s.far+" doors away";}
+
+// ---------- score for a growing picture: largest region plus longest walk through open doors ----------
+function growScore(Wd){
+  var n=Wd.tiles.length,raw=[],par=[],i,small=[];
+  for(i=0;i<n;i++){raw.push([]);par.push(i);small.push(!!Wd.skip&&Wd.tiles[i].e.length<Wd.bigDoors);}
+  function fd(x){while(par[x]!==x){par[x]=par[par[x]];x=par[x];}return x;}
+  for(var key in Wd.open){var ow=Wd.edge[key];if(!ow||ow.length<2)continue;var a=ow[0],b=ow[1];if(raw[a].indexOf(b)<0){raw[a].push(b);raw[b].push(a);}par[fd(a)]=fd(b);}
+  var size={},big=0;for(i=0;i<n;i++){var f=fd(i);size[f]=(size[f]||0)+1;if(size[f]>big)big=size[f];}
+  var A=[],edges=0,nodes=0; // squares that read no numbers are not steps of a walk
+  for(i=0;i<n;i++){var li=[];if(!small[i]){nodes++;raw[i].forEach(function(v){if(!small[v]){if(li.indexOf(v)<0)li.push(v);}else raw[v].forEach(function(w){if(w!==i&&!small[w]&&li.indexOf(w)<0)li.push(w);});});edges+=li.length;}A.push(li);}
+  edges/=2;
+  function bfs(s){var d=new Int32Array(n).fill(-1),pr=new Int32Array(n).fill(-1),q=[s],h=0,last=s;d[s]=0;while(h<q.length){var u=q[h++];last=u;var a=A[u];for(var k=0;k<a.length;k++)if(d[a[k]]<0){d[a[k]]=d[u]+1;pr[a[k]]=u;q.push(a[k]);}}var path=[];for(var x=last;x>=0;x=pr[x])path.push(x);return {end:last,path:path};}
+  var start=0;while(start<n&&small[start])start++;
+  var b1=bfs(start),b2=bfs(b1.end),best=b2.path.slice(),cut=false;
+  if(edges>nodes-1){ // the picture has loops so a search looks for a longer walk
+    var budget=3000000,seen=new Uint8Array(n),starts=[b2.end,b1.end,start];for(i=0;i<n;i++)if(!small[i]&&A[i].length===1)starts.push(i);for(i=0;i<n;i++)if(!small[i])starts.push(i);
+    for(var si=0;si<starts.length&&!cut;si++){
+      var s0=starts[si],path=[s0],idx=[0];seen[s0]=1;
+      while(path.length){
+        if(budget--<0){cut=true;break;}
+        var u=path[path.length-1],a=A[u],k=idx[idx.length-1],moved=false;
+        while(k<a.length){var v=a[k++];if(!seen[v]){idx[idx.length-1]=k;seen[v]=1;path.push(v);idx.push(0);if(path.length>best.length)best=path.slice();moved=true;break;}}
+        if(!moved){seen[u]=0;path.pop();idx.pop();}
+      }
+      for(var z=0;z<path.length;z++)seen[path[z]]=0;
+      if(best.length>=nodes)break;
+    }
+  }
+  return {big:big,len:best.length,path:best,cut:cut,score:big+best.length};
+}
+function hatScores(){var s=hatSummary(S.M);el("hRead").textContent=s.read+" of "+S.M.nums.length;el("hTiles").textContent=s.tiles;el("hDoors").textContent=s.doors;el("hBack").textContent=s.back;el("hBlocked").textContent=s.blocked;el("hMirror").textContent=s.mirror+" of "+s.tiles;el("hLoops").textContent=s.loops;el("hFar").textContent=s.far+" doors away";
+  if(S.M.done||s.tiles<=150){var w=growScore(S.M);S.walk=w;el("hBig").textContent=w.big+" rooms";el("hLong").textContent=(w.cut?"at least ":"")+w.len+" rooms";el("hScore").textContent=(w.cut?"at least ":"")+w.score;}
+  else{S.walk=null;el("hBig").textContent=s.tiles+" rooms";el("hLong").textContent="shown at the end";el("hScore").textContent="shown at the end";}}
 function describeHat(r){
   var base="Number "+r.num+" picks door "+r.door+" of tile "+(r.from+1)+": ";
   if(r.kind==="new")return base+"a new tile is placed (way "+(r.pick+1)+" of "+r.choices+")";
@@ -646,7 +715,7 @@ function stop(){if(S.timer){clearInterval(S.timer);S.timer=null;}el("play").text
 function describe(r){var T=S.M.T,m=T.cells[r.room].e.length;return "Room "+(r.room+1)+": "+r.num+" opens door "+r.door+" of the "+m+" doors"+(r.ok?"":" (outside the grid)");}
 function afterSteps(last){
   var M=S.M,end=M.done;if(end)stop();
-  if(M.kind==="hat"||M.kind==="grow"){hatScores();drawHat();if(last)el("now").textContent=M.kind==="hat"?describeHat(last):describeGrow(last);if(end){var hs=hatSummary(M);el("now").textContent="Finished: "+hs.tiles+" tiles were placed from "+hs.read+" numbers and "+hs.doors+" doors are open.";}return;}
+  if(M.kind==="hat"||M.kind==="grow"){hatScores();drawHat();if(last)el("now").textContent=M.kind==="hat"?describeHat(last):describeGrow(last);if(end){var hs=hatSummary(M),gw=S.walk;el("now").textContent="Finished: "+hs.tiles+" rooms were placed from "+hs.read+" numbers. The score is "+(gw&&gw.cut?"at least ":"")+(gw?gw.score:0)+" which is a largest region of "+(gw?gw.big:0)+" rooms plus a longest walk of "+(gw&&gw.cut?"at least ":"")+(gw?gw.len:0)+" rooms.";}return;}
   scores(end);draw();
   if(last)el("now").textContent=describe(last);
   if(end){recordFinished();var w=S.walk;el("now").textContent="Finished: the grid has "+M.regions+" regions and the longest walk visits "+(w&&w.cut?"at least ":"")+(w?w.len:0)+" rooms.";}
@@ -666,7 +735,7 @@ el("step").onclick=function(){stop();if(S.M.done)setup();afterSteps(stepAny(S.M)
 el("finish").onclick=finishAll;
 el("reset").onclick=setup;
 function syncBoxes(){var v=el("src").value;el("ownBox").className=v==="own"?"":"hide";el("sizeBox").className=v==="own"?"hide":"";}
-el("grid").onchange=setup;el("skipSmall").onchange=setup;el("view").onchange=draw;el("mode").onchange=function(){if(el("grid").value==="hat"&&el("mode").value==="fill")el("grid").value="hex";setup();};
+el("grid").onchange=setup;el("skipSmall").onchange=setup;el("view").onchange=draw;el("follow").onchange=draw;el("mode").onchange=function(){if(el("grid").value==="hat"&&el("mode").value==="fill")el("grid").value="hex";setup();};
 el("src").onchange=function(){syncBoxes();setup();};
 el("own").oninput=setup;el("ownClear").onclick=function(){el("own").value="";setup();el("own").focus();};
 el("size").oninput=function(){setup();};

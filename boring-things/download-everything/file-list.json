@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1534,
- "total_bytes": 103496692,
+ "file_count": 1538,
+ "total_bytes": 103516700,
  "files": [
   {
    "path": ".gitignore",
@@ -964,7 +964,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/README.md",
    "title": "Prime mazes",
-   "bytes": 9077,
+   "bytes": 9452,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/README.md",
@@ -1261,7 +1261,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/shape-grids-findings.md",
    "title": "Questions about door mazes on other shapes of room and on pictures that grow",
-   "bytes": 11832,
+   "bytes": 17546,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shape-grids-findings.md",
@@ -1270,7 +1270,7 @@
   {
    "path": "1-research-click-here-first/prime-mazes/shapes-animation.html",
    "title": "shapes-animation.html",
-   "bytes": 63041,
+   "bytes": 70750,
    "type": "html",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-mazes/shapes-animation.html",
@@ -11735,6 +11735,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_hex.py"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_ring.py",
+   "title": "counting_ring.py",
+   "bytes": 1271,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_ring.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_ring.py"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py",
    "title": "counting_square.py",
    "bytes": 2404,
@@ -11742,6 +11751,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/counting_square.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_loop.py",
+   "title": "fibonacci_loop.py",
+   "bytes": 1139,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_loop.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/fibonacci_loop.py"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py",
@@ -11753,6 +11771,15 @@
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hex_compare.py"
   },
   {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hexagon_prime_race.py",
+   "title": "hexagon_prime_race.py",
+   "bytes": 743,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hexagon_prime_race.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/hexagon_prime_race.py"
+  },
+  {
    "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py",
    "title": "pi_compare.py",
    "bytes": 1478,
@@ -11760,6 +11787,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/pi_compare.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/prime_digit_loops.py",
+   "title": "prime_digit_loops.py",
+   "bytes": 3057,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/prime_digit_loops.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/prime_digit_loops.py"
   },
   {
    "path": "boring-things/research-program-files/prime-mazes-scripts/shape-grid-scripts/random_compare.py",
