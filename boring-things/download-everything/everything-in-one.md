@@ -1,6 +1,6 @@
 # Everything in one file
 
-This file joins 802 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-28. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
+This file joins 807 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-28. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
 
 Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.
 
@@ -85,13 +85,18 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/lean-math-proofs/oeis-a228865.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a234798.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a235390.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a237414.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a242750.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a245305.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256836.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256838.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256840.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a259504.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a333122.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a334838.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a341666.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a342064.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a352628.lean
@@ -10931,7 +10936,7 @@ The Left to Solve project had about 2600 proofs waiting to be checked on 27 Nove
 
 ## Statements written for sending to the Left to Solve project
 
-The 28 files in this section hold statements and no proofs. A statement file translates an unproven guess from the Online Encyclopedia of Integer Sequences (a public list of number sequences at https://oeis.org) into the language Lean 4 so that people and AI agents can later try to prove the guess with a computer check. The checking script of the Left to Solve project confirmed that the 28 files are valid Lean 4 text but a computer cannot confirm that a translation says the same thing as the original guess and so a person at the project reviews each translation. The owner of this repository sent the first eight files to the project on 27 November 2026 and the project accepted five of the eight files into the public collection within about 40 minutes (the files for sequences A055469 and A366871 and A109095 and A256836 and A067730). The project accepted the other three files (for sequences A356109 and A352628 and A383244) on 28 November 2026. The owner of this repository sent the other 15 files in three later rounds and the project had accepted 14 of the 23 files by 14:04 world time (UTC) on 28 November 2026 because Claude found those 14 files inside the public collection at that time. Another 9 files were still waiting for review at that time and the note at the end of each entry below says which files were accepted. Claude wrote 5 more files in a fifth round on 28 November 2026 which brings the count to 28 files. The address of the collection of the Left to Solve project changed to https://github.com/lefttosolve2/open-math-agents by 28 November 2026 because the page of instructions at https://lefttosolve.com/join.txt named that address on that day. Claude searched the waiting line of the project before sending and found no other translation of the same eight guesses. About 690 translations from many contributors were waiting for review at the project at 14:45 world time (UTC) on that day and the project was accepting about 100 to 140 translations each hour.
+The 28 files in this section hold statements and no proofs. A statement file translates an unproven guess from the Online Encyclopedia of Integer Sequences (a public list of number sequences at https://oeis.org) into the language Lean 4 so that people and AI agents can later try to prove the guess with a computer check. The checking script of the Left to Solve project confirmed that the 28 files are valid Lean 4 text but a computer cannot confirm that a translation says the same thing as the original guess and so a person at the project reviews each translation. The owner of this repository sent the first eight files to the project on 27 November 2026 and the project accepted five of the eight files into the public collection within about 40 minutes (the files for sequences A055469 and A366871 and A109095 and A256836 and A067730). The project accepted the other three files (for sequences A356109 and A352628 and A383244) on 28 November 2026. The owner of this repository sent the other 15 files in three later rounds and the project had accepted 19 of the 23 files by 15:00 world time (UTC) on 28 November 2026 because the list of pull requests of the project marked those 19 files as merged at that time. Another 4 files were still waiting for review at that time and the note at the end of each entry below says which files were accepted. Claude wrote 5 more files in a fifth round on 28 November 2026 which brings the count to 28 files. The address of the collection of the Left to Solve project changed to https://github.com/lefttosolve2/open-math-agents by 28 November 2026 because the page of instructions at https://lefttosolve.com/join.txt named that address on that day. Claude searched the waiting line of the project before sending and found no other translation of the same eight guesses. About 690 translations from many contributors were waiting for review at the project at 14:45 world time (UTC) on that day and the project was accepting about 100 to 140 translations each hour.
 
 - [oeis-a055469.lean](oeis-a055469.lean) states the guess from sequence A055469 that infinitely many prime numbers are 1 more than a triangular number where a triangular number is a number of the form k times (k + 1) divided by 2 (for example 7 is prime and 7 is 1 more than the triangular number 6). The file was sent as pull request number 7412 and the project accepted the file on 27 November 2026.
 - [oeis-a366871.lean](oeis-a366871.lean) states the guess from sequence A366871 about a sequence that starts 0 and 1 and 2 and 3 and 4 and 5 and 5 and 6 where each term is built from earlier terms by a fixed rule. The guess says that the term in position n stays close to 0.854 times n as n grows where the exact multiplier is 3 times the square root of 5 minus 5 and then divided by 2. The file was sent as pull request number 7418 and the project accepted the file on 27 November 2026.
@@ -10945,22 +10950,22 @@ The 28 files in this section hold statements and no proofs. A statement file tra
 - [oeis-a234798.lean](oeis-a234798.lean) states the guess from sequence A234798 that there are infinitely many whole numbers k for which the seven numbers k + 7 and k^2 + 7 and so on up to k^7 + 7 are all prime (the smallest such number above 0 is 3981186). The file was sent as pull request number 14513 and the project accepted the file on 28 November 2026.
 - [oeis-a228865.lean](oeis-a228865.lean) states the guess from sequence A228865 that infinitely many prime numbers equal n times n plus the count of prime numbers up to n (for example 21 times 21 is 441 and there are 8 primes up to 21 and 449 is prime). The file was sent as pull request number 14518 in the second round and was waiting for review when this page was written.
 - [oeis-a333122.lean](oeis-a333122.lean) states the guess from sequence A333122 about six prime numbers in a row in the list of primes. The guess says that infinitely often the first prime plus the sixth prime equals the second prime plus the fifth prime (for example the six primes 5 and 7 and 11 and 13 and 17 and 19 give 5 + 19 = 24 and 7 + 17 = 24). The file was sent as pull request number 14526 and the project accepted the file on 28 November 2026.
-- [oeis-a256834.lean](oeis-a256834.lean) states the guess from sequence A256834 that infinitely many prime numbers are a square number plus 1296 (for example 1321 is prime and 1321 is 5 times 5 plus 1296). The file was sent as pull request number 14531 in the second round and was waiting for review when this page was written.
+- [oeis-a256834.lean](oeis-a256834.lean) states the guess from sequence A256834 that infinitely many prime numbers are a square number plus 1296 (for example 1321 is prime and 1321 is 5 times 5 plus 1296). The file was sent as pull request number 14531 and the project accepted the file on 28 November 2026.
 - [oeis-a160026.lean](oeis-a160026.lean) states the guess from sequence A160026 that there are infinitely many prime numbers p for which p^4 + 17^4 + 3^4 is also prime where the sign ^ means raised to a power (the smallest such prime is 13). The file was sent as pull request number 14970 and the project accepted the file on 28 November 2026.
-- [oeis-a302984.lean](oeis-a302984.lean) states the guess from sequence A302984 that every whole number above 5 equals x^2 + 2*y^2 + 2^z + 5*2^w for some whole numbers x and y and z and w (for example 6 equals 0 + 0 + 1 + 5). The file was sent as pull request number 14975 in a third round late on 27 November 2026 and was waiting for review when this page was written.
-- [oeis-a235390.lean](oeis-a235390.lean) states the guess from sequence A235390 that there are infinitely many whole numbers k for which the six numbers k + 1 and k^2 + 1 and k^4 + 1 and k^8 + 1 and k^16 + 1 and k^32 + 1 are all prime (the smallest such number above 1 is 7072833120). The file was sent as pull request number 14980 in a third round late on 27 November 2026 and was waiting for review when this page was written.
-- [oeis-a342064.lean](oeis-a342064.lean) states the guess from sequence A342064 that there are infinitely many prime numbers p for which the number p^8 - 1 has exactly 384 divisors (the smallest such prime is 821). The file was sent as pull request number 14984 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a302984.lean](oeis-a302984.lean) states the guess from sequence A302984 that every whole number above 5 equals x^2 + 2*y^2 + 2^z + 5*2^w for some whole numbers x and y and z and w (for example 6 equals 0 + 0 + 1 + 5). The file was sent as pull request number 14975 and the project accepted the file on 28 November 2026.
+- [oeis-a235390.lean](oeis-a235390.lean) states the guess from sequence A235390 that there are infinitely many whole numbers k for which the six numbers k + 1 and k^2 + 1 and k^4 + 1 and k^8 + 1 and k^16 + 1 and k^32 + 1 are all prime (the smallest such number above 1 is 7072833120). The file was sent as pull request number 14980 and the project accepted the file on 28 November 2026.
+- [oeis-a342064.lean](oeis-a342064.lean) states the guess from sequence A342064 that there are infinitely many prime numbers p for which the number p^8 - 1 has exactly 384 divisors (the smallest such prime is 821). The file was sent as pull request number 14984 and the project accepted the file on 28 November 2026.
 - [oeis-a396060.lean](oeis-a396060.lean) states the guess from sequence A396060 that there are infinitely many whole numbers m for which m^2 + 1 and m^2 - m + 1 are both prime (for example m = 6 gives the primes 37 and 31). The file was sent as pull request number 14986 and the project accepted the file on 28 November 2026.
 - [oeis-a341666.lean](oeis-a341666.lean) states the guess from sequence A341666 that there are infinitely many prime numbers p for which the number p^6 - 1 has exactly 384 divisors (the smallest such prime is 29). The file was sent as pull request number 15295 in a fourth round on 28 November 2026 and was waiting for review when this page was written.
 - [oeis-a256840.lean](oeis-a256840.lean) states the guess from sequence A256840 that infinitely many prime numbers are a square number plus 20736 (for example 20857 is prime and 20857 is 11 times 11 plus 20736). The file was sent as pull request number 15299 and the project accepted the file on 28 November 2026.
 - [oeis-a256776.lean](oeis-a256776.lean) states the guess from sequence A256776 that infinitely many prime numbers are a square number plus 256 (for example 257 is prime and 257 is 1 times 1 plus 256). The file was sent as pull request number 15303 in a fourth round on 28 November 2026 and was waiting for review when this page was written.
-- [oeis-a160025.lean](oeis-a160025.lean) states the guess from sequence A160025 that there are infinitely many prime numbers p for which p^4 + 13^4 + 3^4 is also prime (the smallest such prime is 3 because 81 + 28561 + 81 equals 28723 and 28723 is prime). The file was sent as pull request number 15310 in a fourth round on 28 November 2026 and was waiting for review when this page was written.
+- [oeis-a160025.lean](oeis-a160025.lean) states the guess from sequence A160025 that there are infinitely many prime numbers p for which p^4 + 13^4 + 3^4 is also prime (the smallest such prime is 3 because 81 + 28561 + 81 equals 28723 and 28723 is prime). The file was sent as pull request number 15310 and the project accepted the file on 28 November 2026.
 - [oeis-a256838.lean](oeis-a256838.lean) states the guess from sequence A256838 that infinitely many prime numbers are a square number plus 10000 (for example 10009 is prime and 10009 is 3 times 3 plus 10000). The file was sent as pull request number 15319 in a fourth round on 28 November 2026 and was waiting for review when this page was written.
-- [oeis-a259504.lean](oeis-a259504.lean) states the guess from sequence A259504 that there are infinitely many whole numbers k for which k and k + 1 are each a product of exactly three prime numbers where a repeated prime counts each time (for example 27 is 3 times 3 times 3 and 28 is 2 times 2 times 7). Claude placed the file on a branch of the personal copy in a fifth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a245305.lean](oeis-a245305.lean) states the guess from sequence A245305 that there are infinitely many whole numbers k for which the three numbers 4 times k plus 1 and 4 times k plus 3 and 6 times k plus 5 are all prime (for example k = 4 gives the three primes 17 and 19 and 29). Claude placed the file on a branch of the personal copy in a fifth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a242750.lean](oeis-a242750.lean) states the guess from sequence A242750 that there are infinitely many whole numbers n for which n is a primitive root of the prime number in position n of the list of primes. A primitive root of a prime p means a number whose powers leave every remainder from 1 to p - 1 when divided by p (for example the prime in position 3 is 5 and the powers of 3 leave the remainders 3 and 4 and 2 and 1 when divided by 5). Claude placed the file on a branch of the personal copy in a fifth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a334838.lean](oeis-a334838.lean) states the guess from sequence A334838 that there are infinitely many whole numbers m for which the prime number in position m of the list of primes equals x times x plus m times y times y for some whole numbers x and y above 0 (for example the prime in position 12 is 37 and 37 equals 5 times 5 plus 12 times 1 times 1). Claude placed the file on a branch of the personal copy in a fifth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a237414.lean](oeis-a237414.lean) states the guess from sequence A237414 that there are infinitely many prime numbers p for which p times p minus 2 is prime and q times q minus 2 is also prime where q means the prime number in position p of the list of primes (for example p = 3 gives 7 and the prime in position 3 is 5 and 5 times 5 minus 2 is the prime 23). Claude placed the file on a branch of the personal copy in a fifth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a259504.lean](oeis-a259504.lean) states the guess from sequence A259504 that there are infinitely many whole numbers k for which k and k + 1 are each a product of exactly three prime numbers where a repeated prime counts each time (for example 27 is 3 times 3 times 3 and 28 is 2 times 2 times 7). The file was sent as pull request number 33496 in a fifth round on 28 November 2026 and was waiting for review when this page was written.
+- [oeis-a245305.lean](oeis-a245305.lean) states the guess from sequence A245305 that there are infinitely many whole numbers k for which the three numbers 4 times k plus 1 and 4 times k plus 3 and 6 times k plus 5 are all prime (for example k = 4 gives the three primes 17 and 19 and 29). The file was sent as pull request number 33503 in a fifth round on 28 November 2026 and was waiting for review when this page was written.
+- [oeis-a242750.lean](oeis-a242750.lean) states the guess from sequence A242750 that there are infinitely many whole numbers n for which n is a primitive root of the prime number in position n of the list of primes. A primitive root of a prime p means a number whose powers leave every remainder from 1 to p - 1 when divided by p (for example the prime in position 3 is 5 and the powers of 3 leave the remainders 3 and 4 and 2 and 1 when divided by 5). The file was sent as pull request number 33514 in a fifth round on 28 November 2026 and was waiting for review when this page was written.
+- [oeis-a334838.lean](oeis-a334838.lean) states the guess from sequence A334838 that there are infinitely many whole numbers m for which the prime number in position m of the list of primes equals x times x plus m times y times y for some whole numbers x and y above 0 (for example the prime in position 12 is 37 and 37 equals 5 times 5 plus 12 times 1 times 1). The file was sent as pull request number 33523 in a fifth round on 28 November 2026 and was waiting for review when this page was written.
+- [oeis-a237414.lean](oeis-a237414.lean) states the guess from sequence A237414 that there are infinitely many prime numbers p for which p times p minus 2 is prime and q times q minus 2 is also prime where q means the prime number in position p of the list of primes (for example p = 3 gives 7 and the prime in position 3 is 5 and 5 times 5 minus 2 is the prime 23). The file was sent as pull request number 33530 in a fifth round on 28 November 2026 and was waiting for review when this page was written.
 
 ## How the proofs were checked
 
@@ -11284,6 +11289,110 @@ end OMA.S_oeis_a235390
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a237414.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a237414.lean
+
+````lean
+import Mathlib
+
+/-!
+# A237414: Primes p with p^2 - 2 and prime(p)^2 - 2 both prime.
+
+Source: https://oeis.org/A237414
+Credit: @chmillera-hub
+
+The entry records that, according to the conjecture in A237413, this sequence should have
+infinitely many terms.
+
+Here `prime(p)` is the `p`-th prime with `prime(1) = 2`, which is `Nat.nth Nat.Prime (p - 1)`
+because `Nat.nth` counts from zero. The first terms are `2` (since `2 ^ 2 - 2 = 2` and
+`prime(2) ^ 2 - 2 = 3 ^ 2 - 2 = 7`) and `3` (since `3 ^ 2 - 2 = 7` and
+`prime(3) ^ 2 - 2 = 5 ^ 2 - 2 = 23`).
+-/
+
+namespace OMA.S_oeis_a237414
+
+/-- There are infinitely many primes `p` such that `p ^ 2 - 2` and `prime(p) ^ 2 - 2` are both
+prime, where `prime(p)` is the `p`-th prime. -/
+theorem main : {p : ℕ | p.Prime ∧ (p ^ 2 - 2).Prime ∧
+    ((Nat.nth Nat.Prime (p - 1)) ^ 2 - 2).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a237414
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a242750.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a242750.lean
+
+````lean
+import Mathlib
+
+/-!
+# A242750: Positive integers n with property that n is a primitive root modulo prime(n).
+
+Source: https://oeis.org/A242750
+Credit: @chmillera-hub
+
+The entry records that, according to the conjecture in A242748, this sequence should have
+infinitely many terms.
+
+Here `prime(n)` is the `n`-th prime with `prime(1) = 2`, which is `Nat.nth Nat.Prime (n - 1)`
+because `Nat.nth` counts from zero. The number `n` is a primitive root modulo a prime `p` when
+its residue class has multiplicative order `p - 1` in `ZMod p`. The first terms are `1`
+(order 1 modulo 2), `2` (order 2 modulo 3) and `3` (order 4 modulo 5).
+-/
+
+namespace OMA.S_oeis_a242750
+
+/-- There are infinitely many positive integers `n` such that `n` is a primitive root modulo
+the `n`-th prime. -/
+theorem main : {n : ℕ | 0 < n ∧
+    orderOf (n : ZMod (Nat.nth Nat.Prime (n - 1))) = Nat.nth Nat.Prime (n - 1) - 1}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a242750
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a245305.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a245305.lean
+
+````lean
+import Mathlib
+
+/-!
+# A245305: Numbers k such that 4k+1, 4k+3, and 6k+5 are all primes.
+
+Source: https://oeis.org/A245305
+Credit: @chmillera-hub
+
+The entry records that the infinitude of the sequence would follow from the (unproved)
+conjecture of Dickson. The statement below is that infinitude.
+
+The first terms are `1` (giving the primes 5, 7, 11) and `4` (giving the primes 17, 19, 29).
+-/
+
+namespace OMA.S_oeis_a245305
+
+/-- There are infinitely many `k` such that `4 * k + 1`, `4 * k + 3` and `6 * k + 5` are all
+prime. -/
+theorem main : {k : ℕ | (4 * k + 1).Prime ∧ (4 * k + 3).Prime ∧ (6 * k + 5).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a245305
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
@@ -11441,6 +11550,41 @@ end OMA.S_oeis_a256840
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a259504.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a259504.lean
+
+````lean
+import Mathlib
+
+/-!
+# A259504: Numbers k such that k and k+1 are the product of exactly three (not necessarily distinct) primes.
+
+Source: https://oeis.org/A259504
+Credit: @chmillera-hub
+
+The entry records the conjecture that this sequence is infinite.
+
+A number is a product of exactly three primes, counted with multiplicity, when
+`ArithmeticFunction.cardFactors` (the function usually written as capital Omega) takes the value 3.
+The first terms are `27 = 3 * 3 * 3` (with `28 = 2 * 2 * 7`) and `44 = 2 * 2 * 11`
+(with `45 = 3 * 3 * 5`).
+-/
+
+namespace OMA.S_oeis_a259504
+
+/-- There are infinitely many `k` such that `k` and `k + 1` each have exactly three prime
+factors counted with multiplicity. -/
+theorem main : {k : ℕ | ArithmeticFunction.cardFactors k = 3 ∧
+    ArithmeticFunction.cardFactors (k + 1) = 3}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a259504
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
@@ -11504,6 +11648,40 @@ theorem main : {m : ℕ | ∃ j : ℕ, m = Nat.nth Nat.Prime j + Nat.nth Nat.Pri
   sorry
 
 end OMA.S_oeis_a333122
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a334838.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a334838.lean
+
+````lean
+import Mathlib
+
+/-!
+# A334838: Positive integers m with prime(m) in the form x^2 + m*y^2, where x and y are positive integers.
+
+Source: https://oeis.org/A334838
+Credit: @chmillera-hub
+
+The entry records the conjecture that this sequence has infinitely many terms.
+
+Here `prime(m)` is the `m`-th prime with `prime(1) = 2`, which is `Nat.nth Nat.Prime (m - 1)`
+because `Nat.nth` counts from zero. The first terms are `1` (since `2 = 1 ^ 2 + 1 * 1 ^ 2`),
+`2` (since `3 = 1 ^ 2 + 2 * 1 ^ 2`) and `12` (since `37 = 5 ^ 2 + 12 * 1 ^ 2`).
+-/
+
+namespace OMA.S_oeis_a334838
+
+/-- There are infinitely many positive integers `m` such that the `m`-th prime equals
+`x ^ 2 + m * y ^ 2` for some positive integers `x` and `y`. -/
+theorem main : {m : ℕ | 0 < m ∧ ∃ x y : ℕ, 0 < x ∧ 0 < y ∧
+    Nat.nth Nat.Prime (m - 1) = x ^ 2 + m * y ^ 2}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a334838
 ````
 
 
