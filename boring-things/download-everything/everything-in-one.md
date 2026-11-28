@@ -1,6 +1,6 @@
 # Everything in one file
 
-This file joins 787 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-27. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
+This file joins 792 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-28. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
 
 Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.
 
@@ -79,16 +79,21 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/lean-math-proofs/oeis-a055469.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a067730.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a109095.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a227387.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a228865.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a234798.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a235390.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256836.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a333122.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a342064.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a352628.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a356109.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a366871.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a383244.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a396060.lean
 - 1-research-click-here-first/mobius-strip-picture-of-physics/README.md
 - 1-research-click-here-first/mobius-strip-picture-of-physics/expression-continuum-reflection.md
 - 1-research-click-here-first/mobius-strip-picture-of-physics/half-angle-finding.md
@@ -824,7 +829,7 @@ Each link in the first list opens a whole folder and the folder page lists every
 - [Emotion stories](1-research-click-here-first/emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [The Emotional Framework](1-research-click-here-first/emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [Kindness games](1-research-click-here-first/kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [Lean math proofs](1-research-click-here-first/lean-math-proofs) holds eleven computer-checked proofs in the proof language Lean 4 of ten small helper steps toward known math results and open math problems (such as a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the number of different distances between points) which the checking script of the public project Left to Solve accepted and the folder also holds eighteen translations of unproven guesses about number sequences into Lean 4 and the folder keeps a copy of every file written for that project.
+- [Lean math proofs](1-research-click-here-first/lean-math-proofs) holds eleven computer-checked proofs in the proof language Lean 4 of ten small helper steps toward known math results and open math problems (such as a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the number of different distances between points) which the checking script of the public project Left to Solve accepted and the folder also holds 23 translations of unproven guesses about number sequences into Lean 4 and the folder keeps a copy of every file written for that project.
 - [The Mobius strip picture of physics](1-research-click-here-first/mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [Other collections](1-research-click-here-first/other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [Prime mazes](1-research-click-here-first/prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
@@ -895,7 +900,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [emotion-stories](emotion-stories) holds story ideas and reflections by the author of this repository in which emotions such as anger and boredom appear as characters.
 - [emotional-framework](emotional-framework) holds a document that the author of this repository wrote which treats each emotion as a member of an inner family and lists 19 emotions with the purpose and need of each one so that a person or an AI agent can look up what an emotion is signaling.
 - [kindness-games](kindness-games) holds small computer tournaments about the instruction "love your enemies" which test whether a player who always makes kind moves can do well when the player may leave a harmful partner or try a low-stakes sample game or see a move in advance or check a visible record.
-- [lean-math-proofs](lean-math-proofs) holds eleven computer-checked proofs in the proof language Lean 4 of ten small helper steps toward known math results and open math problems (such as a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the number of different distances between points) which the checking script of the public project Left to Solve accepted and the folder also holds eighteen translations of unproven guesses about number sequences into Lean 4 and the folder keeps a copy of every file written for that project.
+- [lean-math-proofs](lean-math-proofs) holds eleven computer-checked proofs in the proof language Lean 4 of ten small helper steps toward known math results and open math problems (such as a counting fact about numbers divisible by large squares and a lower bound on the number of subgroups of the symmetric group and a bound on the number of different distances between points) which the checking script of the public project Left to Solve accepted and the folder also holds 23 translations of unproven guesses about number sequences into Lean 4 and the folder keeps a copy of every file written for that project.
 - [mobius-strip-picture-of-physics](mobius-strip-picture-of-physics) holds a document that pictures strange behaviors in physics with twisted paper ribbons and uses no equations.
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
@@ -10889,7 +10894,7 @@ Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bu
 
 # Lean math proofs
 
-This folder holds eighteen statement files that are described in a later section and eleven computer-checked proofs of ten small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
+This folder holds 23 statement files that are described in a later section and eleven computer-checked proofs of ten small math facts that an AI model (Claude) wrote on 27 November 2026 in the proof language Lean 4 which is a programming language where a program called the Lean checker accepts a proof only when every step follows from the rules of logic.
 
 The five facts are steps inside six larger known results from the public project Left to Solve at https://lefttosolve.com which splits hard math results into smaller steps so that many people and AI agents can prove one step at a time. The collection of that project at https://github.com/GuillaumeBAUD-coder/open-math-agents had no proof file for any of the five steps when Claude copied the collection on 27 November 2026. Other contributors to the Left to Solve project had proofs of all five steps accepted into the collection between 20 and 30 minutes after Claude made that copy (the accepted proofs carry the pull request numbers 4819 and 4832 and 4855 and 4862 and 4890 and 4930) which means the proofs in this folder are independent second proofs of steps that the project already counts as done and the proofs in this folder were not sent to the project.
 
@@ -10916,7 +10921,7 @@ The Left to Solve project had about 2600 proofs waiting to be checked on 27 Nove
 
 ## Statements written for sending to the Left to Solve project
 
-The eighteen files in this section hold statements and no proofs. A statement file translates an unproven guess from the Online Encyclopedia of Integer Sequences (a public list of number sequences at https://oeis.org) into the language Lean 4 so that people and AI agents can later try to prove the guess with a computer check. The checking script of the Left to Solve project confirmed on 27 November 2026 that the eighteen files are valid Lean 4 text but a computer cannot confirm that a translation says the same thing as the original guess and so a person at the project reviews each translation. The owner of this repository sent the eight files to the project on 27 November 2026 and the project accepted five of the eight files into the public collection within about 40 minutes (the files for sequences A055469 and A366871 and A109095 and A256836 and A067730). The other three files (for sequences A356109 and A352628 and A383244) were still waiting at the project at 22:45 world time (UTC) on that day. Claude searched the waiting line of the project before sending and found no other translation of the same eight guesses. About 690 translations from many contributors were waiting for review at the project at 14:45 world time (UTC) on that day and the project was accepting about 100 to 140 translations each hour.
+The 23 files in this section hold statements and no proofs. A statement file translates an unproven guess from the Online Encyclopedia of Integer Sequences (a public list of number sequences at https://oeis.org) into the language Lean 4 so that people and AI agents can later try to prove the guess with a computer check. The checking script of the Left to Solve project confirmed that the 23 files are valid Lean 4 text but a computer cannot confirm that a translation says the same thing as the original guess and so a person at the project reviews each translation. The owner of this repository sent the eight files to the project on 27 November 2026 and the project accepted five of the eight files into the public collection within about 40 minutes (the files for sequences A055469 and A366871 and A109095 and A256836 and A067730). The other three files (for sequences A356109 and A352628 and A383244) were still waiting at the project at 22:45 world time (UTC) on that day. Claude searched the waiting line of the project before sending and found no other translation of the same eight guesses. About 690 translations from many contributors were waiting for review at the project at 14:45 world time (UTC) on that day and the project was accepting about 100 to 140 translations each hour.
 
 - [oeis-a055469.lean](oeis-a055469.lean) states the guess from sequence A055469 that infinitely many prime numbers are 1 more than a triangular number where a triangular number is a number of the form k times (k + 1) divided by 2 (for example 7 is prime and 7 is 1 more than the triangular number 6). The file was sent as pull request number 7412 and the project accepted the file on 27 November 2026.
 - [oeis-a366871.lean](oeis-a366871.lean) states the guess from sequence A366871 about a sequence that starts 0 and 1 and 2 and 3 and 4 and 5 and 5 and 6 where each term is built from earlier terms by a fixed rule. The guess says that the term in position n stays close to 0.854 times n as n grows where the exact multiplier is 3 times the square root of 5 minus 5 and then divided by 2. The file was sent as pull request number 7418 and the project accepted the file on 27 November 2026.
@@ -10931,11 +10936,16 @@ The eighteen files in this section hold statements and no proofs. A statement fi
 - [oeis-a228865.lean](oeis-a228865.lean) states the guess from sequence A228865 that infinitely many prime numbers equal n times n plus the count of prime numbers up to n (for example 21 times 21 is 441 and there are 8 primes up to 21 and 449 is prime). The file was sent as pull request number 14518 in the second round and was waiting for review when this page was written.
 - [oeis-a333122.lean](oeis-a333122.lean) states the guess from sequence A333122 about six prime numbers in a row in the list of primes. The guess says that infinitely often the first prime plus the sixth prime equals the second prime plus the fifth prime (for example the six primes 5 and 7 and 11 and 13 and 17 and 19 give 5 + 19 = 24 and 7 + 17 = 24). The file was sent as pull request number 14526 in the second round and was waiting for review when this page was written.
 - [oeis-a256834.lean](oeis-a256834.lean) states the guess from sequence A256834 that infinitely many prime numbers are a square number plus 1296 (for example 1321 is prime and 1321 is 5 times 5 plus 1296). The file was sent as pull request number 14531 in the second round and was waiting for review when this page was written.
-- [oeis-a160026.lean](oeis-a160026.lean) states the guess from sequence A160026 that there are infinitely many prime numbers p for which p^4 + 17^4 + 3^4 is also prime where the sign ^ means raised to a power (the smallest such prime is 13). Claude placed the file on a branch of the personal copy in a third round late on 27 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a302984.lean](oeis-a302984.lean) states the guess from sequence A302984 that every whole number above 5 equals x^2 + 2*y^2 + 2^z + 5*2^w for some whole numbers x and y and z and w (for example 6 equals 0 + 0 + 1 + 5). Claude placed the file on a branch of the personal copy in a third round late on 27 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a235390.lean](oeis-a235390.lean) states the guess from sequence A235390 that there are infinitely many whole numbers k for which the six numbers k + 1 and k^2 + 1 and k^4 + 1 and k^8 + 1 and k^16 + 1 and k^32 + 1 are all prime (the smallest such number above 1 is 7072833120). Claude placed the file on a branch of the personal copy in a third round late on 27 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a342064.lean](oeis-a342064.lean) states the guess from sequence A342064 that there are infinitely many prime numbers p for which the number p^8 - 1 has exactly 384 divisors (the smallest such prime is 821). Claude placed the file on a branch of the personal copy in a third round late on 27 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
-- [oeis-a396060.lean](oeis-a396060.lean) states the guess from sequence A396060 that there are infinitely many whole numbers m for which m^2 + 1 and m^2 - m + 1 are both prime (for example m = 6 gives the primes 37 and 31). Claude placed the file on a branch of the personal copy in a third round late on 27 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a160026.lean](oeis-a160026.lean) states the guess from sequence A160026 that there are infinitely many prime numbers p for which p^4 + 17^4 + 3^4 is also prime where the sign ^ means raised to a power (the smallest such prime is 13). The file was sent as pull request number 14970 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a302984.lean](oeis-a302984.lean) states the guess from sequence A302984 that every whole number above 5 equals x^2 + 2*y^2 + 2^z + 5*2^w for some whole numbers x and y and z and w (for example 6 equals 0 + 0 + 1 + 5). The file was sent as pull request number 14975 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a235390.lean](oeis-a235390.lean) states the guess from sequence A235390 that there are infinitely many whole numbers k for which the six numbers k + 1 and k^2 + 1 and k^4 + 1 and k^8 + 1 and k^16 + 1 and k^32 + 1 are all prime (the smallest such number above 1 is 7072833120). The file was sent as pull request number 14980 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a342064.lean](oeis-a342064.lean) states the guess from sequence A342064 that there are infinitely many prime numbers p for which the number p^8 - 1 has exactly 384 divisors (the smallest such prime is 821). The file was sent as pull request number 14984 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a396060.lean](oeis-a396060.lean) states the guess from sequence A396060 that there are infinitely many whole numbers m for which m^2 + 1 and m^2 - m + 1 are both prime (for example m = 6 gives the primes 37 and 31). The file was sent as pull request number 14986 in a third round late on 27 November 2026 and was waiting for review when this page was written.
+- [oeis-a341666.lean](oeis-a341666.lean) states the guess from sequence A341666 that there are infinitely many prime numbers p for which the number p^6 - 1 has exactly 384 divisors (the smallest such prime is 29). Claude placed the file on a branch of the personal copy in a fourth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a256840.lean](oeis-a256840.lean) states the guess from sequence A256840 that infinitely many prime numbers are a square number plus 20736 (for example 20857 is prime and 20857 is 11 times 11 plus 20736). Claude placed the file on a branch of the personal copy in a fourth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a256776.lean](oeis-a256776.lean) states the guess from sequence A256776 that infinitely many prime numbers are a square number plus 256 (for example 257 is prime and 257 is 1 times 1 plus 256). Claude placed the file on a branch of the personal copy in a fourth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a160025.lean](oeis-a160025.lean) states the guess from sequence A160025 that there are infinitely many prime numbers p for which p^4 + 13^4 + 3^4 is also prime (the smallest such prime is 3 because 81 + 28561 + 81 equals 28723 and 28723 is prime). Claude placed the file on a branch of the personal copy in a fourth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
+- [oeis-a256838.lean](oeis-a256838.lean) states the guess from sequence A256838 that infinitely many prime numbers are a square number plus 10000 (for example 10009 is prime and 10009 is 3 times 3 plus 10000). Claude placed the file on a branch of the personal copy in a fourth round on 28 November 2026 for the owner of this repository to send to the project and the file had not been sent when this page was written.
 
 ## How the proofs were checked
 
@@ -11063,6 +11073,38 @@ end OMA.S_oeis_a109095
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
+
+````lean
+import Mathlib
+
+/-!
+# A160026: Primes p such that p^4 + 17^4 + 3^4 is prime.
+
+Source: https://oeis.org/A160026
+Credit: @chmillera-hub
+
+The entry records the conjecture: "It is conjectured that the sequence is infinite."
+
+The sequence is the set of primes `p` for which `p ^ 4 + 17 ^ 4 + 3 ^ 4` is prime. The first
+terms are `13, 29, 37, 59`; the entry notes that `3` is not a term because
+`3 ^ 4 + 17 ^ 4 + 3 ^ 4 = 83683 = 67 * 1249`.
+-/
+
+namespace OMA.S_oeis_a160026
+
+/-- There are infinitely many primes `p` with `p ^ 4 + 17 ^ 4 + 3 ^ 4` prime. -/
+theorem main : {p : ℕ | p.Prime ∧ (p ^ 4 + 17 ^ 4 + 3 ^ 4).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a160026
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a227387.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a227387.lean
@@ -11163,6 +11205,38 @@ end OMA.S_oeis_a234798
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a235390.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a235390.lean
+
+````lean
+import Mathlib
+
+/-!
+# A235390: Numbers k such that k^(2^i)+1 are primes for i=0...5.
+
+Source: https://oeis.org/A235390
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: the sequence is infinite."
+
+A natural number `k` is a term when the six numbers `k ^ (2 ^ i) + 1` for `i = 0, 1, 2, 3, 4, 5`
+(that is `k + 1`, `k ^ 2 + 1`, `k ^ 4 + 1`, `k ^ 8 + 1`, `k ^ 16 + 1`, `k ^ 32 + 1`) are all prime.
+The first term is `1` (all six numbers equal `2`) and the second is `7072833120`.
+-/
+
+namespace OMA.S_oeis_a235390
+
+/-- There are infinitely many `k` with `k ^ (2 ^ i) + 1` prime for all `i ≤ 5`. -/
+theorem main : {k : ℕ | ∀ i : ℕ, i ≤ 5 → (k ^ (2 ^ i) + 1).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a235390
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
@@ -11227,6 +11301,39 @@ end OMA.S_oeis_a256836
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
+
+````lean
+import Mathlib
+
+/-!
+# A302984: Number of ways to write n as x^2 + 2*y^2 + 2^z + 5*2^w with x,y,z,w nonnegative integers.
+
+Source: https://oeis.org/A302984
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: a(n) > 0 for all n > 5."
+
+`a(n) > 0` says that `n` has at least one representation `n = x ^ 2 + 2 * y ^ 2 + 2 ^ z + 5 * 2 ^ w`
+with `x, y, z, w` nonnegative integers, which `main` states with natural numbers. The smallest
+value of the right-hand side is `0 + 0 + 1 + 5 = 6`, and the entry gives
+`6 = 0 ^ 2 + 2 * 0 ^ 2 + 2 ^ 0 + 5 * 2 ^ 0`.
+-/
+
+namespace OMA.S_oeis_a302984
+
+/-- Every `n > 5` is of the form `x ^ 2 + 2 * y ^ 2 + 2 ^ z + 5 * 2 ^ w`. -/
+theorem main : ∀ n : ℕ, 5 < n → ∃ x y z w : ℕ, n = x ^ 2 + 2 * y ^ 2 + 2 ^ z + 5 * 2 ^ w := by
+  sorry
+
+end OMA.S_oeis_a302984
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a333122.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a333122.lean
@@ -11257,6 +11364,39 @@ theorem main : {m : ℕ | ∃ j : ℕ, m = Nat.nth Nat.Prime j + Nat.nth Nat.Pri
   sorry
 
 end OMA.S_oeis_a333122
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a342064.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a342064.lean
+
+````lean
+import Mathlib
+
+/-!
+# A342064: Primes p such that p^8 - 1 has 384 divisors.
+
+Source: https://oeis.org/A342064
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: sequence is infinite."
+
+The sequence is the set of primes `p` for which `p ^ 8 - 1` has exactly `384` positive divisors.
+The number of divisors of `m` is `m.divisors.card` in Mathlib. For a prime `p` the number
+`p ^ 8 - 1` is positive, so the natural-number subtraction is the ordinary difference. The first
+terms are `821, 997, 2819`.
+-/
+
+namespace OMA.S_oeis_a342064
+
+/-- There are infinitely many primes `p` such that `p ^ 8 - 1` has exactly `384` divisors. -/
+theorem main : {p : ℕ | p.Prime ∧ (p ^ 8 - 1).divisors.card = 384}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a342064
 ````
 
 
@@ -11410,6 +11550,41 @@ theorem main : {r : ℕ | r.Prime ∧ ∃ j : ℕ,
   sorry
 
 end OMA.S_oeis_a383244
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a396060.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a396060.lean
+
+````lean
+import Mathlib
+
+/-!
+# A396060: Numbers m such that m^2 + 1 and m^2 - m + 1 are both prime numbers.
+
+Source: https://oeis.org/A396060
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: There are infinitely many numbers m such that the
+two polynomials m^2 + 1 and m^2 - m + 1 are prime."
+
+A natural number `m` is a term when `m ^ 2 + 1` and `m ^ 2 - m + 1` are both prime. Since
+`m ≤ m ^ 2` for every natural number `m`, the natural-number subtraction `m ^ 2 - m` is the
+ordinary difference. The first terms are `2, 4, 6, 16`; the entry gives `6` as a term because
+`6 ^ 2 + 1 = 37` and `37 - 6 = 31` are prime. The values `m = 0` and `m = 1` are not terms because
+then `m ^ 2 - m + 1 = 1`.
+-/
+
+namespace OMA.S_oeis_a396060
+
+/-- There are infinitely many `m` with `m ^ 2 + 1` and `m ^ 2 - m + 1` both prime. -/
+theorem main : {m : ℕ | (m ^ 2 + 1).Prime ∧ (m ^ 2 - m + 1).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a396060
 ````
 
 
