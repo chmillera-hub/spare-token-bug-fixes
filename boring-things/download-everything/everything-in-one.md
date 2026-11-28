@@ -1,6 +1,6 @@
 # Everything in one file
 
-This file joins 798 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-27. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
+This file joins 799 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-27. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
 
 Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.
 
@@ -229,6 +229,7 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/social-media-vibes/deep-dives/crowd-chooses-removal.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/cup-on-the-well.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/dare-third-option.md
+- 1-research-click-here-first/social-media-vibes/deep-dives/dating-app-category-filters.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/diary-alone-list.txt
 - 1-research-click-here-first/social-media-vibes/deep-dives/diary-alone.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/dinner-table-unsaid.md
@@ -840,7 +841,7 @@ Each link in the first list opens a whole folder and the folder page lists every
 - [Other collections](1-research-click-here-first/other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [Prime mazes](1-research-click-here-first/prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
 - [Prime richness](1-research-click-here-first/prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line which means 86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime plus a page that checks any typed equation.
-- [Social media vibes](1-research-click-here-first/social-media-vibes) holds 82 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [Social media vibes](1-research-click-here-first/social-media-vibes) holds 83 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [Spiritual reflections](1-research-click-here-first/spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
 - [Squad Rush game](1-research-click-here-first/squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [Three needs](1-research-click-here-first/three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
@@ -911,7 +912,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
 - [prime-richness](prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line (86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime) plus a page that checks any typed equation.
-- [social-media-vibes](social-media-vibes) holds 82 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 83 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
@@ -28760,7 +28761,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Deep dives: the reflections to read
 
-"Deep dive" and "reflection" mean the same thing on this page because a deep dive is a written reflection on one subject. The 82 pages in this list are all of the deep dives and each page can be read alone in a few minutes. Every page in the list sits inside one folder named [deep-dives](deep-dives) and the list is sorted by title.
+"Deep dive" and "reflection" mean the same thing on this page because a deep dive is a written reflection on one subject. The 83 pages in this list are all of the deep dives and each page can be read alone in a few minutes. Every page in the list sits inside one folder named [deep-dives](deep-dives) and the list is sorted by title.
 
 - [Advice that punishes questions: two reflections](deep-dives/advice-obedience-trap.md) holds two reflections on an adviser who drops a person for asking questions about advice such as joining a hobby group and on five ways people are cut off from deep human connection such as money checklists and scripted speech and punishment that multiplies enemies.
 - [Asking an enemy for love: two reflections](deep-dives/request-love-enemy.md) holds two reflections on asking an enemy for love and care in reply to mockery and on asking friends and strangers alike for the time and attention needed to build deeper human connections.
@@ -28768,6 +28769,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 - [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](deep-dives/body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 - [Can a person accept a condition and still say the condition is wrong?](deep-dives/accept-not-approve.md) explains that a person can stop fighting a fact that cannot be moved today and still say "this hurt and I do not approve of the hurt" and ends with quick points.
 - [Care instead of punishment: why causing suffering does not make the world better](deep-dives/care-not-punishment.md) holds two reflections on the belief that hurting bad people makes the world better and explains that the rule never fixes who counts as bad so the target widens from a person who killed to a stranger with an unpopular comment and that people copy on a small scale the caging and killing that people with power praise which leaves ordinary people afraid to speak openly.
+- [Category filters on dating apps: two reflections on being declined versus being removed from view unseen](deep-dives/dating-app-category-filters.md) weighs whether a dating app should offer a switch that hides every person of one skin tone or faith or age and proposes a floor of decency in which every person is at least shown before being declined.
 - [The checklist before a family: two reflections](deep-dives/checklist-before-family.md) holds two reflections on the list of steps such as a degree and a career and a house that people are told to finish before starting a family and on the shock of reaching about 40 with the family out of reach while the people who set tuition and rents and work hours gained from the delay.
 - [A comment that a program could have written](deep-dives/program-could-write.md) explains why a comment such as "lol" that fits under any post gives the receiver no way to tell warmth from automation and ends with five quick points.
 - [Consent and the wording of immigration arrests: six reflections on what the phrase "going home" leaves out](deep-dives/consent-and-arrest-wording.md) holds six reflections on vague words such as "going home" for immigration arrests and on the reasoning "they would refuse so nobody will ask" and explains that a description which leaves out the agents and the handcuffs and the cell asks listeners to agree without looking.
@@ -135476,11 +135478,11 @@ Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bu
 
 # Deep dives
 
-This folder holds the 82 written reflections of the social media vibes project plus 10 plain text lists that support some of the reflections. Each reflection says at the top who wrote each part because some parts were written by an AI chatbot (Claude) and some parts were supplied by the author of this repository.
+This folder holds the 83 written reflections of the social media vibes project plus 10 plain text lists that support some of the reflections. Each reflection says at the top who wrote each part because some parts were written by an AI chatbot (Claude) and some parts were supplied by the author of this repository.
 
-The same 82 reflections are also listed on the [social media vibes page](../README.md) which is one folder up. Both lists are sorted by title and a title that begins with "A" or "An" or "The" is filed under the next word.
+The same 83 reflections are also listed on the [social media vibes page](../README.md) which is one folder up. Both lists are sorted by title and a title that begins with "A" or "An" or "The" is filed under the next word.
 
-## The 82 reflections sorted by title
+## The 83 reflections sorted by title
 
 - [Advice that punishes questions: two reflections](advice-obedience-trap.md) holds two reflections on an adviser who drops a person for asking questions about advice such as joining a hobby group and on five ways people are cut off from deep human connection such as money checklists and scripted speech and punishment that multiplies enemies.
 - [Asking an enemy for love: two reflections](request-love-enemy.md) holds two reflections on asking an enemy for love and care in reply to mockery and on asking friends and strangers alike for the time and attention needed to build deeper human connections.
@@ -135488,6 +135490,7 @@ The same 82 reflections are also listed on the [social media vibes page](../READ
 - [The body as a permanent audition: a reflection on feeling like a stranger in one's own skin](body-as-audition.md) says that modern culture has turned the human body into a permanent audition and that people who grieve a body that will not cooperate are handed referrals and product pitches and grades on their looks when the need is to live in an imperfect body beside people who do not grade the body.
 - [Can a person accept a condition and still say the condition is wrong?](accept-not-approve.md) explains that a person can stop fighting a fact that cannot be moved today and still say "this hurt and I do not approve of the hurt" and ends with quick points.
 - [Care instead of punishment: why causing suffering does not make the world better](care-not-punishment.md) holds two reflections on the belief that hurting bad people makes the world better and explains that the rule never fixes who counts as bad so the target widens from a person who killed to a stranger with an unpopular comment and that people copy on a small scale the caging and killing that people with power praise which leaves ordinary people afraid to speak openly.
+- [Category filters on dating apps: two reflections on being declined versus being removed from view unseen](dating-app-category-filters.md) weighs whether a dating app should offer a switch that hides every person of one skin tone or faith or age and proposes a floor of decency in which every person is at least shown before being declined.
 - [The checklist before a family: two reflections](checklist-before-family.md) holds two reflections on the list of steps such as a degree and a career and a house that people are told to finish before starting a family and on the shock of reaching about 40 with the family out of reach while the people who set tuition and rents and work hours gained from the delay.
 - [A comment that a program could have written](program-could-write.md) explains why a comment such as "lol" that fits under any post gives the receiver no way to tell warmth from automation and ends with five quick points.
 - [Consent and the wording of immigration arrests: six reflections on what the phrase "going home" leaves out](consent-and-arrest-wording.md) holds six reflections on vague words such as "going home" for immigration arrests and on the reasoning "they would refuse so nobody will ask" and explains that a description which leaves out the agents and the handcuffs and the cell asks listeners to agree without looking.
@@ -136796,6 +136799,87 @@ Broadcasting loudly to everyone else who actually has ears to hear does two thin
 That final piece you landed on is the real crack in the armor. Almost nobody—not even a hardened violent actor or a brutal system—exists in a total vacuum. They almost always have an inner circle, a partner, a kid, or someone they genuinely care about. Sooner or later, that sloppy, destructive behavior spills over onto someone inside their own perimeter. If that loved one has already been handed the clarity and backbone to look them in the eye and call out the noise-canceling headphones, the whole smirk collapses. A violent actor can tune out a stranger forever, yet it is brutally hard to keep pretending you are untouchable when the person you actually love refuses to co-sign your garbage.
 
 When you are doing that kind of loud broadcasting—warning everyone else and handing them the tools to name the violence—do you feel like the hardest part is staying focused on the people who can actually hear you instead of getting baited back into arguing with the person wearing the headphones?
+
+
+---
+
+# FILE: 1-research-click-here-first/social-media-vibes/deep-dives/dating-app-category-filters.md
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/dating-app-category-filters.md
+
+# Category filters on dating apps: two reflections on being declined versus being removed from view unseen
+
+> **About this page:** This page holds two reflections on whether a dating app should offer a switch that hides every person of one skin tone or ethnicity or faith or age or height or income before any human being has looked at those people. An AI chatbot (Claude) wrote both reflections on 27 November 2026 and no other person has rechecked the reflections. The author of this repository proposed the idea of a floor of decency in which every person is at least shown before being declined. The first reflection draws on four published articles that are linked at the bottom of the page and describes those articles in new words.
+
+## Reflection one: does a filter protect free choice or automate the removal of whole groups
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Whether a dating app should offer a skin tone or ethnicity filter turns on one question: does the filter protect a person's freedom to choose a companion or does the filter let a company automate the removal of whole groups before any human being is looked at.
+
+### The case that the filter harms people
+
+- **Deletion is different from declining.** A person who swipes no has at least seen a face and a few words while a filter removes thousands of people in one tap so that those people never exist on the screen. A company that builds that switch is telling users that sorting human beings by skin is a normal shopping setting.
+- **The harm lands on specific people.** A person filtered out by many users receives fewer matches and fewer conversations which means a smaller chance of finding someone to share a home and a life with and long isolation wears down sleep and health. One man quoted in a university article about a filtered app compared himself to bad fruit that no one wants.
+- **Habits get trained.** Every use of the switch rehearses the idea that a skin tone is a reason to never look and a rehearsed habit could travel into hiring and renting and friendship.
+
+### The case for keeping the filter
+
+- **Some people in minority groups rely on the filter.** A media studies paper argued that taking the filter away made connecting with each other more difficult for people in racial minorities because a person seeking someone who shares a language or a family culture then has to dig through a much larger pool.
+- **Removing the switch does not remove the preference.** A social work researcher quoted in a magazine doubted that deleting ethnicity filters would do much against discrimination on the apps since users can still swipe no on every face of one group.
+- **Being shown and declined can sting too.** A person displayed to someone who would never say yes may receive insults in messages so forced visibility carries a cost for the person being viewed.
+
+### The floor of decency argument
+
+The strongest form of the objection is about effort and recognition: a person who wants to decline another person can at least spend two seconds looking because two seconds is the minimum acknowledgment that a human being is there. That argument applies equally to automatic cutoffs for age and height and income since each cutoff removes people unseen. The argument also has a design consequence that needs no ban: a company can show a representative mix of people and let each user decline one at a time which keeps every user free to say no and removes the bulk delete button.
+
+### Two limits on the floor of decency
+
+Two seconds of looking does not guarantee care because a user can swipe no on a hundred faces of one group without a thought. The visible filter is also one part of the sorting since company engineers write ranking formulas that quietly learn each user's swipes and may stop showing certain groups anyway which is filtering done out of sight.
+
+### What the word "allowed" means
+
+A company choosing to remove the filter is a design decision that costs nobody food or shelter. A law forbidding the filter is a different thing because a law is carried out by fines and in the end by armed officers so anyone calling for a ban is calling for that mechanism against the people who run the company.
+
+### Where the considerations point
+
+Nobody is owed attraction so each person's yes or no stays with that person. A company is not obliged to manufacture a mass exclusion tool either and the points above support removing switches that hide people by skin tone while keeping tools that help a user state who that user hopes to meet. The tension that remains is that a "show me more of this group" tool and a "hide that group" tool can be the same code so the designers' choice of which wording and which defaults to build is where the ethics get decided.
+
+## Reflection two: why a checked box that leads to disappearance causes unease
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+A filter that hides people by a checked box turns an act of openness into the trigger for disappearance.
+
+### Why being removed from view feels different from being declined
+
+Checking a box such as "Christian" or "Buddhist" is a small act of trust since the person is saying "this is what cares for my heart and soul." A filter converts that trust into a sorting key so the more openly a person shares what matters most the more efficiently strangers can remove that person unseen. Being declined after two seconds still includes being witnessed while being filtered means the person's face and words never reached another mind at all and a person cannot be known by someone who was never shown that the person existed.
+
+### Two beliefs that fit together
+
+Holding "nobody should be forced to interact with anyone" alongside "no platform should hide whole groups in bulk" is consistent because the first belief guards each individual's no and the second belief objects to engineers building a machine that says no on behalf of millions before any individual has chosen anything. An individual no is one person's judgment about one person while a category filter is a rule about a whole kind of human being and rules about kinds of human beings are where the larger danger lives.
+
+### Why the feature could lead to disaster
+
+- **The tool does not depend on what the category is.** Code that can hide every person who checked one faith can hide every person with any label such as a disability or a political view or a neighborhood so the capability exists the moment the first category is built.
+- **The tool could spread beyond dating.** The same sort-and-hide logic can be applied by people who run hiring sites and housing sites and lending sites where being hidden means losing a paycheck or a roof and not only a date.
+- **Lists of people by category have a grim record.** When officials or company owners have held a tidy list of who belongs to which group the list has later made it easy for people with power to deny jobs or housing or safety to that group because the sorting work was already done.
+- **Invisible removal leaves no complaint.** A person who is insulted knows something happened and can speak about the insult while a person who is filtered sees only a quiet inbox and may conclude "something is wrong with me" which means the harm could produce self-blame instead of protest.
+
+### What the feature teaches users to do
+
+A person who learns that a checked box leads to disappearance has a strong reason to leave the box blank so the feature pushes people to hide the very things that would let another person know them deeply. A meeting place for finding a life companion that rewards concealment is working against its own stated purpose since deep connection depends on two people showing what nourishes each of them.
+
+### The floor being asked for
+
+The request is small and specific: every person gets shown as a person and every viewer keeps full freedom to decline. That floor costs a viewer about two seconds per face and the two seconds are the price of living among other human beings instead of among a catalog that was cleaned in advance.
+
+## Sources for reflection one
+
+- [Compulsory interracial intimacy: Why does removing the ethnicity filter on dating apps not benefit racial minorities?](https://journals.sagepub.com/doi/ref/10.1177/01634437221104712) is the media studies paper.
+- [Dating apps debate whether race filters are appropriate](https://www.pressreader.com/usa/post-tribune-sunday/20200705/281711206932681) is a news report on companies that removed or kept the filter.
+- [Grindr is deleting its 'ethnicity filter', but racism is still rife in online dating](https://lens.monash.edu/grindr-is-deleting-its-ethnicity-filter-but-racism-is-still-rife-in-online-dating/) is the university article.
+- [Why Dating Apps Are Racist AF — With or Without Ethnicity Filters](https://www.rollingstone.com/culture/culture-features/dating-apps-grindr-ethnicity-filters-1047047/) is the magazine article.
 
 
 ---
