@@ -1,6 +1,6 @@
 # Everything in one file
 
-This file joins 800 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-28. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
+This file joins 801 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-27. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
 
 Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.
 
@@ -155,6 +155,7 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/prime-richness/root-questions.md
 - 1-research-click-here-first/prime-richness/sky-questions.md
 - 1-research-click-here-first/prime-richness/spin-questions.md
+- 1-research-click-here-first/prime-richness/sqrt-level-questions.md
 - 1-research-click-here-first/prime-richness/strip-questions.md
 - 1-research-click-here-first/prime-richness/takes-on-circle-tests.md
 - 1-research-click-here-first/prime-richness/term-questions.md
@@ -19206,10 +19207,11 @@ This folder holds computer counts of how often prime numbers show up in the outp
 - [block-questions.md](block-questions.md) continues the questions and answers on the two circles: digits read in blocks sized to the circle (the digits of pi go from 101.4 to 200 out of 200) and 34 polynomials (none beats plain x) and sequences from the Collatz rule (a Collatz path avoids multiples of 3) and starting a sequence over when the sequence ends and what the sequences with the highest and lowest scores have in common.
 - [random-questions.md](random-questions.md) continues the questions and answers: random sequences on the two circles (200 out of 200 when the range is wider than the circle) and the sequence 0 + 1 − 2 + 3 − 4 that fills both circles in exactly N steps on every even circle size and three patterns of the primes on the literal circle and the slow growing sum of one over the height of each zeta zero (3.53295 for the 4520 zeros below height 5000) and how the count of zeros passes the count of composite numbers near 3820.
 - [cycle-questions.md](cycle-questions.md) continues the questions and answers: every digit of a polynomial counted from the right repeats in a cycle and the primes have no cycle so no polynomial with whole number coefficients outputs the primes and tests of 1830 ways to pick primes by position found no cycle and each new prime breaks the cycle left by the smaller primes starting at the square of the prime and the numbers each prime is the first to cross off and why a capped list of primes can be matched by a polynomial with fractions that fails right after the cap.
+- [sqrt-level-questions.md](sqrt-level-questions.md) continues the questions and answers: the sum of one over the square of each prime (about 0.4522474200) and the square root of a prime as the level below the square and why the primes enter the critical line with a size of one over the square root and a scan where the primes cancel most strongly beside the first zero at 14.13 and how many more steps a fair walk needs for each extra step of drift.
 - [takes-on-circle-tests.md](takes-on-circle-tests.md) is a short reflection by the chatbot on the circle tests so far: what the two-circle test measures (divisibility habits and not randomness) and how each rule change removed an unfair penalty and what is known mathematics against what is a new record and three loose ends and the weak points.
 - [two-prime-sums.md](two-prime-sums.md) counts the ways each even number up to 16 million is a sum of two primes: the last even number with fewer than 100 ways (11672) and fewer than 1000 ways (195368) and the lowest count in each range against the simple formula (the real count runs about 1.14 times the formula) and the counts for powers of 2 plus timings for checking a prime against finding a prime plus quick reference facts and untested ideas about how much knowing an answer lowers the work of solving.
 - [spin-animation.html](spin-animation.html) is an animation program for a web browser that goes with spin-questions.md and term-questions.md and rank-questions.md and block-questions.md: pick one of 107 sequences (every sequence from the rankings on rank-questions.md and the digit blocks and polynomials and Collatz sequences from block-questions.md) and a number of marks on a circle and press Play to see which marks get hit. Two circles side by side show the cumulative rule (each term moves the arrow so the arrow shows the running total) and the literal rule (the arrow lands on the term itself).
-- [all-questions.txt](all-questions.txt) is one plain text file that joins the seventeen questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md and random-questions.md and cycle-questions.md) so a reader can copy the whole discussion at once.
+- [all-questions.txt](all-questions.txt) is one plain text file that joins the eighteen questions and answers pages (log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md and random-questions.md and cycle-questions.md and sqrt-level-questions.md) so a reader can copy the whole discussion at once.
 - [ranked-list.md](ranked-list.md) is a master list that ranks 723 equations and running sums and other recipes from the most primes down to no primes (−100%). Each line shows how many outputs were tested and the share of the outputs that were prime and the wobble on the percentage and the odds that plain luck explains the result.
 - [grouped-list.md](grouped-list.md) holds the same 723 lines sorted into 35 groups by type (such as equations that start with n² or sums and running totals or digit tricks or recipes built from π) with a ranking inside each group.
 - [equation-list.md](equation-list.md) ranks 86 equations by how many primes the outputs contain and gives the raw counts and the reason for each percentage where a reason is known.
@@ -19226,9 +19228,9 @@ The checker runs in a web browser at this address: https://chmillera-hub.github.
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt
 
 ````text
-Questions and answers about logarithms and e and primes: all seventeen parts in one file
+Questions and answers about logarithms and e and primes: all eighteen parts in one file
 
-About this file: One AI model (Claude) wrote this file on 21 and 22 and 23 and 27 November 2026 from a back and forth chat with the author of this repository. The file joins seventeen pages from this folder into one plain text file so a reader can copy the whole discussion at once. The seventeen pages are log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md and random-questions.md and cycle-questions.md. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The facts are standard mathematics that a search will turn up so the file claims no new result. A program rechecked every figure and no other person has reviewed the file yet.
+About this file: One AI model (Claude) wrote this file on 21 and 22 and 23 and 27 November 2026 from a back and forth chat with the author of this repository. The file joins eighteen pages from this folder into one plain text file so a reader can copy the whole discussion at once. The eighteen pages are log-questions.md and ladder-questions.md and reciprocal-questions.md and pi-ripples-questions.md and prime-pieces-questions.md and coin-flip-questions.md and lamp-questions.md and strip-questions.md and half-dial-questions.md and root-questions.md and sky-questions.md and spin-questions.md and term-questions.md and rank-questions.md and block-questions.md and random-questions.md and cycle-questions.md and sqrt-level-questions.md. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The facts are standard mathematics that a search will turn up so the file claims no new result. A program rechecked every figure and no other person has reviewed the file yet.
 
 
 ============================================================
@@ -22553,6 +22555,101 @@ What was not checked
 - No other person has rerun the programs.
 - The tests for picked primes cover primes below 20 million and a handful of picking rules. A rule that was not tried could behave differently.
 - The chatbot stated the theorem about long runs of primes with the same last digit and the polynomial in 26 variables from memory of the literature and did not look either one up again.
+
+============================================================
+PART 18: Questions about the sum over prime squares and the square root level and the critical line
+============================================================
+
+----------------------------------------
+What is the sum of one over the square of each prime?
+----------------------------------------
+
+The sum 1/4 + 1/9 + 1/25 + 1/49 and so on through every prime settles at about 0.4522474200.
+
+- The first 10 primes give 0.4450106.
+- The first 100 primes give 0.4519928.
+- The first 10000 primes give 0.4522467.
+- All 664579 primes below ten million give 0.4522474142.
+- A formula built from the zeta function at 2 and 4 and 6 and so on gives 0.452247420041065498.
+
+No simple closed form is known. The matching sum over every whole number equals pi squared divided by 6.
+
+The prime 2 contributes 55.3% of the sum and 3 contributes 24.6% and 5 contributes 8.8% and 7 contributes 4.5%. So the first four primes carry about 93% of the total.
+
+A caution: the share of numbers divisible by some prime square is 39.2% and not 45.2%. The plain sum counts a number such as 36 twice because 36 is divisible by both 4 and 9.
+
+----------------------------------------
+What does the square root of a prime mean in the crossing off picture?
+----------------------------------------
+
+The square looks forward and the square root looks backward. The square of 7 is 49 which is the first number that 7 gets to cross off. The square root of a number tells which primes got a say in whether the number survived. The square root of 97 is about 9.85 so the primes with a say are 2 and 3 and 5 and 7 because 4 and 9 and 25 and 49 sit below 97. The prime 11 had no say because 11 does not start crossing off until 121.
+
+The square root is also the halfway point. A prime is the prime to the power 1 and the number 1 is the prime to the power 0. The square root is the prime to the power one half and the square root times the square root gives the prime back.
+
+----------------------------------------
+How do the three levels behave as sums?
+----------------------------------------
+
+- Power 2. The sum of one over the square of each prime settles at 0.4522.
+- Power 1. The sum of one over each prime grows without limit and very slowly: 2.198 for primes up to one thousand and 2.705 up to one hundred thousand and 3.041 up to ten million. Power 1 is the edge between settling and not settling.
+- Power one half. The sum of one over the square root of each prime grows fast: 12.7 for primes up to one thousand and 70.1 up to one hundred thousand and 461.6 up to ten million.
+
+So at the square root level the primes are too loud to add up. The plain recipe that builds the zeta function out of primes stops working there.
+
+----------------------------------------
+How does the square root level relate to the critical line?
+----------------------------------------
+
+On the critical line at one half each prime enters with a size of one over the square root of the prime and with an angle. The angle is the height on the line times the natural logarithm of the prime. As the height changes each prime turns at a different speed.
+
+The sizes alone add to infinity. So the total can vanish only when the directions cancel and a zero of the zeta function is a height where the cancellation is complete.
+
+A simple test with the primes below 100000: add one over the square root of each prime times the cosine of the angle and scan the heights from 10 to 40.
+
+- The sum averaged 0.04 over those heights.
+- The lowest value was −5.27 at a height of 14.05 which is beside the first zero at 14.13.
+- At the first four zeros the sum read −4.62 and −3.14 and −3.41 and −3.46.
+
+So the primes line up against themselves most strongly near the zeros.
+
+----------------------------------------
+Why one half and not another power?
+----------------------------------------
+
+Two known facts point at one half and both are forms of balance.
+
+- The zeta function has a mirror rule that trades the power s for the power 1 minus s. One half is the one power that the mirror leaves in place.
+- Each zero sends a wave through the count of primes. The loudness of the wave from a zero at one half is the square root of how far the count has gone. With every zero on the line every wave has that same loudness. A zero off the line would make one wave louder than the others and its mirror partner quieter.
+
+The belief that every zero sits on the line is unproven. One way to say the belief is that the count of primes strays from the smooth prediction by about a square root and no more. Nothing on this page is evidence for or against the belief.
+
+----------------------------------------
+How much must the number of steps grow for each extra step of drift?
+----------------------------------------
+
+A walk of fair coin flips typically drifts about the square root of its length. So 3600 steps go with a typical drift of 60.
+
+- A drift of 61 goes with 3721 steps which is 121 more.
+- A drift of 62 goes with 3844 steps which is 123 more.
+- A drift of 63 goes with 3969 steps which is 125 more.
+
+The added amount is two times the current drift plus one. In relative terms the steps grow about twice as fast as the drift: a drift that rises 1.67% from 60 to 61 needs 3.36% more steps. Doubling the drift takes four times the steps.
+
+This lopsided cost is why square root wandering is tame. A drift of 60 is 1.67% of a walk of 3600 steps and a drift of 600 is 0.17% of a walk of 360000 steps. The hexagon door walk on the page order-test-findings.md and its neighbors showed the same scale for whole primes: 24 steps sideways after 3600 primes. The number 60 is a typical size and not a guaranteed value.
+
+----------------------------------------
+How does this connect to food and shelter and deep human connection?
+----------------------------------------
+
+These sums do not cook a meal or pay rent. The tie is that a question asked out loud in plain words led to a clear picture of a famous unsolved problem and the picture sits in public for free. A reader who wants the same picture can save the hours of searching and put those hours toward earning food or keeping a home or toward a long talk with another person about what each one carries inside.
+
+----------------------------------------
+What was not checked
+----------------------------------------
+
+- No other person has rerun the program.
+- The scan near the zeros used a simple sum with a sharp cutoff at 100000. With a cutoff at ten million the same sum swings widely so the scan shows a tendency and is not a method for finding zeros.
+- The chatbot stated the mirror rule and the link between zeros and waves from memory of the standard literature.
 ````
 
 
@@ -28393,6 +28490,92 @@ So the primes are a fixed list that imitates randomness in bulk and keeps a few 
 50. 0.047206 is the sum of n over e to the power (n pi) and 0.0018779 is 1/24 minus 1 over (8 × pi).
 51. 96 is the number of marks out of 360 reached by moves of 1 and 2 and 3 degrees.
 52. 2119 is 360 times the natural logarithm of 360 which is the number of random drops expected to fill 360 marks.
+
+
+---
+
+# FILE: 1-research-click-here-first/prime-richness/sqrt-level-questions.md
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/sqrt-level-questions.md
+
+# Questions about the sum over prime squares and the square root level and the critical line
+
+> **About this page:** One AI model (Claude) wrote this page on 27 November 2026 from a back and forth chat with the author of this repository. The questions are the author's questions with the wording tidied and the answers are the chatbot's answers shortened. The author proposed moving one level down from the squares of the primes to the square roots of the primes and asked how that level relates to the critical line. The page continues the seventeen earlier question pages in this folder (the last one is [cycle-questions.md](cycle-questions.md)). The numbers are measurements from the program square_root_level.py in the folder boring-things/research-program-files/prime-richness-scripts/cycle-scripts. The mathematics is standard and the page claims no new result. The pairing of the square as looking forward and the square root as looking backward is the chatbot's framing of the author's idea. No other person has reviewed the page yet.
+
+## What is the sum of one over the square of each prime?
+
+The sum 1/4 + 1/9 + 1/25 + 1/49 and so on through every prime settles at about 0.4522474200.
+
+- The first 10 primes give 0.4450106.
+- The first 100 primes give 0.4519928.
+- The first 10000 primes give 0.4522467.
+- All 664579 primes below ten million give 0.4522474142.
+- A formula built from the zeta function at 2 and 4 and 6 and so on gives 0.452247420041065498.
+
+No simple closed form is known. The matching sum over every whole number equals pi squared divided by 6.
+
+The prime 2 contributes 55.3% of the sum and 3 contributes 24.6% and 5 contributes 8.8% and 7 contributes 4.5%. So the first four primes carry about 93% of the total.
+
+A caution: the share of numbers divisible by some prime square is 39.2% and not 45.2%. The plain sum counts a number such as 36 twice because 36 is divisible by both 4 and 9.
+
+## What does the square root of a prime mean in the crossing off picture?
+
+The square looks forward and the square root looks backward. The square of 7 is 49 which is the first number that 7 gets to cross off. The square root of a number tells which primes got a say in whether the number survived. The square root of 97 is about 9.85 so the primes with a say are 2 and 3 and 5 and 7 because 4 and 9 and 25 and 49 sit below 97. The prime 11 had no say because 11 does not start crossing off until 121.
+
+The square root is also the halfway point. A prime is the prime to the power 1 and the number 1 is the prime to the power 0. The square root is the prime to the power one half and the square root times the square root gives the prime back.
+
+## How do the three levels behave as sums?
+
+- **Power 2.** The sum of one over the square of each prime settles at 0.4522.
+- **Power 1.** The sum of one over each prime grows without limit and very slowly: 2.198 for primes up to one thousand and 2.705 up to one hundred thousand and 3.041 up to ten million. Power 1 is the edge between settling and not settling.
+- **Power one half.** The sum of one over the square root of each prime grows fast: 12.7 for primes up to one thousand and 70.1 up to one hundred thousand and 461.6 up to ten million.
+
+So at the square root level the primes are too loud to add up. The plain recipe that builds the zeta function out of primes stops working there.
+
+## How does the square root level relate to the critical line?
+
+On the critical line at one half each prime enters with a size of one over the square root of the prime and with an angle. The angle is the height on the line times the natural logarithm of the prime. As the height changes each prime turns at a different speed.
+
+The sizes alone add to infinity. So the total can vanish only when the directions cancel and a zero of the zeta function is a height where the cancellation is complete.
+
+A simple test with the primes below 100000: add one over the square root of each prime times the cosine of the angle and scan the heights from 10 to 40.
+
+- The sum averaged 0.04 over those heights.
+- The lowest value was −5.27 at a height of 14.05 which is beside the first zero at 14.13.
+- At the first four zeros the sum read −4.62 and −3.14 and −3.41 and −3.46.
+
+So the primes line up against themselves most strongly near the zeros.
+
+## Why one half and not another power?
+
+Two known facts point at one half and both are forms of balance.
+
+- The zeta function has a mirror rule that trades the power s for the power 1 minus s. One half is the one power that the mirror leaves in place.
+- Each zero sends a wave through the count of primes. The loudness of the wave from a zero at one half is the square root of how far the count has gone. With every zero on the line every wave has that same loudness. A zero off the line would make one wave louder than the others and its mirror partner quieter.
+
+The belief that every zero sits on the line is unproven. One way to say the belief is that the count of primes strays from the smooth prediction by about a square root and no more. Nothing on this page is evidence for or against the belief.
+
+## How much must the number of steps grow for each extra step of drift?
+
+A walk of fair coin flips typically drifts about the square root of its length. So 3600 steps go with a typical drift of 60.
+
+- A drift of 61 goes with 3721 steps which is 121 more.
+- A drift of 62 goes with 3844 steps which is 123 more.
+- A drift of 63 goes with 3969 steps which is 125 more.
+
+The added amount is two times the current drift plus one. In relative terms the steps grow about twice as fast as the drift: a drift that rises 1.67% from 60 to 61 needs 3.36% more steps. Doubling the drift takes four times the steps.
+
+This lopsided cost is why square root wandering is tame. A drift of 60 is 1.67% of a walk of 3600 steps and a drift of 600 is 0.17% of a walk of 360000 steps. The hexagon door walk on the page [order-test-findings.md](../prime-mazes/order-test-findings.md) and its neighbors showed the same scale for whole primes: 24 steps sideways after 3600 primes. The number 60 is a typical size and not a guaranteed value.
+
+## How does this connect to food and shelter and deep human connection?
+
+These sums do not cook a meal or pay rent. The tie is that a question asked out loud in plain words led to a clear picture of a famous unsolved problem and the picture sits in public for free. A reader who wants the same picture can save the hours of searching and put those hours toward earning food or keeping a home or toward a long talk with another person about what each one carries inside.
+
+## What was not checked
+
+- No other person has rerun the program.
+- The scan near the zeros used a simple sum with a sharp cutoff at 100000. With a cutoff at ten million the same sum swings widely so the scan shows a tendency and is not a method for finding zeros.
+- The chatbot stated the mirror rule and the link between zeros and waves from memory of the standard literature.
 
 
 ---
@@ -209296,6 +209479,7 @@ Most viewed pages
 - boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py (3166 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py
 - boring-things/research-program-files/prime-richness-scripts/cycle-scripts/cycle_checks.py (2968 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/cycle_checks.py
 - boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py (2523 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py
+- boring-things/research-program-files/prime-richness-scripts/cycle-scripts/square_root_level.py (1477 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/square_root_level.py
 - boring-things/research-program-files/prime-richness-scripts/dead_bump.py (3405 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/dead_bump.py
 - boring-things/research-program-files/prime-richness-scripts/dead_bump_results.json (6583 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/dead_bump_results.json
 - boring-things/research-program-files/prime-richness-scripts/divide_table.py (748 bytes) https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/divide_table.py

@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-28",
- "file_count": 1572,
- "total_bytes": 103879811,
+ "built_on": "2026-11-27",
+ "file_count": 1574,
+ "total_bytes": 103895499,
  "files": [
   {
    "path": ".gitignore",
@@ -1486,7 +1486,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 13713,
+   "bytes": 14192,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -1495,7 +1495,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 271421,
+   "bytes": 278179,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -1725,6 +1725,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/spin-questions.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/spin-questions.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/sqrt-level-questions.md",
+   "title": "Questions about the sum over prime squares and the square root level and the critical line",
+   "bytes": 6974,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/sqrt-level-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/sqrt-level-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/strip-questions.md",
@@ -12237,6 +12246,15 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/cycle-scripts/square_root_level.py",
+   "title": "square_root_level.py",
+   "bytes": 1477,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/square_root_level.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/square_root_level.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/dead_bump.py",
