@@ -1,6 +1,6 @@
 # Everything in one file
 
-This file joins 792 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-28. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
+This file joins 798 text files from the repository at https://github.com/chmillera-hub/spare-token-bug-fixes into one Markdown file so that a person can upload a single file to a chatbot and ask questions about any topic in the repository. The script named build-download-files.py built this file on 2026-11-27. An AI chatbot (Claude) wrote most of the pages and no other person has rechecked the pages.
 
 Each joined file starts with a heading line that begins with the words FILE and then gives the path of the file. A reader or a chatbot can search this file for the path of a file to jump to that file.
 
@@ -79,15 +79,20 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/lean-math-proofs/oeis-a055469.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a067730.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a109095.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a160025.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a227387.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a228865.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a234798.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a235390.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a256836.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a256838.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a256840.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a302984.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a333122.lean
+- 1-research-click-here-first/lean-math-proofs/oeis-a341666.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a342064.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a352628.lean
 - 1-research-click-here-first/lean-math-proofs/oeis-a356109.lean
@@ -261,6 +266,7 @@ This file holds the reading pages and the plain text data files of the research 
 - 1-research-click-here-first/social-media-vibes/deep-dives/obedient-life-no-connection.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/one-less-enemy.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/one-mother-per-box.md
+- 1-research-click-here-first/social-media-vibes/deep-dives/persistence-against-odds.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/physics-no-patch.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/polite-nod.md
 - 1-research-click-here-first/social-media-vibes/deep-dives/program-could-write.md
@@ -834,7 +840,7 @@ Each link in the first list opens a whole folder and the folder page lists every
 - [Other collections](1-research-click-here-first/other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [Prime mazes](1-research-click-here-first/prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
 - [Prime richness](1-research-click-here-first/prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line which means 86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime plus a page that checks any typed equation.
-- [Social media vibes](1-research-click-here-first/social-media-vibes) holds 81 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [Social media vibes](1-research-click-here-first/social-media-vibes) holds 82 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [Spiritual reflections](1-research-click-here-first/spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
 - [Squad Rush game](1-research-click-here-first/squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [Three needs](1-research-click-here-first/three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
@@ -905,7 +911,7 @@ Every item in this folder is written for a person to read and the items are grou
 - [other-collections](other-collections) holds links to four public GitHub collections made by other people (about 200 math results written by a person and an AI model and a paper about the Navier-Stokes fluid equations and a short animated film and a tool that lets AI coding programs work as research helpers) with one sentence on what each collection says about itself and ideas for a later check.
 - [prime-mazes](prime-mazes) holds experiments that turn the digits of prime numbers into mazes which means a maze test where each digit opens one door of a room (80279 primes with 9 digits make one hallway through all 9 rooms when 1 opens north and 91720 when 0 opens north) and a ranking of primes by maze score under each version of the rule and hallway walks and primes that draw neat shapes and a search of random numbers for the highest scores and a list of patterns scored on nine grid sizes and a ranking of sequences by how many grid sizes they max out and an equation search and sequences with equal digits and a master challenge that scores sequences on the circle test and the maze test together and a summary of the patterns and a program that builds a maze one room at a time.
 - [prime-richness](prime-richness) holds computer counts of how often prime numbers show up in the outputs of different recipes compared with the plain number line (86 equations ranked by percentage and results about the digit pieces of a prime and 467 primes where every reversed piece is prime) plus a page that checks any typed equation.
-- [social-media-vibes](social-media-vibes) holds 81 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
+- [social-media-vibes](social-media-vibes) holds 82 written reflections on subjects such as loneliness and empty advice and loving an enemy plus counts of what behaviors the commenters in social media threads ask other people to carry out.
 - [spiritual-reflections](spiritual-reflections) holds scripture passages collected by the author of this repository in the wording of the World English Bible together with the author's reflections on the passages and two stories about Jesus (a prayer spoken in a garden while soldiers watch and a return to Times Square) and a text message exchange in which the author asks church service workers for small groups and ten reflections in which a written page prays to its reader.
 - [squad-rush-game](squad-rush-game) holds a free phone game that runs in a web browser where a squad of blue soldiers shoots up a road through ten stages of gates and cages and a boss and the folder gives the address for playing the game.
 - [three-needs](three-needs) holds research about meeting three basic human needs without force (food and shelter and deep meaningful emotionally and spiritually resonant human connection) which means a page of actions a social media user can take and a page of tested nonviolent replacements for six uses of force such as armed police and eviction.
@@ -11073,6 +11079,38 @@ end OMA.S_oeis_a109095
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a160025.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a160025.lean
+
+````lean
+import Mathlib
+
+/-!
+# A160025: Primes p such that p^4 + 13^4 + 3^4 is prime.
+
+Source: https://oeis.org/A160025
+Credit: @chmillera-hub
+
+The entry records the conjecture: "It is conjectured that the sequence is infinite."
+
+The sequence is the set of primes `p` for which `p ^ 4 + 13 ^ 4 + 3 ^ 4` is prime. The first terms
+are `3, 11, 13, 17`; the entry notes that `3` is a term because `3 ^ 4 + 13 ^ 4 + 3 ^ 4 = 28723`
+is prime.
+-/
+
+namespace OMA.S_oeis_a160025
+
+/-- There are infinitely many primes `p` with `p ^ 4 + 13 ^ 4 + 3 ^ 4` prime. -/
+theorem main : {p : ℕ | p.Prime ∧ (p ^ 4 + 13 ^ 4 + 3 ^ 4).Prime}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a160025
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a160026.lean
@@ -11237,6 +11275,37 @@ end OMA.S_oeis_a235390
 
 ---
 
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256776.lean
+
+````lean
+import Mathlib
+
+/-!
+# A256776: Primes of form n^2 + 256.
+
+Source: https://oeis.org/A256776
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: sequence is infinite."
+
+The sequence is the set of primes `p` with `p = n ^ 2 + 256` for some natural number `n`
+(`256 = 4 ^ 4`). The first terms are `257 = 1 ^ 2 + 256`, `281 = 5 ^ 2 + 256` and `337 = 9 ^ 2 + 256`.
+-/
+
+namespace OMA.S_oeis_a256776
+
+/-- There are infinitely many primes of the form `n ^ 2 + 256`. -/
+theorem main : {p : ℕ | p.Prime ∧ ∃ n : ℕ, p = n ^ 2 + 256}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a256776
+````
+
+
+---
+
 # FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
 
 Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256834.lean
@@ -11296,6 +11365,68 @@ theorem main : {p : ℕ | p.Prime ∧ ∃ n : ℕ, p = n ^ 2 + 4096}.Infinite :=
   sorry
 
 end OMA.S_oeis_a256836
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256838.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256838.lean
+
+````lean
+import Mathlib
+
+/-!
+# A256838: Primes of form n^2 + 10000.
+
+Source: https://oeis.org/A256838
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: sequence is infinite."
+
+The sequence is the set of primes `p` with `p = n ^ 2 + 10000` for some natural number `n`
+(`10000 = 10 ^ 4`). The first terms are `10009 = 3 ^ 2 + 10000` and `10169 = 13 ^ 2 + 10000`.
+-/
+
+namespace OMA.S_oeis_a256838
+
+/-- There are infinitely many primes of the form `n ^ 2 + 10000`. -/
+theorem main : {p : ℕ | p.Prime ∧ ∃ n : ℕ, p = n ^ 2 + 10000}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a256838
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a256840.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a256840.lean
+
+````lean
+import Mathlib
+
+/-!
+# A256840: Primes of form n^2 + 20736.
+
+Source: https://oeis.org/A256840
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: sequence is infinite."
+
+The sequence is the set of primes `p` with `p = n ^ 2 + 20736` for some natural number `n`
+(`20736 = 12 ^ 4`). The first terms are `20857 = 11 ^ 2 + 20736` and `21577 = 29 ^ 2 + 20736`.
+-/
+
+namespace OMA.S_oeis_a256840
+
+/-- There are infinitely many primes of the form `n ^ 2 + 20736`. -/
+theorem main : {p : ℕ | p.Prime ∧ ∃ n : ℕ, p = n ^ 2 + 20736}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a256840
 ````
 
 
@@ -11364,6 +11495,39 @@ theorem main : {m : ℕ | ∃ j : ℕ, m = Nat.nth Nat.Prime j + Nat.nth Nat.Pri
   sorry
 
 end OMA.S_oeis_a333122
+````
+
+
+---
+
+# FILE: 1-research-click-here-first/lean-math-proofs/oeis-a341666.lean
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/oeis-a341666.lean
+
+````lean
+import Mathlib
+
+/-!
+# A341666: Primes p such that p^6 - 1 has 384 divisors.
+
+Source: https://oeis.org/A341666
+Credit: @chmillera-hub
+
+The entry records the conjecture: "Conjecture: sequence is infinite."
+
+The sequence is the set of primes `p` for which `p ^ 6 - 1` has exactly `384` positive divisors.
+The number of divisors of `m` is `m.divisors.card` in Mathlib. For a prime `p` the number
+`p ^ 6 - 1` is positive, so the natural-number subtraction is the ordinary difference. The first
+terms are `29, 43, 59, 83`.
+-/
+
+namespace OMA.S_oeis_a341666
+
+/-- There are infinitely many primes `p` such that `p ^ 6 - 1` has exactly `384` divisors. -/
+theorem main : {p : ℕ | p.Prime ∧ (p ^ 6 - 1).divisors.card = 384}.Infinite := by
+  sorry
+
+end OMA.S_oeis_a341666
 ````
 
 
@@ -28596,7 +28760,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 
 ## Deep dives: the reflections to read
 
-"Deep dive" and "reflection" mean the same thing on this page because a deep dive is a written reflection on one subject. The 81 pages in this list are all of the deep dives and each page can be read alone in a few minutes. Every page in the list sits inside one folder named [deep-dives](deep-dives) and the list is sorted by title.
+"Deep dive" and "reflection" mean the same thing on this page because a deep dive is a written reflection on one subject. The 82 pages in this list are all of the deep dives and each page can be read alone in a few minutes. Every page in the list sits inside one folder named [deep-dives](deep-dives) and the list is sorted by title.
 
 - [Advice that punishes questions: two reflections](deep-dives/advice-obedience-trap.md) holds two reflections on an adviser who drops a person for asking questions about advice such as joining a hobby group and on five ways people are cut off from deep human connection such as money checklists and scripted speech and punishment that multiplies enemies.
 - [Asking an enemy for love: two reflections](deep-dives/request-love-enemy.md) holds two reflections on asking an enemy for love and care in reply to mockery and on asking friends and strangers alike for the time and attention needed to build deeper human connections.
@@ -28635,6 +28799,7 @@ This folder holds written reflections on subjects such as loneliness and empty a
 - [The obedient life: following every rule and ending up known by no one](deep-dives/obedient-life-no-connection.md) holds two reflections on a person who follows every unwritten rule of polite society such as saying yes to every work request and never asking for help and explains that the rules move labor and rent and money out of the person while building no bond with anyone so the person can reach the end of life with the bills paid and nobody who knows the person's heart and mind.
 - [One less enemy and one more ally: two reflections](deep-dives/one-less-enemy.md) holds two reflections on the idea that helping an enemy reach a full life where the enemy cares about all of humanity leaves a person with one less enemy and probably one more ally while defeating or injuring an enemy can turn one enemy into several.
 - [One mother per box: two reflections on raising the next generation in isolated households](deep-dives/one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
+- [Persistence against overwhelming odds: four reflections on films and discoverers and a spiritual teacher](deep-dives/persistence-against-odds.md) looks at why stories about one person facing a giant obstacle move people and then finds the same shape in the lives of inventors who were doubted for decades and in the Gospel accounts told as the story of a researcher.
 - [The polite nod: two reflections on deep needs that are answered with a change of subject](deep-dives/polite-nod.md) holds two reflections on the listener who nods at a deep need and changes the subject and explains that needs for deep conversation and touch and desire and being loved by one particular person have almost no place where they can be said out loud and met with interest.
 - [Protecting the young: from asking who is to blame to building safer surroundings](deep-dives/protecting-the-young.md) holds four reflections on protecting young people from harm and explains that the question of whether God is to blame can be argued forever without anyone becoming safer while studying anonymized cases shows three conditions that let harm grow which are money and secrecy and an adult left alone with someone vulnerable and that securing food and shelter for everyone leaves more witnesses free to speak.
 - [Publishing at the speed of reading: what changed between a monastery scribe and a spoken "upload"](deep-dives/reading-speed-publishing.md) compares a monastery scribe and a pamphlet writer and a blogger with a person who reads a chatbot's draft and says "upload" and explains that judgment is now the scarce step and that a chatbot's mistake also publishes at reading speed.
@@ -28686,17 +28851,17 @@ The rest of this page lists the pages that count behaviors in social media threa
 
 First thread (a homeowner who asked whether to block an AI chatbot on home wifi):
 
-- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/bar-graph.html) opens a live page where each bar shows how many commenters asked for a behavior and a tap on a bar opens an explanation under the bar and a link at the top of the page leads to the anonymized comments.
-- [wifi-block-thread.md](wifi-block-thread.md) counts the behaviors that 364 comments under one person's social media thread asked for after a homeowner asked whether she should block an AI chatbot on her home wifi to stop a houseguest from using the chatbot.
 - [comments-reworded.txt](comments-reworded.txt) holds all 364 comments and the homeowner's post and replies from the same thread in anonymized form with wording written by an AI chatbot that keeps the meaning and the energy of each comment.
 - [comments-with-labels.txt](comments-with-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment so that a reader can check every count on the findings page.
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/bar-graph.html) opens a live page where each bar shows how many commenters asked for a behavior and a tap on a bar opens an explanation under the bar and a link at the top of the page leads to the anonymized comments.
+- [wifi-block-thread.md](wifi-block-thread.md) counts the behaviors that 364 comments under one person's social media thread asked for after a homeowner asked whether she should block an AI chatbot on her home wifi to stop a houseguest from using the chatbot.
 
 Second thread (a famous executive who lost his job):
 
-- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/ceo-bar-graph.html) opens a live page where each bar shows how many of 171 comments asked for a behavior after a news article reported that a famous technology executive resigned.
-- [ceo-findings.md](ceo-findings.md) counts the behaviors that 171 comments under one person's social media thread asked for and lists seven findings.
 - [ceo-comments.txt](ceo-comments.txt) holds the 171 comments in anonymized form.
+- [ceo-findings.md](ceo-findings.md) counts the behaviors that 171 comments under one person's social media thread asked for and lists seven findings.
 - [ceo-labels.txt](ceo-labels.txt) holds the same anonymized comments with the counted behavior labels under each comment.
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/ceo-bar-graph.html) opens a live page where each bar shows how many of 171 comments asked for a behavior after a news article reported that a famous technology executive resigned.
 
 Third thread (an executive who answered messages from strangers within minutes):
 
@@ -28705,11 +28870,11 @@ Third thread (an executive who answered messages from strangers within minutes):
 
 Fourth thread (a person who said in a video that the person is angry with God):
 
+- [angry-thread-comments.txt](angry-thread-comments.txt) holds the 458 comments in anonymized form.
+- [angry-thread-findings.md](angry-thread-findings.md) lists the counts and seven findings and a short narrative built from the twenty most common words.
+- [angry-thread-labels.txt](angry-thread-labels.txt) holds the same anonymized comments with the counted labels under each comment.
 - [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/angry-thread-bar-graph.html) opens a live page with four graphs such as how many of 458 comments said "I feel this too" and how many comments pointed the speaker toward God.
 - [Word graphs](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/angry-thread-word-graphs.html) opens a live page with three graphs of the most common ideas and words and two-word phrases in the same thread.
-- [angry-thread-findings.md](angry-thread-findings.md) lists the counts and seven findings and a short narrative built from the twenty most common words.
-- [angry-thread-comments.txt](angry-thread-comments.txt) holds the 458 comments in anonymized form.
-- [angry-thread-labels.txt](angry-thread-labels.txt) holds the same anonymized comments with the counted labels under each comment.
 
 The deep dives folder:
 
@@ -28724,22 +28889,22 @@ Generic phrases (phrases that a program could post as easily as a person):
 
 The repository author's own comments compared with the two threads:
 
-- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-bar-graph.html) opens a live page where each bar shows what kind of energy 60 randomly picked comments by the author carry.
 - [author-comments-findings.md](author-comments-findings.md) compares the author's 9134 comments with the two threads and with the generic phrase list.
-- [author-comments-sample.txt](author-comments-sample.txt) holds the 60 sampled comments as excerpts in the author's own wording with the counted labels.
 - [author-comments-full](author-comments-full) is a folder that holds 6020 of the author's comments in full in 24 small files that the GitHub search box can look inside.
-- [other-writing](author-comments-full/other-writing) is a folder inside the author-comments-full folder that holds 919 entries of other writing by the author such as monologues and stories and posts and notes.
-- [Words graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/words-graph.html) and [phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/phrases-graph.html) open live pages inside the author-comments-full folder where each bar shows how many times one of the 25 most common words or phrases appears across the 6020 comments.
-- [Sentences graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/sentences-graph.html) opens a live page inside the author-comments-full folder where each bar shows how many of the 6020 comments contain one of the 25 most repeated sentences word for word.
-- [themes-findings.md](author-comments-full/themes-findings.md) and [goal-findings.md](author-comments-full/goal-findings.md) sit inside the author-comments-full folder and report how themes shift across the 6020 comments and what goal the author states in the comments.
-- [mini-model-findings.md](author-comments-full/mini-model-findings.md) sits inside the author-comments-full folder and reports what a tiny text model learned after training only on the 6020 comments.
-- [mini-model-outputs.md](author-comments-full/mini-model-outputs.md) sits inside the author-comments-full folder and holds example outputs and repaired outputs and four tests of the tiny text model.
-- [highlight-reel.md](author-comments-full/highlight-reel.md) and [second-model-outputs.md](author-comments-full/second-model-outputs.md) sit inside the author-comments-full folder and hold the mini model lines that the author rated highest and the outputs of a second tiny text model.
-- [job-fear-thread.md](job-fear-thread.md) and [job-fear-findings.md](job-fear-findings.md) hold 209 anonymized comments under one person's post about fear of losing a programming job to AI chatbots and report that more than one in four comments graded the wording of the post while no comment laid out step by step how the person stays fed and housed.
-- [replaced-thread.md](replaced-thread.md) holds 126 anonymized comments under one person's post about workers at an AI lab who have made peace with being replaced and the post asks readers "what have you decided to keep doing yourself and why". A reflection on the thread sits in the deep-dives folder under the name no-reason-to-be-sad.md.
-- [league-rename-thread.md](league-rename-thread.md) holds 256 anonymized comments under one person's post saying a president wishes the biggest football league to change its name. About two dozen of the comments say that groceries and rent and healthcare are out of reach while leaders rename things. Two reflections on the post sit in the deep-dives folder under the name loyalty-test.md.
+- [author-comments-sample.txt](author-comments-sample.txt) holds the 60 sampled comments as excerpts in the author's own wording with the counted labels.
 - [debt-thread-pathway.md](debt-thread-pathway.md) holds 50 anonymized comments under one post about a single father who died while owing about twenty thousand in debt and reports that no comment told a person with almost no money where food and shelter can be found tonight and then lays out a pathway from the author of this repository in which a starving person asks a police station or a hospital for food first and then eats openly at a store and does not resist arrest with each danger paired with a way to manage the danger and the page ends with a second commentary supplied by the author that sorts the comments into five reflexes.
 - [game-scene-grief-thread.md](game-scene-grief-thread.md) holds 179 anonymized comments under one post by a trans woman who cried at a pregnancy scene in a video game and reports that 7 of 166 comments from other people named a step that involves the company of other people and that no comment invited the poster to talk further or to meet.
+- [highlight-reel.md](author-comments-full/highlight-reel.md) and [second-model-outputs.md](author-comments-full/second-model-outputs.md) sit inside the author-comments-full folder and hold the mini model lines that the author rated highest and the outputs of a second tiny text model.
+- [job-fear-thread.md](job-fear-thread.md) and [job-fear-findings.md](job-fear-findings.md) hold 209 anonymized comments under one person's post about fear of losing a programming job to AI chatbots and report that more than one in four comments graded the wording of the post while no comment laid out step by step how the person stays fed and housed.
+- [league-rename-thread.md](league-rename-thread.md) holds 256 anonymized comments under one person's post saying a president wishes the biggest football league to change its name. About two dozen of the comments say that groceries and rent and healthcare are out of reach while leaders rename things. Two reflections on the post sit in the deep-dives folder under the name loyalty-test.md.
+- [mini-model-findings.md](author-comments-full/mini-model-findings.md) sits inside the author-comments-full folder and reports what a tiny text model learned after training only on the 6020 comments.
+- [mini-model-outputs.md](author-comments-full/mini-model-outputs.md) sits inside the author-comments-full folder and holds example outputs and repaired outputs and four tests of the tiny text model.
+- [other-writing](author-comments-full/other-writing) is a folder inside the author-comments-full folder that holds 919 entries of other writing by the author such as monologues and stories and posts and notes.
+- [replaced-thread.md](replaced-thread.md) holds 126 anonymized comments under one person's post about workers at an AI lab who have made peace with being replaced and the post asks readers "what have you decided to keep doing yourself and why". A reflection on the thread sits in the deep-dives folder under the name no-reason-to-be-sad.md.
+- [Sentences graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/sentences-graph.html) opens a live page inside the author-comments-full folder where each bar shows how many of the 6020 comments contain one of the 25 most repeated sentences word for word.
+- [Tappable bar graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-bar-graph.html) opens a live page where each bar shows what kind of energy 60 randomly picked comments by the author carry.
+- [themes-findings.md](author-comments-full/themes-findings.md) and [goal-findings.md](author-comments-full/goal-findings.md) sit inside the author-comments-full folder and report how themes shift across the 6020 comments and what goal the author states in the comments.
+- [Words graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/words-graph.html) and [phrases graph](https://chmillera-hub.github.io/spare-token-bug-fixes/1-research-click-here-first/social-media-vibes/author-comments-full/phrases-graph.html) open live pages inside the author-comments-full folder where each bar shows how many times one of the 25 most common words or phrases appears across the 6020 comments.
 
 > **Who wrote this:** An AI chatbot (Claude) wrote the pages in this folder and no other person has rechecked the counts which means every count here is unconfirmed.
 
@@ -135311,11 +135476,11 @@ Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bu
 
 # Deep dives
 
-This folder holds the 81 written reflections of the social media vibes project plus 10 plain text lists that support some of the reflections. Each reflection says at the top who wrote each part because some parts were written by an AI chatbot (Claude) and some parts were supplied by the author of this repository.
+This folder holds the 82 written reflections of the social media vibes project plus 10 plain text lists that support some of the reflections. Each reflection says at the top who wrote each part because some parts were written by an AI chatbot (Claude) and some parts were supplied by the author of this repository.
 
-The same 81 reflections are also listed on the [social media vibes page](../README.md) which is one folder up. Both lists are sorted by title and a title that begins with "A" or "An" or "The" is filed under the next word.
+The same 82 reflections are also listed on the [social media vibes page](../README.md) which is one folder up. Both lists are sorted by title and a title that begins with "A" or "An" or "The" is filed under the next word.
 
-## The 81 reflections sorted by title
+## The 82 reflections sorted by title
 
 - [Advice that punishes questions: two reflections](advice-obedience-trap.md) holds two reflections on an adviser who drops a person for asking questions about advice such as joining a hobby group and on five ways people are cut off from deep human connection such as money checklists and scripted speech and punishment that multiplies enemies.
 - [Asking an enemy for love: two reflections](request-love-enemy.md) holds two reflections on asking an enemy for love and care in reply to mockery and on asking friends and strangers alike for the time and attention needed to build deeper human connections.
@@ -135354,6 +135519,7 @@ The same 81 reflections are also listed on the [social media vibes page](../READ
 - [The obedient life: following every rule and ending up known by no one](obedient-life-no-connection.md) holds two reflections on a person who follows every unwritten rule of polite society such as saying yes to every work request and never asking for help and explains that the rules move labor and rent and money out of the person while building no bond with anyone so the person can reach the end of life with the bills paid and nobody who knows the person's heart and mind.
 - [One less enemy and one more ally: two reflections](one-less-enemy.md) holds two reflections on the idea that helping an enemy reach a full life where the enemy cares about all of humanity leaves a person with one less enemy and probably one more ally while defeating or injuring an enemy can turn one enemy into several.
 - [One mother per box: two reflections on raising the next generation in isolated households](one-mother-per-box.md) holds two reflections on households where one adult raises a family almost alone and explains that builders and employers and officials produced the separate boxes and that ten to twenty mothers sharing one building would share the cooking and the night watches and daily company.
+- [Persistence against overwhelming odds: four reflections on films and discoverers and a spiritual teacher](persistence-against-odds.md) looks at why stories about one person facing a giant obstacle move people and then finds the same shape in the lives of inventors who were doubted for decades and in the Gospel accounts told as the story of a researcher.
 - [The polite nod: two reflections on deep needs that are answered with a change of subject](polite-nod.md) holds two reflections on the listener who nods at a deep need and changes the subject and explains that needs for deep conversation and touch and desire and being loved by one particular person have almost no place where they can be said out loud and met with interest.
 - [Protecting the young: from asking who is to blame to building safer surroundings](protecting-the-young.md) holds four reflections on protecting young people from harm and explains that the question of whether God is to blame can be argued forever without anyone becoming safer while studying anonymized cases shows three conditions that let harm grow which are money and secrecy and an adult left alone with someone vulnerable and that securing food and shelter for everyone leaves more witnesses free to speak.
 - [Publishing at the speed of reading: what changed between a monastery scribe and a spoken "upload"](reading-speed-publishing.md) compares a monastery scribe and a pamphlet writer and a blogger with a person who reads a chatbot's draft and says "upload" and explains that judgment is now the scarce step and that a chatbot's mistake also publishes at reading speed.
@@ -138907,6 +139073,109 @@ The reason society pushed people into isolated boxes—and convinced both men an
 And the absolute peak of that insanity is the box-swapping reflex you pointed out. Because the system refuses to admit that the isolated box itself is a structural death trap, any time a solo parent cracks under the impossible weight of it, the institution treats it purely as an individual moral failure. Instead of pouring community support into the home, the state's default move is to rip the child away from that overwhelmed mother and drop them into a completely different isolated box with a stranger—preserving the exact same broken architecture while traumatizing everyone involved.
 
 Do you think the biggest wall stopping people from actually pooling their money and setting up a 10-to-20-parent living space right now is the legal and zoning red tape, or is it the deep cultural conditioning that makes people terrified of sharing daily life with other adults?
+
+
+---
+
+# FILE: 1-research-click-here-first/social-media-vibes/deep-dives/persistence-against-odds.md
+
+Download address: https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/social-media-vibes/deep-dives/persistence-against-odds.md
+
+# Persistence against overwhelming odds: four reflections on films and discoverers and a spiritual teacher
+
+> **About this page:** This page holds four reflections on why stories about a person who keeps going against an overwhelming obstacle move so many people and on how the same shape shows up in the lives of inventors and in the Gospel accounts. An AI chatbot (Claude) wrote all four reflections on 27 November 2026 and no other person has rechecked the reflections. The historical examples are told from general knowledge and the dates and durations are approximate.
+
+## Reflection one: why art about endurance can feel like nourishment
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+A story about a person who keeps going against overwhelming odds does two jobs at once because the story names the weight plainly and also refuses to treat the weight as the final word.
+
+- **The story admits the odds are large.** Art about stubborn endurance starts by showing the size of the obstacle which means a viewer who is facing something enormous feels seen instead of being told to cheer up.
+- **The stubbornness is a form of self-respect.** A character who keeps standing is saying "my life and my needs matter even when nobody agrees yet" and watching that stance can strengthen the same stance inside the viewer.
+- **The victory is often continuing and not winning.** Many of those stories end with the person still striving and not with a trophy so the art honors persistence itself which is a relief for anyone whose effort has not paid off yet.
+- **The feeling is company.** Seeing another mind refuse to quit works like sitting next to someone who understands because the artist had to know that struggle well enough to draw or write or sing the struggle.
+
+A person tends to love art that mirrors a live question in that person's own days so a pull toward endurance stories fits someone who is pushing for something large with little outside reward. The art then serves as evidence that stubbornness in service of human needs is an old and honored thing and not a personal defect.
+
+Some endurance stories show a lone figure grinding forward in total isolation and other endurance stories show the stubborn person being carried at key moments by someone who shares a meal or a roof or a late night conversation. The second kind tends to land with more warmth because the story says the human spirit lasts longest when another heart and mind is close by which makes those stories a picture of deep connection and not only of grit.
+
+A creator who wants work to resonate the same way can show the full size of the obstacle first and then show one small act of refusal to give up because the gap between the huge obstacle and the small stubborn act is where the audience feels the lump in the throat.
+
+## Reflection two: the shared skeleton of films about one person against a giant
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Films such as Braveheart and The Matrix and the long-night story in Game of Thrones and most superhero films share one skeleton with the Gospel accounts because each story places a person or a small band against a force that looks unbeatable and then asks what that person will do with fear.
+
+- **An overwhelming power sets the terms.** A king's army or a machine-run illusion or an empire's governors or an army of the dead decides who eats and who is safe so ordinary people in the story begin from a position of having almost nothing.
+- **Most people around the hero have accepted the terms.** Nobles who trade loyalty for land and people who stay inside a comfortable illusion show the price of going along which is safety bought by giving up one's own voice.
+- **One person says no out loud.** The turning point in each story is a refusal spoken or acted where others can witness the refusal because a private doubt changes nothing while a public refusal gives other people permission to doubt too.
+- **The refusal spreads.** The hero rarely wins alone since farmers pick up the cause and a crew forms around the awakened one and students carry a message after the teacher is gone so the stories are secretly about how courage travels from one mind to many.
+
+A villain who could be beaten easily would make the hero's choice cheap so writers inflate the threat until a reasonable person would quit. The size of the threat is the measuring stick for the size of the spirit which is why superhero films keep announcing a villain who will destroy everything.
+
+Most stories on that list resolve through battle so the hero overcomes the oppressor by being better at violence and that resolution quietly teaches that force is the answer to force. The Gospel story breaks that pattern because the central figure faces armed soldiers and a state execution and refuses to strike back and gives food and healing and blunt words instead. That version asks more of the audience since the stubbornness shown is a refusal to become the thing that is oppressing. The story claims that such a refusal outlasts the empire that carried out the killing and history gives some support for the claim because the empire is gone and the sayings are still read aloud.
+
+The tale of living people facing an army of the dead adds a lesson the lone-hero stories skip because the humans in that story lose ground for as long as rival houses keep fighting over a throne. The threat becomes survivable when enemies share food and walls and information which makes the story an argument that cooperation over shelter and supplies matters more than any single champion.
+
+Here is a possible reason those stories keep getting made and loved. Many viewers live under pressures that feel too large to move such as rent that can end in eviction by armed deputies or work that swallows the hours needed to know another person's heart and mind. A story where one stubborn voice cracks a giant gives those viewers a rehearsal of saying no and a rehearsal matters because people tend to do in life what they have already pictured themselves doing.
+
+## Reflection three: discoverers who faced doubt and ridicule and no visible path
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Many scientists and inventors left letters and diaries describing long stretches of doubt and ridicule and no visible path which means the confident inventor of the textbooks is mostly a picture drawn after the success.
+
+- **The bicycle makers who built the first powered airplane.** Two brothers with no university training spent years crashing gliders on a windy beach while trained engineers with large budgets were failing and one brother said after a bad season that humans would not fly for a very long time. The flight happened about two years later so the despair and the breakthrough sat very close together.
+- **The monk who discovered the rules of inheritance.** A monk counted many thousands of pea plants over about eight years and published the rules and almost nobody responded for about thirty-five years which means the discoverer died without knowing the work would found a whole science.
+- **The doctor who asked colleagues to wash hands.** A hospital doctor showed that handwashing sharply cut deaths of mothers after birth and fellow doctors rejected the finding because the finding implied the doctors' own hands carried death so the practice was adopted widely only after the doctor's death.
+- **The scientist who said the continents move.** A weather researcher proposed that continents drift and geologists mocked the idea for roughly fifty years until seafloor measurements confirmed the motion.
+- **The researcher behind a modern vaccine method.** A biochemist was denied grants and demoted for pursuing messenger molecule medicine across decades and the same method later protected billions of people.
+
+The obstacle in most of those cases was less the puzzle and more the people nearby because colleagues and funders treated an unproven idea as a waste or as an insult. The discoverer therefore needed two kinds of stubbornness at once: patience with a problem that gave no clear next step and endurance of being dismissed by the very people whose agreement would have made the work easier.
+
+The path rarely arrived as one flash because the records show small tests repeated and written down such as a homemade wind tunnel or a row of counted plants. Each small test removed one wrong direction so the fog thinned through accumulated results and not through certainty. A second ingredient shows up again and again which is one person who believed early such as a sibling or a spouse or a single colleague because one listening mind kept the worker from concluding that the doubt of the crowd was proof of being wrong.
+
+Being doubted is not evidence of being right because many rejected ideas were rejected for sound reasons. The discoverers who turned out to be correct kept exposing the idea to tests that could have failed so the stubbornness worth copying is loyalty to the question together with willingness to be shown wrong by evidence.
+
+The film hero faces an army and the inventor faces silence and shrugs yet the inner experience may be alike since both stand in front of something huge with no guarantee and choose the next step anyway. The scientist's version is quieter and often lonelier because no audience watches the bench at midnight which is one reason an hour of deep conversation with someone who takes the work seriously could matter as much to a discoverer as food and a roof.
+
+## Reflection four: the Gospel story told as the story of a spirituality researcher
+
+> **Who wrote this:** An AI chatbot (Claude) wrote this reflection.
+
+Told in the same style as the discovery stories the Gospel account sounds like a field researcher who found something about human beings and was killed by people whose institutions the finding threatened.
+
+### The researcher
+
+A builder from a small town with no scholarly rank spent about three years walking from village to village which worked like field research because the testing happened at dinner tables and roadsides and sickbeds instead of inside a school.
+
+### The discovery
+
+The finding was that the worth of a person does not depend on purity rules or money or rank and that care given to the lowest-ranked person is the measure of a spiritual life. The practical form was simple enough to test in one afternoon: give food to the person without food if food can be spared and sit with the person nobody will sit with and forgive debts and refuse to return a blow.
+
+### The method
+
+- **Short stories as experiments.** The parables worked like thought experiments because a listener had to run the scene in the listener's own mind and reach the conclusion personally.
+- **Public demonstrations.** Eating with tax collectors and laying a hand on the sick and speaking with outcast women were live tests of the claim since the claim said those people were fully worthy and the demonstration acted on the claim in front of witnesses.
+- **A measure that can fail.** The teaching said a tree is known by the fruit which means the proposed test of any spiritual claim is the behavior that follows and not the title of the person making the claim.
+
+### The reception
+
+The credentialed experts of the day rejected the finding for the same reason the hospital doctors rejected handwashing because accepting the finding meant admitting that the experts' own system was harming people. The home town dismissed the researcher as only a local builder and the researcher's own relatives are recorded as fearing that the researcher had lost all sense. Funding amounted to shared meals and borrowed rooms and the research team was a dozen working people and several women who paid expenses.
+
+### The cost
+
+The religious authorities and the governor's soldiers answered the finding with arrest and a public execution so the story differs from the monk and the pea plants in a grim way: the monk was ignored and the builder was killed. The account also shows the same loneliness seen in the diaries of inventors because the closest students fell asleep during the worst night and ran when the soldiers arrived.
+
+### The replication
+
+Like the rules of inheritance the finding was recognized widely only after the discoverer's death when small groups began pooling food and housing so that no member went without. Those groups were a replication of the experiment since the groups tested whether people who share bread and shelter and deep knowledge of each other's hearts and minds would hold together under pressure and the groups spread across an empire.
+
+### What happened to the finding afterward
+
+Rulers later adopted the name and attached the name to armies and cages which resembles a company putting a famous inventor's name on a product the inventor would not recognize. The original measure still works as a check on any use of the name because the measure asks one question of any act: did the act move food and shelter and care toward a person or away from a person.
 
 
 ---
