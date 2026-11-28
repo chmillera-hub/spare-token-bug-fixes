@@ -5,7 +5,7 @@
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-28",
  "file_count": 1575,
- "total_bytes": 103910089,
+ "total_bytes": 103910406,
  "files": [
   {
    "path": ".gitignore",
@@ -712,7 +712,7 @@
   {
    "path": "1-research-click-here-first/lean-math-proofs/README.md",
    "title": "Lean math proofs",
-   "bytes": 23051,
+   "bytes": 23368,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/lean-math-proofs/README.md",
