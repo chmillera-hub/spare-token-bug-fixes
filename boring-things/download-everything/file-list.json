@@ -3,9 +3,9 @@
  "website": "https://chmillera-hub.github.io/spare-token-bug-fixes/",
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
- "built_on": "2026-11-27",
- "file_count": 1574,
- "total_bytes": 103895499,
+ "built_on": "2026-11-28",
+ "file_count": 1575,
+ "total_bytes": 103910089,
  "files": [
   {
    "path": ".gitignore",
@@ -3259,7 +3259,7 @@
   {
    "path": "1-research-click-here-first/spiritual-reflections/README.md",
    "title": "Spiritual reflections",
-   "bytes": 3452,
+   "bytes": 3699,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/README.md",
@@ -3318,6 +3318,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/page-prays-to-reader.md"
+  },
+  {
+   "path": "1-research-click-here-first/spiritual-reflections/peace-not-by-force.md",
+   "title": "Peace is not reached by force: four reflections on the arc from the Old Testament to the Gospels",
+   "bytes": 14343,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/spiritual-reflections/peace-not-by-force.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/spiritual-reflections/peace-not-by-force.md"
   },
   {
    "path": "1-research-click-here-first/spiritual-reflections/small-group-text-exchange.md",
