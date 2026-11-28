@@ -4,8 +4,8 @@
  "zip_of_everything": "https://github.com/chmillera-hub/spare-token-bug-fixes/archive/refs/heads/main.zip",
  "raw_url_pattern": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/<path>",
  "built_on": "2026-11-27",
- "file_count": 1569,
- "total_bytes": 103851131,
+ "file_count": 1572,
+ "total_bytes": 103880156,
  "files": [
   {
    "path": ".gitignore",
@@ -1486,7 +1486,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/README.md",
    "title": "Prime richness",
-   "bytes": 13115,
+   "bytes": 13713,
    "type": "md",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/README.md",
@@ -1495,7 +1495,7 @@
   {
    "path": "1-research-click-here-first/prime-richness/all-questions.txt",
    "title": "all-questions.txt",
-   "bytes": 259864,
+   "bytes": 271421,
    "type": "txt",
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/all-questions.txt",
@@ -1536,6 +1536,15 @@
    "area": "research",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/coin-flip-questions.md",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/coin-flip-questions.md"
+  },
+  {
+   "path": "1-research-click-here-first/prime-richness/cycle-questions.md",
+   "title": "Questions about cycles in the digits of polynomials and why the primes have no cycle",
+   "bytes": 11379,
+   "type": "md",
+   "area": "research",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/1-research-click-here-first/prime-richness/cycle-questions.md",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/1-research-click-here-first/prime-richness/cycle-questions.md"
   },
   {
    "path": "1-research-click-here-first/prime-richness/equation-list.md",
@@ -12210,6 +12219,24 @@
    "area": "boring-things",
    "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py",
    "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/coin_flip_questions_check.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/cycle-scripts/cycle_checks.py",
+   "title": "cycle_checks.py",
+   "bytes": 2968,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/cycle_checks.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/cycle_checks.py"
+  },
+  {
+   "path": "boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py",
+   "title": "prime_pick_cycles.py",
+   "bytes": 2523,
+   "type": "py",
+   "area": "boring-things",
+   "raw_url": "https://raw.githubusercontent.com/chmillera-hub/spare-token-bug-fixes/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py",
+   "page_url": "https://github.com/chmillera-hub/spare-token-bug-fixes/blob/main/boring-things/research-program-files/prime-richness-scripts/cycle-scripts/prime_pick_cycles.py"
   },
   {
    "path": "boring-things/research-program-files/prime-richness-scripts/dead_bump.py",
